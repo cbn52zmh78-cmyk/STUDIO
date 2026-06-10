@@ -1,0 +1,1 @@
+"""STUDIO - Cinematic techniques, prompting research, and visual references."""
