@@ -1,0 +1,1 @@
+"""Visual reference management utilities."""
