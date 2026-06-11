@@ -1,28 +1,7 @@
 [project]
-name = "studio"
-version = "0.2.0"
-description = "Professional cinematic techniques library, prompting engine, and visual reference system for STUDIO production"
-readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "pyyaml",
-    "pydantic",
-    "rich",
-]
+name = "studio-cinematic"
+version = "0.1.0"
+dependencies = ["numpy", "pillow"]
 
-[project.optional-dependencies]
-dev = [
-    "ruff",
-    "mypy",
-    "pytest",
-]
-
-[project.scripts]
-studio = "studio.cli:main"
-
-[tool.ruff]
-line-length = 100
-
-[tool.mypy]
-python_version = "3.11"
-strict = true
+[tool.setuptools.packages.find]
+where = ["."]
