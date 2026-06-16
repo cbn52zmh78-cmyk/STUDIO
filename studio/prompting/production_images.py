@@ -29,7 +29,7 @@ CASTING_STANCE = (
     "Standing upright, arms at their sides, hands free of any objects."
 )
 
-CASTING_SHOT_OPENER = "GENERATE 3D renders of back, side and front profiles of"
+CASTING_SHOT_OPENER = "GENERATE 3D MODEL of back, side and front profiles of"
 
 CASTING_SHOT_FRAMING_TAIL = (
     "Single 16:9 turnaround reference sheet on solid pure white background. "
@@ -43,7 +43,7 @@ CASTING_SHOT_FRAMING_TAIL = (
     "Standing upright, arms at their sides, hands free of any objects. "
     "Same person, identical proportions, hairstyle, and wardrobe in all three panels. "
     "Even soft studio lighting, full-length body illumination. "
-    "Hyper-realistic photoreal 3D character reference render. No text, no labels, no props."
+    "Hyper-realistic photoreal 3D character reference model. No text, no labels, no props."
 )
 
 # Casting / profile shots always use CASTING_STANCE in every view.

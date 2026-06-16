@@ -169,7 +169,7 @@ def build_markdown(actor: ActorProfile) -> str:
 
 ## Casting Shot Prompt (Standard Template)
 
-3D render turnaround · back / side / front profiles · **FULL-LENGTH WIDE SHOT** · fully covered high-waisted bikini · solid white background · PG-13 clothed casting only.
+3D MODEL turnaround · back / side / front profiles · **FULL-LENGTH WIDE SHOT** · fully covered high-waisted bikini · solid white background · PG-13 clothed casting only.
 
 **Save to:** `{actor.casting_shot_output_dir()}/casting_prompt.txt`
 
@@ -317,7 +317,7 @@ def generate_actor_profile_pdf(
     story.append(Paragraph("Casting Shot Prompt", heading_style))
     story.append(
         Paragraph(
-            "Standard Studio casting-shot template: GENERATE 3D renders of back, side and front "
+            "Standard Studio casting-shot template: GENERATE 3D MODEL of back, side and front "
             "profiles — 16:9 wide full-body turnaround on solid white, fully covered bikini "
             "wardrobe (NOT topless), arms at sides. Age-led person description from physical canon.",
             body_style,
