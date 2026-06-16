@@ -1,0 +1,79 @@
+AIKO STAGED SHOTS — GENERATION PROMPTS LOG
+Generated: 2026-06-16
+Reference image attempted: C:\Users\NCG\Videos\Grok Projects\Studio\GFE\Aiko\01_casting_shots\casting_turnaround_v1.jpg (not supported by tool; description-only generation used)
+
+================================================================================
+FILE: aiko_staged_01_stage_left.jpg
+STAGE POSITION: stage left — subject toward left third, window light from right
+================================================================================
+
+Photorealistic cinematic medium close shot, 16:9 aspect ratio. 24-year-old Japanese-American woman named Aiko resting comfortably on her back on a cozy bedroom bed with white rumpled linens. Jet-black chin-length hair with blunt fringe. Full irezumi floral tattoo sleeves on both arms, floral choker band tattoo at throat, thigh tattoos partially visible. Warm ivory skin, compact athletic build, dark brown eyes. Wearing white satin slip with black lace trim for comfortable bed rest. Sunset golden hour lighting, low light, deep shadows, muted desaturated tones. STAGE LEFT composition: subject positioned toward the left third of the frame, bedroom window golden light streaming from the right side. Not extreme close-up, not full-length wide shot. Film still quality, shallow depth of field, intimate bedroom atmosphere.
+
+================================================================================
+FILE: aiko_staged_02_stage_right.jpg
+STAGE POSITION: stage right — subject toward right third, window light from left
+================================================================================
+
+Photorealistic cinematic medium close shot, 16:9 aspect ratio. 24-year-old Japanese-American woman named Aiko resting comfortably on her back on a cozy bedroom bed with white rumpled linens. Jet-black chin-length hair with high messy bun. Full irezumi floral tattoo sleeves on both arms, floral choker band tattoo at throat, thigh tattoos partially visible. Warm ivory skin, compact athletic build, dark brown eyes. Wearing white satin slip with black lace trim for comfortable bed rest. Sunset golden hour lighting, low light, deep shadows, muted desaturated tones. STAGE RIGHT composition: subject positioned toward the right third of the frame, bedroom window golden light streaming from the left side. Not extreme close-up, not full-length wide shot. Film still quality, shallow depth of field, intimate bedroom atmosphere.
+
+================================================================================
+FILE: aiko_staged_03_upstage.jpg
+STAGE POSITION: upstage — subject deeper toward headboard/wall, slightly smaller in frame
+================================================================================
+
+Photorealistic cinematic medium close shot, 16:9 aspect ratio. 24-year-old Japanese-American woman named Aiko resting comfortably on her back on a cozy bedroom bed with white rumpled linens. Jet-black chin-length hair with blunt fringe. Full irezumi floral tattoo sleeves on both arms, floral choker band tattoo at throat, thigh tattoos partially visible. Warm ivory skin, compact athletic build, dark brown eyes. Wearing white satin slip with black lace trim for comfortable bed rest. Sunset golden hour lighting, low light, deep shadows, muted desaturated tones. UPSTAGE composition: subject deeper in the room toward headboard and wall, slightly smaller in frame, headboard clearly visible behind her. Not extreme close-up, not full-length wide shot. Film still quality, shallow depth of field, intimate bedroom atmosphere.
+
+================================================================================
+FILE: aiko_staged_04_downstage_center.jpg
+STAGE POSITION: downstage center — subject closer to camera, center foreground
+================================================================================
+
+Photorealistic cinematic medium close shot, 16:9 aspect ratio. 24-year-old Japanese-American woman named Aiko resting comfortably on her back on a cozy bedroom bed with white rumpled linens. Jet-black chin-length hair with high messy bun. Full irezumi floral tattoo sleeves on both arms, floral choker band tattoo at throat, thigh tattoos partially visible. Warm ivory skin, compact athletic build, dark brown eyes. Wearing white satin slip with black lace trim for comfortable bed rest. Sunset golden hour lighting, low light, deep shadows, muted desaturated tones. DOWNSTAGE CENTER composition: subject closer to camera in the center foreground of the bed, larger in frame, intimate proximity. Not extreme close-up, not full-length wide shot. Film still quality, shallow depth of field, intimate bedroom atmosphere.
+
+================================================================================
+FILE: aiko_staged_05_upstage_left.jpg
+STAGE POSITION: upstage left — diagonal composition, subject upstage and frame left
+================================================================================
+
+Photorealistic cinematic medium close shot, 16:9 aspect ratio. 24-year-old Japanese-American woman named Aiko resting comfortably on her back on a cozy bedroom bed with white rumpled linens. Jet-black chin-length hair with blunt fringe. Full irezumi floral tattoo sleeves on both arms, floral choker band tattoo at throat, thigh tattoos partially visible. Warm ivory skin, compact athletic build, dark brown eyes. Wearing white satin slip with black lace trim for comfortable bed rest. Sunset golden hour lighting, low light, deep shadows, muted desaturated tones. UPSTAGE LEFT diagonal composition: subject positioned upstage deeper in room and toward the left side of frame, dynamic diagonal staging. Not extreme close-up, not full-length wide shot. Film still quality, shallow depth of field, intimate bedroom atmosphere.
+
+================================================================================
+REFERENCE-ANCHORED REGEN (2)
+================================================================================
+
+================================================================================
+FILE: aiko_staged_01_stage_left_ref.jpg
+STAGE POSITION: stage left — subject in left third, sunset window light from right
+================================================================================
+
+Photorealistic cinematic medium close shot 16:9. Same Aiko identity as casting plate. White satin slip black lace trim. Resting on back on white rumpled bed, cozy bedroom. Stage left — subject in left third, sunset window light from right, low light deep shadows muted desaturated tones. Medium close waist to face.
+
+================================================================================
+FILE: aiko_staged_02_stage_right_ref.jpg
+STAGE POSITION: stage right — subject in right third, sunset window light from left
+================================================================================
+
+Photorealistic cinematic medium close shot 16:9. Same Aiko identity. White satin slip black lace trim. Resting on back on white bed. Stage right — subject in right third, sunset window light from left, low light muted tones. Medium close waist to face.
+
+================================================================================
+IMAGE_EDIT FROM PLATE (OPTION 2)
+================================================================================
+Run date: 2026-06-16
+Tool requested: image_edit (Grok Imagine native)
+Tool available in session: NO — image_edit not present in toolset (only GenerateImage, CallMcpTool; MCP servers: github, grok_com_github only)
+True image_edit ran: NO
+Source plate: C:\Users\NCG\Videos\Grok Projects\Studio\GFE\Aiko\01_casting_shots\casting_turnaround_v1.jpg
+
+--------------------------------------------------------------------------------
+FILE: aiko_staged_01_stage_left_edit.jpg
+STATUS: FAIL — image_edit unavailable; output not created
+--------------------------------------------------------------------------------
+
+Keep this exact woman from the reference image — same face, blunt black bob, irezumi tattoo sleeves, floral choker tattoo, same body proportions and ink. Replace white studio turnaround background with cozy bedroom. She rests comfortably on her back on white rumpled bed linens, wearing white satin slip with black lace trim. Stage left composition: subject in left third of frame, sunset golden hour through window from the right, low light deep shadows muted desaturated tones. Medium close shot 16:9 cinematic photorealistic.
+
+--------------------------------------------------------------------------------
+FILE: aiko_staged_02_stage_right_edit.jpg
+STATUS: FAIL — image_edit unavailable; output not created
+--------------------------------------------------------------------------------
+
+Keep this exact woman from the reference image — same face, blunt black bob, irezumi tattoo sleeves, floral choker tattoo, same body proportions and ink. Replace white studio turnaround background with cozy bedroom. She rests comfortably on her back on white rumpled bed linens, wearing white satin slip with black lace trim. Stage right composition: subject in right third of frame, sunset golden hour through window from the left, low light deep shadows muted desaturated tones. Medium close shot 16:9 cinematic photorealistic.

@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 from actor_profile_generator import ActorProfile, STUDIO_ROOT
+from ensure_gfe_folder_structure import ensure_actor_dirs
 from gfe_roster_data import GFE_ROSTER_20
 
 GFE_DIR = STUDIO_ROOT / "GFE"
@@ -44,8 +45,8 @@ def gfe_casting_dir(actor: ActorProfile) -> Path:
 def write_prompts() -> list[dict]:
     items: list[dict] = []
     for actor in GFE_ROSTER_20:
+        ensure_actor_dirs(actor.stage_name)
         shot_dir = gfe_casting_dir(actor)
-        shot_dir.mkdir(parents=True, exist_ok=True)
         prompt_path = shot_dir / "casting_prompt.txt"
         prompt = build_gfe_casting_prompt(actor)
         prompt_path.write_text(prompt + "\n", encoding="utf-8")

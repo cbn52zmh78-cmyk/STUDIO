@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 from actor_profile_generator import STUDIO_ROOT, generate_actor_profile_pdf
+from ensure_gfe_folder_structure import ensure_actor_dirs
 from gfe_roster_data import GFE_ROSTER_20
 
 GFE_DIR = STUDIO_ROOT / "GFE"
@@ -55,9 +56,9 @@ def main() -> int:
     ok = 0
 
     for actor in GFE_ROSTER_20:
+        ensure_actor_dirs(actor.stage_name)
         actor_dir = gfe_actor_dir(actor)
         ref_dir = actor_dir / "02_reference_views"
-        ref_dir.mkdir(parents=True, exist_ok=True)
 
         pdf_path = actor_dir / "actor_profile.pdf"
         generate_actor_profile_pdf(actor, output_path=pdf_path)

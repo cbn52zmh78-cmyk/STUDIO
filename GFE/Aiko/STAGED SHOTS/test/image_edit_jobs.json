@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "image_edit",
+    "source_image": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\GFE\\Aiko\\01_casting_shots\\casting_turnaround_v1.jpg",
+    "prompt_file": "image_edit_01_stage_left.txt",
+    "output": "aiko_staged_01_stage_left_edit.jpg",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "tool": "image_edit",
+    "source_image": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\GFE\\Aiko\\01_casting_shots\\casting_turnaround_v1.jpg",
+    "prompt_file": "image_edit_02_stage_right.txt",
+    "output": "aiko_staged_02_stage_right_edit.jpg",
+    "aspect_ratio": "16:9"
+  }
+]
