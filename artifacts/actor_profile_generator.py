@@ -70,7 +70,7 @@ class ActorProfile:
         """Full copy-paste prompt to generate the actor from physical canon."""
         segments = [
             self.prompt_prefix() + ".",
-            self.base_physical_description.strip().rstrip("."),
+            self.base_physical_description.strip().rstrip(".") + ".",
             f"Heritage: {self.heritage.strip().rstrip('.')}.",
         ]
         if self.signature_looks.strip():
