@@ -54,6 +54,43 @@ class ActorProfile:
         """Required opening for every generation prompt."""
         return f"{self.age}-year-old {self.ethnicity} woman"
 
+    def _has_tattoos(self) -> bool:
+        inv = self.tattoo_inventory.strip().lower()
+        return bool(inv) and not inv.startswith("none")
+
+    def build_actor_generation_prompt(
+        self,
+        *,
+        wardrobe: str | None = None,
+        scene: str = (
+            "casting reference plate, neutral expression, three-quarter portrait, "
+            "photorealistic, soft studio lighting, director bible likeness lock"
+        ),
+    ) -> str:
+        """Full copy-paste prompt to generate the actor from physical canon."""
+        segments = [
+            self.prompt_prefix() + ".",
+            self.base_physical_description.strip().rstrip("."),
+            f"Heritage: {self.heritage.strip().rstrip('.')}.",
+        ]
+        if self.signature_looks.strip():
+            segments.append(f"Signature look: {self.signature_looks.strip().rstrip('.')}.")
+        if self._has_tattoos():
+            segments.append(f"Tattoo continuity: {self.tattoo_inventory.strip().rstrip('.')}.")
+        else:
+            segments.append("No visible tattoos.")
+        if wardrobe:
+            segments.append(f"Wearing: {wardrobe.strip().rstrip('.')}.")
+        segments.append(scene.rstrip(".") + ".")
+        return " ".join(segments)
+
+    def build_wardrobe_generation_prompts(self) -> list[tuple[str, str]]:
+        """Wardrobe-anchor variant prompts from base_reference_images."""
+        return [
+            (label, self.build_actor_generation_prompt(wardrobe=label))
+            for label in self.base_reference_images
+        ]
+
     def pdf_basename(self) -> str:
         return f"{slugify(self.stage_name)}_Actor_Profile.pdf"
 
@@ -130,6 +167,18 @@ def build_markdown(actor: ActorProfile) -> str:
 ## Casting Notes
 {actor.casting_notes}
 
+## Actor Generation Prompt (Copy-Paste)
+
+**Foundation casting prompt:**
+
+```
+{actor.build_actor_generation_prompt()}
+```
+
+**Wardrobe variant prompts:**
+
+{chr(10).join(f"- **{label}:** `{prompt}`" for label, prompt in actor.build_wardrobe_generation_prompts()) or "- —"}
+
 ## Prompting Rules (Non-Negotiable)
 1. **Always lead with exact age:** `{actor.prompt_prefix()}...`
 2. Reference assets before scene generation.
@@ -192,10 +241,28 @@ def generate_actor_profile_pdf(
         leading=13,
         spaceAfter=5,
     )
-    label_style = ParagraphStyle(
-        "Label",
+    prompt_style = ParagraphStyle(
+        "Prompt",
         parent=body_style,
+        fontSize=8.5,
+        leading=12,
+        leftIndent=12,
+        rightIndent=8,
+        spaceBefore=4,
+        spaceAfter=8,
+        backColor=colors.HexColor("#f4f4f8"),
+        borderColor=colors.HexColor("#c5c5d0"),
+        borderWidth=0.5,
+        borderPadding=6,
+    )
+    prompt_label_style = ParagraphStyle(
+        "PromptLabel",
+        parent=body_style,
+        fontSize=9,
         fontName="Helvetica-Bold",
+        textColor=colors.HexColor("#16213e"),
+        spaceBefore=6,
+        spaceAfter=2,
     )
 
     doc = SimpleDocTemplate(
@@ -246,6 +313,24 @@ def generate_actor_profile_pdf(
     for heading, content in list_sections:
         story.append(Paragraph(heading, heading_style))
         story.append(Paragraph(content, body_style))
+
+    story.append(Paragraph("Actor Generation Prompt", heading_style))
+    story.append(
+        Paragraph(
+            "Copy-paste foundation prompt — age-led, built from physical description and "
+            "visual continuity fields.",
+            body_style,
+        )
+    )
+    story.append(Paragraph("Foundation casting prompt", prompt_label_style))
+    story.append(Paragraph(_para(actor.build_actor_generation_prompt()), prompt_style))
+
+    wardrobe_prompts = actor.build_wardrobe_generation_prompts()
+    if wardrobe_prompts:
+        story.append(Paragraph("Wardrobe variant prompts", prompt_label_style))
+        for label, prompt in wardrobe_prompts:
+            story.append(Paragraph(f"<b>{_para(label)}</b>", body_style))
+            story.append(Paragraph(_para(prompt), prompt_style))
 
     story.append(Paragraph("Compliance", heading_style))
     story.append(Paragraph(_para(COMPLIANCE_FOOTER), body_style))
