@@ -46,6 +46,8 @@ Studio/
 ├── Canons/             ← Locked production rules & bibles (incl. intimacy protocol)
 ├── CONCEPTS/           ← Pre-roster concept characters & casting plates
 ├── GFE/                ← Girlfriend Experience video assets (20 actress folders); code in GFE repo
+├── Magazine_Assets/    ← Supermodel editorial assets (10 models); code in MAGAZINE repo
+├── assets/             ← Shared 3D models, images, references
 ├── Templates/          ← Reusable project & prompt scaffolds
 ├── archive/            ← Deprecated or retired work
 ├── docs/               ← Getting started & technical notes
@@ -66,7 +68,9 @@ Studio/
 | **research/** | Technique research, profiles, policy drafts, session artifacts |
 | **Canons/** | Locked rules (age policy, intimacy bible, Protocol v1.3, etc.) |
 | **CONCEPTS/** | Concept casting turnarounds before roster promotion |
-| **GFE/** | Girlfriend Experience video assets — casting JPGs, staged shots, clips; roster scripts in [GFE repo](https://github.com/cbn52zmh78-cmyk/GFE) |
+| **GFE/** | Girlfriend Experience video assets — casting JPGs, staged shots, clips; scripts in [GFE repo](https://github.com/cbn52zmh78-cmyk/GFE) |
+| **Magazine_Assets/** | Supermodel editorial prompts and images; scripts in [MAGAZINE repo](https://github.com/cbn52zmh78-cmyk/MAGAZINE) |
+| **assets/** | Shared production assets — 3D models, images, reference plates |
 | **Templates/** | Blank scaffolds — kickoff layouts, shot lists, master templates |
 | **archive/** | Superseded prompts, legacy flat roster paths, profile build scratch |
 | **docs/** | Installation, handoff integration, technical notes |
