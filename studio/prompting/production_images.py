@@ -92,8 +92,9 @@ TEMPLATE_SUFFIXES: dict[ImageAssetType, str] = {
     ImageAssetType.TURNAROUND_SHEET_3VIEW: (
         "Casting turnaround sheet on one 16:9 canvas. Left: side profile. Center: front view. "
         "Right: back view. Same person, identical proportions, hairstyle, and wardrobe in all three. "
-        "Full body head-to-toe in each view, solid white background, even spacing, no text labels, "
-        "VFX/editor 360 reference for compositing."
+        "MANDATORY full body head-to-toe in every view — feet, legs, hips, torso, arms, and head "
+        "fully visible; wide framing; no close-ups, no bust shots, no cropping. "
+        "Solid white background, even spacing, no text labels, VFX/editor 360 reference for compositing."
     ),
 }
 
@@ -118,9 +119,15 @@ def build_casting_shot_prompt(person_description: str) -> str:
         asset_type=ImageAssetType.TURNAROUND_SHEET_3VIEW,
         subject=person_description.strip(),
         project="casting",
-        lighting="even soft studio lighting",
-        camera="full body head-to-toe in each view, eye-level",
-        notes="Hyper-realistic photoreal render. Solid pure white background.",
+        lighting="even soft studio lighting, full-length body illumination",
+        camera=(
+            "wide full-body framing in each view, head to toe visible including feet, "
+            "eye-level, no cropping, no portrait close-up"
+        ),
+        notes=(
+            "Hyper-realistic photoreal casting turnaround reference sheet, single 16:9 image. "
+            "Three full-body views on solid pure white background. Solid pure white background."
+        ),
     )
     return build_prompt(req)
 
