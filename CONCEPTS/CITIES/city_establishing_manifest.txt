@@ -1,0 +1,46 @@
+CITY ESTABLISHING SHOTS — ULTRA-WIDE CINEMATIC MANIFEST
+Generated: 2026-06-16
+Output folder: C:\Users\NCG\Videos\Grok Projects\Studio\CONCEPTS\CITIES\
+
+Style: Photorealistic film establishing shot, muted cinematic color grade,
+       epic ultra-wide scale, sharp architecture, atmospheric haze.
+       NO PEOPLE in foreground.
+
+─────────────────────────────────────────────────────────────────────────────
+
+1. TOKYO
+   File: establishing_tokyo_ultrawide.jpg
+   View: Ultra-wide panoramic skyline — Tokyo Tower, dense Shinjuku/Minato high-rises
+   Time: Blue hour
+   Status: SUCCESS
+
+2. LONDON
+   File: establishing_london_ultrawide.jpg
+   View: Extreme wide Thames panorama — Houses of Parliament, Big Ben, London Eye, South Bank
+   Time: Day / overcast golden light
+   Status: SUCCESS
+
+3. PARIS
+   File: establishing_paris_ultrawide.jpg
+   View: Ultra-wide Trocadéro view — Eiffel Tower across the Seine
+   Time: Golden hour
+   Status: SUCCESS
+
+4. WASHINGTON D.C.
+   File: establishing_washington_dc_ultrawide.jpg
+   View: Extreme wide National Mall — Capitol dome, Washington Monument, Lincoln Memorial alignment
+   Time: Sunset
+   Status: SUCCESS
+
+5. MEXICO CITY
+   File: establishing_mexico_city_ultrawide.jpg
+   View: Ultra-wide Paseo de la Reforma — Ángel de la Independencia, distant skyscrapers
+   Time: Dusk
+   Status: SUCCESS
+
+─────────────────────────────────────────────────────────────────────────────
+
+SUMMARY
+  Total requested : 5
+  Successful      : 5
+  Failed          : 0

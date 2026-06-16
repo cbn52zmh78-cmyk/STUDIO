@@ -1,0 +1,20 @@
+# Living room staged variations (v2–v6)
+Base: CONCEPTS/BLONDE/COUCH/concept_blonde_olive_bikini_living_room_staged_v1.jpg
+Casting lock: CONCEPTS/BLONDE/CASTING/concept_blonde_olive_bikini_casting_v2.jpg
+
+## v2 — corner lean, knee up
+Stage right on sectional, leaning into corner cushion, one knee up. Midday soft light, muted neutrals, 16:9, negative space left.
+
+## v3 — chaise recline
+Reclined along chaise section, head on back cushion. Wide medium shot from slight left, muted warm neutrals.
+
+## v4 — profile to window
+Three-quarter profile facing window light, hands in lap, linen throw on arm. Soft rim light, desaturated interior.
+
+## v5 — cross-legged casual
+Cross-legged on cushion, barefoot, casual. Sheer curtain midday light, coffee table foreground blur.
+
+## v6 — lounge extend
+One arm over sofa back, legs extended along seat. Subtle plant/art in background blur, open left negative space.
+
+Note: Generated via text prompt (reference image_edit unavailable). Re-run with v1 or v2 as source for tighter likeness if needed.

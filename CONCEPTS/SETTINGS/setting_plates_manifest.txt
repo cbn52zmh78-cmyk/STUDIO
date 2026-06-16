@@ -1,0 +1,40 @@
+SETTING PLATES MANIFEST
+=======================
+Concept: Isolated beach house, ocean view, sunset, wood porch with patio and railing
+Generated: 2026-06-16
+Session: 019ed09a-add9-7d13-ac89-9be52b13cd9e
+Output folder: C:\Users\NCG\Videos\Grok Projects\Studio\CONCEPTS\SETTINGS
+
+All plates are EMPTY — no people, no actors, no humans anywhere.
+Each plate stages a clear spot for a future actor to sit, lie down, or lean.
+
+PLATE 01 — SUCCESS
+  Filename: setting_plate_01_porch_chair_sunset.jpg
+  Staging: Adirondack chair on porch facing ocean (actor sit spot)
+  Source: session images/1.jpg
+
+PLATE 02 — SUCCESS
+  Filename: setting_plate_02_railing_lean_sunset.jpg
+  Staging: Porch railing lean spot, ocean panorama
+  Source: session images/5.jpg
+
+PLATE 03 — SUCCESS
+  Filename: setting_plate_03_chaise_lounge_sunset.jpg
+  Staging: Chaise lounge on teak deck (actor lie-down spot)
+  Source: session images/2.jpg
+
+PLATE 04 — SUCCESS
+  Filename: setting_plate_04_porch_steps_sit.jpg
+  Staging: Wide porch steps with built-in bench ledge (actor sit spot)
+  Source: session images/3.jpg
+
+PLATE 05 — SUCCESS
+  Filename: setting_plate_05_hammock_corner.jpg
+  Staging: Hammock on covered porch corner (actor recline spot)
+  Source: session images/4.jpg
+
+SUMMARY
+-------
+Total: 5
+Success: 5
+Failure: 0

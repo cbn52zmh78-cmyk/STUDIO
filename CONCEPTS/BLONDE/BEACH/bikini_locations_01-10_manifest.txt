@@ -1,0 +1,19 @@
+﻿# Blonde olive bikini â€” 10 outfit-appropriate stagings
+Source: CONCEPTS/BLONDE/CASTING/concept_blonde_olive_bikini_casting_v2.jpg
+
+Staging rule: swimwear-appropriate only â€” water, sun, resort, beach, pool contexts.
+
+| # | File | Setting | Position | Camera |
+|---|------|---------|----------|--------|
+| 01 | blonde_olive_bikini_01_beach_shoreline_stage_right.jpg | Beach shoreline | Stage right | Low sand-level hero |
+| 02 | blonde_olive_bikini_02_infinity_pool_center.jpg | Infinity pool (ocean view) | Center | Eye-level frontal |
+| 03 | blonde_olive_bikini_03_pool_lounger_stage_left.jpg | Pool lounger + umbrella | Stage left | Stage-right three-quarter |
+| 04 | blonde_olive_bikini_04_hot_tub_upstage_center.jpg | Outdoor hot tub deck | Upstage center | Wide environmental |
+| 05 | blonde_olive_bikini_05_yacht_swim_platform_center.jpg | Yacht swim platform | Center | From bow, slightly low |
+| 06 | blonde_olive_bikini_06_cabana_stage_right.jpg | Tropical resort cabana | Stage right | Downstage-left medium |
+| 07 | blonde_olive_bikini_07_lake_dock_downstage_center.jpg | Lake swim dock | Downstage center | Low waterline angle |
+| 08 | blonde_olive_bikini_08_rooftop_pool_upstage_left.jpg | Rooftop hotel pool | Upstage left | Wide downstage-right |
+| 09 | blonde_olive_bikini_09_beach_club_stage_right.jpg | Open-air beach club | Stage right | Three-quarter profile |
+| 10 | blonde_olive_bikini_10_villa_pool_center.jpg | Mediterranean villa pool | Center | Symmetrical frontal |
+
+Prior interior set (kitchen, office, dining, etc.) archived to STAGED/archive_interior_mismatch/.

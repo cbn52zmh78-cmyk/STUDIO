@@ -1,0 +1,8 @@
+# Living room staging — olive bikini casting reference
+Source: CONCEPTS/BLONDE/CASTING/concept_blonde_olive_bikini_casting_v2.jpg (Image #1 turnaround)
+Output: CONCEPTS/BLONDE/COUCH/concept_blonde_olive_bikini_living_room_staged_v1.jpg
+
+Prompt:
+Photorealistic editorial lifestyle photograph of a fit Caucasian woman in her mid-20s with fair lightly-tanned skin, slim athletic build, toned abs, long legs, blonde hair in a casual high top bun with a few loose strands framing her face, light blue eyes, defined brows, straight nose, neutral closed-mouth expression. She wears a muted sage-olive green halter bikini top with triangular cups tied at neck and back, and matching high-waisted bikini bottoms with moderate cheeky coverage and small hip cutouts. She is staged stage right in a modern living room, seated comfortably on a large neutral sectional sofa in relaxed posture with one arm resting on the cushion and legs casually angled. Soft midday natural window light, gentle shadows, muted warm beige and soft gray color palette, minimal calm residential decor, shallow depth of field. Single horizontal 16:9 frame, negative space on the left, natural skin texture, not a studio white background.
+
+Note: Reference image_edit preferred when available for exact likeness lock from v2 turnaround.
