@@ -42,7 +42,7 @@ EXACT_AGE-year-old woman named STAGE_NAME, ETHNICITY with KEY_VISUALS (tattoos, 
 All actresses have locked prompts at `{Name}/CLIPS/asmr_camera_interaction_v1.txt`.  
 Master index: **`GFE_ASMR_All_Prompts_v1.1.md`** (all 20 in one file).
 
-Regenerate: `python scripts/generate_gfe_asmr_prompts.py`
+Regenerate: `cd ../GFE/scripts && python generate_gfe_asmr_prompts.py`
 
 ## Usage in Your Workflow
 - Copy the Master Template; replace every capitalized placeholder and fill `[ARCHETYPE PERFORMANCE]` from the actress profile.

@@ -16,9 +16,10 @@ Studio/Magazine_Assets/
 
 ## Generate / update
 
-From the **MAGAZINE** repo (`../MAGAZINE/scripts`) or **Studio** (`scripts/`):
+From the **MAGAZINE** repo (`../MAGAZINE/scripts`):
 
 ```bash
+cd ../MAGAZINE/scripts
 python ensure_magazine_folder_structure.py
 python fashion_modeling_prompt_generator.py
 ```

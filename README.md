@@ -61,7 +61,7 @@ Studio/
 | Folder | Purpose |
 |--------|---------|
 | **actors_roster/** | 50 cast actors — `male/` or `female/` → `world_region/` → actor folder |
-| **scripts/** | Production CLIs; see `actor_profile_generator.py`, `generate_roster_50.py` |
+| **scripts/** | Studio production CLIs (`actor_profile_generator.py`, `casting_shot.py`, `generate_roster_50.py`). GFE/MAG tools live in [GFE](https://github.com/cbn52zmh78-cmyk/GFE) and [MAGAZINE](https://github.com/cbn52zmh78-cmyk/MAGAZINE) repos |
 | **projects/** | Active video productions — briefs, shot plans, Test_Scenes harness |
 | **prompts/** | Generation prompts by category; see [prompts/README.md](prompts/README.md) |
 | **references/** | Visual refs — frames, palettes, composition, director study |

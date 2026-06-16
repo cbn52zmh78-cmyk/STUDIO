@@ -33,13 +33,6 @@ python generate_gfe_casting_shots.py
 python generate_gfe_asmr_prompts.py
 ```
 
-Or from **Studio** (same paths, local scripts):
-
-```bash
-cd scripts
-python ensure_gfe_folder_structure.py
-```
-
 ## Parent ecosystem
 
 Part of **STUDIO** cinematic production. Coordinates with `actors_roster/`, `CONCEPTS/`, and `prompts/`.
