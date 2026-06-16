@@ -50,6 +50,16 @@ CASTING_SHOT_FRAMING_TAIL_FEMALE = (
     "Hyper-realistic photoreal 3D character reference model. No text, no labels, no props."
 )
 
+CASTING_SHOT_FRAMING_TAIL_GFE_FEMALE = (
+    _CASTING_FRAMING_COMMON
+    + "Regular thin-strap triangle bikini top and matching bikini bottoms in all three views — "
+    "fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. "
+    "Standing upright, arms at their sides, hands free of any objects. "
+    "Same person, identical proportions, hairstyle, and wardrobe in all three panels. "
+    "Even soft studio lighting, full-length body illumination. "
+    "Hyper-realistic photoreal 3D character reference model. No text, no labels, no props."
+)
+
 CASTING_SHOT_FRAMING_TAIL_MALE = (
     _CASTING_FRAMING_COMMON
     + "Loose athletic gym shorts and a fitted tank top in all three views — "
@@ -157,6 +167,12 @@ def build_casting_shot_prompt(person_description: str, *, gender: str = "female"
         else CASTING_SHOT_FRAMING_TAIL_FEMALE
     )
     return f"{CASTING_SHOT_OPENER} {person}. {tail}"
+
+
+def build_gfe_casting_shot_prompt(person_description: str) -> str:
+    """GFE roster 3-view casting turnaround — regular thin-strap bikini wardrobe."""
+    person = person_description.strip().rstrip(".")
+    return f"{CASTING_SHOT_OPENER} {person}. {CASTING_SHOT_FRAMING_TAIL_GFE_FEMALE}"
 
 
 def build_prompt(req: ProductionImageRequest) -> str:

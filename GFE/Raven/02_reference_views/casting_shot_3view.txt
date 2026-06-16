@@ -1,0 +1,11 @@
+CASTING SHOT — Raven | 3 Reference Views
+
+1. White satin dress with black lace trim
+2. Red string bikini (maximum tattoo visibility)
+3. White string bikini on bed (playful/direct-to-camera)
+
+Standard Studio turnaround (separate file):
+GENERATE 3D MODEL of back, side and front profiles of 24-year-old Japanese-American woman, 5'5", lean angular build, blue-black hair in wolf cut, pale grey-brown eyes, cool fair skin, sharp cupid's bow, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a fully covered high-waisted midnight blue bikini top and matching midnight blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel — camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views — fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.
+
+Grok Imagine Prompt for Composite:
+'Photorealistic composite casting sheet for Raven, 24-year-old japanese-american alt model, 5'5", lean angular build, blue-black hair in wolf cut, pale grey-brown eyes, cool fair skin, sharp cupid's bow, three side-by-side panels on white background: left - white satin dress with black lace trim, center - red string bikini showing tattoos, right - white string bikini on bed playful direct-to-camera pose, clean professional layout, sharp focus, studio lighting'
