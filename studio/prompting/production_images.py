@@ -31,20 +31,38 @@ CASTING_STANCE = (
 
 CASTING_SHOT_OPENER = "GENERATE 3D MODEL of back, side and front profiles of"
 
-CASTING_SHOT_FRAMING_TAIL = (
+_CASTING_FRAMING_COMMON = (
     "Single 16:9 turnaround reference sheet on solid pure white background. "
     "LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. "
     "FULL-LENGTH WIDE SHOT in every panel — camera pulled back, entire body head to toe "
     "with headroom and footroom, feet visible on the floor. "
     "NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. "
     "NOT waist-up. NOT knee-up. NOT cropped. "
-    "Fully covered high-waisted bikini top and matching bikini bottoms in all three views — "
+)
+
+CASTING_SHOT_FRAMING_TAIL_FEMALE = (
+    _CASTING_FRAMING_COMMON
+    + "Fully covered high-waisted bikini top and matching bikini bottoms in all three views — "
     "fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. "
     "Standing upright, arms at their sides, hands free of any objects. "
     "Same person, identical proportions, hairstyle, and wardrobe in all three panels. "
     "Even soft studio lighting, full-length body illumination. "
     "Hyper-realistic photoreal 3D character reference model. No text, no labels, no props."
 )
+
+CASTING_SHOT_FRAMING_TAIL_MALE = (
+    _CASTING_FRAMING_COMMON
+    + "Loose athletic gym shorts and a fitted tank top in all three views — "
+    "fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, "
+    "NOT topless, NOT nude, NOT implied nudity. "
+    "Standing upright, arms at their sides, hands free of any objects. "
+    "Same person, identical proportions, hairstyle, and wardrobe in all three panels. "
+    "Even soft studio lighting, full-length body illumination. "
+    "Hyper-realistic photoreal 3D character reference model. No text, no labels, no props."
+)
+
+# Backward-compatible default (female casting wardrobe).
+CASTING_SHOT_FRAMING_TAIL = CASTING_SHOT_FRAMING_TAIL_FEMALE
 
 # Casting / profile shots always use CASTING_STANCE in every view.
 CASTING_PROFILE_TYPES: frozenset[ImageAssetType] = frozenset(
@@ -130,10 +148,15 @@ class ProductionImageRequest:
     aspect_ratio: str | None = None  # None → DEFAULT_ASPECT_RATIO (16:9)
 
 
-def build_casting_shot_prompt(person_description: str) -> str:
+def build_casting_shot_prompt(person_description: str, *, gender: str = "female") -> str:
     """One-call 3-view casting turnaround from a person description."""
     person = person_description.strip().rstrip(".")
-    return f"{CASTING_SHOT_OPENER} {person}. {CASTING_SHOT_FRAMING_TAIL}"
+    tail = (
+        CASTING_SHOT_FRAMING_TAIL_MALE
+        if gender.strip().lower() == "male"
+        else CASTING_SHOT_FRAMING_TAIL_FEMALE
+    )
+    return f"{CASTING_SHOT_OPENER} {person}. {tail}"
 
 
 def build_prompt(req: ProductionImageRequest) -> str:

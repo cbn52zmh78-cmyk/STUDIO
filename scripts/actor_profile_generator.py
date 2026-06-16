@@ -101,8 +101,9 @@ class ActorProfile:
             segments.append(f"Tattoos: {self.tattoo_inventory.strip().rstrip('.')}")
         if self.gender == "male":
             segments.append(
-                f"wearing solid {self.casting_wardrobe_color} swim trunks "
-                f"and a fitted white athletic tank top"
+                f"wearing loose athletic gym shorts in {self.casting_wardrobe_color} "
+                f"and a fitted {self.casting_wardrobe_color} tank top "
+                f"(not speedo, not swim briefs, not tight swim trunks)"
             )
         else:
             segments.append(
@@ -111,9 +112,17 @@ class ActorProfile:
             )
         return ", ".join(segments)
 
+    def casting_wardrobe_label(self) -> str:
+        if self.gender == "male":
+            return "gym shorts + tank top (not speedo)"
+        return "fully covered high-waisted bikini"
+
     def build_actor_casting_shot_prompt(self) -> str:
         """Standard 16:9 three-view casting turnaround prompt (Studio template)."""
-        return _build_casting_shot_prompt(self.build_casting_person_description())
+        return _build_casting_shot_prompt(
+            self.build_casting_person_description(),
+            gender=self.gender,
+        )
 
     def roster_folder_name(self) -> str:
         clean = self.stage_name.strip().replace("'", " ")
@@ -167,14 +176,14 @@ def _mood_pdf_block(actor: ActorProfile) -> str:
     return " ".join(parts)
 
 
-def _build_casting_shot_prompt(person_description: str) -> str:
+def _build_casting_shot_prompt(person_description: str, *, gender: str = "female") -> str:
     """Canonical casting-shot prompt via studio.prompting.production_images."""
     root = str(STUDIO_ROOT)
     if root not in sys.path:
         sys.path.insert(0, root)
     from studio.prompting.production_images import build_casting_shot_prompt
 
-    return build_casting_shot_prompt(person_description)
+    return build_casting_shot_prompt(person_description, gender=gender)
 
 
 def _para(text: str) -> str:
@@ -250,7 +259,7 @@ def build_markdown(actor: ActorProfile) -> str:
 
 ## Casting Shot Prompt (Standard Template)
 
-3D MODEL turnaround · back / side / front profiles · **FULL-LENGTH WIDE SHOT** · fully covered high-waisted bikini · solid white background · PG-13 clothed casting only.
+3D MODEL turnaround · back / side / front profiles · **FULL-LENGTH WIDE SHOT** · {actor.casting_wardrobe_label()} · solid white background · PG-13 clothed casting only.
 
 **Save to:** `{actor.casting_shot_output_dir()}/casting_prompt.txt`
 
@@ -404,9 +413,10 @@ def generate_actor_profile_pdf(
     story.append(Paragraph("Casting Shot Prompt", heading_style))
     story.append(
         Paragraph(
-            "Standard Studio casting-shot template: GENERATE 3D MODEL of back, side and front "
-            "profiles — 16:9 wide full-body turnaround on solid white, fully covered bikini "
-            "wardrobe (NOT topless), arms at sides. Age-led person description from physical canon.",
+            f"Standard Studio casting-shot template: GENERATE 3D MODEL of back, side and front "
+            f"profiles — 16:9 wide full-body turnaround on solid white, "
+            f"{actor.casting_wardrobe_label()} wardrobe (NOT topless), arms at sides. "
+            f"Age-led person description from physical canon.",
             body_style,
         )
     )
