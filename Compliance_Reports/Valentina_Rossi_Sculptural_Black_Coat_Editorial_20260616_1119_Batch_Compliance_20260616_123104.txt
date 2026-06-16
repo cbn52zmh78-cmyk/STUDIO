@@ -1,0 +1,28 @@
+# Batch Content Rating & Compliance Report v1.2
+Project: Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119
+Folder: C:\Users\NCG\Videos\Grok Projects\Studio\Magazine_Assets\ShotLists\Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119
+Target Rating: R
+Overall Status: COMPLIANT
+Prompts Scanned: 5
+Compliant: 5
+Needs Revision: 0
+
+## Shot_01.txt — COMPLIANT
+- No issues detected.
+
+## Shot_02.txt — COMPLIANT
+- No issues detected.
+
+## Shot_03.txt — COMPLIANT
+- No issues detected.
+
+## Shot_04.txt — COMPLIANT
+- No issues detected.
+
+## Shot_05.txt — COMPLIANT
+- No issues detected.
+
+=== GUIDANCE ===
+All work must remain suitable for legitimate theatrical or premium streaming release.
+Artistic sensuality is acceptable within R / soft NC-17 when story-driven and non-gratuitous.
+Any content involving minors in sexual contexts is strictly prohibited.

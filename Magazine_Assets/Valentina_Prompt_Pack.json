@@ -1,0 +1,47 @@
+{
+  "exported_at": "2026-06-16T11:55:30.010383",
+  "model": "Valentina Rossi",
+  "count": 5,
+  "prompts": [
+    {
+      "id": 1,
+      "scene": "Sculptural_Black_Coat_Editorial",
+      "tags": "supermodel,editorial,16:9,single-subject,avant-garde",
+      "version": "1.0",
+      "file_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Magazine_Assets\\ShotLists\\Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119\\Shot_01.txt",
+      "prompt": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, static hero pose, elegant confident stance with intense direct gaze to camera, dramatic cinematic side lighting with soft shadows and high contrast highlights on fabric and skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, single subject only, clean composition, no extra figures or distractions"
+    },
+    {
+      "id": 2,
+      "scene": "Sculptural_Black_Coat_Editorial",
+      "tags": "supermodel,editorial,16:9,single-subject,avant-garde",
+      "version": "1.0",
+      "file_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Magazine_Assets\\ShotLists\\Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119\\Shot_02.txt",
+      "prompt": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, slow subtle push-in, fabric drape and movement visible, same dramatic cinematic side lighting, slightly warmer highlights, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, single subject only, clean composition, no extra figures or distractions"
+    },
+    {
+      "id": 3,
+      "scene": "Sculptural_Black_Coat_Editorial",
+      "tags": "supermodel,editorial,16:9,single-subject,avant-garde",
+      "version": "1.0",
+      "file_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Magazine_Assets\\ShotLists\\Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119\\Shot_03.txt",
+      "prompt": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, gentle 3/4 turn with sustained eye contact, natural head movement, dramatic cinematic side lighting, soft rim light on hair and shoulders, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, single subject only, clean composition, no extra figures or distractions"
+    },
+    {
+      "id": 4,
+      "scene": "Sculptural_Black_Coat_Editorial",
+      "tags": "supermodel,editorial,16:9,single-subject,avant-garde",
+      "version": "1.0",
+      "file_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Magazine_Assets\\ShotLists\\Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119\\Shot_04.txt",
+      "prompt": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, slow walk toward camera, mid-stride, fabric physics and motion, dramatic cinematic side lighting with motion-appropriate highlight roll-off, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, single subject only, clean composition, no extra figures or distractions"
+    },
+    {
+      "id": 5,
+      "scene": "Sculptural_Black_Coat_Editorial",
+      "tags": "supermodel,editorial,16:9,single-subject,avant-garde",
+      "version": "1.0",
+      "file_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Magazine_Assets\\ShotLists\\Valentina_Rossi_Sculptural_Black_Coat_Editorial_20260616_1119\\Shot_05.txt",
+      "prompt": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, final hero pose, slight head tilt, powerful direct gaze, dramatic cinematic side lighting, final high-contrast key light, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, single subject only, clean composition, no extra figures or distractions"
+    }
+  ]
+}
