@@ -67,7 +67,10 @@ class ActorProfile:
         ]
         if self._has_tattoos():
             segments.append(f"Tattoos: {self.tattoo_inventory.strip().rstrip('.')}")
-        segments.append(f"wearing a high-waisted {self.casting_bikini_color} bikini")
+        segments.append(
+            f"wearing a fully covered high-waisted {self.casting_bikini_color} bikini top "
+            f"and matching {self.casting_bikini_color} bikini bottoms"
+        )
         return ", ".join(segments)
 
     def build_actor_casting_shot_prompt(self) -> str:
@@ -166,7 +169,7 @@ def build_markdown(actor: ActorProfile) -> str:
 
 ## Casting Shot Prompt (Standard Template)
 
-16:9 three-view turnaround · **FULL-LENGTH WIDE SHOT** (camera pulled back, feet visible) · high-waisted bikini · solid white background · stance locked · framing leads prompt.
+3D render turnaround · back / side / front profiles · **FULL-LENGTH WIDE SHOT** · fully covered high-waisted bikini · solid white background · PG-13 clothed casting only.
 
 **Save to:** `{actor.casting_shot_output_dir()}/casting_prompt.txt`
 
@@ -314,9 +317,9 @@ def generate_actor_profile_pdf(
     story.append(Paragraph("Casting Shot Prompt", heading_style))
     story.append(
         Paragraph(
-            "Standard Studio casting-shot template: 16:9 three-view turnaround on solid white, "
-            "full body head-to-toe in all three views (feet visible, no cropping), "
-            "high-waisted bikini, arms at sides. Age-led person description from physical canon.",
+            "Standard Studio casting-shot template: GENERATE 3D renders of back, side and front "
+            "profiles — 16:9 wide full-body turnaround on solid white, fully covered bikini "
+            "wardrobe (NOT topless), arms at sides. Age-led person description from physical canon.",
             body_style,
         )
     )

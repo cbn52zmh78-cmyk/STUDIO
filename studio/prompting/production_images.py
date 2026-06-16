@@ -29,24 +29,21 @@ CASTING_STANCE = (
     "Standing upright, arms at their sides, hands free of any objects."
 )
 
-# Lead with framing — person description after, or models default to face close-ups.
-CASTING_SHOT_FRAMING_LEAD = (
-    "FULL-LENGTH WIDE SHOT casting turnaround reference sheet, single 16:9 image. "
-    "Camera pulled back far enough that the entire body fits in each panel with headroom "
-    "above the head and footroom below the bare feet on the floor. "
-    "Three wide full-body panels on solid pure white background: LEFT side profile, "
-    "CENTER front, RIGHT back. Each panel shows the complete figure from top of head to "
-    "toes. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. "
-    "NOT a portrait. NOT waist-up. NOT knee-up. NOT cropped."
-)
+CASTING_SHOT_OPENER = "GENERATE 3D renders of back, side and front profiles of"
 
 CASTING_SHOT_FRAMING_TAIL = (
+    "Single 16:9 turnaround reference sheet on solid pure white background. "
+    "LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. "
+    "FULL-LENGTH WIDE SHOT in every panel — camera pulled back, entire body head to toe "
+    "with headroom and footroom, feet visible on the floor. "
+    "NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. "
+    "NOT waist-up. NOT knee-up. NOT cropped. "
+    "Fully covered high-waisted bikini top and matching bikini bottoms in all three views — "
+    "fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. "
     "Standing upright, arms at their sides, hands free of any objects. "
     "Same person, identical proportions, hairstyle, and wardrobe in all three panels. "
-    "Wide camera distance in every panel — feet and toes visible at the bottom edge. "
-    "Full silhouette and leg length readable. Even soft studio lighting, full-length body "
-    "illumination. No text, no labels, no props. Hyper-realistic photoreal render. "
-    "Solid pure white background."
+    "Even soft studio lighting, full-length body illumination. "
+    "Hyper-realistic photoreal 3D character reference render. No text, no labels, no props."
 )
 
 # Casting / profile shots always use CASTING_STANCE in every view.
@@ -134,12 +131,9 @@ class ProductionImageRequest:
 
 
 def build_casting_shot_prompt(person_description: str) -> str:
-    """One-call 3-view casting turnaround from a person description.
-
-    Framing constraints lead the prompt so image models do not default to face close-ups.
-    """
-    person = person_description.strip()
-    return f"{CASTING_SHOT_FRAMING_LEAD} Subject: {person} {CASTING_SHOT_FRAMING_TAIL}"
+    """One-call 3-view casting turnaround from a person description."""
+    person = person_description.strip().rstrip(".")
+    return f"{CASTING_SHOT_OPENER} {person}. {CASTING_SHOT_FRAMING_TAIL}"
 
 
 def build_prompt(req: ProductionImageRequest) -> str:
