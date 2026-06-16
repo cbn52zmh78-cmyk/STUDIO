@@ -45,6 +45,7 @@ Studio/
 ├── research/           ← Research notes & director session artifacts
 ├── Canons/             ← Locked production rules & bibles (incl. intimacy protocol)
 ├── CONCEPTS/           ← Pre-roster concept characters & casting plates
+├── GFE/                ← GFE actress roster (20 profiles, casting, ASMR clips)
 ├── Templates/          ← Reusable project & prompt scaffolds
 ├── archive/            ← Deprecated or retired work
 ├── docs/               ← Getting started & technical notes
@@ -65,6 +66,7 @@ Studio/
 | **research/** | Technique research, profiles, policy drafts, session artifacts |
 | **Canons/** | Locked rules (age policy, intimacy bible, Protocol v1.3, etc.) |
 | **CONCEPTS/** | Concept casting turnarounds before roster promotion |
+| **GFE/** | Girlfriend-experience line — 20 actress folders, ASMR prompt library, staged shots |
 | **Templates/** | Blank scaffolds — kickoff layouts, shot lists, master templates |
 | **archive/** | Superseded prompts, legacy flat roster paths, profile build scratch |
 | **docs/** | Installation, handoff integration, technical notes |
