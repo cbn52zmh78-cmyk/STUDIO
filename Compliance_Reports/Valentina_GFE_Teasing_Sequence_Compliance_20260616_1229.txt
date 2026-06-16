@@ -1,0 +1,13 @@
+# Content Rating & Compliance Report v1.0
+Project: Valentina_GFE_Teasing_Sequence
+Target Rating: R
+Status: COMPLIANT
+
+=== ISSUES ===
+
+=== RECOMMENDATIONS ===
+
+=== GUIDANCE ===
+All work must remain suitable for legitimate theatrical or premium streaming release.
+We are making cinema, not pornography. Artistic sensuality is acceptable within R / soft NC-17.
+Any content involving minors in sexual contexts is strictly prohibited.

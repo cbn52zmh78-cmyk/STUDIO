@@ -1,0 +1,12 @@
+{
+  "name": "Hero_Editorial",
+  "template": "photorealistic 16:9 hero studio shot of [SUBJECT], [LIGHTING], elegant confident pose, natural fabric physics, single subject, clean composition",
+  "tags": [
+    "hero",
+    "studio",
+    "editorial"
+  ],
+  "description": "Standard hero editorial pose with strong lighting and physics",
+  "created": "2026-06-16T16:47:28.698602",
+  "version": "1.0"
+}

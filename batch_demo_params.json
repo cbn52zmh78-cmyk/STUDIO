@@ -1,0 +1,15 @@
+{
+  "base_prompt": "photorealistic 16:9 [SHOT_TYPE] of [SUBJECT], [LIGHTING], elegant confident pose, natural physics",
+  "variations": [
+    {
+      "SHOT_TYPE": "hero studio shot",
+      "SUBJECT": "adult woman in structured gown",
+      "LIGHTING": "dramatic side lighting"
+    },
+    {
+      "SHOT_TYPE": "slow push-in runway",
+      "SUBJECT": "adult woman in metallic avant-garde dress",
+      "LIGHTING": "high contrast cinematic lighting"
+    }
+  ]
+}

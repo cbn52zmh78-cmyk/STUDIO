@@ -1,0 +1,14 @@
+{
+  "shots": [
+    {
+      "shot": "Shot 01",
+      "intent": "hero pose",
+      "prompt": "adult woman, elegant hero pose, dramatic side lighting"
+    },
+    {
+      "shot": "Shot 02",
+      "intent": "slow push-in",
+      "prompt": "adult woman, slow camera push-in, fabric movement, same lighting"
+    }
+  ]
+}

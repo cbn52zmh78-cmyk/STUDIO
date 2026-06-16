@@ -1,0 +1,14 @@
+{
+  "name": "Hero_Editorial_Teasing_v1",
+  "positive_prompt": "photorealistic 16:9 hero studio shot of adult woman, sustained eye contact, dramatic cinematic side lighting, elegant confident pose, natural fabric physics",
+  "negative_prompt": "blurry, deformed, extra figures, flat lighting, static pose, watermark, text",
+  "target_rating": "R",
+  "exported": "2026-06-16T16:47:26.221456",
+  "version": "1.0",
+  "notes": "Strong single-subject hero with eye contact and physics. Good base for variations.",
+  "recommended_settings": {
+    "motion_strength": "medium-high for fashion/editorial",
+    "camera_movement": "use explicit camera language in positive prompt",
+    "duration_target": "6-10 seconds for stable one-takes"
+  }
+}
