@@ -9,7 +9,7 @@ Roster **code and batch scripts** are in the standalone [**GFE** repo](https://g
 ## Layout
 
 ```
-Studio/GFE/
+Studio/Cast/GFE/
 ├── {Aiko,Vesper,...}/     # 20 actress asset folders
 │   ├── 01_casting_shots/  # casting_prompt.txt, casting_turnaround_v1.jpg
 │   ├── 02_reference_views/
@@ -35,4 +35,4 @@ python generate_gfe_asmr_prompts.py
 
 ## Parent ecosystem
 
-Part of **STUDIO** cinematic production. Coordinates with `actors_roster/`, `CONCEPTS/`, and `prompts/`.
+Part of **STUDIO** cinematic production. Coordinates with `Cast/actors_roster/`, `Cast/CONCEPTS/`, and `Prompt_Library/`.

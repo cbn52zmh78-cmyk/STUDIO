@@ -1,0 +1,24 @@
+# SCENE ACTION PROMPT v0.6.1 - 2026-06-16_00-37
+
+Scene:
+Scene Request: Henry II receives urgent news of rebellion in Aquitaine while Richard demands immediate military action
+
+Blocking & Performance:
+Henry II receives urgent news of rebellion in Aquitaine while Richard demands immediate military action. HENRY THE SECOND (@1) anchors center stage on the ornate throne — posture, gaze, and pacing shaped by the request above. Battle-worn Richard Lionheart holds position to his right, one hand near his sword hilt. Lion-tabard retainers and scroll-bearing clerics frame the council, each reacting in beat to the stakes of the moment.
+
+Key actions and stage direction (driven by scene request):
+- Establish: Henry II receives urgent news of rebellion in Aquitaine while Richard demands immediate military action
+- Henry II holds the room — a measured gesture (raised hand, tightened grip on scepter) signals whose word governs the council
+- Richard Lionheart reads the moment and shifts one pace, sword-hand ready, loyalty and strain visible toward his father
+- Retainers and clerics react in layered beats: scrolls rustle, murmurs pass, eyes flick between throne and council table
+- Micro-expressions and body language carry familial and political tension through the vaulted hall
+- Camera motivation: low angle on throne, negative space in archways, torch and window light carving faces and lion tabards
+
+Cinematic & Technical Layer (separate):
+Henry II receives urgent news of rebellion in Aquitaine while Richard demands immediate military action, HENRY THE SECOND (@1) on ornate throne in detailed medieval court, white and patterned robes, crown, scepter, battle-worn Richard Lionheart beside him, armored lion-tabard retainers and clerics with scrolls, rich Plantagenet atmosphere, high detail, cinematic lighting, photorealistic, motivated camera, negative space, --ar 16:9 --stylize 180 --v 6
+
+Slot 1: Henry_II_Court_Throne_v1 (exact reference image)
+Slot 2: Lionheart_Commander_Video (battle-worn reference)
+Slot 3: Plantagenet retainers and council members (livery from army bible)
+
+Review before generation.

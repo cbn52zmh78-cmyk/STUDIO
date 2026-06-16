@@ -1,0 +1,30 @@
+# VIDEO GENERATION SPEC - 2026-06-16 | Henry II Bad News Council
+**Length:** 15–20 seconds
+**Review for accuracy and safety before generation.**
+
+---
+
+## Scene (Lead Line)
+HENRY THE SECOND (@1) - reacting to bad news about his sons while Richard stands ready, on ornate throne in detailed medieval court, white and patterned robes, crown, scepter, battle-worn Richard Lionheart beside him, armored lion-tabard retainers and clerics with scrolls, rich Plantagenet atmosphere, high detail, cinematic lighting, photorealistic, motivated camera, negative space, --ar 16:9 --stylize 180 --v 6
+
+## Camera
+Fixed subject lock on HENRY THE SECOND (@1) with slow push-in, subtle orbiting camera around the throne group, motivated low-angle hero shots on Henry and Richard, deliberate negative space between figures for tension
+
+## Slot Map
+| Slot | Role |
+|------|------|
+| @1 | HENRY THE SECOND — throne, robes, crown, scepter; controlled authority, subtle anger at bad news |
+| @2 | Richard Lionheart — battle-worn, hand on sword hilt, loyalty mixed with tension |
+| @3 | Retainers & clerics — lion tabards, scrolls, uneasy glances |
+| @4 | Physical reactions — scepter grip tightens, Richard steps forward, scrolls rustle |
+| @5 | Atmosphere — torch/window light, depth, negative space |
+| @6 | Camera & emotion — motivated movement, body-language tension |
+| @7 | Tone — strained council, power dynamics, impending conflict |
+
+## Style
+Photorealistic historical drama, rich Plantagenet color palette, high production value, cinematic lighting, emotional realism
+
+## Asset References
+- Slot 1 plate: Henry_II_Court_Throne_v1
+- Slot 2 ref: Lionheart_Commander_Video
+- Slot 3 livery: Plantagenet_Army_Marching_Livery_Prompts_v1.1

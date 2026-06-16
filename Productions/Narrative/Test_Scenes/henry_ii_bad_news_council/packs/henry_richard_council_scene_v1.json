@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "command": "generate video",
+  "master_constraints": "6-10 seconds per clip maximum · First generation: only 480p or 720p · 1080p hard-capped at 20 seconds · Any stitched scene longer than 20 seconds must be generated/upscaled at 720p",
+  "scene": "HENRY positioned center stage, seated on his throne receiving grave news about his sons from clerics who unfurl scrolls. HENRY grips the scepter tighter, controlled anger building on his face. He raises one hand sharply to silence the court as retainers and clerics fall into uneasy silence. RICHARD steps forward one deliberate pace beside him, hand moving to sword hilt. Clerics lean in, scrolls rustle. RICHARD speaks his pledge of loyalty with quiet intensity. HENRY listens, anger softening into grim resolve as they hold a charged look.",
+  "style": "Dark moody hand-drawn animation style, high contrast, atmospheric shadows, rich line work, somber color palette",
+  "camera": "Motivated low-angle hero shots on HENRY center stage, camera drift between HENRY and RICHARD, strong negative space, slow push-ins and final two-shot",
+  "@1": {
+    "description": "HENRY positioned center stage on ornate throne, white and patterned robes, crown, scepter, tense reaction"
+  },
+  "@2": {
+    "description": "RICHARD beside the throne, battle-worn, hand on sword hilt, intense loyalty and familial tension"
+  },
+  "shot_breakdown": "Shot 1 (7s): HENRY center stage receiving news. Shot 2 (7s): RICHARD steps forward. Shot 3 (7s): Loyalty pledge two-shot.",
+  "output": {
+    "sequence_length": "18-24 seconds (three separate 6-8 second clips at 720p for stitching)"
+  }
+}

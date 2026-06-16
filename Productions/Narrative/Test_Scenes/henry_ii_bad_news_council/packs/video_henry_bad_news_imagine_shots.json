@@ -1,0 +1,51 @@
+{
+  "version": "imagine_paced_v1",
+  "tool_constraint": "6-10 seconds per generation",
+  "total_runtime": "18-24 seconds (3 clips)",
+  "scene_title": "Henry II Bad News Council",
+  "clips": [
+    {
+      "clip": 1,
+      "duration": "6-8 sec",
+      "beat": "Establish council + news lands",
+      "prompt": "HENRY THE SECOND (@1) - seated on ornate throne receiving bad news about his sons, clerics unfurl scrolls, retainers freeze in uneasy silence, white and patterned royal robes, crown, scepter, rich Plantagenet throne room, torch and window light, photorealistic historical drama, slow push-in on Henry's face, --ar 16:9 --stylize 180 --v 6",
+      "camera": "Wide establish → slow push-in on @1, subject lock on Henry",
+      "slots": {
+        "@1": "Henry II on throne, listening, jaw tightening",
+        "@2": "Richard at right flank, still, watching father",
+        "@3": "Clerics with scrolls, retainers at attention"
+      }
+    },
+    {
+      "clip": 2,
+      "duration": "7-9 sec",
+      "beat": "Henry reacts + silences room",
+      "prompt": "HENRY THE SECOND (@1) - gripping scepter tighter and raising one hand to silence the court after bad news about his sons, controlled anger on his face, ornate throne, white and patterned robes, crown, lion-tabard retainers and clerics falling quiet, battle-worn Richard Lionheart beside him tensing, cinematic low-angle hero shot, negative space, photorealistic, --ar 16:9 --stylize 180 --v 6",
+      "camera": "Low-angle hero on @1, subtle orbit, hold negative space between Henry and Richard",
+      "slots": {
+        "@1": "Henry raises hand, silences room, scepter grip tightens",
+        "@2": "Richard tenses, hand moves toward sword hilt",
+        "@3": "Court falls silent, uneasy glances"
+      }
+    },
+    {
+      "clip": 3,
+      "duration": "6-8 sec",
+      "beat": "Richard steps forward + tension holds",
+      "prompt": "HENRY THE SECOND (@1) - on throne as battle-worn Richard Lionheart steps forward one pace beside him, hand on sword hilt, intense loyalty and familial tension, clerics lean in, scrolls rustle, rich Plantagenet council atmosphere, motivated camera drift, emotional weight, photorealistic historical drama, --ar 16:9 --stylize 180 --v 6",
+      "camera": "Two-shot Henry + Richard, slow drift, end on held tension",
+      "slots": {
+        "@1": "Henry holds throne, weary authority, eyes on Richard",
+        "@2": "Richard one pace forward, locked on father",
+        "@3": "Council leans in, scrolls rustle, tension visible"
+      }
+    }
+  ],
+  "assembly_notes": "Generate clips in order. Match lighting and costume across clips using same reference plates. Trim to 6-10s each in edit. Cross-dissolve or hard cut on Henry's raised hand (clip 1→2) and Richard's step (clip 2→3).",
+  "style": "Photorealistic historical drama, rich Plantagenet color palette, cinematic lighting, emotional realism",
+  "asset_refs": [
+    "Henry_II_Court_Throne_v1",
+    "Lionheart_Commander_Video",
+    "Plantagenet_Army_Marching_Livery_Prompts_v1.1"
+  ]
+}

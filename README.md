@@ -1,104 +1,95 @@
 # STUDIO — Cinematic Video & Visual Production
 
-The **STUDIO layer** is the creative and production home for all video and cinematic visual work in the Grok Projects ecosystem.
-
 **Core question:** *How should this look and feel on screen?*
 
-STUDIO owns director technique, prompting, reference libraries, production workflows, and final visual output. It does **not** own multi-agent routing (AI), ecosystem governance (NEXUS), or scientific principle enforcement (Science / AI Federation).
+STUDIO owns director technique, prompting, reference libraries, production workflows, and final visual output.
+
+**Producer charter:** [`PRODUCER.md`](PRODUCER.md) — compliance gate for every generation session.
 
 ---
 
-## Purpose
-
-| STUDIO owns | Other layers own |
-|-------------|------------------|
-| All video production — cinematic, narrative, general visual | Scientifically valuable viz base → **AI** (with Jantzen) |
-| Director styles & techniques | Multi-agent orchestration → **AI** |
-| Prompt libraries & production research | Registry & workflows → **NEXUS** |
-| Reference management & visual canon | Client deliverable ops → **Stonebridge** |
-| Cinematic treatment of validated upstream content | Data integrity → **AI / Science** |
-
-**Hybrid workflow:** AI produces a validated base → STUDIO applies cinematic styling without altering scientific logic.
-
-```
-User / NEXUS request
-        ↓
-   AI Orchestrator (when validation needed)
-        ↓
-   STUDIO — Projects · Prompts · References · Research · Canons
-        ↓
-   Final cinematic / video output
-```
-
----
-
-## Top-Level Structure
+## Producer Layout (June 2026)
 
 ```
 Studio/
-├── README.md           ← You are here
-├── actors_roster/      ← Cast actors: {gender}/{region}/{Name}/ profiles + casting
-├── scripts/            ← CLI tools (casting shot, image packs, actor profiles)
-├── projects/           ← Active productions (PI_Story, Test_Scenes, …)
-├── prompts/            ← Prompt library (by domain + library/ + system/)
-├── references/         ← Visual references & mood material
-├── research/           ← Research notes & director session artifacts
-├── Canons/             ← Locked production rules & bibles (incl. intimacy protocol)
-├── CONCEPTS/           ← Pre-roster concept characters & casting plates
-├── GFE/                ← Girlfriend Experience video assets (20 actress folders); code in GFE repo
-├── Magazine_Assets/    ← Supermodel editorial assets (10 models); code in MAGAZINE repo
-├── assets/             ← Shared 3D models, images, references
-├── Templates/          ← Reusable project & prompt scaffolds
-├── archive/            ← Deprecated or retired work
-├── docs/               ← Getting started & technical notes
-├── skills/             ← Grok director workflow skills
-├── studio/             ← Python package (techniques, prompting)
-├── examples/           ← Handoff patterns & profile examples
-├── systems/            ← System architecture extensions
-└── renders/            ← Render outputs (gitignored)
+├── PRODUCER.md              ← Compliance charter (read first)
+├── README.md                ← You are here
+│
+├── Producers_Office/        ← Compliance, logs, release tracking
+│   ├── Compliance_Reports/
+│   ├── Tool_Logs/
+│   └── Release_Tracker/     ← E&O / clearance binder scaffold
+│
+├── Canons/                  ← Locked production rules
+│   └── Bibles/              ← Versioned story & technique bibles
+│
+├── Cast/                    ← All performers & character assets
+│   ├── actors_roster/       ← 50+ cast actors (profiles + casting)
+│   ├── CONCEPTS/            ← Pre-roster concept characters
+│   ├── GFE/                 ← 20 GFE actress asset folders
+│   └── Magazine_Assets/     ← 10 editorial model folders
+│
+├── Productions/             ← Active shows, scenes, deliverables
+│   ├── Narrative/           ← PI_Story, Test_Scenes (Plantagenet, etc.)
+│   ├── History/             ← History-layer handoff productions
+│   ├── GFE/                 ← Per-actress scene productions
+│   ├── Editorial/           ← Magazine runway / hero campaigns
+│   └── _Scene_Production_Kit/  ← Clone for every new scene
+│
+├── Pipeline/                ← Tool-generated prompts & packs (artifacts/)
+│   ├── Model_Profiles/
+│   ├── ShotLists/
+│   ├── Video_Prompts/
+│   ├── OneTake_Prompts/
+│   ├── Refined_Prompts/
+│   ├── Negative_Prompts/
+│   ├── Grok_Video_Packs/
+│   └── …
+│
+├── Reference_Library/       ← Plates, 3D assets, metadata, index
+│   ├── plates/
+│   ├── assets/
+│   ├── Asset_Metadata/
+│   └── references_index.json
+│
+├── renders/                 ← Final outputs (gitignored)
+│   ├── approved/
+│   ├── review/
+│   └── rejected/
+│
+├── Research/                ← Technique research, session artifacts
+├── Prompt_Library/          ← Curated prompt bibles by domain
+├── Templates/               ← Blank scaffolds
+├── Development/             ← Python package, scripts, docs, skills
+│   ├── studio/              ← `pip install -e .` package root
+│   ├── scripts/
+│   └── docs/
+│
+└── archive/                 ← Retired work
 ```
 
-| Folder | Purpose |
-|--------|---------|
-| **actors_roster/** | 50 cast actors — `male/` or `female/` → `world_region/` → actor folder |
-| **scripts/** | Studio production CLIs (`actor_profile_generator.py`, `casting_shot.py`, `generate_roster_50.py`). GFE/MAG tools live in [GFE](https://github.com/cbn52zmh78-cmyk/GFE) and [MAGAZINE](https://github.com/cbn52zmh78-cmyk/MAGAZINE) repos |
-| **projects/** | Active video productions — briefs, shot plans, Test_Scenes harness |
-| **prompts/** | Generation prompts by category; see [prompts/README.md](prompts/README.md) |
-| **references/** | Visual refs — frames, palettes, composition, director study |
-| **research/** | Technique research, profiles, policy drafts, session artifacts |
-| **Canons/** | Locked rules (age policy, intimacy bible, Protocol v1.3, etc.) |
-| **CONCEPTS/** | Concept casting turnarounds before roster promotion |
-| **GFE/** | Girlfriend Experience video assets — casting JPGs, staged shots, clips; scripts in [GFE repo](https://github.com/cbn52zmh78-cmyk/GFE) |
-| **Magazine_Assets/** | Supermodel editorial prompts and images; scripts in [MAGAZINE repo](https://github.com/cbn52zmh78-cmyk/MAGAZINE) |
-| **assets/** | Shared production assets — 3D models, images, reference plates |
-| **Templates/** | Blank scaffolds — kickoff layouts, shot lists, master templates |
-| **archive/** | Superseded prompts, legacy flat roster paths, profile build scratch |
-| **docs/** | Installation, handoff integration, technical notes |
-| **skills/** | Grok skills for STUDIO production workflows |
+---
+
+## Ecosystem Boundaries
+
+| STUDIO owns | Other layers own |
+|-------------|------------------|
+| Video & cinematic visual production | Multi-agent routing → **AI** |
+| Director styles & prompting | Registry & workflows → **NEXUS** |
+| Reference management & visual canon | Client ops → **Stonebridge** |
+| Cinematic treatment of validated content | Science principles → **Science / AI** |
 
 ---
 
-## Connection to AI
+## Toolchain
 
-| Direction | What happens |
-|-----------|--------------|
-| **AI → STUDIO** | Orchestrator hands off validated content for cinematic treatment |
-| **STUDIO → AI** | Request re-validation if source science material changes |
+Python CLIs live in `../artifacts/`. Outputs land in `Pipeline/`.
 
-See `examples/consume_ai_handoff.py` and `docs/getting_started.md`.
-
----
-
-## Connection to NEXUS
-
-Material milestones and integration changes are noted in `Nexus/Nexus_Project_Registry.md` and `Nexus/Workflows/`.
-
----
-
-## Package
-
-```bash
-pip install -e .
+```powershell
+cd "C:\Users\NCG\Videos\Grok Projects"
+pip install -e artifacts/
+pip install -e Studio/
+python artifacts/core/master_launcher.py
 ```
 
 ---
@@ -107,13 +98,15 @@ pip install -e .
 
 | Task | Path |
 |------|------|
-| Start a production | `Projects/` |
-| Find or add prompts | `Prompts/README.md` |
-| Research & session notes | `Research/` |
-| Lock a rule set | `Canons/` |
-| Retire old work | `archive/` |
-| AI handoff | `examples/consume_ai_handoff.py` |
+| Producer compliance | `PRODUCER.md` |
+| Start a scene | `Productions/_Scene_Production_Kit/` |
+| Cast & characters | `Cast/` |
+| Run prompt tools | `Pipeline/` (via master launcher) |
+| Ship a render | `renders/approved/` |
+| Lock a rule | `Canons/` |
+| GFE assets | `Cast/GFE/` (scripts in sibling `GFE/` repo) |
+| Magazine assets | `Cast/Magazine_Assets/` (scripts in `MAGAZINE/` repo) |
 
 ---
 
-*STUDIO — cinematic video and visual production for the Grok Projects ecosystem.*
+*STUDIO — cinematic production for the Grok Projects ecosystem.*

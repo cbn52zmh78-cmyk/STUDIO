@@ -1,0 +1,44 @@
+# IMAGINE PACING GUIDE — Henry II Bad News Council
+**Constraint:** 6–10 seconds per generation
+**Total:** 3 clips ≈ 18–24 seconds assembled
+
+---
+
+## CLIP 1 (6–8 sec) — News Lands
+**Beat:** Establish council; bad news arrives; room stills.
+
+```
+HENRY THE SECOND (@1) - seated on ornate throne receiving bad news about his sons, clerics unfurl scrolls, retainers freeze in uneasy silence, white and patterned royal robes, crown, scepter, rich Plantagenet throne room, torch and window light, photorealistic historical drama, slow push-in on Henry's face, --ar 16:9 --stylize 180 --v 6
+```
+
+**Camera:** Wide establish → slow push-in on @1
+
+---
+
+## CLIP 2 (7–9 sec) — Henry Silences the Room
+**Beat:** Scepter grip tightens; hand raised; court falls quiet.
+
+```
+HENRY THE SECOND (@1) - gripping scepter tighter and raising one hand to silence the court after bad news about his sons, controlled anger on his face, ornate throne, white and patterned robes, crown, lion-tabard retainers and clerics falling quiet, battle-worn Richard Lionheart beside him tensing, cinematic low-angle hero shot, negative space, photorealistic, --ar 16:9 --stylize 180 --v 6
+```
+
+**Camera:** Low-angle hero on @1, subtle orbit
+
+---
+
+## CLIP 3 (6–8 sec) — Richard Steps Forward
+**Beat:** One pace forward; hand on sword; tension holds.
+
+```
+HENRY THE SECOND (@1) - on throne as battle-worn Richard Lionheart steps forward one pace beside him, hand on sword hilt, intense loyalty and familial tension, clerics lean in, scrolls rustle, rich Plantagenet council atmosphere, motivated camera drift, emotional weight, photorealistic historical drama, --ar 16:9 --stylize 180 --v 6
+```
+
+**Camera:** Two-shot Henry + Richard, slow drift, hold on tension
+
+---
+
+## Assembly
+- Generate clips **in order** with same reference plates
+- Trim each to 6–10s in edit
+- Cut on: Henry's raised hand (1→2), Richard's step (2→3)
+- Keep `@1` lead line on every clip for subject lock

@@ -1,0 +1,34 @@
+{
+  "version": "0.7.2",
+  "mode": "multishot_council",
+  "overall_scene": "Henry II receives news of his sons' conspiracy. Richard steps forward and pledges loyalty in the throne room.",
+  "resolution_rules": {
+    "first_generation": "Only 480p or 720p available in Generator. No 1080p option on initial generation.",
+    "upscaling": "You may upscale the first generation to 1080p after creation.",
+    "1080p_limit": "1080p videos are HARD-CAPPED at 20 seconds maximum. Cannot exceed 20 seconds at 1080p under any circumstances.",
+    "longer_videos": "For any final video longer than 20 seconds (e.g. 30s stitched), it must be generated at 720p from the start OR upscaled to 720p early. 1080p cannot be used past the 20-second mark — it will force the clip to 480p or fail.",
+    "recommendation_for_multishot": "When building stitched multi-shot scenes longer than 20 seconds total, generate all individual shots at 720p. Reserve 1080p upscaling only for short final deliverables (20 seconds or under). Never plan 1080p for anything past 20 seconds."
+  },
+  "narrative_arc": "Beat 1: The wound lands. Beat 2: Authority is tested. Beat 3: Alliance is forged in fire.",
+  "shot_breakdown": {
+    "shot_1": {
+      "duration": "7-8 seconds",
+      "description": "HENRY THE SECOND (@1) sits on his throne as the cleric unfurls the scroll and delivers the betrayal. His hand slowly tightens around the scepter, controlled anger building behind his eyes. The entire court falls into uneasy silence as he raises one hand sharply to silence them. Slow, inexorable push-in on his face as the weight of the news settles. Motivated low-angle hero shot that makes him feel both powerful and isolated."
+    },
+    "shot_2": {
+      "duration": "7-8 seconds",
+      "description": "Battle-worn Richard Lionheart steps forward one deliberate pace beside the throne, hand resting on the hilt of his drawn sword, eyes locked on his father with burning loyalty mixed with pain. Henry turns his head to regard him. Clerics lean in, scrolls rustling softly. Motivated camera drift that starts on Henry and glides to frame the two men together, creating negative space between father and son that crackles with tension."
+    },
+    "shot_3": {
+      "duration": "7-8 seconds",
+      "description": "Richard speaks his pledge of loyalty with quiet, steel-edged intensity. Henry listens, his controlled anger softening into grim resolve as he nods once. The two men hold a long, charged look. Retainers and clerics remain frozen in tense silence. Final low-angle two-shot with strong negative space between them, camera slowly pushing in on their faces as the alliance is silently forged."
+    }
+  },
+  "continuity_rules": "Exact visual continuity across all shots: same Henry II reference, same battle-worn Richard reference, identical throne room lighting and banner placement, no costume or position changes unless explicitly described in the action.",
+  "stitching_notes": "Each shot ends with a natural action overlap or held beat for clean J/L-cuts. Shot 1 ends on Henry's raised hand / silence. Shot 2 begins with Richard already in motion. Shot 3 begins with Richard speaking.",
+  "output": {
+    "sequence_length": "21-24 seconds total (three 7-8 second clips)",
+    "recommended_generation_length_per_clip": "7-8 seconds (safely inside 6-10s rule)",
+    "recommended_resolution": "720p for all shots (stitched total exceeds 1080p 20s cap)"
+  }
+}
