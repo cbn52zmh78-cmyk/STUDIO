@@ -1,0 +1,30 @@
+{
+  "version": "0.7",
+  "mode": "multishot_council",
+  "overall_scene": "Henry II receiving news of his sons conspiring against him, Richard steps forward and pledges loyalty",
+  "generation_notes": "CRITICAL: Generate each shot as a SEPARATE 6-10 second clip only. Do not generate longer than 10 seconds per clip. Maintain EXACT continuity of Henry II appearance, costume, crown, scepter, throne, lighting direction, throne room environment, and camera language across all shots for clean post stitching. Use the same reference images for Henry II (throne room) and battle-worn Richard across every shot.",
+  "continuity_rules": "Strict visual continuity required: same Henry II face/body/costume/lighting from reference, same Richard face/armor/surcoat from reference, consistent throne room architecture and banner placement, consistent torch/window light direction, no changes to character scale or position between shots unless explicitly described in action.",
+  "stitching_notes": "Design shots with natural edit points (action overlap, J/L-cut friendly, motivated camera movement that can continue across cuts). Leave head/tail handles for clean stitching in editor.",
+  "shot_breakdown": {
+    "shot_1": {
+      "duration": "6-8 seconds",
+      "description": "HENRY THE SECOND (@1) seated on throne receiving grave news from clerics who unfurl scrolls. His face tightens with controlled anger. He grips the scepter tighter. Retainers and clerics fall into uneasy silence. Slow push-in on Henry's face. Motivated low-angle hero shot."
+    },
+    "shot_2": {
+      "duration": "6-8 seconds",
+      "description": "Battle-worn Richard Lionheart steps forward one deliberate pace beside the throne, hand moving to sword hilt. Intense loyalty and familial tension visible in his posture and eyes. Clerics lean in slightly, scrolls rustle. Henry turns his head slightly toward Richard. Motivated camera drift from Henry to include Richard in frame."
+    },
+    "shot_3": {
+      "duration": "6-8 seconds",
+      "description": "Richard speaks with quiet intensity: loyalty pledge. Henry listens, controlled anger softening slightly into resolve. Retainers and clerics remain frozen in tense silence. Final low-angle two-shot on Henry and Richard with strong negative space. Emotional weight and political tension."
+    }
+  },
+  "slots": {
+    "@1": "HENRY THE SECOND (@1) - exact throne room reference image, white and patterned robes, crown, scepter, controlled authority and subtle anger"
+  },
+  "style": "Photorealistic historical drama, rich Plantagenet color palette, high production value, cinematic lighting, emotional realism, motivated camera",
+  "output": {
+    "sequence_length": "18-24 seconds total (stitched from three 6-8 second clips)",
+    "recommended_generation_length_per_clip": "6-10 seconds maximum"
+  }
+}

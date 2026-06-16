@@ -1,0 +1,30 @@
+{
+  "command": "generate video",
+  "scene": "HENRY THE SECOND (@1) - reacting to bad news about his sons while Richard stands ready, on ornate throne in detailed medieval court, white and patterned robes, crown, scepter, battle-worn Richard Lionheart beside him, armored lion-tabard retainers and clerics with scrolls, rich Plantagenet atmosphere, high detail, cinematic lighting, photorealistic, motivated camera, negative space, --ar 16:9 --stylize 180 --v 6",
+  "camera": "Fixed subject lock on HENRY THE SECOND (@1) with slow push-in, subtle orbiting camera around the throne group, motivated low-angle hero shots on Henry and Richard, deliberate negative space between figures for tension",
+  "@1": {
+    "description": "HENRY THE SECOND (@1) seated on ornate throne, white and patterned robes, crown, scepter, reacting to bad news with controlled authority and subtle anger"
+  },
+  "@2": {
+    "description": "Battle-worn Richard Lionheart (from the video reference) standing ready beside the throne, hand on sword hilt, intense loyalty mixed with tension"
+  },
+  "@3": {
+    "description": "Armored lion-tabard retainers and clerics with scrolls, standing at attention, exchanging uneasy glances"
+  },
+  "@4": {
+    "description": "Subtle physical reactions - Henry gripping scepter tighter, Richard stepping forward slightly, scrolls rustling, tense court atmosphere"
+  },
+  "@5": {
+    "description": "Rich Plantagenet atmosphere, torch and window lighting, high detail, cinematic depth, negative space"
+  },
+  "@6": {
+    "description": "Motivated camera movement, emotional weight, family and political tension visible in body language"
+  },
+  "@7": {
+    "description": "Overall tone of strained royal council, power dynamics, and impending conflict"
+  },
+  "style": "Photorealistic historical drama, rich Plantagenet color palette, high production value, cinematic lighting, emotional realism",
+  "output": {
+    "sequence_length": "15-20 seconds"
+  }
+}

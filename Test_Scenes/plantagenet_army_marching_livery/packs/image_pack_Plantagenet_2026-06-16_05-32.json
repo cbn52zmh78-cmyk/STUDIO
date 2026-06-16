@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "generated": "2026-06-16_05-32",
+  "project": "Plantagenet",
+  "workflow": "Studio production image pack — generate base with image_gen; iterate with image_edit; animate with image_to_video",
+  "assets": [
+    {
+      "id": "asset_01",
+      "asset_type": "setting_plate",
+      "aspect_ratio": "16:9",
+      "project": "Plantagenet",
+      "character_token": "",
+      "reference_images": [],
+      "prompt": "Plantagenet throne room, stone arches, winter daylight through high windows 12th century English royal court, photoreal historical drama Lighting: soft window key, warm torch fill Camera: 35mm eye-level, centered one-point perspective Empty environment plate for compositing. No people, no animals, no text, no logos. Clean sightlines, stable geometry, neutral depth cues, production-ready for VFX plate replacement. Photoreal cinematic lighting, high detail, subtle atmospheric haze.",
+      "compositing_notes": "Use as background plate; match lens height and horizon to talent comp."
+    },
+    {
+      "id": "asset_02",
+      "asset_type": "head_composite",
+      "aspect_ratio": "3:4",
+      "project": "Plantagenet",
+      "character_token": "HENRY THE SECOND (@1)",
+      "reference_images": [],
+      "prompt": "HENRY THE SECOND (@1) - Plantagenet throne room, stone arches, winter daylight through high windows 12th century English royal court, photoreal historical drama Lighting: soft window key, warm torch fill Camera: 35mm eye-level, centered one-point perspective Head-and-shoulders composite plate. Neutral expression, eyes to camera, even key light with soft fill, minimal shadows on face, plain muted background, sharp focus on eyes and skin texture, no jewelry clutter unless specified, no text, identity-consistent features for later compositing.",
+      "compositing_notes": "Extract head; match key/fill direction to scene lighting; preserve eye line."
+    }
+  ]
+}

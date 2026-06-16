@@ -1,0 +1,16 @@
+# Generated Prompt - Richard III on horseback reviewing his marching army at dawn...
+Scene: Richard III on horseback reviewing his marching army at dawn, misty forest road
+
+Asset References & Slots:
+slot2:richard_composite_v3, slot3:plantagenet_army_v1.1
+Canon Reference: Plantagenet_Army_Marching_Livery_Prompts_v1.1.md (livery colors, badge rules, armor variation locked)
+
+Core Rules Applied:
+- High internal variation in faces, armor condition, ages while unified by consistent livery
+- Photorealistic physics, dust, banners streaming, motivated camera
+- Negative: identical faces, modern uniformity, cartoonish
+
+Full Structured Prompt:
+[One massive cohesive elite Plantagenet marching column, Richard III on horseback reviewing his marching army at dawn, misty forest road, wealthy retainers in [lord colors] livery jackets over brigandine and partial plate, high variation in sallet/armet helmets and weathered faces, commander focal point, banners flying, dust haze --ar 16:9 --stylize 250 --v 6]
+
+Review Required: Check for safety/legal before generating.

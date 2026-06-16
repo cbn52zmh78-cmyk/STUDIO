@@ -1,0 +1,16 @@
+# PROMPT PACK v0.4 - 2026-06-16_00-16 | REVIEW BEFORE GENERATION
+
+Scene: Richard III dawn review
+
+Assets: slot2:richard_v3, slot3:army_v1.1
+
+Stage Direction:
+- Camera: Slow tracking shot paralleling the column + low hero angle on Richard III turning in saddle, subtle free-cam sway on marching troops, intentional negative space through trees, motivated dawn raking light
+- Actor Behavior: Commander reins in with quiet authority, troops marching with tired but disciplined rhythm, occasional glances toward their lord, livery jackets shifting over plate, boots kicking dust
+- Lighting & Atmosphere: Cool misty blue dawn with warm rim light on metal and banners, volumetric god rays, gentle wind on fabric, subtle heat haze on armor
+- Tone & Rhythm: Solemn weight + underlying tension, rhythmic boot falls and harness clinks, long one-take feel with J/L-cuts possible
+
+Full Cinematic Prompt:
+One massive cohesive elite Plantagenet marching column, Richard III dawn review, wealthy retainers in accurate livery jackets over brigandine and partial plate with high realistic variation in weathered faces, helmet styles, and armor condition, commander focal point exuding authority, banners streaming, dust haze, cinematic tracking camera with motivated movement and deliberate negative space, photorealistic historical detail locked to Plantagenet army bible --ar 16:9 --stylize 220 --v 6
+
+Review / Tweak Section: [Your notes here]

@@ -1,0 +1,14 @@
+# PROMPT PACK v0.5 - 2026-06-16_00-28 | Henry_II_Court + Lionheart_Commander
+
+Slot 1 - Setting Plate + Henry II:
+[Use the full throne room image you just provided as base environment] Henry II seated on ornate throne, white and patterned robe, crown, scepter, surrounded by lion-tabard retainers and clerics with scrolls
+
+Slot 2 - Commander:
+The battle-worn Lionheart commander from the video you made (bloodied face, crowned helmet, red lion tabard, red cape)
+
+Scene Request: Henry II holding court with his son Richard the Lionheart present reviewing battle plans
+
+Full Structured Prompt:
+[Combine both references: Henry II on throne in full court setting, Lionheart commander standing beside or in foreground, retainers with accurate livery, formal yet tense Plantagenet council atmosphere, cinematic lighting, motivated camera, high detail]
+
+Review before generation.

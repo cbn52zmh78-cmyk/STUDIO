@@ -1,0 +1,22 @@
+# ORCHESTRATED PROMPT PACK v1.0 - Henry II getting bad news about his sons while Richard steps forward and pledges loyalty in the throne room
+
+Story Outline (Auto-generated):
+1. Henry II receives devastating news about his sons conspiring against him.
+2. The court freezes in tension.
+3. Richard steps forward and pledges loyalty, forging the alliance.
+
+Master Constraints (always active):
+- Every clip: 6-10 seconds max
+- First generation: only 480p or 720p
+- 1080p: max 20 seconds
+- Longer than 20s: must be 720p
+
+Slot Assignment (Auto):
+@1: HENRY THE SECOND (throne room reference image)
+@2: Battle-worn Richard Lionheart (video reference)
+Setting Plate: Full Henry II court throne room
+
+Full Ready-to-Use Prompt:
+HENRY THE SECOND (@1) seated on his throne as clerics deliver the betrayal news. He grips the scepter tighter, raising one hand sharply to silence the court as controlled anger builds on his face. Battle-worn Richard Lionheart (@2) steps forward one deliberate pace beside him, hand on sword hilt, eyes full of intense loyalty and familial tension. Clerics lean in, scrolls rustle. Motivated camera drift creating powerful negative space between father and son as the alliance is forged in fire.
+
+Ready for generation. Use the master constraints above when generating clips.

@@ -1,0 +1,14 @@
+{
+  "version": "0.5",
+  "scene": "HENRY THE SECOND (@1) holding formal war council in his throne room, surrounded by loyal retainers and clerics reviewing battle plans and dispatches while the kingdom prepares for conflict with his sons and French rivals",
+  "setting_plate": "Full Henry_II_Court_Throne_v1 image (the throne room reference you just provided)",
+  "slots": {
+    "slot1": "HENRY THE SECOND (@1) - Seated centrally on ornate throne, white and patterned royal robes, crown, scepter in hand, authoritative yet weary expression, exact likeness and costume from the throne room image",
+    "slot2": "Battle-worn Lionheart Commander (from the video reference you made) - Standing to the right of the throne in bloodied armor and red lion tabard",
+    "slot3": "Plantagenet retainers and council members - Lion surcoats, chainmail, monks with scrolls, accurate livery from army bible"
+  },
+  "canon_rules": "Plantagenet_Army_Marching_Livery_Prompts_v1.1 + Henry_II_Court_Throne_v1 + Lionheart_Commander_Video",
+  "stage_direction": "Cinematic throne room shot with motivated low angle on Henry, subtle torch and window light, rich reds and golds, formal tension, retainers in respectful poses",
+  "full_prompt": "HENRY THE SECOND (@1) on ornate throne in detailed medieval court, white and patterned robes, crown, scepter, surrounded by armored lion-tabard retainers and clerics with scrolls, battle-worn Richard Lionheart standing beside him, rich Plantagenet atmosphere, high detail, cinematic lighting, photorealistic --ar 16:9 --stylize 180 --v 6",
+  "notes": "Review for accuracy and safety before generation. Ready for further slots or variations."
+}

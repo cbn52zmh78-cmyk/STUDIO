@@ -1,0 +1,16 @@
+# AUTO PROMPT v0.3 - 2026-06-16 00:14 | REVIEW + SAFETY CHECK REQUIRED
+
+Scene Core: Richard III on horseback reviewing his marching army at dawn, misty forest road
+
+Assets: Slot 2: commander composite | Slot 3: army unified render
+
+Stage Direction & Cinematic Treatment:
+- Camera: Slow tracking dolly alongside the column + low-angle hero shot on Richard III on horseback, subtle handheld tension on the marching troops, negative space in the misty forest gaps, motivated dawn light raking across armor and banners
+- Action/Behavior: Richard III reins in slightly, turning to survey his men with quiet authority; troops marching in disciplined but human rhythm, tired but determined faces, livery jackets shifting over plate, boots kicking up dust, banners catching breeze
+- Lighting & Atmosphere: Cool blue dawn mist, warm rim light on armor edges, volumetric god rays through trees, subtle heat haze on metal
+- Tone & Rhythm: Solemn determination mixed with quiet menace, rhythmic boot steps, occasional clink of harness, long one-take feel
+
+Full Ready-to-Use Prompt:
+One massive cohesive elite Plantagenet marching column on misty forest road at dawn, Richard III on horseback reviewing his army, wealthy retainers in accurate livery jackets over brigandine and partial plate, high realistic variation in weathered faces, sallet/armet helmets, and armor condition, commander focal point with quiet authority, banners streaming, dust haze kicked up by boots and horses, cinematic tracking camera with motivated movement and negative space, photorealistic historical detail from Plantagenet army bible, emotional weight and discipline --ar 16:9 --stylize 220 --v 6
+
+Review Notes: [Add your own safety/legal check here before generation]
