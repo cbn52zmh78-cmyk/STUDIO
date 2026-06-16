@@ -1,4 +1,4 @@
-"""Twenty GFE (girlfriend-experience) actress profiles — alt romantic-interest line."""
+"""Twenty GFE (Girlfriend Experience) actress profiles — alt romantic-interest line."""
 
 from __future__ import annotations
 

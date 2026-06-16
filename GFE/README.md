@@ -1,6 +1,8 @@
-# GFE — Video & Visual Assets (STUDIO)
+# GFE — Girlfriend Experience (Video & Visual Assets)
 
-All **video content, images, casting plates, staged shots, and clip prompts** for the 20 GFE actresses live here.
+**GFE** = **Girlfriend Experience** — intimate direct-to-camera romantic fantasy production.
+
+All **video content, images, casting plates, staged shots, and clip prompts** for the 20 Girlfriend Experience actresses live here in **STUDIO**.
 
 Roster **code and batch scripts** are in the standalone [**GFE** repo](https://github.com/cbn52zmh78-cmyk/GFE) (`../GFE/` sibling folder). Scripts write outputs into this directory.
 

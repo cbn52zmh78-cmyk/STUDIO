@@ -1,4 +1,4 @@
-# GFE ASMR Camera Interaction Prompt Library v1.1 — Locked for Grok Editor
+# GFE (Girlfriend Experience) ASMR Camera Interaction Prompt Library v1.1 — Locked for Grok Editor
 ## Canon Reference: ASMR + Direct-to-Camera Research Pass (June 16 2026)
 
 ### Locked Terminology Bank (Copy-Paste into Any Prompt)

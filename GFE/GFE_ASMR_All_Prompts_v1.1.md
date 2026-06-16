@@ -1,4 +1,4 @@
-# GFE ASMR Camera Interaction — All Prompts v1.1
+# GFE (Girlfriend Experience) ASMR Camera Interaction — All Prompts v1.1
 
 Pre-filled from roster canon. One file per actress in `{Name}/CLIPS/asmr_camera_interaction_v1.txt`.
 
