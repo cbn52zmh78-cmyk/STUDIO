@@ -1,8 +1,10 @@
 {
-  "generated": "2026-06-16T09:31:44",
-  "total": 50,
-  "female_count": 25,
-  "male_count": 25,
+  "generated": "2026-06-16T09:50:47",
+  "total": 70,
+  "female_count": 35,
+  "male_count": 35,
+  "stunning_female_count": 10,
+  "stunning_male_count": 10,
   "by_gender": {
     "female": [
       {
@@ -329,6 +331,146 @@
         ],
         "path": "actors_roster/female/oceania_pacific/Tessa_Walsh",
         "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\oceania_pacific\\Tessa_Walsh\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Sienna Laurent",
+        "age": 28,
+        "world_region": "europe_west",
+        "ethnicity": "French",
+        "mood_modifiers": [
+          "magnetic",
+          "cool",
+          "precise"
+        ],
+        "path": "actors_roster/female/europe_west/Sienna_Laurent",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Sienna_Laurent\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Katya Morozova",
+        "age": 24,
+        "world_region": "europe_east",
+        "ethnicity": "Ukrainian",
+        "mood_modifiers": [
+          "glacial",
+          "defiant",
+          "sensual"
+        ],
+        "path": "actors_roster/female/europe_east/Katya_Morozova",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_east\\Katya_Morozova\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Serena Blake",
+        "age": 30,
+        "world_region": "north_america",
+        "ethnicity": "African American",
+        "mood_modifiers": [
+          "radiant",
+          "commanding",
+          "warm"
+        ],
+        "path": "actors_roster/female/north_america/Serena_Blake",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\north_america\\Serena_Blake\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Camille Reyes",
+        "age": 26,
+        "world_region": "latin_america",
+        "ethnicity": "Colombian",
+        "mood_modifiers": [
+          "fiery",
+          "playful",
+          "smoldering"
+        ],
+        "path": "actors_roster/female/latin_america/Camille_Reyes",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\latin_america\\Camille_Reyes\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Noor El-Amir",
+        "age": 27,
+        "world_region": "middle_east_north_africa",
+        "ethnicity": "Lebanese",
+        "mood_modifiers": [
+          "enigmatic",
+          "graceful",
+          "sharp"
+        ],
+        "path": "actors_roster/female/middle_east_north_africa/Noor_El_Amir",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\middle_east_north_africa\\Noor_El_Amir\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Amahle Ndaba",
+        "age": 25,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Zulu South African",
+        "mood_modifiers": [
+          "regal",
+          "fierce",
+          "tender"
+        ],
+        "path": "actors_roster/female/sub_saharan_africa/Amahle_Ndaba",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\sub_saharan_africa\\Amahle_Ndaba\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Ji-Yeon Park",
+        "age": 23,
+        "world_region": "east_asia",
+        "ethnicity": "Korean",
+        "mood_modifiers": [
+          "ethereal",
+          "wistful",
+          "determined"
+        ],
+        "path": "actors_roster/female/east_asia/Ji_Yeon_Park",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\east_asia\\Ji_Yeon_Park\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Ananya Reddy",
+        "age": 29,
+        "world_region": "south_asia",
+        "ethnicity": "Indian (Telugu)",
+        "mood_modifiers": [
+          "luminous",
+          "passionate",
+          "grounded"
+        ],
+        "path": "actors_roster/female/south_asia/Ananya_Reddy",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\south_asia\\Ananya_Reddy\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "In\u00e9s Marchetti",
+        "age": 31,
+        "world_region": "latin_america",
+        "ethnicity": "Argentine-Italian",
+        "mood_modifiers": [
+          "smoldering",
+          "witty",
+          "proud"
+        ],
+        "path": "actors_roster/female/latin_america/In\u00e9s_Marchetti",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\latin_america\\In\u00e9s_Marchetti\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Olivia Mercer",
+        "age": 27,
+        "world_region": "oceania_pacific",
+        "ethnicity": "Australian",
+        "mood_modifiers": [
+          "bold",
+          "sunny",
+          "resilient"
+        ],
+        "path": "actors_roster/female/oceania_pacific/Olivia_Mercer",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\oceania_pacific\\Olivia_Mercer\\actor_profile.pdf",
+        "roster_group": "stunning_10"
       }
     ],
     "male": [
@@ -656,6 +798,146 @@
         ],
         "path": "actors_roster/male/oceania_pacific/Jayden_Tau",
         "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\oceania_pacific\\Jayden_Tau\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Luca Fontaine",
+        "age": 29,
+        "world_region": "europe_west",
+        "ethnicity": "French-Italian",
+        "mood_modifiers": [
+          "smoldering",
+          "charming",
+          "focused"
+        ],
+        "path": "actors_roster/male/europe_west/Luca_Fontaine",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_west\\Luca_Fontaine\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Nikolai Volsky",
+        "age": 27,
+        "world_region": "europe_east",
+        "ethnicity": "Russian",
+        "mood_modifiers": [
+          "glacial",
+          "intense",
+          "protective"
+        ],
+        "path": "actors_roster/male/europe_east/Nikolai_Volsky",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_east\\Nikolai_Volsky\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Julian Cross",
+        "age": 31,
+        "world_region": "north_america",
+        "ethnicity": "White American",
+        "mood_modifiers": [
+          "confident",
+          "witty",
+          "brooding"
+        ],
+        "path": "actors_roster/male/north_america/Julian_Cross",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\north_america\\Julian_Cross\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Dante Reyes",
+        "age": 26,
+        "world_region": "latin_america",
+        "ethnicity": "Mexican",
+        "mood_modifiers": [
+          "fiery",
+          "magnetic",
+          "tender"
+        ],
+        "path": "actors_roster/male/latin_america/Dante_Reyes",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\latin_america\\Dante_Reyes\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Khalid Mansour",
+        "age": 30,
+        "world_region": "middle_east_north_africa",
+        "ethnicity": "Egyptian",
+        "mood_modifiers": [
+          "regal",
+          "enigmatic",
+          "passionate"
+        ],
+        "path": "actors_roster/male/middle_east_north_africa/Khalid_Mansour",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\middle_east_north_africa\\Khalid_Mansour\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Kofi Mensah",
+        "age": 28,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Ghanaian",
+        "mood_modifiers": [
+          "radiant",
+          "grounded",
+          "charismatic"
+        ],
+        "path": "actors_roster/male/sub_saharan_africa/Kofi_Mensah",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\sub_saharan_africa\\Kofi_Mensah\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Ren Hayashi",
+        "age": 25,
+        "world_region": "east_asia",
+        "ethnicity": "Japanese",
+        "mood_modifiers": [
+          "cool",
+          "precise",
+          "sensitive"
+        ],
+        "path": "actors_roster/male/east_asia/Ren_Hayashi",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\east_asia\\Ren_Hayashi\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Vikram Rathore",
+        "age": 32,
+        "world_region": "south_asia",
+        "ethnicity": "Indian (Rajasthani)",
+        "mood_modifiers": [
+          "commanding",
+          "passionate",
+          "noble"
+        ],
+        "path": "actors_roster/male/south_asia/Vikram_Rathore",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\south_asia\\Vikram_Rathore\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Andre Silva",
+        "age": 27,
+        "world_region": "latin_america",
+        "ethnicity": "Brazilian",
+        "mood_modifiers": [
+          "playful",
+          "magnetic",
+          "resilient"
+        ],
+        "path": "actors_roster/male/latin_america/Andre_Silva",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\latin_america\\Andre_Silva\\actor_profile.pdf",
+        "roster_group": "stunning_10"
+      },
+      {
+        "stage_name": "Ethan Shaw",
+        "age": 29,
+        "world_region": "oceania_pacific",
+        "ethnicity": "New Zealand European-M\u0101ori",
+        "mood_modifiers": [
+          "bold",
+          "laid-back",
+          "steadfast"
+        ],
+        "path": "actors_roster/male/oceania_pacific/Ethan_Shaw",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\oceania_pacific\\Ethan_Shaw\\actor_profile.pdf",
+        "roster_group": "stunning_10"
       }
     ]
   },
