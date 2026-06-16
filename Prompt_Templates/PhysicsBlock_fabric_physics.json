@@ -1,0 +1,12 @@
+{
+  "name": "PhysicsBlock_fabric_physics",
+  "template": "natural fabric drape, realistic cloth physics, subtle movement and tension in fabric",
+  "tags": [
+    "physics",
+    "lighting",
+    "injector"
+  ],
+  "description": "Reusable physics/lighting block from injector: fabric_physics",
+  "created": "2026-06-16T17:18:46.832689",
+  "version": "1.1"
+}

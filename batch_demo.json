@@ -1,0 +1,11 @@
+{
+  "base_prompt": "photorealistic 16:9 [SHOT_TYPE] of [SUBJECT], [LIGHTING], [CAMERA], elegant confident pose",
+  "variations": [
+    {
+      "SHOT_TYPE": "hero studio shot"
+    },
+    {
+      "SHOT_TYPE": "slow push-in runway"
+    }
+  ]
+}
