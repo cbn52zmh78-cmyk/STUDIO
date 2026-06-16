@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """Example: create a new actor profile PDF using the ActorProfile API."""
 
+import sys
 from datetime import datetime
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
 from actor_profile_generator import ActorProfile, generate_actor_profile_pdf
 
-OUTPUT_DIR = Path(__file__).resolve().parent / "output" / "profiles"
+OUTPUT_DIR = ROOT / "examples" / "output"
 
 new_actor = ActorProfile(
     stage_name="YourStageName",

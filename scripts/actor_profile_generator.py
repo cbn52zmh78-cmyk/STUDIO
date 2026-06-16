@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Actor Profile Generator — STUDIO artifacts
+Actor Profile Generator — STUDIO scripts
 Builds locked director-bible actor profiles (Markdown + PDF).
 
 API:
@@ -17,9 +17,9 @@ from datetime import date, datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-ARTIFACTS_ROOT = Path(__file__).resolve().parent
-STUDIO_ROOT = ARTIFACTS_ROOT.parent
-DEFAULT_OUTPUT = ARTIFACTS_ROOT / "output" / "profiles"
+SCRIPTS_ROOT = Path(__file__).resolve().parent
+STUDIO_ROOT = SCRIPTS_ROOT.parent
+DEFAULT_OUTPUT = STUDIO_ROOT / "archive" / "profile_builds"
 
 COMPLIANCE_FOOTER = (
     "All prompts must begin with exact numerical age. "

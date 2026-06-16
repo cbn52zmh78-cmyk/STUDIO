@@ -37,30 +37,36 @@ User / NEXUS request
 ```
 Studio/
 ├── README.md           ← You are here
-├── Projects/           ← Active productions & session work
-├── Prompts/            ← Prompt library (by domain + library/ + system/)
-├── References/         ← Visual references & mood material
-├── Research/           ← Research notes & director session artifacts
-├── Canons/             ← Locked production rules & bibles
+├── actors_roster/      ← Cast actors: {gender}/{region}/{Name}/ profiles + casting
+├── scripts/            ← CLI tools (casting shot, image packs, actor profiles)
+├── projects/           ← Active productions (PI_Story, Test_Scenes, …)
+├── prompts/            ← Prompt library (by domain + library/ + system/)
+├── references/         ← Visual references & mood material
+├── research/           ← Research notes & director session artifacts
+├── Canons/             ← Locked production rules & bibles (incl. intimacy protocol)
+├── CONCEPTS/           ← Pre-roster concept characters & casting plates
 ├── Templates/          ← Reusable project & prompt scaffolds
 ├── archive/            ← Deprecated or retired work
 ├── docs/               ← Getting started & technical notes
 ├── skills/             ← Grok director workflow skills
 ├── studio/             ← Python package (techniques, prompting)
-├── examples/           ← AI Federation handoff patterns
+├── examples/           ← Handoff patterns & profile examples
 ├── systems/            ← System architecture extensions
-└── renders/            ← Render outputs (per project as needed)
+└── renders/            ← Render outputs (gitignored)
 ```
 
 | Folder | Purpose |
 |--------|---------|
-| **Projects/** | Active video productions — briefs, shot plans, deliverables per title |
-| **Prompts/** | Generation prompts by category; see [Prompts/README.md](Prompts/README.md) |
-| **References/** | Visual refs — frames, palettes, composition, director study |
-| **Research/** | Technique research, profiles, policy drafts, session artifacts |
-| **Canons/** | Locked rules promoted from research (age policy, intimacy bible, etc.) |
+| **actors_roster/** | 50 cast actors — `male/` or `female/` → `world_region/` → actor folder |
+| **scripts/** | Production CLIs; see `actor_profile_generator.py`, `generate_roster_50.py` |
+| **projects/** | Active video productions — briefs, shot plans, Test_Scenes harness |
+| **prompts/** | Generation prompts by category; see [prompts/README.md](prompts/README.md) |
+| **references/** | Visual refs — frames, palettes, composition, director study |
+| **research/** | Technique research, profiles, policy drafts, session artifacts |
+| **Canons/** | Locked rules (age policy, intimacy bible, Protocol v1.3, etc.) |
+| **CONCEPTS/** | Concept casting turnarounds before roster promotion |
 | **Templates/** | Blank scaffolds — kickoff layouts, shot lists, master templates |
-| **archive/** | Superseded prompts, old projects, retired experiments |
+| **archive/** | Superseded prompts, legacy flat roster paths, profile build scratch |
 | **docs/** | Installation, handoff integration, technical notes |
 | **skills/** | Grok skills for STUDIO production workflows |
 

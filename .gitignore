@@ -7,3 +7,5 @@ __pycache__/
 *.blend1
 renders/
 output/
+archive/profile_builds/
+examples/output/

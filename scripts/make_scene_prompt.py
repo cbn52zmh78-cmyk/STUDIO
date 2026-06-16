@@ -84,7 +84,7 @@ def generate_prompt(scene_idea, mode="default"):
     scene_slug = {
         "multishot_council": "henry_ii_bad_news_council",
     }.get(mode, mode.replace("-", "_"))
-    out_dir = Path(__file__).resolve().parents[1] / "Test_Scenes" / scene_slug / "packs"
+    out_dir = Path(__file__).resolve().parents[1] / "projects" / "Test_Scenes" / scene_slug / "packs"
     out_dir.mkdir(parents=True, exist_ok=True)
     filename = out_dir / f"prompt_pack_{mode}_{ts}.json"
     json_output = json.dumps(pack, indent=2, ensure_ascii=False)
