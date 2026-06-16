@@ -85,6 +85,7 @@ elinor_trevelyan = ActorProfile(
         "Excels when environment is a character (sea, cliff, rain, stone). Avoid casting "
         "as generic 'English rose' without interior complexity."
     ),
+    casting_bikini_color="black",
     profile_date=datetime.now().strftime("%B %d, %Y"),
 )
 

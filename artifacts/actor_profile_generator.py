@@ -18,6 +18,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 ARTIFACTS_ROOT = Path(__file__).resolve().parent
+STUDIO_ROOT = ARTIFACTS_ROOT.parent
 DEFAULT_OUTPUT = ARTIFACTS_ROOT / "output" / "profiles"
 
 COMPLIANCE_FOOTER = (
@@ -48,6 +49,7 @@ class ActorProfile:
     tattoo_inventory: str
     signature_looks: str
     casting_notes: str
+    casting_bikini_color: str = "black"
     profile_date: str = field(default_factory=lambda: datetime.now().strftime("%B %d, %Y"))
 
     def prompt_prefix(self) -> str:
@@ -58,38 +60,26 @@ class ActorProfile:
         inv = self.tattoo_inventory.strip().lower()
         return bool(inv) and not inv.startswith("none")
 
-    def build_actor_generation_prompt(
-        self,
-        *,
-        wardrobe: str | None = None,
-        scene: str = (
-            "casting reference plate, neutral expression, three-quarter portrait, "
-            "photorealistic, soft studio lighting, director bible likeness lock"
-        ),
-    ) -> str:
-        """Full copy-paste prompt to generate the actor from physical canon."""
+    def build_casting_person_description(self) -> str:
+        """Person description fed into the standard casting-shot template."""
         segments = [
-            self.prompt_prefix() + ".",
-            self.base_physical_description.strip().rstrip(".") + ".",
-            f"Heritage: {self.heritage.strip().rstrip('.')}.",
+            f"{self.prompt_prefix()}, {self.base_physical_description.strip().rstrip('.')}",
         ]
         if self.signature_looks.strip():
-            segments.append(f"Signature look: {self.signature_looks.strip().rstrip('.')}.")
+            segments.append(self.signature_looks.strip().rstrip("."))
         if self._has_tattoos():
-            segments.append(f"Tattoo continuity: {self.tattoo_inventory.strip().rstrip('.')}.")
-        else:
-            segments.append("No visible tattoos.")
-        if wardrobe:
-            segments.append(f"Wearing: {wardrobe.strip().rstrip('.')}.")
-        segments.append(scene.rstrip(".") + ".")
-        return " ".join(segments)
+            segments.append(f"Tattoos: {self.tattoo_inventory.strip().rstrip('.')}")
+        segments.append(f"wearing a high-waisted {self.casting_bikini_color} bikini")
+        segments.append("professional casting shot reference, photorealistic, studio lighting")
+        return ", ".join(segments)
 
-    def build_wardrobe_generation_prompts(self) -> list[tuple[str, str]]:
-        """Wardrobe-anchor variant prompts from base_reference_images."""
-        return [
-            (label, self.build_actor_generation_prompt(wardrobe=label))
-            for label in self.base_reference_images
-        ]
+    def build_actor_casting_shot_prompt(self) -> str:
+        """Standard 16:9 three-view casting turnaround prompt (Studio template)."""
+        return _build_casting_shot_prompt(self.build_casting_person_description())
+
+    def casting_shot_output_dir(self) -> Path:
+        """Recommended save path for the canonical casting plate."""
+        return STUDIO_ROOT / "actors_roster" / "female" / slugify(self.stage_name) / "01_casting_shots"
 
     def pdf_basename(self) -> str:
         return f"{slugify(self.stage_name)}_Actor_Profile.pdf"
@@ -100,6 +90,16 @@ class ActorProfile:
 
 def slugify(name: str) -> str:
     return re.sub(r"[^\w\-]+", "_", name.lower()).strip("_") or "actor"
+
+
+def _build_casting_shot_prompt(person_description: str) -> str:
+    """Canonical casting-shot prompt via studio.prompting.production_images."""
+    root = str(STUDIO_ROOT)
+    if root not in sys.path:
+        sys.path.insert(0, root)
+    from studio.prompting.production_images import build_casting_shot_prompt
+
+    return build_casting_shot_prompt(person_description)
 
 
 def _para(text: str) -> str:
@@ -167,17 +167,17 @@ def build_markdown(actor: ActorProfile) -> str:
 ## Casting Notes
 {actor.casting_notes}
 
-## Actor Generation Prompt (Copy-Paste)
+## Casting Shot Prompt (Standard Template)
 
-**Foundation casting prompt:**
+16:9 three-view turnaround · high-waisted bikini · solid white background · stance locked.
+
+**Save to:** `{actor.casting_shot_output_dir()}/casting_prompt.txt`
 
 ```
-{actor.build_actor_generation_prompt()}
+{actor.build_actor_casting_shot_prompt()}
 ```
 
-**Wardrobe variant prompts:**
-
-{chr(10).join(f"- **{label}:** `{prompt}`" for label, prompt in actor.build_wardrobe_generation_prompts()) or "- —"}
+**After generation:** use `image_edit` from this casting plate for wardrobe/scene variations — do not re-roll face or body.
 
 ## Prompting Rules (Non-Negotiable)
 1. **Always lead with exact age:** `{actor.prompt_prefix()}...`
@@ -314,23 +314,31 @@ def generate_actor_profile_pdf(
         story.append(Paragraph(heading, heading_style))
         story.append(Paragraph(content, body_style))
 
-    story.append(Paragraph("Actor Generation Prompt", heading_style))
+    story.append(Paragraph("Casting Shot Prompt", heading_style))
     story.append(
         Paragraph(
-            "Copy-paste foundation prompt — age-led, built from physical description and "
-            "visual continuity fields.",
+            "Standard Studio casting-shot template: 16:9 three-view turnaround on solid white, "
+            "high-waisted bikini, arms at sides. Age-led person description from physical canon.",
             body_style,
         )
     )
-    story.append(Paragraph("Foundation casting prompt", prompt_label_style))
-    story.append(Paragraph(_para(actor.build_actor_generation_prompt()), prompt_style))
-
-    wardrobe_prompts = actor.build_wardrobe_generation_prompts()
-    if wardrobe_prompts:
-        story.append(Paragraph("Wardrobe variant prompts", prompt_label_style))
-        for label, prompt in wardrobe_prompts:
-            story.append(Paragraph(f"<b>{_para(label)}</b>", body_style))
-            story.append(Paragraph(_para(prompt), prompt_style))
+    story.append(
+        Paragraph(
+            f"<b>Save to:</b> {_para(str(actor.casting_shot_output_dir() / 'casting_prompt.txt'))}",
+            body_style,
+        )
+    )
+    story.append(Paragraph("Copy-paste prompt", prompt_label_style))
+    story.append(Paragraph(_para(actor.build_actor_casting_shot_prompt()), prompt_style))
+    story.append(
+        Paragraph(
+            _para(
+                "After generation: use image_edit from this casting plate for wardrobe/scene "
+                "variations — do not re-roll face or body."
+            ),
+            body_style,
+        )
+    )
 
     story.append(Paragraph("Compliance", heading_style))
     story.append(Paragraph(_para(COMPLIANCE_FOOTER), body_style))
