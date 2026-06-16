@@ -61,19 +61,13 @@ class ActorProfile:
         return bool(inv) and not inv.startswith("none")
 
     def build_casting_person_description(self) -> str:
-        """Person description fed into the standard casting-shot template."""
+        """Body-first person block for casting shots — avoids face/makeup detail that triggers close-ups."""
         segments = [
             f"{self.prompt_prefix()}, {self.base_physical_description.strip().rstrip('.')}",
         ]
-        if self.signature_looks.strip():
-            segments.append(self.signature_looks.strip().rstrip("."))
         if self._has_tattoos():
             segments.append(f"Tattoos: {self.tattoo_inventory.strip().rstrip('.')}")
         segments.append(f"wearing a high-waisted {self.casting_bikini_color} bikini")
-        segments.append(
-            "professional full-body casting shot reference, photorealistic, studio lighting, "
-            "head to toe visible"
-        )
         return ", ".join(segments)
 
     def build_actor_casting_shot_prompt(self) -> str:
@@ -172,7 +166,7 @@ def build_markdown(actor: ActorProfile) -> str:
 
 ## Casting Shot Prompt (Standard Template)
 
-16:9 three-view turnaround · **full body head-to-toe in every view** · high-waisted bikini · solid white background · stance locked.
+16:9 three-view turnaround · **FULL-LENGTH WIDE SHOT** (camera pulled back, feet visible) · high-waisted bikini · solid white background · stance locked · framing leads prompt.
 
 **Save to:** `{actor.casting_shot_output_dir()}/casting_prompt.txt`
 
