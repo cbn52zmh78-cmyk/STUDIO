@@ -28,6 +28,20 @@ COMPLIANCE_FOOTER = (
 )
 
 
+WORLD_REGIONS = (
+    "north_america",
+    "europe_west",
+    "europe_east",
+    "latin_america",
+    "middle_east_north_africa",
+    "sub_saharan_africa",
+    "east_asia",
+    "southeast_asia",
+    "south_asia",
+    "oceania_pacific",
+)
+
+
 @dataclass
 class ActorProfile:
     stage_name: str
@@ -49,12 +63,30 @@ class ActorProfile:
     tattoo_inventory: str
     signature_looks: str
     casting_notes: str
-    casting_bikini_color: str = "black"
+    gender: str = "female"
+    world_region: str = "north_america"
+    mood_modifiers: list[str] = field(default_factory=list)
+    on_screen_mood: str = ""
+    off_screen_mood: str = ""
+    casting_wardrobe_color: str = "black"
     profile_date: str = field(default_factory=lambda: datetime.now().strftime("%B %d, %Y"))
+
+    def __post_init__(self) -> None:
+        self.gender = self.gender.strip().lower()
+        if self.gender not in ("male", "female"):
+            raise ValueError(f"gender must be 'male' or 'female', got {self.gender!r}")
+        if self.world_region not in WORLD_REGIONS:
+            raise ValueError(f"world_region must be one of {WORLD_REGIONS}")
+
+    @property
+    def casting_bikini_color(self) -> str:
+        """Backward-compatible alias for casting wardrobe color."""
+        return self.casting_wardrobe_color
 
     def prompt_prefix(self) -> str:
         """Required opening for every generation prompt."""
-        return f"{self.age}-year-old {self.ethnicity} woman"
+        noun = "man" if self.gender == "male" else "woman"
+        return f"{self.age}-year-old {self.ethnicity} {noun}"
 
     def _has_tattoos(self) -> bool:
         inv = self.tattoo_inventory.strip().lower()
@@ -67,19 +99,39 @@ class ActorProfile:
         ]
         if self._has_tattoos():
             segments.append(f"Tattoos: {self.tattoo_inventory.strip().rstrip('.')}")
-        segments.append(
-            f"wearing a fully covered high-waisted {self.casting_bikini_color} bikini top "
-            f"and matching {self.casting_bikini_color} bikini bottoms"
-        )
+        if self.gender == "male":
+            segments.append(
+                f"wearing solid {self.casting_wardrobe_color} swim trunks "
+                f"and a fitted white athletic tank top"
+            )
+        else:
+            segments.append(
+                f"wearing a fully covered high-waisted {self.casting_wardrobe_color} bikini top "
+                f"and matching {self.casting_wardrobe_color} bikini bottoms"
+            )
         return ", ".join(segments)
 
     def build_actor_casting_shot_prompt(self) -> str:
         """Standard 16:9 three-view casting turnaround prompt (Studio template)."""
         return _build_casting_shot_prompt(self.build_casting_person_description())
 
+    def roster_folder_name(self) -> str:
+        clean = self.stage_name.strip().replace("'", " ")
+        clean = re.sub(r"[^\w\s\-]+", "", clean)
+        return "_".join(part.capitalize() for part in re.split(r"[\s\-]+", clean) if part)
+
+    def roster_dir(self) -> Path:
+        """actors_roster/{gender}/{world_region}/{Name}/"""
+        return (
+            STUDIO_ROOT
+            / "actors_roster"
+            / self.gender
+            / self.world_region
+            / self.roster_folder_name()
+        )
+
     def casting_shot_output_dir(self) -> Path:
-        """Recommended save path for the canonical casting plate."""
-        return STUDIO_ROOT / "actors_roster" / "female" / slugify(self.stage_name) / "01_casting_shots"
+        return self.roster_dir() / "01_casting_shots"
 
     def pdf_basename(self) -> str:
         return f"{slugify(self.stage_name)}_Actor_Profile.pdf"
@@ -90,6 +142,29 @@ class ActorProfile:
 
 def slugify(name: str) -> str:
     return re.sub(r"[^\w\-]+", "_", name.lower()).strip("_") or "actor"
+
+
+def _mood_block(actor: ActorProfile) -> str:
+    if not actor.mood_modifiers:
+        return "—"
+    primary = ", ".join(actor.mood_modifiers)
+    lines = [f"**Modifiers:** {primary}"]
+    if actor.on_screen_mood.strip():
+        lines.append(f"**On-screen:** {actor.on_screen_mood.strip()}")
+    if actor.off_screen_mood.strip():
+        lines.append(f"**Off-screen / video:** {actor.off_screen_mood.strip()}")
+    return "\n".join(lines)
+
+
+def _mood_pdf_block(actor: ActorProfile) -> str:
+    if not actor.mood_modifiers:
+        return "—"
+    parts = [f"Modifiers: {', '.join(actor.mood_modifiers)}"]
+    if actor.on_screen_mood.strip():
+        parts.append(f"On-screen: {actor.on_screen_mood.strip()}")
+    if actor.off_screen_mood.strip():
+        parts.append(f"Off-screen / video: {actor.off_screen_mood.strip()}")
+    return " ".join(parts)
 
 
 def _build_casting_shot_prompt(person_description: str) -> str:
@@ -133,6 +208,12 @@ def build_markdown(actor: ActorProfile) -> str:
 | Ethnicity | {actor.ethnicity} |
 | Nationality | {actor.nationality} |
 | Heritage | {actor.heritage} |
+| Gender | {actor.gender} |
+| World region | {actor.world_region} |
+| Roster path | `{actor.roster_dir()}` |
+
+## Mood Modifiers (On & Off Screen)
+{_mood_block(actor)}
 
 ## Languages
 {langs}
@@ -291,11 +372,17 @@ def generate_actor_profile_pdf(
         ("Ethnicity", actor.ethnicity),
         ("Nationality", actor.nationality),
         ("Heritage", actor.heritage),
+        ("Gender", actor.gender),
+        ("World region", actor.world_region),
+        ("Roster path", str(actor.roster_dir())),
         ("Prompt prefix (required)", actor.prompt_prefix()),
     ]
     story.append(Paragraph("Identity", heading_style))
     for label, value in identity_rows:
         story.append(Paragraph(f"<b>{_para(label)}:</b> {_para(value)}", body_style))
+
+    story.append(Paragraph("Mood modifiers (on & off screen)", heading_style))
+    story.append(Paragraph(_para(_mood_pdf_block(actor)), body_style))
 
     list_sections: list[tuple[str, str]] = [
         ("Languages", _bullet_list(actor.languages)),
@@ -363,16 +450,37 @@ def generate_actor_profile(
     output_dir: Path | None = None,
     write_pdf: bool = True,
     write_md: bool = True,
+    *,
+    pdf_name: str = "actor_profile.pdf",
+    md_name: str = "actor_profile.md",
 ) -> tuple[Path | None, Path | None]:
     """Generate markdown and/or PDF for an ActorProfile."""
     base = output_dir or DEFAULT_OUTPUT
     base.mkdir(parents=True, exist_ok=True)
     md_path = pdf_path = None
     if write_md:
-        md_path = generate_actor_profile_markdown(actor, base / actor.markdown_basename())
+        md_path = generate_actor_profile_markdown(actor, base / md_name)
     if write_pdf:
-        pdf_path = generate_actor_profile_pdf(actor, base / actor.pdf_basename())
+        pdf_path = generate_actor_profile_pdf(actor, base / pdf_name)
     return md_path, pdf_path
+
+
+def generate_actor_roster_package(actor: ActorProfile) -> dict[str, Path]:
+    """Write full roster folder: profile PDF/MD + casting prompt."""
+    actor_dir = actor.roster_dir()
+    casting_dir = actor.casting_shot_output_dir()
+    casting_dir.mkdir(parents=True, exist_ok=True)
+
+    md_path, pdf_path = generate_actor_profile(actor, actor_dir)
+    prompt_path = casting_dir / "casting_prompt.txt"
+    prompt_path.write_text(actor.build_actor_casting_shot_prompt() + "\n", encoding="utf-8")
+
+    paths: dict[str, Path] = {"casting_prompt": prompt_path.resolve()}
+    if md_path:
+        paths["markdown"] = md_path.resolve()
+    if pdf_path:
+        paths["pdf"] = pdf_path.resolve()
+    return paths
 
 
 # --- Preset profiles (CLI / quick generation) ---

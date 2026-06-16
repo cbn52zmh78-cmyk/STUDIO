@@ -1,0 +1,674 @@
+{
+  "generated": "2026-06-16T09:28:04",
+  "total": 50,
+  "female_count": 25,
+  "male_count": 25,
+  "by_gender": {
+    "female": [
+      {
+        "stage_name": "Elinor Trevelyan",
+        "age": 26,
+        "world_region": "europe_west",
+        "ethnicity": "White British",
+        "mood_modifiers": [
+          "reserved",
+          "wry",
+          "steadfast"
+        ],
+        "path": "actors_roster/female/europe_west/Elinor_Trevelyan",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Elinor_Trevelyan\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Valentina Moreau",
+        "age": 47,
+        "world_region": "europe_west",
+        "ethnicity": "French-Algerian",
+        "mood_modifiers": [
+          "charming",
+          "commanding",
+          "knowing"
+        ],
+        "path": "actors_roster/female/europe_west/Valentina_Moreau",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Valentina_Moreau\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Sofia Andersson",
+        "age": 29,
+        "world_region": "europe_west",
+        "ethnicity": "Swedish",
+        "mood_modifiers": [
+          "observant",
+          "cool",
+          "deadpan"
+        ],
+        "path": "actors_roster/female/europe_west/Sofia_Andersson",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Sofia_Andersson\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Chiara Romano",
+        "age": 34,
+        "world_region": "europe_west",
+        "ethnicity": "Italian",
+        "mood_modifiers": [
+          "witty",
+          "passionate",
+          "volatile"
+        ],
+        "path": "actors_roster/female/europe_west/Chiara_Romano",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Chiara_Romano\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Emma Larsen",
+        "age": 31,
+        "world_region": "europe_west",
+        "ethnicity": "Norwegian",
+        "mood_modifiers": [
+          "wry",
+          "steady",
+          "blunt"
+        ],
+        "path": "actors_roster/female/europe_west/Emma_Larsen",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Emma_Larsen\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Maeve O'Sullivan",
+        "age": 28,
+        "world_region": "europe_west",
+        "ethnicity": "Irish",
+        "mood_modifiers": [
+          "whimsical",
+          "blunt",
+          "warm"
+        ],
+        "path": "actors_roster/female/europe_west/Maeve_O_Sullivan",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_west\\Maeve_O_Sullivan\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Anastasia Volkov",
+        "age": 33,
+        "world_region": "europe_east",
+        "ethnicity": "Russian-American",
+        "mood_modifiers": [
+          "icy",
+          "layered",
+          "precise"
+        ],
+        "path": "actors_roster/female/europe_east/Anastasia_Volkov",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\europe_east\\Anastasia_Volkov\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Rachel Cohen",
+        "age": 36,
+        "world_region": "north_america",
+        "ethnicity": "Jewish-American",
+        "mood_modifiers": [
+          "sardonic",
+          "sharp",
+          "warm"
+        ],
+        "path": "actors_roster/female/north_america/Rachel_Cohen",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\north_america\\Rachel_Cohen\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Hana Park",
+        "age": 24,
+        "world_region": "north_america",
+        "ethnicity": "Korean-American",
+        "mood_modifiers": [
+          "polished",
+          "sassy",
+          "competitive"
+        ],
+        "path": "actors_roster/female/north_america/Hana_Park",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\north_america\\Hana_Park\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Bridget Walsh",
+        "age": 39,
+        "world_region": "north_america",
+        "ethnicity": "Irish-American",
+        "mood_modifiers": [
+          "gruff",
+          "loyal",
+          "funny"
+        ],
+        "path": "actors_roster/female/north_america/Bridget_Walsh",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\north_america\\Bridget_Walsh\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Aiko Nakamura",
+        "age": 26,
+        "world_region": "east_asia",
+        "ethnicity": "Japanese-American",
+        "mood_modifiers": [
+          "precise",
+          "reserved",
+          "dry"
+        ],
+        "path": "actors_roster/female/east_asia/Aiko_Nakamura",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\east_asia\\Aiko_Nakamura\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Yuki Tanaka",
+        "age": 22,
+        "world_region": "east_asia",
+        "ethnicity": "Japanese",
+        "mood_modifiers": [
+          "playful",
+          "deadpan",
+          "earnest"
+        ],
+        "path": "actors_roster/female/east_asia/Yuki_Tanaka",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\east_asia\\Yuki_Tanaka\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Mei-Ling Chen",
+        "age": 27,
+        "world_region": "east_asia",
+        "ethnicity": "Taiwanese",
+        "mood_modifiers": [
+          "bright",
+          "earnest",
+          "resilient"
+        ],
+        "path": "actors_roster/female/east_asia/Mei_Ling_Chen",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\east_asia\\Mei_Ling_Chen\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Linh Nguyen",
+        "age": 25,
+        "world_region": "southeast_asia",
+        "ethnicity": "Vietnamese-American",
+        "mood_modifiers": [
+          "gentle",
+          "mischievous",
+          "sensitive"
+        ],
+        "path": "actors_roster/female/southeast_asia/Linh_Nguyen",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\southeast_asia\\Linh_Nguyen\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Priya Malhotra",
+        "age": 37,
+        "world_region": "south_asia",
+        "ethnicity": "Indian-American",
+        "mood_modifiers": [
+          "witty",
+          "elegant",
+          "firm"
+        ],
+        "path": "actors_roster/female/south_asia/Priya_Malhotra",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\south_asia\\Priya_Malhotra\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Amara Singh",
+        "age": 30,
+        "world_region": "south_asia",
+        "ethnicity": "British Indian",
+        "mood_modifiers": [
+          "confident",
+          "teasing",
+          "fierce"
+        ],
+        "path": "actors_roster/female/south_asia/Amara_Singh",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\south_asia\\Amara_Singh\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Zara Adebayo",
+        "age": 28,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Nigerian-American",
+        "mood_modifiers": [
+          "bold",
+          "magnetic",
+          "warm"
+        ],
+        "path": "actors_roster/female/sub_saharan_africa/Zara_Adebayo",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\sub_saharan_africa\\Zara_Adebayo\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Nadia Okoro",
+        "age": 42,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Nigerian-British",
+        "mood_modifiers": [
+          "commanding",
+          "dry",
+          "principled"
+        ],
+        "path": "actors_roster/female/sub_saharan_africa/Nadia_Okoro",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\sub_saharan_africa\\Nadia_Okoro\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Grace Okonkwo",
+        "age": 23,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Ghanaian",
+        "mood_modifiers": [
+          "radiant",
+          "honest",
+          "spirited"
+        ],
+        "path": "actors_roster/female/sub_saharan_africa/Grace_Okonkwo",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\sub_saharan_africa\\Grace_Okonkwo\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Bridget Okafor",
+        "age": 35,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Kenyan-British",
+        "mood_modifiers": [
+          "ambitious",
+          "warm",
+          "incisive"
+        ],
+        "path": "actors_roster/female/sub_saharan_africa/Bridget_Okafor",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\sub_saharan_africa\\Bridget_Okafor\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Isabella Vargas",
+        "age": 29,
+        "world_region": "latin_america",
+        "ethnicity": "Mexican-American",
+        "mood_modifiers": [
+          "passionate",
+          "fiery",
+          "loyal"
+        ],
+        "path": "actors_roster/female/latin_america/Isabella_Vargas",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\latin_america\\Isabella_Vargas\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Carmen Delgado",
+        "age": 32,
+        "world_region": "latin_america",
+        "ethnicity": "Colombian",
+        "mood_modifiers": [
+          "vivacious",
+          "strategic",
+          "defiant"
+        ],
+        "path": "actors_roster/female/latin_america/Carmen_Delgado",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\latin_america\\Carmen_Delgado\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Fatima Al-Hassan",
+        "age": 28,
+        "world_region": "middle_east_north_africa",
+        "ethnicity": "Moroccan-French",
+        "mood_modifiers": [
+          "poised",
+          "fierce",
+          "observant"
+        ],
+        "path": "actors_roster/female/middle_east_north_africa/Fatima_Al_Hassan",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\middle_east_north_africa\\Fatima_Al_Hassan\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Layla Mansour",
+        "age": 31,
+        "world_region": "middle_east_north_africa",
+        "ethnicity": "Lebanese-Canadian",
+        "mood_modifiers": [
+          "eloquent",
+          "guarded",
+          "empathetic"
+        ],
+        "path": "actors_roster/female/middle_east_north_africa/Layla_Mansour",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\middle_east_north_africa\\Layla_Mansour\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Tessa Walsh",
+        "age": 27,
+        "world_region": "oceania_pacific",
+        "ethnicity": "Australian",
+        "mood_modifiers": [
+          "laid-back",
+          "charming",
+          "stubborn"
+        ],
+        "path": "actors_roster/female/oceania_pacific/Tessa_Walsh",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\female\\oceania_pacific\\Tessa_Walsh\\actor_profile.pdf"
+      }
+    ],
+    "male": [
+      {
+        "stage_name": "James Whitmore",
+        "age": 38,
+        "world_region": "europe_west",
+        "ethnicity": "White British",
+        "mood_modifiers": [
+          "stoic",
+          "dry",
+          "dependable"
+        ],
+        "path": "actors_roster/male/europe_west/James_Whitmore",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_west\\James_Whitmore\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Pierre Dubois",
+        "age": 41,
+        "world_region": "europe_west",
+        "ethnicity": "French",
+        "mood_modifiers": [
+          "sophisticated",
+          "mocking",
+          "charismatic"
+        ],
+        "path": "actors_roster/male/europe_west/Pierre_Dubois",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_west\\Pierre_Dubois\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Lars Eriksson",
+        "age": 34,
+        "world_region": "europe_west",
+        "ethnicity": "Swedish",
+        "mood_modifiers": [
+          "laconic",
+          "dependable",
+          "gentle"
+        ],
+        "path": "actors_roster/male/europe_west/Lars_Eriksson",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_west\\Lars_Eriksson\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Marco Esposito",
+        "age": 36,
+        "world_region": "europe_west",
+        "ethnicity": "Italian",
+        "mood_modifiers": [
+          "passionate",
+          "theatrical",
+          "loyal"
+        ],
+        "path": "actors_roster/male/europe_west/Marco_Esposito",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_west\\Marco_Esposito\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Finn MacAllister",
+        "age": 33,
+        "world_region": "europe_west",
+        "ethnicity": "Scottish",
+        "mood_modifiers": [
+          "gruff",
+          "protective",
+          "wry"
+        ],
+        "path": "actors_roster/male/europe_west/Finn_Macallister",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_west\\Finn_Macallister\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Dmitri Kozlov",
+        "age": 40,
+        "world_region": "europe_east",
+        "ethnicity": "Russian",
+        "mood_modifiers": [
+          "brooding",
+          "precise",
+          "intense"
+        ],
+        "path": "actors_roster/male/europe_east/Dmitri_Kozlov",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_east\\Dmitri_Kozlov\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Tomas Novak",
+        "age": 26,
+        "world_region": "europe_east",
+        "ethnicity": "Czech",
+        "mood_modifiers": [
+          "quirky",
+          "earnest",
+          "anxious"
+        ],
+        "path": "actors_roster/male/europe_east/Tomas_Novak",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_east\\Tomas_Novak\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Viktor Petrov",
+        "age": 35,
+        "world_region": "europe_east",
+        "ethnicity": "Ukrainian-Canadian",
+        "mood_modifiers": [
+          "guarded",
+          "dry",
+          "resilient"
+        ],
+        "path": "actors_roster/male/europe_east/Viktor_Petrov",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\europe_east\\Viktor_Petrov\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Marcus Cole",
+        "age": 32,
+        "world_region": "north_america",
+        "ethnicity": "African American",
+        "mood_modifiers": [
+          "charming",
+          "easygoing",
+          "steadfast"
+        ],
+        "path": "actors_roster/male/north_america/Marcus_Cole",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\north_america\\Marcus_Cole\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Connor Mitchell",
+        "age": 29,
+        "world_region": "north_america",
+        "ethnicity": "Irish-American",
+        "mood_modifiers": [
+          "roguish",
+          "loyal",
+          "quick"
+        ],
+        "path": "actors_roster/male/north_america/Connor_Mitchell",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\north_america\\Connor_Mitchell\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Elijah Brooks",
+        "age": 37,
+        "world_region": "north_america",
+        "ethnicity": "African American",
+        "mood_modifiers": [
+          "intense",
+          "protective",
+          "measured"
+        ],
+        "path": "actors_roster/male/north_america/Elijah_Brooks",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\north_america\\Elijah_Brooks\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Kenji Sato",
+        "age": 34,
+        "world_region": "east_asia",
+        "ethnicity": "Japanese",
+        "mood_modifiers": [
+          "disciplined",
+          "subtle",
+          "honorable"
+        ],
+        "path": "actors_roster/male/east_asia/Kenji_Sato",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\east_asia\\Kenji_Sato\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Wei Zhang",
+        "age": 31,
+        "world_region": "east_asia",
+        "ethnicity": "Chinese-American",
+        "mood_modifiers": [
+          "strategic",
+          "reserved",
+          "witty"
+        ],
+        "path": "actors_roster/male/east_asia/Wei_Zhang",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\east_asia\\Wei_Zhang\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Theo Nakamura",
+        "age": 25,
+        "world_region": "east_asia",
+        "ethnicity": "Japanese-American",
+        "mood_modifiers": [
+          "cool",
+          "playful",
+          "sarcastic"
+        ],
+        "path": "actors_roster/male/east_asia/Theo_Nakamura",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\east_asia\\Theo_Nakamura\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Arjun Mehta",
+        "age": 30,
+        "world_region": "south_asia",
+        "ethnicity": "Indian",
+        "mood_modifiers": [
+          "thoughtful",
+          "witty",
+          "romantic"
+        ],
+        "path": "actors_roster/male/south_asia/Arjun_Mehta",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\south_asia\\Arjun_Mehta\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Ravi Shankar",
+        "age": 38,
+        "world_region": "south_asia",
+        "ethnicity": "British Sri Lankan",
+        "mood_modifiers": [
+          "gentle",
+          "observant",
+          "patient"
+        ],
+        "path": "actors_roster/male/south_asia/Ravi_Shankar",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\south_asia\\Ravi_Shankar\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Oluwaseun Bakare",
+        "age": 33,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Nigerian",
+        "mood_modifiers": [
+          "confident",
+          "persuasive",
+          "magnetic"
+        ],
+        "path": "actors_roster/male/sub_saharan_africa/Oluwaseun_Bakare",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\sub_saharan_africa\\Oluwaseun_Bakare\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Malik Diallo",
+        "age": 29,
+        "world_region": "sub_saharan_africa",
+        "ethnicity": "Senegalese-French",
+        "mood_modifiers": [
+          "elegant",
+          "provocative",
+          "cool"
+        ],
+        "path": "actors_roster/male/sub_saharan_africa/Malik_Diallo",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\sub_saharan_africa\\Malik_Diallo\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Diego Morales",
+        "age": 28,
+        "world_region": "latin_america",
+        "ethnicity": "Mexican",
+        "mood_modifiers": [
+          "charismatic",
+          "hot-tempered",
+          "soulful"
+        ],
+        "path": "actors_roster/male/latin_america/Diego_Morales",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\latin_america\\Diego_Morales\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Rafael Costa",
+        "age": 35,
+        "world_region": "latin_america",
+        "ethnicity": "Brazilian",
+        "mood_modifiers": [
+          "flirtatious",
+          "soulful",
+          "warm"
+        ],
+        "path": "actors_roster/male/latin_america/Rafael_Costa",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\latin_america\\Rafael_Costa\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Carlos Mendez",
+        "age": 42,
+        "world_region": "latin_america",
+        "ethnicity": "Argentinian",
+        "mood_modifiers": [
+          "melancholic",
+          "magnetic",
+          "proud"
+        ],
+        "path": "actors_roster/male/latin_america/Carlos_Mendez",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\latin_america\\Carlos_Mendez\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Amir Khalil",
+        "age": 32,
+        "world_region": "middle_east_north_africa",
+        "ethnicity": "Egyptian-American",
+        "mood_modifiers": [
+          "smooth",
+          "principled",
+          "charming"
+        ],
+        "path": "actors_roster/male/middle_east_north_africa/Amir_Khalil",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\middle_east_north_africa\\Amir_Khalil\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Hassan Odeh",
+        "age": 36,
+        "world_region": "middle_east_north_africa",
+        "ethnicity": "Jordanian-British",
+        "mood_modifiers": [
+          "calm",
+          "sharp",
+          "watchful"
+        ],
+        "path": "actors_roster/male/middle_east_north_africa/Hassan_Odeh",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\middle_east_north_africa\\Hassan_Odeh\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Sam Brody",
+        "age": 27,
+        "world_region": "oceania_pacific",
+        "ethnicity": "Australian",
+        "mood_modifiers": [
+          "irreverent",
+          "loyal",
+          "easy"
+        ],
+        "path": "actors_roster/male/oceania_pacific/Sam_Brody",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\oceania_pacific\\Sam_Brody\\actor_profile.pdf"
+      },
+      {
+        "stage_name": "Jayden Tau",
+        "age": 24,
+        "world_region": "oceania_pacific",
+        "ethnicity": "M\u0101ori-New Zealander",
+        "mood_modifiers": [
+          "grounded",
+          "playful",
+          "proud"
+        ],
+        "path": "actors_roster/male/oceania_pacific/Jayden_Tau",
+        "pdf": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\actors_roster\\male\\oceania_pacific\\Jayden_Tau\\actor_profile.pdf"
+      }
+    ]
+  },
+  "regions": [
+    "east_asia",
+    "europe_east",
+    "europe_west",
+    "latin_america",
+    "middle_east_north_africa",
+    "north_america",
+    "oceania_pacific",
+    "south_asia",
+    "southeast_asia",
+    "sub_saharan_africa"
+  ]
+}
