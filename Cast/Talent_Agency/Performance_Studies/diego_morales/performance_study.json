@@ -1,0 +1,39 @@
+{
+  "talent_id": "diego_morales",
+  "display_name": "Diego Morales",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\latin_america\\Diego_Morales",
+  "gender": "male",
+  "world_region": "latin_america",
+  "age_locked": 28,
+  "archetype_tags": [
+    "Hot-headed lead",
+    "Musician past",
+    "Charismatic rebel"
+  ],
+  "performance_style": "Music in movement; temper in jaw.",
+  "voice_notes": "Gravelly tenor; Spanish song phrasing.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.548076"
+}

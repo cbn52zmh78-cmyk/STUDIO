@@ -27,7 +27,12 @@ Studio/
 │   ├── actors_roster/       ← 50+ cast actors (profiles + casting)
 │   ├── CONCEPTS/            ← Pre-roster concept characters
 │   ├── GFE/                 ← 20 GFE actress asset folders
-│   └── Magazine_Assets/     ← 10 editorial model folders
+│
+├── MAGAZINE/                ← In-universe showcase (parent — by medium)
+│   ├── Editorial/Models/    ← 10 supermodel roster
+│   ├── Film/ Video/ Runway/ Television/ Promos/
+│   ├── Profiles/ History/ Audio/
+│   └── _Catalog/
 │
 ├── Productions/             ← Active shows, scenes, deliverables
 │   ├── Narrative/           ← PI_Story, Test_Scenes (Plantagenet, etc.)
@@ -105,7 +110,7 @@ python artifacts/core/master_launcher.py
 | Ship a render | `renders/approved/` |
 | Lock a rule | `Canons/` |
 | GFE assets | `Cast/GFE/` (scripts in sibling `GFE/` repo) |
-| Magazine assets | `Cast/Magazine_Assets/` (scripts in `MAGAZINE/` repo) |
+| MAGAZINE showcase | `MAGAZINE/` (assets + `MAGAZINE/scripts/`) |
 
 ---
 

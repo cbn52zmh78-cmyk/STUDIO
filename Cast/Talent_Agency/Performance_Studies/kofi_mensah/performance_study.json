@@ -1,0 +1,39 @@
+{
+  "talent_id": "kofi_mensah",
+  "display_name": "Kofi Mensah",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\sub_saharan_africa\\Kofi_Mensah",
+  "gender": "male",
+  "world_region": "sub_saharan_africa",
+  "age_locked": 28,
+  "archetype_tags": [
+    "Global campaign lead",
+    "Romantic drama hero",
+    "Athlete-turned-actor"
+  ],
+  "performance_style": "Physical honesty; joy and grief both full-body.",
+  "voice_notes": "Warm Ghanaian English; laugh lines in voice when relaxed.",
+  "agency_status": "development",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": false,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.536025"
+}

@@ -1,0 +1,39 @@
+{
+  "talent_id": "ethan_shaw",
+  "display_name": "Ethan Shaw",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\oceania_pacific\\Ethan_Shaw",
+  "gender": "male",
+  "world_region": "oceania_pacific",
+  "age_locked": 29,
+  "archetype_tags": [
+    "Coastal action lead",
+    "Eco-thriller hero",
+    "Surf-noir romantic"
+  ],
+  "performance_style": "Physical authenticity; silence carries weight.",
+  "voice_notes": "Relaxed New Zealand baritone; gravel under stress.",
+  "agency_status": "development",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": false,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.539931"
+}

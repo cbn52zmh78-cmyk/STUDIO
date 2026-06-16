@@ -1,0 +1,615 @@
+{
+  "synced_at": "2026-06-16T18:43:38.603412",
+  "total_talent": 100,
+  "by_source": {
+    "actors_roster": 70,
+    "gfe": 20,
+    "magazine_editorial": 10
+  },
+  "by_status": {
+    "plate_locked": 80,
+    "development": 20
+  },
+  "talent": [
+    {
+      "talent_id": "kofi_mensah",
+      "display_name": "Kofi Mensah",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "malik_diallo",
+      "display_name": "Malik Diallo",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "oluwaseun_bakare",
+      "display_name": "Oluwaseun Bakare",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "arjun_mehta",
+      "display_name": "Arjun Mehta",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "ravi_shankar",
+      "display_name": "Ravi Shankar",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "vikram_rathore",
+      "display_name": "Vikram Rathore",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "ethan_shaw",
+      "display_name": "Ethan Shaw",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "jayden_tau",
+      "display_name": "Jayden Tau",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "sam_brody",
+      "display_name": "Sam Brody",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "connor_mitchell",
+      "display_name": "Connor Mitchell",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "elijah_brooks",
+      "display_name": "Elijah Brooks",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "julian_cross",
+      "display_name": "Julian Cross",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "marcus_cole",
+      "display_name": "Marcus Cole",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "amir_khalil",
+      "display_name": "Amir Khalil",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "hassan_odeh",
+      "display_name": "Hassan Odeh",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "khalid_mansour",
+      "display_name": "Khalid Mansour",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "andre_silva",
+      "display_name": "Andre Silva",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "carlos_mendez",
+      "display_name": "Carlos Mendez",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "dante_reyes",
+      "display_name": "Dante Reyes",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "diego_morales",
+      "display_name": "Diego Morales",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "rafael_costa",
+      "display_name": "Rafael Costa",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "finn_macallister",
+      "display_name": "Finn Macallister",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "james_whitmore",
+      "display_name": "James Whitmore",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "lars_eriksson",
+      "display_name": "Lars Eriksson",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "luca_fontaine",
+      "display_name": "Luca Fontaine",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "marco_esposito",
+      "display_name": "Marco Esposito",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "pierre_dubois",
+      "display_name": "Pierre Dubois",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "dmitri_kozlov",
+      "display_name": "Dmitri Kozlov",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "nikolai_volsky",
+      "display_name": "Nikolai Volsky",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "tomas_novak",
+      "display_name": "Tomas Novak",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "viktor_petrov",
+      "display_name": "Viktor Petrov",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "kenji_sato",
+      "display_name": "Kenji Sato",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "ren_hayashi",
+      "display_name": "Ren Hayashi",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "theo_nakamura",
+      "display_name": "Theo Nakamura",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "wei_zhang",
+      "display_name": "Wei Zhang",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "amahle_ndaba",
+      "display_name": "Amahle Ndaba",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "bridget_okafor",
+      "display_name": "Bridget Okafor",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "grace_okonkwo",
+      "display_name": "Grace Okonkwo",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "nadia_okoro",
+      "display_name": "Nadia Okoro",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "zara_adebayo",
+      "display_name": "Zara Adebayo",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "amara_singh",
+      "display_name": "Amara Singh",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "ananya_reddy",
+      "display_name": "Ananya Reddy",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "priya_malhotra",
+      "display_name": "Priya Malhotra",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "linh_nguyen",
+      "display_name": "Linh Nguyen",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "olivia_mercer",
+      "display_name": "Olivia Mercer",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "tessa_walsh",
+      "display_name": "Tessa Walsh",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "bridget_walsh",
+      "display_name": "Bridget Walsh",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "hana_park",
+      "display_name": "Hana Park",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "rachel_cohen",
+      "display_name": "Rachel Cohen",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "serena_blake",
+      "display_name": "Serena Blake",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "fatima_al_hassan",
+      "display_name": "Fatima Al Hassan",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "layla_mansour",
+      "display_name": "Layla Mansour",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "noor_el_amir",
+      "display_name": "Noor El Amir",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "camille_reyes",
+      "display_name": "Camille Reyes",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "carmen_delgado",
+      "display_name": "Carmen Delgado",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "in_s_marchetti",
+      "display_name": "In\u00e9s Marchetti",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "isabella_vargas",
+      "display_name": "Isabella Vargas",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "chiara_romano",
+      "display_name": "Chiara Romano",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "elinor_trevelyan",
+      "display_name": "Elinor Trevelyan",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "emma_larsen",
+      "display_name": "Emma Larsen",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "maeve_o_sullivan",
+      "display_name": "Maeve O Sullivan",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "sienna_laurent",
+      "display_name": "Sienna Laurent",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "sofia_andersson",
+      "display_name": "Sofia Andersson",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "valentina_moreau",
+      "display_name": "Valentina Moreau",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "anastasia_volkov",
+      "display_name": "Anastasia Volkov",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "katya_morozova",
+      "display_name": "Katya Morozova",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "aiko_nakamura",
+      "display_name": "Aiko Nakamura",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "ji_yeon_park",
+      "display_name": "Ji Yeon Park",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "mei_ling_chen",
+      "display_name": "Mei Ling Chen",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "yuki_tanaka",
+      "display_name": "Yuki Tanaka",
+      "roster_source": "actors_roster",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_aiko",
+      "display_name": "Aiko",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_ember",
+      "display_name": "Ember",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_hana",
+      "display_name": "Hana",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_iris",
+      "display_name": "Iris",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_jade",
+      "display_name": "Jade",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_kira",
+      "display_name": "Kira",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_luna",
+      "display_name": "Luna",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_lyra",
+      "display_name": "Lyra",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_mika",
+      "display_name": "Mika",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_niko",
+      "display_name": "Niko",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_nova",
+      "display_name": "Nova",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_raven",
+      "display_name": "Raven",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_rin",
+      "display_name": "Rin",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_sage",
+      "display_name": "Sage",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_scarlet",
+      "display_name": "Scarlet",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_sora",
+      "display_name": "Sora",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_vesper",
+      "display_name": "Vesper",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_violet",
+      "display_name": "Violet",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_willow",
+      "display_name": "Willow",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "gfe_yume",
+      "display_name": "Yume",
+      "roster_source": "gfe",
+      "has_casting_jpg": true
+    },
+    {
+      "talent_id": "mag_anya_petrova",
+      "display_name": "Anya Petrova",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_freya_lind",
+      "display_name": "Freya Lind",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_isolde_moreau",
+      "display_name": "Isolde Moreau",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_liora_voss",
+      "display_name": "Liora Voss",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_mei_lin_chen",
+      "display_name": "Mei Lin Chen",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_nadia_okoro",
+      "display_name": "Nadia Okoro",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_priya_singh",
+      "display_name": "Priya Singh",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_sofia_alvarez",
+      "display_name": "Sofia Alvarez",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_valentina_rossi",
+      "display_name": "Valentina Rossi",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    },
+    {
+      "talent_id": "mag_zara_khan",
+      "display_name": "Zara Khan",
+      "roster_source": "magazine_editorial",
+      "has_casting_jpg": false
+    }
+  ]
+}

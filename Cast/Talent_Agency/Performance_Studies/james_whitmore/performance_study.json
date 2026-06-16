@@ -1,0 +1,39 @@
+{
+  "talent_id": "james_whitmore",
+  "display_name": "James Whitmore",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\europe_west\\James_Whitmore",
+  "gender": "male",
+  "world_region": "europe_west",
+  "age_locked": 38,
+  "archetype_tags": [
+    "Stoic lead",
+    "Military officer",
+    "Dry mentor"
+  ],
+  "performance_style": "Economy and weight; stillness sells rank.",
+  "voice_notes": "Low steady baritone; Yorkshire slips when tired.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.550333"
+}

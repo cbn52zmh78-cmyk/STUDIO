@@ -1,0 +1,39 @@
+{
+  "talent_id": "andre_silva",
+  "display_name": "Andre Silva",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\latin_america\\Andre_Silva",
+  "gender": "male",
+  "world_region": "latin_america",
+  "age_locked": 27,
+  "archetype_tags": [
+    "Beach romance lead",
+    "Sports drama hero",
+    "Campaign golden boy"
+  ],
+  "performance_style": "Physical joy; stunts sell stakes.",
+  "voice_notes": "Bright Brazilian Portuguese; English sunny coastal.",
+  "agency_status": "development",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": false,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.546203"
+}

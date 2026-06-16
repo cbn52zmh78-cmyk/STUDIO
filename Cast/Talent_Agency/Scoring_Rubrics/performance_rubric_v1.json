@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "scale": "0-10",
+  "dimensions": {
+    "emotional_range": "Emotional range & believability",
+    "physical_continuity": "Face/body/wardrobe continuity across takes",
+    "camera_presence": "Eye line, stillness, motivated reaction",
+    "voice_direct_address": "Direct-to-camera / dialogue delivery",
+    "archetype_clarity": "Archetype reads clearly on first frame",
+    "movement_physics": "Gesture, fabric, weight \u2014 physical truth"
+  },
+  "agency_ready_threshold": 7.0,
+  "min_scored_dimensions": 4,
+  "statuses": {
+    "development": "Profile exists; casting plate not locked \u2014 not cleared for hero production.",
+    "plate_locked": "3-view or hero plate locked; performance study not complete.",
+    "performance_review": "Scene studies logged; scores being finalized by agency team.",
+    "agency_ready": "Performance rubric passed; cleared for slate casting.",
+    "represented": "Active on producer slate \u2014 priority representation."
+  }
+}

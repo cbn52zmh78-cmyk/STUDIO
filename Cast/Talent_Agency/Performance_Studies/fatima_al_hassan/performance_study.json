@@ -1,0 +1,39 @@
+{
+  "talent_id": "fatima_al_hassan",
+  "display_name": "Fatima Al Hassan",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\middle_east_north_africa\\Fatima_Al_Hassan",
+  "gender": "female",
+  "world_region": "middle_east_north_africa",
+  "age_locked": 28,
+  "archetype_tags": [
+    "Fashion-world lead",
+    "Poised outsider",
+    "Quiet rebel"
+  ],
+  "performance_style": "Still posture; eyes carry subtext.",
+  "voice_notes": "French precision; Arabic warmth in family scenes.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.569753"
+}

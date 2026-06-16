@@ -1,0 +1,39 @@
+{
+  "talent_id": "ji_yeon_park",
+  "display_name": "Ji Yeon Park",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\east_asia\\Ji_Yeon_Park",
+  "gender": "female",
+  "world_region": "east_asia",
+  "age_locked": 23,
+  "archetype_tags": [
+    "K-drama lead beauty",
+    "Idol-to-actor crossover",
+    "Melancholy romantic"
+  ],
+  "performance_style": "Reactive listening; tears without melodrama.",
+  "voice_notes": "Soft Seoul standard; English gentle and clear.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.582498"
+}

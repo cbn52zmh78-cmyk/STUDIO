@@ -1,0 +1,39 @@
+{
+  "talent_id": "rafael_costa",
+  "display_name": "Rafael Costa",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\latin_america\\Rafael_Costa",
+  "gender": "male",
+  "world_region": "latin_america",
+  "age_locked": 35,
+  "archetype_tags": [
+    "Romantic lead",
+    "Flirtatious neighbor",
+    "Soulful athlete"
+  ],
+  "performance_style": "Physical grace; smile as punctuation.",
+  "voice_notes": "Warm Portuguese-tinged English.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.548901"
+}

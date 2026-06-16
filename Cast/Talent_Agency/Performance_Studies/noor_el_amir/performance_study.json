@@ -1,0 +1,39 @@
+{
+  "talent_id": "noor_el_amir",
+  "display_name": "Noor El Amir",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\middle_east_north_africa\\Noor_El_Amir",
+  "gender": "female",
+  "world_region": "middle_east_north_africa",
+  "age_locked": 27,
+  "archetype_tags": [
+    "Mediterranean muse",
+    "Political drama beauty",
+    "Old-money mystery"
+  ],
+  "performance_style": "Regal micro-expressions; stillness as power.",
+  "voice_notes": "Melodic Levantine Arabic; French purr in English scenes.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.571234"
+}

@@ -1,0 +1,39 @@
+{
+  "talent_id": "layla_mansour",
+  "display_name": "Layla Mansour",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\middle_east_north_africa\\Layla_Mansour",
+  "gender": "female",
+  "world_region": "middle_east_north_africa",
+  "age_locked": 31,
+  "archetype_tags": [
+    "War-zone journalist",
+    "Eloquent defender",
+    "Guarded romantic"
+  ],
+  "performance_style": "Words as weapons and bandages.",
+  "voice_notes": "Trilingual code-switch; Arabic poetry cadence.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.570571"
+}

@@ -1,0 +1,39 @@
+{
+  "talent_id": "jayden_tau",
+  "display_name": "Jayden Tau",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\oceania_pacific\\Jayden_Tau",
+  "gender": "male",
+  "world_region": "oceania_pacific",
+  "age_locked": 24,
+  "archetype_tags": [
+    "Grounded warrior lead",
+    "Community anchor",
+    "Playful giant"
+  ],
+  "performance_style": "Physical power with gentle hands.",
+  "voice_notes": "Deep warm baritone; Te Reo ceremonial cadence.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.540480"
+}

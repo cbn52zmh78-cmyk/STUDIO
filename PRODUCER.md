@@ -22,6 +22,25 @@
 
 ---
 
+## In-Universe Rule (MAGAZINE & consumer-facing assets)
+
+Present the universe **as if it exists** — real careers, real releases, real editorial. No meta-AI language in magazine copy, cover lines, or campaign text. Synthetic origin stays in the production layer (`Producers_Office/`, compliance, counsel). See `MAGAZINE/UNIVERSE.md`.
+
+## Real World References (locked)
+
+The universe lives **inside** the real world — not apart from it.
+
+| Allowed freely (text) | Clearance first (visual / license) |
+|-----------------------|-------------------------------------|
+| Public figure name drops, comparisons, opinion | Living person's AI likeness |
+| Real places, festivals, publications as context | Logos / trademarks prominent in frame |
+| Historical facts (History vertical) | Music, footage, brand partnerships in final cut |
+| Licensed material **with file in Release_Tracker** | Implied endorsement without deal |
+
+Full policy: `Canons/Real_World_Reference_Policy_v1.md`
+
+---
+
 ## Hard Stops
 
 - Sexual content involving minors or ambiguous youth
@@ -38,8 +57,20 @@
 | Canon | Path |
 |-------|------|
 | Intimacy Protocol v1.3 | `Canons/Cinematic_Intimacy_Safe_Legal_Protocol_v1.3.md` |
+| Real World References | `Canons/Real_World_Reference_Policy_v1.md` |
+| MAGAZINE Universe | `MAGAZINE/UNIVERSE.md` |
 | Age Policy | `Research/Age_Policy_Locked.md` |
 | CARA ratings | Run `artifacts/compliance/content_rating_compliance_guard.py` |
+
+---
+
+## Talent Agency Hold (active)
+
+No `renders/approved/` for talent below **agency_ready** until the team finishes performance studies.
+
+- Charter: `Cast/Talent_Agency/AGENCY_CHARTER.md`
+- Sync roster: `python artifacts/talent/performance_study_manager.py sync`
+- Study phase only — plates, scene reviews, rubric scores
 
 ---
 

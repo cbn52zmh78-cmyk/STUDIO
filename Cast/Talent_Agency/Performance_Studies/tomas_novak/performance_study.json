@@ -1,0 +1,39 @@
+{
+  "talent_id": "tomas_novak",
+  "display_name": "Tomas Novak",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\europe_east\\Tomas_Novak",
+  "gender": "male",
+  "world_region": "europe_east",
+  "age_locked": 26,
+  "archetype_tags": [
+    "Quirky indie lead",
+    "Coder sidekick",
+    "Earnest romantic"
+  ],
+  "performance_style": "Naturalistic fidget; honesty in pause.",
+  "voice_notes": "Soft tenor; rapid Czech-English code-switch.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.554674"
+}

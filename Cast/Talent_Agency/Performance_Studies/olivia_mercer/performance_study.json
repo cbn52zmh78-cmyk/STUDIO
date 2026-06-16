@@ -1,0 +1,39 @@
+{
+  "talent_id": "olivia_mercer",
+  "display_name": "Olivia Mercer",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\oceania_pacific\\Olivia_Mercer",
+  "gender": "female",
+  "world_region": "oceania_pacific",
+  "age_locked": 27,
+  "archetype_tags": [
+    "Coastal goddess lead",
+    "Action-romance beauty",
+    "Surf-noir heroine"
+  ],
+  "performance_style": "Physical honesty; stunts sell emotional stakes.",
+  "voice_notes": "Bright Australian coastal; can drop to gravel under stress.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.564606"
+}

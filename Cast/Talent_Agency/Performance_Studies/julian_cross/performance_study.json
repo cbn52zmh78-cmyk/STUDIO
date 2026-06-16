@@ -1,0 +1,39 @@
+{
+  "talent_id": "julian_cross",
+  "display_name": "Julian Cross",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\male\\north_america\\Julian_Cross",
+  "gender": "male",
+  "world_region": "north_america",
+  "age_locked": 31,
+  "archetype_tags": [
+    "Classic leading man",
+    "Political drama prince",
+    "Old-money rebel"
+  ],
+  "performance_style": "Leading-man eye-line; listens with jaw set.",
+  "voice_notes": "Warm mid-Atlantic baritone; can sharpen to boardroom cut.",
+  "agency_status": "development",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": false,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.542676"
+}

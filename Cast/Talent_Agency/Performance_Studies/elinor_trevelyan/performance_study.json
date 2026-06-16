@@ -1,0 +1,39 @@
+{
+  "talent_id": "elinor_trevelyan",
+  "display_name": "Elinor Trevelyan",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\europe_west\\Elinor_Trevelyan",
+  "gender": "female",
+  "world_region": "europe_west",
+  "age_locked": 26,
+  "archetype_tags": [
+    "Coastal drama lead",
+    "Period ing\u00e9nue with steel",
+    "Grief-carrier"
+  ],
+  "performance_style": "Underplayed British naturalism; emotional turns in the exhale.",
+  "voice_notes": "West Country warmth when relaxed; crisp RP under pressure.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.576098"
+}

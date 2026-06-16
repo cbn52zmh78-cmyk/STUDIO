@@ -1,0 +1,39 @@
+{
+  "talent_id": "linh_nguyen",
+  "display_name": "Linh Nguyen",
+  "roster_source": "actors_roster",
+  "roster_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Cast\\actors_roster\\female\\southeast_asia\\Linh_Nguyen",
+  "gender": "female",
+  "world_region": "southeast_asia",
+  "age_locked": 25,
+  "archetype_tags": [
+    "Immigrant story lead",
+    "Dance-driven emotion",
+    "Gentle rebel"
+  ],
+  "performance_style": "Movement-first emotion; hands tell story.",
+  "voice_notes": "Soft melodic tone; Vietnamese lullaby cadence in memory scenes.",
+  "agency_status": "plate_locked",
+  "performance_scores": {
+    "emotional_range": null,
+    "physical_continuity": null,
+    "camera_presence": null,
+    "voice_direct_address": null,
+    "archetype_clarity": null,
+    "movement_physics": null
+  },
+  "strengths": [],
+  "growth_areas": [],
+  "pairing_notes": {},
+  "scene_studies": [],
+  "casting_assets": {
+    "has_profile": true,
+    "has_casting_jpg": true,
+    "has_clips": false,
+    "has_performance_reel": false
+  },
+  "reviewer_notes": "",
+  "last_review": null,
+  "rubric_version": "1.0",
+  "created": "2026-06-16T18:43:38.563905"
+}
