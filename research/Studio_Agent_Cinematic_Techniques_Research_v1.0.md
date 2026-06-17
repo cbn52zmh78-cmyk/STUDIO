@@ -1,6 +1,6 @@
 # Studio Agent Research – Cinematic Techniques, Visual Storytelling & AI-Assisted Filmmaking
 
-**v1.0** | June 10, 2026 | Benjamin Cartwright / Cartwright Tyne Productions
+**v1.0** | June 10, 2026 | Benjamin Cartwright / Upon Tyne Productions
 
 ---
 
