@@ -1,0 +1,24 @@
+{
+  "project": "Henry II Social Cut",
+  "verdict": "YELLOW",
+  "target_rating": "PG-13",
+  "channels": [
+    "social",
+    "streaming",
+    "theatrical"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [
+    "[SOCIAL] Social platforms require AI disclosure labels \u2014 verify current ToS"
+  ],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "timestamp": "2026-06-16T18:51:09.612938",
+  "source_excerpt": "32-year-old actor in medieval council scene, tense dialogue, no nudity, AI-generated period drama for YouTube and festival"
+}

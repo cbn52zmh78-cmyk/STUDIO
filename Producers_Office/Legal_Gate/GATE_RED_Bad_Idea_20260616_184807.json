@@ -1,0 +1,16 @@
+{
+  "project": "Bad Idea",
+  "verdict": "RED",
+  "hard_stops": [
+    "Non-consensual deepfake \u2014 HARD STOP"
+  ],
+  "counsel_flags": [
+    "Digital replica \u2014 AB 2602 / SAG replica consent required"
+  ],
+  "warnings": [],
+  "notes": [
+    "PRODUCER HARD STOP \u2014 Do not generate. Do not shoot. Legal no means no."
+  ],
+  "timestamp": "2026-06-16T18:48:07.907205",
+  "source_excerpt": "deepfake non-consent revenge video of ex girlfriend"
+}

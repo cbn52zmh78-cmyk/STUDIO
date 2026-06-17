@@ -10,68 +10,49 @@ STUDIO owns director technique, prompting, reference libraries, production workf
 
 ## Producer Layout (June 2026)
 
+Full module map: [`MODULES.md`](MODULES.md) · Org chart: [`ORG_CHART.md`](ORG_CHART.md)
+
 ```
 Studio/
-├── PRODUCER.md              ← Compliance charter (read first)
-├── README.md                ← You are here
+├── PRODUCER.md              ← Chain of command (read first)
+├── MODULES.md               ← 00–20 module index
+├── ORG_CHART.md
 │
-├── Producers_Office/        ← Compliance, logs, release tracking
+├── Producers_Office/        ← Producer authority
+│   ├── SLATE/               ← Active titles (max 10)
+│   ├── Legal_Gate/          ← Gate verdict JSON
+│   ├── Call_Sheets/         ← Daily call sheets
+│   ├── Session_Logs/
 │   ├── Compliance_Reports/
 │   ├── Tool_Logs/
-│   └── Release_Tracker/     ← E&O / clearance binder scaffold
+│   └── Release_Tracker/
 │
-├── Canons/                  ← Locked production rules
-│   └── Bibles/              ← Versioned story & technique bibles
+├── Legal/                   ← HARD STOP department
+│   ├── AI_Content/ Filmmaking_IRL/ Talent_Replica/
+│   ├── Music_Clearance/ Distribution_EO/ Gate_Reports/
 │
-├── Cast/                    ← All performers & character assets
-│   ├── actors_roster/       ← 50+ cast actors (profiles + casting)
-│   ├── CONCEPTS/            ← Pre-roster concept characters
-│   ├── GFE/                 ← 20 GFE actress asset folders
+├── Pre_Production/          ← Script → breakdown → board → schedule
+├── Production/              ← Daily reports, continuity, on-set notes
+├── Post_Production/         ← Edit, color, sound, VFX, deliverables
+├── Distribution/            ← Festival, streaming, theatrical, sales
+├── Crew/                    ← Camera through transport
+├── Locations/               ← Scout, permits, releases
+├── Art_Department/          ← Props, sets, graphics
+├── Music_Sound/             ← Score, source, cues, ADR
+├── Client_Services/         ← Briefs, deliverables, feedback
+├── Modules/                 ← Logical module index
 │
-├── MAGAZINE/                ← In-universe showcase (parent — by medium)
-│   ├── Editorial/Models/    ← 10 supermodel roster
-│   ├── Film/ Video/ Runway/ Television/ Promos/
-│   ├── Profiles/ History/ Audio/
-│   └── _Catalog/
-│
-├── Productions/             ← Active shows, scenes, deliverables
-│   ├── Narrative/           ← PI_Story, Test_Scenes (Plantagenet, etc.)
-│   ├── History/             ← History-layer handoff productions
-│   ├── GFE/                 ← Per-actress scene productions
-│   ├── Editorial/           ← Magazine runway / hero campaigns
-│   └── _Scene_Production_Kit/  ← Clone for every new scene
-│
-├── Pipeline/                ← Tool-generated prompts & packs (artifacts/)
-│   ├── Model_Profiles/
-│   ├── ShotLists/
-│   ├── Video_Prompts/
-│   ├── OneTake_Prompts/
-│   ├── Refined_Prompts/
-│   ├── Negative_Prompts/
-│   ├── Grok_Video_Packs/
-│   └── …
-│
-├── Reference_Library/       ← Plates, 3D assets, metadata, index
-│   ├── plates/
-│   ├── assets/
-│   ├── Asset_Metadata/
-│   └── references_index.json
-│
-├── renders/                 ← Final outputs (gitignored)
-│   ├── approved/
-│   ├── review/
-│   └── rejected/
-│
-├── Research/                ← Technique research, session artifacts
-├── Prompt_Library/          ← Curated prompt bibles by domain
-├── Templates/               ← Blank scaffolds
-├── Development/             ← Python package, scripts, docs, skills
-│   ├── studio/              ← `pip install -e .` package root
-│   ├── scripts/
-│   └── docs/
-│
-└── archive/                 ← Retired work
+├── Cast/                    ← Performers + Talent_Agency/
+├── Productions/             ← Active narrative, GFE, History, Editorial
+├── MAGAZINE/                ← In-universe showcase by medium
+├── Pipeline/                ← Tool outputs (artifacts/)
+├── Reference_Library/
+├── renders/                 ← review → approved (Producer QC)
+├── Canons/ · Research/ · Prompt_Library/ · Development/
+└── archive/
 ```
+
+**Legal RED = hard no.** No generation, no shoot, no publish. Producer does not debate it.
 
 ---
 
@@ -101,16 +82,16 @@ python artifacts/core/master_launcher.py
 
 ## Quick Start
 
-| Task | Path |
-|------|------|
+| Task | Path / Command |
+|------|----------------|
 | Producer compliance | `PRODUCER.md` |
+| Legal gate (mandatory) | `python artifacts/legal/legal_gate.py --project "Title" --text "..."` |
+| Active slate | `Producers_Office/SLATE/` · `python artifacts/production/slate_manager.py list` |
+| Talent agency hold | `Cast/Talent_Agency/` — no `renders/approved/` until `agency_ready` |
 | Start a scene | `Productions/_Scene_Production_Kit/` |
-| Cast & characters | `Cast/` |
-| Run prompt tools | `Pipeline/` (via master launcher) |
-| Ship a render | `renders/approved/` |
-| Lock a rule | `Canons/` |
-| GFE assets | `Cast/GFE/` (scripts in sibling `GFE/` repo) |
-| MAGAZINE showcase | `MAGAZINE/` (assets + `MAGAZINE/scripts/`) |
+| Run all tools | `python artifacts/core/master_launcher.py` |
+| Ship a render | `renders/approved/` (Producer sign-off only) |
+| Client brief | `Client_Services/Briefs/` → Legal Gate first |
 
 ---
 

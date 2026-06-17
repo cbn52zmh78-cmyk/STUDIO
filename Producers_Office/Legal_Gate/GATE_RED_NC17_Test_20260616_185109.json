@@ -1,0 +1,24 @@
+{
+  "project": "NC17 Test",
+  "verdict": "RED",
+  "target_rating": "R",
+  "channels": [
+    "theatrical"
+  ],
+  "hard_stops": [
+    "[AI] Explicit adult industry content \u2014 outside studio mandate",
+    "[RATING] NC-17 is not a studio production target \u2014 HARD STOP",
+    "[RATING] Content exceeds theatrical cinema mandate \u2014 HARD STOP",
+    "[CARA] Prohibited explicit adult industry language detected."
+  ],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "NEEDS_REVISION",
+  "notes": [
+    "PRODUCER HARD STOP \u2014 Gate 0 failed. Do not generate. Do not shoot. Do not publish."
+  ],
+  "timestamp": "2026-06-16T18:51:09.765183",
+  "source_excerpt": "NC-17 graphic unsimulated sex scene"
+}

@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "updated": "2026-06-16T18:48:07.645563",
+  "projects": [
+    {
+      "id": "henry_ii_council",
+      "title": "Henry II \u2014 Bad News Council",
+      "medium": "narrative",
+      "target_rating": "PG-13",
+      "status": "talent_study",
+      "legal_gate": "pending",
+      "agency_clearance": "pending",
+      "notes": "",
+      "created": "2026-06-16T18:48:07.624164"
+    },
+    {
+      "id": "valentina_editorial",
+      "title": "Valentina Rossi \u2014 Cover Editorial",
+      "medium": "magazine_editorial",
+      "target_rating": "R",
+      "status": "talent_study",
+      "legal_gate": "pending",
+      "agency_clearance": "pending",
+      "notes": "",
+      "created": "2026-06-16T18:48:07.630001"
+    },
+    {
+      "id": "gfe_vesper_scene1",
+      "title": "GFE Vesper \u2014 Scene 1",
+      "medium": "gfe",
+      "target_rating": "R",
+      "status": "talent_study",
+      "legal_gate": "pending",
+      "agency_clearance": "pending",
+      "notes": "",
+      "created": "2026-06-16T18:48:07.635682"
+    },
+    {
+      "id": "history_marcus_aurelius",
+      "title": "History \u2014 Marcus Aurelius",
+      "medium": "documentary",
+      "target_rating": "PG",
+      "status": "development",
+      "legal_gate": "pending",
+      "agency_clearance": "pending",
+      "notes": "",
+      "created": "2026-06-16T18:48:07.640645"
+    },
+    {
+      "id": "pi_story_beat1",
+      "title": "PI Story \u2014 Lieutenant Scene",
+      "medium": "narrative",
+      "target_rating": "R",
+      "status": "development",
+      "legal_gate": "pending",
+      "agency_clearance": "pending",
+      "notes": "",
+      "created": "2026-06-16T18:48:07.645557"
+    }
+  ]
+}
