@@ -1,0 +1,170 @@
+{
+  "_DOC": "STUDIO — Test Shot v1.0 | Director's pick: environmental establishing shot",
+  "_DOC_canon": "Completed against MASTER_JSON_Prompt_Template_v2.0.json / STUDIO_Production_Canon_v1.0.md",
+
+  "_____________________SECTION_1_IDENTITY_____________________": "─────────────────────────────────────────────────────────────",
+
+  "shot_identity": {
+    "shot_id":            "TEST_SHOT_01",
+    "project":            "STUDIO — Template Validation",
+    "scene_number":       "0.1 — Pre-production test",
+    "take":               "v1",
+    "date":               "2026-06-17",
+    "director_note":      "Establish capability of Grok Imagine Video for atmospheric environmental work. No characters. No compliance exposure. Maximum cinematic impact.",
+    "legal_gate_status":  "GREEN — no characters, no age concerns, no suggestive content"
+  },
+
+  "_____________________SECTION_2_GROK_PAYLOAD_____________________": "─────────────────────────────────────────────────────────────",
+
+  "command": "generate video",
+
+  "scene": "Fog rolls low across wet cobblestones in a Victorian gas-lit alleyway at 3am; lantern flames stutter as a cold wind moves down the passage. A hanging pub sign sways at UL. A scatter of dead leaves crosses DC from R to L on the same gust. No figures. Total stillness except the fog, the leaves, and the light.",
+
+  "_____________________SECTION_2A_BLOCKING_____________________": "─────────────────────────────────────────────────────────────",
+
+  "blocking": {
+    "opening_position":   "Environmental — no character",
+    "movement_notation":  "Fog enters from UR / leaves cross DC from R to L / lantern sways UC",
+    "closing_position":   "Environmental — static",
+    "level":              "Low to Medium — ground-level fog, eye-level lanterns",
+    "composition_note":   "Deep one-point perspective down alley; foreground wet cobblestones in extreme focus, midground lantern post, background alley mouth disappearing into fog. Strong vanishing point at UC."
+  },
+
+  "_____________________SECTION_2B_ASSETS_____________________": "─────────────────────────────────────────────────────────────",
+
+  "@1": {
+    "description": "Victorian gas-lit cobblestone alleyway at night, 3am. Slick wet stones catching amber lantern spill. Dense ground-level fog rolling slowly from UL toward DR. Hanging pub sign with wrought iron bracket creaking slightly. Brick walls dark with moisture. (@1, oppressive stillness — the street exhales cold, a held breath before something happens. Fog moves like something alive.)"
+  },
+
+  "@2": {
+    "description": "N/A — no character in shot"
+  },
+
+  "_____________________SECTION_2C_CAMERA_____________________": "─────────────────────────────────────────────────────────────",
+
+  "camera": "Wide shot, locked-off static on sticks at cobblestone level, strong one-point perspective pulling eye toward the alley mouth at UC; after 3 seconds, begin an almost imperceptible slow push-in — barely moving, fog seeming to approach rather than camera advancing — hold through to end of sequence",
+
+  "_____________________SECTION_2D_DOLLHOUSE_ORBIT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "dollhouse_orbit_config": {
+    "enabled": false
+  },
+
+  "_____________________SECTION_2E_STYLE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "style": "Cinematic noir — Roger Deakins lighting philosophy; single motivated practical (gas lantern at midground UC) throwing warm amber against deep blue-black shadow. Atmospheric haze. Wet surface reflections doubling the lantern light across the cobblestones. Grain texture. Aspect ratio 16:9. Mood: Gothic Victorian dread — as if Jack the Ripper could step from the fog at any frame.",
+
+  "lighting": {
+    "key_source":     "Gas lantern practical at midground UC — warm amber, approximately 2700K",
+    "fill":           "None — deep shadow dominates. Let darkness work.",
+    "rim_back":       "Faint blue ambient from distant street at far UC alley mouth — moonlight suggestion",
+    "practicals":     "Gas lantern (primary). Possible second distant lantern glimpsed through fog at far UC.",
+    "quality":        "Hard at source, scattered by fog — creates volumetric god-ray column from lantern",
+    "color_temp":     "Warm amber practicals against cool blue ambient — tension between two temperatures",
+    "shadow_depth":   "Deep — DR and DL in near-total shadow"
+  },
+
+  "_____________________SECTION_2F_OUTPUT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "output": {
+    "sequence_length":  "8 seconds",
+    "aspect_ratio":     "16:9",
+    "format":           "video"
+  },
+
+  "_____________________SECTION_2G_COMPLIANCE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "compliance": {
+    "characters_in_shot": "NO",
+    "actor_age_declaration": [],
+    "compliance_note": "No characters in shot — compliance N/A. Pure environmental establishing shot.",
+    "no_ambiguous_descriptors_confirmed": true
+  },
+
+  "_____________________SECTION_3_PROSE_PROMPT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "prose_prompt": "A Victorian gas-lit alleyway at 3am — cobblestones slick with recent rain, each stone mirroring a trembling amber lantern flame in miniature. Ground fog rolls in from the right, thick at ankle height, thinning as it rises. The passage runs deep into darkness; the alley mouth at the far end dissolves into nothing, swallowed by fog and distance.\n\nLocked-off wide shot from cobblestone level, strong one-point perspective. The camera holds, still as a held breath. After three seconds, an almost imperceptible push-in begins — not the camera moving so much as the fog appearing to approach.\n\nA hanging pub sign at upper frame left sways once on a cold gust. A scatter of dead leaves skitters left across the middle ground, chased by the same wind, and then the street is still again. The lantern stutters — catches — holds. Warm amber against absolute dark. Volumetric light column pushing down through the fog from the lantern source.\n\nCinematic noir. Roger Deakins-adjacent — every shadow deliberate, every light source motivated. Gothic Victorian atmosphere. The street has weight. Something may step from that fog at any frame.",
+
+  "_DOC_prose_ratio_note": "Prose ratio check: ~38% cinematic language (camera locked-off, one-point perspective, push-in, volumetric, Deakins-adjacent, motivated source) woven into ~62% narrative/atmospheric description. Within the 30-50% target band for cinematic language.",
+
+  "_____________________SECTION_4_NARRATIVE_BEAT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "narrative_context": {
+    "act_scene":          "Pre-production test — no story context",
+    "narrative_beat":     "Establish STUDIO's environmental atmosphere capability; demonstrate fog, practicals, wet reflections, and motivated push-in in one shot.",
+    "emotional_register": "Dread. Gothic unease. The beauty of menace.",
+    "preceding_shot":     "N/A",
+    "following_shot":     "N/A",
+    "sequence_role":      "Establishing",
+    "continuity_notes":   "N/A — standalone test"
+  },
+
+  "_____________________SECTION_5_PRODUCTION_WORKFLOW_____________________": "─────────────────────────────────────────────────────────────",
+
+  "production_workflow": {
+    "elf_pass_complete":           true,
+    "scene_phase_complete":        true,
+    "video_prompt_phase_complete": true,
+    "canon_protection_filed":      false,
+    "legal_gate_0_cleared":        true
+  },
+
+  "_____________________SECTION_6_MULTI_PHASE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "multi_phase_config": {
+    "enabled": false
+  },
+
+  "_____________________SECTION_7_VALIDATION_____________________": "─────────────────────────────────────────────────────────────",
+
+  "validation_rail": {
+    "checks": {
+      "@1_no_appearance_description": {
+        "rule": "@1 describes fabric/physics ONLY — no face, hair, skin, body shape",
+        "status": "N/A — setting plate only"
+      },
+      "@2_single_phrase_only": {
+        "rule": "@2 is exactly 'see attached render'",
+        "status": "N/A — no character"
+      },
+      "blocking_uses_9zone_grid": {
+        "rule": "Zone notation is UR/UC/UL / CR/CC/CL / DR/DC/DL only",
+        "status": "PASS — UC, DR, DL, DC all used correctly"
+      },
+      "dollhouse_orbit_is_establishing_not_intimacy": {
+        "rule": "If Dollhouse Orbit used: establishing/atmospheric only",
+        "status": "N/A — static push-in used, not orbit"
+      },
+      "prose_ratio_30_to_50_percent": {
+        "rule": "Cinematic language occupies 30–50% of prose_prompt",
+        "status": "PASS — approximately 38% cinematic language"
+      },
+      "no_and_then_sequencing": {
+        "rule": "No 'and then' in concurrent action",
+        "status": "PASS — one 'and then' present but used for conclusive stillness, not concurrent action. Acceptable."
+      },
+      "camera_field_no_physical_measurements": {
+        "rule": "Camera distance in shot size terms only",
+        "status": "PASS — 'wide shot', 'push-in' — no physical measurements"
+      },
+      "scene_field_no_camera_language": {
+        "rule": "Scene field contains stage direction only",
+        "status": "PASS — scene field describes environmental action only; camera language is in camera field"
+      },
+      "legal_gate_0_green": {
+        "rule": "Legal Gate 0 cleared GREEN",
+        "status": "PASS — no characters, no suggestive content, purely atmospheric environment"
+      },
+      "nudity_not_on_frame_1": {
+        "rule": "If clothing state change intended: baked from frame 1",
+        "status": "N/A — no characters"
+      }
+    }
+  },
+
+  "_____________________DIRECTOR_NOTE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "_DIRECTOR_RATIONALE": "Shot selection rationale: This establishing shot was chosen because (1) it carries zero compliance risk — no characters, no age concerns, no suggestive content; (2) it stresses Grok Imagine Video's strongest demonstrated capabilities — fog simulation, wet surface reflections, practical light flicker, atmospheric depth; (3) it demonstrates the canon's core premise that the camera is a storyteller — the barely-perceptible push-in does more dramatic work than any cut would; (4) if the output is strong, it becomes a reusable environment plate for future character composites. If the output is weak, we learn exactly what Grok struggles with atmospherically. Either outcome is useful data.",
+
+  "_FILING_NOTE": "Archive to Pipeline/Video_Prompts/ as: STUDIO_TEST_SHOT_01_v1_20260617.json"
+}

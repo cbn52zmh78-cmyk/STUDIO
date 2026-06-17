@@ -1,0 +1,389 @@
+{
+  "_DOC": "STUDIO — MASTER JSON Prompt Template v2.1",
+  "_DOC_canon": "All rules derive from STUDIO_Production_Canon_v1.0.md. Do not deviate.",
+  "_DOC_version": "v2.1 — from v2.0: resolution default (480p); character behavioral direction rule; concurrent blocking style rule; @1/@2 reference clarification; 2257 prose verification",
+  "_DOC_date": "2026-06-17",
+
+  "_____________________SECTION_1_IDENTITY_____________________": "─────────────────────────────────────────────────────────────",
+
+  "shot_identity": {
+    "_DOC": "Administrative header — not sent to Grok. For production filing and slate.",
+    "shot_id":            "[SHOT_ID — e.g. S01_SHOT_03]",
+    "project":            "[PROJECT NAME]",
+    "scene_number":       "[e.g. 2.4 — Act.Scene notation]",
+    "take":               "[e.g. v1 / v2 / alt]",
+    "date":               "[YYYY-MM-DD]",
+    "director_note":      "[One line: what this shot must accomplish narratively]",
+    "legal_gate_status":  "[GREEN / YELLOW / RED — must be GREEN before generation]"
+  },
+
+  "_____________________SECTION_2_GROK_PAYLOAD_____________________": "─────────────────────────────────────────────────────────────",
+
+  "command": "generate video",
+  "_DOC_command": "Fixed. Always 'generate video'. Do not alter.",
+
+  "scene": "[PURE STAGE DIRECTION — see rules below]",
+  "_DOC_scene": [
+    "WHAT THIS FIELD IS: Stage direction only. Body action, position, movement, weight, surface contact.",
+    "WHAT THIS FIELD IS NOT: No camera language. No emotional adjectives. No 'and then' sequencing.",
+    "",
+    "CHARACTER DIRECTION RULE (hard rule): Characters/actors — write BEHAVIORAL DIRECTION ONLY.",
+    "  What are they doing. How are they moving. What is their energy/intention.",
+    "  DO NOT describe appearance (hair, skin, face, body) — the editor has the 3D render reference; Grok has the casting reference.",
+    "  EXAMPLE (correct): 'She moves with deliberate restraint — each step measured, her energy coiled, attention scanning the far corridor without urgency.'",
+    "  EXAMPLE (wrong): 'A tall dark-haired woman with olive skin and sharp cheekbones moves through the corridor.'",
+    "",
+    "SETTING/ENVIRONMENT RULE: Rich visual description IS appropriate for settings and environments.",
+    "  Grok generates environments from scratch — give it everything: materials, light behavior, spatial scale, surface detail, atmospheric conditions.",
+    "  EXAMPLE (correct): 'A vast brutalist atrium — cracked concrete columns, industrial skylights casting shafts of cold noon light onto a polished stone floor streaked with water damage; the ceiling vaults out of frame, swallowed by shadow.'",
+    "",
+    "MULTI-CHARACTER CONCURRENT MOVEMENT (hard rule): Write spatial/concurrent movement — not sequential beats.",
+    "  The relationship between bodies IS the action. Everything simultaneous.",
+    "  EXAMPLE (correct): 'She moves upstage through the corridor as he shifts into frame from the right, the gap between them closing, neither acknowledging the other — tension carried entirely through spatial geometry.'",
+    "  EXAMPLE (wrong): 'She walks forward, then he steps in from the right, then she turns to look at him.'",
+    "  NO 'and then' sequential character action chains. Concurrent action only: whilst / as / while / meanwhile.",
+    "",
+    "CONCURRENT ACTION: Use 'whilst / as / while / meanwhile'. Never 'and then' — kills simultaneity.",
+    "WEIGHT & GROUNDING: Always state surface contact and weight transfer. Characters float if not grounded.",
+    "SPATIAL RELATIONS: Must be explicit — the model does not infer position.",
+    "EXAMPLE (correct): 'She crosses from DR to CC, weight shifting to her left foot as she pauses; her right hand braces against the stone pillar whilst her head turns slowly toward UL.'",
+    "EXAMPLE (wrong): 'She walks over and then she stops and then she looks around.'"
+  ],
+
+  "_____________________SECTION_2A_BLOCKING_____________________": "─────────────────────────────────────────────────────────────",
+
+  "blocking": {
+    "_DOC": "9-zone stage grid — actor's POV facing audience. NOT A–Z or any other system. Canon §6.",
+    "_DOC_grid": [
+      "UR  UC  UL",
+      "CR  CC  CL",
+      "DR  DC  DL",
+      "U=Upstage / D=Downstage / R=Right / L=Left / C=Center — ALL from actor's perspective"
+    ],
+    "_DOC_movement_codes": {
+      "Ent": "Enter", "Ex": "Exit", "X": "Cross (move to)",
+      "p": "Pause", "u": "Move upstage", "d": "Move downstage",
+      "s": "Sit", "Kn": "Kneel", "Lie": "Lie down",
+      "R": "Rise", "t": "Turn", "a": "Aside"
+    },
+    "_DOC_notation_format": "Character + Action + Destination/Object  →  e.g. 'She X DR / Kn / faces UC'",
+    "_DOC_principles": [
+      "LEVELS: Vary High / Medium / Low. Do not play everything standing.",
+      "TRIANGLES: Position characters in triangles not lines — straight lines flatten composition.",
+      "CHEAT OUT: Characters angle toward camera even in logically profile scenes.",
+      "MULTI-CHARACTER: Notation lists all characters simultaneously — not sequentially. Spatial relationships read as a single frozen moment extended through movement."
+    ],
+    "opening_position":   "[Zone — e.g. DR]",
+    "movement_notation":  "[e.g. She X CR / p / t to face UL]",
+    "closing_position":   "[Zone — e.g. CC]",
+    "level":              "[High / Medium / Low]",
+    "composition_note":   "[Triangle / single / two-shot — and any cheat-out instruction]"
+  },
+
+  "_____________________SECTION_2B_ASSETS_____________________": "─────────────────────────────────────────────────────────────",
+
+  "@1": {
+    "_DOC": "BODY / CLOTHING PHYSICS REFERENCE — fabric weight, drape, and movement behavior ONLY. Canon §2.",
+    "_DOC_rules": [
+      "WHAT @1 IS: The body and clothing physics reference. Describes how fabric moves with the body — weight, drape, texture, swing, resistance.",
+      "DESCRIBE: Fabric weight, drape, how clothing moves with the body, texture behavior.",
+      "NEVER DESCRIBE: Hair color, skin tone, facial features, body shape — anything about the person's appearance.",
+      "BEHAVIORAL DESCRIPTOR: Add (behavioral_descriptor) for character energy, affect, how they carry themselves.",
+      "FOR SETTINGS: (@1, atmospheric energy + ambient behavior + sound design) — the setting plate is a character; direct it.",
+      "CORRECT EXAMPLE: 'Heavy charcoal wool coat, full-length, weighted hem with natural fall and slight swing on movement; silk lining catches light on turns. (@1, quiet coiled authority — she moves as if she owns every room she enters.)'",
+      "WRONG EXAMPLE: 'Beautiful dark-haired woman in a coat with olive skin and green eyes.'"
+    ],
+    "description": "[Fabric weight, drape, physics behavior] ([behavioral descriptor — energy, affect, carry])"
+  },
+
+  "@2": {
+    "_DOC": "HEAD / FACE REFERENCE — one phrase only. Canon §2. Over-describing fights the loaded image and degrades output.",
+    "_DOC_rules": [
+      "WHAT @2 IS: The head/face casting reference. Always the casting reference loaded from History — the image Grok uses to identify who the character is.",
+      "ALWAYS: 'see attached render' — nothing more. Do not describe the face; Grok reads the image.",
+      "CASTING REFERENCE SOURCE: @2 is always the casting reference from History. This is the face/head reference; it provides character identity.",
+      "BACKSIDE FOLLOW SHOTS: When shooting from behind (follow cam, backside angle), use the back panel of the casting reference as @2. Grok reads the full image; the back panel provides the rear-view reference needed to maintain character consistency from behind.",
+      "DROP @2: If the subject has transformed, been destroyed, or no longer exists in original form (Canon §9).",
+      "TWO-ACTOR MODE: When both @1 and @2 are occupied by separate characters (Canon §2 / §7)."
+    ],
+    "description": "see attached render"
+  },
+
+  "_____________________SECTION_2C_CAMERA_____________________": "─────────────────────────────────────────────────────────────",
+
+  "camera": "[SHOT SIZE + MOVEMENT TYPE + SPEED + MOTIVATION]",
+  "_DOC_camera": [
+    "SHOT SIZE = DISTANCE. Always expressed in shot size terminology — never physical measurements. Canon §5.",
+    "ALLOWED SIZES: Wide shot / medium wide / medium shot / medium close-up / close-up / extreme close-up.",
+    "NEVER USE: '5 feet', '10 meters', etc. Physical measurements cause actors to walk out of the skybox.",
+    "FORMAT: [shot size], [movement type], [speed], [motivation]",
+    "EXAMPLES:",
+    "  'Medium wide shot, slow push-in toward her face as realization settles'",
+    "  'Static locked-off wide, figure centered DC, generous negative space above'",
+    "  'Handheld follow, slight shake, tracking alongside her movement through the crowd'",
+    "  'Dollhouse Orbit — Establishing. Camera anchored to geometric center; slow clockwise orbit, character movement synced to orbital rate. Canon §10.'",
+    "CAMERA AS STORYTELLER: Use movement to imply action that should not be shown — zoom to reaction while physical action moves off-screen; cut to environment at moment of impact. Canon §5."
+  ],
+
+  "_____________________SECTION_2D_DOLLHOUSE_ORBIT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "dollhouse_orbit_config": {
+    "_DOC": "ONLY populate this block when camera type is Dollhouse Orbit / Central Anchor Infinite Orbit. Canon §10.",
+    "_DOC_usage": "Dollhouse Orbit = ESTABLISHING SHOTS, atmospheric sequences, title work. NOT intimacy. NOT action.",
+    "_DOC_requirements": [
+      "1. Unified 3D asset as @1 — entire environment as one model, not separate elements.",
+      "2. Church Method lock — camera anchored to exact geometric center of platform/scene.",
+      "3. Character + camera sync — character movement speed timed to match camera orbital rate.",
+      "4. Periodic plate refresh every 2–3 seconds for takes over ~10 seconds to counter drift.",
+      "5. Clean environment — simple sky, minimal moving elements reduce tracked variables."
+    ],
+    "enabled":              false,
+    "_DOC_enabled":         "Set true only for Dollhouse Orbit shots.",
+    "anchor_point":         "[Geometric center of scene — e.g. 'center of courtyard platform']",
+    "orbit_direction":      "[Clockwise / Counter-clockwise]",
+    "orbit_speed":          "[Slow / Medium — match to character movement speed]",
+    "plate_refresh_rate":   "[e.g. 'Every 2–3 seconds for takes over 10s']",
+    "known_limitation":     "Loop seam not yet clean — frame 0 and final frame do not perfectly match pose/shadow. In development."
+  },
+
+  "_____________________SECTION_2E_STYLE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "style": "[CINEMATIC STYLE + LIGHTING + ATMOSPHERE + DIRECTOR REFERENCE]",
+  "_DOC_style": [
+    "FORMAT: Cinematic style descriptor + lighting setup + atmospheric condition + director/film reference.",
+    "LIGHTING TYPES: Practical (motivated source) / Rembrandt / Split / Soft fill / Hard key / Rim / Silhouette.",
+    "DIRECTOR REFERENCES (from Research v1.0):",
+    "  Wes Anderson: 'Planimetric symmetrical composition, perfect frontal staging, vibrant controlled pastel palette, deadpan performance'",
+    "  Sofia Coppola: 'Generous negative space isolating figure, soft pastel atmospheric lighting, lens flare, slow drifting camera, lingering on fabric texture'",
+    "  Sean Baker: 'Naturalistic handheld, observational realism, shallow depth of field on face, background alive and chaotic'",
+    "  De Palma / Giallo: 'Stylized bold tracking, lurid expressionistic lighting, subjective voyeuristic camera, dramatic zoom'",
+    "ATMOSPHERE: State physical world conditions — fog density, rain behavior, time of day, practical light sources.",
+    "EXAMPLE: 'High-contrast cinematic noir — motivated single-source practicals from practical lamp UL, deep shadow pool across DR, slight fog catch in mid-distance; Roger Deakins-adjacent.'"
+  ],
+
+  "lighting": {
+    "_DOC": "Dedicated lighting breakdown — supplements the style field for complex setups.",
+    "key_source":     "[Direction and type — e.g. 'soft window key from CL']",
+    "fill":           "[e.g. 'low warm practical fill from DR']",
+    "rim_back":       "[e.g. 'cool moonlight rim from UC']",
+    "practicals":     "[Any in-scene light sources — candles, lamps, screens, fire]",
+    "quality":        "[Hard / Soft / Diffuse / Mixed]",
+    "color_temp":     "[Warm / Cool / Neutral / Mixed — specify Kelvin if exact match required]",
+    "shadow_depth":   "[Shallow / Medium / Deep]"
+  },
+
+  "_____________________SECTION_2F_OUTPUT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "output": {
+    "sequence_length":  "[seconds — e.g. '8 seconds']",
+    "_DOC_sequence_length": "Canon tested range: 6–10 seconds for stable one-takes. Multi-phase sequences: 10s segments (Canon §9).",
+    "aspect_ratio":     "16:9",
+    "_DOC_aspect_ratio": "16:9 standard for all production output. Do not alter unless distribution spec requires otherwise.",
+    "resolution":       "480p",
+    "_DOC_resolution":  "Default output resolution. 480p is the generation default; upscale in post if higher output is needed.",
+    "format":           "video"
+  },
+
+  "_____________________SECTION_2G_COMPLIANCE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "compliance": {
+    "_DOC": "2257 compliance for AI actor work. All fields required when any character appears in shot. Canon-locked: all STUDIO actors are 21+ minimum.",
+    "_DOC_age_rule": [
+      "AGE MUST APPEAR IN THE ACTUAL PROSE PROMPT TEXT — not just as metadata.",
+      "FORMAT: age + ethnicity + gender leads every character description in the prose.",
+      "EXAMPLES (correct):",
+      "  '27 year old white woman in a charcoal wool coat...'",
+      "  '36 year old Asian woman, standing at CC...'",
+      "  '67 year old Black man, seated at DR...'",
+      "WRONG: 'a woman', 'young woman', 'petite girl', 'the actress' — no age = compliance failure.",
+      "VAGUE DESCRIPTORS FORBIDDEN: 'young', 'petite', 'girl', 'youthful' — these risk age ambiguity.",
+      "This is a hard legal requirement for AI-generated actor work. Not optional. No exceptions."
+    ],
+    "characters_in_shot": "[YES / NO — if NO, skip remaining compliance fields]",
+    "actor_age_declaration": [
+      {
+        "_DOC": "One entry per character in shot. Age must be 21 or older. Repeat for each character.",
+        "character_id":       "[e.g. @1 character / @2 character / prompt-generated]",
+        "declared_age":       0,
+        "_DOC_declared_age":  "Must be integer 21 or higher. Do not use 'adult', 'mature', etc. — use the actual number.",
+        "ethnicity":          "[e.g. white / Black / Asian / Latina / etc.]",
+        "gender":             "[woman / man / person]",
+        "age_in_prose_confirmed": false,
+        "_DOC_age_in_prose_confirmed": "Set true only after verifying age + ethnicity + gender appear verbatim at the START of this character's description in prose_prompt."
+      }
+    ],
+    "compliance_note": "[Director confirmation: 'All characters declared 21+; age/ethnicity/gender explicit in prose.' Or: 'No characters in shot — compliance N/A.']",
+    "no_ambiguous_descriptors_confirmed": false,
+    "_DOC_no_ambiguous": "Set true after scanning prose_prompt for: 'young', 'petite', 'girl', 'youthful', 'teenage', 'small', 'child-like' — if any present, rewrite before generation."
+  },
+
+  "_____________________SECTION_3_PROSE_PROMPT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "prose_prompt": "[THE ACTUAL GROK SUBMISSION TEXT — see rules below]",
+  "_DOC_prose_prompt": [
+    "THIS IS THE FIELD SUBMITTED TO GROK. All other fields above are planning/documentation.",
+    "",
+    "PROSE RATIO RULE (Canon §11): 30–50% cinematic language woven into narrative description.",
+    "  Too many technical terms → mechanical output, loses story.",
+    "  Too few → loses camera control.",
+    "  Target: roughly 1 cinematic instruction per 2 narrative sentences.",
+    "",
+    "HYBRID FORMULA: Subject + Action/Movement + Scene/Environment + Cinematic Language + Lighting/Atmosphere + Style Reference",
+    "",
+    "SENTENCE STRUCTURE = PACING (Canon §11):",
+    "  Short sentences / fragments → urgency, impact, fast cuts",
+    "  Long flowing sentences → immersion, reflection, slow scenes",
+    "  Match rhythm to the scene's emotional register.",
+    "  Read prompts aloud — aim for musical flow.",
+    "",
+    "PARAGRAPH BREAKS = SHOT RHYTHM:",
+    "  New paragraph = suggested shot change or significant beat shift.",
+    "  Use white space to pace the model the way an editor paces a cut.",
+    "",
+    "WORKFLOW (Canon §11):",
+    "  1. Start with narrative core — what happens, why it matters.",
+    "  2. Layer cinematic grammar — shot type, camera move, framing.",
+    "  3. Add style/director reference.",
+    "  4. Control pacing through sentence and paragraph length.",
+    "  5. Test variants: prose-heavy / technical-heavy / well-blended.",
+    "",
+    "CONCURRENT ACTION: whilst / as / while / meanwhile. Never 'and then'.",
+    "NEGATIVE SPACE: State it explicitly — 'generous negative space above and to frame left'.",
+    "DEPTH PLANES: Foreground / midground / background layering increases dimensionality."
+  ],
+
+  "_____________________SECTION_4_NARRATIVE_BEAT_____________________": "─────────────────────────────────────────────────────────────",
+
+  "narrative_context": {
+    "_DOC": "Production planning fields — not submitted to Grok. For script integration and continuity.",
+    "act_scene":        "[e.g. Act 2 / Scene 4]",
+    "narrative_beat":   "[What this shot accomplishes in the story — one sentence]",
+    "emotional_register": "[What the audience should feel — e.g. 'mounting dread', 'quiet longing', 'wonder']",
+    "preceding_shot":   "[Shot ID that comes before — for continuity reference]",
+    "following_shot":   "[Shot ID that follows — for cut point planning]",
+    "sequence_role":    "[Establishing / Character entrance / Reaction / Transition / Climax / Resolution]",
+    "continuity_notes": "[Costume state, hair position, prop placement, lighting that must match across cuts]"
+  },
+
+  "_____________________SECTION_5_PRODUCTION_WORKFLOW_____________________": "─────────────────────────────────────────────────────────────",
+
+  "production_workflow": {
+    "_DOC": "Canon §12 workflow stages. Check off as completed.",
+    "elf_pass_complete":          false,
+    "_DOC_elf_pass":              "Major pictures / flow established with simple blocking notation.",
+    "scene_phase_complete":       false,
+    "_DOC_scene_phase":           "Full scene built with stage directions and blocking.",
+    "video_prompt_phase_complete": false,
+    "_DOC_video_prompt_phase":    "Scene translated into this JSON prompt architecture.",
+    "canon_protection_filed":     false,
+    "_DOC_canon_protection":      "Locked output filed; prompt archived.",
+    "legal_gate_0_cleared":       false,
+    "_DOC_legal_gate":            "GREEN = proceed. RED = hard stop. No debate. No exceptions."
+  },
+
+  "_____________________SECTION_6_MULTI_PHASE_____________________": "─────────────────────────────────────────────────────────────",
+
+  "multi_phase_config": {
+    "_DOC": "For long-form sequences 30s+. Break into 10-second segments. Canon §9.",
+    "_DOC_enabled": "Set enabled: true and populate phases only for sequences requiring multi-phase.",
+    "enabled": false,
+    "phases": [
+      {
+        "phase": 1,
+        "role": "Establish the event",
+        "_DOC": "Load @1 and @2 if subject exists in original form.",
+        "assets": "@1 + @2",
+        "duration": "10s"
+      },
+      {
+        "phase": 2,
+        "role": "Sustained state",
+        "_DOC": "Drop @2 if subject has transformed. Maintain @1 for continuity.",
+        "assets": "@1 only (if transformed)",
+        "duration": "10s"
+      },
+      {
+        "phase": 3,
+        "role": "Decline / Resolution",
+        "_DOC": "Camera can shift — push-in, slow zoom — to signal conclusion.",
+        "assets": "@1 only",
+        "camera_shift": "[Push-in / slow zoom — specify]",
+        "duration": "10s"
+      }
+    ],
+    "physics_note": "Asymmetrical and chaotic structure consistently outperforms perfect radial symmetry for physics realism."
+  },
+
+  "_____________________SECTION_7_VALIDATION_____________________": "─────────────────────────────────────────────────────────────",
+
+  "validation_rail": {
+    "_DOC": "Pre-generation checklist. Verify all before submitting prose_prompt to Grok.",
+    "checks": {
+      "@1_no_appearance_description": {
+        "rule": "@1 describes fabric/physics ONLY — no face, hair, skin, body shape",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "@2_single_phrase_only": {
+        "rule": "@2 is exactly 'see attached render' — nothing more, nothing less",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "@2_casting_reference_correct": {
+        "rule": "@2 source is always the casting reference from History. Backside shots: use back panel of casting reference.",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "character_behavioral_direction_only": {
+        "rule": "Characters in prose: behavioral direction ONLY (action, movement, energy, intention) — NO appearance description (face, hair, skin, body). Editor has 3D render; Grok has casting reference.",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "setting_description_present": {
+        "rule": "Settings and environments: rich visual description provided — materials, light behavior, spatial scale, surface detail, atmosphere. Grok generates these from scratch.",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "multi_character_concurrent_not_sequential": {
+        "rule": "Multi-character scenes: spatial/concurrent movement only — no sequential action beats. No 'then he', 'then she', 'and then' chains. The gap between bodies IS the action.",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "blocking_uses_9zone_grid": {
+        "rule": "Zone notation is UR/UC/UL / CR/CC/CL / DR/DC/DL only — not A–Z or any other system",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "dollhouse_orbit_is_establishing_not_intimacy": {
+        "rule": "If Dollhouse Orbit used: scene type is establishing/atmospheric/title — not intimate or action",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "prose_ratio_30_to_50_percent": {
+        "rule": "Cinematic language occupies 30–50% of prose_prompt — not under, not over",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "no_and_then_sequencing": {
+        "rule": "Concurrent action uses whilst/as/while/meanwhile — no 'and then' anywhere in prose",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "camera_field_no_physical_measurements": {
+        "rule": "Camera distance expressed in shot size terms only — no meters, feet, inches",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "scene_field_no_camera_language": {
+        "rule": "Scene field contains stage direction only — camera language belongs in the camera field",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "compliance_2257_age_ethnicity_gender_in_prose": {
+        "rule": "2257: age + ethnicity + gender appear DIRECTLY IN PROSE TEXT for every character — not just in compliance metadata. Format: '[age] year old [ethnicity] [gender]' leads each character description.",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "legal_gate_0_green": {
+        "rule": "Legal Gate 0 cleared GREEN before any generation attempt",
+        "status": "[PASS / FAIL / N/A]"
+      },
+      "nudity_not_on_frame_1": {
+        "rule": "If any clothing state change intended: character baked in from frame 1, not cold-started nude",
+        "status": "[PASS / FAIL / N/A]"
+      }
+    }
+  },
+
+  "_____________________END_____________________": "─────────────────────────────────────────────────────────────",
+
+  "_FILING_NOTE": "Save completed instances to Pipeline/Video_Prompts/ with naming: [ProjectCode]_[SceneID]_[ShotID]_v[N]_[YYYYMMDD].json",
+  "_CANON_REF": "STUDIO_Production_Canon_v1.0.md — locked reference. All deviations require Director sign-off and new Canon version."
+}
