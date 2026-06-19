@@ -1,6 +1,6 @@
 {
   "slug": "science_star_lifecycle_v1",
-  "qa_at": "2026-06-19T07:01:43.130531+00:00",
+  "qa_at": "2026-06-19T07:02:15.627341+00:00",
   "pass": false,
   "passes": [
     "shot count OK (5 >= 5)",
