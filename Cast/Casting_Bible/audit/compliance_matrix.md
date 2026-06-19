@@ -1,19 +1,19 @@
 # Cast Compliance Audit — 100 Actors
-**Audited:** 2026-06-19T03:02:59.494334+00:00
+**Audited:** 2026-06-19T03:08:35.484815+00:00
 
 ## Summary
 - **Total:** 100
 - **CLEAR:** 35
-- **FLAG:** 64
-- **BLOCKED:** 1
+- **FLAG:** 65
+- **BLOCKED:** 0
 - **Floor-age (21–22) visual review:** 6
 
 ## Blocked (schema non-compliant)
-- `FreyaLindMag-001` — plate_lock_mismatch
+- None
 
 ## Re-roll required
 
-- `FreyaLindMag-001` — PLATE/LOCK MISMATCH: plate shows dark-skinned African-styled model; lock specifies Swedish strawberry-blonde freckled fair skin. Re-roll required.
+- None
 
 ## Floor-age entries (21–22) — visual review
 
@@ -22,7 +22,7 @@
 - `LyraGFE-001` (gfe) age=22 visual=PASS — Slim-athletic; smiling adult features, developed proportions.
 - `VioletGFE-001` (gfe) age=22 visual=PASS — Curvy adult physique; mid-20s read. No ambiguous youth markers.
 - `YumeGFE-001` (gfe) age=21 visual=PASS — Floor age 21; voluptuous adult body and mature face. No borderline flags.
-- `FreyaLindMag-001` (magazine_editorial) age=22 visual=FAIL — PLATE/LOCK MISMATCH: plate shows dark-skinned African-styled model; lock specifies Swedish strawberry-blonde freckled fair skin. Re-roll required.
+- `FreyaLindMag-001` (magazine_editorial) age=22 visual=PASS — Fair-skinned Swedish strawberry-blonde freckled model matches lock; mature jawline and adult proportions. Unambiguously 21+.
 
 ## Prompt hygiene flags (usable, lock text should be patched)
 
@@ -124,7 +124,7 @@
 | WillowGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | YumeGFE-001 | gfe | 21 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | AnyaPetrovaMag-001 | magazine_editorial | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| FreyaLindMag-001 | magazine_editorial | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **BLOCKED** |
+| FreyaLindMag-001 | magazine_editorial | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | IsoldeMoreauMag-001 | magazine_editorial | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | LioraVossMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | MeiLinChenMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |

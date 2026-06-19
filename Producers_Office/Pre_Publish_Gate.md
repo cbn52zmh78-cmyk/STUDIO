@@ -2,7 +2,7 @@
 
 **Status:** Production canon. Non-negotiable.  
 **Applies to:** Every STUDIO video before shipping — social cut, streaming master, MAGAZINE feature, GFE clip, client deliverable, festival packet.  
-**Prerequisite:** Gate 0 Legal **GREEN** already logged (`Legal/Gate_0_Checklist.md`).  
+**Prerequisite:** Gate 0 Legal **GREEN** already logged — all six rows PASS + sign-off in `Legal/Gate_0_Checklist.md` (synthetic ownership, music/sync, no-real-likeness, target-channel legality, 2257-style age doc, AI-disclosure obligation).  
 **Blocks:** `renders/approved/`, public upload, client handoff, MAGAZINE publish.
 
 ---
@@ -41,7 +41,7 @@ Complete every row. **Any FAIL = HOLD.** No ship until all PASS.
 | Casting Bible registries | `Cast/Casting_Bible/registry/` |
 | Age Policy (21+ floor) | `research/Age_Policy_Locked.md` |
 | Blocked cast list | `Cast/Casting_Bible/audit/blocked_actors.json` |
-| Gate 0 Legal | `Legal/Gate_0_Checklist.md` |
+| Gate 0 Legal (prerequisite) | `Legal/Gate_0_Checklist.md` — GREEN required before this gate |
 | Intimacy Protocol | `Canons/Cinematic_Intimacy_Safe_Legal_Protocol_v1.3.md` |
 | Mass Dissemination | `Legal/Mass_Dissemination/CHARTER.md` |
 | Producer chain of command | `PRODUCER.md` |

@@ -3,7 +3,7 @@
   "format_id": "conversational-companion",
   "template_ref": "#98 conversational-companion",
   "set_style_ref": "#99 @Set-Modern-Apartment-001 + @Style-Soft-Warm-001",
-  "locked_at": "2026-06-19T03:03:14.428129+00:00",
+  "locked_at": "2026-06-19T03:06:45.916917+00:00",
   "status": "LOCKED",
   "talent": {
     "actor_id": "SageGFE-001",

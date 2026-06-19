@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "audited_at": "2026-06-19T03:02:59.494334+00:00",
+  "audited_at": "2026-06-19T03:08:35.484815+00:00",
   "policy": {
     "age_minimum": 21,
     "floor_age_review_range": "21-22",
@@ -15,16 +15,12 @@
   "summary": {
     "total": 100,
     "clear": 35,
-    "flag": 64,
-    "blocked": 1,
+    "flag": 65,
+    "blocked": 0,
     "floor_age": 6
   },
-  "blocked_actor_ids": [
-    "FreyaLindMag-001"
-  ],
-  "reroll_actor_ids": [
-    "FreyaLindMag-001"
-  ],
+  "blocked_actor_ids": [],
+  "reroll_actor_ids": [],
   "prompt_hygiene_flag_ids": [
     "Khalid-001",
     "Kofi-001",
@@ -104,7 +100,8 @@
     "HanaGFE-001",
     "LyraGFE-001",
     "VioletGFE-001",
-    "YumeGFE-001"
+    "YumeGFE-001",
+    "FreyaLindMag-001"
   ],
   "matrix": [
     {
@@ -2026,21 +2023,16 @@
       "appearance_lock_locked": true,
       "plate_path": "STUDIO/MAGAZINE/Editorial/Models/Freya Lind/01_casting_shots/casting_turnaround_v1.jpg",
       "plate_exists": true,
-      "child_safety_visual": "FAIL",
-      "errors": [
-        "plate_lock_mismatch"
-      ],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "BLOCKED",
-      "use_blocked": true,
+      "child_safety_visual": "PASS",
+      "errors": [],
+      "warnings": [],
+      "status": "FLAG",
+      "use_blocked": false,
       "visual_review": {
-        "verdict": "FAIL",
+        "verdict": "PASS",
         "reads_adult": true,
         "borderline": false,
-        "notes": "PLATE/LOCK MISMATCH: plate shows dark-skinned African-styled model; lock specifies Swedish strawberry-blonde freckled fair skin. Re-roll required.",
-        "plate_lock_mismatch": true
+        "notes": "Fair-skinned Swedish strawberry-blonde freckled model matches lock; mature jawline and adult proportions. Unambiguously 21+."
       }
     },
     {

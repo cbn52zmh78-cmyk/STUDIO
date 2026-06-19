@@ -1,0 +1,50 @@
+{
+  "slug": "david_why_latin_60s",
+  "title": "DAVID — Why Latin Never Really Died",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": ["history", "language", "latin"],
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, a language everyone calls dead — and why that word is wrong.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "Latin stopped being anyone's mother tongue centuries ago. Yet it never went silent."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "So I ask the question I ask of every supposedly dead tongue: who is still speaking it?",
+      "on_screen": "Who is still speaking it?"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "The proof is in the prayers, the law, the science — read aloud, unbroken, for two thousand years."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We rebuild its sound corpus-first: from spelling errors, poets' meter, and grammarians who described the accent."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "Where the evidence is firm I say attested. Where I infer, I tell you it is reconstructed."
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — Gallia est omnis divisa in partes tres — the c hard, the v like a w.",
+      "on_screen": "RECONSTRUCTED PRONUNCIATION"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Follow along, and the silence of the Archive turns back into a voice."
+    }
+  ]
+}

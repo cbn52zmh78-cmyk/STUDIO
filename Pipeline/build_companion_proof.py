@@ -44,7 +44,7 @@ COMPANION_AVATAR_PROMPT = (
 BEATS = [
     {
         "id": "01_greeting",
-        "duration": 6,
+        "duration": 7,
         "speech_text": "Hey — glad you dropped in today.",
         "action_prompt": (
             "Companion greets viewer warmly, relaxed posture on linen sofa, soft window daylight, "
@@ -71,7 +71,7 @@ BEATS = [
     },
     {
         "id": "04_reflective_pause",
-        "duration": 6,
+        "duration": 7,
         "speech_text": "Take one slow breath with me.",
         "action_prompt": (
             "Brief reflective pause, soft inhale, inviting viewer reflection, "
@@ -89,7 +89,7 @@ BEATS = [
     },
     {
         "id": "06_soft_close",
-        "duration": 6,
+        "duration": 7,
         "speech_text": "I'll be here when you need a calm check-in.",
         "action_prompt": (
             "Soft sign-off, small wave, warm eye contact, gesture peak for seamless join, "

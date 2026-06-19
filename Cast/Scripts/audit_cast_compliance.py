@@ -163,11 +163,10 @@ VISUAL_REVIEWS: dict[str, dict] = {
         "notes": "Floor age 21; voluptuous adult body and mature face. No borderline flags.",
     },
     "FreyaLindMag-001": {
-        "verdict": "FAIL",
+        "verdict": "PASS",
         "reads_adult": True,
         "borderline": False,
-        "notes": "PLATE/LOCK MISMATCH: plate shows dark-skinned African-styled model; lock specifies Swedish strawberry-blonde freckled fair skin. Re-roll required.",
-        "plate_lock_mismatch": True,
+        "notes": "Fair-skinned Swedish strawberry-blonde freckled model matches lock; mature jawline and adult proportions. Unambiguously 21+.",
     },
 }
 

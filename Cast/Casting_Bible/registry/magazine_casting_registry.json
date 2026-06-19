@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "generated_at": "2026-06-19T03:01:25.570068+00:00",
+  "generated_at": "2026-06-19T03:08:35.319809+00:00",
   "scope": "magazine_editorial",
   "age_minimum_enforced": 21,
   "total": 10,
@@ -72,7 +72,7 @@
       "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Freya Lind",
       "reference_image_primary": "STUDIO/MAGAZINE/Editorial/Models/Freya Lind/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 22-year-old Swedish woman named Freya Lind, stunning freckled fair-skinned supermodel with strawberry-blonde waves, soft yet commanding features, flawless skin, captivating gentle eyes, wearing soft pastel oversized knit coat over minimalist slip dress with pearl accents, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 22-year-old Swedish woman named Freya Lind, clearly adult woman unambiguously 21+, synthetic fictional character only, no real-person likeness, stunning freckled fair-skinned supermodel with strawberry-blonde waves, soft yet commanding features, flawless skin, captivating gentle eyes, wearing soft pastel oversized knit coat over minimalist slip dress with pearl accents, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
