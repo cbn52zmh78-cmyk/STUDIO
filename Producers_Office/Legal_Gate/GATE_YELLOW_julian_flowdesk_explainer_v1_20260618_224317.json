@@ -1,0 +1,33 @@
+{
+  "project": "julian_flowdesk_explainer_v1",
+  "verdict": "YELLOW",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming",
+    "client"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [
+    "[CLIENT] Client work \u2014 brand safety + indemnity + extra clearance"
+  ],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "REVIEW",
+    "row_5_age_documentation": "PASS",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "timestamp": "2026-06-18T22:43:17.008634",
+  "source_excerpt": "Project: julian_flowdesk_explainer_v1\nFormat: explainer-ad (30s product demo)\nRating target: PG\nChannels: social, streaming, client\nPerformer: Julian-001 (31-year-old synthetic male presenter, Julian Cross)\nSet: @Set-Seamless-Neutral-001 \u2014 neutral grey seamless studio\nStyle: @Style-Cool-Clinical-001 \u2014 cool clinical product trust grade\nWardrobe: navy blazer over light blue Oxford shirt, no tie, dark chinos (presenter commercial look)\nContent: SFW productivity app explainer for fictional brand Flo"
+}

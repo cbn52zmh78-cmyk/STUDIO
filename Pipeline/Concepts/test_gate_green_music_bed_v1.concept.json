@@ -1,0 +1,17 @@
+{
+  "slug": "test_gate_green_music_bed_v1",
+  "title": "Gate 0 GREEN test — manifest music bed on client deliverable",
+  "format_id": "explainer-ad",
+  "actor_id": "Julian-001",
+  "gate_0": {
+    "rating": "PG-13",
+    "channels": ["client"],
+    "music_bed_id": "BED-DOC-001"
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Client hero cut with cleared manifest music bed."
+    }
+  ]
+}

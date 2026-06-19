@@ -83,6 +83,12 @@ def _import_legal_gate():
 
 
 def _import_music_clearance():
+    artifacts = ROOT / "artifacts"
+    if str(artifacts) not in sys.path:
+        sys.path.insert(0, str(artifacts))
+    from lib.bootstrap import ensure_paths  # noqa: WPS433
+
+    ensure_paths()
     if str(LEGAL_GATE_DIR) not in sys.path:
         sys.path.insert(0, str(LEGAL_GATE_DIR))
     from music_clearance import resolve_music_from_concept  # noqa: WPS433
@@ -580,6 +586,13 @@ def _build_config(
 
     if concept.get("compare_v1"):
         cfg["compare_v1"] = concept["compare_v1"]
+
+    bed_id = (concept.get("gate_0") or {}).get("music_bed_id") or concept.get("music_bed_id")
+    if bed_id:
+        cfg["music_bed"] = {
+            "track_id": str(bed_id).upper(),
+            "manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+        }
 
     return cfg
 
