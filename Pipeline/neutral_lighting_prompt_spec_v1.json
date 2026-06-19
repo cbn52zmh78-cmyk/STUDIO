@@ -1,0 +1,30 @@
+{
+  "issue": 199,
+  "task": "T4 — neutral/balanced lighting at GENERATION (not post-grade)",
+  "applies_to": [
+    "@Set-Seamless-Neutral-001",
+    "@Style-Cool-Clinical-001",
+    "science-explainer",
+    "Observable astro/molecular slate"
+  ],
+  "problem": "Model emits warm-skew / blue-deficit host pixels (R≈215 G≈208 B≈138; yg≈0.007). Post-grade neutral WB cannot recover missing blue channel.",
+  "generation_fix": "Re-prompt at video.generate — forbid warm key, mandate balanced bilateral 5500K with explicit RGB parity language.",
+  "lighting_block": "LIGHTING LOCK Neutral-Balanced-5500K: bilateral soft keys left+right at equal 5500K intensity — no warm gel, no tungsten practical, no amber rim, no single-side orange key. Shadow fill neutral grey (#9A9A98 family), not brown. Skin tone natural caucasian-neutral: equal RGB midtones ±8%, blue channel preserved — forbid yellow-green skin push, forbid orange warmth, forbid blue-starved shadows (B channel must not collapse below 65% of min(R,G) on face). Backdrop locked #9A9A98±2%.",
+  "color_block": "COLOR LOCK Balanced-Neutral: presenter skin midtones R≈G≈B within 8% — no warm cast, no cool teal fill, no vintage fade. Grey seamless reads true neutral, not cream. Wardrobe colors accurate, not oversaturated.",
+  "forbid_phrases": [
+    "warm brass",
+    "3200K",
+    "amber pool",
+    "tungsten",
+    "golden hour",
+    "orange spotlight",
+    "cozy cast"
+  ],
+  "script_config_patch": {
+    "config.seamless.lamp_lock": false,
+    "config.seamless.neutral_grade": true,
+    "config.seamless.match_color": true,
+    "config.seamless.magenta_clamp": true
+  },
+  "intake_order": "{set.continuity_lock} {style.continuity_lock} {action_prompt} {lighting_block} {color_block} {set.color_guard} {style.color_guard} {style.lens_motion} Lip-synced, delivers: \"{speech_text}\" {voice_suffix} {style.end_guard}"
+}

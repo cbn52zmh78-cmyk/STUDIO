@@ -57,6 +57,7 @@ from science_field import enrich_science_subject  # noqa: E402
 SET_LIBRARY = PIPELINE_DIR / "Set_Library_v1.json"               # #99
 STYLE_LIBRARY = PIPELINE_DIR / "Style_Library_v1.json"           # #99
 FORMAT_LIBRARY = PIPELINE_DIR / "Production_Templates" / "Production_Templates_v1.json"  # #98
+NEUTRAL_LIGHTING_SPEC = PIPELINE_DIR / "neutral_lighting_prompt_spec_v1.json"  # #199 T4
 CASTING_REGISTRY = STUDIO_DIR / "Cast" / "Casting_Bible" / "registry" / "casting_registry.json"
 CONCEPTS_DIR = PIPELINE_DIR / "Concepts"
 LEGAL_GATE_DIR = ROOT / "artifacts" / "legal"
@@ -537,6 +538,36 @@ def _identity_lock_text(
     )
 
 
+def _load_neutral_lighting_spec() -> dict[str, Any]:
+    if not NEUTRAL_LIGHTING_SPEC.is_file():
+        return {}
+    return json.loads(NEUTRAL_LIGHTING_SPEC.read_text(encoding="utf-8"))
+
+
+def _apply_neutral_generation_prompt(
+    *,
+    format_id: str,
+    set_id: str,
+    style_id: str,
+    set_obj: dict[str, Any],
+    style_obj: dict[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    """#199 — inject balanced 5500K + RGB parity blocks at generation for clinical sets."""
+    spec = _load_neutral_lighting_spec()
+    applies = format_id in spec.get("applies_to", []) or set_id in spec.get(
+        "applies_to", []
+    ) or style_id in spec.get("applies_to", [])
+    if not applies:
+        return set_obj, style_obj
+    patched_set = dict(set_obj)
+    patched_style = dict(style_obj)
+    if spec.get("lighting_block"):
+        patched_set["lighting_lock"] = spec["lighting_block"]
+    if spec.get("color_block"):
+        patched_set["color_guard"] = spec["color_block"]
+    return patched_set, patched_style
+
+
 def compose_video_prompt(
     *,
     identity_lock: str,
@@ -927,7 +958,7 @@ def _build_config(
     seamless = dict(
         libs["formats"]["compose_contract"].get("seamless_defaults", {})
     )
-    if format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT, SCIENCE_EXPLAINER_FORMAT):
+    if format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT):
         seamless.update(
             {
                 "lamp_lock": True,
@@ -936,6 +967,20 @@ def _build_config(
                 "pin_audio_sync": True,
                 "reground_interval": fmt.get("guardrails") and 2 or 2,
                 "magenta_clamp": True,
+            }
+        )
+    if format_id == SCIENCE_EXPLAINER_FORMAT:
+        seamless.update(
+            {
+                "lamp_lock": False,
+                "glasses_lock": True,
+                "loudnorm": True,
+                "pin_audio_sync": True,
+                "reground_interval": 2,
+                "magenta_clamp": True,
+                "neutral_grade": True,
+                "match_color": True,
+                "cut_on_motion": True,
             }
         )
     if format_id == TECHNICAL_EXPLAINER_FORMAT:
@@ -1094,6 +1139,13 @@ def build_longform_script(
 
     set_id, set_obj, style_id, style_obj = select_set_style(
         concept.get("set_id"), concept.get("style_id"), fmt, libs
+    )
+    set_obj, style_obj = _apply_neutral_generation_prompt(
+        format_id=format_id,
+        set_id=set_id,
+        style_id=style_id,
+        set_obj=set_obj,
+        style_obj=style_obj,
     )
 
     # Voice suffix: actor voice for non-anchor casting; else the format voice.

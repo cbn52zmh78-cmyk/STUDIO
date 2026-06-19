@@ -26,12 +26,14 @@
       "reference_file": "DAVID/productions/host_identity_v1/references/archive_set_reference.jpg",
       "reference_anchor": "environment plate @1 — deep scholarly library interior, wooden worktable, open codex, brass desk lamp, manuscript shelves",
       "continuity_lock": "CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut.",
-      "lighting_lock": "Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection.",
-      "color_guard": "COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows.",
+      "lighting_lock": "Neutral balanced 5000K ambient key — even RGB, blue channel preserved in skin and shadow mids; brass desk lamp 3200K as motivated practical ONLY as localized warm pool on desk surface and lamp shade, NOT full-frame amber gel; no global yellow-green cast; no blue-starved shadows.",
+      "color_guard": "GENERATION LOCK Archive-neutral (#194): balanced white balance 4800–5200K base, natural skin midtones with intact blue channel (B≥40 in mids), wood burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow warm-neutral grey #3A3530 — forbid dominant amber 3200K full-frame, forbid yellow-green global cast, forbid blue-starved generation (collapsed B channel), forbid magenta cast.",
+      "generation_color_lock": "GENERATION LOCK Archive-neutral (#194): neutral balanced 5000K ambient key — even RGB, blue channel preserved in skin and shadow mids (B≥40); brass desk lamp 3200K as motivated practical ONLY as localized warm pool on desk surface and lamp shade, NOT full-frame amber gel; no global yellow-green cast; no blue-starved shadows; natural skin tone at source.",
       "kelvin": {
-        "key": 3200,
-        "fill_max": 4500,
-        "fill_ratio_max": 0.15
+        "ambient_key": 5000,
+        "lamp_accent": 3200,
+        "fill_max": 5200,
+        "fill_ratio_max": 0.25
       },
       "forbidden": [
         "magenta ambient",

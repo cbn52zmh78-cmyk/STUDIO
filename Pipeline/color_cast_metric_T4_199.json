@@ -1,0 +1,63 @@
+{
+  "issue": 199,
+  "metric": "clinical_channel_balance",
+  "threshold": 0.12,
+  "legacy_false_pass_count": 67,
+  "new_metric_fail_count": 67,
+  "sample": [
+    {
+      "frame": "frame_0001.jpg",
+      "parent": "frame_proof",
+      "r_mean": 225.1,
+      "g_mean": 219.6,
+      "b_mean": 149.3,
+      "lum": 213.2,
+      "yellow_green": 0.0079,
+      "clinical_channel_balance": 0.2972,
+      "blue_deficit": 0.2758,
+      "blue_starvation": true,
+      "pass": false,
+      "issues": [
+        "clinical_channel_balance 0.2972 > 0.12",
+        "blue_starvation_fraction 0.890 > 0.5",
+        "host B/R 0.183 < 0.22"
+      ]
+    },
+    {
+      "frame": "frame_0003.jpg",
+      "parent": "frame_proof",
+      "r_mean": 224.9,
+      "g_mean": 219.3,
+      "b_mean": 149.4,
+      "lum": 213.0,
+      "yellow_green": 0.0072,
+      "clinical_channel_balance": 0.2963,
+      "blue_deficit": 0.2741,
+      "blue_starvation": true,
+      "pass": false,
+      "issues": [
+        "clinical_channel_balance 0.2963 > 0.12",
+        "blue_starvation_fraction 0.905 > 0.5",
+        "host B/R 0.167 < 0.22"
+      ]
+    },
+    {
+      "frame": "frame_0005.jpg",
+      "parent": "frame_proof",
+      "r_mean": 226.0,
+      "g_mean": 220.6,
+      "b_mean": 151.2,
+      "lum": 214.3,
+      "yellow_green": 0.0104,
+      "clinical_channel_balance": 0.2934,
+      "blue_deficit": 0.2722,
+      "blue_starvation": true,
+      "pass": false,
+      "issues": [
+        "clinical_channel_balance 0.2934 > 0.12",
+        "blue_starvation_fraction 0.911 > 0.5",
+        "host B/R 0.161 < 0.22"
+      ]
+    }
+  ]
+}

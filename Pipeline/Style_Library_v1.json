@@ -24,7 +24,7 @@
       "reference_anchor": "BBC/National Geographic prestige documentary — trustworthy, textured, restrained camera",
       "continuity_lock": "STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation.",
       "lighting_lock": "Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied.",
-      "color_guard": "GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push.",
+      "color_guard": "GRADE LOCK Documentary-Prestige: natural skin at generation — neutral WB, blue channel preserved; post grade may add +3% amber warmth LOCAL to lamp side only — forbid global orange push, forbid yellow-green cast, forbid blue-starved shadows (B<25 in host mids), forbid magenta midtones.",
       "lens_motion": "Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host.",
       "end_guard": "Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
       "voice_suffix_optional": "mid-low resonant unhurried voice, precise diction, documentary gravitas, Attenborough-calm, accessible never stuffy, synthetic host only"
