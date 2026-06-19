@@ -1,7 +1,7 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T06:54:41.907325+00:00",
+  "completed_at": "2026-06-19T06:56:20.053025+00:00",
   "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\batches\\T4_181_science_astro\\scripts\\science_star_lifecycle_v1_480p_script.json",
   "concat_only": true,
   "seamless": true,
@@ -15,7 +15,7 @@
   "comparison": null,
   "qa": {
     "slug": "science_star_lifecycle_v1",
-    "qa_at": "2026-06-19T06:54:41.906627+00:00",
+    "qa_at": "2026-06-19T06:56:20.052000+00:00",
     "pass": false,
     "passes": [
       "shot count OK (5 >= 5)",
