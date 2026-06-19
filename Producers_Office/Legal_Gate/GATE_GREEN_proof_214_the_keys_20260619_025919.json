@@ -1,0 +1,48 @@
+{
+  "project": "proof_214_the_keys",
+  "verdict": "GREEN",
+  "target_rating": "PG",
+  "channels": [
+    "festival",
+    "streaming",
+    "client"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Gate 0 cleared for Development/Pre-Production subject to ongoing review."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "MANUAL"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T02:59:19.306343",
+  "source_excerpt": "THE KEYS\n\nDeveloped draft \u2014 STUDIO Development / Story Department\nGenre: Drama \u00b7 Format: Short scene (~1 pg) \u00b7 Two-hander, single location\n\n\nFADE IN:\n\nINT. ROBERT'S KITCHEN - LATE AFTERNOON\n\nA tidy kitchen kept by someone with time on his hands. One coffee cup\nin the rack. ROBERT, 78, sits at the table reading a folded newspaper\nhe isn't reading.\n\nA car door outside. He turns the paper face-down.\n\nKAREN, 45, lets herself in. Nurse's clogs, a casserole dish she sets\non the counter without being a"
+}
