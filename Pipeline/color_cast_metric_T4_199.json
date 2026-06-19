@@ -13,11 +13,13 @@
       "b_mean": 149.3,
       "lum": 213.2,
       "yellow_green": 0.0079,
+      "rgb_skew": 0.2865,
       "clinical_channel_balance": 0.2972,
       "blue_deficit": 0.2758,
       "blue_starvation": true,
       "pass": false,
       "issues": [
+        "rgb_skew 0.2865 > 0.12",
         "clinical_channel_balance 0.2972 > 0.12",
         "blue_starvation_fraction 0.890 > 0.5",
         "host B/R 0.183 < 0.22"
@@ -31,11 +33,13 @@
       "b_mean": 149.4,
       "lum": 213.0,
       "yellow_green": 0.0072,
+      "rgb_skew": 0.2852,
       "clinical_channel_balance": 0.2963,
       "blue_deficit": 0.2741,
       "blue_starvation": true,
       "pass": false,
       "issues": [
+        "rgb_skew 0.2852 > 0.12",
         "clinical_channel_balance 0.2963 > 0.12",
         "blue_starvation_fraction 0.905 > 0.5",
         "host B/R 0.167 < 0.22"
@@ -49,11 +53,13 @@
       "b_mean": 151.2,
       "lum": 214.3,
       "yellow_green": 0.0104,
+      "rgb_skew": 0.2828,
       "clinical_channel_balance": 0.2934,
       "blue_deficit": 0.2722,
       "blue_starvation": true,
       "pass": false,
       "issues": [
+        "rgb_skew 0.2828 > 0.12",
         "clinical_channel_balance 0.2934 > 0.12",
         "blue_starvation_fraction 0.911 > 0.5",
         "host B/R 0.161 < 0.22"
