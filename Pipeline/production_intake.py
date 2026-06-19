@@ -61,6 +61,7 @@ NEUTRAL_LIGHTING_SPEC = PIPELINE_DIR / "neutral_lighting_prompt_spec_v1.json"  #
 CASTING_REGISTRY = STUDIO_DIR / "Cast" / "Casting_Bible" / "registry" / "casting_registry.json"
 CONCEPTS_DIR = PIPELINE_DIR / "Concepts"
 LEGAL_GATE_DIR = ROOT / "artifacts" / "legal"
+EDITORIAL_ENGINE_DIR = ROOT / "Content_Production" / "SCRIBE"      # #212 editorial engine
 
 SYNTHETIC_GUARD = "synthetic host only"
 SYNTHETIC_TALENT_GUARD = "synthetic talent only"
@@ -72,6 +73,8 @@ ADULT_CAST_PHRASE = "adult cast only (21+)"
 HISTORICAL_FIGURE_FORMAT = "historical-figure-documentary"
 SCIENCE_EXPLAINER_FORMAT = "science-explainer"
 TECHNICAL_EXPLAINER_FORMAT = "technical-explainer"
+EDITORIAL_FORMAT = "editorial"          # #213 — written client deliverables route to SCRIBE
+EDITORIAL_LANE = "editorial"
 PERIOD_LINE_SHOT_ID = "04_period_line"
 VIZ_PAYOFF_SHOT_ID = "04_visualization_payoff"
 DIAGRAM_PAYOFF_SHOT_ID = "04_diagram_payoff"
@@ -1087,6 +1090,138 @@ class Gate0BlockedError(Exception):
 
 
 # --------------------------------------------------------------------------- #
+# Editorial routing  (#213 — written client deliverables → SCRIBE editorial engine)
+# --------------------------------------------------------------------------- #
+def is_editorial_intake(concept: dict[str, Any]) -> bool:
+    """True when an intake form/concept belongs to the Editorial lane.
+
+    Recognised signals (any one is sufficient):
+      * ``format_id == "editorial"``
+      * ``auto_route.lane == "Editorial"`` (NEXUS routing map)
+      * ``auto_route.service_id`` starting ``editorial.`` (e.g. ``editorial.screenplay_dev``)
+      * ``editorial`` listed in ``auto_route.gates`` / ``gates``
+      * an explicit ``editorial`` / ``editorial_brief`` block on the concept
+    """
+    if str(concept.get("format_id", "")).strip().lower() == EDITORIAL_FORMAT:
+        return True
+    auto = concept.get("auto_route") or {}
+    if str(auto.get("lane", "")).strip().lower() == EDITORIAL_LANE:
+        return True
+    if str(auto.get("service_id", "")).strip().lower().startswith("editorial."):
+        return True
+    gates = list(auto.get("gates") or []) + list(concept.get("gates") or [])
+    if any(str(g).strip().lower() == EDITORIAL_LANE for g in gates):
+        return True
+    return bool(concept.get("editorial") or concept.get("editorial_brief"))
+
+
+def _editorial_source_rank(path_str: str) -> int:
+    """Prefer the deliverable manuscript: screenplay > markdown > plain text > other."""
+    suffix = Path(str(path_str)).suffix.lower()
+    return {".fountain": 0, ".spmd": 0, ".md": 1, ".markdown": 1, ".txt": 2}.get(suffix, 3)
+
+
+def _resolve_editorial_source(
+    form: dict[str, Any], concept_file: Optional[Path] = None
+) -> Path:
+    """Resolve the primary editorial document from the form's source/attachments."""
+    explicit = form.get("editorial_source") or form.get("source")
+    attachments = list(form.get("attachments") or [])
+    ordered = sorted(attachments, key=_editorial_source_rank)
+    candidates = ([explicit] if explicit else []) + ordered
+
+    bases = [ROOT]
+    if concept_file is not None:
+        bases.insert(0, concept_file.parent)
+    for cand in candidates:
+        if not cand:
+            continue
+        p = Path(str(cand))
+        search = [p] if p.is_absolute() else [base / p for base in bases]
+        for candidate in search:
+            if candidate.is_file():
+                return candidate
+    raise FileNotFoundError(
+        "editorial intake: no readable source document found in 'source'/'attachments' "
+        f"(looked for {', '.join(str(c) for c in candidates) or 'nothing'})"
+    )
+
+
+def _editorial_meta_from_form(form: dict[str, Any]) -> dict[str, Any]:
+    """Translate a NEXUS intake form into editorial-engine meta."""
+    meta: dict[str, Any] = {"client_deliverable": True}
+    field_map = {
+        "project_title": "title",
+        "title": "title",
+        "genre_tone": "genre",
+        "content_rating": "content_rating",
+        "client_contact": "client",
+        "business_entity": "business_entity",
+    }
+    for src, dest in field_map.items():
+        if form.get(src):
+            meta.setdefault(dest, form[src])
+    if "real_people_depicted" in form:
+        meta["names_real_people"] = bool(form["real_people_depicted"])
+    pid = form.get("project_id") or form.get("slug")
+    if pid:
+        meta["project_id"] = pid
+    # Carry through any explicit attestations / meta the form already supplies.
+    meta.update(form.get("editorial_meta") or {})
+    return meta
+
+
+def route_editorial_intake(
+    form: dict[str, Any],
+    *,
+    concept_file: Optional[Path] = None,
+) -> dict[str, Any]:
+    """Hand an editorial brief/form to the SCRIBE editorial engine.
+
+    Runs the engine's intake stage — which evaluates the Editorial Gate and routes
+    its report into the shared ``Studio/Legal/Gate_Reports`` sink — and returns a
+    routing stamp the pipeline (or NEXUS dispatch) can act on. No Gate-0 legal /
+    video script is produced here; that happens later only if the dispatch calls
+    for synthetic video work.
+    """
+    if str(EDITORIAL_ENGINE_DIR) not in sys.path:
+        sys.path.insert(0, str(EDITORIAL_ENGINE_DIR))
+    import editorial_engine as ee  # noqa: WPS433
+
+    source = _resolve_editorial_source(form, concept_file)
+    meta = _editorial_meta_from_form(form)
+    pid = meta.get("project_id") or form.get("slug") or form.get("project_id")
+
+    project = ee.open_project(str(source), None, None, pid)
+    project.meta = {**project.meta, **meta}
+
+    gate = ee.stage_intake(project)
+    ee.write_manifest(project, gate, None, 1)
+
+    auto = form.get("auto_route") or {}
+    return {
+        "lane": "Editorial",
+        "engine": "Content_Production/SCRIBE/editorial_engine.py",
+        "service_id": auto.get("service_id", "editorial.screenplay_dev"),
+        "tier": form.get("tier") or auto.get("tier"),
+        "project_id": project.project_id,
+        "doc_kind": project.doc_kind,
+        "source": ee._rel(source),
+        "gate": "editorial",
+        "gate_verdict": gate.get("verdict"),
+        "gate_report": gate.get("report_path"),
+        "gate_report_json": gate.get("report_json"),
+        "blocked": bool(gate.get("blocked")),
+        "requires_human_signoff": bool(gate.get("requires_human_signoff")),
+        "intake_record": ee._rel(project.out_dir / "intake.json"),
+        "project_dir": ee._rel(project.out_dir),
+        "deliverables": form.get("deliverables"),
+        "next": "python Content_Production/SCRIBE/editorial_engine.py run "
+                f"{ee._rel(source)} --project-id {project.project_id}",
+    }
+
+
+# --------------------------------------------------------------------------- #
 # Public entry point
 # --------------------------------------------------------------------------- #
 def build_longform_script(
@@ -1280,6 +1415,12 @@ def _default_output_path(slug: str, format_id: str) -> Path:
 
 
 def main(argv: Optional[list[str]] = None) -> int:
+    # Windows consoles default to cp1252; the summaries below use status glyphs.
+    for _stream in (sys.stdout, sys.stderr):
+        try:
+            _stream.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+        except Exception:
+            pass
     parser = argparse.ArgumentParser(
         description="STUDIO new-production intake: concept -> canonical render_longform script.json"
     )
@@ -1309,6 +1450,33 @@ def main(argv: Optional[list[str]] = None) -> int:
     ):
         if val:
             concept[key] = val
+
+    # Editorial lane (#213): a brief/form routes straight to the SCRIBE editorial
+    # engine rather than the synthetic-video path — auto-detected like any other lane.
+    if is_editorial_intake(concept):
+        routing = route_editorial_intake(concept, concept_file=concept_file)
+        payload = json.dumps({"routing": routing}, indent=2, ensure_ascii=False)
+        if args.print:
+            print(payload)
+        else:
+            print(f"📝 Editorial lane → {routing['engine']}")
+            print(f"  project={routing['project_id']}  kind={routing['doc_kind']}  "
+                  f"service={routing['service_id']}")
+            print(f"  source={routing['source']}")
+            icon = {"GREEN": "✅", "YELLOW": "⚠️", "RED": "🛑"}.get(routing["gate_verdict"], "?")
+            print(f"  editorial_gate={icon} {routing['gate_verdict']}  "
+                  f"report={routing['gate_report']}")
+            print(f"  intake={routing['intake_record']}")
+            if routing["blocked"]:
+                print("  🛑 Editorial Gate RED — intake blocked.")
+            elif routing["requires_human_signoff"]:
+                print("  ⚠️  Editorial Gate YELLOW — human sign-off required before delivery.")
+            print(f"  Next: {routing['next']}")
+        if routing["blocked"]:
+            return GATE_EXIT_RED
+        if routing["requires_human_signoff"]:
+            return GATE_EXIT_SIGNOFF_REQUIRED
+        return 0
 
     if not concept.get("slug"):
         parser.error("a 'slug' is required (in the concept file or via --slug)")
