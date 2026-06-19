@@ -37,7 +37,9 @@ DAVID · The Archive
 
 ---
 
-## Publish order (Royal Tongues pilots)
+## Publish order (Royal Tongues)
+
+**Pilots (figures 1–3)**
 
 | # | Episode | Hook | Period line |
 |---|---------|------|-------------|
@@ -45,7 +47,15 @@ DAVID · The Archive
 | 2 | Richard I | Lion who spoke Norman French | ATTESTED *Deus le volt!* |
 | 3 | Elizabeth I | Tilbury in her own English | ATTESTED Tudor speech excerpt |
 
-**Cross-link:** After Dead Languages #1 (Latin), drop Royal Tongues #1 (Eleanor) — both Plantagenet, bridges language → figure.
+**Backlog (figures 4–6, #168)** — each bridges to a Dead Languages episode for cross-playlist pull. Validated (Gate 0 GREEN + intake + `--script-only`), not rendered.
+
+| # | Episode | Hook | Period line | Bridges to |
+|---|---------|------|-------------|-----------|
+| 4 | Charlemagne | The emperor who named the months | ATTESTED Frankish month-names (Einhard) | Dead Languages — Latin |
+| 5 | Alfred the Great | A king in his own English | ATTESTED Old English (Pastoral Care preface) | Dead Languages — Old English |
+| 6 | Cnut the Great | The king the skalds praised | ATTESTED Old Norse skaldic epithet | Dead Languages — Old Norse |
+
+**Cross-link:** After Dead Languages #1 (Latin), drop Royal Tongues #1 (Eleanor) — both Plantagenet, bridges language → figure. Then pair each backlog figure with its bridge episode (Charlemagne↔Latin, Alfred↔Old English, Cnut↔Old Norse).
 
 ---
 
