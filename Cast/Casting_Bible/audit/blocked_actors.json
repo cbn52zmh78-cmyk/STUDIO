@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-06-19T03:29:30.525895+00:00",
+  "updated_at": "2026-06-19T03:30:09.901085+00:00",
   "policy": "BLOCKED actors cannot be used in any production until remediated.",
   "blocked": [],
   "reroll_required": [],

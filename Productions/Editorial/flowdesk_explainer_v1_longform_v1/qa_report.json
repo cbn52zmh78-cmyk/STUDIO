@@ -1,6 +1,6 @@
 {
   "slug": "flowdesk_explainer_v1",
-  "qa_at": "2026-06-19T03:28:26.014279+00:00",
+  "qa_at": "2026-06-19T03:30:00.528030+00:00",
   "pass": true,
   "passes": [
     "shot count OK (6 >= 4)",
@@ -12,9 +12,9 @@
     "match-color pre-join ENABLED",
     "cut-on-motion tail trim ENABLED",
     "host performance: host_performance_extend.mp4 (42.1s)",
-    "@David-001 continuity prefix embedded in video_prompt",
+    "@Amara-001 continuity prefix embedded in video_prompt",
     "xfade chain + synced audio crossfade at joins",
-    "audio PRESENT (david_flowdesk_explainer_v1_seamless_v1.mp4 mean -29.1 dB)",
+    "audio PRESENT (studio_flowdesk_explainer_v1_seamless_v1.mp4 mean -29.1 dB)",
     "loudnorm two-pass target I=-16.0 LUFS per shot",
     "audio pinned to exact shot duration (no stretch/offset)",
     "flat loudness across shots (spread 0.08 LU)",

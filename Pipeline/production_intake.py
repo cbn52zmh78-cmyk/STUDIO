@@ -104,22 +104,35 @@ def _concept_brief_path(concept: dict[str, Any]) -> Optional[Path]:
     return None
 
 
-def _gate_channels(concept: dict[str, Any]) -> list[str]:
+def _parse_brief_field(brief: str, label: str) -> Optional[str]:
+    for line in brief.splitlines():
+        if line.lower().startswith(label.lower()):
+            return line.split(":", 1)[1].strip()
+    return None
+
+
+def _gate_channels(concept: dict[str, Any], brief: Optional[str] = None) -> list[str]:
     gate = concept.get("gate_0") or {}
-    raw = gate.get("channels") or concept.get("channels") or ["social"]
+    raw = gate.get("channels") or concept.get("channels")
+    if not raw and brief:
+        parsed = _parse_brief_field(brief, "Channels")
+        if parsed:
+            raw = parsed
+    if not raw:
+        raw = ["social"]
     if isinstance(raw, str):
-        return [c.strip() for c in raw.split(",") if c.strip()]
+        return [c.strip() for c in raw.replace("·", ",").split(",") if c.strip()]
     return [str(c).strip() for c in raw if str(c).strip()]
 
 
-def _gate_rating(concept: dict[str, Any], fmt: dict[str, Any]) -> str:
+def _gate_rating(concept: dict[str, Any], fmt: dict[str, Any], brief: Optional[str] = None) -> str:
     gate = concept.get("gate_0") or {}
-    return str(
-        gate.get("rating")
-        or concept.get("target_rating")
-        or fmt.get("default_rating")
-        or "PG-13"
-    )
+    rating = gate.get("rating") or concept.get("target_rating")
+    if not rating and brief:
+        parsed = _parse_brief_field(brief, "Rating target")
+        if parsed:
+            rating = parsed.split()[0]  # "PG" from "PG" or "PG-13 (note)"
+    return str(rating or fmt.get("default_rating") or "PG-13")
 
 
 def build_gate_brief_text(
@@ -139,8 +152,8 @@ def build_gate_brief_text(
         f"Project: {concept.get('slug', 'untitled')}",
         f"Title: {concept.get('title', '')}",
         f"Format: {format_id}",
-        f"Rating target: {_gate_rating(concept, fmt)}",
-        f"Channels: {', '.join(_gate_channels(concept))}",
+        f"Rating target: {_gate_rating(concept, fmt, None)}",
+        f"Channels: {', '.join(_gate_channels(concept, None))}",
     ]
     if actor:
         lines.append(
@@ -178,13 +191,15 @@ def run_gate_0(
     brief = build_gate_brief_text(
         concept, actor=actor, actor_id=actor_id, fmt=fmt, format_id=format_id
     )
+    rating = _gate_rating(concept, fmt, brief)
+    channels = _gate_channels(concept, brief)
     LegalGate = _import_legal_gate()
     gate = LegalGate()
     result = gate.review(
         brief,
         concept["slug"],
-        target_rating=_gate_rating(concept, fmt),
-        channels=_gate_channels(concept),
+        target_rating=rating,
+        channels=channels,
         has_performers=bool(actor or actor_id or fmt.get("identity_anchor")),
     )
     report_path = gate.save_report(result, brief)
@@ -202,8 +217,8 @@ def run_gate_0(
         "blocked": blocked,
         "requires_human_signoff": requires_signoff,
         "human_signoff": bool((concept.get("gate_0") or {}).get("human_signoff")),
-        "target_rating": result.target_rating,
-        "channels": result.channels,
+        "target_rating": result.target_rating or rating,
+        "channels": result.channels or channels,
         "report_path": rel_report,
         "checklist_domains": result.checklist_domains,
         "hard_stops": result.hard_stops,
