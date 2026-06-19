@@ -1,17 +1,23 @@
 {
   "slug": "julian_flowdesk_explainer_v1",
-  "title": "STUDIO Worked Example — FlowDesk Explainer Ad (Julian-001)",
+  "title": "STUDIO Worked Example \u2014 FlowDesk Explainer Ad (Julian-001)",
   "format_id": "explainer-ad",
   "actor_id": "Julian-001",
   "set_id": "@Set-Seamless-Neutral-001",
   "style_id": "@Style-Cool-Clinical-001",
   "target_seconds": 30,
-  "tags": ["explainer", "product", "saas", "demo", "brand"],
+  "tags": [
+    "explainer",
+    "product",
+    "saas",
+    "demo",
+    "brand"
+  ],
   "brand": {
     "title": "FlowDesk",
     "subtitle": "One calm workspace for every idea",
     "cta": "Try free at flowdesk.app",
-    "legal_line": "Synthetic presenter · demo only"
+    "legal_line": "Synthetic presenter \u00b7 demo only"
   },
   "beats": [
     {
@@ -38,7 +44,10 @@
     {
       "id": "06_cta",
       "speech_text": "Try FlowDesk free at flowdesk dot app.",
-      "on_screen": "FlowDesk · flowdesk.app"
+      "on_screen": "FlowDesk \u00b7 flowdesk.app"
     }
-  ]
+  ],
+  "gate_0": {
+    "music_bed_id": "BED-UP-002"
+  }
 }

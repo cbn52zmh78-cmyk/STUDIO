@@ -1,0 +1,79 @@
+{
+  "issue": 142,
+  "task": "T4 — re-gate DAVID dead-language slate under real YouTube channel",
+  "regated_at": "2026-06-19T03:49:14+00:00",
+  "channel": {
+    "publish_platform": "youtube",
+    "gate_channels": ["social", "streaming"],
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "client_deliverable": false
+  },
+  "root_cause_fixed": {
+    "issue": "Intake composed fallback brief used 'Performer anchor' wording — triggered false YELLOW age warning",
+    "fix": "production_intake._concept_brief_path now resolves concept.brief / gate_brief / sibling {slug}_brief.txt; briefs updated for YouTube + Casting Bible phrases"
+  },
+  "summary": {
+    "total": 6,
+    "green": 6,
+    "yellow": 0,
+    "red": 0,
+    "all_checklist_pass": 6
+  },
+  "entries": [
+    {
+      "slug": "david_latin_corpus_v1",
+      "verdict": "GREEN",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_latin_corpus_v1_20260618_224913.json",
+      "checklist": "6/6 PASS",
+      "warnings": [],
+      "distribution_flags": [],
+      "hard_stops": []
+    },
+    {
+      "slug": "david_sumerian_corpus_v1",
+      "verdict": "GREEN",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sumerian_corpus_v1_20260618_224913.json",
+      "checklist": "6/6 PASS",
+      "warnings": [],
+      "distribution_flags": [],
+      "hard_stops": []
+    },
+    {
+      "slug": "david_ancient_greek_corpus_v1",
+      "verdict": "GREEN",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_ancient_greek_corpus_v1_20260618_224914.json",
+      "checklist": "6/6 PASS",
+      "warnings": [],
+      "distribution_flags": [],
+      "hard_stops": []
+    },
+    {
+      "slug": "david_old_norse_corpus_v1",
+      "verdict": "GREEN",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_norse_corpus_v1_20260618_224914.json",
+      "checklist": "6/6 PASS",
+      "warnings": [],
+      "distribution_flags": [],
+      "hard_stops": []
+    },
+    {
+      "slug": "david_old_english_corpus_v1",
+      "verdict": "GREEN",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_english_corpus_v1_20260618_224914.json",
+      "checklist": "6/6 PASS",
+      "warnings": [],
+      "distribution_flags": [],
+      "hard_stops": []
+    },
+    {
+      "slug": "david_gothic_corpus_v1",
+      "verdict": "GREEN",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_gothic_corpus_v1_20260618_224914.json",
+      "checklist": "6/6 PASS",
+      "warnings": [],
+      "distribution_flags": [],
+      "hard_stops": []
+    }
+  ],
+  "nothing_masked": "All reports show empty warnings, distribution_flags, counsel_flags, hard_stops — prior YELLOW was intake path bug, not suppressed channel risk"
+}

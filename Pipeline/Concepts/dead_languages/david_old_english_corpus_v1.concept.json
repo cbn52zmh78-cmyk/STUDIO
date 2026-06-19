@@ -1,57 +1,69 @@
 {
   "slug": "david_old_english_corpus_v1",
-  "title": "DAVID — Old English: Beowulf's Tongue in Manuscript",
+  "title": "DAVID \u2014 Old English: Beowulf's Tongue in Manuscript",
   "format_id": "documentary-host",
   "actor_id": "David-001",
   "target_seconds": 69,
-  "tags": ["history", "language", "old-english", "beowulf", "corpus"],
+  "tags": [
+    "history",
+    "language",
+    "old-english",
+    "beowulf",
+    "corpus"
+  ],
   "brief": "dead_languages/david_old_english_corpus_v1_brief.txt",
+  "gate_brief": "dead_languages/david_old_english_corpus_v1_brief.txt",
   "gate_0": {
     "human_signoff": true,
     "rating": "PG",
-    "channels": ["social", "streaming"],
-    "music_plan": "original score only — music cleared, cue sheet on file"
+    "channels": [
+      "social",
+      "streaming"
+    ],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
   },
   "brand": {
-    "title": "DAVID · The Archive",
+    "title": "DAVID \u00b7 The Archive",
     "subtitle": "Dead languages, actually pronounced.",
-    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+    "cta": "Bring the dead tongues back \u2014 one attestation at a time. DAVID."
   },
   "beats": [
     {
       "id": "01_cold_open",
-      "speech_text": "I am DAVID. Today, Old English — the speech of Beowulf and Alfred, preserved in ink that outlasted the kingdoms where it was spoken.",
-      "on_screen": "DAVID · The Archive"
+      "speech_text": "I am DAVID. Today, Old English \u2014 the speech of Beowulf and Alfred, preserved in ink that outlasted the kingdoms where it was spoken.",
+      "on_screen": "DAVID \u00b7 The Archive"
     },
     {
       "id": "02_stakes",
-      "speech_text": "Norman conquest reshaped England's tongue. Old English survived only in manuscripts — one fire away from oblivion, as the Cotton library proved."
+      "speech_text": "Norman conquest reshaped England's tongue. Old English survived only in manuscripts \u2014 one fire away from oblivion, as the Cotton library proved."
     },
     {
       "id": "03_signature_question",
-      "speech_text": "What does a single surviving poem tell us about how a language sounded — when even its spelling fights the modern eye?",
+      "speech_text": "What does a single surviving poem tell us about how a language sounded \u2014 when even its spelling fights the modern eye?",
       "on_screen": "Manuscript vs mouth"
     },
     {
       "id": "04_proof_beat",
-      "speech_text": "The Beowulf manuscript, the West Saxon Gospels, and charters with contemporary spellings give us thorn, eth, and vowel graphs — plus alliteration that demands stress patterns."
+      "speech_text": "The Beowulf manuscript, the West Saxon Gospels, and charters with contemporary spellings give us thorn, eth, and vowel graphs \u2014 plus alliteration that demands stress patterns."
     },
     {
       "id": "05_method",
-      "speech_text": "We read West Saxon graphs against Mercian variants, use alliterative meter to test stress, and consult comparative Germanic and later Middle English spellings — never smoothing away dialect difference without saying so."
+      "speech_text": "We read West Saxon graphs against Mercian variants, use alliterative meter to test stress, and consult comparative Germanic and later Middle English spellings \u2014 never smoothing away dialect difference without saying so."
     },
     {
       "id": "06_honesty",
-      "speech_text": "The manuscript forms are attested. Short vowels in unstressed syllables and some diphthong timings are reconstructed from comparative evidence — labeled on screen."
+      "speech_text": "The manuscript forms are attested. Short vowels in unstressed syllables and some diphthong timings are reconstructed from comparative evidence \u2014 labeled on screen."
     },
     {
       "id": "07_demonstration",
-      "speech_text": "Listen — Hwaet, we gar-Dena in geardagum — So, we Spear-Danes in days of yore — opening line of Beowulf, West Saxon stress and reconstructed vowels.",
-      "on_screen": "RECONSTRUCTED PRONUNCIATION · West Saxon · Hwæt"
+      "speech_text": "Listen \u2014 Hwaet, we gar-Dena in geardagum \u2014 So, we Spear-Danes in days of yore \u2014 opening line of Beowulf, West Saxon stress and reconstructed vowels.",
+      "on_screen": "RECONSTRUCTED PRONUNCIATION \u00b7 West Saxon \u00b7 Hw\u00e6t"
     },
     {
       "id": "08_invitation",
-      "speech_text": "Stay with the Archive — and hear English before it became the English you speak today."
+      "speech_text": "Stay with the Archive \u2014 and hear English before it became the English you speak today."
     }
   ]
 }
