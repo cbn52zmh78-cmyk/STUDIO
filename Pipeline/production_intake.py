@@ -237,7 +237,18 @@ def compose_video_prompt(
 # --------------------------------------------------------------------------- #
 # Shot assembly
 # --------------------------------------------------------------------------- #
-_SPEAKING_ROLES = {"host", "talent", "dialogue", "vo", "voiceover"}
+# Must match Master Prompt Bible §10 speaking roles.
+_SPEAKING_ROLES = {
+    "host",
+    "character",
+    "companion",
+    "presenter",
+    "host_pie",
+    "talent",
+    "dialogue",
+    "vo",
+    "voiceover",
+}
 
 
 def _is_speaking(role: str) -> bool:

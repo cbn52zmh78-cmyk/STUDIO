@@ -1,10 +1,10 @@
 # Cast Compliance Audit — 100 Actors
-**Audited:** 2026-06-19T03:08:35.484815+00:00
+**Audited:** 2026-06-19T03:22:29.657813+00:00
 
 ## Summary
 - **Total:** 100
-- **CLEAR:** 35
-- **FLAG:** 65
+- **CLEAR:** 36
+- **FLAG:** 64
 - **BLOCKED:** 0
 - **Floor-age (21–22) visual review:** 6
 
@@ -26,7 +26,7 @@
 
 ## Prompt hygiene flags (usable, lock text should be patched)
 
-- Count: 64
+- Count: 63
 - Lanes: 35 male roster + 20 GFE + 10 MAGAZINE missing explicit synthetic/adult clauses in appearance_lock_verbatim
 
 ## Full matrix
@@ -128,7 +128,7 @@
 | IsoldeMoreauMag-001 | magazine_editorial | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | LioraVossMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | MeiLinChenMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| NadiaOkoroMag-001 | magazine_editorial | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| NadiaOkoroMag-001 | magazine_editorial | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | PriyaSinghMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | SofiaAlvarezMag-001 | magazine_editorial | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
 | ValentinaRossiMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |

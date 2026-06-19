@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-06-19T03:08:35.484815+00:00",
+  "updated_at": "2026-06-19T03:22:29.657813+00:00",
   "policy": "BLOCKED actors cannot be used in any production until remediated.",
   "blocked": [],
   "reroll_required": [],
@@ -64,7 +64,6 @@
     "IsoldeMoreauMag-001",
     "LioraVossMag-001",
     "MeiLinChenMag-001",
-    "NadiaOkoroMag-001",
     "PriyaSinghMag-001",
     "SofiaAlvarezMag-001",
     "ValentinaRossiMag-001",

@@ -245,6 +245,7 @@ def build_script(identity_lock: Path, avatar: dict[str, Any]) -> Path:
     script["production_meta"]["casting_plate"] = (
         "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh/01_casting_shots/casting_turnaround_v1.jpg"
     )
+    script["config"]["magenta_clamp"] = False
     script["config"].update({
         "use_identity_lock": False,
         "identity_lock": str(identity_lock),
@@ -265,7 +266,7 @@ def build_script(identity_lock: Path, avatar: dict[str, Any]) -> Path:
             "loudnorm": True,
             "pin_audio_sync": True,
             "reground_interval": 2,
-            "magenta_clamp": True,
+            "magenta_clamp": False,
         },
     })
     script["qa_rules"]["require_audio"] = True

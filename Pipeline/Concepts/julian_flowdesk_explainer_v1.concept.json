@@ -1,0 +1,44 @@
+{
+  "slug": "julian_flowdesk_explainer_v1",
+  "title": "STUDIO Worked Example — FlowDesk Explainer Ad (Julian-001)",
+  "format_id": "explainer-ad",
+  "actor_id": "Julian-001",
+  "set_id": "@Set-Seamless-Neutral-001",
+  "style_id": "@Style-Cool-Clinical-001",
+  "target_seconds": 30,
+  "tags": ["explainer", "product", "saas", "demo", "brand"],
+  "brand": {
+    "title": "FlowDesk",
+    "subtitle": "One calm workspace for every idea",
+    "cta": "Try free at flowdesk.app",
+    "legal_line": "Synthetic presenter · demo only"
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Still drowning in scattered notes?",
+      "on_screen": "FlowDesk"
+    },
+    {
+      "id": "02_pain",
+      "speech_text": "Every tab steals your focus."
+    },
+    {
+      "id": "03_solution",
+      "speech_text": "FlowDesk gathers ideas in one calm workspace."
+    },
+    {
+      "id": "04_benefit_a",
+      "speech_text": "Capture thoughts instantly, anywhere."
+    },
+    {
+      "id": "05_benefit_b",
+      "speech_text": "Find what you need in seconds."
+    },
+    {
+      "id": "06_cta",
+      "speech_text": "Try FlowDesk free at flowdesk dot app.",
+      "on_screen": "FlowDesk · flowdesk.app"
+    }
+  ]
+}

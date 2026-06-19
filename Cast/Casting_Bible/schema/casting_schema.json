@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "STUDIO Casting Registry Entry",
   "version": "1.0.0",
-  "generated_at": "2026-06-19T02:54:54.439624+00:00",
+  "generated_at": "2026-06-19T03:19:59.189585+00:00",
   "description": "Locked synthetic actor record for STUDIO actors_roster. Appearance lock is verbatim reuse.",
   "guardrails": {
     "synthetic_only": true,

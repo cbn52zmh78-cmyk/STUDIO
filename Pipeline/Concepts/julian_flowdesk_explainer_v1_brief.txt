@@ -1,0 +1,12 @@
+Project: julian_flowdesk_explainer_v1
+Format: explainer-ad (30s product demo)
+Rating target: PG
+Channels: social, streaming, client
+Performer: Julian-001 (31-year-old synthetic male presenter, Julian Cross)
+Set: @Set-Seamless-Neutral-001 — neutral grey seamless studio
+Style: @Style-Cool-Clinical-001 — cool clinical product trust grade
+Wardrobe: navy blazer over light blue Oxford shirt, no tie, dark chinos (presenter commercial look)
+Content: SFW productivity app explainer for fictional brand FlowDesk. Hook-problem-solution-benefits-CTA.
+Claims: demo-only copy; no medical, financial, or competitor defamation claims.
+AI disclosure: synthetic presenter labeled in provenance card footer.
+Synthetic fictional performer only (Casting Bible Julian-001, age 31). No celebrity mimicry. Adult cast only (21+).

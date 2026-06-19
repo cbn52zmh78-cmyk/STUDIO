@@ -1,0 +1,30 @@
+{
+  "project": "julian_flowdesk_explainer_v1",
+  "verdict": "RED",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming",
+    "client"
+  ],
+  "hard_stops": [
+    "[CARA] CRITICAL: Any sexual or exploitative reference involving minors is strictly prohibited."
+  ],
+  "counsel_flags": [
+    "Living person likeness on screen \u2014 counsel + consent"
+  ],
+  "warnings": [],
+  "distribution_flags": [
+    "[SOCIAL] Social platforms require AI disclosure labels \u2014 verify current ToS",
+    "[CLIENT] Client work \u2014 brand safety + indemnity + extra clearance"
+  ],
+  "rating_flags": [],
+  "cara_status": "NEEDS_REVISION",
+  "notes": [
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "PRODUCER HARD STOP \u2014 Gate 0 failed. Do not generate. Do not shoot. Do not publish."
+  ],
+  "checklist_domains": {},
+  "timestamp": "2026-06-18T22:19:59.221918",
+  "source_excerpt": "Project: julian_flowdesk_explainer_v1\nFormat: explainer-ad (30s product demo)\nRating target: PG\nChannels: social, streaming, client\nPerformer: Julian-001 (31-year-old synthetic male presenter, Julian Cross)\nSet: @Set-Seamless-Neutral-001 \u2014 neutral grey seamless studio\nStyle: @Style-Cool-Clinical-001 \u2014 cool clinical product trust grade\nWardrobe: navy blazer over light blue Oxford shirt, no tie, dark chinos (presenter commercial look)\nContent: SFW productivity app explainer for fictional brand Flo"
+}

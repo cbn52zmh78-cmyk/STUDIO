@@ -42,7 +42,9 @@ Complete every row before signing **GREEN**. **Any unchecked or FAIL → not GRE
 | 5 | **2257-style age documentation** | Every performer in the deliverable has **numerical age 21+** documented in: (a) Casting Bible `age_locked` + lock card, (b) production prompt prose (`[age]-year-old [ethnicity] [gender]` per `prompts/MASTER_JSON_Prompt_Template_ACTIVE.json` → `compliance_2257`), (c) Cast Compliance Audit (#110) not **BLOCKED**. Floor-age 21–22 entries require visual adult review before ship. | `Research/Age_Policy_Locked.md` · `Cast/Casting_Bible/audit/compliance_matrix.md` · `python STUDIO/Cast/Scripts/audit_cast_compliance.py` | ☐ |
 | 6 | **AI-disclosure obligation** | **Plan** for synthetic-performer / AI-generated disclosure on every declared channel (in-video label, credits, description, platform metadata). Obligation logged at Gate 0; **presence verified** at Pre-Publish row 3. | `Legal/AI_Content/CHARTER.md` · per-channel ToS in Mass Dissemination charter | ☐ |
 
-### Dual-stack machine review (automated via `legal_gate.py`)
+### Dual-stack machine review (automated via `legal_gate.py` v1.2)
+
+Machine output includes `checklist_domains` (row_1 … row_6) aligned to the table above. Validation harness: `artifacts/legal/test_gate_v11.py`.
 
 | Stack | Question |
 |-------|----------|
@@ -109,6 +111,8 @@ Producer: _________________________   Date: __________   Verdict: GREEN / RED
 | Canon | Path |
 |-------|------|
 | Pre-Publish Gate (downstream) | `Producers_Office/Pre_Publish_Gate.md` |
+| Legal Gate CLI v1.2 | `artifacts/legal/legal_gate.py` |
+| Gate validation tests | `artifacts/legal/test_gate_v11.py` |
 | Mass Dissemination | `Legal/Mass_Dissemination/CHARTER.md` |
 | AI Content | `Legal/AI_Content/CHARTER.md` |
 | Talent & Replica | `Legal/Talent_Replica/CHARTER.md` |

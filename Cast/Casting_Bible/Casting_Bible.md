@@ -1,6 +1,6 @@
 # STUDIO Casting Bible v1.0
 
-**Generated:** 2026-06-19T02:54:54.439624+00:00  
+**Generated:** 2026-06-19T03:19:59.189585+00:00  
 **Scope:** `STUDIO/Cast/actors_roster` — 70 synthetic narrative actors  
 **Status:** Locked registry for production continuity
 

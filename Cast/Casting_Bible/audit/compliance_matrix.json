@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "audited_at": "2026-06-19T03:08:35.484815+00:00",
+  "audited_at": "2026-06-19T03:22:29.657813+00:00",
   "policy": {
     "age_minimum": 21,
     "floor_age_review_range": "21-22",
@@ -14,8 +14,8 @@
   },
   "summary": {
     "total": 100,
-    "clear": 35,
-    "flag": 65,
+    "clear": 36,
+    "flag": 64,
     "blocked": 0,
     "floor_age": 6
   },
@@ -81,7 +81,6 @@
     "IsoldeMoreauMag-001",
     "LioraVossMag-001",
     "MeiLinChenMag-001",
-    "NadiaOkoroMag-001",
     "PriyaSinghMag-001",
     "SofiaAlvarezMag-001",
     "ValentinaRossiMag-001",
@@ -2113,10 +2112,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {

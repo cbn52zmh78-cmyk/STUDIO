@@ -33,15 +33,21 @@
 End-to-end pipeline — one pass, no doc-hopping:
 
 ```
-1. LEGAL GATE          → GREEN before any generation (RED = hard stop)
+1. LEGAL GATE          → Gate 0 on brief (RED = hard stop; YELLOW = proceed with flags)
 2. CAST                → Pick ActorID from Casting Bible; verify plate + appearance_lock_verbatim
+   2b. OUTFIT (video)   → image_edit presenter wardrobe from plate (§2) if not casting wardrobe
 3. SET + STYLE         → Pick @Set-* and @Style-* (one each per scene; never swap mid-take)
 4. FORMAT              → Pick format template (#98) or explicit format_id
-5. SCRIPT              → Build canonical render_longform JSON (§5)
-6. COMPOSE PROMPTS     → Apply compose contract (§10) to every shot video_prompt
-7. GENERATE            → render_longform.py (add --seamless for continuous takes)
-8. QA                  → qa_report.json + plate_locked registry check
+5. SCRIPT              → concept.json → production_intake.py → canonical script (§5)
+6. COMPOSE PROMPTS     → Intake applies compose contract (§10); verify lip-sync on speaking roles
+7. VALIDATE            → render_longform.py --script-only (no API)
+8. GENERATE            → render_longform.py --seamless (optional; needs XAI_API_KEY)
+9. QA                  → pre-render: build_casting_bible.py + qa_check (script); post-render: qa_report.json
 ```
+
+**Worked example (non-DAVID explainer-ad):** `Worked_Example_Explainer_Ad_v1.0.md` — Julian-001 / FlowDesk, all artifacts captured.
+
+**Roster identity mapping:** Format anchors (`@Presenter-001`, `@Talent-001`) are template placeholders. Set `actor_id: <ActorID>` in the concept (e.g. `Julian-001`). Intake emits `CONTINUITY LOCK @<ActorID>: …` instead of the format anchor lock.
 
 **Image-only path (no video):**
 
@@ -201,7 +207,15 @@ Enforcement: `build_casting_bible.py` + `content_rating_compliance_guard.py`
 
 ### 3.4 Legal gate
 
-**Legal Gate 0** runs before any generation. **RED = hard stop.** No generation, no shoot, no publish.
+**Legal Gate 0** runs before any generation. **RED = hard stop.** No generation, no shoot, no publish. **YELLOW** = proceed; review distribution/counsel flags.
+
+```powershell
+python artifacts/legal/legal_gate.py --project <slug> --file <brief.txt> --rating PG --channels social,streaming,client
+```
+
+**Brief writing:** Avoid the substring `minor` in gate briefs (e.g. write "adult cast only (21+)" not "no minors") — CARA guard false-positives on that word.
+
+Reports: `Studio/Producers_Office/Legal_Gate/GATE_<verdict>_<project>_<stamp>.json`
 
 ### 3.5 Intimacy language (when applicable)
 
@@ -317,8 +331,10 @@ Legacy fields accepted at load time via `normalize_script()` — persisted copie
 
 | Path | Notes |
 |------|-------|
-| `slug` | Production folder: `productions/<slug>_longform_v1/` |
+| `slug` | Production folder (see §5.4) |
+| `format_id` | Optional in source script; stripped by `normalize_script()` — keep on intake output for routing |
 | `config` | Model, locks, refs, optional `seamless` |
+| `config.use_identity_lock` | `false` for roster talent (avatar_reference from casting plate); `true` default for DAVID host |
 | `shots[]` | Each: `id`, `duration`, `video_prompt`, `speech_text`, `t_start`, `t_end` |
 | `provenance_card` | Closing/provenance still segment |
 | `qa_rules` | Gates for `qa_report.json` |
@@ -348,12 +364,25 @@ Finish on gesture peak (hand motion or lean), never hold dead stillness or dead 
 
 ### 5.4 Deliverables per production
 
+**Output directory** (`resolve_production_dir` in `render_longform.py`):
+
+| Format | Default path |
+|--------|--------------|
+| `documentary-host` (DAVID) | `DAVID/productions/<slug>_longform_v1/` |
+| All other formats (#98) | `STUDIO/Productions/Editorial/<slug>_longform_v1/` |
+
+> **Note:** `normalize_script()` drops `format_id` from persisted copies. If `--script-only` lands under `DAVID/productions/` instead of Editorial, re-run from a source script that still carries `format_id`, or set `production_dir` explicitly.
+
 | Artifact | Path |
 |----------|------|
-| Final MP4 | `productions/<slug>_longform_v1/output/` |
-| QA report | `qa_report.json` |
-| Extend state | `shots/extend_state.json` |
-| Manifest | `manifest.json` |
+| Source script (intake) | `DAVID/scripts/longform_scripts/<slug>_script.json` |
+| Normalized script | `<production_dir>/<slug>_script.json` |
+| Imagine pack | `<production_dir>/<slug>_imagine_pack.json` |
+| Final MP4 | `<production_dir>/output/` |
+| QA report (post-render) | `<production_dir>/qa_report.json` |
+| Pre-render QA | Run `qa_check()` on script — see worked example |
+| Extend state | `<production_dir>/shots/extend_state.json` |
+| Manifest | `<production_dir>/manifest.json` |
 
 Source spec: `STUDIO/Techniques/STUDIO_Canonical_Schema_and_Seamless_Spec_v1.md`
 
@@ -550,6 +579,16 @@ Claims require verification flag until legal approves.
 
 ### 9.6 Instantiate a script
 
+**Preferred — concept intake (actor + format + set/style wired):**
+
+```powershell
+# Write STUDIO/Pipeline/Concepts/<slug>.concept.json (see INTAKE_FLOW.md)
+python STUDIO/Pipeline/production_intake.py STUDIO/Pipeline/Concepts/<slug>.concept.json
+python DAVID/scripts/render_longform.py DAVID/scripts/longform_scripts/<slug>_script.json --script-only
+```
+
+**Alternate — template CLI only (no casting bible wiring):**
+
 ```powershell
 python artifacts/production/production_templates.py list
 python artifacts/production/production_templates.py select "warm daily check-in companion"
@@ -603,10 +642,13 @@ For non-longform single clips, use `STUDIO/prompts/MASTER_JSON_Prompt_Template_A
 
 | Task | Command |
 |------|---------|
+| **Legal Gate 0** | `python artifacts/legal/legal_gate.py --project <slug> --file <brief.txt> --rating PG --channels social,streaming` |
 | Build casting registry | `python STUDIO/Cast/Scripts/build_casting_bible.py` |
 | Casting prompt helper | `python STUDIO/Development/scripts/casting_shot.py <description>` |
+| **Concept → script (preferred)** | `python STUDIO/Pipeline/production_intake.py STUDIO/Pipeline/Concepts/<slug>.concept.json` |
 | List formats | `python artifacts/production/production_templates.py list` |
-| Build longform script | `python artifacts/production/production_templates.py build <format_id> --slug X --out script.json` |
+| Build longform script (alt) | `python artifacts/production/production_templates.py build <format_id> --slug X --out script.json` |
+| Validate script (no API) | `python DAVID/scripts/render_longform.py <script.json> --script-only` |
 | Render longform | `python DAVID/scripts/render_longform.py <script.json>` |
 | Seamless render | `python DAVID/scripts/render_longform.py <script.json> --seamless --match-color --cut-on-motion` |
 | Re-concat only | `python DAVID/scripts/render_longform.py <script.json> --concat-only` |
@@ -619,6 +661,9 @@ For non-longform single clips, use `STUDIO/prompts/MASTER_JSON_Prompt_Template_A
 | Document / data | Path |
 |-----------------|------|
 | **This bible** | `STUDIO/Prompt_Library/library/STUDIO_Master_Prompt_Bible_v1.0.md` |
+| Worked example (explainer-ad) | `STUDIO/Prompt_Library/library/Worked_Example_Explainer_Ad_v1.0.md` |
+| Intake flow | `STUDIO/Pipeline/INTAKE_FLOW.md` |
+| Concept intake CLI | `STUDIO/Pipeline/production_intake.py` |
 | Casting registry | `STUDIO/Cast/Casting_Bible/registry/casting_registry.json` |
 | Casting schema | `STUDIO/Cast/Casting_Bible/schema/casting_schema.json` |
 | Age policy | `STUDIO/research/Age_Policy_Locked.md` |
@@ -642,6 +687,7 @@ For non-longform single clips, use `STUDIO/prompts/MASTER_JSON_Prompt_Template_A
 | Version | Date | Change |
 |---------|------|--------|
 | 1.0 | 2026-06-19 | Master fold: Casting v2.1 + outfit + compliance + David-001 exemption + render_longform schema + seamless + Set/Style libraries + 4 format templates (#98) |
+| 1.0.1 | 2026-06-19 | Patched from explainer-ad worked example: intake path, legal gate CLI, roster identity mapping, outfit step 2b, use_identity_lock, QA pre/post split, production paths |
 
 ---
 
