@@ -163,5 +163,17 @@ These are as important as what we are:
 
 ---
 
+---
+
+## 11. DAVID channel identity (#141)
+
+**Full kit:** `DAVID/brand/Upon_Tyne_DAVID_Brand_Kit_v1.md`  
+**Specs JSON:** `DAVID/brand/asset_specs.json`  
+**Channel About:** `DAVID/brand/CHANNEL_ABOUT.md`
+
+DAVID · The Archive is the first public Upon Tyne channel property. Parent credit subordinate; channel leads with Archive amber palette reconciled to Upon Tyne gold (`#C9A84C` ↔ `#DCBE78`).
+
+---
+
 *Branding Pass v1.0 — Upon Tyne Productions / STUDIO*  
-*Director review requested before lock.*
+*Director review requested before lock. DAVID channel kit v1.0 locked 2026-06-19 (#141).*
