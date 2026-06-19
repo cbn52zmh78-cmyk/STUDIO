@@ -1,0 +1,57 @@
+{
+  "slug": "david_ancient_greek_corpus_v1",
+  "title": "DAVID — Ancient Greek: Restoring the Pitch Accent",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": ["history", "language", "ancient-greek", "corpus", "pronunciation"],
+  "brief": "dead_languages/david_ancient_greek_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "music_plan": "original score only — music cleared, cue sheet on file"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Ancient Greek — the language of Homer, Plato, and the New Testament, read for millennia — but rarely with the pitch accent its poets counted.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "Modern classrooms teach Erasmian or modern Greek habits. The corpus itself carries accent marks, meter, and ancient commentators who argued about how words rose and fell."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "Can we recover a living contour of speech from dots and circumflexes that medieval scribes still bothered to write?",
+      "on_screen": "Pitch, not just letters"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "Homeric meter, Dionysius Thrax on accent, and papyri with acute and circumflex marks give structural proof. Byzantine scholia preserve debates about quantity and stress shift."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We test reconstructed pitch accent against tragic trimeter and Homeric hexameter, cross-check Koine papyri against classical norms, and cite where Roman-era speakers already pronounced differently."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "Accent notation in surviving manuscripts is attested as written tradition. Exact peak pitch and regional Koine color are reconstructed — I mark both before the line is spoken."
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — ἄνδρα μοι ἔννεπε, μοῦσα — Sing to me, Muse, of the man — Homeric opening with restored pitch accent and long vowel quantity.",
+      "on_screen": "RECONSTRUCTED PRONUNCIATION · pitch accent · ἄνδρα"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Follow the Archive — and hear Greek as meter demands, not as modern habit allows."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "david_sumerian_corpus_v1",
+  "title": "DAVID — Sumerian: The First Written Language",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": ["history", "language", "sumerian", "cuneiform", "corpus"],
+  "brief": "dead_languages/david_sumerian_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "music_plan": "original score only — music cleared, cue sheet on file"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Sumerian — not Indo-European, not Semitic — the first language we meet written in clay, five thousand years before our microphones existed.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "When writing begins, sound is already slipping away. Sumerian outlived its speakers as a scholarly tongue in Babylon — but the tablets outlasted every throat that knew it natively."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "How do you pronounce a language whose last native generation vanished while scribes still copied its signs?",
+      "on_screen": "Clay outlived voice"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "Administrative tablets, royal hymns, and bilingual Sumerian-Akkadian word lists give pronunciations in syllables. Later Mesopotamian lexicons even gloss Sumerian for students who no longer spoke it."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We assemble the corpus: syllabic spellings, Emesal liturgical variants, Akkadian renderings in the same line, and comparative Afro-Asiatic hypotheses — marking every step that is inference."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "Syllable values from contemporary scribes are our strongest attestation. Vowel quality in open syllables and pitch remain reconstructed — I separate them before you hear a line."
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — dnin-ĝir-su-ka — in the name of Ningirsu — syllabically parsed from a Lagash administrative tablet, with reconstructed vowel length.",
+      "on_screen": "RECONSTRUCTED PRONUNCIATION · syllabic corpus"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Follow the Archive — back to the first hand that pressed a reed into wet clay and called it speech."
+    }
+  ]
+}

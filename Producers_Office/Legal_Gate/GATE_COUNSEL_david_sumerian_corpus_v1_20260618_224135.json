@@ -1,0 +1,32 @@
+{
+  "project": "david_sumerian_corpus_v1",
+  "verdict": "COUNSEL",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [
+    "Living person likeness on screen \u2014 counsel + consent"
+  ],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Escalate to entertainment counsel before proceeding."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "COUNSEL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "COUNSEL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "timestamp": "2026-06-18T22:41:35.320666",
+  "source_excerpt": "Project: david_sumerian_corpus_v1\nFormat: documentary-host (69s)\nRating target: PG\nChannels: social, streaming\nHost: David-001 synthetic documentary host\nContent: Educational episode on Sumerian cuneiform corpus \u2014 syllabic tablets, bilingual word lists, Lagash administrative texts; attested syllables vs reconstructed vowels.\nDemonstration: Ningirsu name parsed from administrative tablet with RECONSTRUCTED PRONUNCIATION label.\nAI disclosure planned. No real person likeness. Scholarly educational "
+}

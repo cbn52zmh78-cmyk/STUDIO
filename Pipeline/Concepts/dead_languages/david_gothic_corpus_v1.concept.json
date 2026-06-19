@@ -1,0 +1,57 @@
+{
+  "slug": "david_gothic_corpus_v1",
+  "title": "DAVID — Gothic: A Language Saved by One Bible",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": ["history", "language", "gothic", "wulfila", "corpus"],
+  "brief": "dead_languages/david_gothic_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "music_plan": "original score only — music cleared, cue sheet on file"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Gothic — a Germanic tongue that vanished from daily life, but survived because a bishop translated the Bible into it in the fourth century.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "An entire people's speech can disappear in generations. Gothic did — except for Wulfila's scripture, copied until only fragments of silver and ink remain."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "How do you hear a language when nearly every speaker is gone and the corpus is one sacred book?",
+      "on_screen": "One book. One witness."
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "The Codex Argenteus and related witnesses give us Gospel text in Gothic script — plus spelling choices, Greek loan alignment, and Bishop Wulfila's own alphabet design."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We triangulate: Gothic graphemes against Greek and Latin source verses, comparative Germanic cognates, and later philologists' sound laws — never inventing a phoneme without a chain of evidence."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "The manuscript spellings are attested. Vowel timbre and stress beyond the written record are reconstructed — and I will say so before you hear them."
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — Atta unsar, thu in himinam — our Father, in the heavens — from Wulfila's Gospel line, read with reconstructed Gothic vowels and stress.",
+      "on_screen": "RECONSTRUCTED PRONUNCIATION · Wulfila's Gothic"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Subscribe to the Archive — where a single surviving book can still return a voice to the silence."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "production": "movies_lane_sample_v1",
   "format_id": "narrative-short-film",
   "lane": "movies",
-  "locked_at": "2026-06-19T03:02:46.606126+00:00",
+  "locked_at": "2026-06-19T03:38:12.325868+00:00",
   "status": "LOCKED",
   "talent": {
     "actor_id": "Amara-001",
@@ -40,7 +40,7 @@
   "models": {
     "image": "grok-imagine-image-quality",
     "video": "grok-imagine-video-1.5",
-    "resolution": "720p",
+    "resolution": "480p",
     "aspect_ratio": "16:9"
   }
 }

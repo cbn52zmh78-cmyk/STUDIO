@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "updated": "2026-06-18",
+  "library_root": "Music_Beds",
+  "manifest_path": "STUDIO/Music_Sound/clearance_manifest.json",
+  "lanes": [
+    "documentary-prestige",
+    "cinematic-thriller",
+    "soft-warm-companion",
+    "upbeat-explainer"
+  ],
+  "tracks": {
+    "BED-DOC-001": {
+      "title": "Archive Room — Low Strings",
+      "lane": "documentary-prestige",
+      "mood": "prestige",
+      "file": "Music_Beds/documentary-prestige/BED-DOC-001.mp3",
+      "duration_seconds": 180,
+      "bpm": 72,
+      "source": "Upon Tyne Productions — internal score library",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-DOC-002": {
+      "title": "Corpus Walk — Piano & Pulse",
+      "lane": "documentary-prestige",
+      "mood": "prestige",
+      "file": "Music_Beds/documentary-prestige/BED-DOC-002.mp3",
+      "duration_seconds": 210,
+      "bpm": 78,
+      "source": "Upon Tyne Productions — internal score library",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-THR-001": {
+      "title": "Pressure Grid — Tension Pulse",
+      "lane": "cinematic-thriller",
+      "mood": "thriller",
+      "file": "Music_Beds/cinematic-thriller/BED-THR-001.mp3",
+      "duration_seconds": 150,
+      "bpm": 110,
+      "source": "Upon Tyne Productions — internal score library",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-THR-002": {
+      "title": "Night Ledger — Dark Synth Bed",
+      "lane": "cinematic-thriller",
+      "mood": "thriller",
+      "file": "Music_Beds/cinematic-thriller/BED-THR-002.mp3",
+      "duration_seconds": 165,
+      "bpm": 96,
+      "source": "Studio RF pack — perpetual license on file",
+      "license": "royalty-free",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-WARM-001": {
+      "title": "Soft Companion — Acoustic Glow",
+      "lane": "soft-warm-companion",
+      "mood": "warm",
+      "file": "Music_Beds/soft-warm-companion/BED-WARM-001.mp3",
+      "duration_seconds": 200,
+      "bpm": 68,
+      "source": "Studio RF pack — perpetual license on file",
+      "license": "royalty-free",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-WARM-002": {
+      "title": "Hearth Light — Gentle Pad",
+      "lane": "soft-warm-companion",
+      "mood": "warm",
+      "file": "Music_Beds/soft-warm-companion/BED-WARM-002.mp3",
+      "duration_seconds": 190,
+      "bpm": 64,
+      "source": "CC0 — OpenGameArt community upload (verified CC0 1.0)",
+      "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-UP-001": {
+      "title": "Bright Explain — Marimba Lift",
+      "lane": "upbeat-explainer",
+      "mood": "upbeat",
+      "file": "Music_Beds/upbeat-explainer/BED-UP-001.mp3",
+      "duration_seconds": 120,
+      "bpm": 118,
+      "source": "Upon Tyne Productions — internal score library",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-UP-002": {
+      "title": "Flow Desk — Pop Pulse",
+      "lane": "upbeat-explainer",
+      "mood": "upbeat",
+      "file": "Music_Beds/upbeat-explainer/BED-UP-002.mp3",
+      "duration_seconds": 135,
+      "bpm": 124,
+      "source": "CC0 — Pixabay Music (verified CC0 / no attribution)",
+      "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    }
+  }
+}

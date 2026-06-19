@@ -1,0 +1,10 @@
+Project: david_old_norse_corpus_v1
+Format: documentary-host (69s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host
+Content: Educational episode on Old Norse — Jelling runestones attested forms, Poetic Edda meter reconstruction; Viking-age language history.
+On-screen: ATTESTED Jelling runes and RECONSTRUCTED skaldic meter labels on demonstration beat.
+AI disclosure planned in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: original score only — music cleared, cue sheet on file.

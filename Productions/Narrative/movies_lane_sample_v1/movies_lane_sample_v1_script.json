@@ -6,7 +6,7 @@
   "concept": "Warehouse thriller micro-arc starring Amara Singh",
   "config": {
     "model_video": "grok-imagine-video-1.5",
-    "resolution": "720p",
+    "resolution": "480p",
     "aspect_ratio": "16:9",
     "voice_suffix": "naturalistic dialogue delivery, motivated breath, cinematic intimacy, London crisp warmth, synthetic talent only",
     "seamless": {
@@ -18,13 +18,14 @@
       "glasses_lock": false,
       "loudnorm": true,
       "pin_audio_sync": true,
-      "reground_interval": 2,
+      "reground_interval": 1,
       "magenta_clamp": true
     },
     "use_identity_lock": false,
     "identity_lock": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Narrative\\movies_lane_sample_v1\\amara_character_identity_lock.json",
     "avatar_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Narrative\\movies_lane_sample_v1\\references\\amara_character_avatar_reference.jpg",
-    "set_reference": "STUDIO/Pipeline/references/warehouse_industrial_reference.jpg"
+    "set_reference": "STUDIO/Pipeline/references/warehouse_industrial_reference.jpg",
+    "avatar_url": null
   },
   "shots": [
     {
@@ -119,6 +120,9 @@
     "finish every segment on motion or emotional peak — never dead hold",
     "movies lane validation sample — not mass production",
     "Amara-001 roster casting plate locked",
+    "21+ age_locked verified",
+    "movies lane validation sample — not mass production",
+    "Amara-001 roster casting plate locked",
     "21+ age_locked verified"
   ],
   "production_meta": {
@@ -149,5 +153,6 @@
     "actor_id": "Amara-001",
     "age_locked": 30,
     "content_rating": "SFW"
-  }
+  },
+  "production_dir": "STUDIO/Productions/Narrative/movies_lane_sample_v1_longform_v1"
 }

@@ -4,7 +4,7 @@
 concept  ->  Gate 0 legal (mandatory)  ->  actor (Casting Bible)  +  format (#98)
          +   set/style (#99 Set/Style libraries)  ->  canonical render_longform script.json
 
-Gate 0 runs on every intake (``artifacts/legal/legal_gate.py`` v1.2). RED blocks the run
+Gate 0 runs on every intake (``artifacts/legal/legal_gate.py`` v1.3). RED blocks the run
 and emits no script. YELLOW/COUNSEL stamp ``requires_human_signoff`` for render.
 
 This is the implementation the locked libraries reference in their `usage` fields:
@@ -74,12 +74,20 @@ def _load_json(path: Path) -> dict[str, Any]:
 
 
 def _import_legal_gate():
-    """Load legal_gate v1.2 from artifacts (stdlib-only intake stays dep-free otherwise)."""
+    """Load legal_gate v1.3 from artifacts (stdlib-only intake stays dep-free otherwise)."""
     if str(LEGAL_GATE_DIR) not in sys.path:
         sys.path.insert(0, str(LEGAL_GATE_DIR))
     from legal_gate import LegalGate  # noqa: WPS433
 
     return LegalGate
+
+
+def _import_music_clearance():
+    if str(LEGAL_GATE_DIR) not in sys.path:
+        sys.path.insert(0, str(LEGAL_GATE_DIR))
+    from music_clearance import resolve_music_from_concept  # noqa: WPS433
+
+    return resolve_music_from_concept
 
 
 def _sanitize_gate_brief(text: str) -> str:
@@ -173,9 +181,10 @@ def build_gate_brief_text(
     brand = concept.get("brand") or {}
     if brand.get("legal_line"):
         lines.append(f"Brand legal: {brand['legal_line']}")
-    music = (concept.get("gate_0") or {}).get("music_plan") or concept.get("music_plan")
-    if music:
-        lines.append(f"Music plan: {music}")
+    resolve_music = _import_music_clearance()
+    music_line = resolve_music(concept)
+    if music_line:
+        lines.append(music_line)
     return "\n".join(lines)
 
 
@@ -210,9 +219,13 @@ def run_gate_0(
 
     blocked = result.verdict == "RED"
     requires_signoff = result.verdict in ("YELLOW", "COUNSEL")
+    gate_cfg = concept.get("gate_0") or {}
+    music_bed_id = gate_cfg.get("music_bed_id") or concept.get("music_bed_id")
+    music_bed_id = str(music_bed_id).upper() if music_bed_id else None
+    row2 = (result.checklist_domains or {}).get("row_2_music_sync")
 
     return {
-        "version": "1.2",
+        "version": "1.3",
         "verdict": result.verdict,
         "blocked": blocked,
         "requires_human_signoff": requires_signoff,
@@ -227,6 +240,9 @@ def run_gate_0(
         "warnings": result.warnings,
         "rating_flags": result.rating_flags,
         "cara_status": result.cara_status,
+        "music_bed_id": music_bed_id,
+        "music_clearance_manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+        "row_2_music_sync": row2,
         "notes": result.notes,
         "brief_source": str(_concept_brief_path(concept) or "composed"),
     }

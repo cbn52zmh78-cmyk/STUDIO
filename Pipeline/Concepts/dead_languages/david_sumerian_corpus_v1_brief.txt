@@ -1,0 +1,10 @@
+Project: david_sumerian_corpus_v1
+Format: documentary-host (69s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host
+Content: Educational episode on Sumerian cuneiform corpus — syllabic tablets, bilingual word lists, Lagash administrative texts; attested syllables vs reconstructed vowels.
+Demonstration: Ningirsu name parsed from administrative tablet with RECONSTRUCTED PRONUNCIATION label.
+AI disclosure planned in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Scholarly educational content only.
+Music plan: original score only — music cleared, cue sheet on file.

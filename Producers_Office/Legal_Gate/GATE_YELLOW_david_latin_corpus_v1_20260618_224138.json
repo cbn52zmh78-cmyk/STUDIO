@@ -1,0 +1,31 @@
+{
+  "project": "david_latin_corpus_v1",
+  "verdict": "YELLOW",
+  "target_rating": "PG-13",
+  "channels": [
+    "social"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [
+    "Numerical performer age not stated \u2014 required per Age Policy + Intimacy Protocol v1.3"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "MANUAL",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "timestamp": "2026-06-18T22:41:38.460620",
+  "source_excerpt": "Project: david_latin_corpus_v1\nTitle: DAVID \u2014 Why Latin Never Really Died\nFormat: documentary-host\nRating target: PG-13\nChannels: social\nPerformer anchor: David-001\nContent: DAVID \u2014 Why Latin Never Really Died\nAI disclosure: synthetic performer labeled in provenance card and platform metadata.\nSynthetic fictional performer only. No celebrity mimicry. adult cast only (21+)."
+}

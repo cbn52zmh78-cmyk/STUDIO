@@ -1,0 +1,30 @@
+{
+  "project": "david_latin_corpus_v1",
+  "verdict": "GREEN",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Gate 0 cleared for Development/Pre-Production subject to ongoing review."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "timestamp": "2026-06-18T22:42:33.807964",
+  "source_excerpt": "Project: david_latin_corpus_v1\nFormat: documentary-host (69s)\nRating target: PG\nChannels: social, streaming\nHost: David-001 synthetic documentary host (reads 45-55 per identity lock)\nContent: Educational episode on Latin continuity \u2014 liturgy, law, science corpus; attested vs reconstructed classical pronunciation.\nCorpus hooks: Roman grammarians, medieval scribes, Caesar Gallia opening line demonstration.\nOn-screen: RECONSTRUCTED PRONUNCIATION labels on demonstration beat.\nAI disclosure: syntheti"
+}

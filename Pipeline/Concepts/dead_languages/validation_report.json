@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "david_latin_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_ancient_greek_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_old_english_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_old_norse_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_gothic_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_sumerian_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  }
+]

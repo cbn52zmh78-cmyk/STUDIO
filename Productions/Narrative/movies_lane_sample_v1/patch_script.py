@@ -41,10 +41,18 @@ script["production_meta"]["actor_id"] = "Amara-001"
 script["production_meta"]["age_locked"] = 30
 script["production_meta"]["content_rating"] = "SFW"
 
+avatar_meta = {}
+avatar_json = AVATAR.with_suffix(".json")
+if avatar_json.is_file():
+    avatar_meta = json.loads(avatar_json.read_text(encoding="utf-8"))
+
+script["production_dir"] = "STUDIO/Productions/Narrative/movies_lane_sample_v1_longform_v1"
 script["config"].update({
+    "resolution": "480p",
     "use_identity_lock": False,
     "identity_lock": str(LOCK),
     "avatar_reference": str(AVATAR),
+    "avatar_url": avatar_meta.get("url"),
     "set_reference": wh["reference_file"],
     "voice_suffix": (
         "naturalistic dialogue delivery, motivated breath, cinematic intimacy, "
@@ -59,7 +67,7 @@ script["config"].update({
         "glasses_lock": False,
         "loudnorm": True,
         "pin_audio_sync": True,
-        "reground_interval": 2,
+        "reground_interval": 1,
         "magenta_clamp": True,
     },
 })
@@ -132,7 +140,7 @@ lock_doc = {
     "models": {
         "image": "grok-imagine-image-quality",
         "video": "grok-imagine-video-1.5",
-        "resolution": "720p",
+        "resolution": "480p",
         "aspect_ratio": "16:9",
     },
 }

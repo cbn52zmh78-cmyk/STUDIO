@@ -1,0 +1,57 @@
+{
+  "slug": "david_old_norse_corpus_v1",
+  "title": "DAVID — Old Norse: Runes Attested, Sagas Reconstructed",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": ["history", "language", "old-norse", "runes", "corpus"],
+  "brief": "dead_languages/david_old_norse_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "music_plan": "original score only — music cleared, cue sheet on file"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Old Norse — the language of sagas and runestones, where carved stone gives us attested forms and manuscript poetry demands reconstruction.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "Vikings spread their speech across the North Atlantic. When the age of settlement ended, the tongue evolved — but runes and skaldic verse froze pieces of its sound for us."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "Where does the corpus speak with its own mouth — and where do we supply the breath?",
+      "on_screen": "Attested or reconstructed?"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "The Jelling stones, the Rök runestone, and younger futhark inscriptions attest spellings and names. The Poetic Edda in later Icelandic copies preserves meter that constrains how words must have sounded."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We read runic graphs against Old West Norse phonology, use alliterative patterns in fornyrðislag, and cross-check Snorri's prose — separating inscription evidence from normalized saga prose."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "A runestone line is attested as carved. Full saga delivery with normalized vowels is reconstructed — both labels appear on screen when they matter."
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — Haraldr konungr sigrsæll — King Harald, blessed with victory — as attested on the Jelling stone, beside a reconstructed skaldic line from the meter.",
+      "on_screen": "ATTESTED · Jelling runes · RECONSTRUCTED · skaldic meter"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Join the Archive — and hear the North again, carved in stone and counted in verse."
+    }
+  ]
+}

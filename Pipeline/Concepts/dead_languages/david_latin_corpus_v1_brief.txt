@@ -1,0 +1,11 @@
+Project: david_latin_corpus_v1
+Format: documentary-host (69s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host (reads 45-55 per identity lock)
+Content: Educational episode on Latin continuity — liturgy, law, science corpus; attested vs reconstructed classical pronunciation.
+Corpus hooks: Roman grammarians, medieval scribes, Caesar Gallia opening line demonstration.
+On-screen: RECONSTRUCTED PRONUNCIATION labels on demonstration beat.
+AI disclosure: synthetic host labeled in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: original score only — music cleared, cue sheet on file.
