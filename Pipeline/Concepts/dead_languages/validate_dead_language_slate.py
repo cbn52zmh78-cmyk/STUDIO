@@ -16,12 +16,20 @@ GATE = ROOT / "artifacts" / "legal" / "legal_gate.py"
 SCRIPTS = ROOT / "DAVID" / "scripts" / "longform_scripts"
 
 EPISODES = [
+    # Launch six (eps 1-6)
     "david_latin_corpus_v1",
     "david_ancient_greek_corpus_v1",
     "david_old_english_corpus_v1",
     "david_old_norse_corpus_v1",
     "david_gothic_corpus_v1",
     "david_sumerian_corpus_v1",
+    # Backlog (eps 7-12) - runway past launch (#168)
+    "david_sanskrit_corpus_v1",
+    "david_biblical_hebrew_corpus_v1",
+    "david_akkadian_corpus_v1",
+    "david_middle_egyptian_corpus_v1",
+    "david_classical_nahuatl_corpus_v1",
+    "david_old_church_slavonic_corpus_v1",
 ]
 
 
