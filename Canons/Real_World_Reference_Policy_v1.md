@@ -93,6 +93,6 @@ MAGAZINE is allowed — encouraged — to sound like it lives on newsstands next
 
 - `MAGAZINE/UNIVERSE.md` — in-universe presentation
 - `PRODUCER.md` — session gate
-- `Content_Production/Projects/.../Hollywood_Compliance_Checklist_for_Independent_Production_2026/` — music, E&O, replica law
+- `Scribe/Projects/.../Hollywood_Compliance_Checklist_for_Independent_Production_2026/` — music, E&O, replica law
 
 — Producer · Locked v1.0 · June 2026

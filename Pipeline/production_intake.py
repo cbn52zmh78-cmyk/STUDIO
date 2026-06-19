@@ -61,7 +61,7 @@ NEUTRAL_LIGHTING_SPEC = PIPELINE_DIR / "neutral_lighting_prompt_spec_v1.json"  #
 CASTING_REGISTRY = STUDIO_DIR / "Cast" / "Casting_Bible" / "registry" / "casting_registry.json"
 CONCEPTS_DIR = PIPELINE_DIR / "Concepts"
 LEGAL_GATE_DIR = ROOT / "artifacts" / "legal"
-EDITORIAL_ENGINE_DIR = ROOT / "Content_Production" / "SCRIBE"      # #212 editorial engine
+EDITORIAL_ENGINE_DIR = ROOT / "Scribe" / "SCRIBE"      # #212 editorial engine
 
 SYNTHETIC_GUARD = "synthetic host only"
 SYNTHETIC_TALENT_GUARD = "synthetic talent only"
@@ -1201,7 +1201,7 @@ def route_editorial_intake(
     auto = form.get("auto_route") or {}
     return {
         "lane": "Editorial",
-        "engine": "Content_Production/SCRIBE/editorial_engine.py",
+        "engine": "Scribe/SCRIBE/editorial_engine.py",
         "service_id": auto.get("service_id", "editorial.screenplay_dev"),
         "tier": form.get("tier") or auto.get("tier"),
         "project_id": project.project_id,
@@ -1216,7 +1216,7 @@ def route_editorial_intake(
         "intake_record": ee._rel(project.out_dir / "intake.json"),
         "project_dir": ee._rel(project.out_dir),
         "deliverables": form.get("deliverables"),
-        "next": "python Content_Production/SCRIBE/editorial_engine.py run "
+        "next": "python Scribe/SCRIBE/editorial_engine.py run "
                 f"{ee._rel(source)} --project-id {project.project_id}",
     }
 

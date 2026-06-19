@@ -11,4 +11,4 @@ E&O and distribution clearance binder scaffold. One subfolder per production.
 - [ ] E&O policy declaration (include all AI/synthetic assets)
 - [ ] CARA compliance reports from `Compliance_Reports/`
 
-See `Content_Production/Projects/.../Hollywood_Compliance_Checklist_for_Independent_Production_2026/`
+See `Scribe/Projects/.../Hollywood_Compliance_Checklist_for_Independent_Production_2026/`
