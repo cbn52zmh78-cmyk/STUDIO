@@ -20,9 +20,11 @@
 | `period-antiquity` | Ancient / classical / late-antique / Bronze Age biography |
 | `period-medieval` | Medieval, Anglo-Norman, Gothic, Norse biography |
 | `period-tudor` | Tudor / Elizabethan / Henrician court biography |
+| `cosmic-awe` | Astrophysics, JWST/EHT, cosmology wonder-tone |
+| `clinical-precision` | Molecular, PDB, lab-measurement explainers |
 
-Declare `gate_0.music_bed_id` (e.g. `BED-DOC-001`, `BED-TUD-001`) in concept JSON. Intake emits a manifest-backed brief line; `legal_gate.py` reads `clearance_manifest.json` for row 2 PASS.
+Declare `gate_0.music_bed_id` (e.g. `BED-DOC-001`, `BED-COS-001`, `BED-CLI-001`) in concept JSON. Intake emits a manifest-backed brief line; `legal_gate.py` reads `clearance_manifest.json` for row 2 PASS.
 
-Period pairing guide: `Canons/Historical_SoT_Standard_v1.md` §5.
+Period pairing: `Canons/Historical_SoT_Standard_v1.md` §5 · Science pairing: `Canons/Scientific_SoT_Standard_v1.md` §5.
 
 See `Legal/Music_Clearance/` before any **non-manifest** licensed track hits picture lock.

@@ -1,0 +1,70 @@
+{
+  "issue": 157,
+  "scaffold_id": "black_hole_at2_swap_v1",
+  "description": "Fixed black-hole viz scaffold — swap only @2 science plate; prompts and shot timing unchanged.",
+  "format_id": "science-explainer",
+  "resolution": "480p",
+  "set_id": "@Set-Seamless-Neutral-001",
+  "style_id": "@Style-Cool-Clinical-001",
+  "identity_anchor": "@Julian-001",
+  "default_plate_slug": "black-hole",
+  "swap_slot": "@2",
+  "unchanged_across_swaps": [
+    "shots[].id",
+    "shots[].duration",
+    "shots[].t_start",
+    "shots[].t_end",
+    "shots[].video_prompt",
+    "shots[].speech_text",
+    "config.avatar_reference",
+    "config.set_reference",
+    "config.seamless"
+  ],
+  "swap_fields_only": [
+    "config.visualization_reference",
+    "config.visualization_url",
+    "production_meta.plate_id",
+    "production_meta.plate_slug",
+    "production_meta.plate_subject",
+    "slug",
+    "title"
+  ],
+  "viz_prompt_lock": "Presenter narrates over locked @2 science visualization — see attached render for phenomenon geometry; accurate color, on-screen NOT TO SCALE when illustrative.",
+  "shots": [
+    {
+      "id": "01_hook",
+      "duration": 7,
+      "t_start": 0,
+      "t_end": 7,
+      "role": "presenter",
+      "speech_text": "Some of the strangest objects in the cosmos hide behind gravity so extreme that light itself can bend, fade, or never return.",
+      "video_prompt": "CONTINUITY LOCK @Julian-001: identical presenter face, smart-casual wardrobe, seamless neutral set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Seamless-Neutral-001: identical neutral grey seamless — same backdrop tone mid-grey #9A9A98, same floor sweep, same subject-to-backdrop distance, same falloff — seamless continuation, zero jump cut. STYLE LOCK @Style-Cool-Clinical-001: cool-clinical grade — neutral white balance, low saturation, accurate color reproduction, minimal stylistic grading, science and product trust, no warm cozy cast, no film grain. Presenter addresses camera on seamless neutral, crisp astrophysics hook. Camera: locked medium, direct address. Neutral seamless 5500K bilateral soft key locked — symmetrical wrap, subtle nose shadow only, zero hue drift, no magenta vignette, no warm/cool lateral split. Locked-off or slow linear track; no handheld. Lip-synced, delivers: \"Some of the strangest objects in the cosmos hide behind gravity so extreme that light itself can bend, fade, or never return.\" clear enthusiastic science communicator voice, precise but accessible diction, synthetic presenter only. Finish on presentational gesture peak, never hold dead stillness or dead frame."
+    },
+    {
+      "id": "02_at2_viz_payoff",
+      "duration": 8,
+      "t_start": 7,
+      "t_end": 15,
+      "role": "visualization",
+      "use_avatar": false,
+      "reference_slots": { "@2": "visualization" },
+      "speech_text": "Here is the attached visualization — illustrative geometry from our locked science plate, not a photograph, and not to scale.",
+      "on_screen_labels": ["SCIENCE VISUALIZATION", "NOT TO SCALE"],
+      "video_prompt": "STYLE LOCK @Style-Cool-Clinical-001: cool-clinical grade — neutral white balance, low saturation, accurate color reproduction, minimal stylistic grading. Slow documentary orbit around locked @2 science visualization — see attached render for phenomenon geometry; accurate color, on-screen NOT TO SCALE when illustrative. Camera: wide establishing, gentle push-in. Locked-off slow linear track; no handheld. No sensationalism, no decorative bloom, no luminous black hole surface, no waterfall accretion. Lip-synced narration overlay optional; prioritize faithful @2 plate morphology. clear enthusiastic science communicator voice, precise but accessible diction, synthetic presenter only. Finish on orbital motion peak, never hold dead stillness or dead frame."
+    }
+  ],
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 5,
+    "card_type": "sources",
+    "title": "Sources — @2 swap proof",
+    "subtitle": "ACTORS #157 plug-and-play",
+    "footer": "illustrative visualization · plate library @2 swap"
+  },
+  "qa_rules": {
+    "require_identity_lock": false,
+    "require_synthetic_guard": true,
+    "require_at2_swap_proof": true,
+    "min_shots": 2
+  }
+}

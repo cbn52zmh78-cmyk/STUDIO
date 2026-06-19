@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "updated": "2026-06-19",
   "library_root": "Music_Beds",
   "manifest_path": "STUDIO/Music_Sound/clearance_manifest.json",
@@ -10,8 +10,14 @@
     "upbeat-explainer",
     "period-antiquity",
     "period-medieval",
-    "period-tudor"
+    "period-tudor",
+    "cosmic-awe",
+    "clinical-precision"
   ],
+  "science_lanes": {
+    "cosmic-awe": "Astrophysics, cosmology, JWST/EHT wonder-tone documentary beds",
+    "clinical-precision": "Molecular, PDB, lab-measurement, clinical explainer beds"
+  },
   "period_lanes": {
     "period-antiquity": "Ancient / classical / late-antique / Bronze Age documentary beds",
     "period-medieval": "Medieval / Anglo-Norman / Gothic / Norse documentary beds",
@@ -202,6 +208,62 @@
       "bpm": 76,
       "source": "Studio RF pack — perpetual license on file (Renaissance documentary)",
       "license": "royalty-free",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-COS-001": {
+      "title": "Deep Field — Orbital Choir",
+      "lane": "cosmic-awe",
+      "mood": "cosmic",
+      "domain": "astrophysics / cosmology",
+      "file": "Music_Beds/cosmic-awe/BED-COS-001.mp3",
+      "duration_seconds": 220,
+      "bpm": 58,
+      "source": "Upon Tyne Productions — science score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-COS-002": {
+      "title": "Event Horizon — Sub-bass Drift",
+      "lane": "cosmic-awe",
+      "mood": "cosmic",
+      "domain": "EHT / black-hole / deep-time",
+      "file": "Music_Beds/cosmic-awe/BED-COS-002.mp3",
+      "duration_seconds": 200,
+      "bpm": 52,
+      "source": "Studio RF pack — perpetual license on file (space documentary)",
+      "license": "royalty-free",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-CLI-001": {
+      "title": "Lab Bench — Pulse Ticks",
+      "lane": "clinical-precision",
+      "mood": "clinical",
+      "domain": "molecular / structural biology",
+      "file": "Music_Beds/clinical-precision/BED-CLI-001.mp3",
+      "duration_seconds": 165,
+      "bpm": 92,
+      "source": "Upon Tyne Productions — science score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-CLI-002": {
+      "title": "Crystallography — Marimba Grid",
+      "lane": "clinical-precision",
+      "mood": "clinical",
+      "domain": "PDB / chemistry / measurement explainers",
+      "file": "Music_Beds/clinical-precision/BED-CLI-002.mp3",
+      "duration_seconds": 150,
+      "bpm": 100,
+      "source": "CC0 — Pixabay Music (verified CC0 / no attribution)",
+      "license": "CC0",
       "attribution_required": false,
       "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
       "cue_sheet_path": null

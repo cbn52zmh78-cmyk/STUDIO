@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "science_black_hole_anatomy_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "YELLOW",
+    "format_id": "science-explainer",
+    "sources": 3
+  },
+  {
+    "slug": "science_star_lifecycle_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "YELLOW",
+    "format_id": "science-explainer",
+    "sources": 3
+  },
+  {
+    "slug": "science_galaxy_formation_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "YELLOW",
+    "format_id": "science-explainer",
+    "sources": 3
+  }
+]

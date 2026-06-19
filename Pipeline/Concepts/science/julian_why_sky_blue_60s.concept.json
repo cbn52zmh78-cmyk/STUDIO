@@ -1,0 +1,66 @@
+{
+  "slug": "julian_why_sky_blue_60s",
+  "title": "STUDIO Science — Why the Sky Is Blue",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "resolution": "480p",
+  "tags": ["science explainer", "physics", "atmosphere", "rayleigh scattering", "phenomenon"],
+  "gate_0": {
+    "human_signoff": true,
+    "channels": ["social", "educational"]
+  },
+  "brand": {
+    "title": "STUDIO Science",
+    "subtitle": "Evidence-first explainers",
+    "cta": "Follow for the next phenomenon unpacked",
+    "legal_line": "Synthetic presenter · illustrative visualization labeled NOT TO SCALE"
+  },
+  "science_subject": {
+    "subject_id": "rayleigh_scattering",
+    "domain": "atmospheric physics",
+    "phenomenon": "Why the sky appears blue",
+    "key_measurement": "Rayleigh scattering intensity scales as 1/λ⁴ — shorter wavelengths scatter more",
+    "visualization_prompt": "Scientific visualization: sunlight entering Earth's atmosphere, blue shorter wavelengths scattering in all directions while red passes through at sunset angle; accurate color, neutral clinical grade, no decorative bloom",
+    "scale_label": "NOT TO SCALE",
+    "sources": [
+      {
+        "citation": "Lord Rayleigh, \"On the scattering of light by small particles,\" Philosophical Magazine, 1871",
+        "type": "primary"
+      },
+      {
+        "citation": "NASA Earth Observatory — Why Is the Sky Blue?",
+        "url": "https://earthobservatory.nasa.gov/features/SkyBlue",
+        "type": "secondary"
+      },
+      {
+        "citation": "Craig F. Bohren & Donald R. Huffman, Absorption and Scattering of Light by Small Particles (Wiley, 1983)",
+        "type": "secondary"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Look up on a clear day — the sky is blue. But sunlight is white. So where did the blue go?",
+      "on_screen": "Why is the sky blue?"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "Sunlight is all colors traveling together. Air molecules are tiny — smaller than the wavelength of visible light — so they scatter short blue waves in every direction."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "Lord Rayleigh worked out the math in 1871: scatter intensity rises sharply as wavelength shrinks — roughly one over lambda to the fourth power."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "Watch the payoff: blue light ricochets through the atmosphere toward your eyes from every direction — while redder light sails through at low sun angles, painting sunsets.",
+      "visualization_prompt": "Rayleigh scattering diagram: white sunbeam entering atmosphere, blue photons scattering omnidirectionally, red-orange beam passing through at grazing angle; clinical accurate color"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "One simple scattering law explains the color above you, the blush at dusk, and why distant mountains look hazy blue. Physics hiding in plain sight."
+    }
+  ]
+}

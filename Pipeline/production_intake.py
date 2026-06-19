@@ -63,7 +63,9 @@ GATE_EXIT_SIGNOFF_REQUIRED = 3
 # Brief compliance phrase — never use substring ``minor`` (CARA false-positive).
 ADULT_CAST_PHRASE = "adult cast only (21+)"
 HISTORICAL_FIGURE_FORMAT = "historical-figure-documentary"
+SCIENCE_EXPLAINER_FORMAT = "science-explainer"
 PERIOD_LINE_SHOT_ID = "04_period_line"
+VIZ_PAYOFF_SHOT_ID = "04_visualization_payoff"
 
 
 # --------------------------------------------------------------------------- #
@@ -76,12 +78,24 @@ def _load_json(path: Path) -> dict[str, Any]:
 
 
 def _import_legal_gate():
-    """Load legal_gate v1.3 from artifacts (stdlib-only intake stays dep-free otherwise)."""
+    """Load legal_gate v1.5 from artifacts (stdlib-only intake stays dep-free otherwise)."""
     if str(LEGAL_GATE_DIR) not in sys.path:
         sys.path.insert(0, str(LEGAL_GATE_DIR))
     from legal_gate import LegalGate  # noqa: WPS433
 
     return LegalGate
+
+
+def _import_historical_figure_gate():
+    """Historical Figure Gate constants (#154) — shared with T2 bible validator."""
+    if str(LEGAL_GATE_DIR) not in sys.path:
+        sys.path.insert(0, str(LEGAL_GATE_DIR))
+    from historical_figure_gate import DEATH_YEAR_HARD_CEILING, recency_floor_year  # noqa: WPS433
+
+    return {
+        "DEATH_YEAR_HARD_CEILING": DEATH_YEAR_HARD_CEILING,
+        "recency_floor_year": recency_floor_year,
+    }
 
 
 def _import_music_clearance():
@@ -120,6 +134,8 @@ def _concept_brief_path(
             concept_file.parent if concept_file else None,
             CONCEPTS_DIR,
             CONCEPTS_DIR / "dead_languages",
+            CONCEPTS_DIR / "astro_mini_slate",
+            CONCEPTS_DIR / "royal_tongues",
         ):
             if base is None:
                 continue
@@ -131,6 +147,8 @@ def _concept_brief_path(
         for base in (
             concept_file.parent if concept_file else None,
             CONCEPTS_DIR / "dead_languages",
+            CONCEPTS_DIR / "astro_mini_slate",
+            CONCEPTS_DIR / "royal_tongues",
             CONCEPTS_DIR,
         ):
             if base is None:
@@ -234,6 +252,23 @@ def build_gate_brief_text(
             lines.append(
                 f"Period language beat: {hf['period_language']} — attested/reconstructed labeled on screen."
             )
+    ss = concept.get("science_subject") or {}
+    if ss and format_id == SCIENCE_EXPLAINER_FORMAT:
+        lines.append(f"Science subject: {ss.get('phenomenon') or ss.get('subject_id', 'science episode')}")
+        lines.append(f"Domain: {ss.get('domain', '')}")
+        lines.append(f"subject_id: {ss.get('subject_id', '')}")
+        if ss.get("key_measurement"):
+            lines.append(f"Key measurement: {ss['key_measurement']}")
+        srcs = ss.get("sources") or []
+        if srcs:
+            cites = "; ".join(str(s.get("citation", "")) for s in srcs[:4] if s.get("citation"))
+            lines.append(f"Sources: {cites}")
+        lines.append(
+            "Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable."
+        )
+        lines.append(
+            "Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel."
+        )
     resolve_music = _import_music_clearance()
     music_line = resolve_music(concept)
     if music_line:
@@ -345,6 +380,8 @@ def concept_selector(concept: dict[str, Any], libs: dict[str, Any]) -> str:
     haystack += " " + " ".join(str(t).lower() for t in concept.get("tags", []))
     if concept.get("historical_figure"):
         haystack += " historical figure biography legacy period language sources"
+    if concept.get("science_subject"):
+        haystack += " science explainer phenomenon how we know visualization significance sources"
 
     selector = libs["formats"].get("concept_selector", {})
     selector_formats = selector.get("formats", {})
@@ -557,6 +594,19 @@ def _parse_historical_figure(concept: dict[str, Any], format_id: str) -> dict[st
     death_year = hf["death_year"]
     if isinstance(death_year, str) and death_year.isdigit():
         death_year = int(death_year)
+    if not isinstance(death_year, int):
+        raise ValueError("historical_figure.death_year must be an integer year")
+    _import_hist_gate = _import_historical_figure_gate()
+    ceiling = _import_hist_gate["DEATH_YEAR_HARD_CEILING"]
+    floor = _import_hist_gate["recency_floor_year"]()
+    if death_year > ceiling:
+        raise ValueError(
+            f"historical_figure.death_year {death_year} exceeds hard {ceiling} CE ceiling (#154)"
+        )
+    if death_year > floor:
+        raise ValueError(
+            f"historical_figure.death_year {death_year} within 100-year recency floor (max {floor})"
+        )
     return {
         "figure_id": str(hf["figure_id"]).strip(),
         "name": str(hf.get("name") or hf["figure_id"]).strip(),
@@ -566,6 +616,53 @@ def _parse_historical_figure(concept: dict[str, Any], format_id: str) -> dict[st
         "birth_year": hf.get("birth_year"),
         "sources": normalized_sources,
     }
+
+
+def _parse_science_subject(concept: dict[str, Any], format_id: str) -> dict[str, Any]:
+    """Validate and normalize concept.science_subject for science-explainer format."""
+    if format_id != SCIENCE_EXPLAINER_FORMAT:
+        return {}
+    ss = concept.get("science_subject")
+    if not isinstance(ss, dict):
+        raise ValueError(
+            f"format '{SCIENCE_EXPLAINER_FORMAT}' requires a 'science_subject' object "
+            "(subject_id, domain, phenomenon, sources)"
+        )
+    for key in ("subject_id", "domain", "phenomenon", "sources"):
+        if key not in ss or ss[key] in (None, "", []):
+            raise ValueError(f"science_subject.{key} is required")
+    sources = ss["sources"]
+    if not isinstance(sources, list) or not sources:
+        raise ValueError("science_subject.sources must be a non-empty list")
+    normalized_sources: list[dict[str, Any]] = []
+    for i, src in enumerate(sources):
+        if not isinstance(src, dict) or not str(src.get("citation", "")).strip():
+            raise ValueError(f"science_subject.sources[{i}] must include a non-empty 'citation'")
+        normalized_sources.append({
+            "citation": str(src["citation"]).strip(),
+            "url": src.get("url"),
+            "type": src.get("type", "secondary"),
+            "notes": src.get("notes"),
+        })
+    return {
+        "subject_id": str(ss["subject_id"]).strip(),
+        "domain": str(ss["domain"]).strip(),
+        "phenomenon": str(ss["phenomenon"]).strip(),
+        "key_measurement": ss.get("key_measurement"),
+        "visualization_ref": ss.get("visualization_ref"),
+        "visualization_prompt": ss.get("visualization_prompt"),
+        "institutions": ss.get("institutions") or [],
+        "sources": normalized_sources,
+    }
+
+
+def _viz_payoff_labels(beat: dict[str, Any], ss: dict[str, Any]) -> list[str]:
+    if beat.get("on_screen_labels"):
+        return list(beat["on_screen_labels"])
+    labels = ["SCIENCE VISUALIZATION"]
+    if beat.get("scale_label", ss.get("scale_label", "NOT TO SCALE")):
+        labels.append(str(beat.get("scale_label", ss.get("scale_label", "NOT TO SCALE"))))
+    return labels
 
 
 def _period_line_labels(beat: dict[str, Any], hf: dict[str, Any]) -> list[str]:
@@ -585,6 +682,7 @@ def _build_shots(
     identity_lock: str,
     voice_suffix: str,
     historical_figure: Optional[dict[str, Any]] = None,
+    science_subject: Optional[dict[str, Any]] = None,
 ) -> list[dict[str, Any]]:
     """Merge concept beats over the format's shot blueprints.
 
@@ -652,6 +750,15 @@ def _build_shots(
             if historical_figure.get("period_language"):
                 shot["speech_lang"] = historical_figure["period_language"]
             shot["historical_figure_ref"] = historical_figure["figure_id"]
+        if science_subject and shot["id"] == VIZ_PAYOFF_SHOT_ID:
+            shot["on_screen_labels"] = _viz_payoff_labels(row, science_subject)
+            shot["reference_slots"] = {"@2": "visualization"}
+            shot["science_subject_ref"] = science_subject["subject_id"]
+            viz_prompt = row.get("visualization_prompt") or science_subject.get("visualization_prompt")
+            if viz_prompt:
+                shot["visualization_prompt"] = viz_prompt
+            if science_subject.get("visualization_ref"):
+                shot["visualization_ref"] = science_subject["visualization_ref"]
         shots.append(shot)
         t += duration
 
@@ -669,6 +776,8 @@ def _build_config(
     actor: Optional[dict[str, Any]],
     voice_suffix: str,
     libs: dict[str, Any],
+    *,
+    science_subject: Optional[dict[str, Any]] = None,
 ) -> dict[str, Any]:
     cfg: dict[str, Any] = {
         "model_video": concept.get("model_video", "grok-imagine-video-1.5"),
@@ -701,6 +810,9 @@ def _build_config(
 
     if set_obj.get("reference_file"):
         cfg["set_reference"] = set_obj["reference_file"]
+
+    if science_subject and science_subject.get("visualization_ref"):
+        cfg["visualization_reference"] = science_subject["visualization_ref"]
 
     # Seamless: library defaults, with host audio/lamp locks for the host format,
     # then any concept overrides on top.
@@ -752,12 +864,15 @@ def _build_provenance(
     fmt: dict[str, Any],
     *,
     historical_figure: Optional[dict[str, Any]] = None,
+    science_subject: Optional[dict[str, Any]] = None,
 ) -> dict[str, Any]:
     template = dict(fmt.get("provenance_card", {"enabled": False}))
     brand = concept.get("brand", {})
     overrides = concept.get("provenance_card", {})
 
     hf = historical_figure or {}
+    ss = science_subject or {}
+    subject_sources = ss.get("sources") or hf.get("sources") or []
     subs = {
         "brand_title": brand.get("title", concept.get("title", "")),
         "brand_subtitle": brand.get("subtitle", ""),
@@ -768,7 +883,9 @@ def _build_provenance(
         "figure_name": hf.get("name") or hf.get("figure_id", ""),
         "figure_era": hf.get("era", ""),
         "death_year": str(hf.get("death_year", "")),
-        "sources_summary": _sources_summary(hf.get("sources") or []),
+        "phenomenon_name": ss.get("phenomenon") or ss.get("subject_id", ""),
+        "science_domain": ss.get("domain", ""),
+        "sources_summary": _sources_summary(subject_sources),
     }
     for key, val in list(template.items()):
         if isinstance(val, str) and "{" in val:
@@ -781,6 +898,10 @@ def _build_provenance(
         template["card_type"] = template.get("card_type", "sources")
         template["sources"] = hf.get("sources", [])
         template["historical_figure_id"] = hf.get("figure_id")
+    if ss:
+        template["card_type"] = template.get("card_type", "sources")
+        template["sources"] = ss.get("sources", [])
+        template["science_subject_id"] = ss.get("subject_id")
     return template
 
 
@@ -861,12 +982,17 @@ def build_longform_script(
 
     identity_lock = _identity_lock_text(fmt, actor, actor_id)
     historical_figure = _parse_historical_figure(concept, format_id)
+    science_subject = _parse_science_subject(concept, format_id)
 
     shots = _build_shots(
         concept, fmt, set_obj, style_obj, identity_lock, voice_suffix,
         historical_figure=historical_figure or None,
+        science_subject=science_subject or None,
     )
-    config = _build_config(concept, fmt, format_id, set_obj, actor, voice_suffix, libs)
+    config = _build_config(
+        concept, fmt, format_id, set_obj, actor, voice_suffix, libs,
+        science_subject=science_subject or None,
+    )
 
     target = concept.get("target_seconds")
     if target is None:
@@ -894,14 +1020,17 @@ def build_longform_script(
         },
         "config": config,
         "shots": shots,
-        "provenance_card": _build_provenance(concept, fmt, historical_figure=historical_figure or None),
+        "provenance_card": _build_provenance(
+            concept, fmt,
+            historical_figure=historical_figure or None,
+            science_subject=science_subject or None,
+        ),
         "qa_rules": fmt.get(
             "qa_rules",
             {"require_identity_lock": True, "require_synthetic_guard": True, "min_shots": 1},
         ),
     }
-    if historical_figure:
-        script["intake"]["historical_figure"] = historical_figure
+    if historical_figure or science_subject:
         script["production_meta"] = {
             "set_id": set_id,
             "style_id": style_id,
@@ -909,14 +1038,26 @@ def build_longform_script(
             "pacing": fmt.get("pacing"),
             "camera": fmt.get("camera"),
             "target_rating": fmt.get("target_rating", "PG"),
-            "historical_figure": {
-                "figure_id": historical_figure["figure_id"],
-                "name": historical_figure["name"],
-                "death_year": historical_figure["death_year"],
-                "era": historical_figure["era"],
-                "period_language": historical_figure.get("period_language"),
-                "source_count": len(historical_figure["sources"]),
-            },
+        }
+    if historical_figure:
+        script["intake"]["historical_figure"] = historical_figure
+        script["production_meta"]["historical_figure"] = {
+            "figure_id": historical_figure["figure_id"],
+            "name": historical_figure["name"],
+            "death_year": historical_figure["death_year"],
+            "era": historical_figure["era"],
+            "period_language": historical_figure.get("period_language"),
+            "source_count": len(historical_figure["sources"]),
+        }
+    if science_subject:
+        script["intake"]["science_subject"] = science_subject
+        script["production_meta"]["science_subject"] = {
+            "subject_id": science_subject["subject_id"],
+            "domain": science_subject["domain"],
+            "phenomenon": science_subject["phenomenon"],
+            "key_measurement": science_subject.get("key_measurement"),
+            "source_count": len(science_subject["sources"]),
+            "has_visualization_ref": bool(science_subject.get("visualization_ref")),
         }
     return script
 

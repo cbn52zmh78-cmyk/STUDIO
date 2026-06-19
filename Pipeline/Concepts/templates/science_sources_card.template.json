@@ -1,0 +1,156 @@
+{
+  "_template": {
+    "name": "science_sources_card",
+    "version": "1.0",
+    "bible": "Scientific_SoT_Standard_v1.md · science-explainer provenance_card",
+    "usage": "Copy fields into science-explainer concept. Intake builds provenance_card from science_subject.sources when wired. Rendered by render_longform.py (card_type: sources).",
+    "fill_fields": [
+      "science_subject.subject_id",
+      "science_subject.domain",
+      "science_subject.phenomenon",
+      "science_subject.sources[].citation",
+      "science_subject.sources[].type",
+      "science_subject.sources[].agency",
+      "beats[04_visualization_payoff].viz_class",
+      "beats[04_visualization_payoff].on_screen_labels"
+    ]
+  },
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 7,
+    "card_type": "sources",
+    "title": "Sources — [PHENOMENON NAME]",
+    "subtitle": "[SCIENCE DOMAIN — e.g. Astrophysics · Structural Biology]",
+    "banner": "SCIENTIFIC SOURCES — DATA FIRST",
+    "footer": "[N] data primary · [M] reference — illustrative frames labeled in episode",
+    "science_subject_id": "[subject_id_snake_case]",
+    "sources": [
+      {
+        "citation": "NASA/JWST — Program [ID], [target] [filter] mosaic ([year] release)",
+        "type": "primary",
+        "agency": "JWST",
+        "dataset_id": "[MAST URI or DOI]",
+        "url": "[optional stable archive URL]",
+        "supports": ["03_how_we_know", "04_visualization_payoff"]
+      },
+      {
+        "citation": "EHT Collaboration — [M87* | Sgr A*] data release [version]",
+        "type": "primary",
+        "agency": "EHT",
+        "dataset_id": "[DOI]",
+        "supports": ["04_visualization_payoff"]
+      },
+      {
+        "citation": "RCSB PDB — [PDB ID] ([protein name], [resolution] Å)",
+        "type": "primary",
+        "agency": "PDB",
+        "dataset_id": "PDB: [XXXX]",
+        "supports": ["04_visualization_payoff"]
+      },
+      {
+        "citation": "[Authors et al., Journal, year, DOI] — [what inference it supports]",
+        "type": "secondary",
+        "supports": ["02_phenomenon", "05_significance"]
+      }
+    ],
+    "render_rules": {
+      "max_lines_on_card": 6,
+      "primary_prefix": "D",
+      "secondary_prefix": "R",
+      "truncate_citation_chars": 88,
+      "show_urls": false,
+      "show_agency": true
+    }
+  },
+  "science_subject": {
+    "subject_id": "[subject_id_snake_case]",
+    "domain": "[Astrophysics | Structural Biology | Planetary Science | …]",
+    "phenomenon": "[DISPLAY PHENOMENON NAME]",
+    "viz_class_default": "illustrative",
+    "sources": [
+      {
+        "citation": "NASA/JWST — Program [ID], [target] [filter] mosaic",
+        "type": "primary",
+        "agency": "JWST",
+        "dataset_id": "[ID]",
+        "supports": ["03_how_we_know"]
+      },
+      {
+        "citation": "RCSB PDB — [PDB ID] ([protein], [resolution] Å)",
+        "type": "primary",
+        "agency": "PDB",
+        "dataset_id": "PDB: [XXXX]",
+        "supports": ["04_visualization_payoff"]
+      },
+      {
+        "citation": "[Authors, Journal, year, DOI]",
+        "type": "secondary",
+        "supports": ["05_significance"]
+      }
+    ]
+  },
+  "gate_0": {
+    "music_bed_id": "[BED-COS-001 | BED-CLI-001 per tone]",
+    "rating": "PG",
+    "channels": ["social", "streaming"]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "[HOOK — surprising question about the phenomenon]"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "[PHENOMENON — what we observe]"
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "[HOW WE KNOW — instrument, survey, or structure]"
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "[VIS PAYOFF — what the frame teaches]",
+      "viz_class": "illustrative",
+      "on_screen_labels": ["ILLUSTRATIVE", "NOT A SIMULATION", "NOT TO SCALE"],
+      "viz_reference": "[optional @2 plate path or generation brief]"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "[SIGNIFICANCE — why it matters]"
+    }
+  ],
+  "_viz_class_reference": {
+    "illustrative": {
+      "required_labels": ["ILLUSTRATIVE", "NOT A SIMULATION"],
+      "recommended_labels": ["NOT TO SCALE"],
+      "host_copy_rule": "Do not imply direct recording or numerical simulation"
+    },
+    "observed": {
+      "required_labels": ["OBSERVED"],
+      "recommended_labels": ["[MISSION TAG]"],
+      "host_copy_rule": "Cite mission primary on card; name instrument"
+    },
+    "simulation": {
+      "required_labels": ["SIMULATION"],
+      "recommended_labels": ["[MODEL NAME]"],
+      "host_copy_rule": "Cite simulation paper/repo; never use for illustrative schematic"
+    }
+  },
+  "_examples": {
+    "cosmic_astrophysics": {
+      "music_bed_id": "BED-COS-001",
+      "domain": "Astrophysics",
+      "primary_agency": "JWST"
+    },
+    "molecular_pdb": {
+      "music_bed_id": "BED-CLI-001",
+      "domain": "Structural Biology",
+      "primary_agency": "PDB"
+    },
+    "eht_black_hole": {
+      "music_bed_id": "BED-COS-002",
+      "domain": "Astrophysics",
+      "primary_agency": "EHT"
+    }
+  }
+}

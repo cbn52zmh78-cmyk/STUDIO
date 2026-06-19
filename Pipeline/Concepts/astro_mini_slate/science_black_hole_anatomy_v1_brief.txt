@@ -1,0 +1,17 @@
+Project: science_black_hole_anatomy_v1
+Format: science-explainer (54s)
+Rating target: PG
+Channels: social, streaming
+Host: Julian-001 synthetic science presenter (roster continuity lock)
+Science subject: Anatomy of a Black Hole
+Domain: Astrophysics — Black Holes
+subject_id: BH-ANAT-001
+Key measurement: M87* shadow ~42 μas (EHT 2019); GW150914 chirp mass ~62 M☉
+Content: Educational astrophysics explainer — event horizon, shadow, accretion disk, evidence from EHT and LIGO. No medical or legal advice.
+Simulation disclosure: @2 visualization payoff uses illustrative GR/MHD simulation frames — labeled SIMULATION and NOT TO SCALE; not a direct photograph of a black hole interior or singularity.
+Sources: EHT Collaboration ApJ 875 L1 (2019); LIGO GW150914 Phys. Rev. Lett. 116 (2016); NASA Science Black Holes overview.
+Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable.
+Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
+AI disclosure: synthetic presenter in provenance card and platform metadata.
+Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

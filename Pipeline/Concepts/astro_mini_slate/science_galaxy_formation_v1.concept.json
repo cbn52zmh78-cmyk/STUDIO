@@ -1,0 +1,84 @@
+{
+  "slug": "science_galaxy_formation_v1",
+  "title": "Observable — How Galaxies Form",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "tags": ["astrophysics", "cosmology", "galaxies", "jwst", "science", "observable"],
+  "logline": "Dark matter halos, cooling gas, and mergers build galaxies across cosmic time — JWST, Planck, and simulation evidence cited.",
+  "brief": "astro_mini_slate/science_galaxy_formation_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "Observable",
+    "subtitle": "Upon Tyne Science — evidence before wonder",
+    "cta": "Follow Observable — one measurement at a time."
+  },
+  "science_subject": {
+    "subject_id": "GAL-FORM-001",
+    "domain": "Astrophysics — Galaxy Formation & Cosmology",
+    "phenomenon": "How Galaxies Form",
+    "key_measurement": "Planck 2018 ΛCDM: Ω_m ≈ 0.315, H₀ ≈ 67.4 km/s/Mpc; JWST detects galaxies within ~400 Myr after Big Bang",
+    "institutions": ["NASA", "ESA", "Planck Collaboration", "James Webb Space Telescope"],
+    "visualization_prompt": "scientific visualization galaxy formation in expanding universe, dark matter halo skeleton, baryonic gas cooling into disk, minor merger building stellar halo, spiral structure emergence, NOT TO SCALE cosmological simulation, 16:9 fidelity",
+    "sources": [
+      {
+        "citation": "Planck Collaboration, Planck 2018 results. VI. Cosmological parameters, A&A 641, A6 (2020)",
+        "url": "https://www.aanda.org/articles/aa/full_html/2020/09/aa33913-18/aa33913-18.html",
+        "type": "primary",
+        "notes": "ΛCDM parameters constraining structure formation timescales"
+      },
+      {
+        "citation": "NASA Webb Mission — Early Universe & Galaxy Evolution science themes",
+        "url": "https://science.nasa.gov/mission/webb/science-overview/",
+        "type": "secondary",
+        "notes": "JWST observational program for high-redshift galaxies"
+      },
+      {
+        "citation": "ESA/Hubble — Galaxy formation and evolution (hierarchical merging, star-formation history)",
+        "url": "https://esahubble.org/science/galaxies/",
+        "type": "secondary",
+        "notes": "Observational synthesis of galaxy populations and mergers"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "The night sky looks peaceful — but every galaxy is a collision story written across billions of years. How did islands of a trillion stars grow from nearly uniform gas?",
+      "on_screen": "Observable · How Galaxies Form"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "In our standard model, invisible dark matter clumps first, forming gravitational scaffolds. Ordinary gas falls in, cools, and condenses into stars. Small galaxies merge into larger ones — spirals, ellipticals, and messy intermediates along the way."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "The cosmic microwave background — mapped by Planck — shows tiny density ripples that seeded structure. JWST now images surprisingly mature galaxies when the universe was only a few hundred million years old. Hubble deep fields show mergers frozen in mid-collision."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "This cosmological simulation compresses eons: a dark matter halo gathers gas, stars ignite, and a disk galaxy assembles through mergers — a model tuned to ΛCDM, not a single telescope movie.",
+      "scale_label": "NOT TO SCALE",
+      "on_screen_labels": ["SCIENCE VISUALIZATION", "SIMULATION", "NOT TO SCALE"],
+      "visualization_prompt": "ΛCDM galaxy formation simulation: expanding universe backdrop, dark matter filament, halo accretion, gas cooling into rotating disk, minor merger event, spiral arms forming, documentary cosmology fidelity"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Galaxies are the universe's architecture. Understanding how they form tells us what dark matter is, how fast the cosmos expands, and how the elements that make us were distributed across space and time."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: How Galaxies Form (GAL-FORM-001)",
+      "EVIDENCE: Planck ΛCDM (2018); JWST early galaxies; Hubble merger surveys",
+      "VIZ: Cosmological N-body/hydro simulation — NOT TO SCALE"
+    ]
+  }
+}

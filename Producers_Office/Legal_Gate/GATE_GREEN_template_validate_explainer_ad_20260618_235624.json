@@ -1,0 +1,49 @@
+{
+  "project": "template_validate_explainer_ad",
+  "verdict": "GREEN",
+  "target_rating": "PG-13",
+  "channels": [
+    "social"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 1: STUDIO Casting Bible synthetic cast \u2014 Upon Tyne ownership; no third-party likeness license.",
+    "Gate 0 cleared for Development/Pre-Production subject to ongoing review."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "PASS",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "PASS",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "PASS",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-18T23:56:24.970987",
+  "source_excerpt": "Project: template_validate_explainer_ad\nTitle: Template Validate \u2014 template validate explainer ad\nFormat: explainer-ad\nRating target: PG-13\nChannels: social\nPerformer: Julian-001 (31-year-old synthetic male, Julian Cross). Casting Bible synthetic: true, real_person_likeness: false.\nContent: Template Validate \u2014 template validate explainer ad\nAI disclosure: synthetic performer labeled in provenance card and platform metadata.\nSynthetic fictional performer only. No celebrity mimicry. adult cast onl"
+}

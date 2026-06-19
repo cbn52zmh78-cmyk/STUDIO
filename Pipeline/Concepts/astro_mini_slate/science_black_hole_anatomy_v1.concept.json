@@ -1,0 +1,84 @@
+{
+  "slug": "science_black_hole_anatomy_v1",
+  "title": "Observable — Anatomy of a Black Hole",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "tags": ["astrophysics", "black-hole", "science", "eht", "observable"],
+  "logline": "Event horizon, shadow, and accretion disk — what we observe versus what simulations show; EHT and LIGO evidence on file.",
+  "brief": "astro_mini_slate/science_black_hole_anatomy_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "Observable",
+    "subtitle": "Upon Tyne Science — evidence before wonder",
+    "cta": "Follow Observable — one measurement at a time."
+  },
+  "science_subject": {
+    "subject_id": "BH-ANAT-001",
+    "domain": "Astrophysics — Black Holes",
+    "phenomenon": "Anatomy of a Black Hole",
+    "key_measurement": "M87* shadow diameter ~42 μas (EHT 2019); GW150914 chirp mass ~62 M☉",
+    "institutions": ["Event Horizon Telescope Collaboration", "LIGO Scientific Collaboration", "NASA"],
+    "visualization_prompt": "photorealistic scientific visualization, supermassive black hole with dark central shadow, thin relativistic accretion disk with temperature gradient, Doppler beaming on inclined disk, gravitational lensing of background starfield, photon ring, NOT TO SCALE illustrative geometry, 16:9 astrophysics fidelity",
+    "sources": [
+      {
+        "citation": "Event Horizon Telescope Collaboration et al., First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole, ApJ 875, L1 (2019)",
+        "url": "https://iopscience.iop.org/article/10.3847/2041-8213/ab0ec7",
+        "type": "primary",
+        "notes": "Direct radio interferometry image of M87* shadow"
+      },
+      {
+        "citation": "Abbott, B. P. et al. (LIGO Scientific Collaboration), Observation of Gravitational Waves from a Binary Black Hole Merger, Phys. Rev. Lett. 116, 061102 (2016)",
+        "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102",
+        "type": "primary",
+        "notes": "GW150914 — stellar-mass merger detected via spacetime strain"
+      },
+      {
+        "citation": "NASA Science — Black Holes overview (event horizon, no escape for light)",
+        "url": "https://science.nasa.gov/universe/black-holes/",
+        "type": "secondary",
+        "notes": "Public-facing synthesis aligned with GR textbook definitions"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "What if you crossed a boundary where even light cannot climb back out? That is not science fiction — it is what a black hole does to spacetime.",
+      "on_screen": "Observable · Anatomy of a Black Hole"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "A black hole is not a hole you fall through. It is mass so compressed that gravity curves space and time into a one-way boundary — the event horizon — with a dark shadow at the center and, often, a blazing accretion disk around it."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "In twenty nineteen, the Event Horizon Telescope resolved the shadow of M87's supermassive black hole — forty-two micro-arcseconds wide. LIGO has heard stellar-mass black holes merge, rippling spacetime itself. We observe the shadow and the waves — not the singularity inside."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "This visualization shows what general relativity predicts: a dark shadow, a thin relativistic disk with Doppler beaming, and bent starlight around the photon sphere — illustrative geometry, not a photograph.",
+      "scale_label": "NOT TO SCALE",
+      "on_screen_labels": ["SCIENCE VISUALIZATION", "SIMULATION", "NOT TO SCALE"],
+      "visualization_prompt": "Kerr black hole cross-section with labeled event horizon and photon sphere, inclined accretion disk with temperature gradient and Doppler beaming, lensed background stars, documentary astrophysics fidelity"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Black holes are cosmic laboratories. They test Einstein in extreme gravity, power quasars across the universe, and remind us that empty-looking sky can hide the most violent objects in nature."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: Anatomy of a Black Hole (BH-ANAT-001)",
+      "EVIDENCE: EHT M87* shadow (2019); LIGO GW150914 (2016)",
+      "VIZ: Illustrative GR simulation — labeled NOT TO SCALE; not photographic"
+    ]
+  }
+}

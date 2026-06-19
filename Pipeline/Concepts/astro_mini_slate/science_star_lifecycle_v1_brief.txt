@@ -1,0 +1,17 @@
+Project: science_star_lifecycle_v1
+Format: science-explainer (54s)
+Rating target: PG
+Channels: social, streaming
+Host: Julian-001 synthetic science presenter (roster continuity lock)
+Science subject: Life & Death of a Star
+Domain: Astrophysics — Stellar Evolution
+subject_id: STAR-LIFE-001
+Key measurement: Chandrasekhar limit ~1.4 M☉; iron-core collapse in massive stars
+Content: Educational stellar evolution explainer — nebula, fusion, main sequence, giant phase, supernova, remnants. No medical or legal advice.
+Simulation disclosure: @2 visualization payoff uses time-compressed stellar evolution model — labeled MODEL and NOT TO SCALE; not a single observed star timelapse.
+Sources: NASA Science Stars overview; ESA/Hubble stellar evolution; Chandrasekhar ApJ 74 (1931).
+Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable.
+Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
+AI disclosure: synthetic presenter in provenance card and platform metadata.
+Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

@@ -90,19 +90,22 @@
         "citation": "Socrates Scholasticus, Ecclesiastical History VII.15 (Hypatia, philosopher of Alexandria)",
         "url": "https://en.wikisource.org/wiki/Ecclesiastical_History_(Scholasticus)/Book_VII",
         "type": "primary",
-        "notes": null
+        "notes": null,
+        "supports": null
       },
       {
         "citation": "Damascius, Life of Isidore (fragmentary notice of Hypatia)",
         "url": null,
         "type": "primary",
-        "notes": null
+        "notes": null,
+        "supports": null
       },
       {
         "citation": "Watts, Edward J. — Hypatia: The Life and Legend of an Ancient Philosopher (Oxford, 2017)",
         "url": null,
         "type": "secondary",
-        "notes": null
+        "notes": null,
+        "supports": null
       }
     ],
     "historical_figure_id": "hypatia_alexandria"
@@ -165,7 +168,7 @@
         "social",
         "educational"
       ],
-      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_david_hypatia_60s_20260618_232904.json",
+      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_david_hypatia_60s_20260618_235640.json",
       "checklist_domains": {
         "row_1_synthetic_ownership": "MANUAL",
         "row_2_music_sync": "MANUAL",
@@ -189,7 +192,7 @@
       "notes": [
         "Row 6: AI-disclosure obligation planned — verify presence at Pre-Publish.",
         "Social = mass dissemination. Platform AI-label + community guidelines apply.",
-        "Historical Figure Gate: pre-1900 subject (died 415); recency clear.",
+        "Historical Figure Gate: pre-1901 subject (died 415); 1900 ceiling and recency clear.",
         "Revise and re-submit to Legal Gate (Gate 0)."
       ],
       "brief_source": "composed"
@@ -212,19 +215,22 @@
           "citation": "Socrates Scholasticus, Ecclesiastical History VII.15 (Hypatia, philosopher of Alexandria)",
           "url": "https://en.wikisource.org/wiki/Ecclesiastical_History_(Scholasticus)/Book_VII",
           "type": "primary",
-          "notes": null
+          "notes": null,
+          "supports": null
         },
         {
           "citation": "Damascius, Life of Isidore (fragmentary notice of Hypatia)",
           "url": null,
           "type": "primary",
-          "notes": null
+          "notes": null,
+          "supports": null
         },
         {
           "citation": "Watts, Edward J. — Hypatia: The Life and Legend of an Ancient Philosopher (Oxford, 2017)",
           "url": null,
           "type": "secondary",
-          "notes": null
+          "notes": null,
+          "supports": null
         }
       ]
     }

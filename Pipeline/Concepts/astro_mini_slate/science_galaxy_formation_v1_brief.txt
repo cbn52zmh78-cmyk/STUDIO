@@ -1,0 +1,17 @@
+Project: science_galaxy_formation_v1
+Format: science-explainer (54s)
+Rating target: PG
+Channels: social, streaming
+Host: Julian-001 synthetic science presenter (roster continuity lock)
+Science subject: How Galaxies Form
+Domain: Astrophysics — Galaxy Formation & Cosmology
+subject_id: GAL-FORM-001
+Key measurement: Planck 2018 Ω_m ≈ 0.315; JWST galaxies at z > 10
+Content: Educational cosmology explainer — dark matter halos, baryonic cooling, hierarchical merging, JWST and CMB evidence. No medical or legal advice.
+Simulation disclosure: @2 visualization payoff uses ΛCDM cosmological N-body/hydro simulation — labeled SIMULATION and NOT TO SCALE; not a single-telescope timelapse of one galaxy forming.
+Sources: Planck Collaboration A&A 641 A6 (2020); NASA Webb science overview; ESA/Hubble galaxy formation.
+Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable.
+Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
+AI disclosure: synthetic presenter in provenance card and platform metadata.
+Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

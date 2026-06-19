@@ -50,6 +50,15 @@ FORMAT_PROFILES: dict[str, dict[str, Any]] = {
         "category": "Science & Technology",
         "playlist": "STUDIO Editorial",
     },
+    "science-explainer": {
+        "title_suffix": "| Science Explainer",
+        "tag_pool": [
+            "science", "physics", "explainer", "education", "phenomenon",
+            "visualization", "STEM", "synthetic media",
+        ],
+        "category": "Science & Technology",
+        "playlist": "STUDIO Science",
+    },
     "conversational-companion": {
         "title_suffix": "| Companion",
         "tag_pool": [

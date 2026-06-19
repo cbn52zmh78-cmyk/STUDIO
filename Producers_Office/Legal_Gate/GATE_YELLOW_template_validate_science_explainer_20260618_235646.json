@@ -1,0 +1,58 @@
+{
+  "project": "template_validate_science_explainer",
+  "verdict": "YELLOW",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [
+    "[SCIENCE] illustrative-not-simulation disclosure required \u2014 state visuals are educational illustration, not simulation output"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-COS-001 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "Row 1: STUDIO Casting Bible synthetic cast \u2014 Upon Tyne ownership; no third-party likeness license.",
+    "Science Gate: illustrative-not-simulation policy applies.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "PASS",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "PASS",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "PASS",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": true,
+    "status": "CAUTION",
+    "hard_stops": [],
+    "warnings": [
+      "[SCIENCE] illustrative-not-simulation disclosure required \u2014 state visuals are educational illustration, not simulation output"
+    ],
+    "notes": [
+      "Science Gate: illustrative-not-simulation policy applies."
+    ],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-18T23:56:46.448953",
+  "source_excerpt": "Project: template_validate_science_explainer\nTitle: Template Validate \u2014 template validate science explainer\nFormat: science-explainer\nRating target: PG\nChannels: social, streaming\nPerformer: Julian-001 (31-year-old synthetic male, Julian Cross). Casting Bible synthetic: true, real_person_likeness: false.\nContent: Template Validate \u2014 template validate science explainer\nAI disclosure: synthetic performer labeled in provenance card and platform metadata.\nSynthetic fictional performer only. No celeb"
+}
