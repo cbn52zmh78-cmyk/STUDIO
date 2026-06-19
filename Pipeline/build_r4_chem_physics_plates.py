@@ -221,6 +221,10 @@ def render_plate(
         if meta.get("status") == "PLATE_LOCKED" and meta.get("url"):
             if out_path.read_bytes() != harvest_path.read_bytes():
                 print(f"[r4] reusing locked {spec['plate_id']} → {out_path.name}")
+                meta.setdefault("domain", spec["domain"])
+                meta.setdefault("plate_id", spec["plate_id"])
+                meta.setdefault("slug", slug)
+                meta.setdefault("harvest_image", str(harvest_path.relative_to(WORKSPACE)).replace("\\", "/"))
                 return meta
 
     print(f"[r4] rendering {spec['plate_id']} from harvest {harvest_path.name}…")

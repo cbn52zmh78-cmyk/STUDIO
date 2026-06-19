@@ -4,7 +4,7 @@
   "target_seconds": 54,
   "config": {
     "model_video": "grok-imagine-video-1.5",
-    "resolution": "720p",
+    "resolution": "480p",
     "aspect_ratio": "16:9",
     "voice_suffix": "clear enthusiastic science communicator voice, precise but accessible diction, synthetic presenter only",
     "use_identity_lock": false,
@@ -26,7 +26,9 @@
     "music_bed": {
       "track_id": "BED-COS-002",
       "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
-    }
+    },
+    "avatar_url": "https://files-cdn.x.ai/iBkTbfU-Ta6bQNN9vOtIWw/file_b167308c-8714-4072-8829-2ad2990d397a.jpg",
+    "visualization_url": "https://files-cdn.x.ai/pBOoYnO_QKasma6k18hQ6A/file_0d01d242-9f47-4c90-8054-5e6fd261c02e.jpg"
   },
   "shots": [
     {
@@ -183,7 +185,7 @@
         "social",
         "streaming"
       ],
-      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_011855.json",
+      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_011934.json",
       "checklist_domains": {
         "row_1_synthetic_ownership": "MANUAL",
         "row_2_music_sync": "PASS",

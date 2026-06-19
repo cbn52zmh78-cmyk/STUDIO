@@ -102,6 +102,13 @@ def generate_plate(client: Any, figure: dict[str, Any], *, force: bool = False) 
     if plate_path.is_file() and plate_path.stat().st_size > 8000 and meta_path.is_file() and not force:
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
         if meta.get("status") == "PLATE_LOCKED" and meta.get("url"):
+            if not meta.get("fidelity_review"):
+                review = fidelity_review(figure, plate_path)
+                if not review["pass"]:
+                    raise RuntimeError(f"Figure fidelity failed {slug}: {review['issues']}")
+                meta["fidelity_review"] = review
+                meta["issue"] = 178
+                meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"[figure] reusing locked {figure['name']}")
             return meta
 

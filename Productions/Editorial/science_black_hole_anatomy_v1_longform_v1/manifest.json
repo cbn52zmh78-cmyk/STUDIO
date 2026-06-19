@@ -1,7 +1,7 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T06:10:00.787841+00:00",
+  "completed_at": "2026-06-19T06:19:34.467321+00:00",
   "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\batches\\T4_181_science_astro\\scripts\\science_black_hole_anatomy_v1_480p_script.json",
   "concat_only": false,
   "seamless": true,
@@ -15,7 +15,7 @@
   "comparison": null,
   "qa": {
     "slug": "science_black_hole_anatomy_v1",
-    "qa_at": "2026-06-19T06:10:00.787252+00:00",
+    "qa_at": "2026-06-19T06:19:34.466683+00:00",
     "pass": true,
     "passes": [
       "shot count OK (5 >= 5)",

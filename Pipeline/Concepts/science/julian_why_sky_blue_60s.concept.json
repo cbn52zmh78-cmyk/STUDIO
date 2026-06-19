@@ -15,8 +15,7 @@
   "gate_0": {
     "human_signoff": true,
     "channels": [
-      "social",
-      "educational"
+      "social"
     ],
     "rating": "PG",
     "music_bed_id": "BED-PHY-001"

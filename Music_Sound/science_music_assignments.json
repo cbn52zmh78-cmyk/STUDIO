@@ -112,7 +112,7 @@
       "lane": "physics-precision",
       "track": "Wavefront \u2014 Measurement Pulse",
       "license": "owned",
-      "row_2": "MANUAL",
+      "row_2": "PASS",
       "gate_verdict": "YELLOW"
     },
     {
@@ -122,7 +122,7 @@
       "lane": "physics-precision",
       "track": "Field Lines \u2014 Neutral Drift",
       "license": "royalty-free",
-      "row_2": "MANUAL",
+      "row_2": "PASS",
       "gate_verdict": "YELLOW"
     },
     {
@@ -132,7 +132,7 @@
       "lane": "chemistry-lab",
       "track": "Bond Matrix \u2014 Synth Orbitals",
       "license": "CC0",
-      "row_2": "MANUAL",
+      "row_2": "PASS",
       "gate_verdict": "YELLOW"
     }
   ]

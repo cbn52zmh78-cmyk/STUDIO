@@ -15,8 +15,7 @@
   "gate_0": {
     "human_signoff": true,
     "channels": [
-      "social",
-      "educational"
+      "social"
     ],
     "music_bed_id": "BED-CHE-002"
   },
