@@ -2,13 +2,13 @@
   "slug": "science_star_lifecycle_v1",
   "title": "Observable — Life & Death of a Star",
   "model_video": "grok-imagine-video-1.5",
-  "resolution": "720p",
+  "resolution": "480p",
   "aspect_ratio": "16:9",
   "host_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Cast\\actors_roster\\male\\north_america\\Julian_Cross\\01_casting_shots\\casting_turnaround_v1.jpg",
   "avatar_url": null,
   "set_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\seamless_neutral_grey_reference.jpg",
   "voice_suffix": "clear enthusiastic science communicator voice, precise but accessible diction, synthetic presenter only",
-  "seamless": null,
+  "seamless": true,
   "shots": [
     {
       "shot_id": "01_hook",

@@ -39,7 +39,7 @@
       "NIST Chemistry WebBook"
     ],
     "visualization_prompt": "Scientific chemistry visualization, water molecule H2O with shared electron pair density between oxygen and two hydrogens, bent geometry ~104.5 degrees, partial negative on oxygen and partial positive on hydrogens, ball-and-stick with transparent electron cloud lobes, neutral dark background, accurate relative angles, NOT TO SCALE on electron cloud exaggeration, 16:9 documentary fidelity",
-    "visualization_ref": "Science/reference_plates/chemistry/images/covalent-bonding_harvest.png",
+    "visualization_ref": "Science/reference_plates/chemistry/covalent_bonding_reference.jpg",
     "plate_id": "@Sci-ChemBond-001",
     "plate_slug": "covalent-bonding",
     "sources": [
