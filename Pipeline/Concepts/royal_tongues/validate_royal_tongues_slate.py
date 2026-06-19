@@ -15,9 +15,14 @@ RENDER = ROOT / "DAVID" / "scripts" / "render_longform.py"
 SCRIPTS = ROOT / "DAVID" / "scripts" / "longform_scripts"
 
 EPISODES = [
+    # Pilots (figures 1-3)
     "david_eleanor_aquitaine_v1",
     "david_richard_lionheart_v1",
     "david_elizabeth_tudor_v1",
+    # Backlog (figures 4-6) - runway past pilots (#168)
+    "david_charlemagne_v1",
+    "david_alfred_great_v1",
+    "david_cnut_great_v1",
 ]
 
 
