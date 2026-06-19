@@ -26,9 +26,7 @@
     "music_bed": {
       "track_id": "BED-COS-002",
       "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
-    },
-    "avatar_url": "https://files-cdn.x.ai/_R71PgEVQAaupJlcUrDicA/file_5bbe5ad5-3648-441d-b3e4-11d0dfd67f24.jpg",
-    "visualization_url": "https://files-cdn.x.ai/5OgRCpqcS-GKZkmnGO5hqQ/file_b057bcb6-47cd-45d1-89e8-0584417867ae.jpg"
+    }
   },
   "shots": [
     {
