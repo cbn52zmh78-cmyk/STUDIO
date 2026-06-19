@@ -1,0 +1,427 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-06-19T02:43:09.106960+00:00",
+  "scope": "magazine_editorial",
+  "age_minimum_enforced": 21,
+  "total": 10,
+  "summary": {
+    "plate_locked": 0,
+    "appearance_lock_locked": 10,
+    "ai_disclosure_required": 10,
+    "age_21_plus": 10,
+    "compliance_review": 0,
+    "incomplete_appearance_locks": []
+  },
+  "actors": [
+    {
+      "actor_id": "AnyaPetrovaMag-001",
+      "stage_name": "Anya Petrova",
+      "talent_id": "mag_anya_petrova",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 23,
+      "gender": "female",
+      "ethnicity": "Russian",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Anya Petrova",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 23-year-old Russian woman named Anya Petrova, striking ice-blonde supermodel with sleek ponytail, cool flawless porcelain skin, sharp jawline, intense captivating eyes, perfect bone structure, wearing futuristic silver chrome jacket over sheer black gown with dramatic train, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "striking ice-blonde supermodel with sleek ponytail"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "FreyaLindMag-001",
+      "stage_name": "Freya Lind",
+      "talent_id": "mag_freya_lind",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 22,
+      "gender": "female",
+      "ethnicity": "Swedish",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Freya Lind",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 22-year-old Swedish woman named Freya Lind, stunning freckled fair-skinned supermodel with strawberry-blonde waves, soft yet commanding features, flawless skin, captivating gentle eyes, wearing soft pastel oversized knit coat over minimalist slip dress with pearl accents, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "stunning freckled fair-skinned supermodel with strawberry-blonde waves"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "IsoldeMoreauMag-001",
+      "stage_name": "Isolde Moreau",
+      "talent_id": "mag_isolde_moreau",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 26,
+      "gender": "female",
+      "ethnicity": "French",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Isolde Moreau",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 26-year-old French woman named Isolde Moreau, androgynous stunning elegance with short dark pixie cut, smoky intense eyes, pale flawless skin, sharp magnetic features, wearing tailored black tuxedo gown with dramatic cape and crystal buttons, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "androgynous stunning elegance with short dark pixie cut"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "LioraVossMag-001",
+      "stage_name": "Liora Voss",
+      "talent_id": "mag_liora_voss",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 24,
+      "gender": "female",
+      "ethnicity": "Dutch-German",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Liora Voss",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 24-year-old Dutch-German woman named Liora Voss, very attractive willowy supermodel with platinum blonde blunt bob, striking blue eyes, pale flawless porcelain skin, high cheekbones, captivating symmetry, wearing deconstructed white architectural dress with geometric cut-outs and structured pleats, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "very attractive willowy supermodel with platinum blonde blunt bob"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "MeiLinChenMag-001",
+      "stage_name": "Mei Lin Chen",
+      "talent_id": "mag_mei_lin_chen",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 25,
+      "gender": "female",
+      "ethnicity": "Taiwanese",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Mei Lin Chen",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Taiwanese woman named Mei Lin Chen, delicate yet stunning supermodel with straight black hair and blunt bangs, flawless porcelain skin, elegant neckline, intense captivating eyes, wearing crimson silk cheongsam reimagined as avant-garde asymmetrical gown with modern cut-outs, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "delicate yet stunning supermodel with straight black hair and blunt bangs"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "NadiaOkoroMag-001",
+      "stage_name": "Nadia Okoro",
+      "talent_id": "mag_nadia_okoro",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 28,
+      "gender": "female",
+      "ethnicity": "Nigerian-French",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Nadia Okoro",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 28-year-old Nigerian-French woman named Nadia Okoro, radiant dark-skinned supermodel with intricate braids and gold threads, high cheekbones, flawless glowing skin, powerful striking presence, perfect symmetry, wearing bold gold and saffron African-inspired avant-garde wrap dress with sculptural sleeves, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "radiant dark-skinned supermodel with intricate braids and gold threads"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "PriyaSinghMag-001",
+      "stage_name": "Priya Singh",
+      "talent_id": "mag_priya_singh",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 24,
+      "gender": "female",
+      "ethnicity": "Indian-Canadian",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Priya Singh",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 24-year-old Indian-Canadian woman named Priya Singh, warm golden stunning supermodel with long wavy hair and subtle highlights, expressive captivating eyes, flawless glowing skin, perfect proportions, wearing jewel-toned sari-inspired draped gown in sapphire with modern metallic embroidery, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "warm golden stunning supermodel with long wavy hair and subtle highlights"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "SofiaAlvarezMag-001",
+      "stage_name": "Sofia Alvarez",
+      "talent_id": "mag_sofia_alvarez",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 27,
+      "gender": "female",
+      "ethnicity": "Brazilian",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Sofia Alvarez",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 27-year-old Brazilian woman named Sofia Alvarez, stunning curvy athletic supermodel with warm tan skin, voluminous curly dark hair, radiant smile, flawless glowing complexion, powerful magnetic presence, wearing vibrant red metallic draped gown with high slit and bold shoulder details, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "stunning curvy athletic supermodel with warm tan skin"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "ValentinaRossiMag-001",
+      "stage_name": "Valentina Rossi",
+      "talent_id": "mag_valentina_rossi",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 25,
+      "gender": "female",
+      "ethnicity": "Italian",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Valentina Rossi",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "striking supermodel beauty with sharp defined cheekbones"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    },
+    {
+      "actor_id": "ZaraKhanMag-001",
+      "stage_name": "Zara Khan",
+      "talent_id": "mag_zara_khan",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 26,
+      "gender": "female",
+      "ethnicity": "Indian-British",
+      "world_region": "editorial_global",
+      "roster_group": "magazine_10",
+      "roster_source": "magazine_editorial",
+      "roster_path": "STUDIO/MAGAZINE/Editorial/Models/Zara Khan",
+      "reference_image_primary": null,
+      "reference_image_status": "pending",
+      "appearance_lock_verbatim": "photorealistic high-fidelity 16:9 magazine editorial photograph, single 26-year-old Indian-British woman named Zara Khan, stunning ethereal beauty with long flowing dark hair, delicate yet powerful features, warm glowing golden skin, intense expressive eyes, flawless proportions, wearing flowing emerald silk gown with dramatic cape sleeves and crystal embellishments, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Editorial \u2014 voice TBD.",
+        "performance_style": null,
+        "prompt_suffix": "Editorial \u2014 voice TBD.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "stunning ethereal beauty with long flowing dark hair"
+      ],
+      "genre_tags": [
+        "editorial_hero",
+        "fashion",
+        "haute_couture",
+        "magazine_editorial",
+        "runway"
+      ],
+      "agency_status": "development",
+      "compliance_flags": [],
+      "profile_pdf": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+# Yuki-001 — Yuki Tanaka
+
+**Status:** LOCKED  
+**Content rating:** SFW  
+**Synthetic:** Yes — no real-person likeness  
+**AI disclosure required:** Yes
+
+## Identity
+| Field | Value |
+|-------|-------|
+| Actor ID | `Yuki-001` |
+| Stage name | Yuki Tanaka |
+| Talent ID | `yuki_tanaka` |
+| Age (locked) | **22** |
+| Gender | female |
+| Ethnicity | Japanese |
+| Region | east_asia |
+| Roster group | — |
+
+## Reference
+- **Primary plate:** `STUDIO/Cast/actors_roster/female/east_asia/Yuki_Tanaka/01_casting_shots/casting_turnaround_v1.jpg`
+- **Roster path:** `STUDIO/Cast/actors_roster/female/east_asia/Yuki_Tanaka`
+
+## Appearance lock (verbatim — reuse every shot)
+```
+GENERATE 3D MODEL of back, side and front profiles of 22-year-old Japanese woman, 5'2", slim build, black hair in high messy bun, round dark eyes, porcelain skin, delicate jaw, wearing a fully covered high-waisted white bikini top and matching white bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel — camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views — fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.
+```
+
+## Voice spec
+```json
+{
+  "register": "derived_from_notes",
+  "notes": "Higher register; Kansai warmth in casual scenes.",
+  "performance_style": "Reactive eyes; physical comedy when script allows.",
+  "prompt_suffix": "Higher register; Kansai warmth in casual scenes.",
+  "gender": "female"
+}
+```
+
+## Tags
+- **Persona:** playful, deadpan, earnest, Coming-of-age lead, Idol-adjacent ingénue, Rebel daughter
+- **Genre:** anime_live_action_adjacent, family_drama, tech_thriller
+
+## Guardrails
+- Synthetic-only; do not reference or generate real-person/celebrity likeness.
+- Lead every generation prompt with exact age: `22-year-old`.
+- SFW wardrobe baseline on casting plates; story wardrobe via `image_edit` from plate.
+
+---
+*STUDIO Casting Bible lock card — do not paraphrase appearance_lock_verbatim in production prompts.*

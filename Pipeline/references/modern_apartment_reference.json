@@ -1,0 +1,15 @@
+{
+  "set_id": "@Set-Modern-Apartment-001",
+  "path": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\modern_apartment_reference.jpg",
+  "reference_file": "STUDIO/Pipeline/references/modern_apartment_reference.jpg",
+  "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-8ea842ab-a6d0-480e-9b82-38cee7664fff.jpeg",
+  "prompt": "Contemporary open-plan apartment interior, 16:9 cinematic wide shot, no people. Neutral linen sofa, oak hardwood floor, large window camera-left with sheer curtain diffusion, minimal decor, soft kitchen blur in background, single potted plant. Soft window daylight 5200K, lifestyle editorial aesthetic, warm white walls, photoreal cinematic lighting, SFW.",
+  "model": "grok-imagine-image-quality",
+  "aspect_ratio": "16:9",
+  "reference_status": "plate_locked",
+  "locked_at": "2026-06-19T02:40:46.944861+00:00",
+  "reuse": "environment plate @1 — locked before first assembly",
+  "sfw": true,
+  "no_people": true,
+  "reused": false
+}

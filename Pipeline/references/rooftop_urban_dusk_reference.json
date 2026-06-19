@@ -1,0 +1,15 @@
+{
+  "set_id": "@Set-Rooftop-Urban-001",
+  "path": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\rooftop_urban_dusk_reference.jpg",
+  "reference_file": "STUDIO/Pipeline/references/rooftop_urban_dusk_reference.jpg",
+  "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-1b54bc0c-4dd8-47cd-98b1-3e75224b1c42.jpeg",
+  "prompt": "City rooftop at dusk, 16:9 cinematic wide shot, no people. Concrete parapet line in foreground, soft bokeh city skyline behind, sky gradient warm amber to deep indigo, dusk ambient 4300K. Fashion editorial rooftop shoot aesthetic, tungsten city lights as soft bokeh only, photoreal cinematic lighting, SFW.",
+  "model": "grok-imagine-image-quality",
+  "aspect_ratio": "16:9",
+  "reference_status": "plate_locked",
+  "locked_at": "2026-06-19T02:41:23.064194+00:00",
+  "reuse": "environment plate @1 — locked before first assembly",
+  "sfw": true,
+  "no_people": true,
+  "reused": false
+}

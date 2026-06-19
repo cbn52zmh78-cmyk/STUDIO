@@ -1,0 +1,216 @@
+{
+  "id": "STUDIO-Set-Library",
+  "version": "1.0",
+  "locked_at": "2026-06-18",
+  "status": "LOCKED",
+  "pairs_with": [
+    "STUDIO/Pipeline/Style_Library_v1.json",
+    "STUDIO/Techniques/STUDIO_Seamless_Continuity_Protocol_v1.1.md",
+    "DAVID/scripts/render_longform.py"
+  ],
+  "usage": "Prepend set.continuity_lock + style.continuity_lock to every video_prompt. Append set.lighting_lock + set.color_guard + style.color_guard. Never swap set_id or style_id mid-scene.",
+  "global_hue_discipline": {
+    "problem": "Warm key lights drift magenta/purple across segments; cool fill contaminates amber pools.",
+    "rules": [
+      "Declare Kelvin on every key — do not say warm without a number.",
+      "One dominant color temperature per scene; fill ≤15% intensity and ≤1 stop under key.",
+      "Forbidden globally unless style explicitly allows: magenta ambient, purple glass reflection, teal/cyan fill on tungsten sets, green skin shift, neon spill.",
+      "Re-ground lighting lock every REGROUND_EVERY_N=2 segments in long-form assembly."
+    ],
+    "post_clamp_vf": "eq=gamma_r=1.06:gamma_g=1.02:gamma_b=0.88:saturation=1.10:brightness=0.02",
+    "magenta_clamp_vf": "eq=gamma_r=1.08:gamma_g=1.02:gamma_b=0.82:saturation=1.05:brightness=0.01"
+  },
+  "sets": {
+    "@Set-Archive-001": {
+      "name": "The Archive",
+      "reference_file": "DAVID/productions/host_identity_v1/references/archive_set_reference.jpg",
+      "reference_anchor": "environment plate @1 — deep scholarly library interior, wooden worktable, open codex, brass desk lamp, manuscript shelves",
+      "continuity_lock": "CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut.",
+      "lighting_lock": "Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection.",
+      "color_guard": "COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows.",
+      "kelvin": {
+        "key": 3200,
+        "fill_max": 4500,
+        "fill_ratio_max": 0.15
+      },
+      "forbidden": [
+        "magenta ambient",
+        "purple lamp glow",
+        "cool daylight window",
+        "neon",
+        "teal shadows"
+      ]
+    },
+    "@Set-Studio-Interior-001": {
+      "name": "Studio Interior (Editorial Cyclorama)",
+      "reference_file": "STUDIO/Pipeline/references/studio_interior_cyclorama_reference.jpg",
+      "reference_anchor": "environment plate @1 — white-to-pale-grey seamless cyclorama, polished concrete or white resin floor, minimal props, grip rig visible optional",
+      "continuity_lock": "CONTINUITY LOCK @Set-Studio-Interior-001: identical editorial studio — seamless white cyclorama curve, same floor tone, same wall-to-floor sweep, same camera height, same negative space geometry — seamless continuation, zero jump cut.",
+      "lighting_lock": "High-key studio 5600K key locked — even wrap, soft shadow under chin only, no color gel spill, no warm/cool mix, no hue drift between segments.",
+      "color_guard": "COLOR LOCK Studio-Interior: backdrop pure neutral white #F7F7F5 to #EFEFED, skin accurate natural, shadow cool-neutral #D8D8D8 only — no yellow green cast, no magenta edge, no orange skin shift.",
+      "kelvin": {
+        "key": 5600,
+        "fill": 5600,
+        "fill_ratio_max": 0.35
+      },
+      "forbidden": [
+        "magenta rim",
+        "orange gel",
+        "mixed tungsten/daylight without style lock",
+        "visible set change"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:40:41.614630+00:00",
+      "reference_prompt": "Editorial fashion studio interior — seamless white-to-pale-grey cyclorama curve, polished white resin floor, minimal props, optional grip stand at frame edge. 16:9 cinematic wide shot, no people, empty set. High-key 5600K even wrap lighting, pure neutral white backdrop, soft floor-to-wall sweep, fashion editorial prestige aesthetic, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-3b7aeb0c-6df4-47c1-bf8f-81f47ddb868d.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    },
+    "@Set-Modern-Apartment-001": {
+      "name": "Modern Apartment (Lifestyle)",
+      "reference_file": "STUDIO/Pipeline/references/modern_apartment_reference.jpg",
+      "reference_anchor": "environment plate @1 — contemporary open-plan apartment, neutral linen sofa, oak floor, large window camera-left, minimal decor",
+      "continuity_lock": "CONTINUITY LOCK @Set-Modern-Apartment-001: identical modern apartment — same window position camera-left, same oak floor grain direction, same linen sofa tone, same kitchen blur background, same plant placement — seamless continuation, zero jump cut.",
+      "lighting_lock": "Soft window daylight 5200K key locked — sheer curtain diffusion, gentle fill from interior bounce 4800K max 20%, zero hue drift, no magenta daylight, no purple shadow.",
+      "color_guard": "COLOR LOCK Modern-Apartment: palette warm white #FAF8F5, oak #C4A77D, soft grey textiles #B8B5B0, foliage muted green #6B7F5E — no teal push, no pink wall bounce, no saturated LED accent.",
+      "kelvin": {
+        "key": 5200,
+        "fill": 4800,
+        "fill_ratio_max": 0.2
+      },
+      "forbidden": [
+        "magenta daylight",
+        "purple shadow in corners",
+        "neon RGB shelf",
+        "cool clinical 7000K"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:40:46.944861+00:00",
+      "reference_prompt": "Contemporary open-plan apartment interior, 16:9 cinematic wide shot, no people. Neutral linen sofa, oak hardwood floor, large window camera-left with sheer curtain diffusion, minimal decor, soft kitchen blur in background, single potted plant. Soft window daylight 5200K, lifestyle editorial aesthetic, warm white walls, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-8ea842ab-a6d0-480e-9b82-38cee7664fff.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    },
+    "@Set-Outdoor-Golden-001": {
+      "name": "Outdoor (Golden Hour Locked)",
+      "reference_file": "STUDIO/Pipeline/references/outdoor_golden_hour_reference.jpg",
+      "reference_anchor": "environment plate @1 — outdoor location, low sun camera-right, long shadows, sky gradient warm",
+      "continuity_lock": "CONTINUITY LOCK @Set-Outdoor-Golden-001: identical outdoor golden-hour plate — same sun angle camera-right 15° elevation, same background tree line, same ground texture, same shadow length — seamless continuation, zero jump cut.",
+      "lighting_lock": "Golden hour 4000K sun key locked — warm rim on hair and shoulders, sky gradient amber to pale blue, no hue drift, no magenta sunset, no green foliage neon.",
+      "color_guard": "COLOR LOCK Outdoor-Golden: sun warmth 4000K, highlight gold #E8C49A, shadow warm violet-grey #4A3F55 at 15% saturation max, foliage natural olive #5A6B47 — no orange crush, no magenta sky, no teal shadows.",
+      "kelvin": {
+        "key": 4000,
+        "sky_fill": 6500,
+        "fill_ratio_max": 0.25
+      },
+      "forbidden": [
+        "magenta sunset",
+        "purple skin on shadow side",
+        "HDR neon foliage",
+        "midday 5600K unless style overrides"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:40:52.418432+00:00",
+      "reference_prompt": "Outdoor location at golden hour, 16:9 cinematic wide shot, no people. Low sun camera-right at 15 degrees elevation, long warm shadows, sky gradient amber to pale blue, natural tree line background, textured ground path. Warm 4000K sunlight, fashion editorial location shoot aesthetic, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-417e09ab-6e27-40f0-889b-1db96f070f54.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    },
+    "@Set-Outdoor-Overcast-001": {
+      "name": "Outdoor (Overcast Neutral)",
+      "reference_file": "STUDIO/Pipeline/references/outdoor_overcast_reference.jpg",
+      "reference_anchor": "environment plate @1 — soft overcast sky, even diffusion, urban park or quiet street",
+      "continuity_lock": "CONTINUITY LOCK @Set-Outdoor-Overcast-001: identical overcast outdoor — same cloud brightness, same pavement tone, same background depth, same wind stillness in foliage — seamless continuation, zero jump cut.",
+      "lighting_lock": "Overcast softbox sky 6000K locked — even wrap, no hard sun, no warm/cool split, zero hue drift, no magenta cloud bounce.",
+      "color_guard": "COLOR LOCK Outdoor-Overcast: neutral grey sky #C8CCD4, skin neutral, shadows soft blue-grey #8A9098 at low saturation — no green cast on skin, no purple pavement.",
+      "kelvin": {
+        "key": 6000,
+        "fill": 6000,
+        "fill_ratio_max": 0.4
+      },
+      "forbidden": [
+        "magenta clouds",
+        "warm sun patch",
+        "teal skin",
+        "saturated neon signage"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:40:58.347529+00:00",
+      "reference_prompt": "Outdoor urban park path or quiet tree-lined street, 16:9 cinematic wide shot, no people. Soft overcast sky with even diffusion, neutral grey clouds, pavement and natural foliage, gentle ambient 6000K wrap light. Lifestyle editorial aesthetic, natural neutral tones, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-2db621fb-c8bf-4317-b8da-f4b3d49b126f.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    },
+    "@Set-Seamless-Neutral-001": {
+      "name": "Neutral Seamless Backdrop",
+      "reference_file": "STUDIO/Pipeline/references/seamless_neutral_grey_reference.jpg",
+      "reference_anchor": "environment plate @1 — medium neutral grey seamless paper, infinite curve, no horizon line visible",
+      "continuity_lock": "CONTINUITY LOCK @Set-Seamless-Neutral-001: identical neutral grey seamless — same backdrop tone mid-grey #9A9A98, same floor sweep, same subject-to-backdrop distance, same falloff — seamless continuation, zero jump cut.",
+      "lighting_lock": "Neutral seamless 5500K bilateral soft key locked — symmetrical wrap, subtle nose shadow only, zero hue drift, no magenta vignette, no warm/cool lateral split.",
+      "color_guard": "COLOR LOCK Seamless-Neutral: backdrop #9A9A98±2%, skin true-to-life, wardrobe colors accurate, no gel spill — no magenta edge gradient, no orange spotlight cone.",
+      "kelvin": {
+        "key": 5500,
+        "fill": 5500,
+        "fill_ratio_max": 0.3
+      },
+      "forbidden": [
+        "magenta vignette",
+        "rainbow gel",
+        "backdrop tone shift between segments",
+        "visible paper seam"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:41:08.070346+00:00",
+      "reference_prompt": "Professional photo studio with medium neutral grey seamless paper backdrop, infinite curve, no horizon line visible. 16:9 cinematic wide shot, no people. Bilateral soft 5500K key lighting, mid-grey backdrop, subtle floor sweep falloff. Fashion catalog aesthetic, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-82159a3b-a734-4ee8-aa49-a9f753d24be2.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    },
+    "@Set-Warehouse-Industrial-001": {
+      "name": "Warehouse / Industrial Loft",
+      "reference_file": "STUDIO/Pipeline/references/warehouse_industrial_reference.jpg",
+      "reference_anchor": "environment plate @1 — industrial loft, exposed brick or concrete, large factory windows, metal beams",
+      "continuity_lock": "CONTINUITY LOCK @Set-Warehouse-Industrial-001: identical industrial loft — same window grid camera-left, same concrete floor, same brick tone, same beam geometry — seamless continuation, zero jump cut.",
+      "lighting_lock": "Industrial window 4800K directional key locked — dust motes optional, deep shadow pockets, no magenta brick bounce, no cool fill contamination, zero hue drift.",
+      "color_guard": "COLOR LOCK Warehouse: brick #8B4A3B desaturated, concrete #A8A8A8, metal #5C5C5C, window light warm-neutral 4800K — no purple shadows, no teal concrete, no neon practicals.",
+      "kelvin": {
+        "key": 4800,
+        "fill": 4200,
+        "fill_ratio_max": 0.18
+      },
+      "forbidden": [
+        "magenta brick bounce",
+        "cyan concrete",
+        "random neon tubes",
+        "daylight 6500K without lock change"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:41:17.487289+00:00",
+      "reference_prompt": "Industrial loft interior, 16:9 cinematic wide shot, no people. Exposed brick wall, concrete floor, large factory window grid camera-left, metal ceiling beams, subtle dust motes in directional 4800K window light. Deep shadow pockets, editorial fashion location aesthetic, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-f545ad0d-8250-4736-ad6e-527390003939.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    },
+    "@Set-Rooftop-Urban-001": {
+      "name": "Rooftop Urban Dusk",
+      "reference_file": "STUDIO/Pipeline/references/rooftop_urban_dusk_reference.jpg",
+      "reference_anchor": "environment plate @1 — city rooftop, parapet line, bokeh skyline, dusk sky gradient",
+      "continuity_lock": "CONTINUITY LOCK @Set-Rooftop-Urban-001: identical rooftop dusk — same skyline bokeh pattern, same parapet height, same sky gradient amber-to-indigo, same wind direction in hair — seamless continuation, zero jump cut.",
+      "lighting_lock": "Dusk ambient 4300K key locked — city practicals bokeh only, no magenta sky band, no purple skin fill, zero hue drift, rim from sky not gel.",
+      "color_guard": "COLOR LOCK Rooftop-Dusk: sky gradient #E8A87C to #3D4F7C, skin warm neutral, city lights tungsten bokeh #FFB366 point only — no magenta sky, no green yellow skin.",
+      "kelvin": {
+        "key": 4300,
+        "practical_bokeh": 2800,
+        "fill_ratio_max": 0.22
+      },
+      "forbidden": [
+        "magenta sky band",
+        "purple face fill",
+        "daylight 5600K",
+        "neon sign color shift"
+      ],
+      "reference_status": "plate_locked",
+      "reference_locked_at": "2026-06-19T02:41:23.064194+00:00",
+      "reference_prompt": "City rooftop at dusk, 16:9 cinematic wide shot, no people. Concrete parapet line in foreground, soft bokeh city skyline behind, sky gradient warm amber to deep indigo, dusk ambient 4300K. Fashion editorial rooftop shoot aesthetic, tungsten city lights as soft bokeh only, photoreal cinematic lighting, SFW.",
+      "reference_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-1b54bc0c-4dd8-47cd-98b1-3e75224b1c42.jpeg",
+      "reference_model": "grok-imagine-image-quality"
+    }
+  },
+  "compose_template": "{set.continuity_lock} {style.continuity_lock} {action_prompt} {set.lighting_lock} {set.color_guard} {style.color_guard} {style.end_guard}",
+  "reference_plates_locked_at": "2026-06-19T02:41:23.065079+00:00",
+  "reference_plates_status": "ALL_NON_ARCHIVE_LOCKED"
+}

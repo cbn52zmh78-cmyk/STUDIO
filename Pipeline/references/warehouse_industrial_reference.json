@@ -1,0 +1,15 @@
+{
+  "set_id": "@Set-Warehouse-Industrial-001",
+  "path": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\warehouse_industrial_reference.jpg",
+  "reference_file": "STUDIO/Pipeline/references/warehouse_industrial_reference.jpg",
+  "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-f545ad0d-8250-4736-ad6e-527390003939.jpeg",
+  "prompt": "Industrial loft interior, 16:9 cinematic wide shot, no people. Exposed brick wall, concrete floor, large factory window grid camera-left, metal ceiling beams, subtle dust motes in directional 4800K window light. Deep shadow pockets, editorial fashion location aesthetic, photoreal cinematic lighting, SFW.",
+  "model": "grok-imagine-image-quality",
+  "aspect_ratio": "16:9",
+  "reference_status": "plate_locked",
+  "locked_at": "2026-06-19T02:41:17.487289+00:00",
+  "reuse": "environment plate @1 — locked before first assembly",
+  "sfw": true,
+  "no_people": true,
+  "reused": false
+}

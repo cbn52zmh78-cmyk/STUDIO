@@ -1,0 +1,15 @@
+{
+  "set_id": "@Set-Seamless-Neutral-001",
+  "path": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\seamless_neutral_grey_reference.jpg",
+  "reference_file": "STUDIO/Pipeline/references/seamless_neutral_grey_reference.jpg",
+  "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-82159a3b-a734-4ee8-aa49-a9f753d24be2.jpeg",
+  "prompt": "Professional photo studio with medium neutral grey seamless paper backdrop, infinite curve, no horizon line visible. 16:9 cinematic wide shot, no people. Bilateral soft 5500K key lighting, mid-grey backdrop, subtle floor sweep falloff. Fashion catalog aesthetic, photoreal cinematic lighting, SFW.",
+  "model": "grok-imagine-image-quality",
+  "aspect_ratio": "16:9",
+  "reference_status": "plate_locked",
+  "locked_at": "2026-06-19T02:41:08.070346+00:00",
+  "reuse": "environment plate @1 — locked before first assembly",
+  "sfw": true,
+  "no_people": true,
+  "reused": false
+}

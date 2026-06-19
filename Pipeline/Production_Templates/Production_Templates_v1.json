@@ -1,0 +1,497 @@
+{
+  "id": "STUDIO-Production-Templates",
+  "version": "1.0",
+  "locked_at": "2026-06-18",
+  "status": "LOCKED",
+  "pairs_with": [
+    "STUDIO/Pipeline/Set_Library_v1.json",
+    "STUDIO/Pipeline/Style_Library_v1.json",
+    "STUDIO/Techniques/STUDIO_Canonical_Schema_and_Seamless_Spec_v1.md",
+    "STUDIO/Techniques/STUDIO_Seamless_Continuity_Protocol_v1.1.md",
+    "DAVID/scripts/render_longform.py"
+  ],
+  "usage": "Select format via concept_selector or explicit format_id. Instantiate with production_templates.build_longform_script(). Every shot video_prompt must carry identity/set continuity prefix + style locks + action + end_guard for seamless assembly.",
+  "global_guardrails": [
+    "synthetic talent only — no real person likeness, no celebrity mimicry",
+    "end guard mandatory on every generated segment for seamless assembly",
+    "one set_id and one style_id per scene — never blend mid-take",
+    "lip-sync speech_text must appear in video_prompt when role is speaking",
+    "duration per shot 5–15s (API clip discipline); prefer 7–9s for seamless extend chains",
+    "never hold dead stillness or dead frame at segment end"
+  ],
+  "compose_contract": {
+    "video_prompt_order": "{identity_continuity_lock} {set.continuity_lock} {style.continuity_lock} {action_prompt} {set.lighting_lock} {style.lighting_lock} {set.color_guard} {style.color_guard} {style.lens_motion} Lip-synced, delivers: \"{speech_text}\" {voice_suffix} {style.end_guard}",
+    "identity_placeholder": "{identity_anchor}",
+    "speech_optional_when": "b_roll or silent_establishing roles omit lip-sync clause",
+    "seamless_defaults": {
+      "primary": "extend",
+      "xfade_s": 0.2,
+      "match_color": true,
+      "cut_on_motion": true
+    }
+  },
+  "formats": {
+    "documentary-host": {
+      "name": "Documentary Host",
+      "description": "Prestige host-led documentary — corpus-first, attested/reconstructed honesty, Archive desk continuity.",
+      "target_rating": "PG",
+      "target_seconds": { "min": 60, "default": 69, "max": 180 },
+      "pacing": {
+        "words_per_second": 2.5,
+        "beat_gap_s": 0.4,
+        "register": "unhurried documentary gravitas",
+        "pause_on": ["question marks", "reconstructed labels", "citation beats"]
+      },
+      "camera": {
+        "primary": "slow motivated push-in medium",
+        "secondary": "locked-off medium with insert B-roll cutaways",
+        "forbidden": ["snap zoom", "handheld jitter on host", "beauty-filter smoothing"]
+      },
+      "default_set": "@Set-Archive-001",
+      "default_style": "@Style-Documentary-Prestige-001",
+      "identity_anchor": "@David-001",
+      "identity_continuity_lock": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut.",
+      "voice_suffix": "mid-low resonant unhurried voice, precise diction, documentary gravitas, Attenborough-calm, accessible never stuffy, synthetic host only",
+      "guardrails": [
+        "attested vs reconstructed labels on screen when applicable",
+        "never claim recording when pronunciation is reconstructed",
+        "corpus-first method — no invention without evidence",
+        "Archive set and Documentary Prestige style locked for entire host scene",
+        "re-ground brass lamp 3200K every 2 segments in long-form"
+      ],
+      "qa_rules": {
+        "require_identity_lock": true,
+        "require_synthetic_guard": true,
+        "require_reconstructed_labels": false,
+        "min_shots": 6
+      },
+      "provenance_card": {
+        "enabled": true,
+        "duration_s": 6,
+        "card_type": "closing",
+        "title": "{brand_title}",
+        "subtitle": "{brand_subtitle}",
+        "footer": "{cta}"
+      },
+      "shot_blueprints": [
+        {
+          "id": "01_cold_open",
+          "role": "host",
+          "duration": 8,
+          "camera": "slow gentle push-in medium",
+          "pacing_beat": "hook — name and promise",
+          "action_template": "Host seated at Archive worktable, warm brass lamplight, speaks calmly to camera.",
+          "speech_placeholder": "[HOOK — who you are and what the audience will hear]"
+        },
+        {
+          "id": "02_stakes",
+          "role": "host",
+          "duration": 8,
+          "camera": "same take continues — locked medium",
+          "pacing_beat": "stakes — what was lost or unknown",
+          "action_template": "Same take continues — host reflects, manuscripts behind, same desk and lamp.",
+          "speech_placeholder": "[STAKES — why this matters, what silence cost]"
+        },
+        {
+          "id": "03_signature_question",
+          "role": "host",
+          "duration": 8,
+          "camera": "slight lean toward camera",
+          "pacing_beat": "signature question beat",
+          "action_template": "Host leans slightly toward camera, intent, signature question moment.",
+          "speech_placeholder": "[SIGNATURE QUESTION]"
+        },
+        {
+          "id": "04_proof_beat",
+          "role": "host",
+          "duration": 7,
+          "camera": "steady close-up",
+          "pacing_beat": "proof — how we know",
+          "action_template": "Steady close-up, knowing pause, second half of signature beat.",
+          "speech_placeholder": "[PROOF QUESTION — how do we prove it]"
+        },
+        {
+          "id": "05_method",
+          "role": "host",
+          "duration": 8,
+          "camera": "medium — gesture to evidence",
+          "pacing_beat": "method explanation",
+          "action_template": "Host gestures to open codex on worktable, explaining corpus-first method.",
+          "speech_placeholder": "[METHOD — corpus-first, evidence rules]"
+        },
+        {
+          "id": "06_honesty",
+          "role": "host",
+          "duration": 8,
+          "camera": "direct to camera",
+          "pacing_beat": "honesty principle",
+          "action_template": "Host direct to camera, calm authority on attested vs reconstructed.",
+          "speech_placeholder": "[HONESTY — label certainty and uncertainty]"
+        },
+        {
+          "id": "07_demonstration",
+          "role": "host",
+          "duration": 10,
+          "camera": "medium — deliberate pace",
+          "pacing_beat": "demonstration or example line",
+          "action_template": "Host delivers example pronunciation or excerpt, scholarly tone, on-screen labels visible.",
+          "speech_placeholder": "[DEMONSTRATION — example line with IPA if applicable]"
+        },
+        {
+          "id": "08_invitation",
+          "role": "host",
+          "duration": 8,
+          "camera": "warm inviting close",
+          "pacing_beat": "invitation / CTA",
+          "action_template": "Warm inviting close, slight smile, gentle settle; end on hand gesture mid-motion.",
+          "speech_placeholder": "[INVITATION — welcome and subscribe/follow CTA]"
+        }
+      ]
+    },
+    "narrative-short-film": {
+      "name": "Narrative / Short Film",
+      "description": "Beat-driven cinematic short — character arc in under 90s, theatrical lighting, motivated camera.",
+      "target_rating": "PG-13",
+      "target_seconds": { "min": 45, "default": 60, "max": 120 },
+      "pacing": {
+        "words_per_second": 2.8,
+        "beat_gap_s": 0.25,
+        "register": "dramatic subtext, show-don't-tell",
+        "pause_on": ["reveals", "reactions", "silence beats"]
+      },
+      "camera": {
+        "primary": "slow dolly or crane",
+        "secondary": "rack focus motivated by story beat",
+        "forbidden": ["flat YouTube lighting", "documentary talking-head default", "unmotivated dutch angle"]
+      },
+      "default_set": "@Set-Warehouse-Industrial-001",
+      "default_style": "@Style-Cinematic-001",
+      "identity_anchor": "@Talent-001",
+      "identity_continuity_lock": "CONTINUITY LOCK @Talent-001: identical character face, wardrobe, hair, same eye-line and blocking — seamless continuation of prior take, zero jump cut.",
+      "voice_suffix": "naturalistic dialogue delivery, motivated breath, cinematic intimacy, synthetic talent only",
+      "guardrails": [
+        "PG-13 default — no explicit violence framing, no gore linger",
+        "synthetic talent only — no real person likeness",
+        "one location per scene unless blueprint marks scene_break",
+        "character wardrobe and side-light direction locked across segments",
+        "finish every segment on motion or emotional peak — never dead hold"
+      ],
+      "qa_rules": {
+        "require_identity_lock": false,
+        "require_synthetic_guard": true,
+        "require_reconstructed_labels": false,
+        "min_shots": 5
+      },
+      "provenance_card": {
+        "enabled": true,
+        "duration_s": 5,
+        "card_type": "closing",
+        "title": "{title}",
+        "subtitle": "{subtitle}",
+        "footer": "{credit_line}"
+      },
+      "shot_blueprints": [
+        {
+          "id": "01_establishing",
+          "role": "b_roll",
+          "duration": 6,
+          "camera": "wide static or slow crane down",
+          "pacing_beat": "world — where and when",
+          "action_template": "Establishing wide of location, atmospheric, no dialogue required.",
+          "speech_placeholder": ""
+        },
+        {
+          "id": "02_character_intro",
+          "role": "character",
+          "duration": 8,
+          "camera": "medium profile or three-quarter",
+          "pacing_beat": "character — want or wound",
+          "action_template": "Character enters frame or revealed in medium shot, motivated side key.",
+          "speech_placeholder": "[CHARACTER WANT — what they need]"
+        },
+        {
+          "id": "03_inciting",
+          "role": "character",
+          "duration": 8,
+          "camera": "push-in on reaction",
+          "pacing_beat": "inciting disruption",
+          "action_template": "Inciting event lands — character reacts, tension enters.",
+          "speech_placeholder": "[INCITING LINE or silent reaction]"
+        },
+        {
+          "id": "04_rising",
+          "role": "character",
+          "duration": 8,
+          "camera": "close-up rack focus",
+          "pacing_beat": "rising tension",
+          "action_template": "Close-up, subtext in eyes, rack focus to story object if present.",
+          "speech_placeholder": "[RISING — stakes sharpen]"
+        },
+        {
+          "id": "05_turn",
+          "role": "character",
+          "duration": 8,
+          "camera": "slow dolly in",
+          "pacing_beat": "turn or reveal",
+          "action_template": "Turning point — decision, revelation, or reversal.",
+          "speech_placeholder": "[TURN — the choice or reveal]"
+        },
+        {
+          "id": "06_peak",
+          "role": "character",
+          "duration": 8,
+          "camera": "tight close or wide isolation",
+          "pacing_beat": "emotional peak",
+          "action_template": "Emotional peak — gesture, glance, or physical beat at maximum tension.",
+          "speech_placeholder": "[PEAK — emotional high point]"
+        },
+        {
+          "id": "07_resolution",
+          "role": "character",
+          "duration": 7,
+          "camera": "pull back or hold on button",
+          "pacing_beat": "resolution / button",
+          "action_template": "Resolution beat — release, irony, or quiet button; end on motion.",
+          "speech_placeholder": "[BUTTON — final line or image]"
+        }
+      ]
+    },
+    "conversational-companion": {
+      "name": "Conversational / Companion (SFW)",
+      "description": "Warm SFW companion dialogue — approachable intimacy, lifestyle set, PG editorial guardrails.",
+      "target_rating": "PG",
+      "target_seconds": { "min": 30, "default": 40, "max": 90 },
+      "pacing": {
+        "words_per_second": 3.0,
+        "beat_gap_s": 0.35,
+        "register": "friendly, attentive, conversational",
+        "pause_on": ["check-ins", "empathy beats", "questions to viewer"]
+      },
+      "camera": {
+        "primary": "gentle float or static medium-close",
+        "secondary": "micro-push on encouragement beats",
+        "forbidden": ["explicit framing", "suggestive angles", "lingerie or bedroom staging", "clinical flatness"]
+      },
+      "default_set": "@Set-Modern-Apartment-001",
+      "default_style": "@Style-Soft-Warm-001",
+      "identity_anchor": "@Companion-001",
+      "identity_continuity_lock": "CONTINUITY LOCK @Companion-001: identical companion face, wardrobe, apartment set, same eye-line to camera — seamless continuation of prior take, zero jump cut.",
+      "voice_suffix": "warm approachable conversational voice, attentive listener energy, natural breath, synthetic companion only",
+      "guardrails": [
+        "SFW mandatory — PG rating, no explicit content, no suggestive framing",
+        "no lingerie, swimwear, or bedroom intimacy staging",
+        "companion is supportive friend energy — not romantic roleplay",
+        "synthetic companion only — no real person likeness",
+        "fully clothed wardrobe — lifestyle casual or smart-casual only",
+        "no medical, legal, or financial advice presented as professional counsel"
+      ],
+      "qa_rules": {
+        "require_identity_lock": false,
+        "require_synthetic_guard": true,
+        "require_sfw_companion": true,
+        "require_reconstructed_labels": false,
+        "min_shots": 4
+      },
+      "provenance_card": {
+        "enabled": false,
+        "duration_s": 0,
+        "card_type": "none"
+      },
+      "shot_blueprints": [
+        {
+          "id": "01_greeting",
+          "role": "companion",
+          "duration": 6,
+          "camera": "static medium-close, soft window light",
+          "pacing_beat": "warm greeting",
+          "action_template": "Companion greets viewer warmly, relaxed posture on sofa, soft daylight.",
+          "speech_placeholder": "[GREETING — hello and presence]"
+        },
+        {
+          "id": "02_check_in",
+          "role": "companion",
+          "duration": 7,
+          "camera": "gentle float, same framing",
+          "pacing_beat": "check-in / acknowledgment",
+          "action_template": "Companion listens attentively, nodding, empathetic micro-expressions.",
+          "speech_placeholder": "[CHECK-IN — acknowledge viewer context]"
+        },
+        {
+          "id": "03_core_message",
+          "role": "companion",
+          "duration": 8,
+          "camera": "slow micro-push-in",
+          "pacing_beat": "core message or advice",
+          "action_template": "Companion shares main thought calmly, open hand gesture, trustworthy tone.",
+          "speech_placeholder": "[CORE MESSAGE — main point]"
+        },
+        {
+          "id": "04_reflective_pause",
+          "role": "companion",
+          "duration": 6,
+          "camera": "hold medium-close",
+          "pacing_beat": "reflective pause",
+          "action_template": "Brief reflective pause, soft breath, inviting viewer reflection.",
+          "speech_placeholder": "[REFLECTION — pause beat or question]"
+        },
+        {
+          "id": "05_encouragement",
+          "role": "companion",
+          "duration": 7,
+          "camera": "micro-push, warm smile",
+          "pacing_beat": "encouragement",
+          "action_template": "Encouraging close, genuine smile, supportive hand gesture.",
+          "speech_placeholder": "[ENCOURAGEMENT — affirm viewer]"
+        },
+        {
+          "id": "06_soft_close",
+          "role": "companion",
+          "duration": 6,
+          "camera": "gentle settle, hold eye-line",
+          "pacing_beat": "soft close",
+          "action_template": "Soft sign-off, wave or hand settle mid-motion, warm eye contact.",
+          "speech_placeholder": "[CLOSE — see you next time]"
+        }
+      ]
+    },
+    "explainer-ad": {
+      "name": "Explainer / Ad",
+      "description": "Brisk product or concept explainer — hook-problem-solution-CTA, neutral or high-key, trust-through-clarity.",
+      "target_rating": "PG",
+      "target_seconds": { "min": 15, "default": 30, "max": 60 },
+      "pacing": {
+        "words_per_second": 3.5,
+        "beat_gap_s": 0.15,
+        "register": "clear, confident, no filler",
+        "pause_on": ["CTA only"]
+      },
+      "camera": {
+        "primary": "locked-off or slow linear track",
+        "secondary": "product hero push-in on solution beat",
+        "forbidden": ["handheld", "documentary gravitas pacing", "noir low-key unless brand locked"]
+      },
+      "default_set": "@Set-Seamless-Neutral-001",
+      "default_style": "@Style-Cool-Clinical-001",
+      "identity_anchor": "@Presenter-001",
+      "identity_continuity_lock": "CONTINUITY LOCK @Presenter-001: identical presenter face, wardrobe, neutral set, same eye-line — seamless continuation of prior take, zero jump cut.",
+      "voice_suffix": "clear confident presenter voice, brisk diction, trustworthy product tone, synthetic presenter only",
+      "guardrails": [
+        "no unsubstantiated claims — mark [CLAIM REQUIRES VERIFICATION] in speech until legal approves",
+        "brand-safe language — no competitor bashing unless scripted and approved",
+        "synthetic presenter only — no real person likeness",
+        "accurate color reproduction for product shots when product visible",
+        "CTA must be single clear action — one verb, one destination"
+      ],
+      "qa_rules": {
+        "require_identity_lock": false,
+        "require_synthetic_guard": true,
+        "require_claim_verification_flag": true,
+        "require_reconstructed_labels": false,
+        "min_shots": 4
+      },
+      "provenance_card": {
+        "enabled": true,
+        "duration_s": 4,
+        "card_type": "closing",
+        "title": "{brand}",
+        "subtitle": "{cta}",
+        "footer": "{legal_line}"
+      },
+      "shot_blueprints": [
+        {
+          "id": "01_hook",
+          "role": "presenter",
+          "duration": 5,
+          "camera": "locked medium, snap attention",
+          "pacing_beat": "hook — pattern interrupt",
+          "action_template": "Presenter addresses camera directly, crisp opener, neutral backdrop.",
+          "speech_placeholder": "[HOOK — problem or question in 8 words max]"
+        },
+        {
+          "id": "02_pain",
+          "role": "presenter",
+          "duration": 5,
+          "camera": "same framing, slight lean",
+          "pacing_beat": "pain point",
+          "action_template": "Presenter names the pain point, empathetic but brisk.",
+          "speech_placeholder": "[PAIN — what frustrates the viewer]"
+        },
+        {
+          "id": "03_solution",
+          "role": "presenter",
+          "duration": 6,
+          "camera": "slow push to product or presenter",
+          "pacing_beat": "solution reveal",
+          "action_template": "Solution reveal — product or concept introduced, clean clinical lighting.",
+          "speech_placeholder": "[SOLUTION — what it is in one sentence]"
+        },
+        {
+          "id": "04_benefit_a",
+          "role": "presenter",
+          "duration": 5,
+          "camera": "locked, gesture to feature",
+          "pacing_beat": "benefit 1",
+          "action_template": "First benefit demonstrated or stated with presentational gesture.",
+          "speech_placeholder": "[BENEFIT A — first value prop]"
+        },
+        {
+          "id": "05_benefit_b",
+          "role": "presenter",
+          "duration": 5,
+          "camera": "locked, same axis",
+          "pacing_beat": "benefit 2",
+          "action_template": "Second benefit, maintain axis and lighting continuity.",
+          "speech_placeholder": "[BENEFIT B — second value prop]"
+        },
+        {
+          "id": "06_cta",
+          "role": "presenter",
+          "duration": 5,
+          "camera": "medium-close, direct address",
+          "pacing_beat": "CTA",
+          "action_template": "Clear CTA, presenter points or open-palm invite, end on gesture peak.",
+          "speech_placeholder": "[CTA — single action: visit, try, sign up]"
+        }
+      ]
+    }
+  },
+  "concept_selector": {
+    "description": "Scores concept text against format signals; highest score wins unless format_id is explicit.",
+    "default_format": "documentary-host",
+    "formats": {
+      "documentary-host": {
+        "weight": 1.0,
+        "keywords": [
+          "documentary", "host", "archive", "corpus", "attested", "reconstructed",
+          "language", "history", "educational", "bbc", "prestige", "pronunciation",
+          "attestation", "scholarly", "museum", "lecture", "explainer with proof"
+        ],
+        "negative_keywords": ["buy now", "limited offer", "companion", "girlfriend", "boyfriend", "romantic"]
+      },
+      "narrative-short-film": {
+        "weight": 1.0,
+        "keywords": [
+          "narrative", "short film", "story", "character", "arc", "drama", "scene",
+          "cinematic", "plot", "twist", "emotional", "fiction", "screenplay", "beat sheet"
+        ],
+        "negative_keywords": ["product demo", "buy now", "corpus", "attested", "host desk"]
+      },
+      "conversational-companion": {
+        "weight": 1.1,
+        "keywords": [
+          "companion", "conversational", "chat", "check in", "supportive", "friend",
+          "listen", "empathy", "daily message", "affirmation", "gentle", "warm", "sfw"
+        ],
+        "negative_keywords": ["explicit", "nsfw", "romantic", "seductive", "product", "ad", "corpus"]
+      },
+      "explainer-ad": {
+        "weight": 1.0,
+        "keywords": [
+          "ad", "advertisement", "commercial", "product", "cta", "buy", "sign up",
+          "explainer", "demo", "feature", "benefit", "brand", "launch", "saas", "offer"
+        ],
+        "negative_keywords": ["documentary", "archive", "attested", "fiction", "companion"]
+      }
+    }
+  }
+}

@@ -1080,7 +1080,7 @@ ROSTER_50: list[ActorProfile] = [
         dob="January 14, 1996",
     ),
     _a(
-        stage_name="Ravi Shankar",
+        stage_name="Ravi Menon",
         gender="male",
         world_region="south_asia",
         age=38,

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STUDIO Casting Registry Entry \u2014 MAGAZINE",
+  "version": "1.1.0",
+  "generated_at": "2026-06-19T02:43:09.106960+00:00",
+  "description": "Locked synthetic performer record for STUDIO MAGAZINE lane. Appearance lock is verbatim reuse.",
+  "guardrails": {
+    "synthetic_only": true,
+    "real_person_likeness": false,
+    "content_rating_allowed": [
+      "SFW"
+    ],
+    "wardrobe_policy": "SFW/suggestive-clothed only \u2014 no nude, topless, or explicit",
+    "ai_disclosure_required_default": true,
+    "appearance_lock_rule": "Copy appearance_lock_verbatim exactly into every image/video prompt; do not paraphrase.",
+    "age_policy": "HARD 21+ on every entry \u2014 schema minimum 21. Research/Age_Policy_Locked.md."
+  },
+  "required": [
+    "actor_id",
+    "stage_name",
+    "synthetic",
+    "real_person_likeness",
+    "content_rating",
+    "ai_disclosure_required",
+    "age_locked",
+    "appearance_lock_verbatim",
+    "appearance_lock_status",
+    "voice_spec",
+    "persona_tags",
+    "genre_tags",
+    "reference_image_primary"
+  ],
+  "properties": {
+    "actor_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9]*-001$"
+    },
+    "stage_name": {
+      "type": "string"
+    },
+    "talent_id": {
+      "type": "string"
+    },
+    "synthetic": {
+      "const": true
+    },
+    "real_person_likeness": {
+      "const": false
+    },
+    "content_rating": {
+      "enum": [
+        "SFW"
+      ]
+    },
+    "ai_disclosure_required": {
+      "const": true
+    },
+    "age_locked": {
+      "type": "integer",
+      "minimum": 21
+    },
+    "gender": {
+      "enum": [
+        "female"
+      ]
+    },
+    "appearance_lock_verbatim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "appearance_lock_status": {
+      "enum": [
+        "LOCKED",
+        "INCOMPLETE"
+      ]
+    },
+    "reference_image_primary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voice_spec": {
+      "type": "object",
+      "required": [
+        "notes"
+      ],
+      "properties": {
+        "notes": {
+          "type": "string"
+        },
+        "performance_style": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "prompt_suffix": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "persona_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "genre_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "compliance_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

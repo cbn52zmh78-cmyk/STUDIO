@@ -1,0 +1,15 @@
+{
+  "set_id": "@Set-Studio-Interior-001",
+  "path": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\studio_interior_cyclorama_reference.jpg",
+  "reference_file": "STUDIO/Pipeline/references/studio_interior_cyclorama_reference.jpg",
+  "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-3b7aeb0c-6df4-47c1-bf8f-81f47ddb868d.jpeg",
+  "prompt": "Editorial fashion studio interior — seamless white-to-pale-grey cyclorama curve, polished white resin floor, minimal props, optional grip stand at frame edge. 16:9 cinematic wide shot, no people, empty set. High-key 5600K even wrap lighting, pure neutral white backdrop, soft floor-to-wall sweep, fashion editorial prestige aesthetic, photoreal cinematic lighting, SFW.",
+  "model": "grok-imagine-image-quality",
+  "aspect_ratio": "16:9",
+  "reference_status": "plate_locked",
+  "locked_at": "2026-06-19T02:40:41.614630+00:00",
+  "reuse": "environment plate @1 — locked before first assembly",
+  "sfw": true,
+  "no_people": true,
+  "reused": false
+}

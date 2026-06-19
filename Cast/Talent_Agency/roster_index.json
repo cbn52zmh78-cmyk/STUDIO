@@ -15,7 +15,7 @@
       "talent_id": "kofi_mensah",
       "display_name": "Kofi Mensah",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "malik_diallo",
@@ -36,8 +36,8 @@
       "has_casting_jpg": true
     },
     {
-      "talent_id": "ravi_shankar",
-      "display_name": "Ravi Shankar",
+      "talent_id": "ravi_menon",
+      "display_name": "Ravi Menon",
       "roster_source": "actors_roster",
       "has_casting_jpg": true
     },
@@ -45,13 +45,13 @@
       "talent_id": "vikram_rathore",
       "display_name": "Vikram Rathore",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "ethan_shaw",
       "display_name": "Ethan Shaw",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "jayden_tau",
@@ -81,7 +81,7 @@
       "talent_id": "julian_cross",
       "display_name": "Julian Cross",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "marcus_cole",
@@ -105,13 +105,13 @@
       "talent_id": "khalid_mansour",
       "display_name": "Khalid Mansour",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "andre_silva",
       "display_name": "Andre Silva",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "carlos_mendez",
@@ -123,7 +123,7 @@
       "talent_id": "dante_reyes",
       "display_name": "Dante Reyes",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "diego_morales",
@@ -159,7 +159,7 @@
       "talent_id": "luca_fontaine",
       "display_name": "Luca Fontaine",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "marco_esposito",
@@ -183,7 +183,7 @@
       "talent_id": "nikolai_volsky",
       "display_name": "Nikolai Volsky",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "tomas_novak",
@@ -207,7 +207,7 @@
       "talent_id": "ren_hayashi",
       "display_name": "Ren Hayashi",
       "roster_source": "actors_roster",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "theo_nakamura",

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STUDIO Casting Registry Entry",
+  "version": "1.0.0",
+  "generated_at": "2026-06-19T02:42:15.735314+00:00",
+  "description": "Locked synthetic actor record for STUDIO actors_roster. Appearance lock is verbatim reuse.",
+  "guardrails": {
+    "synthetic_only": true,
+    "real_person_likeness": false,
+    "content_rating_default": "SFW",
+    "ai_disclosure_required_default": true,
+    "appearance_lock_rule": "Copy appearance_lock_verbatim exactly into every image/video prompt; do not paraphrase.",
+    "age_policy": "Research/Age_Policy_Locked.md \u2014 numerical age required in all prompts; roster floor 21+."
+  },
+  "required": [
+    "actor_id",
+    "stage_name",
+    "synthetic",
+    "content_rating",
+    "ai_disclosure_required",
+    "age_locked",
+    "appearance_lock_verbatim",
+    "appearance_lock_status",
+    "voice_spec",
+    "persona_tags",
+    "genre_tags",
+    "reference_image_primary"
+  ],
+  "properties": {
+    "actor_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9]*-001$",
+      "description": "Locked handle like David-001 (FirstName-001 or FirstLast-001 on collision)."
+    },
+    "stage_name": {
+      "type": "string"
+    },
+    "talent_id": {
+      "type": "string"
+    },
+    "synthetic": {
+      "const": true
+    },
+    "real_person_likeness": {
+      "const": false
+    },
+    "content_rating": {
+      "enum": [
+        "SFW"
+      ]
+    },
+    "ai_disclosure_required": {
+      "type": "boolean"
+    },
+    "age_locked": {
+      "type": "integer",
+      "minimum": 21,
+      "description": "Roster floor 21+ per Age_Policy_Locked.md; must match appearance_lock_verbatim."
+    },
+    "gender": {
+      "enum": [
+        "female",
+        "male"
+      ]
+    },
+    "appearance_lock_verbatim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "appearance_lock_status": {
+      "enum": [
+        "LOCKED",
+        "INCOMPLETE"
+      ]
+    },
+    "reference_image_primary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voice_spec": {
+      "type": "object",
+      "required": [
+        "notes"
+      ],
+      "properties": {
+        "notes": {
+          "type": "string"
+        },
+        "performance_style": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "prompt_suffix": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "persona_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "genre_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "compliance_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

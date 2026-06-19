@@ -1,0 +1,957 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-06-19T02:43:09.106960+00:00",
+  "scope": "gfe",
+  "age_minimum_enforced": 21,
+  "total": 20,
+  "summary": {
+    "plate_locked": 20,
+    "appearance_lock_locked": 20,
+    "ai_disclosure_required": 20,
+    "age_21_plus": 20,
+    "compliance_review": 20,
+    "incomplete_appearance_locks": []
+  },
+  "actors": [
+    {
+      "actor_id": "AikoGFE-001",
+      "stage_name": "Aiko",
+      "talent_id": "gfe_aiko",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 24,
+      "gender": "female",
+      "ethnicity": "Japanese-American",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Aiko",
+      "reference_image_primary": "STUDIO/Cast/GFE/Aiko/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Japanese-American woman, 5'4\", compact athletic build, jet-black chin-length hair with blunt fringe, dark brown steady eyes, warm ivory skin, dancer posture, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a regular thin-strap black triangle bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Soft breathy baseline; Kansai warmth when unguarded.",
+        "performance_style": "Underplayed naturalism; emotional turns in the exhale.",
+        "prompt_suffix": "Soft breathy baseline; Kansai warmth when unguarded.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Edgy alt girlfriend",
+        "Tattooed romantic lead",
+        "Punk-adjacent love interest",
+        "guarded",
+        "playful",
+        "intense"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Aiko/actor_profile.pdf"
+    },
+    {
+      "actor_id": "EmberGFE-001",
+      "stage_name": "Ember",
+      "talent_id": "gfe_ember",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 26,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Ember",
+      "reference_image_primary": "STUDIO/Cast/GFE/Ember/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Japanese woman, 5'6\", toned build, auburn-tinted black hair in shag cut, amber eyes, light olive skin, freckles across nose, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a regular thin-strap burnt orange triangle bikini top and matching burnt orange bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Smoky alto; laughs low in the chest.",
+        "performance_style": "Phrasing like song lyrics; silence is a verse.",
+        "prompt_suffix": "Smoky alto; laughs low in the chest.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Jazz-bar girlfriend",
+        "Smoky intimacy lead",
+        "Slow-burn romance",
+        "smoldering",
+        "witty",
+        "nostalgic"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Ember/actor_profile.pdf"
+    },
+    {
+      "actor_id": "HanaGFE-001",
+      "stage_name": "Hana",
+      "talent_id": "gfe_hana",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 22,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Hana",
+      "reference_image_primary": "STUDIO/Cast/GFE/Hana/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 22-year-old Japanese woman, 5'2\", petite slim build, black hair in long straight curtain, round dark eyes, porcelain skin, rosebud lips, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap ivory triangle bikini top and matching ivory bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Light airy tone; Kyoto softness on affection lines.",
+        "performance_style": "Big eyes carry subtext; minimal dialogue scenes shine.",
+        "prompt_suffix": "Light airy tone; Kyoto softness on affection lines.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Innocent-with-edge girlfriend",
+        "Coming-of-age intimacy",
+        "Shy-to-bold arc",
+        "shy",
+        "earnest",
+        "sparkling"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Hana/actor_profile.pdf"
+    },
+    {
+      "actor_id": "IrisGFE-001",
+      "stage_name": "Iris",
+      "talent_id": "gfe_iris",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 25,
+      "gender": "female",
+      "ethnicity": "Japanese-French",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Iris",
+      "reference_image_primary": "STUDIO/Cast/GFE/Iris/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 25-year-old Japanese-French woman, 5'7\", elegant slim build, chestnut hair with honey balayage, grey-brown eyes, light olive skin, refined nose, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap champagne triangle bikini top and matching champagne bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "French-Japanese code-switch; low intimate register.",
+        "performance_style": "Wardrobe transitions signal emotional arcs.",
+        "prompt_suffix": "French-Japanese code-switch; low intimate register.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Parisian-Japanese girlfriend",
+        "Caf\u00e9-table romance",
+        "Cigarette-and-wine intimacy",
+        "chic",
+        "wistful",
+        "passionate"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Iris/actor_profile.pdf"
+    },
+    {
+      "actor_id": "JadeGFE-001",
+      "stage_name": "Jade",
+      "talent_id": "gfe_jade",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 25,
+      "gender": "female",
+      "ethnicity": "Chinese-Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Jade",
+      "reference_image_primary": "STUDIO/Cast/GFE/Jade/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 25-year-old Chinese-Japanese woman, 5'5\", graceful slim build, jade-green dip-dye on black hair, almond dark eyes, porcelain-gold skin, Tattoos: Moderate tattoo continuity: fine-line floral sternum piece; half-sleeve botanicals left arm; ankle band both legs. Ink must remain visible in swimwear and slip-dress beats, wearing a regular thin-strap jade green triangle bikini top and matching jade green bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Mandarin-Japanese code-switch on emotional peaks.",
+        "performance_style": "Gesture economy; every turn intentional.",
+        "prompt_suffix": "Mandarin-Japanese code-switch on emotional peaks.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Elegant girlfriend fantasy",
+        "Hotel-suite romance",
+        "Slow-dance intimacy",
+        "elegant",
+        "mysterious",
+        "devoted"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Jade/actor_profile.pdf"
+    },
+    {
+      "actor_id": "KiraGFE-001",
+      "stage_name": "Kira",
+      "talent_id": "gfe_kira",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 27,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Kira",
+      "reference_image_primary": "STUDIO/Cast/GFE/Kira/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 27-year-old Japanese woman, 5'7\", tall model proportions, straight black hair to waist, ice-brown eyes, cool fair skin, long legs, Tattoos: Moderate tattoo continuity: fine-line floral sternum piece; half-sleeve botanicals left arm; ankle band both legs. Ink must remain visible in swimwear and slip-dress beats, wearing a regular thin-strap charcoal triangle bikini top and matching charcoal bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Calm low register; rare smile disarms.",
+        "performance_style": "Vertical line and posture tell the story.",
+        "prompt_suffix": "Calm low register; rare smile disarms.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Cool older-sister girlfriend",
+        "Executive-off-hours romance",
+        "Power-balance intimacy",
+        "composed",
+        "smoldering",
+        "protective"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Kira/actor_profile.pdf"
+    },
+    {
+      "actor_id": "LunaGFE-001",
+      "stage_name": "Luna",
+      "talent_id": "gfe_luna",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 24,
+      "gender": "female",
+      "ethnicity": "Japanese-Mexican",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Luna",
+      "reference_image_primary": "STUDIO/Cast/GFE/Luna/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Japanese-Mexican woman, 5'4\", hourglass athletic build, dark wavy hair with copper tips, amber-brown eyes, warm olive skin, Tattoos: Moderate tattoo continuity: fine-line floral sternum piece; half-sleeve botanicals left arm; ankle band both legs. Ink must remain visible in swimwear and slip-dress beats, wearing a regular thin-strap terracotta triangle bikini top and matching terracotta bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Rich mid tone; Spanish lilt on pet names.",
+        "performance_style": "Hands tell truth before dialogue.",
+        "prompt_suffix": "Rich mid tone; Spanish lilt on pet names.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Bicultural girlfriend",
+        "Passion-with-tenderness lead",
+        "Kitchen-table intimacy",
+        "warm",
+        "fiery",
+        "tender"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Luna/actor_profile.pdf"
+    },
+    {
+      "actor_id": "LyraGFE-001",
+      "stage_name": "Lyra",
+      "talent_id": "gfe_lyra",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 22,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Lyra",
+      "reference_image_primary": "STUDIO/Cast/GFE/Lyra/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 22-year-old Japanese woman, 5'3\", petite toned build, sun-lightened brown hair, bright dark eyes, golden skin, easy grin, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap seafoam triangle bikini top and matching seafoam bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Bright soprano; Okinawan lilt on nicknames.",
+        "performance_style": "Song-and-touch beats; performance confidence in intimacy.",
+        "prompt_suffix": "Bright soprano; Okinawan lilt on nicknames.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Island-pop girlfriend",
+        "Ukulele serenade romance",
+        "Barefoot intimacy",
+        "breezy",
+        "sweet",
+        "stubborn"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Lyra/actor_profile.pdf"
+    },
+    {
+      "actor_id": "MikaGFE-001",
+      "stage_name": "Mika",
+      "talent_id": "gfe_mika",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 24,
+      "gender": "female",
+      "ethnicity": "Japanese-American",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Mika",
+      "reference_image_primary": "STUDIO/Cast/GFE/Mika/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Japanese-American woman, 5'4\", compact athletic build, jet-black hair in high messy bun or blunt bob, dark brown unblinking eyes, warm ivory skin, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a regular thin-strap crimson triangle bikini top and matching crimson bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Quiet sudden laugh; drops half octave when lying.",
+        "performance_style": "Rooney Mara stillness meets Plaza dry mischief.",
+        "prompt_suffix": "Quiet sudden laugh; drops half octave when lying.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Survivor girlfriend",
+        "Reaction-shot specialist",
+        "Rebellious romantic interest",
+        "stoic",
+        "dry",
+        "warm"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Mika/actor_profile.pdf"
+    },
+    {
+      "actor_id": "NikoGFE-001",
+      "stage_name": "Niko",
+      "talent_id": "gfe_niko",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 27,
+      "gender": "female",
+      "ethnicity": "Japanese-Thai",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Niko",
+      "reference_image_primary": "STUDIO/Cast/GFE/Niko/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 27-year-old Japanese-Thai woman, 5'6\", athletic build, black hair in undercut with long top, sharp brown eyes, warm tan skin, strong brows, Tattoos: Moderate tattoo continuity: fine-line floral sternum piece; half-sleeve botanicals left arm; ankle band both legs. Ink must remain visible in swimwear and slip-dress beats, wearing a regular thin-strap gold triangle bikini top and matching gold bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Thai-Japanese switch on anger and affection.",
+        "performance_style": "Street realism; fights then forgiveness in one breath.",
+        "prompt_suffix": "Thai-Japanese switch on anger and affection.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Night-market girlfriend",
+        "Street-food romance",
+        "Tough-soft intimacy",
+        "bold",
+        "playful",
+        "guarded"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Niko/actor_profile.pdf"
+    },
+    {
+      "actor_id": "NovaGFE-001",
+      "stage_name": "Nova",
+      "talent_id": "gfe_nova",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 23,
+      "gender": "female",
+      "ethnicity": "Japanese-American",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Nova",
+      "reference_image_primary": "STUDIO/Cast/GFE/Nova/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Japanese-American woman, 5'5\", slim runner build, silver-dyed bob, sharp hazel eyes, fair skin, angular brows, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap electric blue triangle bikini top and matching electric blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Dry Pacific Northwest delivery; softens on goodnight lines.",
+        "performance_style": "Tech-naturalism; intimacy in LED glow.",
+        "prompt_suffix": "Dry Pacific Northwest delivery; softens on goodnight lines.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Futurist alt girlfriend",
+        "Gamer-room romance",
+        "Late-shift intimacy",
+        "clever",
+        "restless",
+        "devoted"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Nova/actor_profile.pdf"
+    },
+    {
+      "actor_id": "RavenGFE-001",
+      "stage_name": "Raven",
+      "talent_id": "gfe_raven",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 24,
+      "gender": "female",
+      "ethnicity": "Japanese-American",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Raven",
+      "reference_image_primary": "STUDIO/Cast/GFE/Raven/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Japanese-American woman, 5'5\", lean angular build, blue-black hair in wolf cut, pale grey-brown eyes, cool fair skin, sharp cupid's bow, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a regular thin-strap midnight blue triangle bikini top and matching midnight blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Monotone until laughter breaks through.",
+        "performance_style": "Micro-flinch beats; excels in rain and neon.",
+        "prompt_suffix": "Monotone until laughter breaks through.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Indie-goth girlfriend",
+        "Record-store romance",
+        "Rainy-window intimacy",
+        "melancholic",
+        "dry",
+        "fierce"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Raven/actor_profile.pdf"
+    },
+    {
+      "actor_id": "RinGFE-001",
+      "stage_name": "Rin",
+      "talent_id": "gfe_rin",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 25,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Rin",
+      "reference_image_primary": "STUDIO/Cast/GFE/Rin/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 25-year-old Japanese woman, 5'5\", athletic dancer build, platinum-streaked black hair in space buns, sharp brown eyes, fair skin, defined collarbones, Tattoos: Moderate tattoo continuity: fine-line floral sternum piece; half-sleeve botanicals left arm; ankle band both legs. Ink must remain visible in swimwear and slip-dress beats, wearing a regular thin-strap hot pink triangle bikini top and matching hot pink bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Fast Tokyo cadence; slows for whisper beats.",
+        "performance_style": "Physical comedy and intimacy share the same rhythm.",
+        "prompt_suffix": "Fast Tokyo cadence; slows for whisper beats.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Club-scene girlfriend",
+        "High-energy flirt lead",
+        "Music-video romance",
+        "electric",
+        "teasing",
+        "loyal"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Rin/actor_profile.pdf"
+    },
+    {
+      "actor_id": "SageGFE-001",
+      "stage_name": "Sage",
+      "talent_id": "gfe_sage",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 26,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Sage",
+      "reference_image_primary": "STUDIO/Cast/GFE/Sage/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Japanese woman, 5'5\", bookish slim build, straight black hair with blunt glasses-off appeal, thoughtful dark eyes, pale skin, quiet lips, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap forest green triangle bikini top and matching forest green bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Measured cadence; rushes when embarrassed.",
+        "performance_style": "Subtext-heavy; silence after literary references.",
+        "prompt_suffix": "Measured cadence; rushes when embarrassed.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Intellectual girlfriend",
+        "Library-to-bedroom arc",
+        "Quote-heavy romance",
+        "thoughtful",
+        "dry",
+        "suddenly bold"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Sage/actor_profile.pdf"
+    },
+    {
+      "actor_id": "ScarletGFE-001",
+      "stage_name": "Scarlet",
+      "talent_id": "gfe_scarlet",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 28,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Scarlet",
+      "reference_image_primary": "STUDIO/Cast/GFE/Scarlet/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 28-year-old Japanese woman, 5'6\", curvy athletic build, true red-tinted black hair in voluminous waves, dark fox eyes, fair skin, bold lips, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a regular thin-strap scarlet triangle bikini top and matching scarlet bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Confident mezzo; drops to whisper for vulnerability.",
+        "performance_style": "Camera-aware without breaking fourth wall in drama.",
+        "prompt_suffix": "Confident mezzo; drops to whisper for vulnerability.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Mature girlfriend fantasy",
+        "After-hours confessional",
+        "Confidence-forward romance",
+        "bold",
+        "knowing",
+        "generous"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Scarlet/actor_profile.pdf"
+    },
+    {
+      "actor_id": "SoraGFE-001",
+      "stage_name": "Sora",
+      "talent_id": "gfe_sora",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 23,
+      "gender": "female",
+      "ethnicity": "Korean-Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Sora",
+      "reference_image_primary": "STUDIO/Cast/GFE/Sora/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Korean-Japanese woman, 5'5\", slim toned build, ash-brown layered hair, soft monolid eyes, peachy fair skin, gentle jaw, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap soft pink triangle bikini top and matching soft pink bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Bright mid register; breath hitches on honest lines.",
+        "performance_style": "Naturalistic warmth; excels in over-the-shoulder close work.",
+        "prompt_suffix": "Bright mid register; breath hitches on honest lines.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Soft girlfriend fantasy",
+        "Morning-after intimacy lead",
+        "Slice-of-life romance",
+        "gentle",
+        "curious",
+        "flirty"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Sora/actor_profile.pdf"
+    },
+    {
+      "actor_id": "VesperGFE-001",
+      "stage_name": "Vesper",
+      "talent_id": "gfe_vesper",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 26,
+      "gender": "female",
+      "ethnicity": "Japanese-British",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Vesper",
+      "reference_image_primary": "STUDIO/Cast/GFE/Vesper/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Japanese-British woman, 5'6\", lean model build, raven hair in slick low ponytail, grey-green eyes, porcelain-olive skin, sharp cheekbones, Tattoos: Heavy irezumi continuity: floral choker band at throat; bilateral peony-and-wave sleeves shoulder to wrist; large thigh panels both legs. No tattoo reduction without director sign-off, wearing a regular thin-strap deep wine triangle bikini top and matching deep wine bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Low melodic register; British clip when deflecting.",
+        "performance_style": "Stillness with predator-prey eye-line games.",
+        "prompt_suffix": "Low melodic register; British clip when deflecting.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Goth girlfriend fantasy",
+        "Noir romantic interest",
+        "Late-night confessional lead",
+        "nocturnal",
+        "wry",
+        "sensual"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Vesper/actor_profile.pdf"
+    },
+    {
+      "actor_id": "VioletGFE-001",
+      "stage_name": "Violet",
+      "talent_id": "gfe_violet",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 22,
+      "gender": "female",
+      "ethnicity": "Japanese-Brazilian",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Violet",
+      "reference_image_primary": "STUDIO/Cast/GFE/Violet/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 22-year-old Japanese-Brazilian woman, 5'4\", dancer curves, violet-tinted black curls, lilac-brown eyes, caramel skin, wide smile, Tattoos: Moderate tattoo continuity: fine-line floral sternum piece; half-sleeve botanicals left arm; ankle band both legs. Ink must remain visible in swimwear and slip-dress beats, wearing a regular thin-strap violet triangle bikini top and matching violet bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Portuguese pet names; melodic laugh.",
+        "performance_style": "Rhythm in hips and hands; dialogue secondary in love scenes.",
+        "prompt_suffix": "Portuguese pet names; melodic laugh.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Carnival-to-quiet girlfriend",
+        "Dance-then-intimacy arc",
+        "Joyful romance lead",
+        "joyful",
+        "sensual",
+        "grounded"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Violet/actor_profile.pdf"
+    },
+    {
+      "actor_id": "WillowGFE-001",
+      "stage_name": "Willow",
+      "talent_id": "gfe_willow",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 23,
+      "gender": "female",
+      "ethnicity": "Japanese",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Willow",
+      "reference_image_primary": "STUDIO/Cast/GFE/Willow/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Japanese woman, 5'6\", long-limbed yoga build, soft black hair in loose braid, calm brown eyes, warm beige skin, serene brow, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap sage green triangle bikini top and matching sage green bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "ASMR-soft register; long exhales before lines.",
+        "performance_style": "Body as text; stillness is dialogue.",
+        "prompt_suffix": "ASMR-soft register; long exhales before lines.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Wellness girlfriend fantasy",
+        "Morning ritual intimacy",
+        "Breath-led romance",
+        "calm",
+        "sensual",
+        "present"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Willow/actor_profile.pdf"
+    },
+    {
+      "actor_id": "YumeGFE-001",
+      "stage_name": "Yume",
+      "talent_id": "gfe_yume",
+      "synthetic": true,
+      "real_person_likeness": false,
+      "content_rating": "SFW_SUGGESTIVE_CLOTHED",
+      "ai_disclosure_required": true,
+      "ai_disclosure_note": "Synthetic performer \u2014 label in credits/description per Upon Tyne Productions policy.",
+      "age_locked": 21,
+      "gender": "female",
+      "ethnicity": "Japanese-Filipina",
+      "world_region": "east_asia",
+      "roster_group": "gfe_20",
+      "roster_source": "gfe",
+      "roster_path": "STUDIO/Cast/GFE/Yume",
+      "reference_image_primary": "STUDIO/Cast/GFE/Yume/01_casting_shots/casting_turnaround_v1.jpg",
+      "reference_image_status": "plate_locked",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 21-year-old Japanese-Filipina woman, 5'3\", soft curvy build, wavy chestnut hair to shoulders, honey-brown eyes, golden tan skin, full lips, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap coral triangle bikini top and matching coral bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_status": "LOCKED",
+      "voice_spec": {
+        "register": "derived_from_notes",
+        "notes": "Hawaiian-tinged English; melodic laugh.",
+        "performance_style": "Improvisational touch beats; excels in handheld intimacy.",
+        "prompt_suffix": "Hawaiian-tinged English; melodic laugh.",
+        "gender": "female"
+      },
+      "persona_tags": [
+        "Island girlfriend fantasy",
+        "Beach-house romance",
+        "Laugh-first intimacy",
+        "sunny",
+        "mischievous",
+        "affectionate"
+      ],
+      "genre_tags": [
+        "asmr_adjacent",
+        "direct_address",
+        "gfe",
+        "suggestive_clothed"
+      ],
+      "agency_status": "plate_locked",
+      "compliance_flags": [
+        "content_review:(?<!not )\\bnudity\\b"
+      ],
+      "profile_pdf": "STUDIO/Cast/GFE/Yume/actor_profile.pdf"
+    }
+  ]
+}

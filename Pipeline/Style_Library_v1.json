@@ -1,0 +1,124 @@
+{
+  "id": "STUDIO-Style-Library",
+  "version": "1.0",
+  "locked_at": "2026-06-18",
+  "status": "LOCKED",
+  "pairs_with": [
+    "STUDIO/Pipeline/Set_Library_v1.json",
+    "STUDIO/Techniques/STUDIO_Seamless_Continuity_Protocol_v1.1.md"
+  ],
+  "usage": "Prepend style.continuity_lock after set.continuity_lock. Append style.lighting_lock (if any), style.color_guard, style.lens_motion, style.end_guard. One style per scene — never blend.",
+  "global_style_discipline": {
+    "rules": [
+      "Style lock governs grade intent; set lock governs environment geometry and base Kelvin.",
+      "If style Kelvin conflicts with set Kelvin, set wins — adjust style grade only in post.",
+      "Documentary-prestige + Archive is DAVID default — do not swap for fashion styles on host shots.",
+      "End guard mandatory on every generated segment for seamless assembly."
+    ],
+    "default_end_guard": "Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame."
+  },
+  "styles": {
+    "@Style-Documentary-Prestige-001": {
+      "name": "Documentary Prestige",
+      "default_sets": ["@Set-Archive-001"],
+      "reference_anchor": "BBC/National Geographic prestige documentary — trustworthy, textured, restrained camera",
+      "continuity_lock": "STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation.",
+      "lighting_lock": "Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied.",
+      "color_guard": "GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push.",
+      "lens_motion": "Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host.",
+      "end_guard": "Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "voice_suffix_optional": "mid-low resonant unhurried voice, precise diction, documentary gravitas, Attenborough-calm, accessible never stuffy, synthetic host only"
+    },
+    "@Style-Cinematic-001": {
+      "name": "Cinematic",
+      "default_sets": ["@Set-Warehouse-Industrial-001", "@Set-Rooftop-Urban-001", "@Set-Outdoor-Golden-001"],
+      "reference_anchor": "Theatrical 2.39:1 energy in 16:9 — shallow DOF, dramatic side light, anamorphic flare optional",
+      "continuity_lock": "STYLE LOCK @Style-Cinematic-001: cinematic grade — shallow depth of field, dramatic side key, controlled bloom on highlights, filmic S-curve, subtle anamorphic horizontal flare on practicals only, no flat YouTube lighting.",
+      "lighting_lock": "Strong key from camera left or right at 45°, fill ratio 1:4 max, rim optional single edge — lock side every segment.",
+      "color_guard": "GRADE LOCK Cinematic: teal pushed only in shadows -5% max OR amber highlights +5% — never both teal and orange at full saturation (no blockbuster split unless locked shot). Forbid magenta skin, forbid green yellow cast, forbid flat grey mids.",
+      "lens_motion": "Slow dolly or crane; rack focus motivated; no snap zoom.",
+      "end_guard": "Finish on gesture peak or rack-focus completion, never hold dead stillness or dead frame."
+    },
+    "@Style-Soft-Warm-001": {
+      "name": "Soft Warm",
+      "default_sets": ["@Set-Modern-Apartment-001", "@Set-Outdoor-Golden-001"],
+      "reference_anchor": "Lifestyle editorial — golden softness, approachable intimacy, gentle wrap",
+      "continuity_lock": "STYLE LOCK @Style-Soft-Warm-001: soft-warm grade — diffused wrap light, creamy highlights, gentle contrast, approachable intimacy, lifestyle editorial not clinical, no harsh specular, no cold blue fill.",
+      "lighting_lock": "Soft wrap key 4500–5200K per set lock — diffusion mandatory, shadow transition gradual, no hard nose shadow.",
+      "color_guard": "GRADE LOCK Soft-Warm: palette cream #FAF6F0, blush skin +5% warmth, shadows latte #C9B8A8 — forbid magenta blush, forbid purple shadow, forbid cool 7000K fill, forbid oversaturated orange.",
+      "lens_motion": "Gentle float or static medium-close; micro-push only.",
+      "end_guard": "Finish on soft gesture peak (breath, smile, hand settle), never hold dead stillness or dead frame."
+    },
+    "@Style-High-Key-Fashion-001": {
+      "name": "High-Key Fashion",
+      "default_sets": ["@Set-Studio-Interior-001", "@Set-Seamless-Neutral-001"],
+      "reference_anchor": "Runway/editorial test — bright, crisp, fabric-forward, minimal shadow",
+      "continuity_lock": "STYLE LOCK @Style-High-Key-Fashion-001: high-key fashion grade — bright even exposure, crisp fabric texture, clean silhouette, editorial vogue test energy, minimal shadow density, no muddy mids, no documentary grain.",
+      "lighting_lock": "High-key 5600K even field — shadow density max 15% IRE on face, fabric wrinkles visible, no single hot spot.",
+      "color_guard": "GRADE LOCK High-Key-Fashion: whites clean #F5F5F3, blacks lifted #181818 minimum, skin accurate not bronzed — forbid yellow green skin, forbid magenta fabric cast, forbid grey haze, forbid warm orange fog.",
+      "lens_motion": "Slow runway walk profile or hero push-in; tripod stable.",
+      "end_guard": "Finish on stride peak or fabric settle, never hold dead stillness or dead frame."
+    },
+    "@Style-Cool-Clinical-001": {
+      "name": "Cool Clinical",
+      "default_sets": ["@Set-Seamless-Neutral-001", "@Set-Studio-Interior-001"],
+      "reference_anchor": "Product/science neutral — accurate color, low saturation, trust through precision",
+      "continuity_lock": "STYLE LOCK @Style-Cool-Clinical-001: cool-clinical grade — neutral white balance, low saturation, accurate color reproduction, minimal stylistic grading, science and product trust, no warm cozy cast, no film grain.",
+      "lighting_lock": "Neutral 5600–6500K even field — shadow definition for shape only, no gel, no warm practicals in frame.",
+      "color_guard": "GRADE LOCK Cool-Clinical: grey axis neutral, skin neither pink nor yellow pushed, saturation -15% global — forbid magenta tint, forbid orange warmth, forbid teal skin on shadows, forbid vintage fade.",
+      "lens_motion": "Locked-off or slow linear track; no handheld.",
+      "end_guard": "Finish on presentational gesture peak, never hold dead stillness or dead frame."
+    },
+    "@Style-Noir-Dramatic-001": {
+      "name": "Noir Dramatic",
+      "default_sets": ["@Set-Warehouse-Industrial-001", "@Set-Archive-001"],
+      "reference_anchor": "Low-key noir — deep shadow, single source, venetian blind optional",
+      "continuity_lock": "STYLE LOCK @Style-Noir-Dramatic-001: noir dramatic grade — low-key exposure, deep shadows with detail, single-source motivation, high contrast ratio 1:8, wet reflection optional, no fill above 10%, no flat safety lighting.",
+      "lighting_lock": "Single hard key 3200–4000K — venetian slash or lamp pool; fill forbidden above 10% except eye glint.",
+      "color_guard": "GRADE LOCK Noir: true blacks #0A0A0A with detail, highlights warm white not blue, skin shadow side cool-neutral — forbid magenta fog, forbid purple fill, forbid lifted milky blacks, forbid comedy brightening.",
+      "lens_motion": "Slow creep push or dutch avoided; static tension preferred.",
+      "end_guard": "Finish on tension peak (lean, glance, hand on object), never hold dead stillness or dead frame."
+    },
+    "@Style-Naturalistic-Daylight-001": {
+      "name": "Naturalistic Daylight",
+      "default_sets": ["@Set-Outdoor-Overcast-001", "@Set-Modern-Apartment-001", "@Set-Outdoor-Golden-001"],
+      "reference_anchor": "Observational realism — available light only, no obvious artificial sources",
+      "continuity_lock": "STYLE LOCK @Style-Naturalistic-Daylight-001: naturalistic daylight grade — available-light realism, no obvious artificial sources, subtle contrast, documentary observational camera, no beauty retouch, no stylized color grade.",
+      "lighting_lock": "Available light only per set Kelvin lock — artificial sources must be motivated and match set; no unmotivated reflector pop.",
+      "color_guard": "GRADE LOCK Naturalistic: white balance per set lock exactly, saturation natural not boosted — forbid magenta skin in shade, forbid orange global, forbid teal grass neon, forbid HDR sky.",
+      "lens_motion": "Handheld gentle observational or static wide; motivated reframes only.",
+      "end_guard": "Finish on natural gesture peak, never hold dead stillness or dead frame."
+    },
+    "@Style-Intimate-Close-001": {
+      "name": "Intimate Close (PG-13 Editorial)",
+      "default_sets": ["@Set-Modern-Apartment-001", "@Set-Studio-Interior-001"],
+      "reference_anchor": "Close editorial intimacy — shallow DOF, soft skin light, restrained sensuality",
+      "continuity_lock": "STYLE LOCK @Style-Intimate-Close-001: intimate close grade — shallow DOF f/1.8 feel, soft skin light, restrained sensuality PG-13 editorial, no explicit framing, no clinical flatness.",
+      "lighting_lock": "Large soft source camera-front 4800–5200K — wrap cheekbones, catchlight single, shadow under jaw soft.",
+      "color_guard": "GRADE LOCK Intimate-Close: skin luminous not plastic, lips natural not oversaturated, shadows rose-grey not purple — forbid magenta blush drift, forbid orange tan push, forbid cool blue fill on warm set.",
+      "lens_motion": "Slow push-in to medium-close; hold eye-line.",
+      "end_guard": "Finish on breath or micro-expression peak, never hold dead stillness or dead frame."
+    }
+  },
+  "recommended_pairings": {
+    "DAVID_host": {
+      "set": "@Set-Archive-001",
+      "style": "@Style-Documentary-Prestige-001",
+      "identity_lock": "DAVID/productions/host_identity_v1/david_identity_lock.json",
+      "avatar_ref": "@David-001"
+    },
+    "fashion_editorial_hero": {
+      "set": "@Set-Studio-Interior-001",
+      "style": "@Style-High-Key-Fashion-001"
+    },
+    "lifestyle_apartment": {
+      "set": "@Set-Modern-Apartment-001",
+      "style": "@Style-Soft-Warm-001"
+    },
+    "neutral_product": {
+      "set": "@Set-Seamless-Neutral-001",
+      "style": "@Style-Cool-Clinical-001"
+    }
+  },
+  "compose_template": "{set.continuity_lock} {style.continuity_lock} {action_prompt} {set.lighting_lock} {style.lighting_lock} {set.color_guard} {style.color_guard} {style.lens_motion} {style.end_guard}"
+}
