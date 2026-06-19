@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-19T00:00:00.000000+00:00",
+  "issue": 175,
+  "slate": "molecular_mini_slate",
+  "lane": "C3",
+  "host": "Julian-001",
+  "brand": "Observable",
+  "music_bed_id": "BED-CLN-001",
+  "principle_set": "jantzen_molecular_cellular",
+  "depends_on": [
+    "#160 molecular concept slate",
+    "#162 R2 molecular reference harvest",
+    "#172 plate lock"
+  ],
+  "status": "QUEUED_FOR_OBSERVATORY",
+  "gate": "GREEN",
+  "episodes": [
+    {
+      "slug": "science_immune_checkpoint_v1",
+      "plate_slug": "pd1-pdl1-complex",
+      "plate_id": "@Sci-ImmuneCheckpoint-001",
+      "plate_locked": true,
+      "visualization_ref": "Science/reference_plates/molecular/images/pd1-pdl1-complex_4ZQK_rcsb_assembly.jpeg",
+      "previous_ref": "Science/reference_plates/molecular/images/pd1-pdl1-complex_4ZQK_rcsb_assembly.jpeg",
+      "queued": true,
+      "intake_exit": null,
+      "script_path": "DAVID/scripts/longform_scripts/science_immune_checkpoint_v1_script.json"
+    },
+    {
+      "slug": "science_dna_replication_v1",
+      "plate_slug": "dna-double-helix",
+      "plate_id": "@Sci-DNA-001",
+      "plate_locked": true,
+      "visualization_ref": "Science/reference_plates/molecular/images/dna-double-helix_1BNA_rcsb_assembly.jpeg",
+      "previous_ref": "Science/reference_plates/molecular/images/dna-double-helix_1BNA_rcsb_assembly.jpeg",
+      "queued": true,
+      "intake_exit": null,
+      "script_path": "DAVID/scripts/longform_scripts/science_dna_replication_v1_script.json"
+    },
+    {
+      "slug": "science_protein_folding_v1",
+      "plate_slug": "protein-hemoglobin",
+      "plate_id": "@Sci-Protein-001",
+      "plate_locked": true,
+      "visualization_ref": "Science/reference_plates/molecular/images/protein-hemoglobin_4HHB_rcsb_assembly.jpeg",
+      "previous_ref": "Science/reference_plates/molecular/images/protein-hemoglobin_4HHB_rcsb_assembly.jpeg",
+      "queued": true,
+      "intake_exit": null,
+      "script_path": "DAVID/scripts/longform_scripts/science_protein_folding_v1_script.json"
+    }
+  ],
+  "notes": "Render-ready @2-swap episodes for OBSERVATORY. visualization_ref points to locked RCSB reference images (post-#172). intake_exit null = awaiting OBSERVATORY intake (script generation) — not yet run. Use @2 swap: prompt fragment 'see attached render'; never over-describe @2. Dynamic-concept overlay plates (@Sci-ImmuneCheckpoint-001/@Sci-DNAReplication-001/@Sci-ProteinFolding-001, slate #160) remain SPEC_ONLY and may replace the structure plates as visualization_ref once rendered."
+}

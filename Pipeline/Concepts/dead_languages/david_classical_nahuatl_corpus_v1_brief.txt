@@ -1,0 +1,14 @@
+Project: david_classical_nahuatl_corpus_v1
+Channel: DAVID — YouTube primary (social, streaming); YouTube Shorts + long-form playlist
+Format: documentary-host (69s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 — 21-year-old synthetic documentary host. Casting Bible synthetic: true, real_person_likeness: false.
+Content: Educational episode on Classical Nahuatl — colonial alphabetic corpus, friar grammars, living descendants; attested orthography vs reconstructed detail.
+Corpus hooks: Florentine Codex (Sahagún with Nahua authors), Olmos/Molina grammars and dictionary, Nahua-authored legal documents, "in xochitl in cuicatl" demonstration.
+On-screen: ATTESTED ORTHOGRAPHY / RECONSTRUCTED DETAIL labels on demonstration beat.
+AI disclosure planned in provenance card and YouTube upload metadata (synthetic performer labeled).
+Not a client deliverable. Upon Tyne owned DAVID channel only — no third-party brand integration.
+Synthetic fictional host David-001 only — no celebrity mimicry. adult cast only (21+).
+Cultural-respect note: Nahuatl is a living Indigenous language with over a million speakers; episode treats speakers and heritage with respect, no caricature, no "extinct culture" framing — descendants explicitly acknowledged.
+Music bed: BED-DOC-001 — Archive Room — Low Strings (documentary-prestige); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — internal score library; license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client

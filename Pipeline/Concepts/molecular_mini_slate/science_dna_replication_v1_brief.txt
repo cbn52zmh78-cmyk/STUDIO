@@ -1,0 +1,10 @@
+OBSERVABLE — HOW DNA COPIES ITSELF (science_dna_replication_v1)
+
+Host: Julian-001. Target ~54s. Music: BED-CLN-001 (clinical). Gate: GREEN.
+Subject: Semi-discontinuous DNA replication (DNA-REP-001). Plate: @Sci-DNA-001 (dna-double-helix, PDB 1BNA).
+Principle routing: jantzen_molecular_cellular.
+
+One-line: The helix unzips; each strand templates a copy — leading continuous, lagging in Okazaki fragments.
+
+SoT discipline: B-DNA geometry from PDB 1BNA; semi-conservative replication proven by Meselson-Stahl (1958). @2 payoff is ILLUSTRATIVE / NOT A SIMULATION / NOT TO SCALE (time-compressed).
+Jantzen guardrails: right-handed antiparallel; lagging strand discontinuous (no symmetric "unzip" myth); stochastic + ATP-driven; no anthropomorphic polymerase; crowded nucleoplasm.

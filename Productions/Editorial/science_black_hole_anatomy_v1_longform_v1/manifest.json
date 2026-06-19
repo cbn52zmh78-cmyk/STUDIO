@@ -1,7 +1,7 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T05:25:58.751532+00:00",
+  "completed_at": "2026-06-19T05:36:51.913469+00:00",
   "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\scripts\\longform_scripts\\science_black_hole_anatomy_v1_480p_script.json",
   "concat_only": false,
   "seamless": true,
@@ -10,13 +10,13 @@
   "imagine_pack": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1\\science_black_hole_anatomy_v1_imagine_pack.json",
   "output": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1\\output\\studio_science_black_hole_anatomy_v1_seamless_v1.mp4",
   "extend_performance": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1\\shots\\host_performance_extend.mp4",
-  "extend_steps": 4,
+  "extend_steps": 1,
   "continuity_mode": "frame_chain",
   "comparison": null,
   "qa": {
     "slug": "science_black_hole_anatomy_v1",
-    "qa_at": "2026-06-19T05:25:58.750334+00:00",
-    "pass": false,
+    "qa_at": "2026-06-19T05:36:51.912814+00:00",
+    "pass": true,
     "passes": [
       "shot count OK (5 >= 5)",
       "all shots carry synthetic talent guard (incl. auto-patched)",
@@ -35,11 +35,10 @@
       "audio pinned to exact shot duration (no stretch/offset)",
       "flat loudness across shots (spread 0.04 LU)",
       "zero magenta (max score 0.000 <= 0.42)",
+      "tight A/V sync per shot (duration pinned)",
       "zero hue drift across segments (max magenta 0.000)"
     ],
-    "issues": [
-      "A/V sync drift: ['04_visualization_payoff:1.000s']"
-    ],
+    "issues": [],
     "shot_count": 5,
     "segment_count": 2,
     "seamless": true,

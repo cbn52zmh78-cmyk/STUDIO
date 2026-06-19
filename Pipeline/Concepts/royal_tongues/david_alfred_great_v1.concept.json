@@ -1,0 +1,84 @@
+{
+  "slug": "david_alfred_great_v1",
+  "title": "DAVID — Alfred the Great: A King in His Own English",
+  "format_id": "historical-figure-documentary",
+  "actor_id": "David-001",
+  "target_seconds": 54,
+  "tags": ["history", "alfred", "wessex", "old-english", "royal-tongues"],
+  "logline": "Biography of Alfred the Great with his own attested Old English from the Pastoral Care preface; sources on file.",
+  "brief": "royal_tongues/david_alfred_great_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Royal Tongues — dead languages and the voices of history",
+    "cta": "Follow the Archive — one attestation at a time. DAVID."
+  },
+  "historical_figure": {
+    "figure_id": "ALF-001",
+    "name": "Alfred the Great",
+    "birth_year": "c. 849",
+    "death_year": 899,
+    "era": "9th Century Anglo-Saxon Wessex",
+    "period_language": "old-english",
+    "default_attestation": "ATTESTED",
+    "sources": [
+      {
+        "citation": "Alfred, Preface to the Old English translation of Gregory's Pastoral Care (Hierdeboc, c. 890) — Alfred's own words on learning and translation",
+        "type": "primary",
+        "url": "https://sourcebooks.fordham.edu/source/asbook.asp",
+        "notes": "Royal prose attributed to Alfred himself; the opening greeting is the attested period line"
+      },
+      {
+        "citation": "Asser, Vita Ælfredi regis Angul Saxonum (893) — contemporary Latin biography of Alfred",
+        "type": "primary",
+        "notes": "Eyewitness Welsh bishop at Alfred's court"
+      },
+      {
+        "citation": "Anglo-Saxon Chronicle (compiled under Alfred, late 9th c.) — reign, Viking wars, Treaty of Wedmore",
+        "type": "primary",
+        "notes": "West Saxon vernacular annals"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Tonight, Alfred the Great — the only English king ever called Great, and one of the very few medieval rulers whose own words we can still read.",
+      "on_screen": "DAVID · The Archive · Royal Tongues"
+    },
+    {
+      "id": "02_who_they_were",
+      "speech_text": "Born around eight forty-nine, king of Wessex, he held off the Viking Great Army, struck a treaty that split England, and then did something stranger — he sat down to translate Latin books into English himself."
+    },
+    {
+      "id": "03_their_world",
+      "speech_text": "His court ran on two tongues: Latin for the church and scholarship, and Old English — West Saxon — for law, chronicle, and the books he wanted every freeborn youth to read."
+    },
+    {
+      "id": "04_period_line",
+      "speech_text": "Ælfred kyning hateð gretan Wærferð biscep his wordum luflice ond freondlice — Alfred the king sends his greetings to Bishop Wærferth, lovingly and as a friend — the king's own attested Old English.",
+      "attestation": "ATTESTED",
+      "on_screen": "ATTESTED · Old English · Pastoral Care preface",
+      "on_screen_labels": ["ATTESTED", "PERIOD LANGUAGE"],
+      "speech_ipa": "/ˈælvred ˈkynɪŋ ˈhɑːteð ˈɡreːtɑn ˈwæːrferð ˈbiʃep/"
+    },
+    {
+      "id": "05_legacy",
+      "speech_text": "He died in eight ninety-nine. Most kings reach us through others' chronicles; Alfred reaches us in the first person — proof that a crown could also hold a pen."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "FIGURE: Alfred the Great (ALF-001) · d. 899",
+      "PERIOD LINE: Attested Old English — Alfred's own preface to the Pastoral Care",
+      "METHOD: Royal prose (Alfred) + Asser's Life + Anglo-Saxon Chronicle"
+    ]
+  }
+}

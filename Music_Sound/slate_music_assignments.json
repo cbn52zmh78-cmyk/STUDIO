@@ -90,6 +90,36 @@
       "license": "royalty-free",
       "row_2": "PASS",
       "gate_verdict": "YELLOW"
+    },
+    {
+      "group": "episode",
+      "slug": "science_immune_checkpoint_v1",
+      "bed_id": "BED-CLN-001",
+      "lane": "clinical-precision",
+      "track": "Clean Room \u2014 Clinical Pulse",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "GREEN"
+    },
+    {
+      "group": "episode",
+      "slug": "science_dna_replication_v1",
+      "bed_id": "BED-CLN-001",
+      "lane": "clinical-precision",
+      "track": "Clean Room \u2014 Clinical Pulse",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "GREEN"
+    },
+    {
+      "group": "episode",
+      "slug": "science_protein_folding_v1",
+      "bed_id": "BED-CLN-001",
+      "lane": "clinical-precision",
+      "track": "Clean Room \u2014 Clinical Pulse",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "GREEN"
     }
   ]
 }

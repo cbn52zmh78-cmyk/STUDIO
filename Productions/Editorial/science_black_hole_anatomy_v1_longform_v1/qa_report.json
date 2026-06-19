@@ -1,7 +1,7 @@
 {
   "slug": "science_black_hole_anatomy_v1",
-  "qa_at": "2026-06-19T05:25:58.750334+00:00",
-  "pass": false,
+  "qa_at": "2026-06-19T05:36:51.912814+00:00",
+  "pass": true,
   "passes": [
     "shot count OK (5 >= 5)",
     "all shots carry synthetic talent guard (incl. auto-patched)",
@@ -20,11 +20,10 @@
     "audio pinned to exact shot duration (no stretch/offset)",
     "flat loudness across shots (spread 0.04 LU)",
     "zero magenta (max score 0.000 <= 0.42)",
+    "tight A/V sync per shot (duration pinned)",
     "zero hue drift across segments (max magenta 0.000)"
   ],
-  "issues": [
-    "A/V sync drift: ['04_visualization_payoff:1.000s']"
-  ],
+  "issues": [],
   "shot_count": 5,
   "segment_count": 2,
   "seamless": true,

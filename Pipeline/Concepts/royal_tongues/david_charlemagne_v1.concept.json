@@ -1,0 +1,84 @@
+{
+  "slug": "david_charlemagne_v1",
+  "title": "DAVID — Charlemagne: The Emperor Who Named the Months",
+  "format_id": "historical-figure-documentary",
+  "actor_id": "David-001",
+  "target_seconds": 54,
+  "tags": ["history", "charlemagne", "carolingian", "frankish", "royal-tongues"],
+  "logline": "Biography of Charlemagne with the attested Frankish month-names Einhard records he assigned; Carolingian Latin context; sources on file.",
+  "brief": "royal_tongues/david_charlemagne_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Royal Tongues — dead languages and the voices of history",
+    "cta": "Follow the Archive — one attestation at a time. DAVID."
+  },
+  "historical_figure": {
+    "figure_id": "CHL-001",
+    "name": "Charlemagne",
+    "birth_year": "c. 748",
+    "death_year": 814,
+    "era": "Carolingian Frankish Empire",
+    "period_language": "frankish",
+    "default_attestation": "ATTESTED",
+    "sources": [
+      {
+        "citation": "Einhard, Vita Karoli Magni (c. 829) — Charlemagne's native Frankish speech, his Latin learning, and the Frankish month and wind names he assigned",
+        "type": "primary",
+        "url": "https://sourcebooks.fordham.edu/basis/einhard.asp",
+        "notes": "Eyewitness courtier biography; ch. 25 (learning) and ch. 29 (Frankish month names) are the direct attestations"
+      },
+      {
+        "citation": "Notker the Stammerer, Gesta Karoli Magni (c. 887) — anecdotal Carolingian court tradition",
+        "type": "primary",
+        "notes": "Later monastic compilation; legendary in tone, used only for court-culture context"
+      },
+      {
+        "citation": "Royal Frankish Annals (Annales regni Francorum) — reign chronology and campaigns",
+        "type": "primary",
+        "notes": "Official Carolingian annalistic record in Latin"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Tonight, Charlemagne — king of the Franks, first emperor in the West since Rome, and a ruler who spoke one language and rebuilt another.",
+      "on_screen": "DAVID · The Archive · Royal Tongues"
+    },
+    {
+      "id": "02_who_they_were",
+      "speech_text": "Born around seven forty-eight, he united most of western Europe by the sword and the pen, and on Christmas Day in the year eight hundred was crowned emperor in Rome."
+    },
+    {
+      "id": "03_their_world",
+      "speech_text": "His mother tongue was Frankish, a Germanic speech; the language of his law, his church, and his scholars was Latin — which he drove a whole renaissance to restore. Einhard, who knew him, wrote it all down."
+    },
+    {
+      "id": "04_period_line",
+      "speech_text": "Wintarmanoth, Hornung, Lentzinmanoth — winter-month, February, spring-month — the Frankish names Einhard says Charlemagne himself gave the calendar, in his own Germanic tongue.",
+      "attestation": "ATTESTED",
+      "on_screen": "ATTESTED · Frankish · Einhard, Vita Karoli ch. 29",
+      "on_screen_labels": ["ATTESTED", "PERIOD LANGUAGE"],
+      "speech_ipa": "/ˈwintarˌmaːnoθ ˈhornuŋ ˈlentsinˌmaːnoθ/"
+    },
+    {
+      "id": "05_legacy",
+      "speech_text": "He died at Aachen in eight fourteen. What survives is not a recording, but a courtier's testimony — the emperor who could not quite learn to write, yet made the West write again."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "FIGURE: Charlemagne (CHL-001) · d. 814",
+      "PERIOD LINE: Attested Frankish month-names recorded by Einhard — Germanic, not Latin",
+      "METHOD: Eyewitness biography (Einhard) + Carolingian annals and court tradition"
+    ]
+  }
+}

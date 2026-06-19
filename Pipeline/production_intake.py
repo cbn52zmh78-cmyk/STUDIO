@@ -48,6 +48,11 @@ PIPELINE_DIR = Path(__file__).resolve().parent           # .../STUDIO/Pipeline
 STUDIO_DIR = PIPELINE_DIR.parent                         # .../STUDIO
 ROOT = STUDIO_DIR.parent                                 # .../Grok Projects
 
+if str(PIPELINE_DIR) not in sys.path:
+    sys.path.insert(0, str(PIPELINE_DIR))
+
+from shot_duration import apply_duration_clamp_to_shots, should_clamp_shot_durations  # noqa: E402
+
 SET_LIBRARY = PIPELINE_DIR / "Set_Library_v1.json"               # #99
 STYLE_LIBRARY = PIPELINE_DIR / "Style_Library_v1.json"           # #99
 FORMAT_LIBRARY = PIPELINE_DIR / "Production_Templates" / "Production_Templates_v1.json"  # #98
@@ -819,7 +824,7 @@ def _build_config(
     seamless = dict(
         libs["formats"]["compose_contract"].get("seamless_defaults", {})
     )
-    if format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT):
+    if format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT, SCIENCE_EXPLAINER_FORMAT):
         seamless.update(
             {
                 "lamp_lock": True,
@@ -984,15 +989,18 @@ def build_longform_script(
     historical_figure = _parse_historical_figure(concept, format_id)
     science_subject = _parse_science_subject(concept, format_id)
 
+    config = _build_config(
+        concept, fmt, format_id, set_obj, actor, voice_suffix, libs,
+        science_subject=science_subject or None,
+    )
     shots = _build_shots(
         concept, fmt, set_obj, style_obj, identity_lock, voice_suffix,
         historical_figure=historical_figure or None,
         science_subject=science_subject or None,
     )
-    config = _build_config(
-        concept, fmt, format_id, set_obj, actor, voice_suffix, libs,
-        science_subject=science_subject or None,
-    )
+    duration_clamp_meta: dict[str, Any] | None = None
+    if should_clamp_shot_durations(config.get("seamless")):
+        shots, duration_clamp_meta = apply_duration_clamp_to_shots(shots)
 
     target = concept.get("target_seconds")
     if target is None:
@@ -1048,6 +1056,12 @@ def build_longform_script(
             "era": historical_figure["era"],
             "period_language": historical_figure.get("period_language"),
             "source_count": len(historical_figure["sources"]),
+        }
+    if duration_clamp_meta:
+        script["intake"]["duration_clamp"] = {
+            "applied": True,
+            "policy": "seamless_7_9",
+            **duration_clamp_meta,
         }
     if science_subject:
         script["intake"]["science_subject"] = science_subject

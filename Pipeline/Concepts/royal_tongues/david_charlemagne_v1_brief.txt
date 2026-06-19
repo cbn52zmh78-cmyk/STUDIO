@@ -1,0 +1,17 @@
+Project: david_charlemagne_v1
+Format: historical-figure-documentary (54s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host (identity lock)
+Historical figure: Charlemagne (CHL-001)
+death_year: 814
+Era: Carolingian Frankish Empire
+Content: Educational biography — documentary commentary on deceased historical figure. No visual impersonation of Charlemagne; host delivers analysis and an attested Frankish period-language line.
+Period language: Frankish (Germanic) — ATTESTED Frankish month-names recorded by Einhard; Carolingian Latin context.
+Reconstruction disclosure: Any visual reference and the period-language delivery are scholarly reconstruction from chronicles and the Carolingian corpus — not a photographic likeness of Charlemagne; pronunciation of Old Frankish is a scholarly approximation.
+Sources: Einhard Vita Karoli Magni (ch. 25, ch. 29); Notker Gesta Karoli Magni; Royal Frankish Annals.
+Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature; conquests treated factually, not glorified.
+AI disclosure: synthetic host in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+Cross-link: bridges to DAVID Dead Languages — Latin (Carolingian Latin restoration).
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

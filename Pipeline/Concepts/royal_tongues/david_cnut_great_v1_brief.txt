@@ -1,0 +1,17 @@
+Project: david_cnut_great_v1
+Format: historical-figure-documentary (54s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host (identity lock)
+Historical figure: Cnut the Great (CNU-001)
+death_year: 1035
+Era: 11th Century North Sea Empire
+Content: Educational biography — documentary commentary on deceased historical figure. No visual impersonation of Cnut; host delivers analysis and an attested Old Norse skaldic period-language line.
+Period language: Old Norse — ATTESTED skaldic court poetry composed for Cnut (period register, not his own words).
+Reconstruction disclosure: Any visual reference is scholarly reconstruction from chronicles and sagas — not a photographic likeness of Cnut; the skaldic text is attested but its spoken pronunciation is a scholarly reconstruction.
+Sources: Óttarr svarti Knútsdrápa (skaldic corpus); Anglo-Saxon Chronicle; Encomium Emmae Reginae.
+Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature; conquest treated factually, not glorified.
+AI disclosure: synthetic host in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+Cross-link: bridges to DAVID Dead Languages — Old Norse (runes attested, sagas reconstructed).
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

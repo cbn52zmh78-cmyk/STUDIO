@@ -1,0 +1,14 @@
+Project: david_sanskrit_corpus_v1
+Channel: DAVID — YouTube primary (social, streaming); YouTube Shorts + long-form playlist
+Format: documentary-host (69s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 — 21-year-old synthetic documentary host. Casting Bible synthetic: true, real_person_likeness: false.
+Content: Educational episode on Sanskrit continuity — oral recitation tradition, Pāṇini's grammar, Vedic pitch accent; attested text vs reconstructed accent.
+Corpus hooks: Pāṇini (Aṣṭādhyāyī), the Prātiśākhya phonetic manuals, Rigveda 1.1.1 opening line demonstration, living recitation lineages.
+On-screen: ATTESTED TEXT / RECONSTRUCTED ACCENT labels on demonstration beat.
+AI disclosure planned in provenance card and YouTube upload metadata (synthetic performer labeled).
+Not a client deliverable. Upon Tyne owned DAVID channel only — no third-party brand integration.
+Synthetic fictional host David-001 only — no celebrity mimicry. adult cast only (21+).
+Cultural-respect note: Sanskrit recitation is a living sacred tradition for many communities; episode is scholarly and respectful, no mockery or caricature.
+Music bed: BED-DOC-001 — Archive Room — Low Strings (documentary-prestige); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — internal score library; license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client

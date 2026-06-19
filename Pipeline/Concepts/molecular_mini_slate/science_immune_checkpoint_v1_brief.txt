@@ -1,0 +1,11 @@
+OBSERVABLE — THE IMMUNE CHECKPOINT (science_immune_checkpoint_v1)
+
+Host: Julian-001. Target ~54s. Music: BED-CLN-001 (clinical). Gate: GREEN.
+Subject: PD-1/PD-L1 immune checkpoint (IMM-CHK-001). Plate: @Sci-ImmuneCheckpoint-001 (pd1-pdl1-complex, PDB 4ZQK).
+Principle routing: jantzen_molecular_cellular (NOT astrophysics fidelity).
+
+One-line: The molecular brake healthy cells use and tumors exploit — and the contact checkpoint-blockade drugs break.
+
+SoT discipline: PDB 4ZQK is a structural model, not a micrograph. The @2 payoff is ILLUSTRATIVE / NOT A SIMULATION / NOT TO SCALE.
+Jantzen guardrails: reversible probabilistic contact; no agency or "hunting"; membrane crowding shown; no faces; no lock-and-key gate.
+Honesty: no medical advice; checkpoint blockade described as established therapy (2018 Nobel), not a treatment recommendation.

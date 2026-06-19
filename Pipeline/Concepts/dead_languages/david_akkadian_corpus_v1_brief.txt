@@ -1,0 +1,14 @@
+Project: david_akkadian_corpus_v1
+Channel: DAVID — YouTube primary (social, streaming); YouTube Shorts + long-form playlist
+Format: documentary-host (69s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 — 21-year-old synthetic documentary host. Casting Bible synthetic: true, real_person_likeness: false.
+Content: Educational episode on Akkadian — Babylonian/Assyrian cuneiform corpus, decipherment, Semitic sound system; attested syllabic text vs reconstructed prosody.
+Corpus hooks: Epic of Gilgamesh, Sumerian-Akkadian bilingual lexical lists, 19th-century cuneiform decipherment, Gilgamesh incipit demonstration.
+On-screen: ATTESTED TEXT / RECONSTRUCTED PROSODY labels on demonstration beat.
+AI disclosure planned in provenance card and YouTube upload metadata (synthetic performer labeled).
+Not a client deliverable. Upon Tyne owned DAVID channel only — no third-party brand integration.
+Synthetic fictional host David-001 only — no celebrity mimicry. adult cast only (21+).
+Pairs with david_sumerian_corpus_v1 (cuneiform deep-time strand) — bilingual lists bridge the two episodes.
+Music bed: BED-DOC-001 — Archive Room — Low Strings (documentary-prestige); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — internal score library; license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client

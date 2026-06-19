@@ -1,0 +1,109 @@
+{
+  "slug": "science_protein_folding_v1",
+  "title": "Observable — How a Protein Finds Its Shape",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "tags": [
+    "molecular-biophysics",
+    "protein-folding",
+    "folding-funnel",
+    "anfinsen",
+    "science",
+    "observable"
+  ],
+  "logline": "A floppy chain collapses into one precise shape in milliseconds — not by trying every option, but by sliding down an energy funnel. Anfinsen's rule; folded geometry from PDB 4HHB.",
+  "brief": "molecular_mini_slate/science_protein_folding_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": [
+      "social",
+      "streaming"
+    ],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-CLN-001"
+  },
+  "brand": {
+    "title": "Observable",
+    "subtitle": "Upon Tyne Science — evidence before wonder",
+    "cta": "Follow Observable — one measurement at a time."
+  },
+  "science_subject": {
+    "subject_id": "PRO-FLD-001",
+    "domain": "Molecular Biophysics — Protein Folding",
+    "phenomenon": "Folding down an energy funnel",
+    "key_measurement": "Anfinsen (1973): amino-acid sequence determines native structure; folded geometry resolved by crystallography (hemoglobin, PDB 4HHB, 1.74 Å); folding-funnel ensemble (Dill & Chan 1997) resolves Levinthal's paradox",
+    "institutions": [
+      "RCSB Protein Data Bank",
+      "EBI PDBe"
+    ],
+    "principle_set": "jantzen_molecular_cellular",
+    "visualization_prompt": "Scientific molecular visualization, protein folding — an extended unfolded polypeptide collapsing through an ensemble of transient intermediates into a compact native fold, alongside a GroEL/GroES chaperonin barrel assisting, a faint folding-funnel energy landscape clearly marked as schematic, crowded aqueous cytoplasm, neutral dark background, accurate relative scale, no anthropomorphic faces, multiple parallel folding routes not one path, reversible thermodynamic process, Jantzen molecular-cellular fidelity, 16:9, ILLUSTRATIVE NOT TO SCALE label lower corner",
+    "sources": [
+      {
+        "citation": "Fermi G, Perutz MF, Shaanan B, Fourme R. The crystal structure of human deoxyhaemoglobin at 1.74 Å resolution. J Mol Biol. 1984;175(2):159-174 (PDB 4HHB)",
+        "url": "https://www.rcsb.org/structure/4HHB",
+        "type": "primary",
+        "notes": "Folded native protein geometry — CC0 coordinates"
+      },
+      {
+        "citation": "Anfinsen CB. Principles that govern the folding of protein chains. Science. 1973;181(4096):223-230",
+        "url": "https://doi.org/10.1126/science.181.4096.223",
+        "type": "primary",
+        "notes": "Thermodynamic hypothesis — sequence encodes native fold"
+      },
+      {
+        "citation": "Dill KA, Chan HS. From Levinthal to pathways to funnels. Nat Struct Biol. 1997;4(1):10-19",
+        "url": "https://doi.org/10.1038/nsb0197-10",
+        "type": "secondary",
+        "notes": "Folding-funnel ensemble framework"
+      }
+    ],
+    "visualization_ref": "Science/reference_plates/molecular/images/protein-hemoglobin_4HHB_rcsb_assembly.jpeg",
+    "plate_id": "@Sci-Protein-001",
+    "plate_slug": "protein-hemoglobin"
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "A protein starts life as a floppy chain. Within milliseconds it folds into one exact three-dimensional shape — out of more possibilities than there are atoms in the universe. How does it find the right one so fast?",
+      "on_screen": "Observable · How a Protein Finds Its Shape"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "It doesn't search them all. The chain slides downhill across an energy landscape shaped like a funnel — many different routes, all draining toward the same stable, native fold. In the crowded cell, helper proteins called chaperones give tricky chains a protected space to fold."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "In nineteen seventy-three, Anfinsen showed the instructions live in the sequence itself: unfold a protein, remove the stress, and it folds right back. And the finished shapes are measured directly — hemoglobin's fold was solved by crystallography to better than two angstroms."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "viz_class": "illustrative",
+      "speech_text": "Here is the funnel: a chain finding its fold along many parallel paths, not one script. The landscape is a schematic, the structure is a model — not a photograph — and folding is reversible, driven by physics, not effort.",
+      "scale_label": "NOT TO SCALE",
+      "on_screen_labels": [
+        "SCIENCE VISUALIZATION",
+        "ILLUSTRATIVE",
+        "NOT A SIMULATION",
+        "STRUCTURAL MODEL — PDB 4HHB",
+        "SCHEMATIC LANDSCAPE",
+        "NOT TO SCALE"
+      ],
+      "visualization_prompt": "Protein folding funnel ensemble, native fold per PDB 4HHB, GroEL/GroES chaperonin, crowded cytoplasm, schematic energy landscape labeled, no faces, Jantzen molecular-cellular fidelity"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Get the fold right and the protein works. Get it wrong and you have the misfolding behind Alzheimer's and Parkinson's. Cracking how sequence becomes shape is one of biology's deepest problems — and we're only now learning to predict it."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: Protein folding — energy funnel (PRO-FLD-001)",
+      "EVIDENCE: Anfinsen (Science 1973); folded geometry PDB 4HHB (Fermi et al. 1984); funnel model (Dill & Chan 1997)",
+      "VIZ: Illustrative structural model + schematic landscape — labeled NOT TO SCALE; Jantzen molecular fidelity"
+    ]
+  }
+}

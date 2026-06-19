@@ -1,0 +1,17 @@
+Project: david_alfred_great_v1
+Format: historical-figure-documentary (54s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host (identity lock)
+Historical figure: Alfred the Great (ALF-001)
+death_year: 899
+Era: 9th Century Anglo-Saxon Wessex
+Content: Educational biography — documentary commentary on deceased historical figure. No visual impersonation of Alfred; host delivers analysis and Alfred's own attested Old English line.
+Period language: Old English (West Saxon) — ATTESTED, Alfred's own preface to the Pastoral Care.
+Reconstruction disclosure: Any visual reference is scholarly reconstruction from chronicles — not a photographic likeness of Alfred; the text is attested but its spoken pronunciation is a scholarly reconstruction.
+Sources: Alfred's Preface to the Pastoral Care (Hierdeboc); Asser Vita Ælfredi; Anglo-Saxon Chronicle.
+Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature; Viking wars treated factually, not glorified.
+AI disclosure: synthetic host in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+Cross-link: bridges to DAVID Dead Languages — Old English (Beowulf's tongue).
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

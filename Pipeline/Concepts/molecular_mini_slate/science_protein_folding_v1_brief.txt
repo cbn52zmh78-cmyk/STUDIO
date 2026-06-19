@@ -1,0 +1,10 @@
+OBSERVABLE — HOW A PROTEIN FINDS ITS SHAPE (science_protein_folding_v1)
+
+Host: Julian-001. Target ~54s. Music: BED-CLN-001 (clinical). Gate: GREEN.
+Subject: Protein folding via the energy funnel (PRO-FLD-001). Plate: @Sci-Protein-001 (protein-hemoglobin, PDB 4HHB).
+Principle routing: jantzen_molecular_cellular.
+
+One-line: A floppy chain finds one exact shape in milliseconds — by sliding down a funnel, not searching every option.
+
+SoT discipline: Anfinsen (1973) thermodynamic hypothesis; folded geometry PDB 4HHB. @2 payoff is ILLUSTRATIVE / NOT A SIMULATION / NOT TO SCALE; energy landscape labeled SCHEMATIC.
+Jantzen guardrails: ensemble of routes (not a single Levinthal path); reversible; chaperone-assisted; crowding; no "effort"/faces; funnel is a labeled schematic, not a literal tunnel.
