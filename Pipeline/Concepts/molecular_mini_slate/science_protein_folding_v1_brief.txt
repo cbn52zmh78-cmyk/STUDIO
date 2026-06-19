@@ -1,6 +1,6 @@
 OBSERVABLE — HOW A PROTEIN FINDS ITS SHAPE (science_protein_folding_v1)
 
-Host: Julian-001. Target ~54s. Music: BED-CLN-001 (clinical). Gate: GREEN.
+Music bed: BED-CLI-001 — Lab Bench — Pulse Ticks (clinical-precision); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — science score library (synthetic ensemble); license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client
 Subject: Protein folding via the energy funnel (PRO-FLD-001). Plate: @Sci-Protein-001 (protein-hemoglobin, PDB 4HHB).
 Principle routing: jantzen_molecular_cellular.
 

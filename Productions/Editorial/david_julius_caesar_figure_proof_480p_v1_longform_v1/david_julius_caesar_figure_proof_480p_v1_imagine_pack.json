@@ -1,0 +1,92 @@
+{
+  "slug": "david_julius_caesar_figure_proof_480p_v1",
+  "title": "DAVID — Julius Caesar (Figure Proof 480p)",
+  "model_video": "grok-imagine-video-1.5",
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "host_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\productions\\host_identity_v1\\references\\david_avatar_reference.jpg",
+  "avatar_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+  "set_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\productions\\host_identity_v1\\references\\archive_set_reference.jpg",
+  "voice_suffix": "mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only",
+  "seamless": null,
+  "shots": [
+    {
+      "shot_id": "01_cold_open",
+      "duration": 8,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host seated at Archive worktable, warm brass lamplight, names the historical figure and episode promise. Camera: slow gentle push-in medium. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"Tonight: Gaius Julius Caesar — general, dictator, and the man who made Rome an empire in all but name.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "Tonight: Gaius Julius Caesar — general, dictator, and the man who made Rome an empire in all but name.",
+      "speech_ipa": null,
+      "on_screen": "Julius Caesar · d. 44 BCE",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 0,
+        "end_s": 8
+      }
+    },
+    {
+      "shot_id": "02_who_they_were",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host delivers concise biography — birth, role, defining achievement — manuscripts behind. Camera: locked medium, slight lean. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"Born into a patrician family in 100 BCE, he climbed from quaestor to consul, conquered Gaul in a decade, and crossed the Rubicon with a civil war in his wake.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "Born into a patrician family in 100 BCE, he climbed from quaestor to consul, conquered Gaul in a decade, and crossed the Rubicon with a civil war in his wake.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 8,
+        "end_s": 17
+      }
+    },
+    {
+      "shot_id": "03_their_world",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host situates the figure in era and place — political, cultural, or scientific context. Camera: medium — gesture to map or codex. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"His world was a Republic in name only — senators armed, provinces plundered, and the calendar itself still drifting until he fixed the year.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "His world was a Republic in name only — senators armed, provinces plundered, and the calendar itself still drifting until he fixed the year.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 17,
+        "end_s": 26
+      }
+    },
+    {
+      "shot_id": "04_period_line",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host delivers one line in the figure's period language; on-screen attestation label visible. Camera: medium-close — deliberate delivery. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"Veni, vidi, vici.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "Veni, vidi, vici.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [
+        "ATTESTED",
+        "PERIOD LANGUAGE"
+      ],
+      "timing": {
+        "start_s": 26,
+        "end_s": 35
+      }
+    },
+    {
+      "shot_id": "05_legacy",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host on legacy and influence — what changed because they lived; end on gesture peak. Camera: warm close, inviting settle. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"They killed him on the Ides of March — but his name became the title of emperors, and his reforms outlived the blades that struck him down.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "They killed him on the Ides of March — but his name became the title of emperors, and his reforms outlived the blades that struck him down.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 35,
+        "end_s": 44
+      }
+    }
+  ],
+  "provenance_shot": {
+    "type": "code_rendered_png",
+    "duration_s": 6,
+    "enabled": true
+  }
+}

@@ -1,0 +1,17 @@
+Project: science_electromagnetism_v1
+Format: science-explainer (54s)
+Rating target: PG
+Channels: social, streaming
+Host: Julian-001 synthetic science presenter (roster continuity lock)
+Science subject: Magnetic fields in space
+Domain: Physics — Electromagnetism
+subject_id: EM-FIELD-001
+Key measurement: Earth surface field ~25–65 μT; MMS magnetopause measurements
+Content: Educational physics explainer — magnetic fields, field lines, Earth's magnetosphere. No medical or legal advice.
+Simulation disclosure: @2 visualization payoff uses field-line MODEL blending NASA MMS context with classical EM theory — labeled MODEL and NOT TO SCALE; field lines are visualization aid, not physical wires.
+Sources: NASA MMS imagery 201408040004HQ; Maxwell Phil. Trans. R. Soc. 1865; NASA Space Place magnetosphere.
+Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable.
+Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
+AI disclosure: synthetic presenter in provenance card and platform metadata.
+Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-PHY-001 — music cleared, cue sheet on file.

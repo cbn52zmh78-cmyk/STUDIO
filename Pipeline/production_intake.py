@@ -52,6 +52,7 @@ if str(PIPELINE_DIR) not in sys.path:
     sys.path.insert(0, str(PIPELINE_DIR))
 
 from shot_duration import apply_duration_clamp_to_shots, should_clamp_shot_durations  # noqa: E402
+from science_field import enrich_science_subject  # noqa: E402
 
 SET_LIBRARY = PIPELINE_DIR / "Set_Library_v1.json"               # #99
 STYLE_LIBRARY = PIPELINE_DIR / "Style_Library_v1.json"           # #99
@@ -140,6 +141,8 @@ def _concept_brief_path(
             CONCEPTS_DIR,
             CONCEPTS_DIR / "dead_languages",
             CONCEPTS_DIR / "astro_mini_slate",
+            CONCEPTS_DIR / "chem_physics_mini_slate",
+            CONCEPTS_DIR / "molecular_mini_slate",
             CONCEPTS_DIR / "royal_tongues",
         ):
             if base is None:
@@ -153,6 +156,8 @@ def _concept_brief_path(
             concept_file.parent if concept_file else None,
             CONCEPTS_DIR / "dead_languages",
             CONCEPTS_DIR / "astro_mini_slate",
+            CONCEPTS_DIR / "chem_physics_mini_slate",
+            CONCEPTS_DIR / "molecular_mini_slate",
             CONCEPTS_DIR / "royal_tongues",
             CONCEPTS_DIR,
         ):
@@ -261,6 +266,10 @@ def build_gate_brief_text(
     if ss and format_id == SCIENCE_EXPLAINER_FORMAT:
         lines.append(f"Science subject: {ss.get('phenomenon') or ss.get('subject_id', 'science episode')}")
         lines.append(f"Domain: {ss.get('domain', '')}")
+        if ss.get("field"):
+            lines.append(f"Science field: {ss['field']}")
+        if ss.get("principle_set"):
+            lines.append(f"Principle set: {ss['principle_set']}")
         lines.append(f"subject_id: {ss.get('subject_id', '')}")
         if ss.get("key_measurement"):
             lines.append(f"Key measurement: {ss['key_measurement']}")
@@ -649,16 +658,20 @@ def _parse_science_subject(concept: dict[str, Any], format_id: str) -> dict[str,
             "type": src.get("type", "secondary"),
             "notes": src.get("notes"),
         })
-    return {
+    base = {
         "subject_id": str(ss["subject_id"]).strip(),
         "domain": str(ss["domain"]).strip(),
         "phenomenon": str(ss["phenomenon"]).strip(),
+        "field": ss.get("field"),
         "key_measurement": ss.get("key_measurement"),
         "visualization_ref": ss.get("visualization_ref"),
         "visualization_prompt": ss.get("visualization_prompt"),
+        "principle_set": ss.get("principle_set"),
+        "plate_id": ss.get("plate_id"),
         "institutions": ss.get("institutions") or [],
         "sources": normalized_sources,
     }
+    return enrich_science_subject(base)
 
 
 def _viz_payoff_labels(beat: dict[str, Any], ss: dict[str, Any]) -> list[str]:
@@ -1069,10 +1082,15 @@ def build_longform_script(
             "subject_id": science_subject["subject_id"],
             "domain": science_subject["domain"],
             "phenomenon": science_subject["phenomenon"],
+            "field": science_subject.get("field"),
+            "principle_set": science_subject.get("principle_set"),
             "key_measurement": science_subject.get("key_measurement"),
             "source_count": len(science_subject["sources"]),
             "has_visualization_ref": bool(science_subject.get("visualization_ref")),
+            "plate_id": science_subject.get("plate_id"),
         }
+        if science_subject.get("principle_set"):
+            script["production_meta"]["principle_set"] = science_subject["principle_set"]
     return script
 
 

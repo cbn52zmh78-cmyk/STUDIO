@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T05:26:38.363360+00:00",
+  "generated_at": "2026-06-19T06:09:23.761541+00:00",
   "r1": {
     "ready": true,
     "task": "R1 — astrophysics reference harvest for astro @2 subjects",
@@ -7,7 +7,7 @@
     "harvested": 6,
     "failed_slugs": [],
     "manifest": "Science/reference_plates/astro_reference_manifest.json",
-    "checked_at": "2026-06-19T05:26:38.361439+00:00"
+    "checked_at": "2026-06-19T06:09:23.760581+00:00"
   },
   "plates": [
     {

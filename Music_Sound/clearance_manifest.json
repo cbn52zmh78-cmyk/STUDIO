@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "updated": "2026-06-19",
   "library_root": "Music_Beds",
   "manifest_path": "STUDIO/Music_Sound/clearance_manifest.json",
@@ -12,11 +12,15 @@
     "period-medieval",
     "period-tudor",
     "cosmic-awe",
-    "clinical-precision"
+    "clinical-precision",
+    "physics-precision",
+    "chemistry-lab"
   ],
   "science_lanes": {
     "cosmic-awe": "Astrophysics, cosmology, JWST/EHT wonder-tone documentary beds",
-    "clinical-precision": "Molecular, PDB, lab-measurement, clinical explainer beds"
+    "clinical-precision": "Molecular, PDB, lab-measurement, clinical explainer beds",
+    "physics-precision": "Classical & atmospheric physics, measurement explainers",
+    "chemistry-lab": "Chemical reaction, bonding, stoichiometry explainers"
   },
   "period_lanes": {
     "period-antiquity": "Ancient / classical / late-antique / Bronze Age documentary beds",
@@ -258,11 +262,67 @@
       "title": "Crystallography — Marimba Grid",
       "lane": "clinical-precision",
       "mood": "clinical",
-      "domain": "PDB / chemistry / measurement explainers",
+      "domain": "PDB / structural biology explainers",
       "file": "Music_Beds/clinical-precision/BED-CLI-002.mp3",
       "duration_seconds": 150,
       "bpm": 100,
       "source": "CC0 — Pixabay Music (verified CC0 / no attribution)",
+      "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-PHY-001": {
+      "title": "Wavefront — Measurement Pulse",
+      "lane": "physics-precision",
+      "mood": "physics",
+      "domain": "atmospheric / classical physics explainers",
+      "file": "Music_Beds/physics-precision/BED-PHY-001.mp3",
+      "duration_seconds": 160,
+      "bpm": 88,
+      "source": "Upon Tyne Productions — science score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-PHY-002": {
+      "title": "Field Lines — Neutral Drift",
+      "lane": "physics-precision",
+      "mood": "physics",
+      "domain": "mechanics / fields / measurement explainers",
+      "file": "Music_Beds/physics-precision/BED-PHY-002.mp3",
+      "duration_seconds": 175,
+      "bpm": 80,
+      "source": "Studio RF pack — perpetual license on file (physics documentary)",
+      "license": "royalty-free",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-CHE-001": {
+      "title": "Reaction Vessel — Glass Harmonics",
+      "lane": "chemistry-lab",
+      "mood": "chemistry",
+      "domain": "reaction kinetics / stoichiometry explainers",
+      "file": "Music_Beds/chemistry-lab/BED-CHE-001.mp3",
+      "duration_seconds": 155,
+      "bpm": 96,
+      "source": "Upon Tyne Productions — science score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-CHE-002": {
+      "title": "Bond Matrix — Synth Orbitals",
+      "lane": "chemistry-lab",
+      "mood": "chemistry",
+      "domain": "bonding / molecular orbital explainers",
+      "file": "Music_Beds/chemistry-lab/BED-CHE-002.mp3",
+      "duration_seconds": 170,
+      "bpm": 94,
+      "source": "CC0 — OpenGameArt community upload (verified CC0 1.0)",
       "license": "CC0",
       "attribution_required": false,
       "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],

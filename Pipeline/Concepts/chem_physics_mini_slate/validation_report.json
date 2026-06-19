@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "science_covalent_bonding_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "YELLOW",
+    "format_id": "science-explainer",
+    "sources": 3
+  },
+  {
+    "slug": "science_ionic_crystal_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "YELLOW",
+    "format_id": "science-explainer",
+    "sources": 3
+  },
+  {
+    "slug": "science_electromagnetism_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "YELLOW",
+    "format_id": "science-explainer",
+    "sources": 3
+  }
+]

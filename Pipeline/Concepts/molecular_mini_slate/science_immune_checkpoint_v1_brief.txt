@@ -1,6 +1,6 @@
 OBSERVABLE — THE IMMUNE CHECKPOINT (science_immune_checkpoint_v1)
 
-Host: Julian-001. Target ~54s. Music: BED-CLN-001 (clinical). Gate: GREEN.
+Music bed: BED-CLI-001 — Lab Bench — Pulse Ticks (clinical-precision); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — science score library (synthetic ensemble); license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client
 Subject: PD-1/PD-L1 immune checkpoint (IMM-CHK-001). Plate: @Sci-ImmuneCheckpoint-001 (pd1-pdl1-complex, PDB 4ZQK).
 Principle routing: jantzen_molecular_cellular (NOT astrophysics fidelity).
 

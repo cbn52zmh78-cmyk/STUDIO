@@ -1,0 +1,49 @@
+{
+  "project": "science_dna_replication_v1",
+  "verdict": "GREEN",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-CLI-002 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "Gate 0 cleared for Development/Pre-Production subject to ongoing review."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "MANUAL"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:09:14.735456",
+  "source_excerpt": "OBSERVABLE \u2014 HOW DNA COPIES ITSELF (science_dna_replication_v1)\n\nMusic bed: BED-CLI-002 \u2014 Crystallography \u2014 Marimba Grid (clinical-precision); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: CC0 \u2014 Pixabay Music (verified CC0 / no attribution); license: CC0; no attribution required); allowed channels: social, streaming, theatrical, festival, client\nSubject: Semi-discontinuous DNA replication (DNA-REP-001). Plate: @Sci-DNA-001 (dna-double-helix, PDB 1BNA).\nPrinciple routing: jantze"
+}

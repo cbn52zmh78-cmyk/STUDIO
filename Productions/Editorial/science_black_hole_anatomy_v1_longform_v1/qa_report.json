@@ -1,6 +1,6 @@
 {
   "slug": "science_black_hole_anatomy_v1",
-  "qa_at": "2026-06-19T05:39:12.132811+00:00",
+  "qa_at": "2026-06-19T06:10:00.787252+00:00",
   "pass": true,
   "passes": [
     "shot count OK (5 >= 5)",

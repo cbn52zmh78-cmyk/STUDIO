@@ -1,9 +1,9 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T05:39:12.133565+00:00",
-  "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\scripts\\longform_scripts\\science_black_hole_anatomy_v1_script.json",
-  "concat_only": true,
+  "completed_at": "2026-06-19T06:10:00.787841+00:00",
+  "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\batches\\T4_181_science_astro\\scripts\\science_black_hole_anatomy_v1_480p_script.json",
+  "concat_only": false,
   "seamless": true,
   "production_dir": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1",
   "script": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1\\science_black_hole_anatomy_v1_script.json",
@@ -15,7 +15,7 @@
   "comparison": null,
   "qa": {
     "slug": "science_black_hole_anatomy_v1",
-    "qa_at": "2026-06-19T05:39:12.132811+00:00",
+    "qa_at": "2026-06-19T06:10:00.787252+00:00",
     "pass": true,
     "passes": [
       "shot count OK (5 >= 5)",

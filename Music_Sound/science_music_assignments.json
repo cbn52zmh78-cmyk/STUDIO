@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "task": "T5-182",
+  "new_lanes": [
+    "physics-precision",
+    "chemistry-lab"
+  ],
+  "reserve_beds": {
+    "chemistry": [
+      "BED-CHE-001",
+      "BED-CHE-002"
+    ],
+    "physics_alt": [
+      "BED-PHY-002"
+    ]
+  },
+  "assignments": [
+    {
+      "slate": "astro",
+      "slug": "science_black_hole_anatomy_v1",
+      "bed_id": "BED-COS-002",
+      "lane": "cosmic-awe",
+      "track": "Event Horizon \u2014 Sub-bass Drift",
+      "license": "royalty-free",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "astro",
+      "slug": "science_star_lifecycle_v1",
+      "bed_id": "BED-COS-001",
+      "lane": "cosmic-awe",
+      "track": "Deep Field \u2014 Orbital Choir",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "astro",
+      "slug": "science_galaxy_formation_v1",
+      "bed_id": "BED-COS-002",
+      "lane": "cosmic-awe",
+      "track": "Event Horizon \u2014 Sub-bass Drift",
+      "license": "royalty-free",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "molecular",
+      "slug": "science_protein_folding_v1",
+      "bed_id": "BED-CLI-001",
+      "lane": "clinical-precision",
+      "track": "Lab Bench \u2014 Pulse Ticks",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "molecular",
+      "slug": "science_dna_replication_v1",
+      "bed_id": "BED-CLI-002",
+      "lane": "clinical-precision",
+      "track": "Crystallography \u2014 Marimba Grid",
+      "license": "CC0",
+      "row_2": "PASS",
+      "gate_verdict": "GREEN"
+    },
+    {
+      "slate": "molecular",
+      "slug": "science_immune_checkpoint_v1",
+      "bed_id": "BED-CLI-001",
+      "lane": "clinical-precision",
+      "track": "Lab Bench \u2014 Pulse Ticks",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "physics",
+      "slug": "julian_why_sky_blue_60s",
+      "bed_id": "BED-PHY-001",
+      "lane": "physics-precision",
+      "track": "Wavefront \u2014 Measurement Pulse",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    }
+  ]
+}

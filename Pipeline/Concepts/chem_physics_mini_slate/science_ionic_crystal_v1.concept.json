@@ -1,0 +1,87 @@
+{
+  "slug": "science_ionic_crystal_v1",
+  "title": "Observable — Why Salt Is a Crystal",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "tags": ["chemistry", "ionic-bond", "crystal-lattice", "nacl", "science", "observable"],
+  "logline": "Sodium gives an electron, chlorine takes it — the resulting ions lock into a repeating NaCl rock-salt lattice from crystallography data.",
+  "brief": "chem_physics_mini_slate/science_ionic_crystal_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-CHE-001"
+  },
+  "brand": {
+    "title": "Observable",
+    "subtitle": "Upon Tyne Science — evidence before wonder",
+    "cta": "Follow Observable — one measurement at a time."
+  },
+  "science_subject": {
+    "subject_id": "ION-CRYST-001",
+    "domain": "Chemistry — Ionic Crystals",
+    "phenomenon": "Rock-salt (NaCl) crystal lattice",
+    "key_measurement": "Lattice parameter a ≈ 5.64 Å (NaCl, COD 1000040); 6:6 coordination",
+    "institutions": ["Crystallography Open Database", "RCSB PDB"],
+    "visualization_prompt": "Scientific crystal lattice visualization, rock-salt NaCl structure, alternating Na+ and Cl- ions on face-centered cubic grid, 6:6 coordination, ball-and-stick with unit cell outline, neutral dark background, accurate relative ion positions, NOT TO SCALE if unit cell repeated, 16:9 documentary fidelity",
+    "visualization_ref": "Science/reference_plates/chemistry/images/crystal-lattice_harvest.jpeg",
+    "plate_id": "@Sci-CrystalLattice-001",
+    "plate_slug": "crystal-lattice",
+    "sources": [
+      {
+        "citation": "Crystallography Open Database entry 1000040 — NaCl rock-salt structure",
+        "url": "https://www.crystallography.net/cod/1000040.html",
+        "type": "primary",
+        "notes": "Open-access crystallographic coordinates"
+      },
+      {
+        "citation": "RCSB PDB — assembly visualization reference (1NAG assembly image, CC0)",
+        "url": "https://www.rcsb.org/structure/1NAG",
+        "type": "primary",
+        "notes": "Public-domain assembly render for lattice morphology reference"
+      },
+      {
+        "citation": "OpenStax Chemistry 2e, Ch. 10 — Solids and crystal structures",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-introduction",
+        "type": "secondary",
+        "notes": "Textbook consensus on ionic solids and unit cells"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Table salt looks like a simple white grain — but inside, every speck is a perfectly repeating grid of charged atoms locked by electrostatic glue.",
+      "on_screen": "Observable · Why Salt Is a Crystal"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "Sodium has one electron to lose; chlorine wants one to gain. Transfer makes Na⁺ and Cl⁻ ions. Opposites attract — but in a solid, each ion is tugged by neighbors in all directions, settling into a rock-salt lattice: alternating sodium and chlorine on a cubic grid."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "X-ray diffraction maps where atoms sit in a crystal. For sodium chloride, the spacing and the six-neighbor geometry are catalogued in open crystallography databases — COD entry one-zero-zero-zero-zero-four-zero — not inferred from a textbook sketch."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "This model shows the repeating unit: purple chloride, gold sodium, each ion touched by six partners. We repeat the cell for clarity — a teaching model, not a microscope photograph of one grain.",
+      "scale_label": "NOT TO SCALE",
+      "on_screen_labels": ["SCIENCE VISUALIZATION", "MODEL", "STRUCTURAL DATA — COD 1000040", "NOT TO SCALE"],
+      "visualization_prompt": "NaCl rock-salt crystal lattice, alternating Na+ and Cl- ions, face-centered cubic unit cell, 6:6 coordination, ball-and-stick, chemistry crystallography fidelity"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Ionic crystals are everywhere — table salt, ceramics, battery electrolytes. The same electrostatic accounting that builds salt also sets melting points, hardness, and why shattering a crystal cleaves along flat planes."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: NaCl rock-salt lattice (ION-CRYST-001)",
+      "EVIDENCE: COD 1000040 crystallography; ionic solid textbook consensus",
+      "VIZ: Structural MODEL from open crystallography — NOT TO SCALE"
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "issue": 181,
+  "task": "T4 — re-gate full slate post-clamp-fix",
+  "regated_at": "2026-06-19T06:09:15.732357+00:00",
+  "clamp_fix": "shot_duration.apply_duration_clamp_to_shots via production_intake",
+  "summary": {
+    "total": 24,
+    "green": 18,
+    "counsel": 1,
+    "yellow": 5,
+    "all_green": false,
+    "intake_pass": 24,
+    "script_only_pass": 24
+  },
+  "entries": [
+    {
+      "slate": "dead_languages",
+      "slug": "david_akkadian_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_akkadian_corpus_v1_20260619_010906.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_ancient_greek_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_ancient_greek_corpus_v1_20260619_010906.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_biblical_hebrew_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_biblical_hebrew_corpus_v1_20260619_010906.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_classical_nahuatl_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_classical_nahuatl_corpus_v1_20260619_010906.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_gothic_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_gothic_corpus_v1_20260619_010907.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_latin_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_latin_corpus_v1_20260619_010907.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_middle_egyptian_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_middle_egyptian_corpus_v1_20260619_010907.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_old_church_slavonic_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_church_slavonic_corpus_v1_20260619_010907.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_old_english_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_english_corpus_v1_20260619_010908.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_old_norse_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_norse_corpus_v1_20260619_010908.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_sanskrit_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sanskrit_corpus_v1_20260619_010908.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "dead_languages",
+      "slug": "david_sumerian_corpus_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sumerian_corpus_v1_20260619_010909.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "royal_tongues",
+      "slug": "david_alfred_great_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_alfred_great_v1_20260619_010909.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "royal_tongues",
+      "slug": "david_charlemagne_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_charlemagne_v1_20260619_010909.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "royal_tongues",
+      "slug": "david_cnut_great_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_cnut_great_v1_20260619_010910.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "royal_tongues",
+      "slug": "david_eleanor_aquitaine_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_eleanor_aquitaine_v1_20260619_010910.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "royal_tongues",
+      "slug": "david_elizabeth_tudor_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_elizabeth_tudor_v1_20260619_010912.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "royal_tongues",
+      "slug": "david_richard_lionheart_v1",
+      "verdict": "COUNSEL",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_COUNSEL_david_richard_lionheart_v1_20260619_010912.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "astro_mini_slate",
+      "slug": "science_black_hole_anatomy_v1",
+      "verdict": "YELLOW",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_black_hole_anatomy_v1_20260619_010913.json",
+      "warnings": [
+        "[SCIENCE] illustrative-not-simulation disclosure required — state visuals are educational illustration, not simulation output"
+      ],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "astro_mini_slate",
+      "slug": "science_galaxy_formation_v1",
+      "verdict": "YELLOW",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_010913.json",
+      "warnings": [
+        "[SCIENCE] illustrative-not-simulation disclosure required — state visuals are educational illustration, not simulation output"
+      ],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "astro_mini_slate",
+      "slug": "science_star_lifecycle_v1",
+      "verdict": "YELLOW",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_star_lifecycle_v1_20260619_010914.json",
+      "warnings": [
+        "[SCIENCE] illustrative-not-simulation disclosure required — state visuals are educational illustration, not simulation output"
+      ],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "molecular_mini_slate",
+      "slug": "science_dna_replication_v1",
+      "verdict": "GREEN",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_science_dna_replication_v1_20260619_010914.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "molecular_mini_slate",
+      "slug": "science_immune_checkpoint_v1",
+      "verdict": "YELLOW",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_immune_checkpoint_v1_20260619_010915.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    },
+    {
+      "slate": "molecular_mini_slate",
+      "slug": "science_protein_folding_v1",
+      "verdict": "YELLOW",
+      "intake_ok": true,
+      "intake_exit": 0,
+      "script_only_ok": true,
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_protein_folding_v1_20260619_010915.json",
+      "warnings": [],
+      "human_signoff": true,
+      "checklist": null
+    }
+  ]
+}

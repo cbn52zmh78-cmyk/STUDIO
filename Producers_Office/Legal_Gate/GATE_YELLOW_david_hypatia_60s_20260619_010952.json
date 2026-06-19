@@ -1,0 +1,55 @@
+{
+  "project": "david_hypatia_60s",
+  "verdict": "YELLOW",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "educational"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [
+    "Unknown channel 'educational' \u2014 valid: social, streaming, theatrical, festival, client",
+    "Numerical performer age not stated \u2014 required per Age Policy + Intimacy Protocol v1.3"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Historical Figure Gate: pre-1901 subject (died 415); 1900 ceiling and recency clear.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "MANUAL",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": true,
+    "death_year": 415,
+    "status": "PASS",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [
+      "Historical Figure Gate: pre-1901 subject (died 415); 1900 ceiling and recency clear."
+    ],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:09:52.725140",
+  "source_excerpt": "Project: david_hypatia_60s\nTitle: DAVID \u2014 Hypatia of Alexandria\nFormat: historical-figure-documentary\nRating target: PG\nChannels: social, educational\n\nPerformer anchor: David-001 (synthetic documentary host @David-001)\nHistorical figure: Hypatia of Alexandria\ndeath_year: 415\nEra: Late Roman Alexandria / Neoplatonism\nReconstruction disclosure: AI-rendered likeness is speculative reconstruction from period art and scholarly sources \u2014 not a photographic likeness.\nSources: Socrates Scholasticus, Ecc"
+}

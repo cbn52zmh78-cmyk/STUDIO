@@ -1,0 +1,17 @@
+Project: science_covalent_bonding_v1
+Format: science-explainer (54s)
+Rating target: PG
+Channels: social, streaming
+Host: Julian-001 synthetic science presenter (roster continuity lock)
+Science subject: Covalent bonding in water (H₂O)
+Domain: Chemistry — Chemical Bonding
+subject_id: COV-BOND-001
+Key measurement: O–H ~0.958 Å; H–O–H ~104.5° (NIST WebBook)
+Content: Educational chemistry explainer — shared electron pairs, molecular polarity, water geometry. No medical or legal advice.
+Simulation disclosure: @2 visualization payoff uses structural MODEL of electron sharing — labeled MODEL and NOT TO SCALE; electron density lobes exaggerated for teaching, not a quantum simulation frame.
+Sources: NIST Chemistry WebBook H2O; Pauling Nature of the Chemical Bond; OpenStax Chemistry 2e Ch. 7.
+Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable.
+Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
+AI disclosure: synthetic presenter in provenance card and platform metadata.
+Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-CHE-001 — music cleared, cue sheet on file.

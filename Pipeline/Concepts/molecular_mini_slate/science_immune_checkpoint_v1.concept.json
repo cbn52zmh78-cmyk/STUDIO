@@ -1,6 +1,6 @@
 {
   "slug": "science_immune_checkpoint_v1",
-  "title": "Observable — The Immune Checkpoint Cancer Hijacks",
+  "title": "Observable \u2014 The Immune Checkpoint Cancer Hijacks",
   "format_id": "science-explainer",
   "actor_id": "Julian-001",
   "target_seconds": 54,
@@ -12,7 +12,7 @@
     "science",
     "observable"
   ],
-  "logline": "PD-1 meets PD-L1 — the molecular brake that healthy cells use and tumors exploit, and the contact that checkpoint-blockade drugs break. Structure solved at 2.0 Å (PDB 4ZQK).",
+  "logline": "PD-1 meets PD-L1 \u2014 the molecular brake that healthy cells use and tumors exploit, and the contact that checkpoint-blockade drugs break. Structure solved at 2.0 \u00c5 (PDB 4ZQK).",
   "brief": "molecular_mini_slate/science_immune_checkpoint_v1_brief.txt",
   "gate_0": {
     "human_signoff": true,
@@ -23,30 +23,30 @@
     ],
     "publish_platform": "youtube",
     "ai_disclosure": "provenance card + YouTube upload metadata",
-    "music_bed_id": "BED-CLN-001"
+    "music_bed_id": "BED-CLI-001"
   },
   "brand": {
     "title": "Observable",
-    "subtitle": "Upon Tyne Science — evidence before wonder",
-    "cta": "Follow Observable — one measurement at a time."
+    "subtitle": "Upon Tyne Science \u2014 evidence before wonder",
+    "cta": "Follow Observable \u2014 one measurement at a time."
   },
   "science_subject": {
     "subject_id": "IMM-CHK-001",
-    "domain": "Molecular Immunology — Immune Checkpoints",
+    "domain": "Molecular Immunology \u2014 Immune Checkpoints",
     "phenomenon": "PD-1/PD-L1 immune checkpoint",
-    "key_measurement": "Human PD-1:PD-L1 complex solved by X-ray crystallography at 2.0 Å (PDB 4ZQK, Zak et al. 2015); blocking this contact is the basis of anti-PD-1/PD-L1 checkpoint immunotherapy (2018 Nobel Prize, Allison & Honjo)",
+    "key_measurement": "Human PD-1:PD-L1 complex solved by X-ray crystallography at 2.0 \u00c5 (PDB 4ZQK, Zak et al. 2015); blocking this contact is the basis of anti-PD-1/PD-L1 checkpoint immunotherapy (2018 Nobel Prize, Allison & Honjo)",
     "institutions": [
       "RCSB Protein Data Bank",
       "EBI PDBe"
     ],
     "principle_set": "jantzen_molecular_cellular",
-    "visualization_prompt": "Scientific molecular visualization, immune checkpoint synapse — PD-1 receptor on a T-cell lipid bilayer bound to PD-L1 ligand on an opposing tumor-cell bilayer across a thin aqueous gap, interface geometry per PDB 4ZQK, neighboring membrane proteins and surface glycans showing molecular crowding, faint solvent, neutral dark background, accurate relative scale, no anthropomorphic faces, no directed lunging, reversible probabilistic contact, Jantzen molecular-cellular fidelity, 16:9, ILLUSTRATIVE NOT TO SCALE label lower corner",
+    "visualization_prompt": "Scientific molecular visualization, immune checkpoint synapse \u2014 PD-1 receptor on a T-cell lipid bilayer bound to PD-L1 ligand on an opposing tumor-cell bilayer across a thin aqueous gap, interface geometry per PDB 4ZQK, neighboring membrane proteins and surface glycans showing molecular crowding, faint solvent, neutral dark background, accurate relative scale, no anthropomorphic faces, no directed lunging, reversible probabilistic contact, Jantzen molecular-cellular fidelity, 16:9, ILLUSTRATIVE NOT TO SCALE label lower corner",
     "sources": [
       {
-        "citation": "Zak KM, Kitel R, Przetocka S, et al. Structure of the Complex of Human Programmed Death 1, PD-1, and Its Ligand PD-L1. Structure. 2015;23(12):2341-2348 (PDB 4ZQK, 2.0 Å)",
+        "citation": "Zak KM, Kitel R, Przetocka S, et al. Structure of the Complex of Human Programmed Death 1, PD-1, and Its Ligand PD-L1. Structure. 2015;23(12):2341-2348 (PDB 4ZQK, 2.0 \u00c5)",
         "url": "https://www.rcsb.org/structure/4ZQK",
         "type": "primary",
-        "notes": "X-ray structure of the human PD-1/PD-L1 binding interface — CC0 coordinates"
+        "notes": "X-ray structure of the human PD-1/PD-L1 binding interface \u2014 CC0 coordinates"
       },
       {
         "citation": "Sharpe AH, Pauken KE. The diverse functions of the PD1 inhibitory pathway. Nat Rev Immunol. 2018;18(3):153-167",
@@ -62,41 +62,41 @@
   "beats": [
     {
       "id": "01_hook",
-      "speech_text": "Your immune system can recognize and kill a cancer cell. So why doesn't it always? Often, the tumor has found the off-switch — and it's a single molecular handshake.",
-      "on_screen": "Observable · The Immune Checkpoint"
+      "speech_text": "Your immune system can recognize and kill a cancer cell. So why doesn't it always? Often, the tumor has found the off-switch \u2014 and it's a single molecular handshake.",
+      "on_screen": "Observable \u00b7 The Immune Checkpoint"
     },
     {
       "id": "02_phenomenon",
-      "speech_text": "It's called an immune checkpoint. A T cell carries a receptor named PD-1. When PD-1 touches a partner protein, PD-L1, on a neighboring cell, it dials the T cell down — a built-in brake that normally stops your immune system attacking healthy tissue. Many tumors simply coat themselves in PD-L1 and press that brake."
+      "speech_text": "It's called an immune checkpoint. A T cell carries a receptor named PD-1. When PD-1 touches a partner protein, PD-L1, on a neighboring cell, it dials the T cell down \u2014 a built-in brake that normally stops your immune system attacking healthy tissue. Many tumors simply coat themselves in PD-L1 and press that brake."
     },
     {
       "id": "03_how_we_know",
-      "speech_text": "In twenty fifteen, crystallographers resolved the human PD-1 to PD-L1 contact at two angstroms — coordinates anyone can download. And we know the brake is real because releasing it works: antibodies that block this exact handshake unleash the immune system on tumors, a breakthrough recognized with the twenty-eighteen Nobel Prize in Medicine."
+      "speech_text": "In twenty fifteen, crystallographers resolved the human PD-1 to PD-L1 contact at two angstroms \u2014 coordinates anyone can download. And we know the brake is real because releasing it works: antibodies that block this exact handshake unleash the immune system on tumors, a breakthrough recognized with the twenty-eighteen Nobel Prize in Medicine."
     },
     {
       "id": "04_visualization_payoff",
       "viz_class": "illustrative",
-      "speech_text": "Here is that handshake — PD-1 on one membrane, PD-L1 on the other, meeting across a crowded molecular gap. This is a structural model, not a microscope photograph, and it's a reversible, chance encounter — no molecule is hunting another.",
+      "speech_text": "Here is that handshake \u2014 PD-1 on one membrane, PD-L1 on the other, meeting across a crowded molecular gap. This is a structural model, not a microscope photograph, and it's a reversible, chance encounter \u2014 no molecule is hunting another.",
       "scale_label": "NOT TO SCALE",
       "on_screen_labels": [
         "SCIENCE VISUALIZATION",
         "ILLUSTRATIVE",
         "NOT A SIMULATION",
-        "STRUCTURAL MODEL — PDB 4ZQK",
+        "STRUCTURAL MODEL \u2014 PDB 4ZQK",
         "NOT TO SCALE"
       ],
       "visualization_prompt": "PD-1/PD-L1 interface per PDB 4ZQK between two apposed lipid bilayers, crowded membrane proteins and glycans, reversible contact, no faces, Jantzen molecular-cellular fidelity"
     },
     {
       "id": "05_significance",
-      "speech_text": "One small contact between two proteins decides whether your immune system fights or stands down — and learning to block it rewrote cancer treatment. The molecules don't intend any of it; the consequences are enormous."
+      "speech_text": "One small contact between two proteins decides whether your immune system fights or stands down \u2014 and learning to block it rewrote cancer treatment. The molecules don't intend any of it; the consequences are enormous."
     }
   ],
   "provenance_card": {
     "lines": [
       "SUBJECT: PD-1/PD-L1 immune checkpoint (IMM-CHK-001)",
-      "EVIDENCE: Human PD-1:PD-L1 complex, PDB 4ZQK (Zak et al., Structure 2015), 2.0 Å",
-      "VIZ: Illustrative structural model — labeled NOT TO SCALE; not a micrograph; Jantzen molecular fidelity"
+      "EVIDENCE: Human PD-1:PD-L1 complex, PDB 4ZQK (Zak et al., Structure 2015), 2.0 \u00c5",
+      "VIZ: Illustrative structural model \u2014 labeled NOT TO SCALE; not a micrograph; Jantzen molecular fidelity"
     ]
   }
 }

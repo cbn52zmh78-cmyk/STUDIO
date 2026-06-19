@@ -1,0 +1,63 @@
+{
+  "slug": "julian_em_field_lines_60s",
+  "title": "STUDIO Science — Electromagnetic Field Lines",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "resolution": "480p",
+  "tags": ["science explainer", "physics", "electromagnetism", "magnetosphere", "phenomenon"],
+  "gate_0": {
+    "human_signoff": true,
+    "channels": ["social", "educational"]
+  },
+  "brand": {
+    "title": "STUDIO Science",
+    "subtitle": "Evidence-first explainers",
+    "cta": "Follow for the next phenomenon unpacked",
+    "legal_line": "Synthetic presenter · illustrative visualization labeled NOT TO SCALE"
+  },
+  "science_subject": {
+    "subject_id": "electromagnetic-field-lines",
+    "field": "physics",
+    "domain": "Physics — Electromagnetism",
+    "phenomenon": "How we picture electric and magnetic fields",
+    "key_measurement": "MMS mission multipoint sampling of Earth's magnetosphere (NASA, 2014)",
+    "visualization_prompt": "Scientific physics visualization: smooth magnetic field lines around Earth magnetosphere context with MMS spacecraft scale reference, clinical grade, illustrative field topology, no monopole artifacts",
+    "scale_label": "NOT TO SCALE",
+    "sources": [
+      {
+        "citation": "NASA MMS mission — Magnetospheric Multiscale observatories at Naval Research Laboratory (2014)",
+        "url": "https://images.nasa.gov/details/201408040004HQ",
+        "type": "primary"
+      },
+      {
+        "citation": "Griffiths D.J., Introduction to Electrodynamics, 4th ed. (Pearson, 2013)",
+        "type": "secondary"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "You cannot see a magnetic field — but you can map it. Field lines are our honest sketch of which way a compass needle would point, smoothly, everywhere in space.",
+      "on_screen": "What are field lines?"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "Electric and magnetic fields assign a force direction to every point. We draw lines tangent to that direction — denser where the field is stronger, never crossing because direction would be ambiguous."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "Spacecraft like NASA's Magnetospheric Multiscale mission sample the real magnetosphere at multiple points — turning invisible fields into measured vectors we can plot."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "Watch the payoff: closed loops threading from pole to pole around Earth — illustrative topology, not a photograph, but faithful to how measured fields are drawn.",
+      "visualization_prompt": "Earth magnetosphere with smooth magnetic field line loops and MMS spacecraft context, physics @2 plate fidelity, clinical color"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Field lines are more than decoration — they predict plasma motion, auroras, and how satellites must navigate space weather."
+    }
+  ]
+}

@@ -118,7 +118,9 @@ Declare `gate_0.music_bed_id` from science lanes in `Music_Sound/clearance_manif
 | Tone | Lane | Example beds | Use |
 |------|------|--------------|-----|
 | Wonder, scale, cosmos | `cosmic-awe` | `BED-COS-001`, `BED-COS-002` | Astrophysics, JWST, EHT, deep-time |
-| Precision, lab, molecular | `clinical-precision` | `BED-CLI-001`, `BED-CLI-002` | PDB, chemistry, clinical explainer |
+| Precision, lab, molecular | `clinical-precision` | `BED-CLI-001`, `BED-CLI-002` | PDB, structural biology, immune/molecular |
+| Measurement, fields, atmosphere | `physics-precision` | `BED-PHY-001`, `BED-PHY-002` | Classical & atmospheric physics explainers |
+| Reaction, bonding, stoichiometry | `chemistry-lab` | `BED-CHE-001`, `BED-CHE-002` | Chemistry explainers (reserve until chem slate ships) |
 
 Gate 0 row 2: manifest track → **PASS**.
 

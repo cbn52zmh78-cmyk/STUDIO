@@ -1,6 +1,6 @@
 {
   "slug": "science_dna_replication_v1",
-  "title": "Observable — How DNA Copies Itself",
+  "title": "Observable \u2014 How DNA Copies Itself",
   "format_id": "science-explainer",
   "actor_id": "Julian-001",
   "target_seconds": 54,
@@ -12,7 +12,7 @@
     "science",
     "observable"
   ],
-  "logline": "The double helix unzips and templates two copies — leading strand continuous, lagging strand in Okazaki fragments. Semi-conservative replication, proven by Meselson–Stahl; B-DNA geometry from PDB 1BNA.",
+  "logline": "The double helix unzips and templates two copies \u2014 leading strand continuous, lagging strand in Okazaki fragments. Semi-conservative replication, proven by Meselson\u2013Stahl; B-DNA geometry from PDB 1BNA.",
   "brief": "molecular_mini_slate/science_dna_replication_v1_brief.txt",
   "gate_0": {
     "human_signoff": true,
@@ -23,30 +23,30 @@
     ],
     "publish_platform": "youtube",
     "ai_disclosure": "provenance card + YouTube upload metadata",
-    "music_bed_id": "BED-CLN-001"
+    "music_bed_id": "BED-CLI-002"
   },
   "brand": {
     "title": "Observable",
-    "subtitle": "Upon Tyne Science — evidence before wonder",
-    "cta": "Follow Observable — one measurement at a time."
+    "subtitle": "Upon Tyne Science \u2014 evidence before wonder",
+    "cta": "Follow Observable \u2014 one measurement at a time."
   },
   "science_subject": {
     "subject_id": "DNA-REP-001",
-    "domain": "Molecular Biology — DNA Replication",
+    "domain": "Molecular Biology \u2014 DNA Replication",
     "phenomenon": "Semi-discontinuous replication at the fork",
-    "key_measurement": "B-DNA helical geometry from X-ray crystallography (PDB 1BNA, Drew et al. 1981); semi-conservative replication demonstrated by Meselson & Stahl (1958); proofreading drives error rates to ~1 in 10^9–10^10 bases",
+    "key_measurement": "B-DNA helical geometry from X-ray crystallography (PDB 1BNA, Drew et al. 1981); semi-conservative replication demonstrated by Meselson & Stahl (1958); proofreading drives error rates to ~1 in 10^9\u201310^10 bases",
     "institutions": [
       "RCSB Protein Data Bank",
       "EBI PDBe"
     ],
     "principle_set": "jantzen_molecular_cellular",
-    "visualization_prompt": "Scientific molecular visualization, DNA replication fork — right-handed antiparallel B-DNA parent duplex (geometry per PDB 1BNA) unwound at a Y-shaped fork, DNA polymerase on a ring-shaped sliding clamp building a continuous leading strand and a discontinuous lagging strand of Okazaki fragments, single-strand binding proteins on exposed strands, crowded aqueous nucleoplasm, neutral dark background, accurate relative scale, no anthropomorphic faces, no straight-line directed motion, time-compression implied, Jantzen molecular-cellular fidelity, 16:9, ILLUSTRATIVE NOT TO SCALE label lower corner",
+    "visualization_prompt": "Scientific molecular visualization, DNA replication fork \u2014 right-handed antiparallel B-DNA parent duplex (geometry per PDB 1BNA) unwound at a Y-shaped fork, DNA polymerase on a ring-shaped sliding clamp building a continuous leading strand and a discontinuous lagging strand of Okazaki fragments, single-strand binding proteins on exposed strands, crowded aqueous nucleoplasm, neutral dark background, accurate relative scale, no anthropomorphic faces, no straight-line directed motion, time-compression implied, Jantzen molecular-cellular fidelity, 16:9, ILLUSTRATIVE NOT TO SCALE label lower corner",
     "sources": [
       {
         "citation": "Drew HR, Wing RM, Takano T, Broka C, Dickerson RE. Structure of a B-DNA dodecamer: conformation and dynamics. PNAS. 1981;78(4):2179-2183 (PDB 1BNA)",
         "url": "https://www.rcsb.org/structure/1BNA",
         "type": "primary",
-        "notes": "Canonical right-handed antiparallel B-DNA geometry — CC0 coordinates"
+        "notes": "Canonical right-handed antiparallel B-DNA geometry \u2014 CC0 coordinates"
       },
       {
         "citation": "Meselson M, Stahl FW. The replication of DNA in Escherichia coli. PNAS. 1958;44(7):671-682",
@@ -55,7 +55,7 @@
         "notes": "Density-gradient experiment proving semi-conservative replication"
       },
       {
-        "citation": "Alberts B, et al. Molecular Biology of the Cell, 7th ed., Ch. 5 — DNA Replication (leading/lagging strand, Okazaki fragments)",
+        "citation": "Alberts B, et al. Molecular Biology of the Cell, 7th ed., Ch. 5 \u2014 DNA Replication (leading/lagging strand, Okazaki fragments)",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
         "type": "secondary",
         "notes": "Established textbook consensus for fork topology"
@@ -68,41 +68,41 @@
   "beats": [
     {
       "id": "01_hook",
-      "speech_text": "Every time one of your cells divides, it copies three billion letters of DNA — and it almost never makes a mistake. How?",
-      "on_screen": "Observable · How DNA Copies Itself"
+      "speech_text": "Every time one of your cells divides, it copies three billion letters of DNA \u2014 and it almost never makes a mistake. How?",
+      "on_screen": "Observable \u00b7 How DNA Copies Itself"
     },
     {
       "id": "02_phenomenon",
-      "speech_text": "The double helix splits down the middle, and each old strand becomes a template for a new one — so every copy keeps one original strand. That's called semi-conservative. But the two strands run in opposite directions, so only one is copied smoothly; the other is built backwards in short pieces called Okazaki fragments, then stitched together."
+      "speech_text": "The double helix splits down the middle, and each old strand becomes a template for a new one \u2014 so every copy keeps one original strand. That's called semi-conservative. But the two strands run in opposite directions, so only one is copied smoothly; the other is built backwards in short pieces called Okazaki fragments, then stitched together."
     },
     {
       "id": "03_how_we_know",
-      "speech_text": "We're not guessing. In nineteen fifty-eight, Meselson and Stahl tracked DNA by weight and proved the semi-conservative pattern. And the helix itself was pinned down atom by atom with X-ray crystallography — the B-DNA coordinates are public."
+      "speech_text": "We're not guessing. In nineteen fifty-eight, Meselson and Stahl tracked DNA by weight and proved the semi-conservative pattern. And the helix itself was pinned down atom by atom with X-ray crystallography \u2014 the B-DNA coordinates are public."
     },
     {
       "id": "04_visualization_payoff",
       "viz_class": "illustrative",
-      "speech_text": "Here is the fork: a right-handed helix unwinding, one strand copied continuously, the other in fragments. This is a structural model, sped up and not to scale — and it's driven by random molecular motion and chemical energy, not a machine marching with purpose.",
+      "speech_text": "Here is the fork: a right-handed helix unwinding, one strand copied continuously, the other in fragments. This is a structural model, sped up and not to scale \u2014 and it's driven by random molecular motion and chemical energy, not a machine marching with purpose.",
       "scale_label": "NOT TO SCALE",
       "on_screen_labels": [
         "SCIENCE VISUALIZATION",
         "ILLUSTRATIVE",
         "NOT A SIMULATION",
-        "STRUCTURAL MODEL — PDB 1BNA",
+        "STRUCTURAL MODEL \u2014 PDB 1BNA",
         "NOT TO SCALE"
       ],
       "visualization_prompt": "DNA replication fork, right-handed antiparallel B-DNA per PDB 1BNA, leading continuous strand and lagging Okazaki fragments, single-strand binding proteins, crowded nucleoplasm, no faces, Jantzen molecular-cellular fidelity"
     },
     {
       "id": "05_significance",
-      "speech_text": "This copying is why you grow, heal, and inherit traits — and the rare error that slips past proofreading is the raw material of both disease and evolution. Precision and imperfection, in the same machinery."
+      "speech_text": "This copying is why you grow, heal, and inherit traits \u2014 and the rare error that slips past proofreading is the raw material of both disease and evolution. Precision and imperfection, in the same machinery."
     }
   ],
   "provenance_card": {
     "lines": [
       "SUBJECT: DNA replication fork (DNA-REP-001)",
       "EVIDENCE: B-DNA geometry PDB 1BNA (Drew/Dickerson 1981); semi-conservative replication (Meselson & Stahl 1958)",
-      "VIZ: Illustrative structural model — labeled NOT TO SCALE; time-compressed; Jantzen molecular fidelity"
+      "VIZ: Illustrative structural model \u2014 labeled NOT TO SCALE; time-compressed; Jantzen molecular fidelity"
     ]
   }
 }

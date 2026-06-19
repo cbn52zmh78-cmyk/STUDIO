@@ -8,6 +8,7 @@
       "title",
       "science_subject.subject_id",
       "science_subject.domain",
+      "science_subject.field",
       "science_subject.phenomenon",
       "science_subject.sources",
       "beats[].speech_text",
@@ -27,7 +28,8 @@
   },
   "science_subject": {
     "subject_id": "[subject_id_snake_case]",
-    "domain": "[Astrophysics | Structural Biology | …]",
+    "field": "[chemistry | physics | astrophysics | biology]",
+    "domain": "[Astrophysics | Chemistry | Physics | …]",
     "phenomenon": "[PHENOMENON DISPLAY NAME]",
     "viz_class_default": "illustrative",
     "sources": [

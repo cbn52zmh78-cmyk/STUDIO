@@ -1,0 +1,63 @@
+{
+  "slug": "julian_covalent_bonding_60s",
+  "title": "STUDIO Science — Covalent Bonding in Water",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "resolution": "480p",
+  "tags": ["science explainer", "chemistry", "covalent bonding", "water", "phenomenon"],
+  "gate_0": {
+    "human_signoff": true,
+    "channels": ["social", "educational"]
+  },
+  "brand": {
+    "title": "STUDIO Science",
+    "subtitle": "Evidence-first explainers",
+    "cta": "Follow for the next phenomenon unpacked",
+    "legal_line": "Synthetic presenter · illustrative visualization labeled NOT TO SCALE"
+  },
+  "science_subject": {
+    "subject_id": "covalent-bonding-water",
+    "field": "chemistry",
+    "domain": "Chemistry — Covalent Bonding",
+    "phenomenon": "How atoms share electrons in a water molecule",
+    "key_measurement": "O–H bond length ~0.96 Å; H–O–H angle ~104.5° (NIST WebBook)",
+    "visualization_prompt": "Scientific chemistry visualization: bent H2O molecule with shared electron pairs between oxygen and two hydrogens, neutral clinical grade, Lewis structure fidelity, no decorative glow",
+    "scale_label": "NOT TO SCALE",
+    "sources": [
+      {
+        "citation": "NIST Standard Reference Database 69 — NIST Chemistry WebBook, water (H2O)",
+        "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Units=SI",
+        "type": "primary"
+      },
+      {
+        "citation": "Pauling L., The Nature of the Chemical Bond, 3rd ed. (Cornell University Press, 1960)",
+        "type": "secondary"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Water looks simple — two hydrogens, one oxygen. But the bond holding them together is not a handoff of electrons. It is a share.",
+      "on_screen": "What is a covalent bond?"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "In a covalent bond, atoms pool valence electrons into a shared region. In water, oxygen pulls harder on those electrons, bending the molecule and making the O–H bonds polar."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "Spectroscopy and crystallography pin the geometry: an H–O–H angle near one hundred four degrees and bond lengths under one ångström — tabulated in the NIST Chemistry WebBook."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "See the payoff: two equivalent O–H σ bonds in a bent triatomic frame — shared electron density, not isolated spheres glued together.",
+      "visualization_prompt": "Bent water molecule with shared electron pair lobes on O–H bonds, clinical accurate color, chemistry @2 plate fidelity"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "That shared-electron geometry is why water is polar, why ice floats, and why life chemistry runs in solution — bonding at the root."
+    }
+  ]
+}

@@ -4,7 +4,10 @@
   "format_id": "historical-figure-documentary",
   "actor_id": "David-001",
   "target_seconds": 51,
-  "channels": ["social", "streaming"],
+  "gate_0": {
+    "human_signoff": true,
+    "channels": ["social", "streaming"]
+  },
   "tags": ["history", "biography", "julius-caesar", "latin", "historical figure", "actors-150"],
   "brand": {
     "title": "DAVID · The Archive",

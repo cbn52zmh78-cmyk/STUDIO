@@ -261,8 +261,17 @@
       "identity_anchor": "@Julian-001",
       "identity_continuity_lock": "CONTINUITY LOCK @Julian-001: identical presenter face, smart-casual wardrobe, seamless neutral set, same eye-line to camera — seamless continuation of prior take, zero jump cut.",
       "voice_suffix": "clear enthusiastic science communicator voice, precise but accessible diction, synthetic presenter only",
+      "science_fields": {
+        "supported": ["chemistry", "physics", "astrophysics", "biology", "biochemistry", "atmospheric_physics"],
+        "manifests": {
+          "chemistry": "Science/reference_plates/chemistry_reference_manifest.json",
+          "physics": "Science/reference_plates/physics_reference_manifest.json"
+        },
+        "intake_keys": ["subject_id", "domain", "phenomenon", "field", "sources", "visualization_ref", "principle_set"]
+      },
       "guardrails": [
         "science_subject block required at intake — subject_id, domain, phenomenon, sources (Scientific_SoT_Standard_v1.md)",
+        "science_subject.field optional — chemistry | physics | astrophysics routes principle_set + @2 plate manifest (#179)",
         "04_visualization_payoff viz_class required — illustrative frames: ILLUSTRATIVE + NOT A SIMULATION (+ NOT TO SCALE when compressed)",
         "no medical or legal advice presented as professional counsel",
         "Seamless Neutral + Cool Clinical locked for presenter segments",

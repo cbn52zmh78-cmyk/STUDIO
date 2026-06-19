@@ -1,0 +1,86 @@
+{
+  "slug": "science_covalent_bonding_v1",
+  "title": "Observable — How Atoms Share Electrons",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "tags": ["chemistry", "covalent-bond", "electrons", "water", "science", "observable"],
+  "logline": "Covalent bonds as shared electron pairs — water's bent geometry and polarity from NIST Chemistry WebBook data.",
+  "brief": "chem_physics_mini_slate/science_covalent_bonding_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-CHE-001"
+  },
+  "brand": {
+    "title": "Observable",
+    "subtitle": "Upon Tyne Science — evidence before wonder",
+    "cta": "Follow Observable — one measurement at a time."
+  },
+  "science_subject": {
+    "subject_id": "COV-BOND-001",
+    "domain": "Chemistry — Chemical Bonding",
+    "phenomenon": "Covalent bonding in water (H₂O)",
+    "key_measurement": "O–H bond length ~0.958 Å; H–O–H angle ~104.5° (NIST Chemistry WebBook, H₂O)",
+    "institutions": ["NIST Chemistry WebBook"],
+    "visualization_prompt": "Scientific chemistry visualization, water molecule H2O with shared electron pair density between oxygen and two hydrogens, bent geometry ~104.5 degrees, partial negative on oxygen and partial positive on hydrogens, ball-and-stick with transparent electron cloud lobes, neutral dark background, accurate relative angles, NOT TO SCALE on electron cloud exaggeration, 16:9 documentary fidelity",
+    "visualization_ref": "Science/reference_plates/chemistry/images/covalent-bonding_harvest.png",
+    "plate_id": "@Sci-ChemBond-001",
+    "plate_slug": "covalent-bonding",
+    "sources": [
+      {
+        "citation": "NIST Standard Reference Database 69 — NIST Chemistry WebBook, water (H₂O), InChI=1S/H2O/h1H2",
+        "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Units=SI",
+        "type": "primary",
+        "notes": "Bond lengths, angles, thermochemical data — U.S. Government work"
+      },
+      {
+        "citation": "Pauling, L. The Nature of the Chemical Bond, 3rd ed. (1960) — covalent bond as shared electron pair",
+        "type": "secondary",
+        "notes": "Foundational theory text for shared-pair bonding model"
+      },
+      {
+        "citation": "OpenStax Chemistry 2e, Ch. 7 — Covalent bonding and molecular geometry",
+        "url": "https://openstax.org/books/chemistry-2e/pages/7-introduction",
+        "type": "secondary",
+        "notes": "Open educational consensus on VSEPR and polarity"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Why does water climb up a straw, dissolve salt, and stay liquid across a huge temperature range — when a similar-sized molecule would be a gas?",
+      "on_screen": "Observable · How Atoms Share Electrons"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "Atoms with nearly equal hunger for electrons can share them instead of handing them over completely. That shared pair is a covalent bond. In water, oxygen shares with two hydrogens, but not equally — oxygen pulls harder, so the molecule is bent and polar."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "We measure bond lengths and angles with spectroscopy and crystallography — then publish them in databases anyone can check. For water, the O–H length and the hundred-four-degree bend are tabulated in the NIST Chemistry WebBook, not guessed from a cartoon."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "Here is the shared-pair picture: two hydrogens anchored to oxygen, electron density pulled toward oxygen's side. The cloud is exaggerated for teaching — real electrons are quantum probability, not colored balls on rails.",
+      "scale_label": "NOT TO SCALE",
+      "on_screen_labels": ["SCIENCE VISUALIZATION", "MODEL", "NOT TO SCALE"],
+      "visualization_prompt": "Water molecule covalent bonding diagram, bent H-O-H geometry 104.5 degrees, polar electron density shift toward oxygen, ball-and-stick plus transparent lobes, chemistry education fidelity"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Covalent bonds build every protein, plastic, and strand of DNA — and water's particular polarity is why life on Earth uses it as solvent. Chemistry is not a bag of rules; it is shared electrons with measurable geometry."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: Covalent bonding in H₂O (COV-BOND-001)",
+      "EVIDENCE: NIST Chemistry WebBook bond geometry; Pauling shared-pair model",
+      "VIZ: Structural MODEL — electron cloud exaggerated; NOT TO SCALE"
+    ]
+  }
+}

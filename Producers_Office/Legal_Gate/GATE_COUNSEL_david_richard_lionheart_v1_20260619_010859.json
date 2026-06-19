@@ -1,0 +1,55 @@
+{
+  "project": "david_richard_lionheart_v1",
+  "verdict": "COUNSEL",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [
+    "Deceased replica \u2014 AB 1836 / counsel"
+  ],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-DOC-001 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "Historical Figure Gate: pre-1901 subject (died 1199); 1900 ceiling and recency clear.",
+    "Escalate to entertainment counsel before proceeding."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": true,
+    "death_year": 1199,
+    "status": "PASS",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [
+      "Historical Figure Gate: pre-1901 subject (died 1199); 1900 ceiling and recency clear."
+    ],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:08:59.300142",
+  "source_excerpt": "Project: david_richard_lionheart_v1\nFormat: historical-figure-documentary (54s)\nRating target: PG\nChannels: social, streaming\nHost: David-001 synthetic documentary host\nHistorical figure: Richard I Lionheart (RIC-001)\ndeath_year: 1199\nEra: 12th Century Angevin\nContent: Educational biography of deceased crusader king. Host commentary only \u2014 no synthetic likeness of Richard on screen.\nPeriod language: Anglo-Norman \u2014 ATTESTED crusade formula Deus le volt with reconstructed pronunciation labeled.\nRe"
+}

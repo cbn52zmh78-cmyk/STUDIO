@@ -145,10 +145,14 @@
       "subject_id": "rayleigh_scattering",
       "domain": "atmospheric physics",
       "phenomenon": "Why the sky appears blue",
+      "field": "physics",
+      "principle_set": "general_scientific",
       "key_measurement": "Rayleigh scattering intensity scales as 1/λ⁴ — shorter wavelengths scatter more",
       "source_count": 3,
-      "has_visualization_ref": false
-    }
+      "has_visualization_ref": false,
+      "plate_id": null
+    },
+    "principle_set": "general_scientific"
   },
   "intake": {
     "format_id": "science-explainer",
@@ -162,12 +166,12 @@
       "blocked": false,
       "requires_human_signoff": true,
       "human_signoff": true,
-      "target_rating": "PG-13",
+      "target_rating": "PG",
       "channels": [
         "social",
         "educational"
       ],
-      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_julian_why_sky_blue_60s_20260619_003814.json",
+      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_julian_why_sky_blue_60s_20260619_011000.json",
       "checklist_domains": {
         "row_1_synthetic_ownership": "PASS",
         "row_2_music_sync": "MANUAL",
@@ -214,9 +218,12 @@
       "subject_id": "rayleigh_scattering",
       "domain": "atmospheric physics",
       "phenomenon": "Why the sky appears blue",
+      "field": "physics",
       "key_measurement": "Rayleigh scattering intensity scales as 1/λ⁴ — shorter wavelengths scatter more",
       "visualization_ref": null,
       "visualization_prompt": "Scientific visualization: sunlight entering Earth's atmosphere, blue shorter wavelengths scattering in all directions while red passes through at sunset angle; accurate color, neutral clinical grade, no decorative bloom",
+      "principle_set": "general_scientific",
+      "plate_id": null,
       "institutions": [],
       "sources": [
         {
@@ -237,7 +244,8 @@
           "type": "secondary",
           "notes": null
         }
-      ]
+      ],
+      "principle_selection_reason": "default"
     }
   }
 }

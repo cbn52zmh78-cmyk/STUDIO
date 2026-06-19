@@ -1,0 +1,58 @@
+{
+  "project": "science_covalent_bonding_v1",
+  "verdict": "RED",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [
+    "[MUSIC] Unlisted music bed(s) BED-CLN-001 \u2014 not in STUDIO/Music_Sound/clearance_manifest.json (Gate 0 row 2)"
+  ],
+  "counsel_flags": [],
+  "warnings": [
+    "[SCIENCE] illustrative-not-simulation disclosure required \u2014 state visuals are educational illustration, not simulation output"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Science Gate: illustrative-not-simulation policy applies.",
+    "PRODUCER HARD STOP \u2014 Gate 0 failed. Do not generate. Do not shoot. Do not publish."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "FAIL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": true,
+    "status": "CAUTION",
+    "hard_stops": [],
+    "warnings": [
+      "[SCIENCE] illustrative-not-simulation disclosure required \u2014 state visuals are educational illustration, not simulation output"
+    ],
+    "notes": [
+      "Science Gate: illustrative-not-simulation policy applies."
+    ],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:09:00.596090",
+  "source_excerpt": "Project: science_covalent_bonding_v1\nFormat: science-explainer (54s)\nRating target: PG\nChannels: social, streaming\nHost: Julian-001 synthetic science presenter (roster continuity lock)\nScience subject: Covalent bonding in water (H\u2082O)\nDomain: Chemistry \u2014 Chemical Bonding\nsubject_id: COV-BOND-001\nKey measurement: O\u2013H ~0.958 \u00c5; H\u2013O\u2013H ~104.5\u00b0 (NIST WebBook)\nContent: Educational chemistry explainer \u2014 shared electron pairs, molecular polarity, water geometry. No medical or legal advice.\nSimulation dis"
+}

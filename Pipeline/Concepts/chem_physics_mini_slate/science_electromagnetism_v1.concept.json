@@ -1,0 +1,87 @@
+{
+  "slug": "science_electromagnetism_v1",
+  "title": "Observable — How Magnetic Fields Reach Across Space",
+  "format_id": "science-explainer",
+  "actor_id": "Julian-001",
+  "target_seconds": 54,
+  "tags": ["physics", "electromagnetism", "magnetic-field", "science", "observable"],
+  "logline": "Moving charges and aligned spins create magnetic fields that extend through empty space — mapped by compasses, spacecraft, and Maxwell's equations.",
+  "brief": "chem_physics_mini_slate/science_electromagnetism_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-PHY-001"
+  },
+  "brand": {
+    "title": "Observable",
+    "subtitle": "Upon Tyne Science — evidence before wonder",
+    "cta": "Follow Observable — one measurement at a time."
+  },
+  "science_subject": {
+    "subject_id": "EM-FIELD-001",
+    "domain": "Physics — Electromagnetism",
+    "phenomenon": "Magnetic fields in space",
+    "key_measurement": "Earth's surface field ~25–65 μT; MMS mission maps magnetopause reconnection at sub-electron scales",
+    "institutions": ["NASA", "Maxwell equations / classical EM theory"],
+    "visualization_prompt": "Scientific physics visualization, magnetic field lines around a bar magnet and Earth's magnetosphere cross-section, closed loops from north to south, NASA MMS-inspired magnetopause context, iron filing pattern logic without false single-pole lines, neutral dark background, field line density shows strength, NOT TO SCALE, 16:9 documentary fidelity",
+    "visualization_ref": "Science/reference_plates/physics/images/electromagnetic-field-lines_harvest.jpg",
+    "plate_id": "@Sci-EMField-001",
+    "plate_slug": "electromagnetic-field-lines",
+    "sources": [
+      {
+        "citation": "NASA — Magnetospheric Multiscale (MMS) mission imagery, magnetic reconnection in Earth's magnetosphere (2014)",
+        "url": "https://images.nasa.gov/details/201408040004HQ",
+        "type": "primary",
+        "notes": "Mission photograph — credit NASA required"
+      },
+      {
+        "citation": "Maxwell, J. C. A Dynamical Theory of the Electromagnetic Field (1865) — unified electric and magnetic phenomena",
+        "url": "https://doi.org/10.1098/rstl.1865.0008",
+        "type": "primary",
+        "notes": "Foundational theory for fields propagating through space"
+      },
+      {
+        "citation": "NASA Space Place — Earth's magnetosphere protects from solar wind",
+        "url": "https://spaceplace.nasa.gov/magnetosphere/en/",
+        "type": "secondary",
+        "notes": "Public-facing synthesis of geomagnetic field observations"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "A magnet can pull a paperclip from a centimeter away — with nothing but air between them. How does influence cross empty space?",
+      "on_screen": "Observable · How Magnetic Fields Reach Across Space"
+    },
+    {
+      "id": "02_phenomenon",
+      "speech_text": "Magnetism comes from moving electric charge and from electron spin alignment inside materials. Together they create a magnetic field — a pattern in space that exerts force on other moving charges. Field lines trace that pattern: they emerge from north, curve through space, and return to south."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "Compasses have tracked Earth's field for centuries. Satellites like NASA's Magnetospheric Multiscale mission now fly through the boundary where solar wind meets our magnetosphere — measuring reconnection events that Maxwell's equations predicted more than a hundred fifty years ago."
+    },
+    {
+      "id": "04_visualization_payoff",
+      "speech_text": "These field lines are a map, not wires you could touch — density shows strength, loops show direction. Earth's magnetosphere is drawn from spacecraft data blended with theory — an illustrative model, not to scale.",
+      "scale_label": "NOT TO SCALE",
+      "on_screen_labels": ["SCIENCE VISUALIZATION", "MODEL", "NASA MMS CONTEXT", "NOT TO SCALE"],
+      "visualization_prompt": "Magnetic field lines bar magnet and Earth magnetosphere, closed loops north to south, MMS-inspired magnetopause, physics education fidelity, no magnetic monopoles"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "Magnetic fields steer auroras, protect life from solar radiation, and let motors spin inside your phone. Electromagnetism is one of the four fundamental forces — and it works by reshaping space around every current and every spinning electron."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: Magnetic fields in space (EM-FIELD-001)",
+      "EVIDENCE: NASA MMS mission imagery; Maxwell (1865); geomagnetic surveys",
+      "VIZ: Field-line MODEL — NOT TO SCALE; blends observation + theory"
+    ]
+  }
+}

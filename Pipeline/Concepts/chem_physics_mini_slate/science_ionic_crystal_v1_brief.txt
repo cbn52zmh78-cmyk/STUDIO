@@ -1,0 +1,17 @@
+Project: science_ionic_crystal_v1
+Format: science-explainer (54s)
+Rating target: PG
+Channels: social, streaming
+Host: Julian-001 synthetic science presenter (roster continuity lock)
+Science subject: Rock-salt (NaCl) crystal lattice
+Domain: Chemistry — Ionic Crystals
+subject_id: ION-CRYST-001
+Key measurement: Lattice parameter a ≈ 5.64 Å; 6:6 coordination (COD 1000040)
+Content: Educational chemistry explainer — electron transfer, ionic bonding, repeating crystal lattice. No medical or legal advice.
+Simulation disclosure: @2 visualization payoff uses structural MODEL from crystallography coordinates — labeled MODEL and NOT TO SCALE; repeated unit cells for teaching, not a micrograph.
+Sources: COD 1000040; RCSB PDB 1NAG assembly reference; OpenStax Chemistry 2e Ch. 10.
+Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE where applicable.
+Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
+AI disclosure: synthetic presenter in provenance card and platform metadata.
+Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-CHE-001 — music cleared, cue sheet on file.

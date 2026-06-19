@@ -1,6 +1,6 @@
 OBSERVABLE — HOW DNA COPIES ITSELF (science_dna_replication_v1)
 
-Host: Julian-001. Target ~54s. Music: BED-CLN-001 (clinical). Gate: GREEN.
+Music bed: BED-CLI-002 — Crystallography — Marimba Grid (clinical-precision); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: CC0 — Pixabay Music (verified CC0 / no attribution); license: CC0; no attribution required); allowed channels: social, streaming, theatrical, festival, client
 Subject: Semi-discontinuous DNA replication (DNA-REP-001). Plate: @Sci-DNA-001 (dna-double-helix, PDB 1BNA).
 Principle routing: jantzen_molecular_cellular.
 
