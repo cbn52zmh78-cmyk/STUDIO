@@ -1,7 +1,7 @@
 {
   "slug": "science_black_hole_anatomy_v1",
-  "qa_at": "2026-06-19T06:19:34.466683+00:00",
-  "pass": true,
+  "qa_at": "2026-06-19T06:57:41.856849+00:00",
+  "pass": false,
   "passes": [
     "shot count OK (5 >= 5)",
     "all shots carry synthetic talent guard (incl. auto-patched)",
@@ -14,8 +14,9 @@
     "host performance: host_performance_extend.mp4 (42.0s)",
     "@Julian-001 continuity prefix embedded in video_prompt",
     "xfade chain + synced audio crossfade at joins",
+    "re-concat join preserved: xfade_chain (0.2s)",
     "audio PRESENT (studio_science_black_hole_anatomy_v1_seamless_v1.mp4 mean -24.6 dB)",
-    "color match reference from locked talent avatar",
+    "clinical neutral WB grade (#193) — lamp_lock disabled, no full-frame warm cast",
     "loudnorm two-pass target I=-16.0 LUFS per shot",
     "audio pinned to exact shot duration (no stretch/offset)",
     "flat loudness across shots (spread 0.03 LU)",
@@ -23,7 +24,9 @@
     "tight A/V sync per shot (duration pinned)",
     "zero hue drift across segments (max magenta 0.000)"
   ],
-  "issues": [],
+  "issues": [
+    "yellow-green cast detected: [('chain_01_hook_processed', 0.4590984974958264), ('chain_02_phenomenon_processed', 0.5313059033989267), ('chain_03_how_we_know_processed', 0.48635235732009924), ('chain_05_significance_processed', 0.42298850574712643)]"
+  ],
   "shot_count": 5,
   "segment_count": 2,
   "seamless": true,
