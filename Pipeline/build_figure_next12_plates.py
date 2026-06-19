@@ -112,8 +112,24 @@ def _registry_by_slug() -> dict[str, dict[str, Any]]:
 def _r6_harvest(slug: str) -> dict[str, Any]:
     data = json.loads(R6_MANIFEST.read_text(encoding="utf-8"))
     for e in data.get("entries", []):
-        if e["slug"] == slug and e.get("harvest_status") == "OK":
+        if e["slug"] != slug or e.get("harvest_status") != "OK":
+            continue
+        p = WORKSPACE / e["file"].replace("/", os.sep)
+        if p.is_file() and p.stat().st_size >= 3000:
             return e
+    # Fallback: harvest file on disk even if manifest stale
+    for ext in (".jpg", ".jpeg", ".png"):
+        p = HISTORY / "figures" / slug / "references" / "portraits" / f"appearance_reference_harvest{ext}"
+        if p.is_file() and p.stat().st_size >= 3000:
+            return {
+                "slug": slug,
+                "name": slug.replace("-", " ").title(),
+                "file": p.relative_to(WORKSPACE).as_posix(),
+                "harvest_status": "OK",
+                "citation": "R6 on-disk harvest",
+                "license": "see figure_reference_licenses.json",
+                "anchor": "appearance reference harvest",
+            }
     raise FileNotFoundError(f"R6 harvest missing for {slug}")
 
 
