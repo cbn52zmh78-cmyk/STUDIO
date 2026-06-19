@@ -19,7 +19,7 @@
 | Roster source | magazine_editorial |
 
 ## Reference
-- **Primary plate:** `PENDING — generate casting_turnaround_v1.jpg`
+- **Primary plate:** `STUDIO/MAGAZINE/Editorial/Models/Nadia Okoro/01_casting_shots/casting_turnaround_v1.jpg`
 - **Roster path:** `STUDIO/MAGAZINE/Editorial/Models/Nadia Okoro`
 
 ## Appearance lock (verbatim — reuse every shot)

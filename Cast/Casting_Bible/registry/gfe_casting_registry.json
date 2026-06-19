@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "generated_at": "2026-06-19T02:43:09.106960+00:00",
+  "generated_at": "2026-06-19T02:50:54.274242+00:00",
   "scope": "gfe",
   "age_minimum_enforced": 21,
   "total": 20,
@@ -9,7 +9,7 @@
     "appearance_lock_locked": 20,
     "ai_disclosure_required": 20,
     "age_21_plus": 20,
-    "compliance_review": 20,
+    "compliance_review": 0,
     "incomplete_appearance_locks": []
   },
   "actors": [
@@ -55,9 +55,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Aiko/actor_profile.pdf"
     },
     {
@@ -102,9 +100,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Ember/actor_profile.pdf"
     },
     {
@@ -149,9 +145,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Hana/actor_profile.pdf"
     },
     {
@@ -196,9 +190,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Iris/actor_profile.pdf"
     },
     {
@@ -243,9 +235,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Jade/actor_profile.pdf"
     },
     {
@@ -290,9 +280,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Kira/actor_profile.pdf"
     },
     {
@@ -337,9 +325,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Luna/actor_profile.pdf"
     },
     {
@@ -384,9 +370,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Lyra/actor_profile.pdf"
     },
     {
@@ -431,9 +415,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Mika/actor_profile.pdf"
     },
     {
@@ -478,9 +460,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Niko/actor_profile.pdf"
     },
     {
@@ -525,9 +505,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Nova/actor_profile.pdf"
     },
     {
@@ -572,9 +550,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Raven/actor_profile.pdf"
     },
     {
@@ -619,9 +595,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Rin/actor_profile.pdf"
     },
     {
@@ -666,9 +640,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Sage/actor_profile.pdf"
     },
     {
@@ -713,9 +685,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Scarlet/actor_profile.pdf"
     },
     {
@@ -760,9 +730,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Sora/actor_profile.pdf"
     },
     {
@@ -807,9 +775,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Vesper/actor_profile.pdf"
     },
     {
@@ -854,9 +820,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Violet/actor_profile.pdf"
     },
     {
@@ -901,9 +865,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Willow/actor_profile.pdf"
     },
     {
@@ -948,9 +910,7 @@
         "suggestive_clothed"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "content_review:(?<!not )\\bnudity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/GFE/Yume/actor_profile.pdf"
     }
   ]

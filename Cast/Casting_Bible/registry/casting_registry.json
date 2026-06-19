@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-19T02:42:15.735314+00:00",
+  "generated_at": "2026-06-19T02:50:54.043232+00:00",
   "scope": "actors_roster",
   "total": 70,
   "summary": {
     "plate_locked": 70,
     "appearance_lock_locked": 70,
     "ai_disclosure_required": 70,
-    "compliance_review": 0,
+    "compliance_review": 35,
     "incomplete_appearance_locks": []
   },
   "actors": [
@@ -29,7 +29,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/east_asia/Aiko_Nakamura",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/east_asia/Aiko_Nakamura/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Japanese-American woman, 5'3\", petite athletic build, straight jet-black bob, almond dark brown eyes, fair-to-light olive skin, wearing a fully covered high-waisted navy blue bikini top and matching navy blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Japanese-American woman, 5'3\", petite athletic build, straight jet-black bob, almond dark brown eyes, fair-to-light olive skin, wearing a fully covered high-waisted navy blue bikini top and matching navy blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -52,7 +52,9 @@
         "tech_thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/east_asia/Aiko_Nakamura/actor_profile.pdf"
     },
     {
@@ -73,7 +75,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Amahle_Ndaba",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Amahle_Ndaba/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 25-year-old Zulu South African woman, 5'9\", tall regal build, breathtaking sculpted cheekbones, almond deep brown eyes, rich ebony skin with natural glow, full lips, shaved-side natural black afro crown, wearing a fully covered high-waisted copper bronze bikini top and matching copper bronze bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 25-year-old Zulu South African woman, 5'9\", tall regal build, breathtaking sculpted cheekbones, almond deep brown eyes, rich ebony skin with natural glow, full lips, shaved-side natural black afro crown, wearing a fully covered high-waisted copper bronze bikini top and matching copper bronze bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -98,7 +100,9 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Amahle_Ndaba/actor_profile.pdf"
     },
     {
@@ -119,7 +123,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 30-year-old British Indian woman, 5'7\", athletic build, thick black hair in long braid, amber-brown eyes, warm brown skin, strong brows, wearing a fully covered high-waisted burgundy bikini top and matching burgundy bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 30-year-old British Indian woman, 5'7\", athletic build, thick black hair in long braid, amber-brown eyes, warm brown skin, strong brows, wearing a fully covered high-waisted burgundy bikini top and matching burgundy bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -142,7 +146,9 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh/actor_profile.pdf"
     },
     {
@@ -163,7 +169,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Amir_Khalil",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Amir_Khalil/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 32-year-old Egyptian-American man, 6'0\", athletic build, short dark curly hair, amber-brown eyes, olive skin, trim beard, warm smile, wearing loose athletic gym shorts in navy and a fitted navy tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 32-year-old Egyptian-American man, 6'0\", athletic build, short dark curly hair, amber-brown eyes, olive skin, trim beard, warm smile, wearing loose athletic gym shorts in navy and a fitted navy tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -186,7 +192,9 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Amir_Khalil/actor_profile.pdf"
     },
     {
@@ -207,7 +215,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/south_asia/Ananya_Reddy",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/south_asia/Ananya_Reddy/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old Indian (Telugu) woman, 5'5\", graceful curvy build, striking large expressive dark eyes, thick glossy black hair to hips, warm copper-toned skin, defined brows, full lips, elegant nose, wearing a fully covered high-waisted maroon bikini top and matching maroon bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old Indian (Telugu) woman, 5'5\", graceful curvy build, striking large expressive dark eyes, thick glossy black hair to hips, warm copper-toned skin, defined brows, full lips, elegant nose, wearing a fully covered high-waisted maroon bikini top and matching maroon bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -232,7 +240,9 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/south_asia/Ananya_Reddy/actor_profile.pdf"
     },
     {
@@ -253,7 +263,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/europe_east/Anastasia_Volkov",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/europe_east/Anastasia_Volkov/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 33-year-old Russian-American woman, 5'8\", ballet-trained posture, straight dark auburn hair in low chignon, pale grey eyes, porcelain skin, sharp cheekbones, wearing a fully covered high-waisted charcoal bikini top and matching charcoal bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 33-year-old Russian-American woman, 5'8\", ballet-trained posture, straight dark auburn hair in low chignon, pale grey eyes, porcelain skin, sharp cheekbones, wearing a fully covered high-waisted charcoal bikini top and matching charcoal bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -277,7 +287,9 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_east/Anastasia_Volkov/actor_profile.pdf"
     },
     {
@@ -298,7 +310,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/latin_america/Andre_Silva",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/latin_america/Andre_Silva/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 27-year-old Brazilian man, 6'1\", soccer-toned muscular build, striking light brown eyes, sun-kissed caramel skin, wavy dark brown hair, perfect white smile, strong jaw, athletic V-taper torso, wearing loose athletic gym shorts in teal and a fitted teal tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 27-year-old Brazilian man, 6'1\", soccer-toned muscular build, striking light brown eyes, sun-kissed caramel skin, wavy dark brown hair, perfect white smile, strong jaw, athletic V-taper torso, wearing loose athletic gym shorts in teal and a fitted teal tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -323,7 +335,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "development",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Andre_Silva/actor_profile.pdf"
     },
     {
@@ -344,7 +358,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/south_asia/Arjun_Mehta",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/south_asia/Arjun_Mehta/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 30-year-old Indian man, 5'10\", fit build, thick black wavy hair, warm brown eyes, medium brown skin, neat trimmed beard, wearing loose athletic gym shorts in navy and a fitted navy tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 30-year-old Indian man, 5'10\", fit build, thick black wavy hair, warm brown eyes, medium brown skin, neat trimmed beard, wearing loose athletic gym shorts in navy and a fitted navy tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -367,7 +381,9 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/south_asia/Arjun_Mehta/actor_profile.pdf"
     },
     {
@@ -388,7 +404,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Bridget_Okafor",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Bridget_Okafor/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 35-year-old Kenyan-British woman, 5'10\", long-legged athletic build, deep brown skin, braided updo, almond dark eyes, high cheekbones, wearing a fully covered high-waisted white bikini top and matching white bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 35-year-old Kenyan-British woman, 5'10\", long-legged athletic build, deep brown skin, braided updo, almond dark eyes, high cheekbones, wearing a fully covered high-waisted white bikini top and matching white bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -411,7 +427,9 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Bridget_Okafor/actor_profile.pdf"
     },
     {
@@ -432,7 +450,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/north_america/Bridget_Walsh",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/north_america/Bridget_Walsh/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 39-year-old Irish-American woman, 5'7\", sturdy athletic build, chestnut ponytail, blue-grey eyes, fair skin, faint scar on left eyebrow, wearing a fully covered high-waisted black bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 39-year-old Irish-American woman, 5'7\", sturdy athletic build, chestnut ponytail, blue-grey eyes, fair skin, faint scar on left eyebrow, wearing a fully covered high-waisted black bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -456,7 +474,9 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/north_america/Bridget_Walsh/actor_profile.pdf"
     },
     {
@@ -477,7 +497,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/latin_america/Camille_Reyes",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/latin_america/Camille_Reyes/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Colombian woman, 5'7\", curvy athletic build, dramatic dark espresso eyes, thick glossy raven hair past shoulders, honey-golden skin, striking cupid's bow, defined cheek hollows, wearing a fully covered high-waisted coral bikini top and matching coral bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Colombian woman, 5'7\", curvy athletic build, dramatic dark espresso eyes, thick glossy raven hair past shoulders, honey-golden skin, striking cupid's bow, defined cheek hollows, wearing a fully covered high-waisted coral bikini top and matching coral bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -502,7 +522,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/Camille_Reyes/actor_profile.pdf"
     },
     {
@@ -523,7 +545,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/latin_america/Carlos_Mendez",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/latin_america/Carlos_Mendez/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 42-year-old Argentinian man, 5'10\", lean dancer build, slicked-back grey at temples black hair, sad dark eyes, olive skin, thin mustache, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 42-year-old Argentinian man, 5'10\", lean dancer build, slicked-back grey at temples black hair, sad dark eyes, olive skin, thin mustache, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -546,7 +568,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Carlos_Mendez/actor_profile.pdf"
     },
     {
@@ -567,7 +591,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/latin_america/Carmen_Delgado",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/latin_america/Carmen_Delgado/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 32-year-old Colombian woman, 5'6\", curvy athletic build, dark curly hair to shoulders, coffee-brown eyes, warm caramel skin, wearing a fully covered high-waisted red bikini top and matching red bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 32-year-old Colombian woman, 5'6\", curvy athletic build, dark curly hair to shoulders, coffee-brown eyes, warm caramel skin, wearing a fully covered high-waisted red bikini top and matching red bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -590,7 +614,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/Carmen_Delgado/actor_profile.pdf"
     },
     {
@@ -611,7 +637,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/europe_west/Chiara_Romano",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/europe_west/Chiara_Romano/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 34-year-old Italian woman, 5'5\", curvy compact build, thick dark chestnut hair in loose waves, amber-brown eyes, olive Mediterranean skin, expressive hands, wearing a fully covered high-waisted terracotta bikini top and matching terracotta bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 34-year-old Italian woman, 5'5\", curvy compact build, thick dark chestnut hair in loose waves, amber-brown eyes, olive Mediterranean skin, expressive hands, wearing a fully covered high-waisted terracotta bikini top and matching terracotta bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -635,7 +661,9 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_west/Chiara_Romano/actor_profile.pdf"
     },
     {
@@ -656,7 +684,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/north_america/Connor_Mitchell",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/north_america/Connor_Mitchell/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old Irish-American man, 5'11\", lean scrappy build, messy dark red hair, blue eyes, fair freckled skin, permanent smirk potential, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old Irish-American man, 5'11\", lean scrappy build, messy dark red hair, blue eyes, fair freckled skin, permanent smirk potential, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -680,7 +708,9 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/north_america/Connor_Mitchell/actor_profile.pdf"
     },
     {
@@ -701,7 +731,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/latin_america/Dante_Reyes",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/latin_america/Dante_Reyes/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Mexican man, 5'11\", compact powerful build, smoldering dark espresso eyes, thick glossy black hair worn loose, bronze-golden skin, striking cheek hollows, bold arched brows, square chin, wearing loose athletic gym shorts in crimson red and a fitted crimson red tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old Mexican man, 5'11\", compact powerful build, smoldering dark espresso eyes, thick glossy black hair worn loose, bronze-golden skin, striking cheek hollows, bold arched brows, square chin, wearing loose athletic gym shorts in crimson red and a fitted crimson red tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -726,7 +756,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "development",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Dante_Reyes/actor_profile.pdf"
     },
     {
@@ -747,7 +779,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/latin_america/Diego_Morales",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/latin_america/Diego_Morales/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 28-year-old Mexican man, 5'11\", wiry muscular build, black wavy hair, intense dark eyes, bronze skin, stubble, silver chain, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 28-year-old Mexican man, 5'11\", wiry muscular build, black wavy hair, intense dark eyes, bronze skin, stubble, silver chain, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -770,7 +802,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Diego_Morales/actor_profile.pdf"
     },
     {
@@ -791,7 +825,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/europe_east/Dmitri_Kozlov",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/europe_east/Dmitri_Kozlov/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 40-year-old Russian man, 6'1\", lean powerful build, shaved head, pale grey eyes, fair skin, sharp cheekbones, straight posture, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 40-year-old Russian man, 6'1\", lean powerful build, shaved head, pale grey eyes, fair skin, sharp cheekbones, straight posture, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -815,7 +849,9 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/europe_east/Dmitri_Kozlov/actor_profile.pdf"
     },
     {
@@ -836,7 +872,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/north_america/Elijah_Brooks",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/north_america/Elijah_Brooks/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 37-year-old African American man, 6'3\", imposing lean build, bald head, deep brown eyes, dark brown skin, neat beard, silver ear stud, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 37-year-old African American man, 6'3\", imposing lean build, bald head, deep brown eyes, dark brown skin, neat beard, silver ear stud, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -860,7 +896,9 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/north_america/Elijah_Brooks/actor_profile.pdf"
     },
     {
@@ -881,7 +919,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/europe_west/Elinor_Trevelyan",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/europe_west/Elinor_Trevelyan/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old White British woman, 5'7\", lean swimmer's build, honey-blonde wavy hair to mid-back, grey-green eyes, fair freckled skin, gold stud earrings, wearing a fully covered high-waisted black bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 26-year-old White British woman, 5'7\", lean swimmer's build, honey-blonde wavy hair to mid-back, grey-green eyes, fair freckled skin, gold stud earrings, wearing a fully covered high-waisted black bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -905,7 +943,9 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_west/Elinor_Trevelyan/actor_profile.pdf"
     },
     {
@@ -926,7 +966,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/europe_west/Emma_Larsen",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/europe_west/Emma_Larsen/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 31-year-old Norwegian woman, 5'9\", strong swimmer's shoulders, strawberry-blonde braid, grey-blue eyes, light freckles, weather-ready fair skin, wearing a fully covered high-waisted slate grey bikini top and matching slate grey bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 31-year-old Norwegian woman, 5'9\", strong swimmer's shoulders, strawberry-blonde braid, grey-blue eyes, light freckles, weather-ready fair skin, wearing a fully covered high-waisted slate grey bikini top and matching slate grey bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -950,7 +990,9 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_west/Emma_Larsen/actor_profile.pdf"
     },
     {
@@ -971,7 +1013,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/oceania_pacific/Ethan_Shaw",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/oceania_pacific/Ethan_Shaw/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old New Zealand European-M\u0101ori man, 6'2\", rugged surfer-athletic build, striking blue-green eyes, sun-weathered tan skin, sandy brown wavy hair, strong square jaw, light stubble, toned forearms, straight nose, wearing loose athletic gym shorts in ocean teal and a fitted ocean teal tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old New Zealand European-M\u0101ori man, 6'2\", rugged surfer-athletic build, striking blue-green eyes, sun-weathered tan skin, sandy brown wavy hair, strong square jaw, light stubble, toned forearms, straight nose, wearing loose athletic gym shorts in ocean teal and a fitted ocean teal tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -996,7 +1038,9 @@
         "rom_com"
       ],
       "agency_status": "development",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/oceania_pacific/Ethan_Shaw/actor_profile.pdf"
     },
     {
@@ -1017,7 +1061,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/middle_east_north_africa/Fatima_Al_Hassan",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/middle_east_north_africa/Fatima_Al_Hassan/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 28-year-old Moroccan-French woman, 5'7\", slim poised build, dark wavy hair to mid-back, deep brown eyes, olive-gold skin, arched brows, wearing a fully covered high-waisted black bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 28-year-old Moroccan-French woman, 5'7\", slim poised build, dark wavy hair to mid-back, deep brown eyes, olive-gold skin, arched brows, wearing a fully covered high-waisted black bikini top and matching black bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1040,7 +1084,9 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/middle_east_north_africa/Fatima_Al_Hassan/actor_profile.pdf"
     },
     {
@@ -1061,7 +1107,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/europe_west/Finn_Macallister",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/europe_west/Finn_Macallister/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 33-year-old Scottish man, 6'0\", rugged athletic build, auburn beard and short hair, green eyes, fair weathered skin, tattoo sleeve left arm, Tattoos: Left arm Celtic knot sleeve \u2014 always visible in short sleeves, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 33-year-old Scottish man, 6'0\", rugged athletic build, auburn beard and short hair, green eyes, fair weathered skin, tattoo sleeve left arm, Tattoos: Left arm Celtic knot sleeve \u2014 always visible in short sleeves, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1085,7 +1131,9 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/europe_west/Finn_Macallister/actor_profile.pdf"
     },
     {
@@ -1106,7 +1154,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Grace_Okonkwo",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Grace_Okonkwo/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Ghanaian woman, 5'6\", slim strong build, short natural coils, radiant dark brown skin, wide smile, expressive brows, wearing a fully covered high-waisted gold bikini top and matching gold bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Ghanaian woman, 5'6\", slim strong build, short natural coils, radiant dark brown skin, wide smile, expressive brows, wearing a fully covered high-waisted gold bikini top and matching gold bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1129,7 +1177,9 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Grace_Okonkwo/actor_profile.pdf"
     },
     {
@@ -1150,7 +1200,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/north_america/Hana_Park",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/north_america/Hana_Park/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Korean-American woman, 5'4\", petite athletic build, straight jet-black hair with blunt bangs, dark brown eyes, smooth light olive skin, wearing a fully covered high-waisted coral bikini top and matching coral bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Korean-American woman, 5'4\", petite athletic build, straight jet-black hair with blunt bangs, dark brown eyes, smooth light olive skin, wearing a fully covered high-waisted coral bikini top and matching coral bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1174,7 +1224,9 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/north_america/Hana_Park/actor_profile.pdf"
     },
     {
@@ -1195,7 +1247,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Hassan_Odeh",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Hassan_Odeh/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 36-year-old Jordanian-British man, 5'11\", solid build, short black hair, calm dark eyes, olive skin, neat beard, still posture, wearing loose athletic gym shorts in grey and a fitted grey tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 36-year-old Jordanian-British man, 5'11\", solid build, short black hair, calm dark eyes, olive skin, neat beard, still posture, wearing loose athletic gym shorts in grey and a fitted grey tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1218,7 +1270,9 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Hassan_Odeh/actor_profile.pdf"
     },
     {
@@ -1239,7 +1293,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/latin_america/In\u00e9s_Marchetti",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/latin_america/In\u00e9s_Marchetti/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 31-year-old Argentine-Italian woman, 5'8\", long-legged model build, stunning grey-blue eyes, sun-kissed olive skin, strong Roman nose, glossy dark auburn hair in loose Hollywood waves, full mouth, wearing a fully covered high-waisted ruby red bikini top and matching ruby red bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 31-year-old Argentine-Italian woman, 5'8\", long-legged model build, stunning grey-blue eyes, sun-kissed olive skin, strong Roman nose, glossy dark auburn hair in loose Hollywood waves, full mouth, wearing a fully covered high-waisted ruby red bikini top and matching ruby red bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1264,7 +1318,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/In\u00e9s_Marchetti/actor_profile.pdf"
     },
     {
@@ -1285,7 +1341,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/latin_america/Isabella_Vargas",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/latin_america/Isabella_Vargas/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old Mexican-American woman, 5'5\", soft hourglass build, long thick wavy dark brown hair, warm hazel-brown eyes, golden olive skin, wearing a fully covered high-waisted terracotta bikini top and matching terracotta bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 29-year-old Mexican-American woman, 5'5\", soft hourglass build, long thick wavy dark brown hair, warm hazel-brown eyes, golden olive skin, wearing a fully covered high-waisted terracotta bikini top and matching terracotta bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1308,7 +1364,9 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/Isabella_Vargas/actor_profile.pdf"
     },
     {
@@ -1329,7 +1387,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/europe_west/James_Whitmore",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/europe_west/James_Whitmore/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 38-year-old White British man, 6'1\", broad-shouldered lean build, short dark brown hair, grey-blue eyes, fair skin, light stubble default, wearing loose athletic gym shorts in charcoal and a fitted charcoal tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 38-year-old White British man, 6'1\", broad-shouldered lean build, short dark brown hair, grey-blue eyes, fair skin, light stubble default, wearing loose athletic gym shorts in charcoal and a fitted charcoal tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1353,7 +1411,9 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/europe_west/James_Whitmore/actor_profile.pdf"
     },
     {
@@ -1374,7 +1434,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/oceania_pacific/Jayden_Tau",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/oceania_pacific/Jayden_Tau/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old M\u0101ori-New Zealander man, 5'11\", powerful rugby build, short dark hair with traditional line-up, brown eyes, brown skin, bone carving necklace, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old M\u0101ori-New Zealander man, 5'11\", powerful rugby build, short dark hair with traditional line-up, brown eyes, brown skin, bone carving necklace, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1397,7 +1457,9 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/oceania_pacific/Jayden_Tau/actor_profile.pdf"
     },
     {
@@ -1418,7 +1480,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/east_asia/Ji_Yeon_Park",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/east_asia/Ji_Yeon_Park/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Korean woman, 5'6\", slim dancer build, glass-skin luminous complexion, sharp V-line jaw, striking dark monolid eyes with soft gradient, sleek black hair with airy bangs, wearing a fully covered high-waisted lavender bikini top and matching lavender bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Korean woman, 5'6\", slim dancer build, glass-skin luminous complexion, sharp V-line jaw, striking dark monolid eyes with soft gradient, sleek black hair with airy bangs, wearing a fully covered high-waisted lavender bikini top and matching lavender bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1443,7 +1505,9 @@
         "tech_thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/east_asia/Ji_Yeon_Park/actor_profile.pdf"
     },
     {
@@ -1464,7 +1528,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/north_america/Julian_Cross",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/north_america/Julian_Cross/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 31-year-old White American man, 6'1\", lean Hollywood build, classic strong jaw, captivating green-hazel eyes, wavy dark brown hair, fair skin with light tan, straight nose, full lower lip, wearing loose athletic gym shorts in forest green and a fitted forest green tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 31-year-old White American man, 6'1\", lean Hollywood build, classic strong jaw, captivating green-hazel eyes, wavy dark brown hair, fair skin with light tan, straight nose, full lower lip, wearing loose athletic gym shorts in forest green and a fitted forest green tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1490,7 +1554,9 @@
         "rom_com"
       ],
       "agency_status": "development",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/north_america/Julian_Cross/actor_profile.pdf"
     },
     {
@@ -1511,7 +1577,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/female/europe_east/Katya_Morozova",
       "reference_image_primary": "STUDIO/Cast/actors_roster/female/europe_east/Katya_Morozova/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Ukrainian woman, 5'9\", statuesque model proportions, ice-blue almond eyes, platinum-blonde straight hair to waist, angular cheekbones, pale luminous skin, striking arched brows, wearing a fully covered high-waisted ice blue bikini top and matching ice blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 24-year-old Ukrainian woman, 5'9\", statuesque model proportions, ice-blue almond eyes, platinum-blonde straight hair to waist, angular cheekbones, pale luminous skin, striking arched brows, wearing a fully covered high-waisted ice blue bikini top and matching ice blue bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Fully covered high-waisted bikini top and matching bikini bottoms in all three views \u2014 fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1537,7 +1603,9 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_east/Katya_Morozova/actor_profile.pdf"
     },
     {
@@ -1558,7 +1626,7 @@
       "roster_path": "STUDIO/Cast/actors_roster/male/east_asia/Kenji_Sato",
       "reference_image_primary": "STUDIO/Cast/actors_roster/male/east_asia/Kenji_Sato/01_casting_shots/casting_turnaround_v1.jpg",
       "reference_image_status": "plate_locked",
-      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 34-year-old Japanese man, 5'10\", lean martial-arts build, black hair medium length swept back, dark brown eyes, fair skin, calm face, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props.",
+      "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 34-year-old Japanese man, 5'10\", lean martial-arts build, black hair medium length swept back, dark brown eyes, fair skin, calm face, wearing loose athletic gym shorts in black and a fitted black tank top (not speedo, not swim briefs, not tight swim trunks). Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel \u2014 camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Loose athletic gym shorts and a fitted tank top in all three views \u2014 fully clothed casting wardrobe, NOT speedo, NOT swim briefs, NOT tight swim trunks, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props. Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure \u2014 unambiguously 21+ adult, not teen, not school-age.",
       "appearance_lock_status": "LOCKED",
       "voice_spec": {
         "register": "derived_from_notes",
@@ -1581,7 +1649,9 @@
         "tech_thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [],
+      "compliance_flags": [
+        "prompt_pattern:\\bcelebrity\\b"
+      ],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/east_asia/Kenji_Sato/actor_profile.pdf"
     },
     {

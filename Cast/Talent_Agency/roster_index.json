@@ -7,8 +7,8 @@
     "magazine_editorial": 10
   },
   "by_status": {
-    "plate_locked": 80,
-    "development": 20
+    "plate_locked": 90,
+    "development": 10
   },
   "talent": [
     {
@@ -555,61 +555,61 @@
       "talent_id": "mag_anya_petrova",
       "display_name": "Anya Petrova",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_freya_lind",
       "display_name": "Freya Lind",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_isolde_moreau",
       "display_name": "Isolde Moreau",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_liora_voss",
       "display_name": "Liora Voss",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_mei_lin_chen",
       "display_name": "Mei Lin Chen",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_nadia_okoro",
       "display_name": "Nadia Okoro",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_priya_singh",
       "display_name": "Priya Singh",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_sofia_alvarez",
       "display_name": "Sofia Alvarez",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_valentina_rossi",
       "display_name": "Valentina Rossi",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     },
     {
       "talent_id": "mag_zara_khan",
       "display_name": "Zara Khan",
       "roster_source": "magazine_editorial",
-      "has_casting_jpg": false
+      "has_casting_jpg": true
     }
   ]
 }

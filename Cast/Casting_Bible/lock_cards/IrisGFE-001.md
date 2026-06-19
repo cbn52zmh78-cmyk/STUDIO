@@ -48,8 +48,5 @@ GENERATE 3D MODEL of back, side and front profiles of 25-year-old Japanese-Frenc
 - SFW_SUGGESTIVE_CLOTHED wardrobe only — suggestive-clothed acceptable; no nude/topless/explicit.
 - AI disclosure required on all shipped content.
 
-## Compliance flags
-- content_review:(?<!not )\bnudity\b
-
 ---
 *STUDIO Casting Bible lock card — do not paraphrase appearance_lock_verbatim in production prompts.*
