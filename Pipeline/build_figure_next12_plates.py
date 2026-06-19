@@ -262,7 +262,12 @@ def render_plate(
         and not force
     ):
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
-        if meta.get("status") == "PLATE_LOCKED" and meta.get("url"):
+        if (
+            meta.get("status") == "PLATE_LOCKED"
+            and meta.get("url")
+            and meta.get("issue") == 196
+            and meta.get("render_safe") is True
+        ):
             print(f"[figure] reusing locked {slug} {kind}")
             return meta
 
@@ -313,6 +318,34 @@ def render_plate(
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[figure] PLATE_LOCKED → {slug}/{fname}")
     return meta
+
+
+def _load_locked_meta(slug: str, kind: str) -> dict[str, Any] | None:
+    fname = PLATE_FILES["head" if kind == "head" else "full"]
+    meta_path = HISTORY / "figures" / slug / "01_reconstruction_plates" / fname
+    meta_path = meta_path.with_suffix(".json")
+    if not meta_path.is_file():
+        return None
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    if meta.get("status") == "PLATE_LOCKED" and meta.get("issue") == 196:
+        return meta
+    return None
+
+
+def _complete_slug_metas(slug_metas: dict[str, dict[str, dict[str, Any]]]) -> dict[str, dict[str, dict[str, Any]]]:
+    out: dict[str, dict[str, dict[str, Any]]] = {}
+    for slug in NEXT_12:
+        kinds: dict[str, dict[str, Any]] = {}
+        if slug in slug_metas:
+            kinds.update(slug_metas[slug])
+        for kind in ("full", "head"):
+            if kind not in kinds:
+                locked = _load_locked_meta(slug, kind)
+                if locked:
+                    kinds[kind] = locked
+        if kinds.get("full") and kinds.get("head"):
+            out[slug] = kinds
+    return out
 
 
 def flip_registry(slug_metas: dict[str, dict[str, dict[str, Any]]]) -> None:
@@ -430,6 +463,10 @@ def main() -> int:
         if not args.full_only:
             slug_metas[slug]["head"] = render_plate(client, figure, harvest, head=True, force=args.force)
 
+    slug_metas = _complete_slug_metas(slug_metas)
+    if len(slug_metas) < len(NEXT_12):
+        missing = [s for s in NEXT_12 if s not in slug_metas]
+        raise RuntimeError(f"incomplete plate lock — missing: {missing}")
     flip_registry(slug_metas)
     update_casting(slug_metas)
     notes = write_notes(slug_metas)
