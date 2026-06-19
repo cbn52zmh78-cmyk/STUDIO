@@ -4,7 +4,7 @@
   "target_seconds": 54,
   "config": {
     "model_video": "grok-imagine-video-1.5",
-    "resolution": "480p",
+    "resolution": "720p",
     "aspect_ratio": "16:9",
     "voice_suffix": "clear enthusiastic science communicator voice, precise but accessible diction, synthetic presenter only",
     "use_identity_lock": false,
@@ -183,7 +183,7 @@
         "social",
         "streaming"
       ],
-      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_011934.json",
+      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_011920.json",
       "checklist_domains": {
         "row_1_synthetic_ownership": "MANUAL",
         "row_2_music_sync": "PASS",

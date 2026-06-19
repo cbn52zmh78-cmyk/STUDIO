@@ -67,7 +67,7 @@
       ],
       "timing": {
         "start_s": 25,
-        "end_s": 34
+        "end_s": 35
       }
     },
     {
@@ -80,8 +80,8 @@
       "on_screen": "",
       "on_screen_labels": [],
       "timing": {
-        "start_s": 34,
-        "end_s": 43
+        "start_s": 35,
+        "end_s": 44
       }
     }
   ],
