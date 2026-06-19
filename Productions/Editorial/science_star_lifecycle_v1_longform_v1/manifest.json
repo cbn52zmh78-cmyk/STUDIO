@@ -1,21 +1,21 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T07:07:09.591496+00:00",
-  "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\batches\\T4_181_science_astro\\scripts\\science_star_lifecycle_v1_480p_script.json",
-  "concat_only": true,
+  "completed_at": "2026-06-19T07:25:36.626451+00:00",
+  "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\scripts\\longform_scripts\\science_star_lifecycle_v1_480p_script.json",
+  "concat_only": false,
   "seamless": true,
   "production_dir": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1",
   "script": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1\\science_star_lifecycle_v1_script.json",
   "imagine_pack": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1\\science_star_lifecycle_v1_imagine_pack.json",
   "output": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1\\output\\studio_science_star_lifecycle_v1_seamless_v1.mp4",
   "extend_performance": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1\\shots\\host_performance_extend.mp4",
-  "extend_steps": "cached",
+  "extend_steps": 5,
   "continuity_mode": "frame_chain",
   "comparison": null,
   "qa": {
     "slug": "science_star_lifecycle_v1",
-    "qa_at": "2026-06-19T07:07:09.590773+00:00",
+    "qa_at": "2026-06-19T07:25:36.625778+00:00",
     "pass": true,
     "passes": [
       "shot count OK (5 >= 5)",
@@ -37,8 +37,8 @@
       "flat loudness across shots (spread 0.03 LU)",
       "clinical/neutral set — magenta probe skipped (grey balance gate)",
       "tight A/V sync per shot (duration pinned)",
-      "neutral WB — yellow-green suppressed (max 0.117 <= 0.12)",
-      "clinical hue stable across segments (yellow-green Δ=0.117)"
+      "neutral WB — yellow-green suppressed (max 0.026 <= 0.12)",
+      "clinical hue stable across segments (yellow-green Δ=0.026)"
     ],
     "issues": [],
     "shot_count": 5,

@@ -26,7 +26,9 @@
     "music_bed": {
       "track_id": "BED-COS-001",
       "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
-    }
+    },
+    "avatar_url": "https://files-cdn.x.ai/0T62BBHfQyGR6nv6nCVx3A/file_80fc692a-42dc-4b10-83a7-66a298517558.jpg",
+    "visualization_url": "https://files-cdn.x.ai/NZytAUpdSkKhVBiWVz-I7Q/file_9b7cd9ad-fcf3-4c8c-9fa9-a86f6397cf28.jpg"
   },
   "shots": [
     {
@@ -183,7 +185,7 @@
         "social",
         "streaming"
       ],
-      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_star_lifecycle_v1_20260619_011942.json",
+      "report_path": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_star_lifecycle_v1_20260619_021821.json",
       "checklist_domains": {
         "row_1_synthetic_ownership": "MANUAL",
         "row_2_music_sync": "PASS",

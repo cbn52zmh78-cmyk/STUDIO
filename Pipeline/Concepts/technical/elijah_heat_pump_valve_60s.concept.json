@@ -1,0 +1,76 @@
+{
+  "slug": "elijah_heat_pump_valve_60s",
+  "title": "Blueprint — Heat Pump Reversing Valve",
+  "format_id": "technical-explainer",
+  "actor_id": "Elijah-001",
+  "target_seconds": 54,
+  "resolution": "480p",
+  "tags": [
+    "technical explainer",
+    "HVAC",
+    "heat pump",
+    "reversing valve",
+    "mechanism",
+    "blueprint"
+  ],
+  "gate_0": {
+    "human_signoff": true,
+    "channels": ["social", "streaming"],
+    "rating": "PG",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "Blueprint",
+    "subtitle": "Built logic, part by part.",
+    "cta": "Follow Blueprint — one system at a time.",
+    "legal_line": "Synthetic presenter · illustrative diagram labeled NOT TO SCALE"
+  },
+  "technical_subject": {
+    "subject_id": "heat_pump_reversing_valve",
+    "domain": "Mechanical Systems — HVAC",
+    "system": "Heat pump reversing valve",
+    "key_spec": "ANSI/ASHRAE reference cycle diagram — four-way valve slide mechanism",
+    "diagram_prompt": "Technical exploded schematic: four-way reversing valve body, slide piston, capillary tubes to indoor and outdoor coils, solenoid pilot; cyan schematic lines on navy field, part callouts, accurate topology not decorative",
+    "diagram_class_default": "exploded",
+    "plate_id": "@Tech-HeatPump-001",
+    "sources": [
+      {
+        "citation": "ASHRAE Handbook — Fundamentals, Chapter 9: Refrigeration Cycles and Systems",
+        "type": "primary"
+      },
+      {
+        "citation": "U.S. DOE Energy Saver — Heat Pump Systems",
+        "url": "https://www.energy.gov/energysaver/heat-pump-systems",
+        "type": "secondary"
+      },
+      {
+        "citation": "Carrier Service Manual — Four-Way Reversing Valve (illustrative teardown reference)",
+        "type": "secondary"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "Your heat pump heats and cools from one outdoor box. The part that flips the whole cycle lives inside this valve — and most homeowners have never seen it.",
+      "on_screen": "Heat pump reversing valve"
+    },
+    {
+      "id": "02_mechanism",
+      "speech_text": "A four-way valve routes hot refrigerant gas either to the indoor coil for heat, or to the outdoor coil for cooling. A slide piston inside the body swaps those paths in milliseconds."
+    },
+    {
+      "id": "03_how_we_know",
+      "speech_text": "ASHRAE documents the standard vapor-compression cycle. Manufacturer teardowns show the slide-and-capillary pilot that moves the piston when the thermostat calls for mode change."
+    },
+    {
+      "id": "04_diagram_payoff",
+      "speech_text": "Watch the payoff: refrigerant enters here, the slide shifts, and the flow diagram inverts — same compressor, opposite job. One valve, two seasons.",
+      "diagram_prompt": "Exploded four-way heat pump reversing valve: brass body, slide piston, solenoid pilot, capillary lines to coils; labeled flow arrows for heating vs cooling modes; cyan-on-navy schematic"
+    },
+    {
+      "id": "05_significance",
+      "speech_text": "When this valve sticks, you get heat in summer or ice in winter — and a service call that costs more than the part. Knowing the mechanism is knowing what failed."
+    }
+  ]
+}

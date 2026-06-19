@@ -41,11 +41,11 @@ R4_SPECS: dict[str, dict[str, Any]] = {
         "principle_set": "general_scientific",
         "imagine_prompt": (
             "Scientific crystal visualization, rock-salt NaCl face-centered cubic ionic lattice, "
-            "alternating Na+ and Cl− ions, COD 1000040 / PDB 1NAG morphology anchor, "
+            "alternating Na+ and Cl− ions, COD 1000041 Fm-3m morphology anchor, "
             "documentary materials chemistry, 16:9, no isolated diatomic gas molecule"
         ),
         "plate_lock_verbatim": (
-            "Crystal lattice — NaCl Fm-3m rock-salt, alternating cations/anions, COD 1000040 class, "
+            "Crystal lattice — NaCl Fm-3m rock-salt, alternating cations/anions, COD 1000041 class, "
             "not gas-phase NaCl dimer."
         ),
         "fidelity_anchors": ["FCC ionic lattice", "Alternating Na+/Cl−", "COD/PDB morphology"],
@@ -74,12 +74,12 @@ R4_SPECS: dict[str, dict[str, Any]] = {
         "reference_file": "Science/reference_plates/chemistry/material_microstructure_reference.jpg",
         "principle_set": "general_scientific",
         "imagine_prompt": (
-            "Scientific materials SEM visualization, laser-microstructured copper surface NASA JSC jsc2023e010177, "
-            "µm-scale engraved texture, sparse particulates, documentary metallurgy microstructure, "
+            "Scientific materials SEM visualization, NIST MML reference particle on porous substrate, "
+            "µm-scale surface texture, sparse particulates, documentary metallurgy microstructure, "
             "not biological cells, 16:9"
         ),
         "plate_lock_verbatim": (
-            "Materials microstructure — SEM laser-textured copper, µm surface features, NASA JSC/DLR anchor, "
+            "Materials microstructure — SEM porous-substrate particle morphology, µm surface features, NIST MML anchor, "
             "not TEM lattice fringes as grain boundaries."
         ),
         "fidelity_anchors": ["SEM surface morphology", "µm-scale texture", "Metallurgy not biology"],

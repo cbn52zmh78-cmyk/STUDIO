@@ -1,0 +1,172 @@
+{
+  "master": "STUDIO\\Productions\\Editorial\\science_galaxy_formation_v1_longform_v1\\output\\studio_science_galaxy_formation_v1_seamless_v1.mp4",
+  "frames_checked": 13,
+  "fps_sampled": 1.0,
+  "frame_proof_dir": "STUDIO\\Productions\\Editorial\\science_galaxy_formation_v1_longform_v1\\frame_proof",
+  "thresholds": {
+    "magenta_max": 0.42,
+    "yellow_green_max": 0.12,
+    "grey_balance_drift_max": 0.12
+  },
+  "measured": {
+    "magenta_max": 0.1968,
+    "magenta_mean": 0.1246,
+    "yellow_green_max": 0.5405,
+    "yellow_green_mean": 0.3399,
+    "grey_balance_drift": 0.0999
+  },
+  "breaches": {
+    "magenta": [],
+    "yellow_green": [
+      [
+        0.0,
+        0.4891
+      ],
+      [
+        1.0,
+        0.4879
+      ],
+      [
+        2.0,
+        0.5101
+      ],
+      [
+        3.0,
+        0.4694
+      ],
+      [
+        4.0,
+        0.5405
+      ],
+      [
+        5.0,
+        0.4941
+      ],
+      [
+        6.0,
+        0.4874
+      ],
+      [
+        7.0,
+        0.1746
+      ],
+      [
+        8.0,
+        0.1746
+      ],
+      [
+        9.0,
+        0.1746
+      ],
+      [
+        10.0,
+        0.1375
+      ],
+      [
+        11.0,
+        0.1397
+      ],
+      [
+        12.0,
+        0.1397
+      ]
+    ],
+    "grey_drift_over": null
+  },
+  "json_self_report_pass": false,
+  "coherence": "COHERENT",
+  "frame_verdict": "FRAME-FAIL",
+  "per_frame": [
+    {
+      "t_s": 0.0,
+      "frame": "frame_0001.jpg",
+      "magenta": 0.0378,
+      "yellow_green": 0.4891,
+      "grey_balance": 0.0319
+    },
+    {
+      "t_s": 1.0,
+      "frame": "frame_0002.jpg",
+      "magenta": 0.0499,
+      "yellow_green": 0.4879,
+      "grey_balance": 0.0324
+    },
+    {
+      "t_s": 2.0,
+      "frame": "frame_0003.jpg",
+      "magenta": 0.055,
+      "yellow_green": 0.5101,
+      "grey_balance": 0.0343
+    },
+    {
+      "t_s": 3.0,
+      "frame": "frame_0004.jpg",
+      "magenta": 0.1906,
+      "yellow_green": 0.4694,
+      "grey_balance": 0.0308
+    },
+    {
+      "t_s": 4.0,
+      "frame": "frame_0005.jpg",
+      "magenta": 0.0375,
+      "yellow_green": 0.5405,
+      "grey_balance": 0.0232
+    },
+    {
+      "t_s": 5.0,
+      "frame": "frame_0006.jpg",
+      "magenta": 0.0359,
+      "yellow_green": 0.4941,
+      "grey_balance": 0.0242
+    },
+    {
+      "t_s": 6.0,
+      "frame": "frame_0007.jpg",
+      "magenta": 0.0323,
+      "yellow_green": 0.4874,
+      "grey_balance": 0.0233
+    },
+    {
+      "t_s": 7.0,
+      "frame": "frame_0008.jpg",
+      "magenta": 0.1967,
+      "yellow_green": 0.1746,
+      "grey_balance": 0.1231
+    },
+    {
+      "t_s": 8.0,
+      "frame": "frame_0009.jpg",
+      "magenta": 0.1967,
+      "yellow_green": 0.1746,
+      "grey_balance": 0.1231
+    },
+    {
+      "t_s": 9.0,
+      "frame": "frame_0010.jpg",
+      "magenta": 0.1967,
+      "yellow_green": 0.1746,
+      "grey_balance": 0.1231
+    },
+    {
+      "t_s": 10.0,
+      "frame": "frame_0011.jpg",
+      "magenta": 0.1968,
+      "yellow_green": 0.1375,
+      "grey_balance": 0.123
+    },
+    {
+      "t_s": 11.0,
+      "frame": "frame_0012.jpg",
+      "magenta": 0.1967,
+      "yellow_green": 0.1397,
+      "grey_balance": 0.123
+    },
+    {
+      "t_s": 12.0,
+      "frame": "frame_0013.jpg",
+      "magenta": 0.1967,
+      "yellow_green": 0.1397,
+      "grey_balance": 0.123
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "master": "STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1\\output\\studio_science_black_hole_anatomy_v1_seamless_v1.mp4",
+  "frames_checked": 48,
+  "fps_sampled": 1.0,
+  "frame_proof_dir": "STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1\\frame_proof",
+  "thresholds": {
+    "magenta_max": 0.42,
+    "yellow_green_max": 0.12,
+    "grey_balance_drift_max": 0.12
+  },
+  "measured": {
+    "magenta_max": 0.7865,
+    "magenta_mean": 0.1092,
+    "yellow_green_max": 0.0129,
+    "yellow_green_mean": 0.0014,
+    "grey_balance_drift": 0.3227
+  },
+  "breaches": {
+    "magenta": [
+      [
+        42.0,
+        0.7865
+      ],
+      [
+        43.0,
+        0.7865
+      ],
+      [
+        44.0,
+        0.7806
+      ],
+      [
+        45.0,
+        0.7806
+      ],
+      [
+        46.0,
+        0.7806
+      ],
+      [
+        47.0,
+        0.7806
+      ]
+    ],
+    "yellow_green": [],
+    "grey_drift_over": 0.3227
+  },
+  "json_self_report_pass": true,
+  "coherence": "INCOHERENT_FALSE_PASS",
+  "frame_verdict": "FRAME-FAIL",
+  "per_frame": [
+    {
+      "t_s": 0.0,
+      "frame": "frame_0001.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0079,
+      "grey_balance": 0.3095
+    },
+    {
+      "t_s": 1.0,
+      "frame": "frame_0002.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0129,
+      "grey_balance": 0.3094
+    },
+    {
+      "t_s": 2.0,
+      "frame": "frame_0003.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0072,
+      "grey_balance": 0.3095
+    },
+    {
+      "t_s": 3.0,
+      "frame": "frame_0004.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0127,
+      "grey_balance": 0.3074
+    },
+    {
+      "t_s": 4.0,
+      "frame": "frame_0005.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0104,
+      "grey_balance": 0.3048
+    },
+    {
+      "t_s": 5.0,
+      "frame": "frame_0006.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0083,
+      "grey_balance": 0.3076
+    },
+    {
+      "t_s": 6.0,
+      "frame": "frame_0007.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0086,
+      "grey_balance": 0.305
+    },
+    {
+      "t_s": 7.0,
+      "frame": "frame_0008.jpg",
+      "magenta": 0.0017,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2105
+    },
+    {
+      "t_s": 8.0,
+      "frame": "frame_0009.jpg",
+      "magenta": 0.0011,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2103
+    },
+    {
+      "t_s": 9.0,
+      "frame": "frame_0010.jpg",
+      "magenta": 0.0019,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2132
+    },
+    {
+      "t_s": 10.0,
+      "frame": "frame_0011.jpg",
+      "magenta": 0.0019,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2126
+    },
+    {
+      "t_s": 11.0,
+      "frame": "frame_0012.jpg",
+      "magenta": 0.0016,
+      "yellow_green": 0.0,
+      "grey_balance": 0.21
+    },
+    {
+      "t_s": 12.0,
+      "frame": "frame_0013.jpg",
+      "magenta": 0.0013,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2047
+    },
+    {
+      "t_s": 13.0,
+      "frame": "frame_0014.jpg",
+      "magenta": 0.002,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2051
+    },
+    {
+      "t_s": 14.0,
+      "frame": "frame_0015.jpg",
+      "magenta": 0.0032,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2086
+    },
+    {
+      "t_s": 15.0,
+      "frame": "frame_0016.jpg",
+      "magenta": 0.0023,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2038
+    },
+    {
+      "t_s": 16.0,
+      "frame": "frame_0017.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3411
+    },
+    {
+      "t_s": 17.0,
+      "frame": "frame_0018.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3398
+    },
+    {
+      "t_s": 18.0,
+      "frame": "frame_0019.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3234
+    },
+    {
+      "t_s": 19.0,
+      "frame": "frame_0020.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.314
+    },
+    {
+      "t_s": 20.0,
+      "frame": "frame_0021.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3184
+    },
+    {
+      "t_s": 21.0,
+      "frame": "frame_0022.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3228
+    },
+    {
+      "t_s": 22.0,
+      "frame": "frame_0023.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.328
+    },
+    {
+      "t_s": 23.0,
+      "frame": "frame_0024.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3309
+    },
+    {
+      "t_s": 24.0,
+      "frame": "frame_0025.jpg",
+      "magenta": 0.0779,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1709
+    },
+    {
+      "t_s": 25.0,
+      "frame": "frame_0026.jpg",
+      "magenta": 0.0653,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1585
+    },
+    {
+      "t_s": 26.0,
+      "frame": "frame_0027.jpg",
+      "magenta": 0.0671,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1645
+    },
+    {
+      "t_s": 27.0,
+      "frame": "frame_0028.jpg",
+      "magenta": 0.0287,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1804
+    },
+    {
+      "t_s": 28.0,
+      "frame": "frame_0029.jpg",
+      "magenta": 0.0289,
+      "yellow_green": 0.0,
+      "grey_balance": 0.19
+    },
+    {
+      "t_s": 29.0,
+      "frame": "frame_0030.jpg",
+      "magenta": 0.0338,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1947
+    },
+    {
+      "t_s": 30.0,
+      "frame": "frame_0031.jpg",
+      "magenta": 0.0739,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1931
+    },
+    {
+      "t_s": 31.0,
+      "frame": "frame_0032.jpg",
+      "magenta": 0.0647,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1832
+    },
+    {
+      "t_s": 32.0,
+      "frame": "frame_0033.jpg",
+      "magenta": 0.0883,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1756
+    },
+    {
+      "t_s": 33.0,
+      "frame": "frame_0034.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3149
+    },
+    {
+      "t_s": 34.0,
+      "frame": "frame_0035.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3174
+    },
+    {
+      "t_s": 35.0,
+      "frame": "frame_0036.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3243
+    },
+    {
+      "t_s": 36.0,
+      "frame": "frame_0037.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3291
+    },
+    {
+      "t_s": 37.0,
+      "frame": "frame_0038.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3309
+    },
+    {
+      "t_s": 38.0,
+      "frame": "frame_0039.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3288
+    },
+    {
+      "t_s": 39.0,
+      "frame": "frame_0040.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3296
+    },
+    {
+      "t_s": 40.0,
+      "frame": "frame_0041.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3648
+    },
+    {
+      "t_s": 41.0,
+      "frame": "frame_0042.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3295
+    },
+    {
+      "t_s": 42.0,
+      "frame": "frame_0043.jpg",
+      "magenta": 0.7865,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0438
+    },
+    {
+      "t_s": 43.0,
+      "frame": "frame_0044.jpg",
+      "magenta": 0.7865,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0438
+    },
+    {
+      "t_s": 44.0,
+      "frame": "frame_0045.jpg",
+      "magenta": 0.7806,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0421
+    },
+    {
+      "t_s": 45.0,
+      "frame": "frame_0046.jpg",
+      "magenta": 0.7806,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0421
+    },
+    {
+      "t_s": 46.0,
+      "frame": "frame_0047.jpg",
+      "magenta": 0.7806,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0421
+    },
+    {
+      "t_s": 47.0,
+      "frame": "frame_0048.jpg",
+      "magenta": 0.7806,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0421
+    }
+  ]
+}

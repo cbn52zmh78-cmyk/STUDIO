@@ -4,7 +4,7 @@
 Substitutes [BRACKET] placeholders with minimal valid values, then runs:
   production_intake.py → render_longform.py --script-only
 
-Exit 0 only if all six formats pass.
+Exit 0 only if all seven formats pass.
 """
 
 from __future__ import annotations
@@ -29,6 +29,7 @@ ACTOR_FILLS = {
     "explainer-ad": "Julian-001",
     "historical-figure-documentary": "David-001",
     "science-explainer": "Julian-001",
+    "technical-explainer": "Elijah-001",
 }
 
 BRACKET_RE = re.compile(r"\[[^\]]+\]")
@@ -61,6 +62,8 @@ def fill_brackets(value: str, *, slug: str, key: str = "") -> str:
         return "Template Domain"
     if key == "phenomenon":
         return "Template Phenomenon"
+    if key == "system":
+        return "Template System"
     if key == "visualization_prompt":
         return "Template scientific visualization."
     if key == "music_bed_id":
@@ -92,7 +95,12 @@ def fill_concept(raw: dict[str, Any], format_id: str, slug: str) -> dict[str, An
         if key == "_template":
             continue
         out[key] = fill_value(val, format_id, slug, key)
-    if format_id in ("documentary-host", "historical-figure-documentary", "science-explainer"):
+    if format_id in (
+        "documentary-host",
+        "historical-figure-documentary",
+        "science-explainer",
+        "technical-explainer",
+    ):
         gate = dict(out.get("gate_0") or {})
         gate.setdefault("human_signoff", True)
         out["gate_0"] = gate
@@ -138,8 +146,8 @@ def validate_one(template_path: Path) -> tuple[bool, str]:
 
 def main() -> int:
     templates = sorted(TEMPLATES_DIR.glob("*.concept.template.json"))
-    if len(templates) != 6:
-        print(f"Expected 6 templates, found {len(templates)}")
+    if len(templates) != 7:
+        print(f"Expected 7 templates, found {len(templates)}")
         return 1
 
     ok = True

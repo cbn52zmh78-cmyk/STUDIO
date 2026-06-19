@@ -1,11 +1,11 @@
 {
   "slug": "science_black_hole_anatomy_v1",
-  "qa_at": "2026-06-19T07:08:15.427986+00:00",
-  "pass": false,
+  "qa_at": "2026-06-19T07:22:18.663788+00:00",
+  "pass": true,
   "passes": [
     "shot count OK (5 >= 5)",
     "all shots carry synthetic talent guard (incl. auto-patched)",
-    "target duration ~50s",
+    "target duration ~49s",
     "STUDIO v1.1 seamless mode ACTIVE",
     "continuity mode: frame_chain; card join xfade=0.2s",
     "frame-chain i2v fallback (extend unsupported on 1.5)",
@@ -19,15 +19,13 @@
     "clinical neutral WB grade (#193) — lamp_lock disabled, no full-frame warm cast",
     "loudnorm two-pass target I=-16.0 LUFS per shot",
     "audio pinned to exact shot duration (no stretch/offset)",
-    "flat loudness across shots (spread 0.03 LU)",
+    "flat loudness across shots (spread 0.04 LU)",
     "clinical/neutral set — magenta probe skipped (grey balance gate)",
     "tight A/V sync per shot (duration pinned)",
-    "neutral WB — yellow-green suppressed (max 0.012 <= 0.12)",
-    "clinical hue stable across segments (yellow-green Δ=0.012)"
+    "neutral WB — yellow-green suppressed (max 0.003 <= 0.12)",
+    "clinical hue stable across segments (yellow-green Δ=0.003)"
   ],
-  "issues": [
-    "04_visualization_payoff: duration 10s outside 7–9s seamless band"
-  ],
+  "issues": [],
   "shot_count": 5,
   "segment_count": 2,
   "seamless": true,

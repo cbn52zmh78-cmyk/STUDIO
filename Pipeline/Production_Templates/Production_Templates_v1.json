@@ -340,6 +340,98 @@
         }
       ]
     },
+    "technical-explainer": {
+      "name": "Technical Explainer (Blueprint)",
+      "description": "Multi-shot systems episode — hook, mechanism, how-we-know, @2 diagram payoff, significance, sources card. Requires concept.technical_subject block at intake. Creator #3 [Blueprint] / Elijah-001.",
+      "target_rating": "PG",
+      "target_seconds": { "min": 45, "default": 54, "max": 120 },
+      "pacing": {
+        "words_per_second": 2.4,
+        "beat_gap_s": 0.35,
+        "register": "quiet authority, systems walk-through, spec-first",
+        "pause_on": ["subsystem reveals", "diagram cutaways", "maintenance stakes"]
+      },
+      "camera": {
+        "primary": "locked medium on warehouse bench — presenter direct to camera",
+        "secondary": "full-frame @2 schematic / exploded diagram payoff",
+        "forbidden": ["handheld jitter", "beauty-filter smoothing", "misleading scale without label"]
+      },
+      "default_set": "@Set-Warehouse-Industrial-001",
+      "default_style": "@Style-Blueprint-Technical-001",
+      "identity_anchor": "@Elijah-001",
+      "identity_continuity_lock": "CONTINUITY LOCK @Elijah-001: identical presenter face, workwear wardrobe, blueprint bench set, same eye-line to camera — seamless continuation of prior take, zero jump cut.",
+      "voice_suffix": "deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only",
+      "guardrails": [
+        "technical_subject block required at intake — subject_id, domain, system, sources",
+        "04_diagram_payoff diagram_class required — AS-BUILT / SPEC / EXPLODED VIEW / ILLUSTRATIVE / NOT TO SCALE labels",
+        "no professional engineering certification — educational systems communication only",
+        "Warehouse Industrial + Blueprint Technical locked for presenter segments (v1 interim set)",
+        "provenance card renders as sources card listing concept.technical_subject.sources",
+        "separate @2 diagram reference from presenter avatar on payoff beat",
+        "never use DAVID Archive or Observable evidence-label marks on Blueprint deliverables"
+      ],
+      "qa_rules": {
+        "require_identity_lock": false,
+        "require_synthetic_guard": true,
+        "require_reconstructed_labels": false,
+        "min_shots": 5
+      },
+      "provenance_card": {
+        "enabled": true,
+        "duration_s": 6,
+        "card_type": "sources",
+        "title": "Sources — {system_name}",
+        "subtitle": "{technical_domain}",
+        "footer": "{sources_summary}"
+      },
+      "shot_blueprints": [
+        {
+          "id": "01_hook",
+          "role": "presenter",
+          "duration": 7,
+          "camera": "locked medium, direct address",
+          "pacing_beat": "hook — failure mode or hidden system",
+          "action_template": "Presenter addresses camera on warehouse bench, surprising failure mode or daily-use system hook.",
+          "speech_placeholder": "[HOOK — you use it daily, never saw inside]"
+        },
+        {
+          "id": "02_mechanism",
+          "role": "presenter",
+          "duration": 9,
+          "camera": "slow push-in medium",
+          "pacing_beat": "mechanism — name subsystems",
+          "action_template": "Presenter names subsystems and what each does in plain language, motivated gesture.",
+          "speech_placeholder": "[MECHANISM — what each part does]"
+        },
+        {
+          "id": "03_how_we_know",
+          "role": "presenter",
+          "duration": 9,
+          "camera": "medium — gesture to evidence",
+          "pacing_beat": "how we know — standard, manual, teardown",
+          "action_template": "Presenter cites standard, manual, teardown, or spec sheet — evidence-forward tone.",
+          "speech_placeholder": "[HOW WE KNOW — standard, manual, or spec citation]"
+        },
+        {
+          "id": "04_diagram_payoff",
+          "role": "presenter",
+          "duration": 10,
+          "camera": "locked medium beside or over @2 diagram plate",
+          "pacing_beat": "@2 diagram payoff",
+          "action_template": "Presenter narrates over locked @2 technical diagram — cutaway, exploded, or schematic plate; label chips on screen.",
+          "speech_placeholder": "[DIAGRAM PAYOFF — what the schematic shows and why it clicks]"
+        },
+        {
+          "id": "05_significance",
+          "role": "presenter",
+          "duration": 9,
+          "camera": "medium-close, authoritative settle",
+          "pacing_beat": "significance — safety, cost, maintenance",
+          "action_template": "Presenter lands stakes — safety, cost, design tradeoff, or maintenance; end on gesture peak.",
+          "speech_placeholder": "[SIGNIFICANCE — real-world stakes and tradeoffs]"
+        }
+      ]
+    },
     "narrative-short-film": {
       "name": "Narrative / Short Film",
       "description": "Beat-driven cinematic short — character arc in under 90s, theatrical lighting, motivated camera.",
@@ -700,7 +792,16 @@
           "astronomy", "biology", "chemistry", "experiment", "measurement", "significance",
           "scientific", "longform science", "sources card", "@2 visualization"
         ],
-        "negative_keywords": ["buy now", "product demo", "saas", "companion", "historical figure", "short film arc"]
+        "negative_keywords": ["buy now", "product demo", "saas", "companion", "historical figure", "short film arc", "heat pump", "HVAC", "exploded view", "blueprint"]
+      },
+      "technical-explainer": {
+        "weight": 1.25,
+        "keywords": [
+          "technical explainer", "mechanism", "how it works", "systems", "HVAC", "exploded view",
+          "spec sheet", "teardown", "blueprint", "diagram payoff", "subsystem", "maintenance",
+          "mechanical", "electrical", "bridge bearing", "valve train", "built logic"
+        ],
+        "negative_keywords": ["phenomenon", "scientific visualization", "companion", "historical figure", "buy now", "saas", "archive host"]
       }
     }
   }

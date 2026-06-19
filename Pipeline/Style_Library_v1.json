@@ -89,6 +89,16 @@
       "lens_motion": "Handheld gentle observational or static wide; motivated reframes only.",
       "end_guard": "Finish on natural gesture peak, never hold dead stillness or dead frame."
     },
+    "@Style-Blueprint-Technical-001": {
+      "name": "Blueprint Technical",
+      "default_sets": ["@Set-Warehouse-Industrial-001"],
+      "reference_anchor": "Creator #3 Blueprint — cyan schematic accent on navy, low-sat host grade, spec-first trust",
+      "continuity_lock": "STYLE LOCK @Style-Blueprint-Technical-001: blueprint technical grade — navy-base low saturation, cyan schematic accent on diagrams only, accurate workwear color, minimal stylistic grading, systems trust, no Observable clinical cast, no DAVID warm amber.",
+      "lighting_lock": "Industrial 4800K window key locked — deep shadow pockets for dimension, no magenta brick bounce, no cool fill contamination.",
+      "color_guard": "GRADE LOCK Blueprint-Technical: host skin true-to-life, wardrobe earth-neutral, diagram accents cyan #3DB8E8 on navy #0A1628 only — forbid full-frame warm lamp cast, forbid magenta fog, forbid orange global, forbid Observable grey clinical on host.",
+      "lens_motion": "Locked-off or slow linear track; no handheld.",
+      "end_guard": "Finish on presentational gesture peak, never hold dead stillness or dead frame."
+    },
     "@Style-Intimate-Close-001": {
       "name": "Intimate Close (PG-13 Editorial)",
       "default_sets": ["@Set-Modern-Apartment-001", "@Set-Studio-Interior-001"],
@@ -118,6 +128,12 @@
     "neutral_product": {
       "set": "@Set-Seamless-Neutral-001",
       "style": "@Style-Cool-Clinical-001"
+    },
+    "blueprint_host": {
+      "set": "@Set-Warehouse-Industrial-001",
+      "style": "@Style-Blueprint-Technical-001",
+      "identity_lock": "Creator3/productions/host_identity_v1/elijah_identity_lock.json",
+      "avatar_ref": "@Elijah-001"
     }
   },
   "compose_template": "{set.continuity_lock} {style.continuity_lock} {action_prompt} {set.lighting_lock} {style.lighting_lock} {set.color_guard} {style.color_guard} {style.lens_motion} {style.end_guard}"

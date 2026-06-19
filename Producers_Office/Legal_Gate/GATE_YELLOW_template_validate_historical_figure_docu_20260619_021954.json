@@ -1,0 +1,54 @@
+{
+  "project": "template_validate_historical_figure_documentary",
+  "verdict": "YELLOW",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [
+    "Numerical performer age not stated \u2014 required per Age Policy + Intimacy Protocol v1.3"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Historical Figure Gate: pre-1901 subject (died 415); 1900 ceiling and recency clear.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "MANUAL",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": true,
+    "death_year": 415,
+    "status": "PASS",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [
+      "Historical Figure Gate: pre-1901 subject (died 415); 1900 ceiling and recency clear."
+    ],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T02:19:54.091507",
+  "source_excerpt": "Project: template_validate_historical_figure_documentary\nTitle: Template Validate \u2014 template validate historical figure documentary\nFormat: historical-figure-documentary\nRating target: PG\nChannels: social, streaming\nPerformer anchor: David-001\nContent: Template Validate \u2014 template validate historical figure documentary\nAI disclosure: synthetic performer labeled in provenance card and platform metadata.\nSynthetic fictional performer only. No celebrity mimicry. adult cast only (21+).\nHistorical fi"
+}

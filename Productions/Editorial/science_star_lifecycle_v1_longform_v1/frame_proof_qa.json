@@ -1,0 +1,421 @@
+{
+  "master": "STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1\\output\\studio_science_star_lifecycle_v1_seamless_v1.mp4",
+  "frames_checked": 48,
+  "fps_sampled": 1.0,
+  "frame_proof_dir": "STUDIO\\Productions\\Editorial\\science_star_lifecycle_v1_longform_v1\\frame_proof",
+  "thresholds": {
+    "magenta_max": 0.42,
+    "yellow_green_max": 0.12,
+    "grey_balance_drift_max": 0.12
+  },
+  "measured": {
+    "magenta_max": 0.8478,
+    "magenta_mean": 0.2231,
+    "yellow_green_max": 0.0135,
+    "yellow_green_mean": 0.001,
+    "grey_balance_drift": 0.2948
+  },
+  "breaches": {
+    "magenta": [
+      [
+        25.0,
+        0.514
+      ],
+      [
+        26.0,
+        0.6081
+      ],
+      [
+        27.0,
+        0.8478
+      ],
+      [
+        28.0,
+        0.7608
+      ],
+      [
+        29.0,
+        0.7416
+      ],
+      [
+        30.0,
+        0.7361
+      ],
+      [
+        31.0,
+        0.7319
+      ],
+      [
+        32.0,
+        0.7209
+      ],
+      [
+        42.0,
+        0.7947
+      ],
+      [
+        43.0,
+        0.7947
+      ],
+      [
+        44.0,
+        0.7939
+      ],
+      [
+        45.0,
+        0.7939
+      ],
+      [
+        46.0,
+        0.7939
+      ],
+      [
+        47.0,
+        0.7939
+      ]
+    ],
+    "yellow_green": [],
+    "grey_drift_over": 0.2948
+  },
+  "json_self_report_pass": true,
+  "coherence": "INCOHERENT_FALSE_PASS",
+  "frame_verdict": "FRAME-FAIL",
+  "per_frame": [
+    {
+      "t_s": 0.0,
+      "frame": "frame_0001.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0073,
+      "grey_balance": 0.309
+    },
+    {
+      "t_s": 1.0,
+      "frame": "frame_0002.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0047,
+      "grey_balance": 0.3117
+    },
+    {
+      "t_s": 2.0,
+      "frame": "frame_0003.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0017,
+      "grey_balance": 0.314
+    },
+    {
+      "t_s": 3.0,
+      "frame": "frame_0004.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0091,
+      "grey_balance": 0.3167
+    },
+    {
+      "t_s": 4.0,
+      "frame": "frame_0005.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0135,
+      "grey_balance": 0.3061
+    },
+    {
+      "t_s": 5.0,
+      "frame": "frame_0006.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0054,
+      "grey_balance": 0.3126
+    },
+    {
+      "t_s": 6.0,
+      "frame": "frame_0007.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0061,
+      "grey_balance": 0.3092
+    },
+    {
+      "t_s": 7.0,
+      "frame": "frame_0008.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2284
+    },
+    {
+      "t_s": 8.0,
+      "frame": "frame_0009.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2274
+    },
+    {
+      "t_s": 9.0,
+      "frame": "frame_0010.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2291
+    },
+    {
+      "t_s": 10.0,
+      "frame": "frame_0011.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2283
+    },
+    {
+      "t_s": 11.0,
+      "frame": "frame_0012.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2291
+    },
+    {
+      "t_s": 12.0,
+      "frame": "frame_0013.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2326
+    },
+    {
+      "t_s": 13.0,
+      "frame": "frame_0014.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2321
+    },
+    {
+      "t_s": 14.0,
+      "frame": "frame_0015.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2334
+    },
+    {
+      "t_s": 15.0,
+      "frame": "frame_0016.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2328
+    },
+    {
+      "t_s": 16.0,
+      "frame": "frame_0017.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3263
+    },
+    {
+      "t_s": 17.0,
+      "frame": "frame_0018.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3221
+    },
+    {
+      "t_s": 18.0,
+      "frame": "frame_0019.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3276
+    },
+    {
+      "t_s": 19.0,
+      "frame": "frame_0020.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3372
+    },
+    {
+      "t_s": 20.0,
+      "frame": "frame_0021.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3271
+    },
+    {
+      "t_s": 21.0,
+      "frame": "frame_0022.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3277
+    },
+    {
+      "t_s": 22.0,
+      "frame": "frame_0023.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3281
+    },
+    {
+      "t_s": 23.0,
+      "frame": "frame_0024.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3327
+    },
+    {
+      "t_s": 24.0,
+      "frame": "frame_0025.jpg",
+      "magenta": 0.2818,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3011
+    },
+    {
+      "t_s": 25.0,
+      "frame": "frame_0026.jpg",
+      "magenta": 0.514,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3165
+    },
+    {
+      "t_s": 26.0,
+      "frame": "frame_0027.jpg",
+      "magenta": 0.6081,
+      "yellow_green": 0.0004,
+      "grey_balance": 0.2916
+    },
+    {
+      "t_s": 27.0,
+      "frame": "frame_0028.jpg",
+      "magenta": 0.8478,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1685
+    },
+    {
+      "t_s": 28.0,
+      "frame": "frame_0029.jpg",
+      "magenta": 0.7608,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0791
+    },
+    {
+      "t_s": 29.0,
+      "frame": "frame_0030.jpg",
+      "magenta": 0.7416,
+      "yellow_green": 0.0,
+      "grey_balance": 0.2547
+    },
+    {
+      "t_s": 30.0,
+      "frame": "frame_0031.jpg",
+      "magenta": 0.7361,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1057
+    },
+    {
+      "t_s": 31.0,
+      "frame": "frame_0032.jpg",
+      "magenta": 0.7319,
+      "yellow_green": 0.0,
+      "grey_balance": 0.109
+    },
+    {
+      "t_s": 32.0,
+      "frame": "frame_0033.jpg",
+      "magenta": 0.7209,
+      "yellow_green": 0.0,
+      "grey_balance": 0.1128
+    },
+    {
+      "t_s": 33.0,
+      "frame": "frame_0034.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3096
+    },
+    {
+      "t_s": 34.0,
+      "frame": "frame_0035.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3138
+    },
+    {
+      "t_s": 35.0,
+      "frame": "frame_0036.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3241
+    },
+    {
+      "t_s": 36.0,
+      "frame": "frame_0037.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3242
+    },
+    {
+      "t_s": 37.0,
+      "frame": "frame_0038.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3301
+    },
+    {
+      "t_s": 38.0,
+      "frame": "frame_0039.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3334
+    },
+    {
+      "t_s": 39.0,
+      "frame": "frame_0040.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.333
+    },
+    {
+      "t_s": 40.0,
+      "frame": "frame_0041.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3339
+    },
+    {
+      "t_s": 41.0,
+      "frame": "frame_0042.jpg",
+      "magenta": 0.0,
+      "yellow_green": 0.0,
+      "grey_balance": 0.3309
+    },
+    {
+      "t_s": 42.0,
+      "frame": "frame_0043.jpg",
+      "magenta": 0.7947,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0442
+    },
+    {
+      "t_s": 43.0,
+      "frame": "frame_0044.jpg",
+      "magenta": 0.7947,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0442
+    },
+    {
+      "t_s": 44.0,
+      "frame": "frame_0045.jpg",
+      "magenta": 0.7939,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0424
+    },
+    {
+      "t_s": 45.0,
+      "frame": "frame_0046.jpg",
+      "magenta": 0.7939,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0424
+    },
+    {
+      "t_s": 46.0,
+      "frame": "frame_0047.jpg",
+      "magenta": 0.7939,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0424
+    },
+    {
+      "t_s": 47.0,
+      "frame": "frame_0048.jpg",
+      "magenta": 0.7939,
+      "yellow_green": 0.0,
+      "grey_balance": 0.0424
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "elijah_heat_pump_valve_60s",
+  "title": "Blueprint — Heat Pump Reversing Valve",
+  "model_video": "grok-imagine-video-1.5",
+  "resolution": "480p",
+  "aspect_ratio": "16:9",
+  "host_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Cast\\actors_roster\\male\\north_america\\Elijah_Brooks\\01_casting_shots\\casting_turnaround_v1.jpg",
+  "avatar_url": null,
+  "set_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\warehouse_industrial_reference.jpg",
+  "voice_suffix": "deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only",
+  "seamless": null,
+  "shots": [
+    {
+      "shot_id": "01_hook",
+      "duration": 7,
+      "image_url": "None",
+      "video_prompt": "CONTINUITY LOCK @Elijah-001: identical presenter face, workwear wardrobe, blueprint bench set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Warehouse-Industrial-001: identical industrial loft — same window grid camera-left, same concrete floor, same brick tone, same beam geometry — seamless continuation, zero jump cut. STYLE LOCK @Style-Blueprint-Technical-001: blueprint technical grade — navy-base low saturation, cyan schematic accent on diagrams only, accurate workwear color, minimal stylistic grading, systems trust, no Observable clinical cast, no DAVID warm amber. Presenter addresses camera on warehouse bench, surprising failure mode or daily-use system hook. Camera: locked medium, direct address. Industrial window 4800K directional key locked — dust motes optional, deep shadow pockets, no magenta brick bounce, no cool fill contamination, zero hue drift. Industrial 4800K window key locked — deep shadow pockets for dimension, no magenta brick bounce, no cool fill contamination. COLOR LOCK Warehouse: brick #8B4A3B desaturated, concrete #A8A8A8, metal #5C5C5C, window light warm-neutral 4800K — no purple shadows, no teal concrete, no neon practicals. GRADE LOCK Blueprint-Technical: host skin true-to-life, wardrobe earth-neutral, diagram accents cyan #3DB8E8 on navy #0A1628 only — forbid full-frame warm lamp cast, forbid magenta fog, forbid orange global, forbid Observable grey clinical on host. Locked-off or slow linear track; no handheld. Lip-synced, delivers: \"Your heat pump heats and cools from one outdoor box. The part that flips the whole cycle lives inside this valve — and most homeowners have never seen it.\" deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only. Finish on presentational gesture peak, never hold dead stillness or dead frame.",
+      "speech_text": "Your heat pump heats and cools from one outdoor box. The part that flips the whole cycle lives inside this valve — and most homeowners have never seen it.",
+      "speech_ipa": null,
+      "on_screen": "Heat pump reversing valve",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 0,
+        "end_s": 7
+      }
+    },
+    {
+      "shot_id": "02_mechanism",
+      "duration": 9,
+      "image_url": "None",
+      "video_prompt": "CONTINUITY LOCK @Elijah-001: identical presenter face, workwear wardrobe, blueprint bench set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Warehouse-Industrial-001: identical industrial loft — same window grid camera-left, same concrete floor, same brick tone, same beam geometry — seamless continuation, zero jump cut. STYLE LOCK @Style-Blueprint-Technical-001: blueprint technical grade — navy-base low saturation, cyan schematic accent on diagrams only, accurate workwear color, minimal stylistic grading, systems trust, no Observable clinical cast, no DAVID warm amber. Presenter names subsystems and what each does in plain language, motivated gesture. Camera: slow push-in medium. Industrial window 4800K directional key locked — dust motes optional, deep shadow pockets, no magenta brick bounce, no cool fill contamination, zero hue drift. Industrial 4800K window key locked — deep shadow pockets for dimension, no magenta brick bounce, no cool fill contamination. COLOR LOCK Warehouse: brick #8B4A3B desaturated, concrete #A8A8A8, metal #5C5C5C, window light warm-neutral 4800K — no purple shadows, no teal concrete, no neon practicals. GRADE LOCK Blueprint-Technical: host skin true-to-life, wardrobe earth-neutral, diagram accents cyan #3DB8E8 on navy #0A1628 only — forbid full-frame warm lamp cast, forbid magenta fog, forbid orange global, forbid Observable grey clinical on host. Locked-off or slow linear track; no handheld. Lip-synced, delivers: \"A four-way valve routes hot refrigerant gas either to the indoor coil for heat, or to the outdoor coil for cooling. A slide piston inside the body swaps those paths in milliseconds.\" deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only. Finish on presentational gesture peak, never hold dead stillness or dead frame.",
+      "speech_text": "A four-way valve routes hot refrigerant gas either to the indoor coil for heat, or to the outdoor coil for cooling. A slide piston inside the body swaps those paths in milliseconds.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 7,
+        "end_s": 16
+      }
+    },
+    {
+      "shot_id": "03_how_we_know",
+      "duration": 9,
+      "image_url": "None",
+      "video_prompt": "CONTINUITY LOCK @Elijah-001: identical presenter face, workwear wardrobe, blueprint bench set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Warehouse-Industrial-001: identical industrial loft — same window grid camera-left, same concrete floor, same brick tone, same beam geometry — seamless continuation, zero jump cut. STYLE LOCK @Style-Blueprint-Technical-001: blueprint technical grade — navy-base low saturation, cyan schematic accent on diagrams only, accurate workwear color, minimal stylistic grading, systems trust, no Observable clinical cast, no DAVID warm amber. Presenter cites standard, manual, teardown, or spec sheet — evidence-forward tone. Camera: medium — gesture to evidence. Industrial window 4800K directional key locked — dust motes optional, deep shadow pockets, no magenta brick bounce, no cool fill contamination, zero hue drift. Industrial 4800K window key locked — deep shadow pockets for dimension, no magenta brick bounce, no cool fill contamination. COLOR LOCK Warehouse: brick #8B4A3B desaturated, concrete #A8A8A8, metal #5C5C5C, window light warm-neutral 4800K — no purple shadows, no teal concrete, no neon practicals. GRADE LOCK Blueprint-Technical: host skin true-to-life, wardrobe earth-neutral, diagram accents cyan #3DB8E8 on navy #0A1628 only — forbid full-frame warm lamp cast, forbid magenta fog, forbid orange global, forbid Observable grey clinical on host. Locked-off or slow linear track; no handheld. Lip-synced, delivers: \"ASHRAE documents the standard vapor-compression cycle. Manufacturer teardowns show the slide-and-capillary pilot that moves the piston when the thermostat calls for mode change.\" deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only. Finish on presentational gesture peak, never hold dead stillness or dead frame.",
+      "speech_text": "ASHRAE documents the standard vapor-compression cycle. Manufacturer teardowns show the slide-and-capillary pilot that moves the piston when the thermostat calls for mode change.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 16,
+        "end_s": 25
+      }
+    },
+    {
+      "shot_id": "04_diagram_payoff",
+      "duration": 9,
+      "image_url": "None",
+      "video_prompt": "CONTINUITY LOCK @Elijah-001: identical presenter face, workwear wardrobe, blueprint bench set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Warehouse-Industrial-001: identical industrial loft — same window grid camera-left, same concrete floor, same brick tone, same beam geometry — seamless continuation, zero jump cut. STYLE LOCK @Style-Blueprint-Technical-001: blueprint technical grade — navy-base low saturation, cyan schematic accent on diagrams only, accurate workwear color, minimal stylistic grading, systems trust, no Observable clinical cast, no DAVID warm amber. Presenter narrates over locked @2 technical diagram — cutaway, exploded, or schematic plate; label chips on screen. Camera: locked medium beside or over @2 diagram plate. Industrial window 4800K directional key locked — dust motes optional, deep shadow pockets, no magenta brick bounce, no cool fill contamination, zero hue drift. Industrial 4800K window key locked — deep shadow pockets for dimension, no magenta brick bounce, no cool fill contamination. COLOR LOCK Warehouse: brick #8B4A3B desaturated, concrete #A8A8A8, metal #5C5C5C, window light warm-neutral 4800K — no purple shadows, no teal concrete, no neon practicals. GRADE LOCK Blueprint-Technical: host skin true-to-life, wardrobe earth-neutral, diagram accents cyan #3DB8E8 on navy #0A1628 only — forbid full-frame warm lamp cast, forbid magenta fog, forbid orange global, forbid Observable grey clinical on host. Locked-off or slow linear track; no handheld. Lip-synced, delivers: \"Watch the payoff: refrigerant enters here, the slide shifts, and the flow diagram inverts — same compressor, opposite job. One valve, two seasons.\" deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only. Finish on presentational gesture peak, never hold dead stillness or dead frame.",
+      "speech_text": "Watch the payoff: refrigerant enters here, the slide shifts, and the flow diagram inverts — same compressor, opposite job. One valve, two seasons.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [
+        "EXPLODED VIEW",
+        "ILLUSTRATIVE",
+        "NOT TO SCALE"
+      ],
+      "timing": {
+        "start_s": 25,
+        "end_s": 34
+      }
+    },
+    {
+      "shot_id": "05_significance",
+      "duration": 9,
+      "image_url": "None",
+      "video_prompt": "CONTINUITY LOCK @Elijah-001: identical presenter face, workwear wardrobe, blueprint bench set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Warehouse-Industrial-001: identical industrial loft — same window grid camera-left, same concrete floor, same brick tone, same beam geometry — seamless continuation, zero jump cut. STYLE LOCK @Style-Blueprint-Technical-001: blueprint technical grade — navy-base low saturation, cyan schematic accent on diagrams only, accurate workwear color, minimal stylistic grading, systems trust, no Observable clinical cast, no DAVID warm amber. Presenter lands stakes — safety, cost, design tradeoff, or maintenance; end on gesture peak. Camera: medium-close, authoritative settle. Industrial window 4800K directional key locked — dust motes optional, deep shadow pockets, no magenta brick bounce, no cool fill contamination, zero hue drift. Industrial 4800K window key locked — deep shadow pockets for dimension, no magenta brick bounce, no cool fill contamination. COLOR LOCK Warehouse: brick #8B4A3B desaturated, concrete #A8A8A8, metal #5C5C5C, window light warm-neutral 4800K — no purple shadows, no teal concrete, no neon practicals. GRADE LOCK Blueprint-Technical: host skin true-to-life, wardrobe earth-neutral, diagram accents cyan #3DB8E8 on navy #0A1628 only — forbid full-frame warm lamp cast, forbid magenta fog, forbid orange global, forbid Observable grey clinical on host. Locked-off or slow linear track; no handheld. Lip-synced, delivers: \"When this valve sticks, you get heat in summer or ice in winter — and a service call that costs more than the part. Knowing the mechanism is knowing what failed.\" deep measured baritone, unhurried authoritative systems walk-through, synthetic presenter only. Finish on presentational gesture peak, never hold dead stillness or dead frame.",
+      "speech_text": "When this valve sticks, you get heat in summer or ice in winter — and a service call that costs more than the part. Knowing the mechanism is knowing what failed.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 34,
+        "end_s": 43
+      }
+    }
+  ],
+  "provenance_shot": {
+    "type": "code_rendered_png",
+    "duration_s": 6,
+    "enabled": true
+  }
+}

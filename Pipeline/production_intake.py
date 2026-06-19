@@ -70,8 +70,10 @@ GATE_EXIT_SIGNOFF_REQUIRED = 3
 ADULT_CAST_PHRASE = "adult cast only (21+)"
 HISTORICAL_FIGURE_FORMAT = "historical-figure-documentary"
 SCIENCE_EXPLAINER_FORMAT = "science-explainer"
+TECHNICAL_EXPLAINER_FORMAT = "technical-explainer"
 PERIOD_LINE_SHOT_ID = "04_period_line"
 VIZ_PAYOFF_SHOT_ID = "04_visualization_payoff"
+DIAGRAM_PAYOFF_SHOT_ID = "04_diagram_payoff"
 
 
 # --------------------------------------------------------------------------- #
@@ -282,6 +284,23 @@ def build_gate_brief_text(
         )
         lines.append(
             "Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel."
+        )
+    ts = concept.get("technical_subject") or {}
+    if ts and format_id == TECHNICAL_EXPLAINER_FORMAT:
+        lines.append(f"Technical subject: {ts.get('system') or ts.get('subject_id', 'systems episode')}")
+        lines.append(f"Domain: {ts.get('domain', '')}")
+        lines.append(f"subject_id: {ts.get('subject_id', '')}")
+        if ts.get("key_spec"):
+            lines.append(f"Key spec: {ts['key_spec']}")
+        srcs = ts.get("sources") or []
+        if srcs:
+            cites = "; ".join(str(s.get("citation", "")) for s in srcs[:4] if s.get("citation"))
+            lines.append(f"Sources: {cites}")
+        lines.append(
+            "Technical diagram @2 payoff — AS-BUILT / SPEC / EXPLODED VIEW / ILLUSTRATIVE / NOT TO SCALE labels."
+        )
+        lines.append(
+            "Dignity: SFW educational systems communication; not professional engineering certification."
         )
     resolve_music = _import_music_clearance()
     music_line = resolve_music(concept)
@@ -674,6 +693,45 @@ def _parse_science_subject(concept: dict[str, Any], format_id: str) -> dict[str,
     return enrich_science_subject(base)
 
 
+def _parse_technical_subject(concept: dict[str, Any], format_id: str) -> dict[str, Any]:
+    """Validate and normalize concept.technical_subject for technical-explainer format."""
+    if format_id != TECHNICAL_EXPLAINER_FORMAT:
+        return {}
+    ts = concept.get("technical_subject")
+    if not isinstance(ts, dict):
+        raise ValueError(
+            f"format '{TECHNICAL_EXPLAINER_FORMAT}' requires a 'technical_subject' object "
+            "(subject_id, domain, system, sources)"
+        )
+    for key in ("subject_id", "domain", "system", "sources"):
+        if key not in ts or ts[key] in (None, "", []):
+            raise ValueError(f"technical_subject.{key} is required")
+    sources = ts["sources"]
+    if not isinstance(sources, list) or not sources:
+        raise ValueError("technical_subject.sources must be a non-empty list")
+    normalized_sources: list[dict[str, Any]] = []
+    for i, src in enumerate(sources):
+        if not isinstance(src, dict) or not str(src.get("citation", "")).strip():
+            raise ValueError(f"technical_subject.sources[{i}] must include a non-empty 'citation'")
+        normalized_sources.append({
+            "citation": str(src["citation"]).strip(),
+            "url": src.get("url"),
+            "type": src.get("type", "secondary"),
+            "notes": src.get("notes"),
+        })
+    return {
+        "subject_id": str(ts["subject_id"]).strip(),
+        "domain": str(ts["domain"]).strip(),
+        "system": str(ts["system"]).strip(),
+        "key_spec": ts.get("key_spec"),
+        "visualization_ref": ts.get("visualization_ref"),
+        "diagram_prompt": ts.get("diagram_prompt"),
+        "diagram_class_default": ts.get("diagram_class_default", "exploded"),
+        "plate_id": ts.get("plate_id"),
+        "sources": normalized_sources,
+    }
+
+
 def _viz_payoff_labels(beat: dict[str, Any], ss: dict[str, Any]) -> list[str]:
     if beat.get("on_screen_labels"):
         return list(beat["on_screen_labels"])
@@ -681,6 +739,22 @@ def _viz_payoff_labels(beat: dict[str, Any], ss: dict[str, Any]) -> list[str]:
     if beat.get("scale_label", ss.get("scale_label", "NOT TO SCALE")):
         labels.append(str(beat.get("scale_label", ss.get("scale_label", "NOT TO SCALE"))))
     return labels
+
+
+def _diagram_payoff_labels(beat: dict[str, Any], ts: dict[str, Any]) -> list[str]:
+    if beat.get("on_screen_labels"):
+        return list(beat["on_screen_labels"])
+    diagram_class = str(
+        beat.get("diagram_class") or ts.get("diagram_class_default") or "exploded"
+    ).lower().replace(" ", "_").replace("-", "_")
+    presets: dict[str, list[str]] = {
+        "as_built": ["AS-BUILT"],
+        "spec": ["SPEC"],
+        "exploded": ["EXPLODED VIEW", "ILLUSTRATIVE", "NOT TO SCALE"],
+        "exploded_view": ["EXPLODED VIEW", "ILLUSTRATIVE", "NOT TO SCALE"],
+        "illustrative": ["ILLUSTRATIVE", "NOT TO SCALE"],
+    }
+    return presets.get(diagram_class, ["EXPLODED VIEW", "ILLUSTRATIVE", "NOT TO SCALE"])
 
 
 def _period_line_labels(beat: dict[str, Any], hf: dict[str, Any]) -> list[str]:
@@ -701,6 +775,7 @@ def _build_shots(
     voice_suffix: str,
     historical_figure: Optional[dict[str, Any]] = None,
     science_subject: Optional[dict[str, Any]] = None,
+    technical_subject: Optional[dict[str, Any]] = None,
 ) -> list[dict[str, Any]]:
     """Merge concept beats over the format's shot blueprints.
 
@@ -777,6 +852,15 @@ def _build_shots(
                 shot["visualization_prompt"] = viz_prompt
             if science_subject.get("visualization_ref"):
                 shot["visualization_ref"] = science_subject["visualization_ref"]
+        if technical_subject and shot["id"] == DIAGRAM_PAYOFF_SHOT_ID:
+            shot["on_screen_labels"] = _diagram_payoff_labels(row, technical_subject)
+            shot["reference_slots"] = {"@2": "diagram"}
+            shot["technical_subject_ref"] = technical_subject["subject_id"]
+            diagram_prompt = row.get("diagram_prompt") or technical_subject.get("diagram_prompt")
+            if diagram_prompt:
+                shot["diagram_prompt"] = diagram_prompt
+            if technical_subject.get("visualization_ref"):
+                shot["diagram_ref"] = technical_subject["visualization_ref"]
         shots.append(shot)
         t += duration
 
@@ -796,6 +880,7 @@ def _build_config(
     libs: dict[str, Any],
     *,
     science_subject: Optional[dict[str, Any]] = None,
+    technical_subject: Optional[dict[str, Any]] = None,
 ) -> dict[str, Any]:
     cfg: dict[str, Any] = {
         "model_video": concept.get("model_video", "grok-imagine-video-1.5"),
@@ -829,8 +914,13 @@ def _build_config(
     if set_obj.get("reference_file"):
         cfg["set_reference"] = set_obj["reference_file"]
 
+    viz_ref = None
     if science_subject and science_subject.get("visualization_ref"):
-        cfg["visualization_reference"] = science_subject["visualization_ref"]
+        viz_ref = science_subject["visualization_ref"]
+    if technical_subject and technical_subject.get("visualization_ref"):
+        viz_ref = technical_subject["visualization_ref"]
+    if viz_ref:
+        cfg["visualization_reference"] = viz_ref
 
     # Seamless: library defaults, with host audio/lamp locks for the host format,
     # then any concept overrides on top.
@@ -846,6 +936,18 @@ def _build_config(
                 "pin_audio_sync": True,
                 "reground_interval": fmt.get("guardrails") and 2 or 2,
                 "magenta_clamp": True,
+            }
+        )
+    if format_id == TECHNICAL_EXPLAINER_FORMAT:
+        seamless.update(
+            {
+                "lamp_lock": False,
+                "glasses_lock": False,
+                "loudnorm": True,
+                "pin_audio_sync": True,
+                "reground_interval": 2,
+                "magenta_clamp": True,
+                "neutral_grade": False,
             }
         )
     seamless.update(concept.get("seamless", {}))
@@ -883,6 +985,7 @@ def _build_provenance(
     *,
     historical_figure: Optional[dict[str, Any]] = None,
     science_subject: Optional[dict[str, Any]] = None,
+    technical_subject: Optional[dict[str, Any]] = None,
 ) -> dict[str, Any]:
     template = dict(fmt.get("provenance_card", {"enabled": False}))
     brand = concept.get("brand", {})
@@ -890,7 +993,8 @@ def _build_provenance(
 
     hf = historical_figure or {}
     ss = science_subject or {}
-    subject_sources = ss.get("sources") or hf.get("sources") or []
+    ts = technical_subject or {}
+    subject_sources = ts.get("sources") or ss.get("sources") or hf.get("sources") or []
     subs = {
         "brand_title": brand.get("title", concept.get("title", "")),
         "brand_subtitle": brand.get("subtitle", ""),
@@ -903,6 +1007,8 @@ def _build_provenance(
         "death_year": str(hf.get("death_year", "")),
         "phenomenon_name": ss.get("phenomenon") or ss.get("subject_id", ""),
         "science_domain": ss.get("domain", ""),
+        "system_name": ts.get("system") or ts.get("subject_id", ""),
+        "technical_domain": ts.get("domain", ""),
         "sources_summary": _sources_summary(subject_sources),
     }
     for key, val in list(template.items()):
@@ -920,6 +1026,10 @@ def _build_provenance(
         template["card_type"] = template.get("card_type", "sources")
         template["sources"] = ss.get("sources", [])
         template["science_subject_id"] = ss.get("subject_id")
+    if ts:
+        template["card_type"] = template.get("card_type", "sources")
+        template["sources"] = ts.get("sources", [])
+        template["technical_subject_id"] = ts.get("subject_id")
     return template
 
 
@@ -1001,15 +1111,18 @@ def build_longform_script(
     identity_lock = _identity_lock_text(fmt, actor, actor_id)
     historical_figure = _parse_historical_figure(concept, format_id)
     science_subject = _parse_science_subject(concept, format_id)
+    technical_subject = _parse_technical_subject(concept, format_id)
 
     config = _build_config(
         concept, fmt, format_id, set_obj, actor, voice_suffix, libs,
         science_subject=science_subject or None,
+        technical_subject=technical_subject or None,
     )
     shots = _build_shots(
         concept, fmt, set_obj, style_obj, identity_lock, voice_suffix,
         historical_figure=historical_figure or None,
         science_subject=science_subject or None,
+        technical_subject=technical_subject or None,
     )
     duration_clamp_meta: dict[str, Any] | None = None
     if should_clamp_shot_durations(config.get("seamless")):
@@ -1045,13 +1158,14 @@ def build_longform_script(
             concept, fmt,
             historical_figure=historical_figure or None,
             science_subject=science_subject or None,
+            technical_subject=technical_subject or None,
         ),
         "qa_rules": fmt.get(
             "qa_rules",
             {"require_identity_lock": True, "require_synthetic_guard": True, "min_shots": 1},
         ),
     }
-    if historical_figure or science_subject:
+    if historical_figure or science_subject or technical_subject:
         script["production_meta"] = {
             "set_id": set_id,
             "style_id": style_id,
@@ -1091,6 +1205,17 @@ def build_longform_script(
         }
         if science_subject.get("principle_set"):
             script["production_meta"]["principle_set"] = science_subject["principle_set"]
+    if technical_subject:
+        script["intake"]["technical_subject"] = technical_subject
+        script["production_meta"]["technical_subject"] = {
+            "subject_id": technical_subject["subject_id"],
+            "domain": technical_subject["domain"],
+            "system": technical_subject["system"],
+            "key_spec": technical_subject.get("key_spec"),
+            "source_count": len(technical_subject["sources"]),
+            "has_diagram_ref": bool(technical_subject.get("visualization_ref")),
+            "plate_id": technical_subject.get("plate_id"),
+        }
     return script
 
 
