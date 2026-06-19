@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "updated": "2026-06-19",
   "library_root": "Music_Beds",
   "manifest_path": "STUDIO/Music_Sound/clearance_manifest.json",
@@ -14,13 +14,23 @@
     "cosmic-awe",
     "clinical-precision",
     "physics-precision",
-    "chemistry-lab"
+    "chemistry-lab",
+    "how-it-works"
   ],
   "science_lanes": {
     "cosmic-awe": "Astrophysics, cosmology, JWST/EHT wonder-tone documentary beds",
     "clinical-precision": "Molecular, PDB, lab-measurement, clinical explainer beds",
     "physics-precision": "Classical & atmospheric physics, measurement explainers",
-    "chemistry-lab": "Chemical reaction, bonding, stoichiometry explainers"
+    "chemistry-lab": "Chemical reaction, bonding, stoichiometry explainers",
+    "how-it-works": "Creator #3 Observable — accessible phenomenon explainers, How It Works tone"
+  },
+  "creator_lanes": {
+    "creator_3_observable": {
+      "channel": "Observable",
+      "host": "Julian-001",
+      "default_lane": "how-it-works",
+      "series": "How It Works"
+    }
   },
   "period_lanes": {
     "period-antiquity": "Ancient / classical / late-antique / Bronze Age documentary beds",
@@ -323,6 +333,34 @@
       "duration_seconds": 170,
       "bpm": 94,
       "source": "CC0 — OpenGameArt community upload (verified CC0 1.0)",
+      "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-HIW-001": {
+      "title": "Mechanism — Soft Pulse",
+      "lane": "how-it-works",
+      "mood": "curious",
+      "domain": "Creator #3 Observable — phenomenon mechanism explainers",
+      "file": "Music_Beds/how-it-works/BED-HIW-001.mp3",
+      "duration_seconds": 165,
+      "bpm": 90,
+      "source": "Upon Tyne Productions — science score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-HIW-002": {
+      "title": "Process Reveal — Marimba Steps",
+      "lane": "how-it-works",
+      "mood": "curious",
+      "domain": "Creator #3 Observable — step-by-step How It Works explainers",
+      "file": "Music_Beds/how-it-works/BED-HIW-002.mp3",
+      "duration_seconds": 150,
+      "bpm": 102,
+      "source": "CC0 — Pixabay Music (verified CC0 / no attribution)",
       "license": "CC0",
       "attribution_required": false,
       "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],

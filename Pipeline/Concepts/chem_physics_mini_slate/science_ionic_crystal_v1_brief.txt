@@ -14,4 +14,4 @@ Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE 
 Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
 AI disclosure: synthetic presenter in provenance card and platform metadata.
 Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
-Music bed: BED-CHE-001 — Reaction Vessel — Glass Harmonics (chemistry-lab); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — science score library (synthetic ensemble); license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client
+Music bed: BED-HIW-001 — Mechanism — Soft Pulse (how-it-works); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions — science score library (synthetic ensemble); license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client

@@ -1,0 +1,86 @@
+{
+  "handoff_id": "OBSERVABLE-intro-sting-4s-v186",
+  "task": "#186",
+  "queued_at": "2026-06-19",
+  "lane": "OBSERVATORY",
+  "priority": "normal",
+  "blocked_by": [],
+  "title": "Observable — 4s intro sting (channel bumper)",
+  "status": "QUEUED",
+  "deliverable": {
+    "export_path": "Observable/brand/export/intro_sting_4s_1080p.mp4",
+    "codec": "H.264",
+    "pixel_format": "yuv420p",
+    "resolution": "1920x1080",
+    "duration_s": 4.0,
+    "fps": 24
+  },
+  "source_specs": [
+    "Observable/brand/Upon_Tyne_Observable_Brand_Kit_v1.md §6.3",
+    "Observable/brand/asset_specs.json → assets[id=intro_sting]",
+    "Observable/brand/CHANNEL_SETUP_KIT.md"
+  ],
+  "picture_timeline": [
+    {
+      "t_start": 0.0,
+      "t_end": 0.5,
+      "action": "Fade from black to obs-bg #121820"
+    },
+    {
+      "t_start": 0.5,
+      "t_end": 3.0,
+      "action": "Seamless neutral wide (#9A9A98) + Julian Cross medium shot, smart-casual wardrobe (NOT gym casting kit), cool-clinical grade"
+    },
+    {
+      "t_start": 3.0,
+      "t_end": 4.0,
+      "action": "Observable wordmark + tagline on-screen"
+    }
+  ],
+  "on_screen": {
+    "wordmark": "Observable",
+    "tagline": "Evidence before wonder.",
+    "typography": "IBM Plex Sans 600 wordmark · Inter 400 tagline",
+    "colors": {
+      "obs-bg": "#121820",
+      "obs-title": "#E8EEF2",
+      "obs-body": "#A8B8C8",
+      "obs-accent": "#2A7B9E"
+    }
+  },
+  "audio": {
+    "music_bed_options": ["BED-CLI-001", "BED-PHY-001", "BED-CHE-001"],
+    "clearance": "STUDIO/Producers_Office/clearance_manifest v1.3 — row 2 PASS required",
+    "room_tone_swell": "optional",
+    "loudness_target_lufs": -16
+  },
+  "assets_in": {
+    "host_plate": "STUDIO/Cast/actors_roster/male/north_america/Julian_Cross/01_casting_shots/casting_turnaround_v1.jpg",
+    "host_identity": "Observable/productions/host_identity_v1/julian_identity_lock.json",
+    "set_reference": "STUDIO/Pipeline/references/seamless_neutral_grey_reference.json",
+    "wordmark_png": "Observable/brand/export/observable_wordmark_1x.png",
+    "wordmark_svg": "Observable/brand/export/observable_wordmark.svg",
+    "style_lock": "@Style-Cool-Clinical-001",
+    "set_lock": "@Set-Seamless-Neutral-001",
+    "actor_id": "Julian-001"
+  },
+  "continuity": {
+    "host_lock": "CONTINUITY LOCK @Julian-001: identical presenter face, smart-casual wardrobe, seamless neutral set, same eye-line to camera — seamless continuation of prior take, zero jump cut.",
+    "wardrobe_note": "Production smart-casual navy henley — NOT gym kit from casting plate"
+  },
+  "acceptance_criteria": [
+    "Duration 4.0s ±0.05s",
+    "1920x1080 H.264 yuv420p",
+    "Wordmark + tagline legible on TV-safe center at 3.0–4.0s",
+    "Cool-clinical grade — no magenta vignette, no warm cozy cast",
+    "Music bed cleared per manifest OR room-tone only",
+    "Synthetic host disclosure not required in-sting (channel-level default applies)",
+    "File written to Observable/brand/export/intro_sting_4s_1080p.mp4"
+  ],
+  "post_delivery": [
+    "Update Observable/brand/CHANNEL_SETUP_KIT.md intro sting row → ✅",
+    "Update Upon_Tyne_Observable_Brand_Kit_v1.md manifest §8 intro sting → ✅",
+    "Optional: attach to channel upload defaults in Observable/brand/CHANNEL_SETUP_KIT.md"
+  ],
+  "notes": "Handed from T3 #186. Channel art (banner/avatar/wordmark) already rendered v1 — sting is remaining optional blocker before go-live polish."
+}
