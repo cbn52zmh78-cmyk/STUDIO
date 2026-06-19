@@ -1,6 +1,6 @@
 {
   "slug": "science_black_hole_anatomy_v1",
-  "qa_at": "2026-06-19T06:57:41.856849+00:00",
+  "qa_at": "2026-06-19T07:03:22.807798+00:00",
   "pass": false,
   "passes": [
     "shot count OK (5 >= 5)",
@@ -20,12 +20,12 @@
     "loudnorm two-pass target I=-16.0 LUFS per shot",
     "audio pinned to exact shot duration (no stretch/offset)",
     "flat loudness across shots (spread 0.03 LU)",
-    "zero magenta (max score 0.000 <= 0.42)",
+    "clinical/neutral set — magenta probe skipped (grey balance gate)",
     "tight A/V sync per shot (duration pinned)",
-    "zero hue drift across segments (max magenta 0.000)"
+    "neutral WB — yellow-green suppressed (max 0.012 <= 0.12)"
   ],
   "issues": [
-    "yellow-green cast detected: [('chain_01_hook_processed', 0.4590984974958264), ('chain_02_phenomenon_processed', 0.5313059033989267), ('chain_03_how_we_know_processed', 0.48635235732009924), ('chain_05_significance_processed', 0.42298850574712643)]"
+    "hue drift across segments grey_balance=[0.30615515771526003, 0.297842481474195, 0.3078234638336941, 0.12155551183684181, 0.31052003410059675]"
   ],
   "shot_count": 5,
   "segment_count": 2,
