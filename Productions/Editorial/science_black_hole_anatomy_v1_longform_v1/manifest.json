@@ -1,8 +1,8 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T07:04:03.302096+00:00",
-  "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\batches\\T4_181_science_astro\\scripts\\science_black_hole_anatomy_v1_480p_script.json",
+  "completed_at": "2026-06-19T07:08:15.428732+00:00",
+  "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\scripts\\longform_scripts\\science_black_hole_anatomy_v1_480p_script.json",
   "concat_only": true,
   "seamless": true,
   "production_dir": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\science_black_hole_anatomy_v1_longform_v1",
@@ -15,12 +15,12 @@
   "comparison": null,
   "qa": {
     "slug": "science_black_hole_anatomy_v1",
-    "qa_at": "2026-06-19T07:04:03.301256+00:00",
-    "pass": true,
+    "qa_at": "2026-06-19T07:08:15.427986+00:00",
+    "pass": false,
     "passes": [
       "shot count OK (5 >= 5)",
       "all shots carry synthetic talent guard (incl. auto-patched)",
-      "target duration ~49s",
+      "target duration ~50s",
       "STUDIO v1.1 seamless mode ACTIVE",
       "continuity mode: frame_chain; card join xfade=0.2s",
       "frame-chain i2v fallback (extend unsupported on 1.5)",
@@ -40,7 +40,9 @@
       "neutral WB — yellow-green suppressed (max 0.012 <= 0.12)",
       "clinical hue stable across segments (yellow-green Δ=0.012)"
     ],
-    "issues": [],
+    "issues": [
+      "04_visualization_payoff: duration 10s outside 7–9s seamless band"
+    ],
     "shot_count": 5,
     "segment_count": 2,
     "seamless": true,
