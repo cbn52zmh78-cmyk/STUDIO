@@ -1,0 +1,28 @@
+# Legal Gate 0 — YELLOW
+**Project:** david_latin_corpus_v1
+**Target Rating:** PG
+**Channels:** social, streaming
+**CARA:** SKIPPED
+**Time:** 20260619_002707
+
+## Legal Stacks Reviewed
+- AI Content (replica, deepfake, likeness, synthetic performer)
+- Mass Dissemination (rating bodies, social, streaming, theatrical, festival, client)
+
+## RATING FLAGS
+- [CARA] CARA guard unavailable: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+## Checklist Domains (Gate 0 v1.1)
+- **row_1_synthetic_ownership:** PASS
+- **row_2_music_sync:** PASS
+- **row_3_no_real_likeness:** PASS
+- **row_4_target_channel:** PASS
+- **row_5_age_documentation:** PASS
+- **row_6_ai_disclosure:** PASS
+
+## Producer Notes
+- Row 6: AI-disclosure obligation planned — verify presence at Pre-Publish.
+- Social = mass dissemination. Platform AI-label + community guidelines apply.
+- Row 2: Manifest-cleared music bed(s): BED-DOC-001 (STUDIO/Music_Sound/clearance_manifest.json)
+- Row 1: STUDIO Casting Bible synthetic cast — Upon Tyne ownership; no third-party likeness license.
+- Revise and re-submit to Legal Gate (Gate 0).
