@@ -1,6 +1,6 @@
 # STUDIO Casting Bible v1.0
 
-**Generated:** 2026-06-19T02:50:54.043232+00:00  
+**Generated:** 2026-06-19T02:54:54.439624+00:00  
 **Scope:** `STUDIO/Cast/actors_roster` — 70 synthetic narrative actors  
 **Status:** Locked registry for production continuity
 
@@ -28,7 +28,7 @@ with last-name suffix on first-name collision (`BridgetWalsh-001`, `BridgetOkafo
 - **Plate locked:** 70
 - **Appearance lock complete:** 70
 - **AI disclosure required:** 70
-- **Compliance review items:** 35
+- **Compliance review items:** 0
 
 ## Files
 
@@ -117,113 +117,6 @@ with last-name suffix on first-name collision (`BridgetWalsh-001`, `BridgetOkafo
 
 Every entry has `ai_disclosure_required: true`. Label synthetic performers in credits,
 descriptions, and platform metadata per Upon Tyne Productions policy.
-
-## Compliance review queue
-
-### `Aiko-001` — Aiko Nakamura
-- prompt_pattern:\bcelebrity\b
-
-### `Amahle-001` — Amahle Ndaba
-- prompt_pattern:\bcelebrity\b
-
-### `Amara-001` — Amara Singh
-- prompt_pattern:\bcelebrity\b
-
-### `Amir-001` — Amir Khalil
-- prompt_pattern:\bcelebrity\b
-
-### `Ananya-001` — Ananya Reddy
-- prompt_pattern:\bcelebrity\b
-
-### `Anastasia-001` — Anastasia Volkov
-- prompt_pattern:\bcelebrity\b
-
-### `Andre-001` — Andre Silva
-- prompt_pattern:\bcelebrity\b
-
-### `Arjun-001` — Arjun Mehta
-- prompt_pattern:\bcelebrity\b
-
-### `BridgetOkafor-001` — Bridget Okafor
-- prompt_pattern:\bcelebrity\b
-
-### `BridgetWalsh-001` — Bridget Walsh
-- prompt_pattern:\bcelebrity\b
-
-### `Camille-001` — Camille Reyes
-- prompt_pattern:\bcelebrity\b
-
-### `Carlos-001` — Carlos Mendez
-- prompt_pattern:\bcelebrity\b
-
-### `Carmen-001` — Carmen Delgado
-- prompt_pattern:\bcelebrity\b
-
-### `Chiara-001` — Chiara Romano
-- prompt_pattern:\bcelebrity\b
-
-### `Connor-001` — Connor Mitchell
-- prompt_pattern:\bcelebrity\b
-
-### `Dante-001` — Dante Reyes
-- prompt_pattern:\bcelebrity\b
-
-### `Diego-001` — Diego Morales
-- prompt_pattern:\bcelebrity\b
-
-### `Dmitri-001` — Dmitri Kozlov
-- prompt_pattern:\bcelebrity\b
-
-### `Elijah-001` — Elijah Brooks
-- prompt_pattern:\bcelebrity\b
-
-### `Elinor-001` — Elinor Trevelyan
-- prompt_pattern:\bcelebrity\b
-
-### `Emma-001` — Emma Larsen
-- prompt_pattern:\bcelebrity\b
-
-### `Ethan-001` — Ethan Shaw
-- prompt_pattern:\bcelebrity\b
-
-### `Fatima-001` — Fatima Al-Hassan
-- prompt_pattern:\bcelebrity\b
-
-### `Finn-001` — Finn MacAllister
-- prompt_pattern:\bcelebrity\b
-
-### `Grace-001` — Grace Okonkwo
-- prompt_pattern:\bcelebrity\b
-
-### `Hana-001` — Hana Park
-- prompt_pattern:\bcelebrity\b
-
-### `Hassan-001` — Hassan Odeh
-- prompt_pattern:\bcelebrity\b
-
-### `Inés-001` — Inés Marchetti
-- prompt_pattern:\bcelebrity\b
-
-### `Isabella-001` — Isabella Vargas
-- prompt_pattern:\bcelebrity\b
-
-### `James-001` — James Whitmore
-- prompt_pattern:\bcelebrity\b
-
-### `Jayden-001` — Jayden Tau
-- prompt_pattern:\bcelebrity\b
-
-### `JiYeon-001` — Ji-Yeon Park
-- prompt_pattern:\bcelebrity\b
-
-### `Julian-001` — Julian Cross
-- prompt_pattern:\bcelebrity\b
-
-### `Katya-001` — Katya Morozova
-- prompt_pattern:\bcelebrity\b
-
-### `Kenji-001` — Kenji Sato
-- prompt_pattern:\bcelebrity\b
 
 
 ---

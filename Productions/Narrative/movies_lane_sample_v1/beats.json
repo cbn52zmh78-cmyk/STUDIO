@@ -1,0 +1,57 @@
+{
+  "concept": "Warehouse thriller micro-arc — one woman, one secret, one exit",
+  "actor_id": "Amara-001",
+  "stage_name": "Amara Singh",
+  "age_locked": 30,
+  "beats": [
+    {
+      "id": "01_establishing",
+      "role": "b_roll",
+      "duration": 6,
+      "action_prompt": "Establishing wide of industrial loft at dusk, dust motes in window light, empty floor, atmospheric tension, no people visible.",
+      "speech_text": ""
+    },
+    {
+      "id": "02_character_intro",
+      "role": "character",
+      "duration": 8,
+      "action_prompt": "30-year-old British Indian woman in dark olive field jacket and black jeans enters frame in medium three-quarter, motivated side key from factory windows, cautious posture.",
+      "speech_text": "I came back for one file."
+    },
+    {
+      "id": "03_inciting",
+      "role": "character",
+      "duration": 8,
+      "action_prompt": "Character freezes mid-step, head turns toward darkness, tension enters frame, push-in begins.",
+      "speech_text": "Then the lights went out."
+    },
+    {
+      "id": "04_rising",
+      "role": "character",
+      "duration": 8,
+      "action_prompt": "Close-up rack focus from her eyes to shadowed corridor behind, breath catches, jaw tightens.",
+      "speech_text": "Footsteps. Not mine."
+    },
+    {
+      "id": "05_turn",
+      "role": "character",
+      "duration": 8,
+      "action_prompt": "Slow dolly in as she discovers open metal door she had locked, reversal lands in her expression.",
+      "speech_text": "The door I locked was open."
+    },
+    {
+      "id": "06_peak",
+      "role": "character",
+      "duration": 8,
+      "action_prompt": "Tight close, maximum tension, she whispers without breaking eye-line, hand half-raised.",
+      "speech_text": "Someone is still here."
+    },
+    {
+      "id": "07_resolution",
+      "role": "character",
+      "duration": 7,
+      "action_prompt": "She pivots to run, wide isolation or pull-back on motion peak, button beat as she exits frame.",
+      "speech_text": "Run."
+    }
+  ]
+}

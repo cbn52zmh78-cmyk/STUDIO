@@ -1,0 +1,45 @@
+{
+  "production": "flowdesk_explainer_v1",
+  "format_id": "explainer-ad",
+  "locked_at": "2026-06-19T03:01:04.879824+00:00",
+  "status": "LOCKED",
+  "talent": {
+    "actor_id": "Amara-001",
+    "stage_name": "Amara Singh",
+    "age_locked": 30,
+    "content_rating": "SFW",
+    "identity_anchor": "@Amara-001",
+    "wardrobe": "slate grey blazer, white blouse — smart-casual presenter",
+    "set_name": "Neutral Seamless Backdrop"
+  },
+  "references": {
+    "talent_avatar": {
+      "file": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Editorial\\flowdesk_explainer_v1_longform_v1\\references\\amara_presenter_avatar_reference.jpg",
+      "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-516ae40c-ade1-454b-a5db-d036b451dd6e.jpeg",
+      "prompt": "Amara Singh — synthetic product presenter, chest-up medium shot, 16:9. Female, reads age 30, British Indian, athletic build, thick black hair in long braid, amber-brown eyes, warm brown skin, strong brows. Smart-casual slate grey blazer over white blouse — fully clothed professional presenter wardrobe, NOT swimwear. Standing before neutral grey seamless backdrop, cool clinical 5600K even lighting. Clear confident presenter energy, trustworthy product tone, no real person likeness, invented face only, synthetic presenter only.",
+      "reuse": "talent reference @2 — image_to_video frame 1 every presenter shot"
+    },
+    "set_plate": {
+      "file": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\seamless_neutral_grey_reference.jpg",
+      "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-82159a3b-a734-4ee8-aa49-a9f753d24be2.jpeg",
+      "reuse": "environment plate @1 — locked seamless neutral"
+    }
+  },
+  "voice": {
+    "register": "derived_from_notes",
+    "notes": "London crisp; Punjabi warmth with family.",
+    "prompt_suffix": "clear confident presenter voice, brisk diction, trustworthy product tone, London crisp warmth, synthetic presenter only"
+  },
+  "guardrails": [
+    "synthetic only — no real-person likeness",
+    "SFW mandatory — PG rating",
+    "21+ talent age_locked verified",
+    "casting plate locked: plate_locked"
+  ],
+  "models": {
+    "image": "grok-imagine-image-quality",
+    "video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "16:9"
+  }
+}

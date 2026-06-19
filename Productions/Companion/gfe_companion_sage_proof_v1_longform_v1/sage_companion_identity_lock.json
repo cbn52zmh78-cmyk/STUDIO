@@ -1,0 +1,49 @@
+{
+  "production": "gfe_companion_sage_proof_v1",
+  "format_id": "conversational-companion",
+  "template_ref": "#98 conversational-companion",
+  "set_style_ref": "#99 @Set-Modern-Apartment-001 + @Style-Soft-Warm-001",
+  "locked_at": "2026-06-19T03:03:14.428129+00:00",
+  "status": "LOCKED",
+  "talent": {
+    "actor_id": "SageGFE-001",
+    "stage_name": "Sage",
+    "age_locked": 26,
+    "content_rating": "SFW",
+    "identity_anchor": "@SageGFE-001",
+    "wardrobe": "cream knit sweater, high-neck blouse — fully clothed smart-casual",
+    "set_name": "Modern Apartment (Lifestyle)"
+  },
+  "references": {
+    "talent_avatar": {
+      "file": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Companion\\gfe_companion_sage_proof_v1_longform_v1\\references\\sage_companion_avatar_reference.jpg",
+      "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-5f94bc39-f85c-4651-8037-c8b4b5d2d58a.jpeg",
+      "prompt": "Sage — synthetic companion, chest-up medium shot, 16:9. Clearly adult 26-year-old Japanese woman, bookish slim build, straight black hair, thoughtful dark eyes, pale skin. Fully clothed smart-casual — cream knit sweater over high-neck blouse, relaxed on linen sofa in modern apartment living room. Warm friendly check-in energy, supportive friend not romantic, PG editorial framing, no suggestive angles, no swimwear, no lingerie, no bedroom intimacy staging. Soft window daylight 5200K, lifestyle SFW, no real person likeness, synthetic companion only.",
+      "reuse": "talent reference @2 — image_to_video frame 1 every companion shot"
+    },
+    "set_plate": {
+      "file": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\modern_apartment_reference.jpg",
+      "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-8ea842ab-a6d0-480e-9b82-38cee7664fff.jpeg",
+      "reuse": "environment plate @1 — locked modern apartment"
+    }
+  },
+  "voice": {
+    "register": "derived_from_notes",
+    "notes": "Measured cadence; rushes when embarrassed.",
+    "prompt_suffix": "warm approachable conversational voice, attentive listener energy, natural breath, synthetic companion only"
+  },
+  "guardrails": [
+    "synthetic only — no real-person likeness",
+    "SFW mandatory — PG rating, no suggestive framing",
+    "21+ talent age_locked verified",
+    "fully clothed wardrobe only",
+    "Synthetic companion — AI generated performer",
+    "casting plate locked: plate_locked"
+  ],
+  "models": {
+    "image": "grok-imagine-image-quality",
+    "video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "16:9"
+  }
+}

@@ -46,8 +46,5 @@ GENERATE 3D MODEL of back, side and front profiles of 33-year-old Russian-Americ
 - Lead every generation prompt with exact age: `33-year-old`.
 - SFW wardrobe baseline on casting plates; story wardrobe via `image_edit` from plate.
 
-## Compliance flags
-- prompt_pattern:\bcelebrity\b
-
 ---
 *STUDIO Casting Bible lock card — do not paraphrase appearance_lock_verbatim in production prompts.*

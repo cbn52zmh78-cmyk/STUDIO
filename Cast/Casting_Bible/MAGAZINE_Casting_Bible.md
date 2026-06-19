@@ -1,6 +1,6 @@
 # STUDIO MAGAZINE Casting Bible v1.1
 
-**Generated:** 2026-06-19T02:50:54.274242+00:00  
+**Generated:** 2026-06-19T03:01:25.570068+00:00  
 **Scope:** `STUDIO/MAGAZINE/Editorial/Models` — 10 synthetic performers  
 **Age floor:** **21+** (schema-enforced)  
 **Content:** SFW editorial couture; no nude/explicit  

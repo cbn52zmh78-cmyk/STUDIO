@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-19T02:50:54.043232+00:00",
+  "generated_at": "2026-06-19T02:54:54.439624+00:00",
   "scope": "actors_roster",
   "total": 70,
   "summary": {
     "plate_locked": 70,
     "appearance_lock_locked": 70,
     "ai_disclosure_required": 70,
-    "compliance_review": 35,
+    "compliance_review": 0,
     "incomplete_appearance_locks": []
   },
   "actors": [
@@ -52,9 +52,7 @@
         "tech_thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/east_asia/Aiko_Nakamura/actor_profile.pdf"
     },
     {
@@ -100,9 +98,7 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Amahle_Ndaba/actor_profile.pdf"
     },
     {
@@ -146,9 +142,7 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh/actor_profile.pdf"
     },
     {
@@ -192,9 +186,7 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Amir_Khalil/actor_profile.pdf"
     },
     {
@@ -240,9 +232,7 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/south_asia/Ananya_Reddy/actor_profile.pdf"
     },
     {
@@ -287,9 +277,7 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_east/Anastasia_Volkov/actor_profile.pdf"
     },
     {
@@ -335,9 +323,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "development",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Andre_Silva/actor_profile.pdf"
     },
     {
@@ -381,9 +367,7 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/south_asia/Arjun_Mehta/actor_profile.pdf"
     },
     {
@@ -427,9 +411,7 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Bridget_Okafor/actor_profile.pdf"
     },
     {
@@ -474,9 +456,7 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/north_america/Bridget_Walsh/actor_profile.pdf"
     },
     {
@@ -522,9 +502,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/Camille_Reyes/actor_profile.pdf"
     },
     {
@@ -568,9 +546,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Carlos_Mendez/actor_profile.pdf"
     },
     {
@@ -614,9 +590,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/Carmen_Delgado/actor_profile.pdf"
     },
     {
@@ -661,9 +635,7 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_west/Chiara_Romano/actor_profile.pdf"
     },
     {
@@ -708,9 +680,7 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/north_america/Connor_Mitchell/actor_profile.pdf"
     },
     {
@@ -756,9 +726,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "development",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Dante_Reyes/actor_profile.pdf"
     },
     {
@@ -802,9 +770,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/latin_america/Diego_Morales/actor_profile.pdf"
     },
     {
@@ -849,9 +815,7 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/europe_east/Dmitri_Kozlov/actor_profile.pdf"
     },
     {
@@ -896,9 +860,7 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/north_america/Elijah_Brooks/actor_profile.pdf"
     },
     {
@@ -943,9 +905,7 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_west/Elinor_Trevelyan/actor_profile.pdf"
     },
     {
@@ -990,9 +950,7 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_west/Emma_Larsen/actor_profile.pdf"
     },
     {
@@ -1038,9 +996,7 @@
         "rom_com"
       ],
       "agency_status": "development",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/oceania_pacific/Ethan_Shaw/actor_profile.pdf"
     },
     {
@@ -1084,9 +1040,7 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/middle_east_north_africa/Fatima_Al_Hassan/actor_profile.pdf"
     },
     {
@@ -1131,9 +1085,7 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/europe_west/Finn_Macallister/actor_profile.pdf"
     },
     {
@@ -1177,9 +1129,7 @@
         "romance"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/sub_saharan_africa/Grace_Okonkwo/actor_profile.pdf"
     },
     {
@@ -1224,9 +1174,7 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/north_america/Hana_Park/actor_profile.pdf"
     },
     {
@@ -1270,9 +1218,7 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/middle_east_north_africa/Hassan_Odeh/actor_profile.pdf"
     },
     {
@@ -1318,9 +1264,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/In\u00e9s_Marchetti/actor_profile.pdf"
     },
     {
@@ -1364,9 +1308,7 @@
         "telenovela_adjacent"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/latin_america/Isabella_Vargas/actor_profile.pdf"
     },
     {
@@ -1411,9 +1353,7 @@
         "prestige_tv"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/europe_west/James_Whitmore/actor_profile.pdf"
     },
     {
@@ -1457,9 +1397,7 @@
         "rom_com"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/oceania_pacific/Jayden_Tau/actor_profile.pdf"
     },
     {
@@ -1505,9 +1443,7 @@
         "tech_thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/east_asia/Ji_Yeon_Park/actor_profile.pdf"
     },
     {
@@ -1554,9 +1490,7 @@
         "rom_com"
       ],
       "agency_status": "development",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/north_america/Julian_Cross/actor_profile.pdf"
     },
     {
@@ -1603,9 +1537,7 @@
         "thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/female/europe_east/Katya_Morozova/actor_profile.pdf"
     },
     {
@@ -1649,9 +1581,7 @@
         "tech_thriller"
       ],
       "agency_status": "plate_locked",
-      "compliance_flags": [
-        "prompt_pattern:\\bcelebrity\\b"
-      ],
+      "compliance_flags": [],
       "profile_pdf": "STUDIO/Cast/actors_roster/male/east_asia/Kenji_Sato/actor_profile.pdf"
     },
     {

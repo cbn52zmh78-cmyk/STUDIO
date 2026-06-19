@@ -1,0 +1,46 @@
+{
+  "production": "movies_lane_sample_v1",
+  "format_id": "narrative-short-film",
+  "lane": "movies",
+  "locked_at": "2026-06-19T03:02:46.606126+00:00",
+  "status": "LOCKED",
+  "talent": {
+    "actor_id": "Amara-001",
+    "stage_name": "Amara Singh",
+    "age_locked": 30,
+    "content_rating": "SFW",
+    "identity_anchor": "@Amara-001",
+    "wardrobe": "dark olive field jacket, black jeans, black boots — SFW thriller",
+    "set_name": "Warehouse Industrial Loft",
+    "casting_plate": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Cast\\actors_roster\\female\\south_asia\\Amara_Singh\\01_casting_shots\\casting_turnaround_v1.jpg"
+  },
+  "references": {
+    "talent_avatar": {
+      "file": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Narrative\\movies_lane_sample_v1\\references\\amara_character_avatar_reference.jpg",
+      "prompt": "Amara Singh — synthetic narrative character, medium shot three-quarter, 16:9. Female, 30-year-old British Indian, athletic build, thick black hair in long braid, amber-brown eyes, warm brown skin, strong brows. Dark olive field jacket, black jeans, black boots — fully clothed SFW thriller wardrobe. Industrial loft background soft blur, 4800K window side key, cinematic tension, no real person likeness, synthetic talent only.",
+      "reuse": "talent reference @2 — image_to_video frame 1 every character shot"
+    },
+    "set_plate": {
+      "file": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\references\\warehouse_industrial_reference.jpg",
+      "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-f545ad0d-8250-4736-ad6e-527390003939.jpeg",
+      "reuse": "environment plate @1 — @Set-Warehouse-Industrial-001"
+    }
+  },
+  "voice": {
+    "register": "derived_from_notes",
+    "notes": "London crisp; Punjabi warmth with family.",
+    "prompt_suffix": "naturalistic dialogue delivery, motivated breath, cinematic intimacy, London crisp warmth, synthetic talent only"
+  },
+  "guardrails": [
+    "synthetic only — no real-person likeness",
+    "SFW mandatory — PG-13 framing",
+    "21+ talent age_locked verified",
+    "casting plate locked: plate_locked"
+  ],
+  "models": {
+    "image": "grok-imagine-image-quality",
+    "video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "16:9"
+  }
+}

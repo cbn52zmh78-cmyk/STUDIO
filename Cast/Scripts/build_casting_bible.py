@@ -104,8 +104,14 @@ def scan_prompt_flags(text: str | None) -> list[str]:
     if not text:
         return flags
     lower = text.lower()
+    # Strip negative guardrail phrases before likeness scanning (e.g. "no celebrity likeness").
+    scrubbed = re.sub(
+        r"no real person or celebrity likeness|no celebrity likeness|synthetic fictional character only",
+        "",
+        lower,
+    )
     for pat in PROMPT_LIKENESS_PATTERNS:
-        if re.search(pat, lower):
+        if re.search(pat, scrubbed):
             flags.append(f"prompt_pattern:{pat}")
     return flags
 
