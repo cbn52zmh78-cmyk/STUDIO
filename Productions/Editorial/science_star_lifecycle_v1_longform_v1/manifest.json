@@ -1,7 +1,7 @@
 {
   "pipeline": "render_longform_seamless",
   "protocol": "STUDIO_Canonical_Schema_and_Seamless_Spec_v1",
-  "completed_at": "2026-06-19T07:02:33.640103+00:00",
+  "completed_at": "2026-06-19T07:03:45.285093+00:00",
   "script_source": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\batches\\T4_181_science_astro\\scripts\\science_star_lifecycle_v1_480p_script.json",
   "concat_only": true,
   "seamless": true,
@@ -15,8 +15,8 @@
   "comparison": null,
   "qa": {
     "slug": "science_star_lifecycle_v1",
-    "qa_at": "2026-06-19T07:02:33.638986+00:00",
-    "pass": false,
+    "qa_at": "2026-06-19T07:03:45.284007+00:00",
+    "pass": true,
     "passes": [
       "shot count OK (5 >= 5)",
       "all shots carry synthetic talent guard (incl. auto-patched)",
@@ -37,11 +37,10 @@
       "flat loudness across shots (spread 0.03 LU)",
       "clinical/neutral set — magenta probe skipped (grey balance gate)",
       "tight A/V sync per shot (duration pinned)",
-      "neutral WB — yellow-green suppressed (max 0.117 <= 0.12)"
+      "neutral WB — yellow-green suppressed (max 0.117 <= 0.12)",
+      "clinical hue stable across segments (yellow-green Δ=0.117)"
     ],
-    "issues": [
-      "hue drift across segments grey_balance=[0.10611581087284408, 0.314352416551905, 0.3031018427437865, 0.22790103791355354, 0.32402649354056]"
-    ],
+    "issues": [],
     "shot_count": 5,
     "segment_count": 2,
     "seamless": true,
