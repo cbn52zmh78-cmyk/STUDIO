@@ -26,9 +26,9 @@
       "reference_file": "DAVID/productions/host_identity_v1/references/archive_set_reference.jpg",
       "reference_anchor": "environment plate @1 — deep scholarly library interior, wooden worktable, open codex, brass desk lamp, manuscript shelves",
       "continuity_lock": "CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut.",
-      "lighting_lock": "Neutral balanced 5000K ambient key — even RGB, blue channel preserved in skin and shadow mids; brass desk lamp 3200K as motivated practical ONLY as localized warm pool on desk surface and lamp shade, NOT full-frame amber gel; no global yellow-green cast; no blue-starved shadows.",
-      "color_guard": "GENERATION LOCK Archive-neutral (#194): balanced white balance 4800–5200K base, natural skin midtones with intact blue channel (B≥40 in mids), wood burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow warm-neutral grey #3A3530 — forbid dominant amber 3200K full-frame, forbid yellow-green global cast, forbid blue-starved generation (collapsed B channel), forbid magenta cast.",
-      "generation_color_lock": "GENERATION LOCK Archive-neutral (#194): neutral balanced 5000K ambient key — even RGB, blue channel preserved in skin and shadow mids (B≥40); brass desk lamp 3200K as motivated practical ONLY as localized warm pool on desk surface and lamp shade, NOT full-frame amber gel; no global yellow-green cast; no blue-starved shadows; natural skin tone at source.",
+      "lighting_lock": "LIGHTING LOCK @Set-Archive-001 (#243): neutral balanced 5000K ambient key fills the Archive interior — even RGB, blue channel preserved in skin-tones and shadow mids; soft 5200K manuscript-shelf bounce at ≤25% under key. Brass desk lamp 3200K is a motivated practical ONLY: localized warm pool on desk surface, open codex page, and lamp shade within the desk quadrant (≈lower-right 40% of frame) — NOT full-frame amber gel, NOT global wash on host face, shelves, or background. No yellow-green global cast. No blue-starved generation. No magenta cast.",
+      "color_guard": "GENERATION LOCK Archive-neutral (#243): balanced white balance 4800–5200K base; natural skin midtones with intact blue channel (B≥40 in mids); wood burnt umber #3D2B1F to #5C4033; parchment cream #F5F0E6; shadow neutral warm-grey #3A3530; brass lamp warmth localized to desk pool only — forbid dominant amber 3200K full-frame, forbid yellow-green global cast, forbid blue-starved generation (B<25 in host mids), forbid magenta cast.",
+      "generation_color_lock": "LIGHTING LOCK @Set-Archive-001 (#243): neutral balanced 5000K ambient key — blue preserved in shadows; brass lamp 3200K localized desk pool only, not full-frame amber.",
       "kelvin": {
         "ambient_key": 5000,
         "lamp_accent": 3200,
@@ -38,7 +38,9 @@
       "forbidden": [
         "magenta ambient",
         "purple lamp glow",
-        "cool daylight window",
+        "global amber 3200K full-frame wash",
+        "blue-starved generation (B<25 host mids)",
+        "yellow-green global cast",
         "neon",
         "teal shadows"
       ]

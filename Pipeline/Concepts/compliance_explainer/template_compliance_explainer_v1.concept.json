@@ -1,0 +1,81 @@
+{
+  "slug": "template_compliance_explainer_v1",
+  "title": "ClearDesk — [TOPIC TITLE]",
+  "format_id": "explainer-ad",
+  "actor_id": "Serena-001",
+  "set_id": "@Set-Studio-Interior-001",
+  "style_id": "@Style-Professional-Clean-001",
+  "target_seconds": 45,
+  "tags": ["compliance", "back-office", "records", "explainer", "cleardesk", "creator4"],
+  "logline": "[One sentence — what requirement is decoded and what good records look like]",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-UP-002"
+  },
+  "brand": {
+    "title": "ClearDesk",
+    "subtitle": "Upon Tyne Operations — compliance, explained clearly",
+    "cta": "Follow ClearDesk — one process at a time.",
+    "legal_line": "Educational content only — not legal, tax, or professional advice."
+  },
+  "compliance_subject": {
+    "subject_id": "COMP-XXX-001",
+    "domain": "[Domain — e.g. Records Management]",
+    "topic": "[Plain-language topic]",
+    "key_source": "[Public agency guidance or cited excerpt — labeled]",
+    "jurisdiction_note": "General literacy — not jurisdiction-specific unless sources name one",
+    "sources": [
+      {
+        "citation": "[Public source citation]",
+        "url": "[URL if available]",
+        "type": "primary",
+        "notes": "Public government work or licensed excerpt — paraphrase preferred"
+      }
+    ],
+    "disclaimer": "Educational only — not legal, tax, or professional advice."
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "[Audit question or deadline that exposes record chaos]",
+      "on_screen": "ClearDesk · [TOPIC SHORT]"
+    },
+    {
+      "id": "02_pain",
+      "speech_text": "[What breaks — scattered files, version drift, unclear ownership]"
+    },
+    {
+      "id": "03_solution",
+      "speech_text": "[Name the framework / process / record type in plain language]"
+    },
+    {
+      "id": "04_benefit_a",
+      "speech_text": "[Clarity outcome — findable, dated, attributable]"
+    },
+    {
+      "id": "05_benefit_b",
+      "speech_text": "[Educational risk framing — not a legal guarantee]"
+    },
+    {
+      "id": "06_cta",
+      "speech_text": "Follow ClearDesk for the next process — and remember, this is education, not legal advice.",
+      "on_screen": "ClearDesk · Educational only"
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "SUBJECT: [topic] ([subject_id])",
+      "SOURCES: [key_source]",
+      "DISCLAIMER: Educational only — not legal, tax, or professional advice."
+    ]
+  },
+  "_meta": {
+    "task": "#206",
+    "purpose": "TEMPLATE ONLY — copy and replace bracketed fields; do not render as-is",
+    "channel": "Creator #4 ClearDesk"
+  }
+}

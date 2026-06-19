@@ -1,0 +1,53 @@
+{
+  "task": "ACTORS #241",
+  "artifact": "groundtruth_bible_visual_design_spec",
+  "issue": 241,
+  "generated_at": "2026-06-19T09:20:46.365793+00:00",
+  "spec_path": "STUDIO/Reference_Library/style_bibles/GroundTruth_Bible_Visual_Design_Spec_v1.json",
+  "render": false,
+  "pass": true,
+  "issues": [],
+  "checks": {
+    "spec_locked": true,
+    "no_render_flag": true,
+    "status_taxonomy_complete": true,
+    "vertical_variants": [
+      "compliance_sot",
+      "figure_bible",
+      "science_synthesis"
+    ],
+    "citation_systems": [
+      "APA7_INLINE",
+      "STD-CITE-001"
+    ],
+    "implementation_anchors": 5,
+    "principle": "credible_academic_house_style"
+  },
+  "verticals": {
+    "compliance_sot": {
+      "citation_system": "STD-CITE-001",
+      "gate": "qa_gate",
+      "outputs": [
+        "markdown",
+        "docx",
+        "pdf"
+      ]
+    },
+    "science_synthesis": {
+      "citation_system": "APA7_INLINE",
+      "gate": "KG1_KG5",
+      "outputs": [
+        "pdf",
+        "json"
+      ]
+    },
+    "figure_bible": {
+      "citation_system": "STD-CITE-001",
+      "gate": "plate_fidelity_review",
+      "outputs": [
+        "markdown",
+        "json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "artifact": "groundtruth_bible_visual_design_spec",
+  "version": "v1",
+  "issue": 241,
+  "as_of": "2026-06-19",
+  "status": "SPEC_LOCKED",
+  "render": false,
+  "principle": "credible_academic_house_style",
+  "design_intent": {
+    "one_liner": "Citation-forward, audit-grade document design that reads like a paid research deliverable — not a blog, not a slide deck, not a marketing one-pager.",
+    "buyer_signal": "Dense provenance, explicit gaps, gate stamp, and restrained typography signal that every sentence was checked.",
+    "anti_patterns": [
+      "gradient hero headers or stock-photo covers",
+      "uncited body copy or footnote-free claims",
+      "silent omission of missing data",
+      "startup sans-serif branding overpowering the record",
+      "emoji status chips or traffic-light icons without text labels",
+      "parked sources hidden in appendices without inline disclosure"
+    ]
+  },
+  "tokens": {
+    "color": {
+      "ink_primary": "#1a1a1a",
+      "ink_secondary": "#444444",
+      "ink_muted": "#555555",
+      "ink_faint": "#777777",
+      "heading_h1": "#10243f",
+      "heading_h2": "#1a3a5c",
+      "inline_cite": "#3a5a8a",
+      "rule_light": "#bbbbbb",
+      "rule_section": "#cccccc",
+      "disclosure_ink": "#7a3b00",
+      "disclosure_bg_md": "#fff8f0",
+      "disclosure_bg_pdf": null,
+      "gap_ink": "#5c3d1e",
+      "gap_bg_md": "#faf6f0",
+      "status_found": "#1f5c3a",
+      "status_exempt": "#2d4a6b",
+      "status_requires_confirmation": "#7a5a00",
+      "status_not_found": "#8b2e2e",
+      "status_access_restricted": "#5a3d8b",
+      "status_sample": "#666666",
+      "gate_pass": "#1f5c3a",
+      "gate_fail": "#8b2e2e",
+      "gate_pending": "#7a5a00",
+      "page_bg": "#ffffff",
+      "table_stripe": "#f7f9fb"
+    },
+    "typography": {
+      "pdf": {
+        "family_body": "Times-Roman",
+        "family_heading": "Times-Bold",
+        "family_disclosure": "Times-Italic",
+        "size_title_pt": 18,
+        "size_h1_pt": 14,
+        "size_h2_pt": 11.5,
+        "size_body_pt": 10.5,
+        "size_meta_pt": 9.5,
+        "size_abstract_pt": 9.8,
+        "size_inline_cite_pt": 8.5,
+        "size_reference_pt": 9.3,
+        "size_note_pt": 8.6,
+        "leading_body_pt": 15,
+        "leading_abstract_pt": 13.5,
+        "leading_reference_pt": 13,
+        "alignment_body": "justify",
+        "alignment_title": "center"
+      },
+      "markdown": {
+        "family": "system_serif_preferred",
+        "fallback_stack": "Georgia, 'Times New Roman', Times, serif",
+        "size_scale": "browser_default",
+        "emphasis_cite": "superscript_or_bracket_number",
+        "blockquote_for": ["citation_standard", "disclosure", "sample_banner"]
+      },
+      "docx": {
+        "family_body": "Times New Roman",
+        "size_body_pt": 11,
+        "size_heading1_pt": 16,
+        "size_heading2_pt": 13,
+        "quote_style": "Intense Quote"
+      }
+    },
+    "spacing": {
+      "pdf_margins_in": {
+        "top": 0.8,
+        "bottom": 0.8,
+        "left": 0.9,
+        "right": 0.9
+      },
+      "title_block_top_spacer_in": 0.5,
+      "title_rule_width_pct": 80,
+      "section_space_before_h1_pt": 14,
+      "section_space_after_h1_pt": 6,
+      "section_space_before_h2_pt": 9,
+      "section_space_after_h2_pt": 3,
+      "paragraph_space_after_pt": 6,
+      "abstract_indent_px": 22,
+      "reference_hanging_indent_px": 20,
+      "md_section_rule": "horizontal_rule_before_major_sections"
+    },
+    "layout": {
+      "page_size_pdf": "LETTER",
+      "max_content_width": "full_margin",
+      "table_style": "ruled_grid_minimal",
+      "figure_bible_plate_bg": "#ffffff"
+    }
+  },
+  "citation_systems": {
+    "STD-CITE-001": {
+      "domain": "compliance_sot",
+      "tuple": ["source_name", "source_url", "retrieved_date", "jurisdiction"],
+      "inline_format": "[n]",
+      "reference_line": "n. source_name — source_url — retrieved <ISO-8601> — jurisdiction",
+      "gap_format": "NOT FOUND — [source checked: …]",
+      "engine": "Stonebridge/core/sot.py"
+    },
+    "APA7_INLINE": {
+      "domain": "science_synthesis",
+      "inline_field": "inline_cite",
+      "reference_field": "apa",
+      "web_page_rule": "author, n.d. with retrieval date for continuously updated pages",
+      "parked_disclosure_required": true,
+      "engine": "Science/scripts/groundtruth_poc_paper_pdf.py"
+    }
+  },
+  "status_taxonomy": {
+    "values": [
+      "FOUND",
+      "EXEMPT",
+      "REQUIRES_CONFIRMATION",
+      "NOT FOUND",
+      "ACCESS_RESTRICTED",
+      "SAMPLE"
+    ],
+    "fact_statuses": ["FOUND", "EXEMPT", "SAMPLE"],
+    "gap_statuses": ["REQUIRES_CONFIRMATION", "NOT FOUND", "ACCESS_RESTRICTED"],
+    "meanings": {
+      "FOUND": "Confirmed from a cited public or corpus source",
+      "EXEMPT": "Obligation does not apply by rule",
+      "REQUIRES_CONFIRMATION": "Real obligation; applies only on a fact we must confirm with the client",
+      "NOT FOUND": "Checked a real source; data not public — see gaps section to close",
+      "ACCESS_RESTRICTED": "Source exists but is human-gated (no portal bypass)",
+      "SAMPLE": "Illustrative entity-identity placeholder; excluded from status counts"
+    },
+    "display": {
+      "pdf": "bold_text_same_color_as_ink",
+      "markdown": "plain_text_in_table_column",
+      "docx": "plain_text_in_table_cell",
+      "never": "icon_only_without_label"
+    }
+  },
+  "knowledge_gate": {
+    "consumer_label": "Knowledge-Gate-clean",
+    "badge_text_pass": "Knowledge Gate: PASS",
+    "badge_text_fail": "Knowledge Gate: FAIL",
+    "science_gates": {
+      "KG1_every_claim_cited_resolves": "Every claim cites a source that resolves in the register",
+      "KG2_sources_graded": "Corpus tier disclosed (agency_synthesis, peer_reviewed, etc.)",
+      "KG3_no_fabrication": "Claims trace to pack facts from cited sources",
+      "KG4_domain_honesty": "Domain-specific honesty checks (e.g. Pluto/IAU disclosure)",
+      "KG5_parked_disclosed": "Unreachable sources parked and disclosed, not dropped"
+    },
+    "compliance_gate": {
+      "engine": "qa_gate / assert_shippable",
+      "rules": [
+        "no_uncited_facts",
+        "gaps_explicit",
+        "status_taxonomy_only",
+        "no_fabricated_identifiers",
+        "public_sources_only",
+        "contiguous_citation_numbering"
+      ]
+    }
+  },
+  "components": {
+    "sample_banner": {
+      "when": "is_sample_or_draft",
+      "markdown": "> # ⚠ DRAFT — SAMPLE DELIVERABLE — NOT FOR EXTERNAL SEND",
+      "pdf": "omit_or_watermark_draft",
+      "required_until": "live_engagement_instantiated"
+    },
+    "title_block": {
+      "pdf": {
+        "title_style": "title",
+        "subtitle": "GroundTruth — cited record",
+        "centered": true,
+        "followed_by": "meta_rail"
+      },
+      "markdown": {
+        "h1_pattern": "# {document_title}",
+        "subtitle_optional": false
+      },
+      "compliance_title_pattern": "Source-of-Truth Records Pack — {entity_name}",
+      "science_title_pattern": "{paper_title}"
+    },
+    "meta_rail": {
+      "fields": [
+        "as_of_or_generated",
+        "issue_or_client_id",
+        "facts_cited_count",
+        "gaps_flagged_count",
+        "jurisdiction_or_corpus",
+        "collection_mode_or_methodology"
+      ],
+      "separator": " · ",
+      "style": "meta",
+      "followed_by": "title_rule"
+    },
+    "title_rule": {
+      "type": "horizontal_rule",
+      "width_pct": 80,
+      "color": "#bbbbbb"
+    },
+    "citation_standard_callout": {
+      "style": "blockquote_or_indented_note",
+      "compliance_text": "Citation standard — STD-CITE-001. Every fact below carries a numbered source with source_name + source_url + retrieved_date + jurisdiction. Gaps are shown explicitly as NOT FOUND — [source checked: …], never silently omitted.",
+      "science_text": "Methodology and as-of date stated; inline citations key to References."
+    },
+    "gate_stamp": {
+      "placement": "meta_rail_or_title_block_footer",
+      "compliance_label": "Knowledge-Gate-clean",
+      "science_label": "Knowledge Gate + fact-check: {verdict}",
+      "emphasis": "bold_verdict_only"
+    },
+    "section_heading": {
+      "h1_numbered": true,
+      "h2_numbered_where_applicable": true,
+      "framing_italic": true
+    },
+    "claim_row": {
+      "science": {
+        "pattern": "{claim_text} {inline_cite}",
+        "cite_style": "inline_cite",
+        "body_style": "body"
+      },
+      "compliance_list": {
+        "pattern": "- **{label}:** {value} [{n}]",
+        "gap_pattern": "- {NOT FOUND — [source checked: …]}"
+      }
+    },
+    "datum_table": {
+      "columns": ["Field", "Value / note", "Status", "Cite"],
+      "header_rule": "markdown_pipe_table",
+      "status_column_required": true,
+      "cite_column_required": true
+    },
+    "status_summary_table": {
+      "columns": ["Status", "Count", "Meaning"],
+      "include_only_nonzero": true,
+      "footnote": "[SAMPLE]-tagged entity-identity rows excluded from counts"
+    },
+    "gaps_to_close": {
+      "heading": "Gaps to Close",
+      "intro": "Each gap names the source checked so the client knows exactly what unlocks it.",
+      "numbered_list": true,
+      "gap_status_bold": true
+    },
+    "abstract": {
+      "heading": "Abstract",
+      "style": "abs",
+      "indent": true
+    },
+    "ai_disclosure": {
+      "heading_prefix": "AI-synthesis disclosure.",
+      "style": "discl",
+      "color": "#7a3b00",
+      "required_when": "ai_synthesized_content",
+      "repeat_in_methodology_section": true
+    },
+    "confidence_block": {
+      "heading": "Confidence Assessment",
+      "fields": ["overall", "basis", "by_dimension"],
+      "science_only": true
+    },
+    "gaps_open_questions": {
+      "heading": "Gaps and Open Questions",
+      "list_style": "bullet",
+      "science_only": true
+    },
+    "references": {
+      "heading": "References",
+      "compliance_subheading": "References (STD-CITE-001)",
+      "format_note_style": "note",
+      "page_break_before_pdf": true,
+      "hanging_indent": true
+    },
+    "parked_sources": {
+      "heading": "Parked / Unretrieved Sources (disclosed)",
+      "subheading_level": "h2",
+      "intro": "These sources were sought but unreachable at retrieval and are disclosed rather than dropped.",
+      "science_only": true
+    },
+    "scope_disclaimer": {
+      "heading": "Scope & disclaimer",
+      "compliance_text": "Operational compliance research and documentation — not legal, tax, or accounting advice.",
+      "science_text": "Agency-sourced synthesis; retrieval-time wording is ground truth for undated web pages."
+    }
+  },
+  "vertical_variants": {
+    "compliance_sot": {
+      "product": "GroundTruth Data Package ($97) / Wedge SoT",
+      "citation_system": "STD-CITE-001",
+      "gate": "qa_gate",
+      "section_order": [
+        "sample_banner",
+        "title_block",
+        "meta_rail",
+        "citation_standard_callout",
+        "entity_record",
+        "jurisdiction_status",
+        "status_summary",
+        "gaps_to_close",
+        "references",
+        "scope_disclaimer"
+      ],
+      "table_first": true,
+      "outputs": ["markdown", "docx", "pdf"]
+    },
+    "science_synthesis": {
+      "product": "GroundTruth cited synthesis paper",
+      "citation_system": "APA7_INLINE",
+      "gate": "KG1_KG5",
+      "section_order": [
+        "title_block",
+        "meta_rail",
+        "gate_stamp",
+        "title_rule",
+        "abstract",
+        "ai_disclosure",
+        "numbered_body_sections",
+        "gaps_open_questions",
+        "confidence_block",
+        "references",
+        "parked_sources"
+      ],
+      "prose_first": true,
+      "outputs": ["pdf", "json"]
+    },
+    "figure_bible": {
+      "product": "Historical / scientific figure registry bible",
+      "citation_system": "STD-CITE-001",
+      "gate": "plate_fidelity_review",
+      "section_order": [
+        "title_block",
+        "meta_rail",
+        "registry_overview",
+        "figure_entries",
+        "plate_index",
+        "source_anchors",
+        "gap_register"
+      ],
+      "visual_note": "Figure plates use white #FFFFFF render-safe backgrounds; document chrome follows academic tokens above.",
+      "outputs": ["markdown", "json"]
+    }
+  },
+  "render_surfaces": {
+    "pdf": {
+      "engine": "reportlab",
+      "anchor": "Science/scripts/groundtruth_poc_paper_pdf.py",
+      "parity_rules": [
+        "title_meta_gate_order_matches_spec",
+        "inline_cite_color_3a5a8a",
+        "disclosure_italic_7a3b00",
+        "references_page_break"
+      ]
+    },
+    "markdown": {
+      "anchor_compliance": "Stonebridge/core/sot.py::render_wedge_markdown",
+      "anchor_simple": "Stonebridge/core/sot.py::render_markdown",
+      "parity_rules": [
+        "blockquote_for_citation_standard",
+        "horizontal_rules_between_major_sections",
+        "pipe_tables_for_datums",
+        "explicit_NOT_FOUND_never_blank"
+      ]
+    },
+    "docx": {
+      "anchor": "Stonebridge/core/sot.py::render_docx",
+      "parity_rules": [
+        "times_new_roman_body",
+        "numbered_references_list",
+        "gap_lines_italic"
+      ]
+    }
+  },
+  "implementation_anchors": [
+    "Science/scripts/groundtruth_poc_paper_pdf.py",
+    "Science/groundtruth_poc/groundtruth_knowledge_gate_report_v1.json",
+    "Stonebridge/core/sot.py",
+    "Stonebridge/Operations/Marketing/Sales_Packet_RCaaS_v1/05_SoT_Pack_Template_and_Generator_Note_v1.md",
+    "Stonebridge/Operations/Marketing/Compliance_Product_Ladder_v1/03_97_GroundTruth_Data_Package_v1_DRAFT.md"
+  ],
+  "prohibitions": [
+    "render_in_this_issue",
+    "marketing_gradients_on_body_pages",
+    "uncited_claims",
+    "silent_gaps",
+    "fabricated_citation_numbers",
+    "status_values_outside_taxonomy",
+    "dropping_parked_sources_without_disclosure"
+  ]
+}
