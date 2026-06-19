@@ -1,0 +1,15 @@
+{
+  "built_at": "2026-06-19T03:47:06.424320+00:00",
+  "lane": "companion",
+  "format_id": "conversational-companion",
+  "template_ref": "#98",
+  "set_style_ref": "#99",
+  "talent": "VioletGFE-001",
+  "resolution": "480p",
+  "set_id": "@Set-Modern-Apartment-001",
+  "style_id": "@Style-Soft-Warm-001",
+  "script": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Companion\\gfe_companion_violet_proof_480p_v1_longform_v1\\gfe_companion_violet_proof_480p_v1_script.json",
+  "identity_lock": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Companion\\gfe_companion_violet_proof_480p_v1_longform_v1\\violet_companion_identity_lock.json",
+  "avatar": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Companion\\gfe_companion_violet_proof_480p_v1_longform_v1\\references\\violet_companion_avatar_reference.jpg",
+  "ai_disclosure": "Synthetic companion — AI generated performer"
+}

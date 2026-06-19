@@ -1,0 +1,17 @@
+{
+  "packaged_at": "2026-06-19T03:48:33.479829+00:00",
+  "slug": "movies_lane_sample_v1",
+  "format_id": "narrative-short-film",
+  "production_dir": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Narrative\\movies_lane_sample_v1_longform_v1",
+  "source_video": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Narrative\\movies_lane_sample_v1_longform_v1\\output\\studio_movies_lane_sample_v1_seamless_v1.mp4",
+  "video_duration_s": 57.26,
+  "qa_pass": true,
+  "paths": {
+    "video": "video\\studio_movies_lane_sample_v1_seamless_v1.mp4",
+    "seo": "seo/seo.json",
+    "chapters": "chapters/youtube_chapters.txt",
+    "end_screen": "end_screen/end_screen.json",
+    "thumbnail_brief": "thumbnail/THUMBNAIL_BRIEF.json",
+    "checklist": "CHECKLIST.md"
+  }
+}

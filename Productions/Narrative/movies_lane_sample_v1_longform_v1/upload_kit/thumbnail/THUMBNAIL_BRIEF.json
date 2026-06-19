@@ -1,0 +1,37 @@
+{
+  "status": "HANDOFF",
+  "title_overlay": "WAREHOUSE SIGNAL",
+  "subtitle_overlay": "STUDIO Movies Lane · Sample validation",
+  "aspect_ratio": "16:9",
+  "target_px": [
+    1280,
+    720
+  ],
+  "candidates": [
+    {
+      "file": "candidate_peak_frame.jpg",
+      "shot_id": "06_peak",
+      "at_s": 42.6,
+      "role": "primary"
+    },
+    {
+      "file": "candidate_establishing_frame.jpg",
+      "shot_id": "01_establishing",
+      "at_s": 3.5,
+      "role": "alternate"
+    },
+    {
+      "file": "provenance_reference.png",
+      "shot_id": "provenance_card",
+      "role": "credit_reference"
+    }
+  ],
+  "prompt": "YouTube thumbnail, cinematic high-contrast, title-safe negative space left third, Warehouse Signal, @Set-Warehouse-Industrial-001, synthetic performer Amara-001, no real person likeness, bold readable mood, film grain, no clutter, SFW",
+  "design_notes": [
+    "Use candidate_peak_frame.jpg as base unless art-directed override",
+    "Keep face in right two-thirds; title text in left third",
+    "Warehouse window light 4800K warm key; deep shadows",
+    "Export PNG 1280×720 under 2MB"
+  ],
+  "delivery_filename": "thumbnail_1280x720.png"
+}

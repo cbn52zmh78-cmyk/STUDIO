@@ -1,11 +1,13 @@
 Project: david_latin_corpus_v1
+Channel: DAVID — YouTube primary (social, streaming); YouTube Shorts + long-form playlist
 Format: documentary-host (69s)
 Rating target: PG
 Channels: social, streaming
-Host: David-001 synthetic documentary host (reads 45-55 per identity lock)
+Host: David-001 — 21-year-old synthetic documentary host. Casting Bible synthetic: true, real_person_likeness: false.
 Content: Educational episode on Latin continuity — liturgy, law, science corpus; attested vs reconstructed classical pronunciation.
 Corpus hooks: Roman grammarians, medieval scribes, Caesar Gallia opening line demonstration.
 On-screen: RECONSTRUCTED PRONUNCIATION labels on demonstration beat.
-AI disclosure: synthetic host labeled in provenance card and platform metadata.
-Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+AI disclosure planned in provenance card and YouTube upload metadata (synthetic performer labeled).
+Not a client deliverable. Upon Tyne owned DAVID channel only — no third-party brand integration.
+Synthetic fictional host David-001 only — no celebrity mimicry. adult cast only (21+).
 Music plan: original score only — music cleared, cue sheet on file.

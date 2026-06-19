@@ -1,0 +1,18 @@
+{
+  "actor_id": "VioletGFE-001",
+  "stage_name": "Violet",
+  "age_locked": 22,
+  "path": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Productions\\Companion\\gfe_companion_violet_proof_480p_v1_longform_v1\\references\\violet_companion_avatar_reference.jpg",
+  "url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-1eb54bb7-a6d3-4791-9eb5-ab8a5c9d10f9.jpeg",
+  "prompt": "Violet — synthetic companion, chest-up medium shot, 16:9. Clearly adult 22-year-old Japanese-Brazilian woman, dancer build, violet-tinted black curls, lilac-brown eyes, warm caramel skin, wide friendly smile. Fully clothed smart-casual — dusty rose cardigan over white crew-neck tee, high-waist jeans, relaxed on linen sofa in modern apartment living room. Warm joyful check-in energy, supportive friend not romantic, PG editorial framing, no suggestive angles, no swimwear, no lingerie, no bedroom intimacy staging. Soft window daylight 5200K, lifestyle SFW, no real person likeness, synthetic companion only.",
+  "casting_plate": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Cast\\GFE\\Violet\\01_casting_shots\\casting_turnaround_v1.jpg",
+  "casting_url": "https://files-cdn.x.ai/eoEgITm2RYKXD2nf3zXeDQ/file_fe3685a1-1d74-4d62-8e6c-ec9ef5676f22.jpg",
+  "set_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-8ea842ab-a6d0-480e-9b82-38cee7664fff.jpeg",
+  "model": "grok-imagine-image-quality",
+  "aspect_ratio": "16:9",
+  "reference_status": "plate_locked",
+  "locked_at": "2026-06-19T03:47:06.417859+00:00",
+  "sfw": true,
+  "synthetic_only": true,
+  "reused": false
+}

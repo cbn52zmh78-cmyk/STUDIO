@@ -105,16 +105,37 @@ def _sanitize_gate_brief(text: str) -> str:
     return text
 
 
-def _concept_brief_path(concept: dict[str, Any]) -> Optional[Path]:
-    explicit = concept.get("gate_brief") or concept.get("brief_file")
+def _concept_brief_path(
+    concept: dict[str, Any], concept_file: Optional[Path] = None
+) -> Optional[Path]:
+    """Resolve Gate 0 brief file — honors gate_brief, brief_file, brief, or {slug}_brief.txt."""
+    explicit = concept.get("gate_brief") or concept.get("brief_file") or concept.get("brief")
     if explicit:
-        p = Path(explicit)
-        return p if p.is_absolute() else (CONCEPTS_DIR / p)
+        p = Path(str(explicit))
+        if p.is_absolute() and p.is_file():
+            return p
+        for base in (
+            concept_file.parent if concept_file else None,
+            CONCEPTS_DIR,
+            CONCEPTS_DIR / "dead_languages",
+        ):
+            if base is None:
+                continue
+            candidate = base / p
+            if candidate.is_file():
+                return candidate
     slug = concept.get("slug")
     if slug:
-        candidate = CONCEPTS_DIR / f"{slug}_brief.txt"
-        if candidate.is_file():
-            return candidate
+        for base in (
+            concept_file.parent if concept_file else None,
+            CONCEPTS_DIR / "dead_languages",
+            CONCEPTS_DIR,
+        ):
+            if base is None:
+                continue
+            candidate = base / f"{slug}_brief.txt"
+            if candidate.is_file():
+                return candidate
     return None
 
 
@@ -156,9 +177,10 @@ def build_gate_brief_text(
     actor_id: Optional[str],
     fmt: dict[str, Any],
     format_id: str,
+    concept_file: Optional[Path] = None,
 ) -> str:
     """Compose Gate 0 brief text; prefer ``{slug}_brief.txt`` when present."""
-    path = _concept_brief_path(concept)
+    path = _concept_brief_path(concept, concept_file)
     if path:
         return _sanitize_gate_brief(path.read_text(encoding="utf-8"))
 
@@ -201,10 +223,16 @@ def run_gate_0(
     actor_id: Optional[str],
     fmt: dict[str, Any],
     format_id: str,
+    concept_file: Optional[Path] = None,
 ) -> dict[str, Any]:
     """Run mandatory Gate 0; save report; return stamp for intake."""
     brief = build_gate_brief_text(
-        concept, actor=actor, actor_id=actor_id, fmt=fmt, format_id=format_id
+        concept,
+        actor=actor,
+        actor_id=actor_id,
+        fmt=fmt,
+        format_id=format_id,
+        concept_file=concept_file,
     )
     rating = _gate_rating(concept, fmt, brief)
     channels = _gate_channels(concept, brief)
@@ -633,7 +661,10 @@ class Gate0BlockedError(Exception):
 # Public entry point
 # --------------------------------------------------------------------------- #
 def build_longform_script(
-    concept: dict[str, Any], libs: Optional[dict[str, Any]] = None
+    concept: dict[str, Any],
+    libs: Optional[dict[str, Any]] = None,
+    *,
+    concept_file: Optional[Path] = None,
 ) -> dict[str, Any]:
     """Turn a concept dict into a canonical render_longform script.json dict.
 
@@ -667,7 +698,12 @@ def build_longform_script(
     actor = select_actor(actor_id, fmt, libs)
 
     gate_stamp = run_gate_0(
-        concept, actor=actor, actor_id=actor_id, fmt=fmt, format_id=format_id
+        concept,
+        actor=actor,
+        actor_id=actor_id,
+        fmt=fmt,
+        format_id=format_id,
+        concept_file=concept_file,
     )
     if gate_stamp["blocked"]:
         raise Gate0BlockedError(gate_stamp)
@@ -752,8 +788,10 @@ def main(argv: Optional[list[str]] = None) -> int:
     args = parser.parse_args(argv)
 
     concept: dict[str, Any] = {}
+    concept_file: Optional[Path] = None
     if args.concept:
-        concept = json.loads(Path(args.concept).read_text(encoding="utf-8"))
+        concept_file = Path(args.concept).resolve()
+        concept = json.loads(concept_file.read_text(encoding="utf-8"))
     for key, val in (
         ("slug", args.slug),
         ("title", args.title),
@@ -769,7 +807,7 @@ def main(argv: Optional[list[str]] = None) -> int:
         parser.error("a 'slug' is required (in the concept file or via --slug)")
 
     try:
-        script = build_longform_script(concept)
+        script = build_longform_script(concept, concept_file=concept_file)
     except Gate0BlockedError as exc:
         stamp = exc.stamp
         print(f"\n🛑 GATE 0 RED — intake blocked (no script written)")

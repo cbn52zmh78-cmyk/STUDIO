@@ -1,0 +1,53 @@
+{
+  "chapters": [
+    {
+      "shot_id": "01_establishing",
+      "start_s": 0.0,
+      "label": "Establishing",
+      "youtube": "00:00 Establishing"
+    },
+    {
+      "shot_id": "02_character_intro",
+      "start_s": 7.0,
+      "label": "I came back for one file.",
+      "youtube": "00:07 I came back for one file."
+    },
+    {
+      "shot_id": "03_inciting",
+      "start_s": 14.8,
+      "label": "Then the lights went out.",
+      "youtube": "00:14 Then the lights went out."
+    },
+    {
+      "shot_id": "04_rising",
+      "start_s": 22.6,
+      "label": "Footsteps. Not mine.",
+      "youtube": "00:22 Footsteps. Not mine."
+    },
+    {
+      "shot_id": "05_turn",
+      "start_s": 30.4,
+      "label": "The door I locked was open.",
+      "youtube": "00:30 The door I locked was open."
+    },
+    {
+      "shot_id": "06_peak",
+      "start_s": 38.2,
+      "label": "Someone is still here.",
+      "youtube": "00:38 Someone is still here."
+    },
+    {
+      "shot_id": "07_resolution",
+      "start_s": 46.0,
+      "label": "Run.",
+      "youtube": "00:46 Run."
+    },
+    {
+      "shot_id": "provenance_card",
+      "start_s": 53.8,
+      "label": "Warehouse Signal",
+      "youtube": "00:53 Warehouse Signal"
+    }
+  ],
+  "xfade_s": 0.2
+}
