@@ -4,13 +4,23 @@
   "format_id": "science-explainer",
   "actor_id": "Julian-001",
   "target_seconds": 54,
-  "tags": ["astrophysics", "cosmology", "galaxies", "jwst", "science", "observable"],
+  "tags": [
+    "astrophysics",
+    "cosmology",
+    "galaxies",
+    "jwst",
+    "science",
+    "observable"
+  ],
   "logline": "Dark matter halos, cooling gas, and mergers build galaxies across cosmic time — JWST, Planck, and simulation evidence cited.",
   "brief": "astro_mini_slate/science_galaxy_formation_v1_brief.txt",
   "gate_0": {
     "human_signoff": true,
     "rating": "PG",
-    "channels": ["social", "streaming"],
+    "channels": [
+      "social",
+      "streaming"
+    ],
     "publish_platform": "youtube",
     "ai_disclosure": "provenance card + YouTube upload metadata",
     "music_bed_id": "BED-DOC-001"
@@ -25,7 +35,12 @@
     "domain": "Astrophysics — Galaxy Formation & Cosmology",
     "phenomenon": "How Galaxies Form",
     "key_measurement": "Planck 2018 ΛCDM: Ω_m ≈ 0.315, H₀ ≈ 67.4 km/s/Mpc; JWST detects galaxies within ~400 Myr after Big Bang",
-    "institutions": ["NASA", "ESA", "Planck Collaboration", "James Webb Space Telescope"],
+    "institutions": [
+      "NASA",
+      "ESA",
+      "Planck Collaboration",
+      "James Webb Space Telescope"
+    ],
     "visualization_prompt": "scientific visualization galaxy formation in expanding universe, dark matter halo skeleton, baryonic gas cooling into disk, minor merger building stellar halo, spiral structure emergence, NOT TO SCALE cosmological simulation, 16:9 fidelity",
     "sources": [
       {
@@ -46,7 +61,10 @@
         "type": "secondary",
         "notes": "Observational synthesis of galaxy populations and mergers"
       }
-    ]
+    ],
+    "visualization_ref": "Science/reference_plates/astro/galaxy_reference.jpg",
+    "plate_id": "@Sci-Galaxy-001",
+    "plate_slug": "galaxy"
   },
   "beats": [
     {
@@ -66,7 +84,11 @@
       "id": "04_visualization_payoff",
       "speech_text": "This cosmological simulation compresses eons: a dark matter halo gathers gas, stars ignite, and a disk galaxy assembles through mergers — a model tuned to ΛCDM, not a single telescope movie.",
       "scale_label": "NOT TO SCALE",
-      "on_screen_labels": ["SCIENCE VISUALIZATION", "SIMULATION", "NOT TO SCALE"],
+      "on_screen_labels": [
+        "SCIENCE VISUALIZATION",
+        "SIMULATION",
+        "NOT TO SCALE"
+      ],
       "visualization_prompt": "ΛCDM galaxy formation simulation: expanding universe backdrop, dark matter filament, halo accretion, gas cooling into rotating disk, minor merger event, spiral arms forming, documentary cosmology fidelity"
     },
     {

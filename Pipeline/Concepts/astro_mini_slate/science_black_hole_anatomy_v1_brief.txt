@@ -6,7 +6,7 @@ Host: Julian-001 synthetic science presenter (roster continuity lock)
 Science subject: Anatomy of a Black Hole
 Domain: Astrophysics — Black Holes
 subject_id: BH-ANAT-001
-Key measurement: M87* shadow ~42 μas (EHT 2019); GW150914 chirp mass ~62 M☉
+Key measurement: M87* shadow ~42 μas (EHT 2019); GW150914 final black-hole mass ~62 M☉ (chirp mass ~28 M☉)
 Content: Educational astrophysics explainer — event horizon, shadow, accretion disk, evidence from EHT and LIGO. No medical or legal advice.
 Simulation disclosure: @2 visualization payoff uses illustrative GR/MHD simulation frames — labeled SIMULATION and NOT TO SCALE; not a direct photograph of a black hole interior or singularity.
 Sources: EHT Collaboration ApJ 875 L1 (2019); LIGO GW150914 Phys. Rev. Lett. 116 (2016); NASA Science Black Holes overview.

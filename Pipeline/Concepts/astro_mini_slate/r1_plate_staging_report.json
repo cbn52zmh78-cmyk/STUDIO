@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-06-19T05:22:27.113625+00:00",
+  "r1": {
+    "ready": true,
+    "task": "R1 — astrophysics reference harvest for astro @2 subjects",
+    "expected": 6,
+    "harvested": 6,
+    "failed_slugs": [],
+    "manifest": "Science/reference_plates/astro_reference_manifest.json",
+    "checked_at": "2026-06-19T05:22:27.112666+00:00"
+  },
+  "plates": [
+    {
+      "plate_slug": "neutron-star",
+      "plate_id": "@Sci-NeutronStar-001",
+      "reference_file": "Science/reference_plates/astro/neutron_star_reference.jpg",
+      "action": "reused",
+      "bytes": 200101
+    },
+    {
+      "plate_slug": "exoplanet",
+      "plate_id": "@Sci-Exoplanet-001",
+      "reference_file": "Science/reference_plates/astro/exoplanet_reference.jpg",
+      "action": "reused",
+      "bytes": 172297
+    },
+    {
+      "plate_slug": "nebula",
+      "plate_id": "@Sci-Nebula-001",
+      "reference_file": "Science/reference_plates/astro/nebula_reference.jpg",
+      "action": "reused",
+      "bytes": 302873
+    },
+    {
+      "plate_slug": "galaxy",
+      "plate_id": "@Sci-Galaxy-001",
+      "reference_file": "Science/reference_plates/astro/galaxy_reference.jpg",
+      "action": "reused",
+      "bytes": 244108
+    },
+    {
+      "plate_slug": "supernova",
+      "plate_id": "@Sci-Supernova-001",
+      "reference_file": "Science/reference_plates/astro/supernova_reference.jpg",
+      "action": "reused",
+      "bytes": 7722867
+    },
+    {
+      "plate_slug": "black-hole",
+      "plate_id": "@Sci-BlackHole-001",
+      "reference_file": "Science/reference_plates/astro/black_hole_reference.jpg",
+      "action": "reused",
+      "bytes": 245907
+    }
+  ]
+}
