@@ -1,0 +1,19 @@
+{
+  "gate": "editorial",
+  "applies": false,
+  "verdict": "GREEN",
+  "status": "N/A",
+  "blocked": false,
+  "requires_human_signoff": false,
+  "human_signoff": false,
+  "hard_stops": [],
+  "warnings": [],
+  "counsel_flags": [],
+  "notes": [],
+  "checklist": {},
+  "project": "mini",
+  "stage": "intake",
+  "timestamp": "20260619_044135",
+  "source_excerpt": "Title: Test\n\nINT. HOUSE - DAY\n\nAna enters.\n\nANA\nHello.\n\nEXT. PARK - NIGHT\n\nThey walk.\n\nINT. CAR - DAY\n\nSilence.\n",
+  "shared_report": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Legal\\Gate_Reports\\GATE_GREEN_mini_20260619_044135_editorial.md"
+}
