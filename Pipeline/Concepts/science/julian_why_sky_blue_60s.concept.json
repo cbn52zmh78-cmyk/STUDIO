@@ -14,8 +14,12 @@
   ],
   "gate_0": {
     "human_signoff": true,
-    "channels": ["social", "educational"],
-    "rating": "PG"
+    "channels": [
+      "social",
+      "educational"
+    ],
+    "rating": "PG",
+    "music_bed_id": "BED-PHY-001"
   },
   "brand": {
     "title": "STUDIO Science",

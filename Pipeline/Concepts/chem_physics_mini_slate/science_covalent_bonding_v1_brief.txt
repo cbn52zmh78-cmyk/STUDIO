@@ -14,4 +14,4 @@ Scientific visualization @2 payoff — illustrative frames labeled NOT TO SCALE 
 Dignity: SFW scholarly science communication; no medical or legal advice as professional counsel.
 AI disclosure: synthetic presenter in provenance card and platform metadata.
 Synthetic fictional presenter Julian-001 only — no celebrity mimicry. Adult scholarly presentation.
-Music plan: BED-CHE-001 — music cleared, cue sheet on file.
+Music bed: BED-CHE-002 — Bond Matrix — Synth Orbitals (chemistry-lab); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: CC0 — OpenGameArt community upload (verified CC0 1.0); license: CC0; no attribution required); allowed channels: social, streaming, theatrical, festival, client

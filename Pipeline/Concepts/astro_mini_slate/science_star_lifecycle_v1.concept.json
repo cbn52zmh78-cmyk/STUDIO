@@ -1,6 +1,6 @@
 {
   "slug": "science_star_lifecycle_v1",
-  "title": "Observable — Life & Death of a Star",
+  "title": "Observable \u2014 Life & Death of a Star",
   "format_id": "science-explainer",
   "actor_id": "Julian-001",
   "target_seconds": 54,
@@ -11,7 +11,7 @@
     "science",
     "observable"
   ],
-  "logline": "From nebula to main sequence to stellar remnant — how mass sets a star's fate; Hubble and supernova observations cited.",
+  "logline": "From nebula to main sequence to stellar remnant \u2014 how mass sets a star's fate; Hubble and supernova observations cited.",
   "brief": "astro_mini_slate/science_star_lifecycle_v1_brief.txt",
   "gate_0": {
     "human_signoff": true,
@@ -26,14 +26,14 @@
   },
   "brand": {
     "title": "Observable",
-    "subtitle": "Upon Tyne Science — evidence before wonder",
-    "cta": "Follow Observable — one measurement at a time."
+    "subtitle": "Upon Tyne Science \u2014 evidence before wonder",
+    "cta": "Follow Observable \u2014 one measurement at a time."
   },
   "science_subject": {
     "subject_id": "STAR-LIFE-001",
-    "domain": "Astrophysics — Stellar Evolution",
+    "domain": "Astrophysics \u2014 Stellar Evolution",
     "phenomenon": "Life & Death of a Star",
-    "key_measurement": "Chandrasekhar limit ~1.4 M☉ (white dwarf); iron-core collapse triggers Type II supernova",
+    "key_measurement": "Chandrasekhar limit ~1.4 M\u2609 (white dwarf); iron-core collapse triggers Type II supernova",
     "institutions": [
       "NASA",
       "ESA",
@@ -42,13 +42,13 @@
     "visualization_prompt": "scientific visualization stellar evolution sequence, protostar in molecular cloud, main-sequence star, red giant envelope expansion, planetary nebula or core-collapse supernova branch by mass, NOT TO SCALE time-compressed, 16:9 documentary fidelity",
     "sources": [
       {
-        "citation": "NASA Science — Stars: Life and Death (stellar evolution stages, mass-dependent endpoints)",
+        "citation": "NASA Science \u2014 Stars: Life and Death (stellar evolution stages, mass-dependent endpoints)",
         "url": "https://science.nasa.gov/universe/stars/",
         "type": "secondary",
         "notes": "Authoritative public synthesis of stellar lifecycle"
       },
       {
-        "citation": "ESA/Hubble — Stellar evolution and star formation (HR diagram, main sequence, giants)",
+        "citation": "ESA/Hubble \u2014 Stellar evolution and star formation (HR diagram, main sequence, giants)",
         "url": "https://esahubble.org/science/stars/",
         "type": "secondary",
         "notes": "Observational context for populations and nebulae"
@@ -68,19 +68,19 @@
     {
       "id": "01_hook",
       "speech_text": "Every atom of iron in your blood was forged inside a star that lived, burned, and died long before Earth existed.",
-      "on_screen": "Observable · Life & Death of a Star"
+      "on_screen": "Observable \u00b7 Life & Death of a Star"
     },
     {
       "id": "02_phenomenon",
-      "speech_text": "Stars begin as dense knots in cold gas clouds. Gravity pulls hydrogen together until fusion ignites — a main-sequence star. Mass is destiny: Sun-like stars swell into red giants; the most massive stars race through fusion stages in millions of years."
+      "speech_text": "Stars begin as dense knots in cold gas clouds. Gravity pulls hydrogen together until fusion ignites \u2014 a main-sequence star. Mass is destiny: Sun-like stars swell into red giants; the most massive stars race through fusion stages in millions of years."
     },
     {
       "id": "03_how_we_know",
-      "speech_text": "We read stellar ages and compositions in spectra — the fingerprint of elements made in the core. Hubble and ground telescopes watch star-forming nebulae today. Supernova SN nineteen eighty-seven A showed, in real time, what theory predicted for a collapsing massive star."
+      "speech_text": "We read stellar ages and compositions in spectra \u2014 the fingerprint of elements made in the core. Hubble and ground telescopes watch star-forming nebulae today. Supernova SN nineteen eighty-seven A showed, in real time, what theory predicted for a collapsing massive star."
     },
     {
       "id": "04_visualization_payoff",
-      "speech_text": "This time-compressed model walks one star from nursery to remnant — white dwarf, neutron star, or black hole depending on mass. Billions of years, seconds on screen — a simulation, not a single observed timeline.",
+      "speech_text": "This time-compressed model walks one star from nursery to remnant \u2014 white dwarf, neutron star, or black hole depending on mass. Billions of years, seconds on screen \u2014 a simulation, not a single observed timeline.",
       "scale_label": "NOT TO SCALE",
       "on_screen_labels": [
         "SCIENCE VISUALIZATION",
@@ -91,14 +91,14 @@
     },
     {
       "id": "05_significance",
-      "speech_text": "When massive stars explode, they seed the galaxy with heavy elements — the raw material for planets and life. Stars are not background lights. They are the universe's chemical factories."
+      "speech_text": "When massive stars explode, they seed the galaxy with heavy elements \u2014 the raw material for planets and life. Stars are not background lights. They are the universe's chemical factories."
     }
   ],
   "provenance_card": {
     "lines": [
       "SUBJECT: Life & Death of a Star (STAR-LIFE-001)",
       "EVIDENCE: Stellar spectroscopy; SN 1987A; Chandrasekhar limit theory",
-      "VIZ: Time-compressed stellar evolution model — NOT TO SCALE"
+      "VIZ: Time-compressed stellar evolution model \u2014 NOT TO SCALE"
     ]
   }
 }

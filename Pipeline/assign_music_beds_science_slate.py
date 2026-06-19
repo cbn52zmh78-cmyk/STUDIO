@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ARTIFACTS = ROOT / "artifacts"
 ASTRO = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "astro_mini_slate"
 MOLECULAR = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "molecular_mini_slate"
+CHEM_PHYSICS = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "chem_physics_mini_slate"
 SCIENCE = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "science"
 INTAKE = ROOT / "STUDIO" / "Pipeline" / "production_intake.py"
 LONGFORM = ROOT / "DAVID" / "scripts" / "longform_scripts"
@@ -34,7 +35,12 @@ SCIENCE_BEDS: dict[str, tuple[str, str]] = {
     "science_protein_folding_v1": ("BED-CLI-001", "molecular"),
     "science_dna_replication_v1": ("BED-CLI-002", "molecular"),
     "science_immune_checkpoint_v1": ("BED-CLI-001", "molecular"),
+    "science_covalent_bonding_v1": ("BED-CHE-002", "chemistry"),
+    "science_ionic_crystal_v1": ("BED-CHE-001", "chemistry"),
+    "science_electromagnetism_v1": ("BED-PHY-002", "physics"),
     "julian_why_sky_blue_60s": ("BED-PHY-001", "physics"),
+    "julian_em_field_lines_60s": ("BED-PHY-002", "physics"),
+    "julian_covalent_bonding_60s": ("BED-CHE-002", "chemistry"),
 }
 
 CONCEPT_DIRS: dict[str, Path] = {
@@ -44,7 +50,12 @@ CONCEPT_DIRS: dict[str, Path] = {
     "science_protein_folding_v1": MOLECULAR,
     "science_dna_replication_v1": MOLECULAR,
     "science_immune_checkpoint_v1": MOLECULAR,
+    "science_covalent_bonding_v1": CHEM_PHYSICS,
+    "science_ionic_crystal_v1": CHEM_PHYSICS,
+    "science_electromagnetism_v1": CHEM_PHYSICS,
     "julian_why_sky_blue_60s": SCIENCE,
+    "julian_em_field_lines_60s": SCIENCE,
+    "julian_covalent_bonding_60s": SCIENCE,
 }
 
 MUSIC_LINE_RE = re.compile(
@@ -53,11 +64,18 @@ MUSIC_LINE_RE = re.compile(
 )
 
 
+_MANIFEST_CHANNELS = frozenset({"social", "streaming", "theatrical", "festival", "client"})
+
+
 def _stamp_concept(concept_path: Path, bed_id: str) -> None:
     concept = json.loads(concept_path.read_text(encoding="utf-8"))
     gate = dict(concept.get("gate_0") or {})
     gate.pop("music_plan", None)
     gate["music_bed_id"] = bed_id
+    raw_channels = [str(c).lower().strip() for c in (gate.get("channels") or []) if str(c).strip()]
+    cleared = [c for c in raw_channels if c in _MANIFEST_CHANNELS]
+    if not cleared or len(cleared) < len(raw_channels):
+        gate["channels"] = cleared or ["social", "streaming"]
     concept["gate_0"] = gate
     concept_path.write_text(json.dumps(concept, indent=2) + "\n", encoding="utf-8")
 

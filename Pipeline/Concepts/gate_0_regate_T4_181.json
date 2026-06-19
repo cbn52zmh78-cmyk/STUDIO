@@ -1,7 +1,7 @@
 {
   "issue": 181,
   "task": "T4 — re-gate full slate post-clamp-fix",
-  "regated_at": "2026-06-19T06:09:15.732357+00:00",
+  "regated_at": "2026-06-19T06:18:57.187556+00:00",
   "clamp_fix": "shot_duration.apply_duration_clamp_to_shots via production_intake",
   "summary": {
     "total": 24,
@@ -20,7 +20,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_akkadian_corpus_v1_20260619_010906.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_akkadian_corpus_v1_20260619_011851.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -32,7 +32,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_ancient_greek_corpus_v1_20260619_010906.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_ancient_greek_corpus_v1_20260619_011851.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -44,7 +44,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_biblical_hebrew_corpus_v1_20260619_010906.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_biblical_hebrew_corpus_v1_20260619_011851.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -56,7 +56,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_classical_nahuatl_corpus_v1_20260619_010906.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_classical_nahuatl_corpus_v1_20260619_011851.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -68,7 +68,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_gothic_corpus_v1_20260619_010907.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_gothic_corpus_v1_20260619_011852.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -80,7 +80,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_latin_corpus_v1_20260619_010907.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_latin_corpus_v1_20260619_011852.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -92,7 +92,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_middle_egyptian_corpus_v1_20260619_010907.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_middle_egyptian_corpus_v1_20260619_011852.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -104,7 +104,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_church_slavonic_corpus_v1_20260619_010907.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_church_slavonic_corpus_v1_20260619_011852.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -116,7 +116,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_english_corpus_v1_20260619_010908.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_english_corpus_v1_20260619_011853.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -128,7 +128,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_norse_corpus_v1_20260619_010908.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_old_norse_corpus_v1_20260619_011853.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -140,7 +140,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sanskrit_corpus_v1_20260619_010908.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sanskrit_corpus_v1_20260619_011853.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -152,7 +152,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sumerian_corpus_v1_20260619_010909.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_sumerian_corpus_v1_20260619_011853.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -164,7 +164,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_alfred_great_v1_20260619_010909.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_alfred_great_v1_20260619_011854.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -176,7 +176,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_charlemagne_v1_20260619_010909.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_charlemagne_v1_20260619_011854.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -188,7 +188,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_cnut_great_v1_20260619_010910.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_cnut_great_v1_20260619_011854.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -200,7 +200,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_eleanor_aquitaine_v1_20260619_010910.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_eleanor_aquitaine_v1_20260619_011854.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -212,7 +212,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_elizabeth_tudor_v1_20260619_010912.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_david_elizabeth_tudor_v1_20260619_011855.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -224,7 +224,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_COUNSEL_david_richard_lionheart_v1_20260619_010912.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_COUNSEL_david_richard_lionheart_v1_20260619_011855.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -236,7 +236,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_black_hole_anatomy_v1_20260619_010913.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_black_hole_anatomy_v1_20260619_011855.json",
       "warnings": [
         "[SCIENCE] illustrative-not-simulation disclosure required — state visuals are educational illustration, not simulation output"
       ],
@@ -250,7 +250,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_010913.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_galaxy_formation_v1_20260619_011855.json",
       "warnings": [
         "[SCIENCE] illustrative-not-simulation disclosure required — state visuals are educational illustration, not simulation output"
       ],
@@ -264,7 +264,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_star_lifecycle_v1_20260619_010914.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_star_lifecycle_v1_20260619_011856.json",
       "warnings": [
         "[SCIENCE] illustrative-not-simulation disclosure required — state visuals are educational illustration, not simulation output"
       ],
@@ -278,7 +278,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_science_dna_replication_v1_20260619_010914.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_GREEN_science_dna_replication_v1_20260619_011856.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -290,7 +290,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_immune_checkpoint_v1_20260619_010915.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_immune_checkpoint_v1_20260619_011856.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null
@@ -302,7 +302,7 @@
       "intake_ok": true,
       "intake_exit": 0,
       "script_only_ok": true,
-      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_protein_folding_v1_20260619_010915.json",
+      "report": "Studio/Producers_Office/Legal_Gate/GATE_YELLOW_science_protein_folding_v1_20260619_011857.json",
       "warnings": [],
       "human_signoff": true,
       "checklist": null

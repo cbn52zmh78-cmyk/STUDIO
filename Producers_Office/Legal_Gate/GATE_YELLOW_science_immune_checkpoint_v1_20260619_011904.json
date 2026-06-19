@@ -1,0 +1,56 @@
+{
+  "project": "science_immune_checkpoint_v1",
+  "verdict": "YELLOW",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [
+    "[SOCIAL] Social platforms require AI disclosure labels \u2014 verify current ToS"
+  ],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-CLI-001 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "Science Gate: illustrative-not-simulation policy applies.",
+    "Science Gate: disclosure + source present; no simulation overclaims flagged.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "REVIEW",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "MANUAL"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": true,
+    "status": "PASS",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [
+      "Science Gate: illustrative-not-simulation policy applies.",
+      "Science Gate: disclosure + source present; no simulation overclaims flagged."
+    ],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:19:04.691068",
+  "source_excerpt": "OBSERVABLE \u2014 THE IMMUNE CHECKPOINT (science_immune_checkpoint_v1)\n\nMusic bed: BED-CLI-001 \u2014 Lab Bench \u2014 Pulse Ticks (clinical-precision); cleared per STUDIO/Music_Sound/clearance_manifest.json (source: Upon Tyne Productions \u2014 science score library (synthetic ensemble); license: owned; no attribution required); allowed channels: social, streaming, theatrical, festival, client\nSubject: PD-1/PD-L1 immune checkpoint (IMM-CHK-001). Plate: @Sci-ImmuneCheckpoint-001 (pd1-pdl1-complex, PDB 4ZQK).\nPrinci"
+}

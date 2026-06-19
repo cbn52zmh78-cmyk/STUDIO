@@ -1,6 +1,6 @@
 {
   "slug": "science_black_hole_anatomy_v1",
-  "title": "Observable — Anatomy of a Black Hole",
+  "title": "Observable \u2014 Anatomy of a Black Hole",
   "format_id": "science-explainer",
   "actor_id": "Julian-001",
   "target_seconds": 54,
@@ -11,7 +11,7 @@
     "eht",
     "observable"
   ],
-  "logline": "Event horizon, shadow, and accretion disk — what we observe versus what simulations show; EHT and LIGO evidence on file.",
+  "logline": "Event horizon, shadow, and accretion disk \u2014 what we observe versus what simulations show; EHT and LIGO evidence on file.",
   "brief": "astro_mini_slate/science_black_hole_anatomy_v1_brief.txt",
   "gate_0": {
     "human_signoff": true,
@@ -26,14 +26,14 @@
   },
   "brand": {
     "title": "Observable",
-    "subtitle": "Upon Tyne Science — evidence before wonder",
-    "cta": "Follow Observable — one measurement at a time."
+    "subtitle": "Upon Tyne Science \u2014 evidence before wonder",
+    "cta": "Follow Observable \u2014 one measurement at a time."
   },
   "science_subject": {
     "subject_id": "BH-ANAT-001",
-    "domain": "Astrophysics — Black Holes",
+    "domain": "Astrophysics \u2014 Black Holes",
     "phenomenon": "Anatomy of a Black Hole",
-    "key_measurement": "M87* shadow diameter ~42 μas (EHT 2019); GW150914 final black-hole mass ~62 M☉ (chirp mass ~28 M☉)",
+    "key_measurement": "M87* shadow diameter ~42 \u03bcas (EHT 2019); GW150914 final black-hole mass ~62 M\u2609 (chirp mass ~28 M\u2609)",
     "institutions": [
       "Event Horizon Telescope Collaboration",
       "LIGO Scientific Collaboration",
@@ -51,10 +51,10 @@
         "citation": "Abbott, B. P. et al. (LIGO Scientific Collaboration), Observation of Gravitational Waves from a Binary Black Hole Merger, Phys. Rev. Lett. 116, 061102 (2016)",
         "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.061102",
         "type": "primary",
-        "notes": "GW150914 — stellar-mass merger detected via spacetime strain"
+        "notes": "GW150914 \u2014 stellar-mass merger detected via spacetime strain"
       },
       {
-        "citation": "NASA Science — Black Holes overview (event horizon, no escape for light)",
+        "citation": "NASA Science \u2014 Black Holes overview (event horizon, no escape for light)",
         "url": "https://science.nasa.gov/universe/black-holes/",
         "type": "secondary",
         "notes": "Public-facing synthesis aligned with GR textbook definitions"
@@ -67,20 +67,20 @@
   "beats": [
     {
       "id": "01_hook",
-      "speech_text": "What if you crossed a boundary where even light cannot climb back out? That is not science fiction — it is what a black hole does to spacetime.",
-      "on_screen": "Observable · Anatomy of a Black Hole"
+      "speech_text": "What if you crossed a boundary where even light cannot climb back out? That is not science fiction \u2014 it is what a black hole does to spacetime.",
+      "on_screen": "Observable \u00b7 Anatomy of a Black Hole"
     },
     {
       "id": "02_phenomenon",
-      "speech_text": "A black hole is not a hole you fall through. It is mass so compressed that gravity curves space and time into a one-way boundary — the event horizon — with a dark shadow at the center and, often, a blazing accretion disk around it."
+      "speech_text": "A black hole is not a hole you fall through. It is mass so compressed that gravity curves space and time into a one-way boundary \u2014 the event horizon \u2014 with a dark shadow at the center and, often, a blazing accretion disk around it."
     },
     {
       "id": "03_how_we_know",
-      "speech_text": "In twenty nineteen, the Event Horizon Telescope resolved the shadow of M87's supermassive black hole — forty-two micro-arcseconds wide. LIGO has heard stellar-mass black holes merge, rippling spacetime itself. We observe the shadow and the waves — not the singularity inside."
+      "speech_text": "In twenty nineteen, the Event Horizon Telescope resolved the shadow of M87's supermassive black hole \u2014 forty-two micro-arcseconds wide. LIGO has heard stellar-mass black holes merge, rippling spacetime itself. We observe the shadow and the waves \u2014 not the singularity inside."
     },
     {
       "id": "04_visualization_payoff",
-      "speech_text": "This visualization shows what general relativity predicts: a dark shadow, a thin relativistic disk with Doppler beaming, and bent starlight around the photon sphere — illustrative geometry, not a photograph.",
+      "speech_text": "This visualization shows what general relativity predicts: a dark shadow, a thin relativistic disk with Doppler beaming, and bent starlight around the photon sphere \u2014 illustrative geometry, not a photograph.",
       "scale_label": "NOT TO SCALE",
       "on_screen_labels": [
         "SCIENCE VISUALIZATION",
@@ -98,7 +98,7 @@
     "lines": [
       "SUBJECT: Anatomy of a Black Hole (BH-ANAT-001)",
       "EVIDENCE: EHT M87* shadow (2019); LIGO GW150914 (2016)",
-      "VIZ: Illustrative GR simulation — labeled NOT TO SCALE; not photographic"
+      "VIZ: Illustrative GR simulation \u2014 labeled NOT TO SCALE; not photographic"
     ]
   }
 }

@@ -76,13 +76,63 @@
       "gate_verdict": "YELLOW"
     },
     {
+      "slate": "chemistry",
+      "slug": "science_covalent_bonding_v1",
+      "bed_id": "BED-CHE-002",
+      "lane": "chemistry-lab",
+      "track": "Bond Matrix \u2014 Synth Orbitals",
+      "license": "CC0",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "chemistry",
+      "slug": "science_ionic_crystal_v1",
+      "bed_id": "BED-CHE-001",
+      "lane": "chemistry-lab",
+      "track": "Reaction Vessel \u2014 Glass Harmonics",
+      "license": "owned",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "physics",
+      "slug": "science_electromagnetism_v1",
+      "bed_id": "BED-PHY-002",
+      "lane": "physics-precision",
+      "track": "Field Lines \u2014 Neutral Drift",
+      "license": "royalty-free",
+      "row_2": "PASS",
+      "gate_verdict": "YELLOW"
+    },
+    {
       "slate": "physics",
       "slug": "julian_why_sky_blue_60s",
       "bed_id": "BED-PHY-001",
       "lane": "physics-precision",
       "track": "Wavefront \u2014 Measurement Pulse",
       "license": "owned",
-      "row_2": "PASS",
+      "row_2": "MANUAL",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "physics",
+      "slug": "julian_em_field_lines_60s",
+      "bed_id": "BED-PHY-002",
+      "lane": "physics-precision",
+      "track": "Field Lines \u2014 Neutral Drift",
+      "license": "royalty-free",
+      "row_2": "MANUAL",
+      "gate_verdict": "YELLOW"
+    },
+    {
+      "slate": "chemistry",
+      "slug": "julian_covalent_bonding_60s",
+      "bed_id": "BED-CHE-002",
+      "lane": "chemistry-lab",
+      "track": "Bond Matrix \u2014 Synth Orbitals",
+      "license": "CC0",
+      "row_2": "MANUAL",
       "gate_verdict": "YELLOW"
     }
   ]
