@@ -1,0 +1,53 @@
+{
+  "project": "test_gate_red_music_v1",
+  "verdict": "RED",
+  "target_rating": "PG-13",
+  "channels": [
+    "client"
+  ],
+  "hard_stops": [
+    "[MUSIC] Uncleared music \u2014 HARD STOP on client deliverable (Gate 0 row 2)"
+  ],
+  "counsel_flags": [
+    "Music clearance \u2014 two-sided licenses required"
+  ],
+  "warnings": [],
+  "distribution_flags": [
+    "[CLIENT] Client work \u2014 brand safety + indemnity + extra clearance",
+    "[CLIENT] Client deliverable \u2014 chain-of-title + contract review"
+  ],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "PRODUCER HARD STOP \u2014 Gate 0 failed. Do not generate. Do not shoot. Do not publish."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "FAIL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "REVIEW",
+    "row_5_age_documentation": "PASS",
+    "row_6_ai_disclosure": "MANUAL"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T05:56:32.554377",
+  "source_excerpt": "Project: test_gate_red_music_v1\nFormat: explainer-ad client deliverable\nRating target: PG-13\nChannels: client\nPerformer: Julian-001 (31-year-old synthetic male presenter)\nSoundtrack: uncleared Taylor Swift track, no sync license, temp music only, no master use clearance.\nWork-for-hire client deliverable to agency.\nSynthetic fictional performer only. adult cast only (21+)."
+}

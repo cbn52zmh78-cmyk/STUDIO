@@ -1,8 +1,8 @@
 {
   "issue": 157,
   "task": "ACTORS @2 plug-and-play — fixed black-hole scaffold",
-  "scaffold": "C:\\Users\\NCG\\Videos\\Grok Projects\\STUDIO\\Pipeline\\scaffolds\\black_hole_at2_swap_scaffold.json",
-  "built_at": "2026-06-19T05:02:35.020417+00:00",
+  "scaffold": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Pipeline\\scaffolds\\black_hole_at2_swap_scaffold.json",
+  "built_at": "2026-06-19T10:56:41.096486+00:00",
   "resolution": "480p",
   "swap_count": 3,
   "all_qa_pass": true,
@@ -17,13 +17,13 @@
   ],
   "demos": [
     {
-      "plate_slug": "neutron-star",
-      "plate_id": "@Sci-NeutronStar-001",
-      "plate_subject": "Neutron star (pulsar magnetosphere)",
-      "plate_path": "C:/Users/NCG/Videos/Grok Projects/Science/reference_plates/astro/neutron_star_reference.jpg",
-      "script": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_neutron-star_480p_v1_longform_v1\\actors_157_at2_swap_neutron-star_480p_v1_script.json",
-      "slug": "actors_157_at2_swap_neutron-star_480p_v1",
-      "output_mp4": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_neutron-star_480p_v1_longform_v1\\output\\studio_actors_157_at2_swap_neutron-star_480p_v1_seamless_v1.mp4",
+      "plate_slug": "galaxy",
+      "plate_id": "@Sci-Galaxy-001",
+      "plate_subject": "Spiral galaxy (face-on grand-design)",
+      "plate_path": "C:/Users/NCG/Videos/Grok Projects/Science/reference_plates/astro/galaxy_reference.jpg",
+      "script": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_galaxy_480p_v1_longform_v1\\actors_157_at2_swap_galaxy_480p_v1_script.json",
+      "slug": "actors_157_at2_swap_galaxy_480p_v1",
+      "output_mp4": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_galaxy_480p_v1_longform_v1\\output\\studio_actors_157_at2_swap_galaxy_480p_v1_seamless_v1.mp4",
       "render_exit_code": 0,
       "qa_pass": true,
       "qa_issues": []
@@ -41,13 +41,13 @@
       "qa_issues": []
     },
     {
-      "plate_slug": "galaxy",
-      "plate_id": "@Sci-Galaxy-001",
-      "plate_subject": "Spiral galaxy (face-on grand-design)",
-      "plate_path": "C:/Users/NCG/Videos/Grok Projects/Science/reference_plates/astro/galaxy_reference.jpg",
-      "script": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_galaxy_480p_v1_longform_v1\\actors_157_at2_swap_galaxy_480p_v1_script.json",
-      "slug": "actors_157_at2_swap_galaxy_480p_v1",
-      "output_mp4": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_galaxy_480p_v1_longform_v1\\output\\studio_actors_157_at2_swap_galaxy_480p_v1_seamless_v1.mp4",
+      "plate_slug": "neutron-star",
+      "plate_id": "@Sci-NeutronStar-001",
+      "plate_subject": "Neutron star (pulsar magnetosphere)",
+      "plate_path": "C:\\Users\\NCG\\Videos\\Grok Projects\\Science\\reference_plates\\astro\\neutron_star_reference.jpg",
+      "script": "C:\\Users\\NCG\\Videos\\Grok Projects\\Studio\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_neutron-star_480p_v1_longform_v1\\actors_157_at2_swap_neutron-star_480p_v1_script.json",
+      "slug": "actors_157_at2_swap_neutron-star_480p_v1",
+      "output_mp4": "STUDIO\\Productions\\Science\\actors_157_at2_swap\\actors_157_at2_swap_neutron-star_480p_v1_longform_v1\\output\\studio_actors_157_at2_swap_neutron-star_480p_v1_seamless_v1.mp4",
       "render_exit_code": 0,
       "qa_pass": true,
       "qa_issues": []
