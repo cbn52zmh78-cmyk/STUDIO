@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 WORKSPACE = Path(__file__).resolve().parents[2]
-PIPELINE = WORKSPACE / "STUDIO" / "Pipeline"
+PIPELINE = WORKSPACE / "Studio" / "Pipeline"
 SUMMARY_PATH = WORKSPACE / "Science" / "reference_plates" / "t2_178_plate_lock_summary.json"
 LIBRARY = WORKSPACE / "Science" / "reference_plates" / "science_plate_library_v1.json"
 

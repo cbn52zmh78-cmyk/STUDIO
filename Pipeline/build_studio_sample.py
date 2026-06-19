@@ -22,9 +22,9 @@ sys.path.insert(0, str(WORKSPACE / "tools"))
 from production.production_templates import build_longform_script, write_script  # noqa: E402
 
 PROD_SLUG = "flowdesk_explainer_v1"
-PROD_DIR = WORKSPACE / "STUDIO" / "Productions" / "Editorial" / f"{PROD_SLUG}_longform_v1"
-CASTING_REGISTRY = WORKSPACE / "STUDIO" / "Cast" / "Casting_Bible" / "registry" / "casting_registry.json"
-SET_REF_META = WORKSPACE / "STUDIO" / "Pipeline" / "references" / "seamless_neutral_grey_reference.json"
+PROD_DIR = WORKSPACE / "Studio" / "Productions" / "Editorial" / f"{PROD_SLUG}_longform_v1"
+CASTING_REGISTRY = WORKSPACE / "Studio" / "Cast" / "Casting_Bible" / "registry" / "casting_registry.json"
+SET_REF_META = WORKSPACE / "Studio" / "Pipeline" / "references" / "seamless_neutral_grey_reference.json"
 
 ACTOR_ID = "Amara-001"
 FORMAT_ID = "explainer-ad"

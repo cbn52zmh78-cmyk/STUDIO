@@ -11,8 +11,8 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
 ARTIFACTS = ROOT / "artifacts"
-DEAD_LANG = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "dead_languages"
-INTAKE = ROOT / "STUDIO" / "Pipeline" / "production_intake.py"
+DEAD_LANG = ROOT / "Studio" / "Pipeline" / "Concepts" / "dead_languages"
+INTAKE = ROOT / "Studio" / "Pipeline" / "production_intake.py"
 LONGFORM = ROOT / "DAVID" / "scripts" / "longform_scripts"
 BATCH_SCRIPTS = ROOT / "DAVID" / "batches" / "T3_dryrun" / "scripts"
 
@@ -40,8 +40,8 @@ LANE_SAMPLE_BEDS: dict[str, dict[str, Any]] = {
         "rating": "PG-13",
         "channels": ["social", "streaming"],
         "scripts": [
-            ROOT / "STUDIO" / "Productions" / "Narrative" / "movies_lane_sample_v1" / "movies_lane_sample_v1_script.json",
-            ROOT / "STUDIO" / "Productions" / "Narrative" / "movies_lane_sample_v1_longform_v1" / "movies_lane_sample_v1_script.json",
+            ROOT / "Studio" / "Productions" / "Narrative" / "movies_lane_sample_v1" / "movies_lane_sample_v1_script.json",
+            ROOT / "Studio" / "Productions" / "Narrative" / "movies_lane_sample_v1_longform_v1" / "movies_lane_sample_v1_script.json",
             ROOT / "DAVID" / "productions" / "movies_lane_sample_v1_longform_v1" / "movies_lane_sample_v1_script.json",
         ],
     },
@@ -50,7 +50,7 @@ LANE_SAMPLE_BEDS: dict[str, dict[str, Any]] = {
         "rating": "PG",
         "channels": ["social", "client"],
         "scripts": [
-            ROOT / "STUDIO" / "Productions" / "Editorial" / "flowdesk_explainer_v1_longform_v1" / "flowdesk_explainer_v1_script.json",
+            ROOT / "Studio" / "Productions" / "Editorial" / "flowdesk_explainer_v1_longform_v1" / "flowdesk_explainer_v1_script.json",
         ],
     },
     "gfe_companion_sage_proof_v1": {
@@ -58,7 +58,7 @@ LANE_SAMPLE_BEDS: dict[str, dict[str, Any]] = {
         "rating": "PG",
         "channels": ["social"],
         "scripts": [
-            ROOT / "STUDIO" / "Productions" / "Companion" / "gfe_companion_sage_proof_v1_longform_v1" / "gfe_companion_sage_proof_v1_script.json",
+            ROOT / "Studio" / "Productions" / "Companion" / "gfe_companion_sage_proof_v1_longform_v1" / "gfe_companion_sage_proof_v1_script.json",
         ],
     },
 }
@@ -208,13 +208,13 @@ def main() -> int:
         )
 
     # Stamp julian_flowdesk concept (pipeline worked example)
-    julian = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "julian_flowdesk_explainer_v1.concept.json"
+    julian = ROOT / "Studio" / "Pipeline" / "Concepts" / "julian_flowdesk_explainer_v1.concept.json"
     if julian.is_file():
         concept = json.loads(julian.read_text(encoding="utf-8"))
         concept.setdefault("gate_0", {})["music_bed_id"] = "BED-UP-002"
         julian.write_text(json.dumps(concept, indent=2) + "\n", encoding="utf-8")
 
-    out = ROOT / "STUDIO" / "Music_Sound" / "slate_music_assignments.json"
+    out = ROOT / "Studio" / "Music_Sound" / "slate_music_assignments.json"
     out.write_text(json.dumps({"version": "1.0", "assignments": rows}, indent=2) + "\n", encoding="utf-8")
 
     failures = [r for r in rows if r["row_2"] != "PASS"]

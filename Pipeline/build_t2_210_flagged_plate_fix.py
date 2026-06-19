@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
 
 WORKSPACE = Path(__file__).resolve().parents[2]
-PIPELINE = WORKSPACE / "STUDIO" / "Pipeline"
+PIPELINE = WORKSPACE / "Studio" / "Pipeline"
 SCIENCE = WORKSPACE / "Science"
 REF = SCIENCE / "reference_plates"
 UA = "STUDIO-T2-210-flagged-fix/1.0"

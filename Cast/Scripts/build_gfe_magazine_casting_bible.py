@@ -20,12 +20,12 @@ CAST_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = CAST_ROOT.parent.parent
 OUT_ROOT = CAST_ROOT / "Casting_Bible"
 GFE_ROOT = CAST_ROOT / "GFE"
-MAG_MODELS = WORKSPACE / "STUDIO" / "MAGAZINE" / "Editorial" / "Models"
+MAG_MODELS = WORKSPACE / "Studio" / "MAGAZINE" / "Editorial" / "Models"
 TALENT_INDEX = CAST_ROOT / "Talent_Agency" / "roster_index.json"
 PERF_ROOT = CAST_ROOT / "Talent_Agency" / "Performance_Studies"
 
 GFE_SCRIPTS = WORKSPACE / "GFE" / "scripts"
-MAG_SCRIPTS = WORKSPACE / "STUDIO" / "MAGAZINE" / "scripts"
+MAG_SCRIPTS = WORKSPACE / "Studio" / "MAGAZINE" / "scripts"
 for p in (GFE_SCRIPTS, MAG_SCRIPTS):
     if str(p) not in sys.path:
         sys.path.insert(0, str(p))

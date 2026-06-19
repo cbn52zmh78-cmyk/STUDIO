@@ -17,7 +17,7 @@ from typing import Any
 WORKSPACE = Path(__file__).resolve().parents[2]
 SPEC_PATH = (
     WORKSPACE
-    / "STUDIO"
+    / "Studio"
     / "Reference_Library"
     / "style_bibles"
     / "GroundTruth_Bible_Visual_Design_Spec_v1.json"

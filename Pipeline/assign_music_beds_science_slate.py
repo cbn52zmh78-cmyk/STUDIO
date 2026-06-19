@@ -12,11 +12,11 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
 ARTIFACTS = ROOT / "artifacts"
-ASTRO = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "astro_mini_slate"
-MOLECULAR = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "molecular_mini_slate"
-CHEM_PHYSICS = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "chem_physics_mini_slate"
-SCIENCE = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "science"
-INTAKE = ROOT / "STUDIO" / "Pipeline" / "production_intake.py"
+ASTRO = ROOT / "Studio" / "Pipeline" / "Concepts" / "astro_mini_slate"
+MOLECULAR = ROOT / "Studio" / "Pipeline" / "Concepts" / "molecular_mini_slate"
+CHEM_PHYSICS = ROOT / "Studio" / "Pipeline" / "Concepts" / "chem_physics_mini_slate"
+SCIENCE = ROOT / "Studio" / "Pipeline" / "Concepts" / "science"
+INTAKE = ROOT / "Studio" / "Pipeline" / "production_intake.py"
 LONGFORM = ROOT / "DAVID" / "scripts" / "longform_scripts"
 
 sys.path.insert(0, str(ARTIFACTS))
@@ -159,7 +159,7 @@ def main() -> int:
             }
         )
 
-    out = ROOT / "STUDIO" / "Music_Sound" / "science_music_assignments.json"
+    out = ROOT / "Studio" / "Music_Sound" / "science_music_assignments.json"
     payload = {
         "version": "1.0",
         "task": "T5-182",

@@ -20,8 +20,8 @@ sys.path.insert(0, str(WORKSPACE / "tools"))
 
 from production.production_templates import build_longform_script, write_script  # noqa: E402
 
-CASTING_REGISTRY = WORKSPACE / "STUDIO" / "Cast" / "Casting_Bible" / "registry" / "gfe_casting_registry.json"
-SET_REF_META = WORKSPACE / "STUDIO" / "Pipeline" / "references" / "modern_apartment_reference.json"
+CASTING_REGISTRY = WORKSPACE / "Studio" / "Cast" / "Casting_Bible" / "registry" / "gfe_casting_registry.json"
+SET_REF_META = WORKSPACE / "Studio" / "Pipeline" / "references" / "modern_apartment_reference.json"
 
 FORMAT_ID = "conversational-companion"
 SET_ID = "@Set-Modern-Apartment-001"
@@ -190,7 +190,7 @@ def resolve_persona(actor_id: str, resolution: str = "720p") -> PersonaConfig:
         stage_name=actor["stage_name"],
         identity_anchor=f"@{actor_id}",
         slug=slug,
-        prod_dir=WORKSPACE / "STUDIO" / "Productions" / "Companion" / f"{slug}_longform_v1",
+        prod_dir=WORKSPACE / "Studio" / "Productions" / "Companion" / f"{slug}_longform_v1",
         resolution=resolution,
         wardrobe=wardrobe_info["wardrobe"],
         avatar_prompt=wardrobe_info["avatar_prompt"],
@@ -433,7 +433,7 @@ def main() -> int:
     if persona.actor_id == "SageGFE-001" and args.resolution == "720p":
         persona = resolve_persona("SageGFE-001", "720p")
         persona.slug = "gfe_companion_sage_proof_v1"
-        persona.prod_dir = WORKSPACE / "STUDIO" / "Productions" / "Companion" / "gfe_companion_sage_proof_v1_longform_v1"
+        persona.prod_dir = WORKSPACE / "Studio" / "Productions" / "Companion" / "gfe_companion_sage_proof_v1_longform_v1"
 
     token = os.environ.get("XAI_API_KEY") or _load_grok_token()
     os.environ["XAI_API_KEY"] = token

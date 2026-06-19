@@ -19,7 +19,7 @@ from typing import Any
 WORKSPACE = Path(__file__).resolve().parents[2]
 BIBLE_DIR = WORKSPACE / "History" / "Historical_Figures_Bible" / "entries"
 REGISTRY_PATH = WORKSPACE / "History" / "Historical_Figures_Bible" / "registry" / "figure_casting_registry.json"
-INTAKE = WORKSPACE / "STUDIO" / "Pipeline" / "production_intake.py"
+INTAKE = WORKSPACE / "Studio" / "Pipeline" / "production_intake.py"
 RENDER = WORKSPACE / "DAVID" / "scripts" / "render_longform.py"
 
 DISCLOSURE = "SPECULATIVE AI RECONSTRUCTION — NOT PHOTOGRAPHIC LIKENESS"
@@ -129,11 +129,11 @@ FIGURES: dict[str, dict[str, Any]] = {
     },
 }
 
-PROOF_CONCEPT = WORKSPACE / "STUDIO" / "Pipeline" / "Concepts" / "historical_figures" / (
+PROOF_CONCEPT = WORKSPACE / "Studio" / "Pipeline" / "Concepts" / "historical_figures" / (
     "david_julius_caesar_figure_proof_480p_v1.concept.json"
 )
 PROOF_SLUG = "david_julius_caesar_figure_proof_480p_v1"
-PROD_DIR = WORKSPACE / "STUDIO" / "Productions" / "HistoricalFigures" / f"{PROOF_SLUG}_longform_v1"
+PROD_DIR = WORKSPACE / "Studio" / "Productions" / "HistoricalFigures" / f"{PROOF_SLUG}_longform_v1"
 
 
 def _load_grok_token() -> str:

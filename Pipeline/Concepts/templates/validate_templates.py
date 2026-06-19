@@ -18,7 +18,7 @@ from typing import Any
 
 TEMPLATES_DIR = Path(__file__).resolve().parent
 ROOT = TEMPLATES_DIR.parents[3]  # .../Grok Projects
-INTAKE = ROOT / "STUDIO" / "Pipeline" / "production_intake.py"
+INTAKE = ROOT / "Studio" / "Pipeline" / "production_intake.py"
 RENDER = ROOT / "DAVID" / "scripts" / "render_longform.py"
 SCRIPTS_OUT = ROOT / "DAVID" / "scripts" / "longform_scripts"
 

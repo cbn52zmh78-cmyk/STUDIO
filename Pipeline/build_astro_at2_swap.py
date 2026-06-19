@@ -18,11 +18,11 @@ from pathlib import Path
 from typing import Any
 
 WORKSPACE = Path(__file__).resolve().parents[2]
-SCAFFOLD = WORKSPACE / "STUDIO" / "Pipeline" / "scaffolds" / "black_hole_at2_swap_scaffold.json"
+SCAFFOLD = WORKSPACE / "Studio" / "Pipeline" / "scaffolds" / "black_hole_at2_swap_scaffold.json"
 PLATE_LIBRARY = WORKSPACE / "Science" / "reference_plates" / "science_plate_library_v1.json"
 RENDER = WORKSPACE / "DAVID" / "scripts" / "render_longform.py"
 SCRIPTS_OUT = WORKSPACE / "DAVID" / "scripts" / "longform_scripts"
-PROD_ROOT = WORKSPACE / "STUDIO" / "Productions" / "Science" / "actors_157_at2_swap"
+PROD_ROOT = WORKSPACE / "Studio" / "Productions" / "Science" / "actors_157_at2_swap"
 
 DEFAULT_SWAPS = ["neutron-star", "nebula", "galaxy"]
 BASELINE_SLUG = "black-hole"

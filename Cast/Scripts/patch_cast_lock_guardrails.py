@@ -9,7 +9,7 @@ from pathlib import Path
 
 CAST_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = CAST_ROOT.parent.parent
-MAG_MODELS = WORKSPACE / "STUDIO" / "MAGAZINE" / "Editorial" / "Models"
+MAG_MODELS = WORKSPACE / "Studio" / "MAGAZINE" / "Editorial" / "Models"
 
 TURNAROUND_SUFFIX = (
     " Synthetic fictional character only. No real person or celebrity likeness. "

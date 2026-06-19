@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
-PIPELINE = ROOT / "STUDIO" / "Pipeline"
+PIPELINE = ROOT / "Studio" / "Pipeline"
 REFS_DIR = PIPELINE / "references"
 LIBRARY_PATH = PIPELINE / "Set_Library_v1.json"
 

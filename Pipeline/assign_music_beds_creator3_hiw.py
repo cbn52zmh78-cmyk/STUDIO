@@ -12,8 +12,8 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
 ARTIFACTS = ROOT / "artifacts"
-CHEM_PHYSICS = ROOT / "STUDIO" / "Pipeline" / "Concepts" / "chem_physics_mini_slate"
-INTAKE = ROOT / "STUDIO" / "Pipeline" / "production_intake.py"
+CHEM_PHYSICS = ROOT / "Studio" / "Pipeline" / "Concepts" / "chem_physics_mini_slate"
+INTAKE = ROOT / "Studio" / "Pipeline" / "production_intake.py"
 LONGFORM = ROOT / "DAVID" / "scripts" / "longform_scripts"
 
 sys.path.insert(0, str(ARTIFACTS))
@@ -131,7 +131,7 @@ def main() -> int:
             }
         )
 
-    out = ROOT / "STUDIO" / "Music_Sound" / "creator3_music_assignments.json"
+    out = ROOT / "Studio" / "Music_Sound" / "creator3_music_assignments.json"
     manifest = load_manifest()
     hiw_tracks = {
         bed_id: {

@@ -10,7 +10,7 @@ from pathlib import Path
 
 SLATE_DIR = Path(__file__).resolve().parent
 ROOT = SLATE_DIR.parents[3]
-INTAKE = ROOT / "STUDIO" / "Pipeline" / "production_intake.py"
+INTAKE = ROOT / "Studio" / "Pipeline" / "production_intake.py"
 RENDER = ROOT / "DAVID" / "scripts" / "render_longform.py"
 SCRIPTS = ROOT / "DAVID" / "scripts" / "longform_scripts"
 
