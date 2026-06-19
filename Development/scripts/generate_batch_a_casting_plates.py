@@ -44,7 +44,9 @@ def main() -> int:
     items: list[dict] = []
 
     for actor in batch:
-        rel = actor["roster_path"].replace("STUDIO/Cast/", "")
+        # strip leading 'Studio/Cast/' (any casing) → path under CAST_ROOT
+        _p = actor["roster_path"].replace("\\", "/").split("/")
+        rel = "/".join(_p[2:]) if len(_p) > 2 and _p[0].lower() == "studio" else actor["roster_path"]
         actor_dir = CAST_ROOT / rel
         shot_dir = actor_dir / "01_casting_shots"
         prompt_path = shot_dir / "casting_prompt.txt"

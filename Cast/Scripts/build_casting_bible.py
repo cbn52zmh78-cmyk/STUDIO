@@ -297,7 +297,7 @@ def main() -> None:
 
 ## Reference
 - **Primary plate:** `{ref_rel or 'PENDING — generate casting_turnaround_v1.jpg'}`
-- **Roster path:** `STUDIO/Cast/{rel_path}`
+- **Roster path:** `Studio/Cast/{rel_path}`
 
 ## Appearance lock (verbatim — reuse every shot)
 ```
@@ -418,7 +418,7 @@ def main() -> None:
         "# STUDIO Casting Bible v1.0",
         "",
         f"**Generated:** {generated_at}  ",
-        "**Scope:** `STUDIO/Cast/actors_roster` — 70 synthetic narrative actors  ",
+        "**Scope:** `Studio/Cast/actors_roster` — 70 synthetic narrative actors  ",
         "**Status:** Locked registry for production continuity",
         "",
         "---",
@@ -451,9 +451,9 @@ def main() -> None:
         "",
         "| Artifact | Path |",
         "|----------|------|",
-        "| Schema | `STUDIO/Cast/Casting_Bible/schema/casting_schema.json` |",
-        "| Registry | `STUDIO/Cast/Casting_Bible/registry/casting_registry.json` |",
-        "| Lock cards | `STUDIO/Cast/Casting_Bible/lock_cards/{ActorID}.md` |",
+        "| Schema | `Studio/Cast/Casting_Bible/schema/casting_schema.json` |",
+        "| Registry | `Studio/Cast/Casting_Bible/registry/casting_registry.json` |",
+        "| Lock cards | `Studio/Cast/Casting_Bible/lock_cards/{ActorID}.md` |",
         "",
         "## Actor index",
         "",
