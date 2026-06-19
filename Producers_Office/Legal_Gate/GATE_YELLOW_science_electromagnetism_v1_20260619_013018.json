@@ -1,0 +1,57 @@
+{
+  "project": "science_electromagnetism_v1",
+  "verdict": "YELLOW",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [
+    "[SCIENCE] illustrative-not-simulation disclosure required \u2014 state visuals are educational illustration, not simulation output"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-PHY-002 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "Science Gate: illustrative-not-simulation policy applies.",
+    "Revise and re-submit to Legal Gate (Gate 0)."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": false,
+    "death_year": null,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": true,
+    "status": "CAUTION",
+    "hard_stops": [],
+    "warnings": [
+      "[SCIENCE] illustrative-not-simulation disclosure required \u2014 state visuals are educational illustration, not simulation output"
+    ],
+    "notes": [
+      "Science Gate: illustrative-not-simulation policy applies."
+    ],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:30:18.807909",
+  "source_excerpt": "Project: science_electromagnetism_v1\nFormat: science-explainer (54s)\nRating target: PG\nChannels: social, streaming\nHost: Julian-001 synthetic science presenter (roster continuity lock)\nScience subject: Magnetic fields in space\nDomain: Physics \u2014 Electromagnetism\nsubject_id: EM-FIELD-001\nKey measurement: Earth surface field ~25\u201365 \u03bcT; MMS magnetopause measurements\nContent: Educational physics explainer \u2014 magnetic fields, field lines, Earth's magnetosphere. No medical or legal advice.\nSimulation di"
+}

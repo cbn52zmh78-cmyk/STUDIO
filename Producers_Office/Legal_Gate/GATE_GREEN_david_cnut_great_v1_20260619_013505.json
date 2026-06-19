@@ -1,0 +1,53 @@
+{
+  "project": "david_cnut_great_v1",
+  "verdict": "GREEN",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [],
+  "counsel_flags": [],
+  "warnings": [],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-DOC-001 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "Historical Figure Gate: pre-1901 subject (died 1035); 1900 ceiling and recency clear.",
+    "Gate 0 cleared for Development/Pre-Production subject to ongoing review."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": true,
+    "death_year": 1035,
+    "status": "PASS",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [
+      "Historical Figure Gate: pre-1901 subject (died 1035); 1900 ceiling and recency clear."
+    ],
+    "recency_floor_year": 1926,
+    "hard_1900_ceiling": 1900,
+    "post_1900_blocked": false
+  },
+  "science_gate": {
+    "applies": false,
+    "status": "N/A",
+    "hard_stops": [],
+    "warnings": [],
+    "notes": [],
+    "overclaims": []
+  },
+  "timestamp": "2026-06-19T01:35:05.393935",
+  "source_excerpt": "Project: david_cnut_great_v1\nFormat: historical-figure-documentary (54s)\nRating target: PG\nChannels: social, streaming\nHost: David-001 synthetic documentary host (identity lock)\nHistorical figure: Cnut the Great (CNU-001)\ndeath_year: 1035\nEra: 11th Century North Sea Empire\nContent: Educational biography \u2014 documentary commentary on deceased historical figure. No visual impersonation of Cnut; host delivers analysis and an attested Old Norse skaldic period-language line.\nPeriod language: Old Norse "
+}
