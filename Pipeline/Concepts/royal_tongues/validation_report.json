@@ -22,5 +22,29 @@
     "gate_verdict": "GREEN",
     "format_id": "historical-figure-documentary",
     "sources": 3
+  },
+  {
+    "slug": "david_charlemagne_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "GREEN",
+    "format_id": "historical-figure-documentary",
+    "sources": 3
+  },
+  {
+    "slug": "david_alfred_great_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "GREEN",
+    "format_id": "historical-figure-documentary",
+    "sources": 3
+  },
+  {
+    "slug": "david_cnut_great_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "GREEN",
+    "format_id": "historical-figure-documentary",
+    "sources": 3
   }
 ]

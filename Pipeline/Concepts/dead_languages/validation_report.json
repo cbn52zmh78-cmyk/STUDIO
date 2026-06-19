@@ -34,5 +34,41 @@
     "gate": "GREEN/YELLOW",
     "intake": "OK",
     "script_only": "OK"
+  },
+  {
+    "slug": "david_sanskrit_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_biblical_hebrew_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_akkadian_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_middle_egyptian_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_classical_nahuatl_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
+  },
+  {
+    "slug": "david_old_church_slavonic_corpus_v1",
+    "gate": "GREEN/YELLOW",
+    "intake": "OK",
+    "script_only": "OK"
   }
 ]
