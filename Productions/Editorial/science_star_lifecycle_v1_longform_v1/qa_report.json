@@ -1,6 +1,6 @@
 {
   "slug": "science_star_lifecycle_v1",
-  "qa_at": "2026-06-19T06:57:45.908669+00:00",
+  "qa_at": "2026-06-19T06:59:55.552435+00:00",
   "pass": false,
   "passes": [
     "shot count OK (5 >= 5)",
@@ -20,12 +20,12 @@
     "loudnorm two-pass target I=-16.0 LUFS per shot",
     "audio pinned to exact shot duration (no stretch/offset)",
     "flat loudness across shots (spread 0.03 LU)",
-    "zero magenta (max score 0.000 <= 0.42)",
+    "clinical/neutral set — magenta probe skipped (grey balance gate)",
     "tight A/V sync per shot (duration pinned)",
-    "zero hue drift across segments (max magenta 0.000)"
+    "neutral WB — yellow-green suppressed (max 0.117 <= 0.12)"
   ],
   "issues": [
-    "yellow-green cast detected: [('chain_01_hook_processed', 0.22740524781341107), ('chain_02_phenomenon_processed', 0.41247002398081534), ('chain_03_how_we_know_processed', 0.4166666666666667), ('chain_05_significance_processed', 0.46986301369863015)]"
+    "hue drift across segments grey_balance=[0.10611581087284408, 0.314352416551905, 0.3031018427437865, 0.22790103791355354, 0.32402649354056]"
   ],
   "shot_count": 5,
   "segment_count": 2,
