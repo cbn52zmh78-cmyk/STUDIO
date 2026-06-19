@@ -1,0 +1,63 @@
+{
+  "slug": "david_julius_caesar_figure_proof_480p_v1",
+  "title": "DAVID — Julius Caesar (Figure Proof 480p)",
+  "format_id": "historical-figure-documentary",
+  "actor_id": "David-001",
+  "target_seconds": 51,
+  "channels": ["social", "streaming"],
+  "tags": ["history", "biography", "julius-caesar", "latin", "historical figure", "actors-150"],
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Historical figures — evidence first.",
+    "cta": "Follow for the next life recovered from silence."
+  },
+  "historical_figure": {
+    "figure_id": "julius_caesar",
+    "name": "Julius Caesar",
+    "birth_year": -100,
+    "death_year": -44,
+    "era": "Late Roman Republic",
+    "period_language": "Latin",
+    "default_attestation": "ATTESTED",
+    "sources": [
+      {
+        "citation": "Suetonius, Life of Julius Caesar 37.2 (Veni, vidi, vici dispatch)",
+        "type": "primary"
+      },
+      {
+        "citation": "Plutarch, Life of Caesar (Tusculum-type bust tradition; senatorial portrait)",
+        "type": "primary"
+      },
+      {
+        "citation": "British Museum — Roman Republican denarius portraits of Caesar (partial_visual)",
+        "type": "secondary"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "Tonight: Gaius Julius Caesar — general, dictator, and the man who made Rome an empire in all but name.",
+      "on_screen": "Julius Caesar · d. 44 BCE"
+    },
+    {
+      "id": "02_who_they_were",
+      "speech_text": "Born into a patrician family in 100 BCE, he climbed from quaestor to consul, conquered Gaul in a decade, and crossed the Rubicon with a civil war in his wake."
+    },
+    {
+      "id": "03_their_world",
+      "speech_text": "His world was a Republic in name only — senators armed, provinces plundered, and the calendar itself still drifting until he fixed the year."
+    },
+    {
+      "id": "04_period_line",
+      "speech_text": "Veni, vidi, vici.",
+      "attestation": "ATTESTED",
+      "speech_lang": "Latin",
+      "on_screen_labels": ["ATTESTED", "PERIOD LANGUAGE"]
+    },
+    {
+      "id": "05_legacy",
+      "speech_text": "They killed him on the Ides of March — but his name became the title of emperors, and his reforms outlived the blades that struck him down."
+    }
+  ]
+}

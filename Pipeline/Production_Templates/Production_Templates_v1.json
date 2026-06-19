@@ -148,6 +148,98 @@
         }
       ]
     },
+    "historical-figure-documentary": {
+      "name": "Historical Figure Documentary",
+      "description": "Host-led historical biography arc — cold open, who they were, their world, a line in their period language (attested or reconstructed), legacy, sources card. Requires concept.historical_figure block at intake.",
+      "target_rating": "PG",
+      "target_seconds": { "min": 48, "default": 54, "max": 120 },
+      "pacing": {
+        "words_per_second": 2.4,
+        "beat_gap_s": 0.45,
+        "register": "prestige biography, evidence-forward",
+        "pause_on": ["death dates", "period-language lines", "source citations", "legacy beats"]
+      },
+      "camera": {
+        "primary": "slow motivated push-in medium at Archive desk",
+        "secondary": "insert B-roll of manuscripts, maps, or era objects",
+        "forbidden": ["snap zoom", "beauty-filter smoothing", "dramatic reenactment cutaways"]
+      },
+      "default_set": "@Set-Archive-001",
+      "default_style": "@Style-Documentary-Prestige-001",
+      "identity_anchor": "@David-001",
+      "identity_continuity_lock": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut.",
+      "voice_suffix": "mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only",
+      "guardrails": [
+        "historical_figure block required at intake — figure_id, death_year, era, sources",
+        "attested vs reconstructed labels mandatory on period-language beat",
+        "never claim attested pronunciation without corpus citation in sources",
+        "corpus-first method — no invention without evidence",
+        "Archive set and Documentary Prestige style locked for entire host scene",
+        "provenance card renders as sources card listing concept.historical_figure.sources",
+        "re-ground brass lamp 3200K every 2 segments in long-form"
+      ],
+      "qa_rules": {
+        "require_identity_lock": true,
+        "require_synthetic_guard": true,
+        "require_reconstructed_labels": true,
+        "min_shots": 5
+      },
+      "provenance_card": {
+        "enabled": true,
+        "duration_s": 6,
+        "card_type": "sources",
+        "title": "Sources — {figure_name}",
+        "subtitle": "{figure_era} · d. {death_year}",
+        "footer": "{sources_summary}"
+      },
+      "shot_blueprints": [
+        {
+          "id": "01_cold_open",
+          "role": "host",
+          "duration": 8,
+          "camera": "slow gentle push-in medium",
+          "pacing_beat": "cold open — name the figure and promise",
+          "action_template": "Host seated at Archive worktable, warm brass lamplight, names the historical figure and episode promise.",
+          "speech_placeholder": "[COLD OPEN — figure name + why they matter tonight]"
+        },
+        {
+          "id": "02_who_they_were",
+          "role": "host",
+          "duration": 9,
+          "camera": "locked medium, slight lean",
+          "pacing_beat": "who they were — life in brief",
+          "action_template": "Host delivers concise biography — birth, role, defining achievement — manuscripts behind.",
+          "speech_placeholder": "[WHO THEY WERE — biography spine in under 25 words]"
+        },
+        {
+          "id": "03_their_world",
+          "role": "host",
+          "duration": 9,
+          "camera": "medium — gesture to map or codex",
+          "pacing_beat": "their world — era and context",
+          "action_template": "Host situates the figure in era and place — political, cultural, or scientific context.",
+          "speech_placeholder": "[THEIR WORLD — era, place, stakes of their lifetime]"
+        },
+        {
+          "id": "04_period_line",
+          "role": "host",
+          "duration": 10,
+          "camera": "medium-close — deliberate delivery",
+          "pacing_beat": "period language line — attested or reconstructed",
+          "action_template": "Host delivers one line in the figure's period language; on-screen attestation label visible.",
+          "speech_placeholder": "[PERIOD LINE — one attested or reconstructed line in period language]"
+        },
+        {
+          "id": "05_legacy",
+          "role": "host",
+          "duration": 9,
+          "camera": "warm close, inviting settle",
+          "pacing_beat": "legacy — what survived them",
+          "action_template": "Host on legacy and influence — what changed because they lived; end on gesture peak.",
+          "speech_placeholder": "[LEGACY — influence, memory, or unfinished work]"
+        }
+      ]
+    },
     "narrative-short-film": {
       "name": "Narrative / Short Film",
       "description": "Beat-driven cinematic short — character arc in under 90s, theatrical lighting, motivated camera.",
@@ -466,7 +558,16 @@
           "language", "history", "educational", "bbc", "prestige", "pronunciation",
           "attestation", "scholarly", "museum", "lecture", "explainer with proof"
         ],
-        "negative_keywords": ["buy now", "limited offer", "companion", "girlfriend", "boyfriend", "romantic"]
+        "negative_keywords": ["buy now", "limited offer", "companion", "girlfriend", "boyfriend", "romantic", "historical figure biography"]
+      },
+      "historical-figure-documentary": {
+        "weight": 1.15,
+        "keywords": [
+          "historical figure", "biography", "who they were", "their world", "legacy",
+          "period language", "ancient", "medieval", "renaissance", "death year",
+          "sources card", "attested", "reconstructed", "historical documentary"
+        ],
+        "negative_keywords": ["buy now", "product demo", "companion", "short film", "fiction arc"]
       },
       "narrative-short-film": {
         "weight": 1.0,

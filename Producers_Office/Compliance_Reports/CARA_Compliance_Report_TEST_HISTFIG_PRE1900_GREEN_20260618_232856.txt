@@ -1,0 +1,17 @@
+# CARA Compliance Report v1.2 — Locked Theatrical Standards
+Source: Official Classification and Rating Administration (CARA) / MPA
+Project: TEST_HISTFIG_PRE1900_GREEN
+Target Rating: PG
+Status: COMPLIANT
+
+Official CARA Canon:
+  G: Nothing that would offend parents for children. No strong language, nudity, sex, or drug use.
+  PG: Mild thematic elements, brief mild language, no drug use.
+  PG-13: Stronger language, intense but non-graphic violence, brief suggestive content, drug references ok.
+  R: Strong language, strong violence, sexual content, drug abuse, adult themes permitted.
+  NC-17: Explicit sexual content or extreme violence — absolute ceiling for legitimate cinema work.
+
+Issues Found:
+- None
+
+Prompt was checked against theatrical cinema standards. We are making movies, not pornography.

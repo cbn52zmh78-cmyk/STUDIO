@@ -1,0 +1,51 @@
+{
+  "project": "david_richard_lionheart_v1",
+  "verdict": "RED",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "streaming"
+  ],
+  "hard_stops": [
+    "[HISTFIG] death_year missing \u2014 Historical Figure Gate requires documented death year"
+  ],
+  "counsel_flags": [
+    "Deceased replica \u2014 AB 1836 / counsel"
+  ],
+  "warnings": [
+    "[HISTFIG] reconstruction disclosure required \u2014 state likeness is speculative AI reconstruction"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "Row 2: Manifest-cleared music bed(s): BED-DOC-001 (STUDIO/Music_Sound/clearance_manifest.json)",
+    "PRODUCER HARD STOP \u2014 Gate 0 failed. Do not generate. Do not shoot. Do not publish."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "PASS",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "N/A",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": true,
+    "death_year": null,
+    "status": "BLOCKED",
+    "hard_stops": [
+      "[HISTFIG] death_year missing \u2014 Historical Figure Gate requires documented death year"
+    ],
+    "warnings": [
+      "[HISTFIG] reconstruction disclosure required \u2014 state likeness is speculative AI reconstruction"
+    ],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "post_1900_caution": false
+  },
+  "timestamp": "2026-06-18T23:29:04.492917",
+  "source_excerpt": "Project: david_richard_lionheart_v1\nFormat: historical-figure-documentary (54s)\nRating target: PG\nChannels: social, streaming\nHost: David-001 synthetic documentary host\nHistorical figure: Richard I Lionheart (RIC-001), d. 1199, 12th Century Angevin\nContent: Educational biography of deceased crusader king. Host commentary only \u2014 no synthetic likeness of Richard on screen.\nPeriod language: Anglo-Norman \u2014 ATTESTED crusade formula Deus le volt with reconstructed pronunciation labeled.\nSources: Itine"
+}

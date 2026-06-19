@@ -1,14 +1,22 @@
 {
-  "version": "1.0",
-  "updated": "2026-06-18",
+  "version": "1.1",
+  "updated": "2026-06-19",
   "library_root": "Music_Beds",
   "manifest_path": "STUDIO/Music_Sound/clearance_manifest.json",
   "lanes": [
     "documentary-prestige",
     "cinematic-thriller",
     "soft-warm-companion",
-    "upbeat-explainer"
+    "upbeat-explainer",
+    "period-antiquity",
+    "period-medieval",
+    "period-tudor"
   ],
+  "period_lanes": {
+    "period-antiquity": "Ancient / classical / late-antique / Bronze Age documentary beds",
+    "period-medieval": "Medieval / Anglo-Norman / Gothic / Norse documentary beds",
+    "period-tudor": "Tudor / Elizabethan / Henrician court documentary beds"
+  },
   "tracks": {
     "BED-DOC-001": {
       "title": "Archive Room — Low Strings",
@@ -110,6 +118,90 @@
       "bpm": 124,
       "source": "CC0 — Pixabay Music (verified CC0 / no attribution)",
       "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-ANT-001": {
+      "title": "Aegean Dusk — Lyre & Reed",
+      "lane": "period-antiquity",
+      "mood": "antiquity",
+      "era": "ancient / classical / late-antique",
+      "file": "Music_Beds/period-antiquity/BED-ANT-001.mp3",
+      "duration_seconds": 195,
+      "bpm": 66,
+      "source": "Upon Tyne Productions — period score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-ANT-002": {
+      "title": "Temple Column — Lyre Pulse",
+      "lane": "period-antiquity",
+      "mood": "antiquity",
+      "era": "Bronze Age / Hellenistic / Roman",
+      "file": "Music_Beds/period-antiquity/BED-ANT-002.mp3",
+      "duration_seconds": 180,
+      "bpm": 70,
+      "source": "Studio RF pack — perpetual license on file (ancient-world documentary)",
+      "license": "royalty-free",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-MED-001": {
+      "title": "Scriptorium — Plainchant Pad",
+      "lane": "period-medieval",
+      "mood": "medieval",
+      "era": "high / late medieval Europe",
+      "file": "Music_Beds/period-medieval/BED-MED-001.mp3",
+      "duration_seconds": 210,
+      "bpm": 62,
+      "source": "Upon Tyne Productions — period score library (synthetic ensemble)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-MED-002": {
+      "title": "Northumbrian Hearth — Lyre Low",
+      "lane": "period-medieval",
+      "mood": "medieval",
+      "era": "Anglo-Norman / Norse / Gothic",
+      "file": "Music_Beds/period-medieval/BED-MED-002.mp3",
+      "duration_seconds": 200,
+      "bpm": 68,
+      "source": "CC0 — MusOpen community upload (verified CC0 1.0, medieval-folk bed)",
+      "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-TUD-001": {
+      "title": "Consort Air — Lute & Recorder",
+      "lane": "period-tudor",
+      "mood": "tudor",
+      "era": "Tudor court / Elizabethan",
+      "file": "Music_Beds/period-tudor/BED-TUD-001.mp3",
+      "duration_seconds": 175,
+      "bpm": 74,
+      "source": "Upon Tyne Productions — period score library (synthetic consort)",
+      "license": "owned",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-TUD-002": {
+      "title": "Virginal Room — Tudor Court Bed",
+      "lane": "period-tudor",
+      "mood": "tudor",
+      "era": "Henrician / Elizabethan documentary",
+      "file": "Music_Beds/period-tudor/BED-TUD-002.mp3",
+      "duration_seconds": 190,
+      "bpm": 76,
+      "source": "Studio RF pack — perpetual license on file (Renaissance documentary)",
+      "license": "royalty-free",
       "attribution_required": false,
       "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
       "cue_sheet_path": null

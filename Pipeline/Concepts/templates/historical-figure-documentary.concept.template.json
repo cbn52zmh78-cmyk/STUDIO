@@ -1,0 +1,79 @@
+{
+  "_template": {
+    "format_id": "historical-figure-documentary",
+    "bible": "§9.2 shot blueprint · §6 seamless host locks · historical_figure block required",
+    "identity_mapping": "actor_id MUST be David-001 (host anchor @David-001). Uses david_identity_lock.json.",
+    "set_style_defaults": "Omit set_id/style_id to use @Set-Archive-001 + @Style-Documentary-Prestige-001",
+    "legal_gate": "§3.4 — python artifacts/legal/legal_gate.py --project [slug] --file brief.txt --rating PG",
+    "historical_sot": "STUDIO/Canons/Historical_SoT_Standard_v1.md",
+    "sources_card": "STUDIO/Pipeline/Concepts/templates/sources_card.template.json",
+    "fill_fields": [
+      "slug",
+      "title",
+      "historical_figure.figure_id",
+      "historical_figure.death_year",
+      "historical_figure.era",
+      "historical_figure.sources[].citation",
+      "beats[].speech_text",
+      "beats[04_period_line].attestation"
+    ]
+  },
+  "slug": "[slug_historical_figure_v1]",
+  "title": "[TITLE — DAVID historical figure episode]",
+  "format_id": "historical-figure-documentary",
+  "actor_id": "David-001",
+  "target_seconds": 54,
+  "tags": ["[tag_history]", "[tag_biography]", "historical figure"],
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Historical figures — evidence first.",
+    "cta": "Follow for the next life recovered from silence."
+  },
+  "historical_figure": {
+    "figure_id": "[figure_id_snake_case]",
+    "name": "[DISPLAY NAME]",
+    "death_year": 415,
+    "era": "[ERA — place and period]",
+    "period_language": "[PERIOD LANGUAGE — e.g. Latin, Ancient Greek]",
+    "default_attestation": "RECONSTRUCTED",
+    "sources": [
+      {
+        "citation": "[PRIMARY SOURCE — author, work, passage]",
+        "url": "[OPTIONAL URL]",
+        "type": "primary"
+      },
+      {
+        "citation": "[SECONDARY SOURCE — modern scholarship]",
+        "type": "secondary"
+      }
+    ]
+  },
+  "gate_0": {
+    "music_bed_id": "[BED-ANT-001 | BED-MED-001 | BED-TUD-001 per era]",
+    "rating": "PG",
+    "channels": ["social", "streaming"]
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "[COLD OPEN — figure name + why they matter tonight]"
+    },
+    {
+      "id": "02_who_they_were",
+      "speech_text": "[WHO THEY WERE — biography spine]"
+    },
+    {
+      "id": "03_their_world",
+      "speech_text": "[THEIR WORLD — era, place, stakes]"
+    },
+    {
+      "id": "04_period_line",
+      "speech_text": "[PERIOD LINE — one line in period language]",
+      "attestation": "RECONSTRUCTED"
+    },
+    {
+      "id": "05_legacy",
+      "speech_text": "[LEGACY — influence and memory]"
+    }
+  ]
+}

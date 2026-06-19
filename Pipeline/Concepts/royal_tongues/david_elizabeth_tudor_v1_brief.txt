@@ -1,0 +1,16 @@
+Project: david_elizabeth_tudor_v1
+Format: historical-figure-documentary (54s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host
+Historical figure: Elizabeth I (ELZ-001)
+death_year: 1603
+Era: Tudor England
+Content: Educational biography — attested Tilbury speech excerpt delivered by synthetic host in Tudor English register. Documentary framing; no impersonation likeness of Elizabeth.
+Period language: Early Modern English — ATTESTED text, reconstructed pronunciation labeled on screen.
+Reconstruction disclosure: Pronunciation is scholarly reconstruction of Early Modern English — host is synthetic, not a photographic likeness of Elizabeth.
+Sources: Elizabeth I Collected Works University of Chicago Press; Camden Annales; British Library Armada collection.
+Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature.
+AI disclosure planned in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry.
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

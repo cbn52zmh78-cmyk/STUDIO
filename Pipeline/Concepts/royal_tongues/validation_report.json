@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "david_eleanor_aquitaine_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "GREEN",
+    "format_id": "historical-figure-documentary",
+    "sources": 3
+  },
+  {
+    "slug": "david_richard_lionheart_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "COUNSEL",
+    "format_id": "historical-figure-documentary",
+    "sources": 3
+  },
+  {
+    "slug": "david_elizabeth_tudor_v1",
+    "intake": "OK",
+    "script_only": "OK",
+    "gate_verdict": "GREEN",
+    "format_id": "historical-figure-documentary",
+    "sources": 3
+  }
+]

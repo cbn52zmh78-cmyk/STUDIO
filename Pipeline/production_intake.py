@@ -62,6 +62,8 @@ GATE_EXIT_SIGNOFF_REQUIRED = 3
 
 # Brief compliance phrase — never use substring ``minor`` (CARA false-positive).
 ADULT_CAST_PHRASE = "adult cast only (21+)"
+HISTORICAL_FIGURE_FORMAT = "historical-figure-documentary"
+PERIOD_LINE_SHOT_ID = "04_period_line"
 
 
 # --------------------------------------------------------------------------- #
@@ -209,6 +211,29 @@ def build_gate_brief_text(
     brand = concept.get("brand") or {}
     if brand.get("legal_line"):
         lines.append(f"Brand legal: {brand['legal_line']}")
+    hf = concept.get("historical_figure") or {}
+    if hf and format_id == HISTORICAL_FIGURE_FORMAT:
+        name = hf.get("name") or hf.get("figure_id", "historical figure")
+        lines.append(f"Historical figure: {name}")
+        lines.append(f"death_year: {hf.get('death_year')}")
+        lines.append(f"Era: {hf.get('era', '')}")
+        lines.append(
+            "Reconstruction disclosure: AI-rendered likeness is speculative reconstruction "
+            "from period art and scholarly sources — not a photographic likeness."
+        )
+        srcs = hf.get("sources") or []
+        if srcs:
+            cites = "; ".join(str(s.get("citation", "")) for s in srcs[:4] if s.get("citation"))
+            lines.append(f"Sources: {cites}")
+        else:
+            lines.append("Sources: scholarly sources required at intake.")
+        lines.append(
+            "Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature."
+        )
+        if hf.get("period_language"):
+            lines.append(
+                f"Period language beat: {hf['period_language']} — attested/reconstructed labeled on screen."
+            )
     resolve_music = _import_music_clearance()
     music_line = resolve_music(concept)
     if music_line:
@@ -318,6 +343,28 @@ def concept_selector(concept: dict[str, Any], libs: dict[str, Any]) -> str:
         for k in ("title", "logline", "summary", "brief", "topic")
     ).lower()
     haystack += " " + " ".join(str(t).lower() for t in concept.get("tags", []))
+    if concept.get("historical_figure"):
+        haystack += " historical figure biography legacy period language sources"
+
+    selector = libs["formats"].get("concept_selector", {})
+    selector_formats = selector.get("formats", {})
+    if selector_formats:
+        best_id, best_score = None, -999.0
+        for fid, signals in selector_formats.items():
+            if fid not in formats:
+                continue
+            score = 0.0
+            for kw in signals.get("keywords", []):
+                if kw.lower() in haystack:
+                    score += 2.0
+            for nkw in signals.get("negative_keywords", []):
+                if nkw.lower() in haystack:
+                    score -= 3.0
+            score *= float(signals.get("weight", 1.0))
+            if score > best_score:
+                best_id, best_score = fid, score
+        if best_id and best_score > 0:
+            return best_id
 
     best_id, best_score = None, 0
     for fid, fmt in formats.items():
@@ -474,6 +521,62 @@ def _is_speaking(role: str) -> bool:
     return role.lower() in _SPEAKING_ROLES
 
 
+def _parse_historical_figure(concept: dict[str, Any], format_id: str) -> dict[str, Any]:
+    """Validate and normalize concept.historical_figure for biography format."""
+    if format_id != HISTORICAL_FIGURE_FORMAT:
+        return {}
+    hf = concept.get("historical_figure")
+    if not isinstance(hf, dict):
+        raise ValueError(
+            f"format '{HISTORICAL_FIGURE_FORMAT}' requires a 'historical_figure' object "
+            "(figure_id, death_year, era, sources)"
+        )
+    for key in ("figure_id", "death_year", "era", "sources"):
+        if key not in hf or hf[key] in (None, "", []):
+            raise ValueError(f"historical_figure.{key} is required")
+    sources = hf["sources"]
+    if not isinstance(sources, list) or not sources:
+        raise ValueError("historical_figure.sources must be a non-empty list")
+    normalized_sources: list[dict[str, Any]] = []
+    for i, src in enumerate(sources):
+        if not isinstance(src, dict) or not str(src.get("citation", "")).strip():
+            raise ValueError(f"historical_figure.sources[{i}] must include a non-empty 'citation'")
+        src_type = str(src.get("type", "secondary")).lower().strip()
+        if src_type not in ("primary", "secondary"):
+            raise ValueError(
+                f"historical_figure.sources[{i}].type must be 'primary' or 'secondary' "
+                f"(Historical_SoT_Standard_v1.md)"
+            )
+        normalized_sources.append({
+            "citation": str(src["citation"]).strip(),
+            "url": src.get("url"),
+            "type": src_type,
+            "notes": src.get("notes"),
+            "supports": src.get("supports"),
+        })
+    death_year = hf["death_year"]
+    if isinstance(death_year, str) and death_year.isdigit():
+        death_year = int(death_year)
+    return {
+        "figure_id": str(hf["figure_id"]).strip(),
+        "name": str(hf.get("name") or hf["figure_id"]).strip(),
+        "death_year": death_year,
+        "era": str(hf["era"]).strip(),
+        "period_language": hf.get("period_language"),
+        "birth_year": hf.get("birth_year"),
+        "sources": normalized_sources,
+    }
+
+
+def _period_line_labels(beat: dict[str, Any], hf: dict[str, Any]) -> list[str]:
+    if beat.get("on_screen_labels"):
+        return list(beat["on_screen_labels"])
+    attestation = str(beat.get("attestation") or hf.get("default_attestation") or "RECONSTRUCTED").upper()
+    if attestation == "ATTESTED":
+        return ["ATTESTED", "PERIOD LANGUAGE"]
+    return ["RECONSTRUCTED", "PERIOD LANGUAGE"]
+
+
 def _build_shots(
     concept: dict[str, Any],
     fmt: dict[str, Any],
@@ -481,6 +584,7 @@ def _build_shots(
     style_obj: dict[str, Any],
     identity_lock: str,
     voice_suffix: str,
+    historical_figure: Optional[dict[str, Any]] = None,
 ) -> list[dict[str, Any]]:
     """Merge concept beats over the format's shot blueprints.
 
@@ -543,6 +647,11 @@ def _build_shots(
             shot["on_screen"] = row["on_screen"]
         if row.get("on_screen_labels"):
             shot["on_screen_labels"] = row["on_screen_labels"]
+        if historical_figure and shot["id"] == PERIOD_LINE_SHOT_ID:
+            shot["on_screen_labels"] = _period_line_labels(row, historical_figure)
+            if historical_figure.get("period_language"):
+                shot["speech_lang"] = historical_figure["period_language"]
+            shot["historical_figure_ref"] = historical_figure["figure_id"]
         shots.append(shot)
         t += duration
 
@@ -571,7 +680,7 @@ def _build_config(
     pairings = libs["styles"].get("recommended_pairings", {})
     # Identity lock JSON only exists for the DAVID host anchor today.
     identity_lock = concept.get("identity_lock")
-    if not identity_lock and format_id == "documentary-host":
+    if not identity_lock and format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT):
         identity_lock = pairings.get("DAVID_host", {}).get(
             "identity_lock", "productions/host_identity_v1/david_identity_lock.json"
         )
@@ -585,7 +694,7 @@ def _build_config(
     avatar = concept.get("avatar_reference")
     if not avatar and actor:
         avatar = actor.get("reference_image_primary")
-    if not avatar and format_id == "documentary-host":
+    if not avatar and format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT):
         avatar = "productions/host_identity_v1/references/david_avatar_reference.jpg"
     if avatar:
         cfg["avatar_reference"] = avatar
@@ -598,7 +707,7 @@ def _build_config(
     seamless = dict(
         libs["formats"]["compose_contract"].get("seamless_defaults", {})
     )
-    if format_id == "documentary-host":
+    if format_id in ("documentary-host", HISTORICAL_FIGURE_FORMAT):
         seamless.update(
             {
                 "lamp_lock": True,
@@ -628,12 +737,27 @@ def _build_config(
 # --------------------------------------------------------------------------- #
 # Provenance card
 # --------------------------------------------------------------------------- #
-def _build_provenance(concept: dict[str, Any], fmt: dict[str, Any]) -> dict[str, Any]:
+def _sources_summary(sources: list[dict[str, Any]], *, max_items: int = 3) -> str:
+    parts: list[str] = []
+    for src in sources[:max_items]:
+        cite = str(src.get("citation", "")).strip()
+        if len(cite) > 72:
+            cite = cite[:69] + "…"
+        parts.append(cite)
+    return " · ".join(parts)
+
+
+def _build_provenance(
+    concept: dict[str, Any],
+    fmt: dict[str, Any],
+    *,
+    historical_figure: Optional[dict[str, Any]] = None,
+) -> dict[str, Any]:
     template = dict(fmt.get("provenance_card", {"enabled": False}))
     brand = concept.get("brand", {})
     overrides = concept.get("provenance_card", {})
 
-    # Substitute brand placeholders ({brand_title} etc.) used by the templates.
+    hf = historical_figure or {}
     subs = {
         "brand_title": brand.get("title", concept.get("title", "")),
         "brand_subtitle": brand.get("subtitle", ""),
@@ -641,11 +765,22 @@ def _build_provenance(concept: dict[str, Any], fmt: dict[str, Any]) -> dict[str,
         "title": concept.get("title", ""),
         "subtitle": brand.get("subtitle", ""),
         "credit_line": brand.get("credit_line", brand.get("cta", "")),
+        "figure_name": hf.get("name") or hf.get("figure_id", ""),
+        "figure_era": hf.get("era", ""),
+        "death_year": str(hf.get("death_year", "")),
+        "sources_summary": _sources_summary(hf.get("sources") or []),
     }
     for key, val in list(template.items()):
-        if isinstance(val, str) and val.startswith("{") and val.endswith("}"):
-            template[key] = subs.get(val.strip("{}"), "")
+        if isinstance(val, str) and "{" in val:
+            out = val
+            for ph, repl in subs.items():
+                out = out.replace(f"{{{ph}}}", repl)
+            template[key] = out
     template.update(overrides)
+    if hf:
+        template["card_type"] = template.get("card_type", "sources")
+        template["sources"] = hf.get("sources", [])
+        template["historical_figure_id"] = hf.get("figure_id")
     return template
 
 
@@ -725,8 +860,12 @@ def build_longform_script(
         )
 
     identity_lock = _identity_lock_text(fmt, actor, actor_id)
+    historical_figure = _parse_historical_figure(concept, format_id)
 
-    shots = _build_shots(concept, fmt, set_obj, style_obj, identity_lock, voice_suffix)
+    shots = _build_shots(
+        concept, fmt, set_obj, style_obj, identity_lock, voice_suffix,
+        historical_figure=historical_figure or None,
+    )
     config = _build_config(concept, fmt, format_id, set_obj, actor, voice_suffix, libs)
 
     target = concept.get("target_seconds")
@@ -755,12 +894,30 @@ def build_longform_script(
         },
         "config": config,
         "shots": shots,
-        "provenance_card": _build_provenance(concept, fmt),
+        "provenance_card": _build_provenance(concept, fmt, historical_figure=historical_figure or None),
         "qa_rules": fmt.get(
             "qa_rules",
             {"require_identity_lock": True, "require_synthetic_guard": True, "min_shots": 1},
         ),
     }
+    if historical_figure:
+        script["intake"]["historical_figure"] = historical_figure
+        script["production_meta"] = {
+            "set_id": set_id,
+            "style_id": style_id,
+            "identity_anchor": fmt.get("identity_anchor"),
+            "pacing": fmt.get("pacing"),
+            "camera": fmt.get("camera"),
+            "target_rating": fmt.get("target_rating", "PG"),
+            "historical_figure": {
+                "figure_id": historical_figure["figure_id"],
+                "name": historical_figure["name"],
+                "death_year": historical_figure["death_year"],
+                "era": historical_figure["era"],
+                "period_language": historical_figure.get("period_language"),
+                "source_count": len(historical_figure["sources"]),
+            },
+        }
     return script
 
 

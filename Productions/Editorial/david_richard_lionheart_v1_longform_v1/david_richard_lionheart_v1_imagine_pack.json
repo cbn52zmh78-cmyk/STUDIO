@@ -1,0 +1,92 @@
+{
+  "slug": "david_richard_lionheart_v1",
+  "title": "DAVID — Richard I: The Lion Who Spoke Norman French",
+  "model_video": "grok-imagine-video-1.5",
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "host_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\productions\\host_identity_v1\\references\\david_avatar_reference.jpg",
+  "avatar_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+  "set_reference": "C:\\Users\\NCG\\Videos\\Grok Projects\\DAVID\\productions\\host_identity_v1\\references\\archive_set_reference.jpg",
+  "voice_suffix": "mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only",
+  "seamless": null,
+  "shots": [
+    {
+      "shot_id": "01_cold_open",
+      "duration": 8,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host seated at Archive worktable, warm brass lamplight, names the historical figure and episode promise. Camera: slow gentle push-in medium. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"I am DAVID. Tonight, Richard the First — Lionheart — crusader king who spoke Anglo-Norman at court and Latin in his charters.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "I am DAVID. Tonight, Richard the First — Lionheart — crusader king who spoke Anglo-Norman at court and Latin in his charters.",
+      "speech_ipa": null,
+      "on_screen": "DAVID · The Archive · Royal Tongues",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 0,
+        "end_s": 8
+      }
+    },
+    {
+      "shot_id": "02_who_they_were",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host delivers concise biography — birth, role, defining achievement — manuscripts behind. Camera: locked medium, slight lean. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"Born eleven fifty-seven, third son who became heir. Warrior, poet in the troubadour orbit, absentee king of England — present in every chronicle of the Third Crusade.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "Born eleven fifty-seven, third son who became heir. Warrior, poet in the troubadour orbit, absentee king of England — present in every chronicle of the Third Crusade.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 8,
+        "end_s": 17
+      }
+    },
+    {
+      "shot_id": "03_their_world",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host situates the figure in era and place — political, cultural, or scientific context. Camera: medium — gesture to map or codex. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"His world was siege engines at Acre, ransom negotiations in Germany, and a court tongue that was neither English nor Parisian French — Anglo-Norman, the language of power after Hastings.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "His world was siege engines at Acre, ransom negotiations in Germany, and a court tongue that was neither English nor Parisian French — Anglo-Norman, the language of power after Hastings.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 17,
+        "end_s": 26
+      }
+    },
+    {
+      "shot_id": "04_period_line",
+      "duration": 10,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host delivers one line in the figure's period language; on-screen attestation label visible. Camera: medium-close — deliberate delivery. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"Deus le volt! — God wills it — the crusader acclamation attested across Norman and Latin chronicles of the Third Crusade, here in Anglo-Norman pronunciation.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "Deus le volt! — God wills it — the crusader acclamation attested across Norman and Latin chronicles of the Third Crusade, here in Anglo-Norman pronunciation.",
+      "speech_ipa": "/dø lə ˈvɔlt/",
+      "on_screen": "ATTESTED · Anglo-Norman · Third Crusade",
+      "on_screen_labels": [
+        "ATTESTED",
+        "PERIOD LANGUAGE"
+      ],
+      "timing": {
+        "start_s": 26,
+        "end_s": 36
+      }
+    },
+    {
+      "shot_id": "05_legacy",
+      "duration": 9,
+      "image_url": "https://imgen.x.ai/xai-imgen/xai-tmp-imgen-89ba6afa-5526-4821-8942-f7292e7342d8.jpeg",
+      "video_prompt": "CONTINUITY LOCK @David-001: identical host face, charcoal sweater, Archive desk, brass lamp, same eye-line — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Archive-001: identical Archive interior — floor-to-ceiling manuscript shelves, long wooden worktable, open illuminated codex, cuneiform tablet, rolled papyrus, single brass desk lamp, same shelf blur depth, same eye-line to desk — seamless continuation, zero jump cut. STYLE LOCK @Style-Documentary-Prestige-001: documentary prestige grade — rich midtones, restrained contrast, natural skin texture, subtle film grain, trustworthy broadcast gravitas, no beauty-filter smoothing, no Instagram saturation. Host on legacy and influence — what changed because they lived; end on gesture peak. Camera: warm close, inviting settle. Warm gold brass desk lamp 3200K key light locked — zero hue drift, amber pool only on desk and face, no magenta purple ambient, no cool fill, no glasses purple reflection. Motivated practical key only — no unmotivated beauty dish, no fashion rim, lamp or window must be visible or implied. COLOR LOCK Archive: dominant amber 3200K, wood tones burnt umber #3D2B1F to #5C4033, parchment cream #F5F0E6, shadow neutral warm grey #2A2520 — no blue fill, no magenta cast, no teal shadows. GRADE LOCK Documentary-Prestige: skin warmth +3% amber max, shadows warm-neutral not blue, saturation overall -10% vs reality, highlight roll-off soft — forbid magenta midtones, forbid teal shadows, forbid orange skin push. Slow motivated push-in or locked-off medium; handheld only for insert B-roll — never jitter on host. Lip-synced, delivers: \"He died in eleven ninety-nine from a crossbow bolt at Châlus — legend larger than reign. What the corpus gives us is not his private voice, but the shouts armies recorded.\" mid-low resonant unhurried voice, precise diction, documentary gravitas, biography register, accessible never stuffy, synthetic host only. Finish on gesture peak (hand motion or lean), never hold dead stillness or dead frame.",
+      "speech_text": "He died in eleven ninety-nine from a crossbow bolt at Châlus — legend larger than reign. What the corpus gives us is not his private voice, but the shouts armies recorded.",
+      "speech_ipa": null,
+      "on_screen": "",
+      "on_screen_labels": [],
+      "timing": {
+        "start_s": 36,
+        "end_s": 45
+      }
+    }
+  ],
+  "provenance_shot": {
+    "type": "code_rendered_png",
+    "duration_s": 6,
+    "enabled": true
+  }
+}

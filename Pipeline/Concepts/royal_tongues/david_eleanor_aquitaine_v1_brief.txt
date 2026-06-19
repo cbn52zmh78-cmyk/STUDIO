@@ -1,0 +1,16 @@
+Project: david_eleanor_aquitaine_v1
+Format: historical-figure-documentary (54s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host (identity lock)
+Historical figure: Eleanor of Aquitaine (ELE-001)
+death_year: 1204
+Era: 12th Century Angevin
+Content: Educational biography — documentary commentary on deceased historical figure. No visual impersonation of Eleanor; host delivers analysis and reconstructed period-language line.
+Period language: Anglo-Norman — RECONSTRUCTED petition register on screen.
+Reconstruction disclosure: Period-language delivery and any visual reference are speculative reconstruction from chronicles and Anglo-Norman corpus — not a photographic likeness of Eleanor.
+Sources: Roger of Hoveden Gesta Regis Ricardi; Gerald of Wales De principis instructione; Marie de France Lais.
+Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature.
+AI disclosure: synthetic host in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry. Adult scholarly presentation.
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

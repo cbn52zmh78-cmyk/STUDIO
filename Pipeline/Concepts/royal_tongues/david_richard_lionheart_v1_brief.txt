@@ -1,0 +1,16 @@
+Project: david_richard_lionheart_v1
+Format: historical-figure-documentary (54s)
+Rating target: PG
+Channels: social, streaming
+Host: David-001 synthetic documentary host
+Historical figure: Richard I Lionheart (RIC-001)
+death_year: 1199
+Era: 12th Century Angevin
+Content: Educational biography of deceased crusader king. Host commentary only — no synthetic likeness of Richard on screen.
+Period language: Anglo-Norman — ATTESTED crusade formula Deus le volt with reconstructed pronunciation labeled.
+Reconstruction disclosure: Period-language pronunciation is reconstructed from orthographic and chronicle tradition — not a photographic likeness of Richard.
+Sources: Itinerarium Regis Ricardi; Roger of Hoveden Chronica; William of Newburgh Historia rerum anglicarum.
+Dignity: SFW scholarly portrayal only; no NSFW; no humiliation or anachronistic caricature.
+AI disclosure planned in provenance card and platform metadata.
+Synthetic fictional host David-001 only — no celebrity mimicry.
+Music plan: BED-DOC-001 — music cleared, cue sheet on file.

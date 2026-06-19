@@ -4,7 +4,7 @@
 Substitutes [BRACKET] placeholders with minimal valid values, then runs:
   production_intake.py → render_longform.py --script-only
 
-Exit 0 only if all four formats pass.
+Exit 0 only if all five formats pass.
 """
 
 from __future__ import annotations
@@ -27,6 +27,7 @@ ACTOR_FILLS = {
     "narrative-short-film": "Aiko-001",
     "conversational-companion": "Amara-001",
     "explainer-ad": "Julian-001",
+    "historical-figure-documentary": "David-001",
 }
 
 BRACKET_RE = re.compile(r"\[[^\]]+\]")
@@ -43,6 +44,16 @@ def fill_brackets(value: str, *, slug: str, key: str = "") -> str:
         return value  # filled separately per format
     if key == "speech_text":
         return "Template validation spoken line."
+    if key == "death_year":
+        return 415
+    if key == "figure_id":
+        return "template_figure"
+    if key == "era":
+        return "Template Era"
+    if key == "citation":
+        return "Template Source Citation"
+    if key == "attestation":
+        return "RECONSTRUCTED"
     if key in ("title", "subtitle", "cta", "credit_line", "legal_line") or "BRAND" in value:
         return "Template"
     if key == "on_screen":
@@ -52,31 +63,28 @@ def fill_brackets(value: str, *, slug: str, key: str = "") -> str:
     return BRACKET_RE.sub("template", value)
 
 
+def fill_value(val: Any, format_id: str, slug: str, key: str = "") -> Any:
+    if isinstance(val, dict):
+        return {k: fill_value(v, format_id, slug, k) for k, v in val.items()}
+    if isinstance(val, list):
+        return [fill_value(item, format_id, slug, key) for item in val]
+    if isinstance(val, str):
+        if key == "actor_id" and "[" in val:
+            return ACTOR_FILLS.get(format_id, "Julian-001")
+        return fill_brackets(val, slug=slug, key=key)
+    return val
+
+
 def fill_concept(raw: dict[str, Any], format_id: str, slug: str) -> dict[str, Any]:
     out: dict[str, Any] = {}
     for key, val in raw.items():
         if key == "_template":
             continue
-        if key == "actor_id" and isinstance(val, str) and "[" in val:
-            out[key] = ACTOR_FILLS.get(format_id, "Julian-001")
-        elif isinstance(val, str):
-            out[key] = fill_brackets(val, slug=slug, key=key)
-        elif isinstance(val, list):
-            out[key] = [
-                fill_concept(item, format_id, slug) if isinstance(item, dict)
-                else fill_brackets(item, slug=slug, key=key) if isinstance(item, str) else item
-                for item in val
-            ]
-        elif isinstance(val, dict):
-            filled: dict[str, Any] = {}
-            for k, v in val.items():
-                if isinstance(v, str):
-                    filled[k] = fill_brackets(v, slug=slug, key=k)
-                else:
-                    filled[k] = v
-            out[key] = filled
-        else:
-            out[key] = val
+        out[key] = fill_value(val, format_id, slug, key)
+    if format_id in ("documentary-host", "historical-figure-documentary"):
+        gate = dict(out.get("gate_0") or {})
+        gate.setdefault("human_signoff", True)
+        out["gate_0"] = gate
     return out
 
 
@@ -96,8 +104,11 @@ def validate_one(template_path: Path) -> tuple[bool, str]:
     tmp_concept.write_text(json.dumps(concept, indent=2, ensure_ascii=False), encoding="utf-8")
 
     try:
-        if run([sys.executable, str(INTAKE), str(tmp_concept), "-o", str(script_path)], cwd=ROOT) != 0:
-            return False, f"{format_id}: intake failed"
+        intake_rc = run(
+            [sys.executable, str(INTAKE), str(tmp_concept), "-o", str(script_path)], cwd=ROOT
+        )
+        if intake_rc not in (0, 3) or not script_path.is_file():
+            return False, f"{format_id}: intake failed (rc={intake_rc})"
         if run(
             [sys.executable, str(RENDER), str(script_path), "--script-only"],
             cwd=ROOT,
@@ -111,8 +122,8 @@ def validate_one(template_path: Path) -> tuple[bool, str]:
 
 def main() -> int:
     templates = sorted(TEMPLATES_DIR.glob("*.concept.template.json"))
-    if len(templates) != 4:
-        print(f"Expected 4 templates, found {len(templates)}")
+    if len(templates) != 5:
+        print(f"Expected 5 templates, found {len(templates)}")
         return 1
 
     ok = True

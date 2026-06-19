@@ -1,0 +1,87 @@
+{
+  "_template": {
+    "name": "sources_card",
+    "version": "1.0",
+    "bible": "Historical_SoT_Standard_v1.md · historical-figure-documentary provenance_card",
+    "usage": "Copy into concept as provenance_card override, OR rely on intake auto-build from historical_figure.sources. Rendered by render_longform.py when card_type is sources.",
+    "fill_fields": [
+      "historical_figure.figure_id",
+      "historical_figure.name",
+      "historical_figure.death_year",
+      "historical_figure.era",
+      "historical_figure.sources[].citation",
+      "historical_figure.sources[].type"
+    ]
+  },
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 7,
+    "card_type": "sources",
+    "title": "Sources — [FIGURE DISPLAY NAME]",
+    "subtitle": "[ERA] · d. [DEATH_YEAR]",
+    "banner": "HISTORICAL SOURCES — EVIDENCE FIRST",
+    "footer": "[N] primary · [M] secondary — full list in episode description",
+    "historical_figure_id": "[figure_id_snake_case]",
+    "sources": [
+      {
+        "citation": "[PRIMARY — Author, Work, passage]",
+        "type": "primary",
+        "url": "[optional stable URL]",
+        "supports": ["02_who_they_were", "04_period_line"]
+      },
+      {
+        "citation": "[PRIMARY — second witness or charter]",
+        "type": "primary",
+        "supports": ["03_their_world"]
+      },
+      {
+        "citation": "[SECONDARY — modern scholarship]",
+        "type": "secondary",
+        "supports": ["05_legacy"]
+      }
+    ],
+    "render_rules": {
+      "max_lines_on_card": 6,
+      "primary_prefix": "P",
+      "secondary_prefix": "S",
+      "truncate_citation_chars": 88,
+      "show_urls": false
+    }
+  },
+  "historical_figure": {
+    "figure_id": "[figure_id_snake_case]",
+    "name": "[FIGURE DISPLAY NAME]",
+    "death_year": 0,
+    "era": "[ERA — place and period]",
+    "period_language": "[e.g. Anglo-Norman, Tudor English, Latin]",
+    "default_attestation": "RECONSTRUCTED",
+    "sources": [
+      {
+        "citation": "[PRIMARY — Author, Work, passage]",
+        "type": "primary",
+        "url": "[optional]",
+        "supports": ["02_who_they_were", "04_period_line"]
+      },
+      {
+        "citation": "[PRIMARY — second witness]",
+        "type": "primary",
+        "supports": ["03_their_world"]
+      },
+      {
+        "citation": "[SECONDARY — modern scholarship]",
+        "type": "secondary",
+        "supports": ["05_legacy"]
+      }
+    ]
+  },
+  "gate_0": {
+    "music_bed_id": "[BED-ANT-001 | BED-MED-001 | BED-TUD-001 per era]",
+    "rating": "PG",
+    "channels": ["social", "streaming"]
+  },
+  "_examples": {
+    "antiquity": { "music_bed_id": "BED-ANT-001", "period_language": "Ancient Greek" },
+    "medieval": { "music_bed_id": "BED-MED-001", "period_language": "Anglo-Norman" },
+    "tudor": { "music_bed_id": "BED-TUD-001", "period_language": "Tudor English" }
+  }
+}

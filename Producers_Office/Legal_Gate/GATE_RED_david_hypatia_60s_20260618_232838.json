@@ -1,0 +1,52 @@
+{
+  "project": "david_hypatia_60s",
+  "verdict": "RED",
+  "target_rating": "PG",
+  "channels": [
+    "social",
+    "educational"
+  ],
+  "hard_stops": [
+    "[HISTFIG] death_year missing \u2014 Historical Figure Gate requires documented death year"
+  ],
+  "counsel_flags": [],
+  "warnings": [
+    "Unknown channel 'educational' \u2014 valid: social, streaming, theatrical, festival, client",
+    "Numerical performer age not stated \u2014 required per Age Policy + Intimacy Protocol v1.3",
+    "[HISTFIG] reconstruction disclosure required \u2014 state likeness is speculative AI reconstruction",
+    "[HISTFIG] sourced claims required \u2014 cite primary or scholarly sources for historical assertions"
+  ],
+  "distribution_flags": [],
+  "rating_flags": [],
+  "cara_status": "COMPLIANT",
+  "notes": [
+    "Row 6: AI-disclosure obligation planned \u2014 verify presence at Pre-Publish.",
+    "Social = mass dissemination. Platform AI-label + community guidelines apply.",
+    "PRODUCER HARD STOP \u2014 Gate 0 failed. Do not generate. Do not shoot. Do not publish."
+  ],
+  "checklist_domains": {
+    "row_1_synthetic_ownership": "MANUAL",
+    "row_2_music_sync": "MANUAL",
+    "row_3_no_real_likeness": "MANUAL",
+    "row_4_target_channel": "PASS",
+    "row_5_age_documentation": "MANUAL",
+    "row_6_ai_disclosure": "PASS"
+  },
+  "historical_figure_gate": {
+    "applies": true,
+    "death_year": null,
+    "status": "BLOCKED",
+    "hard_stops": [
+      "[HISTFIG] death_year missing \u2014 Historical Figure Gate requires documented death year"
+    ],
+    "warnings": [
+      "[HISTFIG] reconstruction disclosure required \u2014 state likeness is speculative AI reconstruction",
+      "[HISTFIG] sourced claims required \u2014 cite primary or scholarly sources for historical assertions"
+    ],
+    "notes": [],
+    "recency_floor_year": 1926,
+    "post_1900_caution": false
+  },
+  "timestamp": "2026-06-18T23:28:38.010416",
+  "source_excerpt": "Project: david_hypatia_60s\nTitle: DAVID \u2014 Hypatia of Alexandria\nFormat: historical-figure-documentary\nRating target: PG\nChannels: social, educational\n\nPerformer anchor: David-001 (synthetic documentary host @David-001)\nHistorical figure: Hypatia of Alexandria (figure_id=hypatia_alexandria, d. 415, era=Late Roman Alexandria / Neoplatonism)\nPeriod language beat: Ancient Greek \u2014 reconstructed pronunciation labeled on screen.\nSources on file: 3 (Socrates Scholasticus; Damascius; modern scholarship s"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "david_hypatia_60s",
+  "title": "DAVID — Hypatia of Alexandria",
+  "format_id": "historical-figure-documentary",
+  "actor_id": "David-001",
+  "target_seconds": 54,
+  "tags": ["history", "biography", "hypatia", "alexandria", "historical figure", "ancient world"],
+  "gate_0": {
+    "human_signoff": true,
+    "channels": ["social", "educational"]
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Historical figures — evidence first.",
+    "cta": "Follow for the next life recovered from silence."
+  },
+  "historical_figure": {
+    "figure_id": "hypatia_alexandria",
+    "name": "Hypatia of Alexandria",
+    "birth_year": 360,
+    "death_year": 415,
+    "era": "Late Roman Alexandria / Neoplatonism",
+    "period_language": "Ancient Greek",
+    "default_attestation": "RECONSTRUCTED",
+    "sources": [
+      {
+        "citation": "Socrates Scholasticus, Ecclesiastical History VII.15 (Hypatia, philosopher of Alexandria)",
+        "url": "https://en.wikisource.org/wiki/Ecclesiastical_History_(Scholasticus)/Book_VII",
+        "type": "primary"
+      },
+      {
+        "citation": "Damascius, Life of Isidore (fragmentary notice of Hypatia)",
+        "type": "primary"
+      },
+      {
+        "citation": "Watts, Edward J. — Hypatia: The Life and Legend of an Ancient Philosopher (Oxford, 2017)",
+        "type": "secondary"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "Tonight: Hypatia of Alexandria — mathematician, philosopher, and the most famous woman of late antiquity.",
+      "on_screen": "Hypatia · d. 415 CE"
+    },
+    {
+      "id": "02_who_they_were",
+      "speech_text": "She taught Neoplatonism in Alexandria, edited Ptolemy, and advised the city's prefect — a public intellectual in a city tearing itself apart."
+    },
+    {
+      "id": "03_their_world",
+      "speech_text": "Her world was Roman Egypt in the early fifth century: pagan temples closed, Christian factions armed, and the Library's tradition living on in private lecture halls."
+    },
+    {
+      "id": "04_period_line",
+      "speech_text": "Ἡ θεία γνῶσις φωτίζει τὸν νοῦν — divine knowledge illuminates the mind.",
+      "attestation": "RECONSTRUCTED",
+      "speech_ipa": "[reconstructed Ancient Greek — scholarly approximation]"
+    },
+    {
+      "id": "05_legacy",
+      "speech_text": "She became a symbol — of learning, of tolerance, and of what a city loses when debate turns to violence. Her story outlived the empire that killed her."
+    }
+  ]
+}

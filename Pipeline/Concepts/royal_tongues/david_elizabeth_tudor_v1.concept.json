@@ -1,0 +1,84 @@
+{
+  "slug": "david_elizabeth_tudor_v1",
+  "title": "DAVID — Elizabeth I: The Tilbury Speech in Her Own English",
+  "format_id": "historical-figure-documentary",
+  "actor_id": "David-001",
+  "target_seconds": 54,
+  "tags": ["history", "elizabeth-i", "tudor", "early-modern-english", "royal-tongues"],
+  "logline": "Biography of Elizabeth I with attested Tilbury speech line in Tudor English; sources on file.",
+  "brief": "royal_tongues/david_elizabeth_tudor_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Royal Tongues — dead languages and the voices of history",
+    "cta": "Follow the Archive — one attestation at a time. DAVID."
+  },
+  "historical_figure": {
+    "figure_id": "ELZ-001",
+    "name": "Elizabeth I",
+    "birth_year": 1533,
+    "death_year": 1603,
+    "era": "Tudor England",
+    "period_language": "early-modern-english",
+    "default_attestation": "ATTESTED",
+    "sources": [
+      {
+        "citation": "Elizabeth I: Collected Works (University of Chicago Press) — Tilbury speech, 9 August 1588",
+        "type": "primary",
+        "notes": "Standard scholarly edition of attested speeches and letters"
+      },
+      {
+        "citation": "William Camden, Annales rerum Anglicarum et Hibernicarum (1615) — early transmission of Tilbury address",
+        "type": "primary",
+        "notes": "Near-contemporary historiographic record"
+      },
+      {
+        "citation": "British Library, Armada collection — state papers and contemporary copies of Elizabeth's wartime addresses",
+        "type": "primary",
+        "url": "https://www.bl.uk/collection-guides/armada",
+        "notes": "Manuscript and state-paper tradition"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Tonight, Elizabeth the First — the queen who faced the Armada and left us her own words, attested on paper.",
+      "on_screen": "DAVID · The Archive · Royal Tongues"
+    },
+    {
+      "id": "02_who_they_were",
+      "speech_text": "Born fifteen thirty-three, daughter of Anne Boleyn, crowned fifteen fifty-nine after half a sister's reign. Forty-four years on the throne — the long Elizabethan peace that was never quite peace."
+    },
+    {
+      "id": "03_their_world",
+      "speech_text": "Her world was Early Modern English in proclamation and prayer book, Latin in diplomacy, and a court culture that turned speech into propaganda when invasion threatened."
+    },
+    {
+      "id": "04_period_line",
+      "speech_text": "I know I have the body of a weak and feeble woman — but I have the heart and stomach of a king, and of a king of England too.",
+      "attestation": "ATTESTED",
+      "on_screen": "ATTESTED · Tudor English · Tilbury 1588",
+      "on_screen_labels": ["ATTESTED", "PERIOD LANGUAGE"],
+      "speech_ipa": "/aɪ nəʊ aɪ hæv ðə ˈbɒdi əv ə wiːk ənd ˈfiːbl ˈwʊmən/"
+    },
+    {
+      "id": "05_legacy",
+      "speech_text": "She died in sixteen oh-three — no heir, Stuart succession, legend intact. What we can say attested is what she wrote and what her clerks copied."
+    }
+  ],
+  "provenance_card": {
+    "lines": [
+      "FIGURE: Elizabeth I (ELZ-001) · d. 1603",
+      "PERIOD LINE: Tilbury speech excerpt — attested text, reconstructed Early Modern pronunciation",
+      "PRONUNCIATION: Scholarly Early Modern English — not original audio"
+    ]
+  }
+}
