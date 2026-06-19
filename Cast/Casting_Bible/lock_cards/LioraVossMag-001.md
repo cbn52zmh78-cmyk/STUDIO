@@ -24,7 +24,7 @@
 
 ## Appearance lock (verbatim — reuse every shot)
 ```
-photorealistic high-fidelity 16:9 magazine editorial photograph, single 24-year-old Dutch-German woman named Liora Voss, very attractive willowy supermodel with platinum blonde blunt bob, striking blue eyes, pale flawless porcelain skin, high cheekbones, captivating symmetry, wearing deconstructed white architectural dress with geometric cut-outs and structured pleats, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality
+photorealistic high-fidelity 16:9 magazine editorial photograph, single 24-year-old Dutch-German woman named Liora Voss, very attractive willowy supermodel with platinum blonde blunt bob, striking blue eyes, pale flawless porcelain skin, high cheekbones, captivating symmetry, wearing deconstructed white architectural dress with geometric cut-outs and structured pleats, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, clearly adult woman unambiguously 21+, synthetic fictional character only, no real-person likeness
 ```
 
 ## Voice spec

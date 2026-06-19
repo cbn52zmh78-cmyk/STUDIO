@@ -1,10 +1,10 @@
 # Cast Compliance Audit — 100 Actors
-**Audited:** 2026-06-19T03:22:29.657813+00:00
+**Audited:** 2026-06-19T03:29:30.525895+00:00
 
 ## Summary
 - **Total:** 100
-- **CLEAR:** 36
-- **FLAG:** 64
+- **CLEAR:** 94
+- **FLAG:** 6
 - **BLOCKED:** 0
 - **Floor-age (21–22) visual review:** 6
 
@@ -26,7 +26,7 @@
 
 ## Prompt hygiene flags (usable, lock text should be patched)
 
-- Count: 63
+- Count: 0
 - Lanes: 35 male roster + 20 GFE + 10 MAGAZINE missing explicit synthetic/adult clauses in appearance_lock_verbatim
 
 ## Full matrix
@@ -68,68 +68,68 @@
 | Julian-001 | actors_roster | 31 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | Katya-001 | actors_roster | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | Kenji-001 | actors_roster | 34 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
-| Khalid-001 | actors_roster | 30 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Kofi-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Lars-001 | actors_roster | 34 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Layla-001 | actors_roster | 31 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Linh-001 | actors_roster | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Luca-001 | actors_roster | 29 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Maeve-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Malik-001 | actors_roster | 29 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Marco-001 | actors_roster | 36 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Marcus-001 | actors_roster | 32 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| MeiLing-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Nadia-001 | actors_roster | 42 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Nikolai-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Noor-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Olivia-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Oluwaseun-001 | actors_roster | 33 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Pierre-001 | actors_roster | 41 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Priya-001 | actors_roster | 37 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Rachel-001 | actors_roster | 36 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Rafael-001 | actors_roster | 35 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Ravi-001 | actors_roster | 38 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Ren-001 | actors_roster | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Sam-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Serena-001 | actors_roster | 30 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Sienna-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Sofia-001 | actors_roster | 29 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Tessa-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Theo-001 | actors_roster | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Tomas-001 | actors_roster | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Valentina-001 | actors_roster | 47 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Vikram-001 | actors_roster | 32 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Viktor-001 | actors_roster | 35 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Wei-001 | actors_roster | 31 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| Khalid-001 | actors_roster | 30 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Kofi-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Lars-001 | actors_roster | 34 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Layla-001 | actors_roster | 31 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Linh-001 | actors_roster | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Luca-001 | actors_roster | 29 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Maeve-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Malik-001 | actors_roster | 29 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Marco-001 | actors_roster | 36 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Marcus-001 | actors_roster | 32 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| MeiLing-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Nadia-001 | actors_roster | 42 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Nikolai-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Noor-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Olivia-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Oluwaseun-001 | actors_roster | 33 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Pierre-001 | actors_roster | 41 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Priya-001 | actors_roster | 37 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Rachel-001 | actors_roster | 36 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Rafael-001 | actors_roster | 35 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Ravi-001 | actors_roster | 38 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Ren-001 | actors_roster | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Sam-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Serena-001 | actors_roster | 30 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Sienna-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Sofia-001 | actors_roster | 29 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Tessa-001 | actors_roster | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Theo-001 | actors_roster | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Tomas-001 | actors_roster | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Valentina-001 | actors_roster | 47 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Vikram-001 | actors_roster | 32 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Viktor-001 | actors_roster | 35 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| Wei-001 | actors_roster | 31 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | Yuki-001 | actors_roster | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| Zara-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| AikoGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| EmberGFE-001 | gfe | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| Zara-001 | actors_roster | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| AikoGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| EmberGFE-001 | gfe | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | HanaGFE-001 | gfe | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| IrisGFE-001 | gfe | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| JadeGFE-001 | gfe | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| KiraGFE-001 | gfe | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| LunaGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| IrisGFE-001 | gfe | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| JadeGFE-001 | gfe | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| KiraGFE-001 | gfe | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| LunaGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | LyraGFE-001 | gfe | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| MikaGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| NikoGFE-001 | gfe | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| NovaGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| RavenGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| RinGFE-001 | gfe | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| SageGFE-001 | gfe | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| ScarletGFE-001 | gfe | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| SoraGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| VesperGFE-001 | gfe | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| MikaGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| NikoGFE-001 | gfe | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| NovaGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| RavenGFE-001 | gfe | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| RinGFE-001 | gfe | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| SageGFE-001 | gfe | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| ScarletGFE-001 | gfe | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| SoraGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| VesperGFE-001 | gfe | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | VioletGFE-001 | gfe | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| WillowGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| WillowGFE-001 | gfe | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | YumeGFE-001 | gfe | 21 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| AnyaPetrovaMag-001 | magazine_editorial | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| AnyaPetrovaMag-001 | magazine_editorial | 23 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | FreyaLindMag-001 | magazine_editorial | 22 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| IsoldeMoreauMag-001 | magazine_editorial | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| LioraVossMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| MeiLinChenMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| IsoldeMoreauMag-001 | magazine_editorial | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| LioraVossMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| MeiLinChenMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
 | NadiaOkoroMag-001 | magazine_editorial | 28 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
-| PriyaSinghMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| SofiaAlvarezMag-001 | magazine_editorial | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| ValentinaRossiMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
-| ZaraKhanMag-001 | magazine_editorial | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **FLAG** |
+| PriyaSinghMag-001 | magazine_editorial | 24 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| SofiaAlvarezMag-001 | magazine_editorial | 27 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| ValentinaRossiMag-001 | magazine_editorial | 25 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |
+| ZaraKhanMag-001 | magazine_editorial | 26 | ✓ | ✓ | ✓ | ✓ | ✓ | **CLEAR** |

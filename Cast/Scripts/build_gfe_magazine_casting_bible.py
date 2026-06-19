@@ -90,8 +90,13 @@ def scan_prompt_flags(text: str | None) -> list[str]:
     if not text:
         return flags
     lower = text.lower()
+    scrubbed = re.sub(
+        r"no real person or celebrity likeness|no celebrity likeness|synthetic fictional character only",
+        "",
+        lower,
+    )
     for pat in PROMPT_LIKENESS_PATTERNS:
-        if re.search(pat, lower):
+        if re.search(pat, scrubbed):
             flags.append(f"likeness_risk:{pat}")
     for pat in AFFIRMATIVE_EXPLICIT_PATTERNS:
         if _affirmative_explicit_match(lower, pat):

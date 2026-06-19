@@ -136,6 +136,11 @@ python DAVID/scripts/render_longform.py <script.json> --seamless --match-color -
 > On Windows consoles, set `PYTHONIOENCODING=utf-8` — the script emits em-dashes
 > and `·` in its status lines.
 
+## Concept templates
+
+Ready-to-fill templates (one per format): `Concepts/templates/*.concept.template.json`  
+Smoke-test all four: `python STUDIO/Pipeline/Concepts/templates/validate_templates.py`
+
 ## Worked example
 
 `Concepts/david_why_latin_60s.concept.json` → 8-shot documentary-host script,

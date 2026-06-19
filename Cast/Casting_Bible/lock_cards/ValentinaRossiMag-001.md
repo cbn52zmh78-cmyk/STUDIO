@@ -24,7 +24,7 @@
 
 ## Appearance lock (verbatim — reuse every shot)
 ```
-photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality
+photorealistic high-fidelity 16:9 magazine editorial photograph, single 25-year-old Italian woman named Valentina Rossi, striking supermodel beauty with sharp defined cheekbones, captivating dark eyes, flawless porcelain skin, perfect symmetrical features, magnetic presence, wearing asymmetric sculptural black wool coat with metallic petal accents and exaggerated shoulders, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, clearly adult woman unambiguously 21+, synthetic fictional character only, no real-person likeness
 ```
 
 ## Voice spec

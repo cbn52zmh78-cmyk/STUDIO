@@ -1,0 +1,51 @@
+{
+  "_template": {
+    "format_id": "explainer-ad",
+    "bible": "§1 Casting · §2 step 2b presenter outfit · §9.5 blueprint · Worked_Example_Explainer_Ad_v1.0.md",
+    "identity_mapping": "Format anchor @Presenter-001 → set actor_id to registry handle (example: Julian-001). config.use_identity_lock: false.",
+    "set_style_defaults": "Omit to use @Set-Seamless-Neutral-001 + @Style-Cool-Clinical-001",
+    "legal_gate": "§3.4 — PG; mark unverified claims [CLAIM REQUIRES VERIFICATION] until legal approves",
+    "outfit": "§2 — image_edit presenter commercial wardrobe from casting plate before video",
+    "fill_fields": ["slug", "title", "actor_id", "tags", "brand.*", "beats[].speech_text", "beats[].on_screen"]
+  },
+  "slug": "[slug_your_explainer_v1]",
+  "title": "[TITLE — product or concept explainer]",
+  "format_id": "explainer-ad",
+  "actor_id": "[ActorID — e.g. Julian-001 from Casting Bible lock card]",
+  "target_seconds": 30,
+  "tags": ["explainer", "product", "[brand_category]"],
+  "brand": {
+    "title": "[BRAND_NAME]",
+    "subtitle": "[BRAND_TAGLINE]",
+    "cta": "[CTA — single action destination]",
+    "legal_line": "Synthetic presenter · demo only"
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "[HOOK — problem or question, 8 words max]",
+      "on_screen": "[BRAND_NAME]"
+    },
+    {
+      "id": "02_pain",
+      "speech_text": "[PAIN — what frustrates the viewer]"
+    },
+    {
+      "id": "03_solution",
+      "speech_text": "[SOLUTION — one sentence what it is]"
+    },
+    {
+      "id": "04_benefit_a",
+      "speech_text": "[BENEFIT A — first value prop]"
+    },
+    {
+      "id": "05_benefit_b",
+      "speech_text": "[BENEFIT B — second value prop]"
+    },
+    {
+      "id": "06_cta",
+      "speech_text": "[CTA — single verb, one destination]",
+      "on_screen": "[BRAND · url or action]"
+    }
+  ]
+}

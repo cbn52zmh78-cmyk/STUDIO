@@ -24,7 +24,7 @@
 
 ## Appearance lock (verbatim — reuse every shot)
 ```
-photorealistic high-fidelity 16:9 magazine editorial photograph, single 24-year-old Indian-Canadian woman named Priya Singh, warm golden stunning supermodel with long wavy hair and subtle highlights, expressive captivating eyes, flawless glowing skin, perfect proportions, wearing jewel-toned sari-inspired draped gown in sapphire with modern metallic embroidery, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality
+photorealistic high-fidelity 16:9 magazine editorial photograph, single 24-year-old Indian-Canadian woman named Priya Singh, warm golden stunning supermodel with long wavy hair and subtle highlights, expressive captivating eyes, flawless glowing skin, perfect proportions, wearing jewel-toned sari-inspired draped gown in sapphire with modern metallic embroidery, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, clearly adult woman unambiguously 21+, synthetic fictional character only, no real-person likeness
 ```
 
 ## Voice spec

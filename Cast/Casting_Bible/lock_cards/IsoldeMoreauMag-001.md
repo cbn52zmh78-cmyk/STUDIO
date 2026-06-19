@@ -24,7 +24,7 @@
 
 ## Appearance lock (verbatim — reuse every shot)
 ```
-photorealistic high-fidelity 16:9 magazine editorial photograph, single 26-year-old French woman named Isolde Moreau, androgynous stunning elegance with short dark pixie cut, smoky intense eyes, pale flawless skin, sharp magnetic features, wearing tailored black tuxedo gown with dramatic cape and crystal buttons, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality
+photorealistic high-fidelity 16:9 magazine editorial photograph, single 26-year-old French woman named Isolde Moreau, androgynous stunning elegance with short dark pixie cut, smoky intense eyes, pale flawless skin, sharp magnetic features, wearing tailored black tuxedo gown with dramatic cape and crystal buttons, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, clearly adult woman unambiguously 21+, synthetic fictional character only, no real-person likeness
 ```
 
 ## Voice spec

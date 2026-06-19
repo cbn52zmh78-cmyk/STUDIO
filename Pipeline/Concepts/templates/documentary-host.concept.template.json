@@ -1,0 +1,59 @@
+{
+  "_template": {
+    "format_id": "documentary-host",
+    "bible": "§4 David-001 exemption · §9.2 shot blueprint · §6 seamless host locks · §11 CLI",
+    "identity_mapping": "actor_id MUST be David-001 (host anchor @David-001). NOT a roster Casting Bible entry — uses david_identity_lock.json per §4.",
+    "set_style_defaults": "Omit set_id/style_id to use @Set-Archive-001 + @Style-Documentary-Prestige-001",
+    "legal_gate": "§3.4 — python artifacts/legal/legal_gate.py --project [slug] --file brief.txt --rating PG",
+    "outfit": "N/A — David host wardrobe in identity lock (§4), not casting plate",
+    "fill_fields": ["slug", "title", "tags", "brand.*", "beats[].speech_text", "beats[].on_screen"]
+  },
+  "slug": "[slug_your_documentary_v1]",
+  "title": "[TITLE — DAVID episode title]",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": ["[tag_primary]", "[tag_secondary]"],
+  "brand": {
+    "title": "[BRAND_TITLE — e.g. DAVID · The Archive]",
+    "subtitle": "[BRAND_SUBTITLE — tagline]",
+    "cta": "[CTA — follow/subscribe line]"
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "[HOOK — who you are and what the audience will hear]",
+      "on_screen": "[OPTIONAL lower-third]"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "[STAKES — why this matters, what silence cost]"
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "[SIGNATURE QUESTION]",
+      "on_screen": "[OPTIONAL on-screen question]"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "[PROOF — how do we know]"
+    },
+    {
+      "id": "05_method",
+      "speech_text": "[METHOD — corpus-first, evidence rules]"
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "[HONESTY — attested vs reconstructed]"
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "[DEMONSTRATION — example line; add RECONSTRUCTED label if inferred]",
+      "on_screen": "[RECONSTRUCTED PRONUNCIATION or ATTESTED]"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "[INVITATION — welcome and follow CTA]"
+    }
+  ]
+}

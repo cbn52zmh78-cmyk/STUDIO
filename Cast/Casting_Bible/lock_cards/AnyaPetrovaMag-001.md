@@ -24,7 +24,7 @@
 
 ## Appearance lock (verbatim — reuse every shot)
 ```
-photorealistic high-fidelity 16:9 magazine editorial photograph, single 23-year-old Russian woman named Anya Petrova, striking ice-blonde supermodel with sleek ponytail, cool flawless porcelain skin, sharp jawline, intense captivating eyes, perfect bone structure, wearing futuristic silver chrome jacket over sheer black gown with dramatic train, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality
+photorealistic high-fidelity 16:9 magazine editorial photograph, single 23-year-old Russian woman named Anya Petrova, striking ice-blonde supermodel with sleek ponytail, cool flawless porcelain skin, sharp jawline, intense captivating eyes, perfect bone structure, wearing futuristic silver chrome jacket over sheer black gown with dramatic train, elegant confident pose with intense captivating gaze to camera, dramatic cinematic lighting with soft shadows and high contrast highlights on fabric and flawless skin, ultra-detailed textures, sharp focus, Vogue-level professional fashion photography, expensive avant-garde haute couture aesthetic, natural physics dress drape and movement, commercial-ready high-end magazine cover quality, clearly adult woman unambiguously 21+, synthetic fictional character only, no real-person likeness
 ```
 
 ## Voice spec

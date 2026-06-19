@@ -1,0 +1,52 @@
+{
+  "_template": {
+    "format_id": "narrative-short-film",
+    "bible": "§1 Casting v2.1 · §2 outfit (if wardrobe ≠ casting plate) · §9.3 blueprint · §10 compose",
+    "identity_mapping": "Format anchor @Talent-001 → set actor_id to registry handle (example: Aiko-001). Intake emits CONTINUITY LOCK @Aiko-001.",
+    "set_style_defaults": "Omit to use @Set-Warehouse-Industrial-001 + @Style-Cinematic-001; override only with locked pair from §7–§8",
+    "legal_gate": "§3.4 — target rating PG-13 default; run legal_gate.py before generation",
+    "outfit": "§2 step 2b — image_edit character wardrobe from casting plate before video if not story wardrobe on plate",
+    "fill_fields": ["slug", "title", "actor_id", "tags", "brand.*", "beats[].speech_text"]
+  },
+  "slug": "[slug_your_short_film_v1]",
+  "title": "[TITLE — short film title]",
+  "format_id": "narrative-short-film",
+  "actor_id": "[ActorID — e.g. Aiko-001 from Casting Bible lock card]",
+  "target_seconds": 60,
+  "tags": ["narrative", "[genre]", "[mood]"],
+  "brand": {
+    "title": "[FILM_TITLE]",
+    "subtitle": "[CREDIT_LINE — writer/director or series]",
+    "credit_line": "[CREDIT — Synthetic talent · fiction]"
+  },
+  "beats": [
+    {
+      "id": "01_establishing",
+      "speech_text": ""
+    },
+    {
+      "id": "02_character_intro",
+      "speech_text": "[CHARACTER WANT — what they need]"
+    },
+    {
+      "id": "03_inciting",
+      "speech_text": "[INCITING LINE or reaction beat]"
+    },
+    {
+      "id": "04_rising",
+      "speech_text": "[RISING — stakes sharpen]"
+    },
+    {
+      "id": "05_turn",
+      "speech_text": "[TURN — choice or reveal]"
+    },
+    {
+      "id": "06_peak",
+      "speech_text": "[PEAK — emotional high point]"
+    },
+    {
+      "id": "07_resolution",
+      "speech_text": "[BUTTON — final line]"
+    }
+  ]
+}

@@ -2,8 +2,6 @@
   "slug": "flowdesk_explainer_v1",
   "title": "STUDIO Sample — FlowDesk Explainer Ad",
   "target_seconds": 30,
-  "format_id": "explainer-ad",
-  "concept": "FlowDesk productivity app explainer — SFW commercial sample",
   "config": {
     "model_video": "grok-imagine-video-1.5",
     "resolution": "720p",
@@ -100,19 +98,9 @@
     "min_shots": 4,
     "require_audio": true
   },
-  "guardrails": [
-    "synthetic talent only — no real person likeness, no celebrity mimicry",
-    "end guard mandatory on every generated segment for seamless assembly",
-    "one set_id and one style_id per scene — never blend mid-take",
-    "lip-sync speech_text must appear in video_prompt when role is speaking",
-    "duration per shot 5–15s (API clip discipline); prefer 7–9s for seamless extend chains",
-    "never hold dead stillness or dead frame at segment end",
-    "no unsubstantiated claims — mark [CLAIM REQUIRES VERIFICATION] in speech until legal approves",
-    "brand-safe language — no competitor bashing unless scripted and approved",
-    "synthetic presenter only — no real person likeness",
-    "accurate color reproduction for product shots when product visible",
-    "CTA must be single clear action — one verb, one destination"
-  ],
+  "format_id": "explainer-ad",
+  "concept": "FlowDesk productivity app explainer — SFW commercial sample",
+  "production_dir": "STUDIO/Productions/Editorial/flowdesk_explainer_v1_longform_v1",
   "production_meta": {
     "set_id": "@Set-Seamless-Neutral-001",
     "style_id": "@Style-Cool-Clinical-001",
@@ -138,5 +126,17 @@
     "talent_id": "Amara-001",
     "casting_plate": "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh/01_casting_shots/casting_turnaround_v1.jpg"
   },
-  "production_dir": "STUDIO/Productions/Editorial/flowdesk_explainer_v1_longform_v1"
+  "guardrails": [
+    "synthetic talent only — no real person likeness, no celebrity mimicry",
+    "end guard mandatory on every generated segment for seamless assembly",
+    "one set_id and one style_id per scene — never blend mid-take",
+    "lip-sync speech_text must appear in video_prompt when role is speaking",
+    "duration per shot 5–15s (API clip discipline); prefer 7–9s for seamless extend chains",
+    "never hold dead stillness or dead frame at segment end",
+    "no unsubstantiated claims — mark [CLAIM REQUIRES VERIFICATION] in speech until legal approves",
+    "brand-safe language — no competitor bashing unless scripted and approved",
+    "synthetic presenter only — no real person likeness",
+    "accurate color reproduction for product shots when product visible",
+    "CTA must be single clear action — one verb, one destination"
+  ]
 }

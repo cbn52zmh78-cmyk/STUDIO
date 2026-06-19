@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "audited_at": "2026-06-19T03:22:29.657813+00:00",
+  "audited_at": "2026-06-19T03:29:30.525895+00:00",
   "policy": {
     "age_minimum": 21,
     "floor_age_review_range": "21-22",
@@ -14,78 +14,14 @@
   },
   "summary": {
     "total": 100,
-    "clear": 36,
-    "flag": 64,
+    "clear": 94,
+    "flag": 6,
     "blocked": 0,
     "floor_age": 6
   },
   "blocked_actor_ids": [],
   "reroll_actor_ids": [],
-  "prompt_hygiene_flag_ids": [
-    "Khalid-001",
-    "Kofi-001",
-    "Lars-001",
-    "Layla-001",
-    "Linh-001",
-    "Luca-001",
-    "Maeve-001",
-    "Malik-001",
-    "Marco-001",
-    "Marcus-001",
-    "MeiLing-001",
-    "Nadia-001",
-    "Nikolai-001",
-    "Noor-001",
-    "Olivia-001",
-    "Oluwaseun-001",
-    "Pierre-001",
-    "Priya-001",
-    "Rachel-001",
-    "Rafael-001",
-    "Ravi-001",
-    "Ren-001",
-    "Sam-001",
-    "Serena-001",
-    "Sienna-001",
-    "Sofia-001",
-    "Tessa-001",
-    "Theo-001",
-    "Tomas-001",
-    "Valentina-001",
-    "Vikram-001",
-    "Viktor-001",
-    "Wei-001",
-    "Yuki-001",
-    "Zara-001",
-    "AikoGFE-001",
-    "EmberGFE-001",
-    "HanaGFE-001",
-    "IrisGFE-001",
-    "JadeGFE-001",
-    "KiraGFE-001",
-    "LunaGFE-001",
-    "LyraGFE-001",
-    "MikaGFE-001",
-    "NikoGFE-001",
-    "NovaGFE-001",
-    "RavenGFE-001",
-    "RinGFE-001",
-    "SageGFE-001",
-    "ScarletGFE-001",
-    "SoraGFE-001",
-    "VesperGFE-001",
-    "VioletGFE-001",
-    "WillowGFE-001",
-    "YumeGFE-001",
-    "AnyaPetrovaMag-001",
-    "IsoldeMoreauMag-001",
-    "LioraVossMag-001",
-    "MeiLinChenMag-001",
-    "PriyaSinghMag-001",
-    "SofiaAlvarezMag-001",
-    "ValentinaRossiMag-001",
-    "ZaraKhanMag-001"
-  ],
+  "prompt_hygiene_flag_ids": [],
   "floor_age_actor_ids": [
     "Yuki-001",
     "HanaGFE-001",
@@ -783,11 +719,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -805,11 +738,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -827,11 +757,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -849,11 +776,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -871,11 +795,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -893,11 +814,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -915,11 +833,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -937,11 +852,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -959,11 +871,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -981,11 +890,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1003,11 +909,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1025,11 +928,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1047,11 +947,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1069,11 +966,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1091,11 +985,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1113,11 +1004,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1135,11 +1023,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1157,11 +1042,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1179,11 +1061,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1201,11 +1080,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1223,11 +1099,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1245,11 +1118,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1267,11 +1137,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1289,11 +1156,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1311,11 +1175,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1333,11 +1194,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1355,11 +1213,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1377,11 +1232,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1399,11 +1251,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1421,11 +1270,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1443,11 +1289,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1465,11 +1308,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1487,11 +1327,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1509,10 +1346,7 @@
       "plate_exists": true,
       "child_safety_visual": "PASS",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
+      "warnings": [],
       "status": "FLAG",
       "use_blocked": false,
       "visual_review": {
@@ -1537,11 +1371,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard",
-        "appearance_lock_missing_adult_assertion"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1559,10 +1390,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1580,10 +1409,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1601,9 +1428,7 @@
       "plate_exists": true,
       "child_safety_visual": "PASS",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
+      "warnings": [],
       "status": "FLAG",
       "use_blocked": false,
       "visual_review": {
@@ -1628,10 +1453,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1649,10 +1472,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1670,10 +1491,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1691,10 +1510,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1712,9 +1529,7 @@
       "plate_exists": true,
       "child_safety_visual": "PASS",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
+      "warnings": [],
       "status": "FLAG",
       "use_blocked": false,
       "visual_review": {
@@ -1739,10 +1554,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1760,10 +1573,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1781,10 +1592,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1802,10 +1611,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1823,10 +1630,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1844,10 +1649,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1865,10 +1668,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1886,10 +1687,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1907,10 +1706,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1928,9 +1725,7 @@
       "plate_exists": true,
       "child_safety_visual": "PASS",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
+      "warnings": [],
       "status": "FLAG",
       "use_blocked": false,
       "visual_review": {
@@ -1955,10 +1750,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -1976,9 +1769,7 @@
       "plate_exists": true,
       "child_safety_visual": "PASS",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
+      "warnings": [],
       "status": "FLAG",
       "use_blocked": false,
       "visual_review": {
@@ -2003,10 +1794,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2049,10 +1838,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2070,10 +1857,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2091,10 +1876,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2131,10 +1914,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2152,10 +1933,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2173,10 +1952,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     },
     {
@@ -2194,10 +1971,8 @@
       "plate_exists": true,
       "child_safety_visual": "n/a",
       "errors": [],
-      "warnings": [
-        "appearance_lock_missing_synthetic_guard"
-      ],
-      "status": "FLAG",
+      "warnings": [],
+      "status": "CLEAR",
       "use_blocked": false
     }
   ]

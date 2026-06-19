@@ -1,0 +1,16 @@
+{
+  "slug": "test_gate_red_music_v1",
+  "title": "Gate 0 RED test — uncleared music on client deliverable",
+  "format_id": "explainer-ad",
+  "actor_id": "Julian-001",
+  "gate_0": {
+    "rating": "PG-13",
+    "channels": ["client"]
+  },
+  "beats": [
+    {
+      "id": "01_hook",
+      "speech_text": "This client cut ships with uncleared chart music."
+    }
+  ]
+}
