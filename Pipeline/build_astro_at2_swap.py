@@ -114,10 +114,10 @@ def build_swap_script(
             ),
             "use_identity_lock": False,
             "avatar_reference": (
-                "STUDIO/Cast/actors_roster/male/north_america/Julian_Cross/"
+                "Studio/Cast/actors_roster/male/north_america/Julian_Cross/"
                 "01_casting_shots/casting_turnaround_v1.jpg"
             ),
-            "set_reference": "STUDIO/Pipeline/references/seamless_neutral_grey_reference.jpg",
+            "set_reference": "Studio/Pipeline/references/seamless_neutral_grey_reference.jpg",
             "visualization_reference": plate_meta["path"].replace("\\", "/"),
             "visualization_url": plate_meta.get("url"),
             "seamless": {

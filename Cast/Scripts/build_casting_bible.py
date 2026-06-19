@@ -213,7 +213,7 @@ def main() -> None:
             incomplete_locks.append(actor_id)
         ref_jpg = actor_dir / "01_casting_shots" / "casting_turnaround_v1.jpg"
         ref_rel = (
-            f"STUDIO/Cast/{rel_path}/01_casting_shots/casting_turnaround_v1.jpg"
+            f"Studio/Cast/{rel_path}/01_casting_shots/casting_turnaround_v1.jpg"
             if ref_jpg.exists()
             else None
         )
@@ -261,7 +261,7 @@ def main() -> None:
             "world_region": entry["world_region"],
             "roster_group": entry.get("roster_group"),
             "roster_source": "actors_roster",
-            "roster_path": f"STUDIO/Cast/{rel_path}",
+            "roster_path": f"Studio/Cast/{rel_path}",
             "reference_image_primary": ref_rel,
             "reference_image_status": "plate_locked" if has_casting_jpg else "pending",
             "appearance_lock_verbatim": appearance_lock,
@@ -271,7 +271,7 @@ def main() -> None:
             "genre_tags": sorted(set(genre_tags)),
             "agency_status": agency_status,
             "compliance_flags": compliance_flags,
-            "profile_pdf": f"STUDIO/Cast/{rel_path}/actor_profile.pdf",
+            "profile_pdf": f"Studio/Cast/{rel_path}/actor_profile.pdf",
         }
         registry_entries.append(record)
 

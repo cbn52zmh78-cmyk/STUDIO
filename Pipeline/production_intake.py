@@ -372,7 +372,7 @@ def run_gate_0(
         "rating_flags": result.rating_flags,
         "cara_status": result.cara_status,
         "music_bed_id": music_bed_id,
-        "music_clearance_manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+        "music_clearance_manifest": "Studio/Music_Sound/clearance_manifest.json",
         "row_2_music_sync": row2,
         "notes": result.notes,
         "brief_source": str(_concept_brief_path(concept) or "composed"),
@@ -1008,7 +1008,7 @@ def _build_config(
     if bed_id:
         cfg["music_bed"] = {
             "track_id": str(bed_id).upper(),
-            "manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+            "manifest": "Studio/Music_Sound/clearance_manifest.json",
         }
 
     return cfg
@@ -1330,7 +1330,7 @@ def build_longform_script(
             "actor_id": actor["actor_id"] if actor else (actor_id or fmt.get("identity_anchor")),
             "set_id": set_id,
             "style_id": style_id,
-            "source": "STUDIO/Pipeline/production_intake.py",
+            "source": "Studio/Pipeline/production_intake.py",
             "gate_0": gate_stamp,
             "libraries": {
                 "formats": "Production_Templates_v1.json (#98)",

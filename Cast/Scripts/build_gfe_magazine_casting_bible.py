@@ -345,9 +345,9 @@ def build_gfe_entries(talent_by_id: dict) -> list[dict]:
             "world_region": actor.world_region,
             "roster_group": "gfe_20",
             "roster_source": "gfe",
-            "roster_path": f"STUDIO/Cast/GFE/{actor.stage_name}",
+            "roster_path": f"Studio/Cast/GFE/{actor.stage_name}",
             "reference_image_primary": (
-                f"STUDIO/Cast/GFE/{actor.stage_name}/01_casting_shots/casting_turnaround_v1.jpg"
+                f"Studio/Cast/GFE/{actor.stage_name}/01_casting_shots/casting_turnaround_v1.jpg"
                 if has_jpg
                 else None
             ),
@@ -363,7 +363,7 @@ def build_gfe_entries(talent_by_id: dict) -> list[dict]:
             "agency_status": (perf or {}).get("agency_status", "unknown"),
             "compliance_flags": compliance_flags,
             "profile_pdf": (
-                f"STUDIO/Cast/GFE/{actor.stage_name}/actor_profile.pdf"
+                f"Studio/Cast/GFE/{actor.stage_name}/actor_profile.pdf"
                 if (actor_dir / "actor_profile.pdf").exists()
                 else None
             ),
@@ -409,9 +409,9 @@ def build_magazine_entries(talent_by_id: dict) -> list[dict]:
             "world_region": "editorial_global",
             "roster_group": "magazine_10",
             "roster_source": "magazine_editorial",
-            "roster_path": f"STUDIO/MAGAZINE/Editorial/Models/{name}",
+            "roster_path": f"Studio/MAGAZINE/Editorial/Models/{name}",
             "reference_image_primary": (
-                f"STUDIO/MAGAZINE/Editorial/Models/{name}/01_casting_shots/casting_turnaround_v1.jpg"
+                f"Studio/MAGAZINE/Editorial/Models/{name}/01_casting_shots/casting_turnaround_v1.jpg"
                 if has_jpg
                 else None
             ),
@@ -560,13 +560,13 @@ def main() -> None:
 
     write_lane_bible_md(
         title="STUDIO GFE Casting Bible v1.1",
-        scope="STUDIO/Cast/GFE",
+        scope="Studio/Cast/GFE",
         registry=gfe_registry,
         content_note="SFW / suggestive-clothed (bikini casting plates); no nude/explicit",
     )
     write_lane_bible_md(
         title="STUDIO MAGAZINE Casting Bible v1.1",
-        scope="STUDIO/MAGAZINE/Editorial/Models",
+        scope="Studio/MAGAZINE/Editorial/Models",
         registry=mag_registry,
         content_note="SFW editorial couture; no nude/explicit",
     )

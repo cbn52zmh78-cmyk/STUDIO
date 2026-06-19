@@ -46,7 +46,7 @@ avatar_json = AVATAR.with_suffix(".json")
 if avatar_json.is_file():
     avatar_meta = json.loads(avatar_json.read_text(encoding="utf-8"))
 
-script["production_dir"] = "STUDIO/Productions/Narrative/movies_lane_sample_v1_longform_v1"
+script["production_dir"] = "Studio/Productions/Narrative/movies_lane_sample_v1_longform_v1"
 script["config"].update({
     "resolution": "480p",
     "use_identity_lock": False,

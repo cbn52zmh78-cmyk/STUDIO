@@ -137,7 +137,7 @@ def _gate_stamp_for_lane(slug: str, bed_id: str, rating: str, channels: list[str
         "channels": channels,
         "checklist_domains": result.checklist_domains,
         "music_bed_id": bed_id,
-        "music_clearance_manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+        "music_clearance_manifest": "Studio/Music_Sound/clearance_manifest.json",
         "row_2_music_sync": result.checklist_domains.get("row_2_music_sync"),
     }
 
@@ -148,7 +148,7 @@ def _stamp_lane_script(script_path: Path, gate_stamp: dict[str, Any], bed_id: st
     script = json.loads(script_path.read_text(encoding="utf-8"))
     script.setdefault("config", {})["music_bed"] = {
         "track_id": bed_id,
-        "manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+        "manifest": "Studio/Music_Sound/clearance_manifest.json",
     }
     script.setdefault("intake", {})["gate_0"] = gate_stamp
     script_path.write_text(json.dumps(script, indent=2) + "\n", encoding="utf-8")

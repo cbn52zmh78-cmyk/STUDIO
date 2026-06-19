@@ -346,7 +346,7 @@ def build_script(
             vp += f" On-screen lower-third overlay text: {shot['on_screen']}"
         shot["video_prompt"] = vp
 
-    script["production_dir"] = f"STUDIO/Productions/Companion/{persona.slug}_longform_v1"
+    script["production_dir"] = f"Studio/Productions/Companion/{persona.slug}_longform_v1"
     script["production_meta"]["identity_anchor"] = persona.identity_anchor
     script["production_meta"]["talent_id"] = persona.actor_id
     script["production_meta"]["age_locked"] = actor["age_locked"]
@@ -358,7 +358,7 @@ def build_script(
         "identity_lock": str(identity_lock),
         "avatar_reference": avatar["path"],
         "avatar_url": avatar["url"],
-        "set_reference": "STUDIO/Pipeline/references/modern_apartment_reference.jpg",
+        "set_reference": "Studio/Pipeline/references/modern_apartment_reference.jpg",
         "voice_suffix": persona.voice_suffix,
         "seamless": {
             "primary": "extend",

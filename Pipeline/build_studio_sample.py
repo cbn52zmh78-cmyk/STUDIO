@@ -239,11 +239,11 @@ def build_script(identity_lock: Path, avatar: dict[str, Any]) -> Path:
             vp = f"{IDENTITY_CONTINUITY} {vp}"
         shot["video_prompt"] = vp
 
-    script["production_dir"] = f"STUDIO/Productions/Editorial/{PROD_SLUG}_longform_v1"
+    script["production_dir"] = f"Studio/Productions/Editorial/{PROD_SLUG}_longform_v1"
     script["production_meta"]["identity_anchor"] = "@Amara-001"
     script["production_meta"]["talent_id"] = ACTOR_ID
     script["production_meta"]["casting_plate"] = (
-        "STUDIO/Cast/actors_roster/female/south_asia/Amara_Singh/01_casting_shots/casting_turnaround_v1.jpg"
+        "Studio/Cast/actors_roster/female/south_asia/Amara_Singh/01_casting_shots/casting_turnaround_v1.jpg"
     )
     script["config"]["magenta_clamp"] = False
     script["config"].update({
@@ -251,7 +251,7 @@ def build_script(identity_lock: Path, avatar: dict[str, Any]) -> Path:
         "identity_lock": str(identity_lock),
         "avatar_reference": avatar["path"],
         "avatar_url": avatar["url"],
-        "set_reference": "STUDIO/Pipeline/references/seamless_neutral_grey_reference.jpg",
+        "set_reference": "Studio/Pipeline/references/seamless_neutral_grey_reference.jpg",
         "voice_suffix": (
             "clear confident presenter voice, brisk diction, trustworthy product tone, "
             "London crisp warmth, synthetic presenter only"

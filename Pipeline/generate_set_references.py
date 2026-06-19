@@ -122,7 +122,7 @@ def _save_ref_meta(path: Path, data: dict[str, Any]) -> None:
 
 def generate_plate(client: Any, set_id: str, spec: dict[str, str], force: bool = False) -> dict[str, Any]:
     path = REFS_DIR / spec["filename"]
-    rel_path = f"STUDIO/Pipeline/references/{spec['filename']}"
+    rel_path = f"Studio/Pipeline/references/{spec['filename']}"
 
     if not force and path.exists() and path.stat().st_size > 5000:
         meta = _load_ref_meta(path)
