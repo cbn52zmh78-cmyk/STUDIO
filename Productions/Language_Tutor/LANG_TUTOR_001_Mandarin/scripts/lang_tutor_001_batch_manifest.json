@@ -1,0 +1,95 @@
+{
+  "batch_id": "LANG_TUTOR_001_MANDARIN",
+  "series": "Mandarin in Minutes",
+  "channel": "DAVID · The Archive — Language Tutor lane",
+  "status": "ARMED — BLOCKED on Gate 0. Do not fire until all gate_blockers resolved.",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "created": "2026-06-21",
+  "created_by": "Hub autonomous weekend run",
+
+  "gate_blockers": [
+    "OG plate not approved — run gen_zhang_yutong_plate.py → review variants → rename best to ZhangYutongLang-001_OG.jpg",
+    "Identity lock not filled — update ZhangYutongLang-001_identity_lock.json avatar_url and avatar_file",
+    "legal_gate.py not run — Gate 0 must be GREEN",
+    "Cousin Mandarin accuracy review — all cousin_review:true shots in scripts need sign-off",
+    "Music bed BED-LANG-BRIGHT-001 not cleared — Benjamin to select track and update clearance_manifest.json"
+  ],
+
+  "how_to_fire": {
+    "step_1": "python STUDIO/Cast/Casting_Bible/lock_plates/gen_zhang_yutong_plate.py",
+    "step_2": "Review v1–v4 in Windows Explorer → rename best to ZhangYutongLang-001_OG.jpg",
+    "step_3": "Update ZhangYutongLang-001_identity_lock.json → fill avatar_url (from plates JSON sidecar) and avatar_file path",
+    "step_4": "python DAVID/scripts/legal_gate.py  [run Gate 0]",
+    "step_5": "Send scripts to cousin for Mandarin accuracy review (flag cousin_review:true shots)",
+    "step_6": "Select music bed and clear in clearance_manifest.json → update track_id in each script config",
+    "step_7": "python DAVID/scripts/fire_batch_manifest.py STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_batch_manifest.json --preflight",
+    "step_8": "python DAVID/scripts/fire_batch_manifest.py STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_batch_manifest.json --go"
+  },
+
+  "render_flags": [
+    "--seamless",
+    "--match-color",
+    "--cut-on-motion",
+    "--package"
+  ],
+
+  "items": [
+    {
+      "order": 1,
+      "slug": "lang_tutor_001_ep01_tones",
+      "script_path": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_ep01_tones_script.json",
+      "production_dir": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/productions/ep01_tones",
+      "target_seconds": 60,
+      "cousin_review_shots": ["03_ma_demo", "05_nihao", "06_practice"],
+      "gate_0_verdict": "PENDING"
+    },
+    {
+      "order": 2,
+      "slug": "lang_tutor_001_ep02_numbers_time",
+      "script_path": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_ep02_numbers_time_script.json",
+      "production_dir": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/productions/ep02_numbers_time",
+      "target_seconds": 60,
+      "cousin_review_shots": ["02_one_to_ten", "03_beyond_ten", "04_time_ask", "05_money"],
+      "gate_0_verdict": "PENDING"
+    },
+    {
+      "order": 3,
+      "slug": "lang_tutor_001_ep03_market",
+      "script_path": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_ep03_market_script.json",
+      "production_dir": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/productions/ep03_market",
+      "target_seconds": 62,
+      "cousin_review_shots": ["02_enter_greet", "03_ask_price", "04_negotiate", "05_pay", "06_full_run"],
+      "gate_0_verdict": "PENDING"
+    },
+    {
+      "order": 4,
+      "slug": "lang_tutor_001_ep04_questions",
+      "script_path": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_ep04_questions_script.json",
+      "production_dir": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/productions/ep04_questions",
+      "target_seconds": 60,
+      "cousin_review_shots": ["02_ma_particle", "03_where", "04_what", "05_negation"],
+      "gate_0_verdict": "PENDING"
+    },
+    {
+      "order": 5,
+      "slug": "lang_tutor_001_ep05_first_conversation",
+      "script_path": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_ep05_first_conversation_script.json",
+      "production_dir": "STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/productions/ep05_first_conversation",
+      "target_seconds": 65,
+      "cousin_review_shots": ["03_introduction", "04_where_from", "05_transaction", "06_navigate", "07_goodbye"],
+      "gate_0_verdict": "PENDING"
+    }
+  ],
+
+  "cousin_review_summary": {
+    "total_shots": 35,
+    "cousin_review_shots": 20,
+    "cousin_review_clear": 15,
+    "instruction": "Extract all speech_text from cousin_review:true shots → send to cousin as a clean list with pinyin + characters + English → get back corrections → apply to scripts before render"
+  },
+
+  "go_command": "python DAVID/scripts/fire_batch_manifest.py STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_batch_manifest.json --go",
+  "preflight_command": "python DAVID/scripts/fire_batch_manifest.py STUDIO/Productions/Language_Tutor/LANG_TUTOR_001_Mandarin/scripts/lang_tutor_001_batch_manifest.json --preflight",
+  "run_from": "C:\\Users\\NCG\\Videos\\Grok Projects\\"
+}

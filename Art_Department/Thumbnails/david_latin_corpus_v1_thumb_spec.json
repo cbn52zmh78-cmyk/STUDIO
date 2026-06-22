@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "david_latin_corpus_v1",
+    "variant": "A",
+    "filename": "david_latin_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Why Latin Never Really Died",
+    "language": "Latin",
+    "era": "Classical Rome — medieval continuity — present liturgy",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. close-up of weathered stone Latin inscription on crumbling Roman forum columns, golden hour raking light, fine dust in the air, rich ochre and shadow colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "WHY LATIN NEVER REALLY DIED",
+      "subline": "The Language That Refused to Die",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Latin artifact or inscription as hero element. Era: Classical Rome — medieval continuity — present liturgy. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_latin_corpus_v1",
+    "variant": "B",
+    "filename": "david_latin_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Why Latin Never Really Died",
+    "language": "Latin",
+    "era": "Classical Rome — medieval continuity — present liturgy",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, monumental Roman capitalis letters carved in pale travertine stone filling the background, dramatic side-lighting casting deep shadows in each letterform filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "WHY LATIN NEVER REALLY DIED",
+      "subline": "The Language That Refused to Die",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Latin writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

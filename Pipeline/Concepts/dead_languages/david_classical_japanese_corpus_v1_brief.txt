@@ -1,0 +1,42 @@
+DAVID · The Archive — Episode Brief
+Slug: david_classical_japanese_corpus_v1
+Title: The Court Language Hidden in Plain Sight
+Language: Classical Japanese (上代日本語 Jōdai Nihongo / 古典日本語 Koten Nihongo)
+Scope: Nara period (710–794 CE) through Heian period (794–1185 CE)
+Target: 69 seconds · PG · documentary-host · David-001
+
+CORPUS ANCHOR
+- Man'yōshū (万葉集, c. 759 CE): 4,516 poems compiled under imperial patronage; uses Man'yōgana (Chinese characters as phonetic symbols) — primary phonological source
+- Kokinshū (古今和歌集, 905 CE): imperially commissioned waka anthology; Heian standard
+- Genji Monogatari (源氏物語, c. 1000–1012 CE): Lady Murasaki Shikibu; world's earliest novel by many accounts
+- Makura no Sōshi (枕草子, c. 996–1002 CE): Sei Shōnagon; prose
+- Buddhist texts / ritual readings: preserve archaic onyomi pronunciations standardised across centuries
+- Held digitally: National Institute of Japanese Language and Linguistics (NINJAL), Man'yōshū full text corpus
+
+DEMONSTRATION LINE
+umi no umi no / kame mo kiku to ya / wata tsu umi no
+Man'yōshū poem (sea poem fragment — illustrative of archaic phonology)
+Nature: ATTESTED Man'yōgana text; RECONSTRUCTED pitch accent system; vowel distinctions (8-vowel vs modern 5-vowel) from RECONSTRUCTED comparative analysis
+
+ATTESTATION STATUS
+Attested: Syllable inventory via Man'yōgana (direct phonemic coding)
+Reconstructed: Pitch accent contours; 8-vowel distinction (ko₁/ko₂ type contrasts); stress patterns
+
+HISTORICAL / LINGUISTIC SIGNIFICANCE
+- Man'yōgana reveals an 8-vowel system (vs modern 5 vowels) lost by c. 1000 CE
+- Classical Japanese grammar radically different from modern: verb endings (mizenkei, ren'yōkei, etc.), classical negation (zu), older copulas (nari, tari)
+- Comparative Ryukyuan (Okinawan dialects) confirms archaic Japanese pitch features
+- Continues in formal, poetic, and religious registers; waka poetry composed in classical grammar to this day
+
+GATE 0 NOTES
+- All primary corpus material ≥800 years old; public domain
+- Living community (Japanese speakers) retains ceremonial/poetic use; framing is respectful and archival
+- No contested cultural claims; language scholarship well-documented in peer-reviewed Japanese linguistics
+- AI disclosure: provenance card + YouTube upload metadata
+
+STD-CITE-001 SOURCES
+- Frellesvig, Bjarke. "A History of the Japanese Language." Cambridge University Press, 2010.
+- Vovin, Alexander. "A Reference Grammar of Classical Japanese Prose." RoutledgeCurzon, 2003.
+- Levy, Ian Hideo (trans.). "The Ten Thousand Leaves: A Translation of the Man'yōshū." Princeton UP, 1981.
+- Shibatani, Masayoshi. "The Languages of Japan." Cambridge University Press, 1990.
+- NINJAL (National Institute of Japanese Language and Linguistics). Man'yōshū Corpus. https://man.ninjal.ac.jp/

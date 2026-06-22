@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "david_sumerian_corpus_v1",
+    "variant": "A",
+    "filename": "david_sumerian_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "The First Written Language",
+    "language": "Sumerian",
+    "era": "Mesopotamia, 3200–500 BCE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. close-up of a Sumerian cuneiform clay tablet with reed impressions, dramatic raking side-light, ancient museum setting, warm clay and deep shadow colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "THE FIRST WRITTEN LANGUAGE",
+      "subline": "Five Thousand Years in Clay",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Sumerian artifact or inscription as hero element. Era: Mesopotamia, 3200–500 BCE. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_sumerian_corpus_v1",
+    "variant": "B",
+    "filename": "david_sumerian_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "The First Written Language",
+    "language": "Sumerian",
+    "era": "Mesopotamia, 3200–500 BCE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, dense cuneiform wedge-impressions covering clay tablet texture filling the background, warm terracotta and shadow tones, museum-quality dramatic lighting filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "THE FIRST WRITTEN LANGUAGE",
+      "subline": "Five Thousand Years in Clay",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Sumerian writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

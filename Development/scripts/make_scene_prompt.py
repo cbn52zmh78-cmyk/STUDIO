@@ -2,6 +2,18 @@
 import sys
 import datetime
 import json
+from pathlib import Path as _Path
+
+# --- qa_gate wiring ---
+_AI_FED = _Path(__file__).resolve().parents[3] / "AI" / "federation"
+if str(_AI_FED) not in sys.path:
+    sys.path.insert(0, str(_AI_FED))
+try:
+    from qa_gate import qa_check as _qa_gate_check
+    _QA_GATE_AVAILABLE = True
+except ImportError:
+    _QA_GATE_AVAILABLE = False
+# --- end qa_gate wiring ---
 
 MASTER_CONSTRAINTS = {
     "clip_length": (
@@ -88,6 +100,28 @@ def generate_prompt(scene_idea, mode="default"):
     out_dir.mkdir(parents=True, exist_ok=True)
     filename = out_dir / f"prompt_pack_{mode}_{ts}.json"
     json_output = json.dumps(pack, indent=2, ensure_ascii=False)
+    # --- qa_gate: QA prompt output before write ---
+    if _QA_GATE_AVAILABLE:
+        try:
+            _qa_msp = _qa_gate_check(
+                content=json_output,
+                content_type="general",
+                subject=f"scene prompt pack: {scene_idea[:80]}",
+            )
+            if _qa_msp["gate"] == "RED":
+                print(
+                    f"[QA HOLD] make_scene_prompt.py: {_qa_msp['summary']} | Issues: {_qa_msp['issues']}",
+                    file=sys.stderr,
+                )
+                return  # hold output on RED
+            elif _qa_msp["gate"] == "YELLOW":
+                print(
+                    f"[QA WARN] make_scene_prompt.py: {_qa_msp['summary']}",
+                    file=sys.stderr,
+                )
+        except Exception as _exc:
+            print(f"[QA WARN] make_scene_prompt.py: qa_gate error: {_exc}", file=sys.stderr)
+    # --- end qa_gate ---
     filename.write_text(json_output, encoding="utf-8")
     print(f"✅ v0.8 Master Constraints Pack saved → {filename}")
     print(json_output)

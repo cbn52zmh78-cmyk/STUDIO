@@ -1,0 +1,46 @@
+DAVID · The Archive — Episode Brief
+Slug: david_linear_a_corpus_v1
+Title: The Script We Can Read but Cannot Understand
+Language: Linear A (Minoan — underlying language unidentified)
+Target: 69 seconds · PG · documentary-host · David-001
+
+SPECIAL STATUS: UNDECIPHERED — This is the Archive's honest episode about the limits of corpus work.
+The script can be provisionally vocalised using borrowed Linear B sign values. The language it records is not identified. No scholarly consensus exists on decipherment.
+
+CORPUS ANCHOR
+- ~1,500 documents: clay tablets (administrative / accounting), stone libation tables, inscribed vessels and seals; c. 1800–1450 BCE; Crete (Akrotiri, Haghia Triada, Knossos, Malia, Phaistos, Zakros) and Aegean islands
+- Held at: Heraklion Archaeological Museum, Crete; Ashmolean Museum, Oxford; National Archaeological Museum, Athens
+- GORILA (Recueil des inscriptions en Linéaire A): definitive corpus, L. Godart & J.-P. Olivier, EFRE, 1976–1985
+- Haghia Triada tablets: largest single archive (~150 tablets); accounting format
+- Libation formula: recurring sequence on stone offering tables — most-studied text unit
+
+LINEAR A / LINEAR B RELATIONSHIP
+- Linear B (Mycenaean Greek) deciphered 1952 by Michael Ventris (architect, amateur linguist)
+- Linear A and Linear B share ~80% of sign forms
+- Applying Linear B phonetic values to Linear A produces sequences in no known language
+- This confirms Linear A was not used for Greek; underlying language unidentified (Minoan)
+
+DEMONSTRATION — LIBATION FORMULA
+i-da-ma-te (provisional reading using Linear B values; sign sequence: 𐘂-𐘳-𐘼-𐘉)
+Nature: PROVISIONAL phonetics from Linear B parallels; meaning and linguistic affiliation UNKNOWN
+Recurs on stone libation tables at Apodoulou, Haghia Triada, Knossos, Kato Zakros, Malia, Poros, Psychro, etc.
+May be: theonym, toponym, ritual phrase, or dedicatee name — all hypotheses, none established
+
+ATTESTATION STATUS
+Script: Identifiable sign inventory (~56 syllabic signs + logographic/ideographic signs) — reading PROVISIONAL
+Language: Minoan — UNKNOWN family; not Indo-European, not Semitic, not Hurrian (all proposed and rejected or unconfirmed)
+Decipherment status: None accepted by scholarly consensus as of 2025
+
+GATE 0 NOTES
+- All corpus material ≥3,400 years old; public domain
+- Honest framing is the core of the episode — beat 06 and beat 07 explicitly mark all readings as provisional
+- No living community claims Minoan as heritage language
+- "Undeciphered" framing generates curiosity without false claims; episode explicitly avoids any decipherment assertion
+- AI disclosure: provenance card + YouTube upload metadata
+
+STD-CITE-001 SOURCES
+- Godart, Louis & Olivier, Jean-Pierre. "GORILA: Recueil des inscriptions en Linéaire A." 5 vols. EFRE Paris, 1976–1985. [Definitive corpus]
+- Ventris, Michael & Chadwick, John. "Documents in Mycenaean Greek." Cambridge UP, 1956. [Linear B decipherment; contrast with Linear A]
+- Younger, John G. Linear A texts database. University of Kansas. https://people.ku.edu/~jyounger/LinearA/
+- Owens, Gareth. "The Structure of the Minoan Language." Journal of Indo-European Studies 27.1–2 (1999): 15–56.
+- Palaima, Thomas G. "Linear A and Linear B." In "The Oxford Handbook of the Bronze Age Aegean." OUP, 2010.

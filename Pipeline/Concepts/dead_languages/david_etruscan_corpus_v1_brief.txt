@@ -1,0 +1,46 @@
+DAVID · The Archive — Episode Brief
+Slug: david_etruscan_corpus_v1
+Title: The Tongue Rome Learned Its Alphabet From
+Language: Etruscan (rasna / rasenna)
+Target: 69 seconds · PG · documentary-host · David-001
+
+CORPUS ANCHOR
+- ~13,000 inscriptions on stone, bronze, terracotta; c. 700–100 BCE; across Etruria (modern Tuscany, Umbria, Lazio)
+- Liber Linteus (Linen Book): only surviving pre-Roman book; linen wrapping of an Egyptian mummy (Louvre-Lens / Zagreb Archaeological Museum, inv. NS 200); c. 250 BCE; religious calendar text
+- Pyrgi Tablets (c. 500 BCE): three gold plates — two Etruscan, one Phoenician — bilingual dedication from sanctuary of Pyrgi; held at Museo Nazionale Etrusco di Villa Giulia, Rome
+- Corpus Inscriptionum Etruscarum (CIE): scholarly corpus of all known inscriptions
+- Cippus Perusinus: bilingual Etruscan–Latin boundary stone, Perugia
+
+DEMONSTRATION LINE
+mi nunar thamuce velus hulchniesi
+Etruscan dedicatory inscription (generic form attested across multiple inscriptions)
+Gloss: "I (am) the gift made for Vel Hulchnie"
+Nature: ATTESTED Etruscan alphabet (direct phonetic); vocabulary partially UNDERSTOOD (mi = I; nunar = gift [confirmed via context]; thamuce = made [confirmed via parallels]); semantics of some elements still debated
+
+ATTESTATION STATUS
+Attested: Alphabet / phonology (largely confirmed via Latin alphabet transmission and loanwords)
+Partial: Grammar (case endings, verbal morphology identified; syntax debated)
+Unknown: Full vocabulary (~30% of attested words remain untranslated)
+Unknown: Language family (isolate; Tyrsenian hypothesis with Raetic and Lemnian; not established)
+
+HISTORICAL / LINGUISTIC SIGNIFICANCE
+- The Latin alphabet descends from the Etruscan alphabet, which descended from Western Greek
+- Etruscan loanwords entered Latin: persona (mask), histrio (actor), atrium, lanista (gladiator trainer)
+- Roman ritual practice, augury, and architectural vocabulary deeply Etruscan-influenced (haruspicy)
+- The Pyrgi Tablets are among the most important bilingual texts in Western epigraphy
+- Liber Linteus represents a unique survival: the only pre-Roman Italian book in any language
+
+GATE 0 NOTES
+- All corpus material ≥2,100 years old; public domain
+- No living community claims Etruscan as heritage language
+- Honest framing: vocabulary limitations and unknown family explicitly acknowledged in beat 06_honesty
+- No contested political or cultural ownership claims
+- AI disclosure: provenance card + YouTube upload metadata
+
+STD-CITE-001 SOURCES
+- Bonfante, Larissa. "Etruscan." University of Toronto Press, 2002.
+- Bonfante, Giuliano & Larissa. "The Etruscan Language: An Introduction." Rev. ed. Manchester UP, 2002.
+- Rix, Helmut (ed.). "Etruskische Texte." Narr, Tübingen, 1991.
+- Pyrgi Tablets: Colonna, Giovanni. "Santuari d'Etruria." Electa, 1985.
+- Liber Linteus: Roncalli, Francesco. "Scrivere etrusco." 1985; Zagreb Museum catalogue.
+- Corpus Inscriptionum Etruscarum (CIE): ongoing publication, Accademia Nazionale dei Lincei.

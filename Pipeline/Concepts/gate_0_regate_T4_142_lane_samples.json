@@ -1,0 +1,126 @@
+{
+  "issue": 142,
+  "task": "T4 — re-gate 3 lane samples on their real publish channels",
+  "regated_at": "2026-06-19T07:00:00+00:00",
+  "gate_version": "1.3",
+  "context": "Lane samples are proof/validation artifacts — not ship candidates. Re-gate verifies each sample's Gate 0 status is clean for its intended channel. A YELLOW proof must re-gate GREEN before any real publish; GREEN proofs clear the compliance hold.",
+  "samples": [
+    {
+      "slug": "movies_lane_sample_v1",
+      "title": "STUDIO Movies Lane Sample — Warehouse Signal",
+      "format_id": "narrative-short-film",
+      "actor_id": "Amara-001",
+      "actor_age_lock": 30,
+      "actor_type": "synthetic",
+      "real_person_likeness": false,
+      "target_rating": "PG-13",
+      "channels": ["social", "streaming"],
+      "music_bed_id": "BED-THR-002",
+      "lane": "movies",
+      "gate_verdict": "GREEN",
+      "gate_source": "intake.gate_0 (script.json) — dated 2026-06-18",
+      "checklist_domains": {
+        "row_1_synthetic_ownership": "MANUAL — Amara-001 synthetic character plate; no third-party likeness claim; confirmed synthetic talent only per guardrails",
+        "row_2_music_sync": "PASS — BED-THR-002 in clearance_manifest.json",
+        "row_3_no_real_likeness": "MANUAL — prompt guardrails: 'synthetic talent only — no real person likeness, no celebrity mimicry'; no named real person in concept",
+        "row_4_target_channel": "PASS — social + streaming channels declared; PG-13 within platform limits",
+        "row_5_age_documentation": "N/A — no real performer; Amara-001 age_locked=30 in production_meta",
+        "row_6_ai_disclosure": "PASS — provenance_card.footer: 'Synthetic performer · Amara Singh (Amara-001) · SFW · Upon Tyne Productions'"
+      },
+      "hard_stops": [],
+      "counsel_flags": [],
+      "warnings": [
+        "row_1 and row_3 are MANUAL — must be re-confirmed by Benjamin at pre-publish if sample is promoted to any ship cut"
+      ],
+      "cara_status": "COMPLIANT — PG-13; CARA report 2026-06-18",
+      "regate_verdict": "GREEN",
+      "regate_notes": "Sample holds GREEN for its real channels (social + streaming). No channel mismatch. Proof use cleared. Promote to ship requires: R1–R8 render check + MANUALs signed by Benjamin."
+    },
+    {
+      "slug": "gfe_companion_sage_proof_v1",
+      "title": "STUDIO Companion Proof — Sage SFW Check-In",
+      "format_id": "conversational-companion",
+      "actor_id": "SageGFE-001",
+      "actor_age_lock": "21+ (synthetic; no age_lock integer; casting plate SFW-verified)",
+      "actor_type": "synthetic",
+      "real_person_likeness": false,
+      "target_rating": "PG",
+      "channels": ["social"],
+      "music_bed_id": "BED-WARM-001",
+      "lane": "companion",
+      "gate_verdict": "YELLOW",
+      "gate_source": "intake.gate_0 (script.json) — dated 2026-06-18; human_signoff=true",
+      "checklist_domains": {
+        "row_1_synthetic_ownership": "MANUAL — SageGFE-001 synthetic companion; no third-party likeness; confirmed by guardrails ('synthetic companion only — no real person likeness')",
+        "row_2_music_sync": "PASS — BED-WARM-001 in clearance_manifest.json",
+        "row_3_no_real_likeness": "MANUAL — prompt guardrails confirm synthetic companion only; no real-person anchor",
+        "row_4_target_channel": "PASS — social channel declared; PG rating within platform limits",
+        "row_5_age_documentation": "N/A — no real performer; companion format SFW-only; no minor depiction possible per guardrails",
+        "row_6_ai_disclosure": "PASS — production_meta.ai_disclosure: 'Synthetic companion — AI generated performer'"
+      },
+      "hard_stops": [],
+      "counsel_flags": [],
+      "warnings": [
+        "YELLOW intake verdict — companion lane on social requires enhanced review before ship",
+        "row_1 and row_3 are MANUAL — must be re-confirmed at pre-publish",
+        "provenance_card.enabled=false — no burned-in disclosure card; AI disclosure exists in production_meta only; upload description must carry disclosure before any publish"
+      ],
+      "cara_status": "COMPLIANT — PG; CARA report 2026-06-18",
+      "regate_verdict": "YELLOW — HOLD FOR PUBLISH",
+      "regate_notes": "Human-signed YELLOW is valid for proof/validation use only. Before any social publish: (1) run full legal re-gate with Benjamin's sign-off to clear YELLOW; (2) enable provenance_card or add AI disclosure burn-in; (3) re-confirm MANUALs. Channel is 'social' only — no streaming target currently declared. Companion format SFW-confirmed; all content guardrails enforced."
+    },
+    {
+      "slug": "julian_flowdesk_explainer_v1",
+      "title": "STUDIO Worked Example — FlowDesk Explainer Ad (Julian-001)",
+      "format_id": "explainer-ad",
+      "actor_id": "Julian-001",
+      "actor_age_lock": 31,
+      "actor_type": "synthetic",
+      "real_person_likeness": false,
+      "target_rating": "PG",
+      "channels": ["social", "streaming", "client"],
+      "music_bed_id": "BED-UP-002",
+      "lane": "explainer",
+      "gate_verdict": "GREEN",
+      "gate_source": "GATE_GREEN_julian_flowdesk_explainer_v1_20260618_222943.json",
+      "checklist_domains": {
+        "row_1_synthetic_ownership": "MANUAL",
+        "row_2_music_sync": "PASS",
+        "row_3_no_real_likeness": "MANUAL",
+        "row_4_target_channel": "PASS",
+        "row_5_age_documentation": "PASS — Julian-001 age_locked=31",
+        "row_6_ai_disclosure": "PASS — note: 'AI-disclosure obligation planned — verify presence at Pre-Publish'"
+      },
+      "hard_stops": [],
+      "counsel_flags": [],
+      "warnings": [
+        "row_1 and row_3 MANUAL — must be re-confirmed at pre-publish",
+        "AI disclosure obligation noted in gate — verify provenance card or description text is present at ship"
+      ],
+      "cara_status": "COMPLIANT — PG; CARA report 2026-06-18",
+      "regate_verdict": "GREEN",
+      "regate_notes": "Most recent gate is GREEN (20260618_222943). Channels social+streaming+client all match real distribution intent. Proof use cleared. Pre-publish: verify AI disclosure surface (provenance card or upload description); re-confirm MANUALs with Benjamin."
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "green": 2,
+    "yellow": 1,
+    "red": 0,
+    "hold_for_publish": ["gfe_companion_sage_proof_v1"],
+    "cleared_for_proof_use": ["movies_lane_sample_v1", "gfe_companion_sage_proof_v1", "julian_flowdesk_explainer_v1"],
+    "cleared_for_publish": ["movies_lane_sample_v1", "julian_flowdesk_explainer_v1"]
+  },
+  "publish_blockers": {
+    "gfe_companion_sage_proof_v1": [
+      "Re-gate from YELLOW to GREEN (requires human signoff at publish stage)",
+      "Enable provenance_card or add AI disclosure burn-in",
+      "Re-confirm row_1 and row_3 MANUAL checks"
+    ]
+  },
+  "floor_age_check": {
+    "movies_lane_sample_v1": {"actor": "Amara-001", "age_lock": 30, "synthetic": true, "pii": false, "real_likeness": false},
+    "gfe_companion_sage_proof_v1": {"actor": "SageGFE-001", "age_lock": "21+", "synthetic": true, "pii": false, "real_likeness": false},
+    "julian_flowdesk_explainer_v1": {"actor": "Julian-001", "age_lock": 31, "synthetic": true, "pii": false, "real_likeness": false}
+  }
+}

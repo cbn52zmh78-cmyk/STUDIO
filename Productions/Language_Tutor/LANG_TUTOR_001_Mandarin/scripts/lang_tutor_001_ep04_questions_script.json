@@ -1,0 +1,142 @@
+{
+  "slug": "lang_tutor_001_ep04_questions",
+  "title": "Mandarin in Minutes — Lesson 4: Questions",
+  "series": "LANG_TUTOR_001",
+  "episode": 4,
+  "target_seconds": 60,
+  "status": "DRAFT — PRE-GATE. Gate 0 required before firing. Mandarin segments flagged for cousin review.",
+  "notes": [
+    "Identity lock path is PLACEHOLDER.",
+    "This episode teaches question structure — the 'how to navigate' lesson.",
+    "Assumes Lessons 1–3 complete.",
+    "Cousin review: all Mandarin dialogue lines flagged.",
+    "Key concept: ma-question particle and negation with bù."
+  ],
+  "config": {
+    "model_video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "voice_suffix": "warm clear patient teacher voice, natural pacing, Mandarin demo segments delivered slowly and clearly, bilingual fluency implied",
+    "identity_lock": "STUDIO/Cast/Casting_Bible/lock_cards/ZhangYutongLang-001_identity_lock.json",
+    "avatar_reference": "STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_OG.jpg",
+    "seamless": {
+      "primary": "extend",
+      "xfade_s": 0.15,
+      "match_color": true,
+      "cut_on_motion": true,
+      "loudnorm": true
+    },
+    "music_bed": {
+      "track_id": "BED-LANG-BRIGHT-001",
+      "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
+    }
+  },
+  "shots": [
+    {
+      "id": "01_intro",
+      "duration": 6,
+      "t_start": 0,
+      "t_end": 6,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse, bright classroom backdrop. Zhang Yutong welcoming, confident, inviting — this lesson unlocks real navigation.",
+      "speech_text": "Lesson Four — questions. This is the lesson that gets you unstuck when you are lost, confused, or just curious. You are going to learn how to ask almost anything in Mandarin.",
+      "on_screen": "Lesson 4 · Questions"
+    },
+    {
+      "id": "02_ma_particle",
+      "duration": 8,
+      "t_start": 6,
+      "t_end": 14,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'ma' particle explanation. 'Nǐ hǎo ma?' as 'How are you?' is standard. Verify 'Hǎo, xièxiè, nǐ ne?' response is natural.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong demonstrating the ma-particle mechanic clearly, slight gesture pointing to end of phrase, light 'it is that simple' energy.",
+      "speech_text": "The simplest way to ask a yes-no question in Mandarin: add ma at the end. Nǐ hǎo — I know you know that. Nǐ hǎo ma? — How are you? Same phrase, one word added. The response: Hǎo, xièxiè, nǐ ne? — Good, thank you, and you?",
+      "on_screen": "你好 → 你好吗？\nNǐ hǎo → Nǐ hǎo ma?\nHello → How are you?\n\n好，谢谢，你呢？"
+    },
+    {
+      "id": "03_where",
+      "duration": 8,
+      "t_start": 14,
+      "t_end": 22,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Nǎlǐ/nǎr' usage (regional variation — nǎr is northern, nǎlǐ is more standard Mandarin). Both are acceptable. Verify 'Xǐshǒujiān zài nǎlǐ?' and 'Chūkǒu zài nǎr?' are natural.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong illustrating navigation scenario — slight looking-around gesture, then warmly direct explanation.",
+      "speech_text": "To ask where: use nǎlǐ — where. Xǐshǒujiān zài nǎlǐ? — Where is the bathroom? Chūkǒu zài nǎr? — Where is the exit? Zài means is or located at. That word does a lot of work.",
+      "on_screen": "哪里 nǎlǐ = where\n在 zài = located at\n\n洗手间在哪里？\nWhere is the bathroom?\n\n出口在哪儿？\nWhere is the exit?"
+    },
+    {
+      "id": "04_what",
+      "duration": 8,
+      "t_start": 22,
+      "t_end": 30,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Zhè ge jiào shénme?' and 'Nà ge shì shénme?' are natural. Verify 'shénme' tones.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong pointing gesture — demonstrating asking about objects, warm curious energy.",
+      "speech_text": "To ask what something is called: Zhè ge jiào shénme? — What is this called? Or Nà ge shì shénme? — What is that? Shénme means what. Jiào means called. Shì means is.",
+      "on_screen": "什么 shénme = what\n\n这个叫什么？\nZhè ge jiào shénme?\nWhat is this called?\n\n那个是什么？What is that?"
+    },
+    {
+      "id": "05_negation",
+      "duration": 8,
+      "t_start": 30,
+      "t_end": 38,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'bù' negation usage. 'Bù shì' (not is), 'Bù hǎo' (not good), 'Wǒ bù zhīdào' (I don't know) are all standard. Note: bù changes tone before another 4th-tone word (bú shì) — decide whether to mention this detail or keep simple.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong with slightly amused friendly energy — the 'not' word is very useful and she knows it.",
+      "speech_text": "You need to say no, not, and I do not know. Bù is your negation. Bù shì — is not. Bù hǎo — not good. And the most honest phrase for a beginner: Wǒ bù zhīdào — I do not know. That will save you many times.",
+      "on_screen": "不 bù = not / no\n\n不是 bù shì = is not\n不好 bù hǎo = not good\n\n我不知道\nWǒ bù zhīdào\nI don't know"
+    },
+    {
+      "id": "06_practice",
+      "duration": 7,
+      "t_start": 38,
+      "t_end": 45,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong in practice mode, warm and encouraging, brief pauses after each prompt.",
+      "speech_text": "Practice. Ask me how I am: nǐ hǎo ma? Ask where the exit is: chūkǒu zài nǎlǐ? Tell me you do not know: wǒ bù zhīdào. Your study guide has these and more.",
+      "on_screen": "你好吗？\n出口在哪里？\n我不知道"
+    },
+    {
+      "id": "07_signoff",
+      "duration": 7,
+      "t_start": 45,
+      "t_end": 52,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong warm, anticipatory sign-off — setting up the finale of the series.",
+      "speech_text": "Lesson Four done. You can ask where things are, what things are called, and say no to anything. Lesson Five is your first full conversation. Everything comes together. Zàijiàn.",
+      "on_screen": "Next → Lesson 5: First Conversation"
+    }
+  ],
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 5,
+    "card_type": "closing",
+    "title": "Mandarin in Minutes",
+    "subtitle": "Lesson 4 of 5 · DAVID · The Archive",
+    "footer": "AI-generated host · Educational content · Not a certified language instructor · Upon Tyne Productions"
+  },
+  "qa_rules": {
+    "require_identity_lock": true,
+    "require_synthetic_guard": true,
+    "min_shots": 6
+  },
+  "format_id": "language-tutor",
+  "intake": {
+    "gate_0": {
+      "verdict": "PENDING",
+      "blocked": true,
+      "gate_blockers": [
+        "OG plate not yet approved",
+        "legal_gate.py not yet run",
+        "Cousin Mandarin accuracy review pending"
+      ]
+    }
+  }
+}

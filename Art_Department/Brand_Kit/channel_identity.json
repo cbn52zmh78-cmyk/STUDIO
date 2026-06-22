@@ -1,0 +1,50 @@
+{
+  "company": "Upon Tyne Productions",
+  "channel_name": "DAVID",
+  "channel_tagline": "The Archive",
+  "channel_badge": "DAVID · The Archive",
+  "channel_subtitle": "Dead languages, actually pronounced.",
+  "company_tagline": "Where History Speaks",
+  "company_tagline_alt": "Directed. Not generated.",
+  "colors": {
+    "ut_black": "#0D0D0D",
+    "ut_warm_white": "#F5F0E8",
+    "ut_gold": "#C9A84C",
+    "archive_bg": "#0C0E14",
+    "archive_title": "#DCBE78",
+    "archive_border": "#B4965A",
+    "archive_body": "#C8CDD7",
+    "archive_cta": "#FFB45A",
+    "archive_wood_dark": "#3D2B1F",
+    "archive_wood_mid": "#5C4033",
+    "archive_parchment": "#F5F0E6",
+    "archive_shadow": "#2A2520"
+  },
+  "honesty_labels": {
+    "ATTESTED TEXT": "#226E48",
+    "RECONSTRUCTED PRONUNCIATION": "#8C581C",
+    "NOT ATTESTED": "#A0371E"
+  },
+  "typography": {
+    "display": "EB Garamond",
+    "display_fallback": "Cormorant Garamond, Georgia",
+    "body": "Inter",
+    "body_fallback": "DM Sans, Arial",
+    "ipa": "Charis SIL",
+    "ipa_fallback": "Gentium Plus, Arial"
+  },
+  "ai_disclosure": "DAVID is a synthetic AI host. No real persons depicted. Produced by Upon Tyne Productions.",
+  "ai_disclosure_full": "AI-generated synthetic performers. No real persons depicted. This production is entirely synthetic — characters, voice, and visuals rendered by the STUDIO pipeline. Created by Upon Tyne Productions.",
+  "section_2257": "18 U.S.C. § 2257: All performers are synthetic AI characters, unambiguously 21+. No real persons depicted. Records custodian: Upon Tyne Productions / STUDIO / Legal_Gate.",
+  "cta_default": "Subscribe to DAVID · The Archive — new dead language every week.",
+  "cta_sign_off": "Bring the dead tongues back — one attestation at a time. DAVID.",
+  "signature_beat": "What did they actually say? … And how do we prove it?",
+  "playlist": "DAVID · Dead Languages",
+  "assets_dir": "STUDIO/Art_Department/Brand_Kit/",
+  "brand_kit_canonical": "DAVID/brand/Upon_Tyne_DAVID_Brand_Kit_v1.md",
+  "asset_specs_canonical": "DAVID/brand/asset_specs.json",
+  "identity_lock": "DAVID/productions/host_identity_v1/david_identity_lock.json",
+  "task": "#141",
+  "version": "1.0",
+  "date": "2026-06-19"
+}

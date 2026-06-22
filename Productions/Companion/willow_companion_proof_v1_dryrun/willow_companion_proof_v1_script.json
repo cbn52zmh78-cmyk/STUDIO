@@ -1,0 +1,171 @@
+{
+  "slug": "willow_companion_proof_v1",
+  "title": "STUDIO Companion Proof — Willow SFW Check-In / Arrival (480p)",
+  "format_id": "conversational-companion",
+  "target_seconds": 41,
+  "dry_run": true,
+  "dry_run_note": "VIDEO CREATION PARKED (2026-06-19 canon). This script is complete and QA-ready. DO NOT render until video pipeline fix (#218) verified + Benjamin's explicit greenlight. Render command documented at bottom of this file.",
+  "series": {
+    "series_id": "willow_s1",
+    "persona_id": "WillowGFE-001",
+    "series_name": "Willow — Morning Check-In",
+    "episode_number": 1,
+    "episode_theme": "Arrival / welcome",
+    "episode_hook": "No catch-up needed — you're already here."
+  },
+  "intake": {
+    "format_id": "conversational-companion",
+    "actor_id": "WillowGFE-001",
+    "set_id": "@Set-Modern-Apartment-001",
+    "style_id": "@Style-Soft-Warm-001",
+    "gate_0": {
+      "version": "1.5",
+      "verdict": "GREEN",
+      "blocked": false,
+      "requires_human_signoff": true,
+      "human_signoff": true,
+      "target_rating": "PG",
+      "channels": ["social"],
+      "rating_rationale": "SFW companion content — fully clothed, supportive-friend energy, no suggestive staging, no romantic roleplay",
+      "ai_disclosure": "provenance card + platform AI label + upload description",
+      "checklist_domains": {
+        "row_1_synthetic_ownership": "PASS",
+        "row_2_music_sync": "PASS",
+        "row_3_no_real_likeness": "PASS",
+        "row_4_target_channel": "PASS",
+        "row_5_age_documentation": "PASS",
+        "row_6_ai_disclosure": "PASS"
+      },
+      "hard_stops": [],
+      "counsel_flags": [],
+      "distribution_flags": [],
+      "warnings": [
+        "Companion lane is YELLOW until fresh GREEN gate at publish stage — this is a DRY-RUN proof, not a publish-cleared asset",
+        "Re-gate to GREEN required before any social publish (human_signoff at publish = true)"
+      ],
+      "cara_status": "COMPLIANT",
+      "music_bed_id": "BED-WARM-001",
+      "music_clearance_manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+      "notes": [
+        "Row 2: BED-WARM-001 manifest-cleared, royalty-free perpetual license on file",
+        "Row 1: WillowGFE-001 is a synthetic fictional character — no real person likeness",
+        "Row 5: WillowGFE-001 age_locked=23 in GFE casting registry; unambiguous adult",
+        "Row 6: Provenance card ENABLED (unlike Sage proof which had it OFF)"
+      ],
+      "brief_source": "STUDIO/Pipeline/Concepts/T3_141_Companion_Lane_Series_Structure.md"
+    },
+    "duration_clamp": {
+      "applied": true,
+      "policy": "companion_6_8",
+      "lo": 6,
+      "hi": 8,
+      "shots_clamped": 0
+    }
+  },
+  "config": {
+    "model_video": "grok-imagine-video-1.5",
+    "resolution": "480p",
+    "aspect_ratio": "16:9",
+    "voice_suffix": "Soft calm warmth; measured pace with breath; Willow wellness register — unhurried, grounding, gentle.",
+    "identity_lock": "STUDIO/Productions/Companion/willow_companion_proof_v1_dryrun/willow_companion_identity_lock.json",
+    "avatar_reference": "STUDIO/Cast/GFE/Willow/01_casting_shots/casting_turnaround_v1.jpg",
+    "set_reference": "STUDIO/Pipeline/references/modern_apartment_reference.jpg",
+    "seamless": {
+      "primary": "extend",
+      "xfade_s": 0.2,
+      "match_color": true,
+      "cut_on_motion": true,
+      "lamp_lock": false,
+      "glasses_lock": false,
+      "loudnorm": true,
+      "pin_audio_sync": true,
+      "reground_interval": 2,
+      "magenta_clamp": true,
+      "neutral_generation": true
+    },
+    "music_bed": {
+      "track_id": "BED-WARM-001",
+      "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
+    }
+  },
+  "shots": [
+    {
+      "id": "01_greeting",
+      "duration": 7,
+      "t_start": 0,
+      "t_end": 7,
+      "role": "companion",
+      "beat": "warm camera address — glad you're here energy",
+      "video_prompt": "CONTINUITY LOCK @WillowGFE-001: 23-year-old Japanese woman, wellness companion persona, soft dark hair (medium length, loose and natural), calm steady eyes, warm ivory-olive skin — identical companion face, smart-casual fully clothed wardrobe, same apartment set, same eye-line to camera — seamless continuation of prior take, zero jump cut. CONTINUITY LOCK @Set-Modern-Apartment-001: identical modern apartment — same window position camera-left, same oak floor grain direction, same linen sofa tone, same kitchen blur background, same plant placement — seamless continuation, zero jump cut. STYLE LOCK @Style-Soft-Warm-001: soft-warm grade — diffused wrap light, creamy highlights, gentle contrast, approachable warmth, lifestyle editorial not clinical, no harsh specular, no cold blue fill. Willow seated on linen sofa, soft window daylight camera-left, fully clothed (soft cashmere cardigan, neutral top), warm welcoming smile, genuine eye-line to camera, medium-close framing. Static medium-close, soft window light. Soft window daylight 5200K key locked — sheer curtain diffusion, gentle fill from interior bounce 4800K max 20%, zero hue drift, no magenta daylight, no purple shadow. COLOR LOCK Modern-Apartment: palette warm white #FAF8F5, oak #C4A77D, soft grey textiles #B8B5B0, foliage muted green #6B7F5E — no teal push, no pink wall bounce, no saturated LED accent. GRADE LOCK Soft-Warm: palette cream #FAF6F0, blush skin +5% warmth, shadows latte #C9B8A8 — forbid magenta blush, forbid purple shadow, forbid cool 7000K fill, forbid oversaturated orange. Gentle float or static medium-close; micro-push only. Lip-synced, delivers: \"Hey — I'm glad you found your way here today.\" Soft calm warmth; measured pace with breath; Willow wellness register — unhurried, grounding, gentle. Finish on soft gesture peak (breath, smile, hand settle), never hold dead stillness or dead frame. SFW PG only — fully clothed, no suggestive framing, no lingerie, no bedroom staging, supportive friend energy.",
+      "speech_text": "Hey — I'm glad you found your way here today."
+    },
+    {
+      "id": "02_check_in",
+      "duration": 7,
+      "t_start": 7,
+      "t_end": 14,
+      "role": "companion",
+      "beat": "open question to viewer",
+      "video_prompt": "CONTINUITY LOCK @WillowGFE-001: 23-year-old Japanese woman, wellness companion persona, soft dark hair, calm steady eyes, warm ivory-olive skin — identical companion face, same wardrobe, same apartment, same eye-line — seamless continuation, zero jump cut. CONTINUITY LOCK @Set-Modern-Apartment-001: identical modern apartment — same window position, oak floor, linen sofa tone, kitchen blur, plant placement — seamless continuation, zero jump cut. STYLE LOCK @Style-Soft-Warm-001: soft-warm grade, diffused wrap light, no harsh specular, no cold blue fill. Willow listens with genuine warmth — slight head tilt, attentive soft expression, not performing concern, real curiosity. Gentle float same framing. Soft window daylight 5200K key locked — sheer curtain diffusion, no magenta, no purple shadow. GRADE LOCK Soft-Warm: palette cream #FAF6F0 — forbid magenta blush, forbid cool fill, forbid oversaturated orange. Lip-synced, delivers: \"How are you actually doing this week?\" Soft calm warmth; measured pace with breath; Willow wellness register — unhurried, grounding, gentle. Finish on soft gesture peak, never hold dead stillness. SFW PG only — fully clothed, supportive friend energy.",
+      "speech_text": "How are you actually doing this week?"
+    },
+    {
+      "id": "03_core_message",
+      "duration": 8,
+      "t_start": 14,
+      "t_end": 22,
+      "role": "companion",
+      "beat": "single calm thought / affirmation",
+      "video_prompt": "CONTINUITY LOCK @WillowGFE-001: identical face, wardrobe, apartment, eye-line — seamless continuation. CONTINUITY LOCK @Set-Modern-Apartment-001: identical apartment — seamless continuation. STYLE LOCK @Style-Soft-Warm-001: soft-warm grade. Willow delivers calm affirmation — open gentle hand at chest level, unhurried, grounding energy, soft gaze, fully clothed. Slow micro-push-in on affirmation. Soft window 5200K key locked, sheer diffusion, no hue drift. GRADE LOCK cream palette, shadows latte, forbid magenta/purple/cool fill. Lip-synced, delivers: \"You don't have to catch up on anything. You're already exactly where you need to be.\" Soft calm warmth; measured pace with breath; Willow wellness register. Finish on soft gesture peak, breath settle. SFW PG only — fully clothed, supportive friend energy.",
+      "speech_text": "You don't have to catch up on anything. You're already exactly where you need to be."
+    },
+    {
+      "id": "04_reflective_pause",
+      "duration": 6,
+      "t_start": 22,
+      "t_end": 28,
+      "role": "companion",
+      "beat": "invited pause / breath beat",
+      "video_prompt": "CONTINUITY LOCK @WillowGFE-001: identical face, wardrobe, apartment, eye-line — seamless continuation. CONTINUITY LOCK @Set-Modern-Apartment-001: identical apartment — seamless continuation. STYLE LOCK @Style-Soft-Warm-001. Willow holds a genuine quiet — soft eye contact, no fidget, calm and comfortable with the pause, slight deepening breath. Static medium-close, no camera move during pause. Soft window 5200K key locked. GRADE LOCK cream palette, forbid magenta/purple/cool. Lip-synced, delivers: \"Take a breath with me.\" Minimal speech — delivery is in the pause and the breath; voice barely above a murmur. Soft calm warmth; Willow wellness register. Finish on soft exhale, not hard cut. SFW PG only.",
+      "speech_text": "Take a breath with me."
+    },
+    {
+      "id": "05_encouragement",
+      "duration": 6,
+      "t_start": 28,
+      "t_end": 34,
+      "role": "companion",
+      "beat": "affirmation — warm but not effusive",
+      "video_prompt": "CONTINUITY LOCK @WillowGFE-001: identical face, wardrobe, apartment, eye-line — seamless continuation. CONTINUITY LOCK @Set-Modern-Apartment-001: identical apartment — seamless continuation. STYLE LOCK @Style-Soft-Warm-001. Willow delivers encouragement with warmth — genuine smile, no over-performance, kind and direct. Slight lean-toward-camera on the affirmation. Soft window 5200K key locked. GRADE LOCK cream palette. Lip-synced, delivers: \"You're doing better than you think. I mean that.\" Soft calm warmth; Willow wellness register — grounded, sincere. Finish on soft gesture peak. SFW PG only — fully clothed, supportive friend energy, no physical proximity escalation.",
+      "speech_text": "You're doing better than you think. I mean that."
+    },
+    {
+      "id": "06_soft_close",
+      "duration": 7,
+      "t_start": 34,
+      "t_end": 41,
+      "role": "companion",
+      "beat": "goodbye + CTA — low-key, calm",
+      "video_prompt": "CONTINUITY LOCK @WillowGFE-001: identical face, wardrobe, apartment, eye-line — seamless continuation. CONTINUITY LOCK @Set-Modern-Apartment-001: identical apartment — seamless continuation. STYLE LOCK @Style-Soft-Warm-001. Willow settles into a gentle close — calm smile, unhurried, honest farewell energy. No hard sell. Soft settle. Soft window 5200K key locked. GRADE LOCK cream palette. Lip-synced, delivers: \"Same time next week? I'll be here. Take care of yourself.\" Soft calm warmth; Willow wellness register — unhurried, grounding, leaves door open without pressure. Finish on companion's exhale and settle, allow hold for provenance card fade. SFW PG only — fully clothed, supportive friend energy.",
+      "speech_text": "Same time next week? I'll be here. Take care of yourself."
+    }
+  ],
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 5,
+    "card_type": "closing",
+    "title": "Willow — Morning Check-In",
+    "subtitle": "A weekly check-in with Willow.",
+    "footer": "Synthetic companion · AI-generated performer · Upon Tyne Productions · SFW"
+  },
+  "qa_rules": {
+    "require_identity_lock": true,
+    "require_synthetic_guard": true,
+    "require_reconstructed_labels": false,
+    "min_shots": 6,
+    "max_rating": "PG",
+    "require_provenance_card": true
+  },
+  "dry_run_render_command": "python STUDIO/Pipeline/build_companion_proof.py --script STUDIO/Productions/Companion/willow_companion_proof_v1_dryrun/willow_companion_proof_v1_script.json --seamless --resolution 480p",
+  "dry_run_fire_condition": "DO NOT RUN until: (1) video pipeline color/seam fix #218 verified; (2) Benjamin explicit greenlight for this proof render; (3) WillowGFE-001 identity lock built from casting plate"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "david_gothic_corpus_v1",
+    "variant": "A",
+    "filename": "david_gothic_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "A Language Saved by One Bible",
+    "language": "Gothic",
+    "era": "4th–6th century CE, Visigothic Europe",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. silver Codex Argenteus manuscript open under dramatic directional light, purple vellum with silver Gothic script glowing, deep royal purple and silver colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "A LANGUAGE SAVED BY ONE BIBLE",
+      "subline": "Gothic: Four Centuries in a Single Manuscript",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Gothic artifact or inscription as hero element. Era: 4th–6th century CE, Visigothic Europe. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_gothic_corpus_v1",
+    "variant": "B",
+    "filename": "david_gothic_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "A Language Saved by One Bible",
+    "language": "Gothic",
+    "era": "4th–6th century CE, Visigothic Europe",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, Gothic alphabet letters — angular Wulfila script — filling the background in silver on deep purple, illuminated manuscript aesthetic filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "A LANGUAGE SAVED BY ONE BIBLE",
+      "subline": "Gothic: Four Centuries in a Single Manuscript",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Gothic writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

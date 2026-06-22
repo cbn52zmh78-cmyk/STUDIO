@@ -1,0 +1,70 @@
+{
+  "slug": "david_hittite_corpus_v1",
+  "title": "DAVID — The Language That Rewrote the Family Tree",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": [
+    "history",
+    "language",
+    "hittite",
+    "corpus",
+    "indo-european"
+  ],
+  "brief": "dead_languages/david_hittite_corpus_v1_brief.txt",
+  "gate_brief": "dead_languages/david_hittite_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": [
+      "social",
+      "streaming"
+    ],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Hittite — the Bronze Age language of Anatolia, written in cuneiform on thirty thousand clay tablets, that forced linguists to redraw the entire Indo-European family tree.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "Linguists had reconstructed Proto-Indo-European without a single written specimen. Then in 1906 archaeologists excavated Hattusa — modern Turkey — and found a language no one expected to be Indo-European at all."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "So I ask the question I ask of every supposedly dead tongue: who kept speaking it, and what does the corpus preserve about its sound?",
+      "on_screen": "Who kept speaking it?"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "The proof is in the cuneiform archive: the Treaty of Kadesh, the oldest surviving peace treaty, written in both Hittite and Akkadian — and in the laryngeal consonants that Saussure predicted in Proto-Indo-European decades before Hittite was even deciphered."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We reconstruct Hittite corpus-first: the cuneiform syllabary records consonants and vowels directly, comparative Indo-European fills the gaps, and the Anitta text — the oldest Hittite inscription — anchors the earliest phonology."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "The syllabary fixes much of the consonant inventory, but Hittite orthography merged several sounds the writing did not distinguish, and pitch accent remains debated. I label each claim accordingly.",
+      "on_screen": "ATTESTED cuneiform · RECONSTRUCTED phonemic contrasts"
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — nu GIM-an dUTU-uš nepišaz andan uizzi — as the sun god comes in from heaven, the ceremonial prayer that opens a Hittite ritual tablet from Hattusa.",
+      "on_screen": "ATTESTED TEXT · Hittite · KBo 17.74 ritual prayer"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Follow the Archive, and the language they told you was frozen starts moving again — one attestation at a time."
+    }
+  ]
+}

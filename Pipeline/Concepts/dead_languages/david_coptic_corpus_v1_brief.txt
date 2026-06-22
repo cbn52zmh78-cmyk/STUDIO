@@ -1,0 +1,50 @@
+DAVID · The Archive — Episode Brief
+Slug: david_coptic_corpus_v1
+Title: The Vowels Egyptian Never Wrote
+Language: Coptic (Sahidic and Bohairic dialects)
+Target: 69 seconds · PG · documentary-host · David-001
+
+NOTE: Coptic is the living liturgical form of the Egyptian language, still used by the Coptic Orthodox Church. Bohairic dialect remains in active use; Sahidic is the literary/scholarly standard. Episode pairs with ep 10 (Middle Egyptian) — explicitly the "vowel revelation" counterpart.
+
+CORPUS ANCHOR
+- Nag Hammadi Library (c. 3rd–4th century CE, discovered 1945): 52 Gnostic texts in Coptic (Sahidic); bound papyrus codices; Coptic Museum, Cairo
+- Coptic Bible: Old and New Testament translated from Greek; Sahidic NT from c. 3rd century CE; Bohairic from c. 9th century CE
+- Coptic Manichaean texts (Medinet Madi, 1929–1930): Sahidic; Bavarian State Library
+- Coptic Orthodox liturgical texts: Bohairic dialect; living tradition; Diocese of the Coptic Orthodox Church worldwide
+- Ebers Papyrus (Demotic phase, Egyptian): medical texts in Late Egyptian/Demotic; precursor writing tradition
+
+DEMONSTRATION LINE
+Ⲫⲓⲱⲧ ⲉⲧϩⲛ ⲙ̀ⲫⲏⲟⲩⲓ
+Bohairic Coptic Lord's Prayer (Matthew 6:9), "Our Father who art in heaven"
+Nature: ATTESTED Coptic text (Bohairic; living liturgical tradition); pronunciation from living Coptic Orthodox practice (ATTESTED via continuous liturgical chain)
+Vowels fully written in Coptic alphabet (Greek alphabet + 7 Demotic-derived letters)
+
+ATTESTATION STATUS
+Script: Coptic alphabet (Greek letters + ϣ ϥ ϧ ϨϪ ϫ ϭ ϯ from Demotic) — fully attested
+Phonology: Well-attested via Greek transcription parallels; Bohairic pronunciation LIVING (liturgical)
+Vernacular: Extinct as spoken vernacular (gradually replaced by Arabic c. 7th–17th century CE)
+Liturgical: Bohairic ACTIVELY USED in Coptic Orthodox Church worldwide
+
+CHAMPOLLION CONNECTION
+Coptic provided Champollion the vowel anchor for decoding Demotic and hieroglyphic Egyptian.
+1822: Jean-François Champollion used knowledge of Coptic to phonetically map hieroglyphic signs on the Rosetta Stone — because Coptic revealed what vowels Egyptian words carried.
+This is explicitly referenced in beat 01_cold_open.
+
+DIALECT MAP
+- Sahidic (southern / Upper Egypt): 3rd–11th c. CE; literary standard; Nag Hammadi corpus
+- Bohairic (northern / Nile Delta): 9th c. CE–present; current liturgical standard of Coptic Orthodox Church
+- Fayyumic, Akhmimic, Lycopolitan, Sub-Akhmimic: regional dialects, mostly extinct; important for comparative phonology
+
+GATE 0 NOTES
+- Living religious community (Coptic Orthodox Church) has active stake in Bohairic liturgical use; framing is respectful — the episode celebrates the survival, not the extinction
+- Nag Hammadi texts are Gnostic / early Christian; content referenced is bibliographic only (no theological claims or disputation)
+- No contested cultural ownership; language continuity is a matter of scholarship and lived religious practice
+- AI disclosure: provenance card + YouTube upload metadata
+
+STD-CITE-001 SOURCES
+- Layton, Bentley. "A Coptic Grammar with Chrestomathy and Glossary: Sahidic Dialect." 3rd ed. Harrassowitz, 2011.
+- Plumley, J. Martin. "An Introductory Coptic Grammar." Home & Van Thal, 1948.
+- Robinson, James M. (ed.). "The Nag Hammadi Library in English." 4th ed. Brill / HarperOne, 1996.
+- Loprieno, Antonio. "Ancient Egyptian: A Linguistic Introduction." Cambridge UP, 1995. [Egyptian language family context]
+- Champollion, Jean-François. "Lettre à M. Dacier relative à l'alphabet des hiéroglyphes phonétiques." 1822. [Coptic-hieroglyphic connection]
+- Coptic Orthodox Diocese of the Southern United States. Liturgical texts in Bohairic Coptic. https://suscopts.org/

@@ -1,0 +1,75 @@
+{
+  "slug": "willow_s1_ep04_recharge",
+  "title": "Willow — When Did You Last Do Something Just for You?",
+  "format_id": "conversational-companion",
+  "actor_id": "WillowGFE-001",
+  "series": "willow_s1",
+  "episode": 4,
+  "target_seconds": 40,
+  "tags": ["companion", "wellness", "recharge", "self_care", "SFW"],
+  "season_arc_note": "Ep 4 of 6 — deepening. Theme: recharge and self-permission. Viewer is gently asked about their own needs. Arc moves from noticing (ep3) toward active tending.",
+  "gate_0": {
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "human_signoff": true,
+    "status": "PENDING"
+  },
+  "provenance_card": {
+    "enabled": true,
+    "label": "Synthetic companion · AI generated performer · Willow S1 · Upon Tyne Productions"
+  },
+  "set_id": "@Set-Modern-Apartment-001",
+  "style_id": "@Style-Soft-Warm-001",
+  "music_bed": "BED-WARM-001",
+  "identity_lock_ref": "STUDIO/Productions/Companion/willow_s1/willow_companion_identity_lock.json",
+  "beats": [
+    {
+      "id": "01_greeting",
+      "role": "Warm camera address — glad you're here energy",
+      "speech_text": "Hey. You made it. That always means something to me.",
+      "duration_s": 7,
+      "camera": "Medium-close, static, soft window light",
+      "sfw_note": "Fully clothed, calm neutral framing"
+    },
+    {
+      "id": "02_check_in",
+      "role": "Open question to viewer",
+      "speech_text": "When did you last do something just for you — not useful, not productive, just because it felt good?",
+      "duration_s": 8,
+      "camera": "Attentive, open posture, no contact staging",
+      "sfw_note": "No physical proximity escalation"
+    },
+    {
+      "id": "03_core_message",
+      "role": "Single calm thought or affirmation",
+      "speech_text": "We outsource so much of our time. And then we wonder why we're running on empty. You're allowed to refill.",
+      "duration_s": 8,
+      "camera": "Slow micro-push, hands open and low",
+      "sfw_note": "Hands at open neutral gesture, no escalation"
+    },
+    {
+      "id": "04_reflective_pause",
+      "role": "Invited pause / breath beat",
+      "speech_text": "Think of one thing. Just one.",
+      "duration_s": 6,
+      "camera": "Hold — companion holds soft downward look then returns gaze",
+      "sfw_note": "No cutaway, natural expression held"
+    },
+    {
+      "id": "05_encouragement",
+      "role": "Affirmation",
+      "speech_text": "Whatever it is — that counts. Even if it's small. Especially if it's small.",
+      "duration_s": 5,
+      "camera": "Warm, static, no escalation in framing",
+      "sfw_note": "Even framing, warm but grounded"
+    },
+    {
+      "id": "06_soft_close",
+      "role": "Goodbye and CTA",
+      "speech_text": "Go do it if you can. I'll be here when you get back.",
+      "duration_s": 6,
+      "camera": "Companion settles, calm hold before fade",
+      "sfw_note": "Clean low-key close, no lingering intimate frame"
+    }
+  ]
+}

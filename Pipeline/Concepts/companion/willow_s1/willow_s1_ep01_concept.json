@@ -1,0 +1,75 @@
+{
+  "slug": "willow_s1_ep01_arrival",
+  "title": "Willow — No Catch-Up Needed",
+  "format_id": "conversational-companion",
+  "actor_id": "WillowGFE-001",
+  "series": "willow_s1",
+  "episode": 1,
+  "target_seconds": 40,
+  "tags": ["companion", "wellness", "arrival", "welcome", "SFW"],
+  "season_arc_note": "Ep 1 of 6 — arrival and introduction. Viewer meets Willow for the first time. Register is warm and unhurried. No history assumed. Tone: 'I'm glad you found this.'",
+  "gate_0": {
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "human_signoff": true,
+    "status": "PENDING"
+  },
+  "provenance_card": {
+    "enabled": true,
+    "label": "Synthetic companion · AI generated performer · Willow S1 · Upon Tyne Productions"
+  },
+  "set_id": "@Set-Modern-Apartment-001",
+  "style_id": "@Style-Soft-Warm-001",
+  "music_bed": "BED-WARM-001",
+  "identity_lock_ref": "STUDIO/Productions/Companion/willow_s1/willow_companion_identity_lock.json",
+  "beats": [
+    {
+      "id": "01_greeting",
+      "role": "Warm camera address — glad you're here energy",
+      "speech_text": "Hey. No catch-up needed — you're already here.",
+      "duration_s": 7,
+      "camera": "Medium-close, static, soft window light camera-left",
+      "sfw_note": "Fully clothed, no suggestive angle, neutral hand position"
+    },
+    {
+      "id": "02_check_in",
+      "role": "Open question to viewer",
+      "speech_text": "How are you doing — honestly?",
+      "duration_s": 7,
+      "camera": "Gentle micro-push, attentive listen pose",
+      "sfw_note": "No physical contact staging, attentive posture only"
+    },
+    {
+      "id": "03_core_message",
+      "role": "Single calm thought or affirmation",
+      "speech_text": "Whatever you brought in today — it can just sit there for a minute. You don't have to do anything with it right now.",
+      "duration_s": 8,
+      "camera": "Static medium-close, hands at neutral or open gesture",
+      "sfw_note": "Hands visible and neutral, no proximity escalation"
+    },
+    {
+      "id": "04_reflective_pause",
+      "role": "Invited pause / breath beat",
+      "speech_text": "Take a breath if that felt right.",
+      "duration_s": 6,
+      "camera": "Hold — no cutaway; companion holds soft eye contact",
+      "sfw_note": "Hold frame, no staging change"
+    },
+    {
+      "id": "05_encouragement",
+      "role": "Affirmation",
+      "speech_text": "I think showing up counts for something. I really do.",
+      "duration_s": 6,
+      "camera": "Warm, static, no physical proximity escalation",
+      "sfw_note": "Warm register, no effusive gesture"
+    },
+    {
+      "id": "06_soft_close",
+      "role": "Goodbye and CTA",
+      "speech_text": "I'll be here again. Same time, same place. Take care.",
+      "duration_s": 6,
+      "camera": "Companion settles back slightly, calm exit energy",
+      "sfw_note": "Low-key close, no hard sell, no lingering intimate framing"
+    }
+  ]
+}

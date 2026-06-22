@@ -1,6 +1,6 @@
 # DAVID · Dead Language Slate v1
 
-**Status:** Render-ready (validated 2026-06-19) — 12 episodes (launch six + backlog eps 7–12, #168)  
+**Status:** Render-ready (validated 2026-06-19) — 12 episodes (launch six + backlog eps 7–12, #168) · Slate extension eps 13–18 authored 2026-06-19 (T3 #141, concept/brief only — not yet intake-run)  
 **Format:** `documentary-host` · David-001 · 69s · PG  
 **Validation:** Gate 0 GREEN + `production_intake` exit 0 + `render_longform --script-only` exit 0  
 **Not rendered:** No API spend — launch decision pending.
@@ -32,6 +32,23 @@ Smoke-test: `python STUDIO/Pipeline/Concepts/dead_languages/validate_dead_langua
 
 ---
 
+## Slate extension — eps 13–18 (T3 #141 · authored 2026-06-19 · concept-only)
+
+| # | Slug | Title | Hook (cold open) | Corpus anchor |
+|---|------|-------|------------------|---------------|
+| 13 | `david_hittite_corpus_v1` | The Language That Rewrote the Family Tree | Linguists had PIE reconstructed — then Hattusa was excavated and the whole family tree had to be redrawn | ~30,000 cuneiform tablets; Treaty of Kadesh; laryngeal confirmation |
+| 14 | `david_classical_japanese_corpus_v1` | The Court Language Hidden in Plain Sight | Modern Japanese speakers read the characters — but the grammar and sounds of the Nara and Heian courts are a foreign language underneath | Man'yōshū (759 CE); Man'yōgana 8-vowel system; Genji |
+| 15 | `david_etruscan_corpus_v1` | The Tongue Rome Learned Its Alphabet From | We can read it aloud — the alphabet is recoverable — but much of the vocabulary still resists translation | ~13,000 inscriptions; Liber Linteus (only pre-Roman book); Pyrgi Tablets |
+| 16 | `david_proto_indo_european_corpus_v1` | The Language No One Wrote Down | No tablet, no inscription, no manuscript — every sound reconstructed from the descendants | Comparative evidence: Sanskrit, Greek, Latin, Hittite; laryngeal hypothesis |
+| 17 | `david_linear_a_corpus_v1` | The Script We Can Read but Cannot Understand | We can vocalise the signs — borrowed from Linear B — but the language they record is unknown | ~1,500 Minoan documents; GORILA corpus; libation formula *i-da-ma-te* |
+| 18 | `david_coptic_corpus_v1` | The Vowels Egyptian Never Wrote | For 3,500 years hieroglyphics omitted the vowels — Coptic finally wrote them, and Champollion used that to crack the Rosetta Stone | Nag Hammadi Library; Bohairic liturgy (living); Sahidic NT |
+
+**Slate extension logic (eps 13–18):** Hittite is the IE "shock discovery" paired with ep 2 (Greek, IE family) and ep 16 (PIE). Classical Japanese opens East Asia and is the "hidden in plain sight" arc. Etruscan is the honest partial-decipherment case (contrasts with Linear A's full non-decipherment). PIE is the capstone of the reconstruction methodology arc — the only episode with no corpus at all. Linear A is the Archive's most honest episode: we can read, we cannot understand. Coptic closes the extension as the Egyptian sequel (ep 10), revealing the vowels the hieroglyphics never wrote and tying back to Champollion.
+
+**Intake status:** Concepts and briefs authored; not yet run through `production_intake.py`. Gate 0 human signoff required per concept before intake.
+
+---
+
 ## Per-episode assets
 
 | Slug | Concept | Brief | Script (intake) | Imagine pack (script-only) |
@@ -48,6 +65,12 @@ Smoke-test: `python STUDIO/Pipeline/Concepts/dead_languages/validate_dead_langua
 | `david_classical_nahuatl_corpus_v1` | `david_classical_nahuatl_corpus_v1.concept.json` | `david_classical_nahuatl_corpus_v1_brief.txt` | `DAVID/scripts/longform_scripts/david_classical_nahuatl_corpus_v1_script.json` | `DAVID/productions/david_classical_nahuatl_corpus_v1_longform_v1/` |
 | `david_old_church_slavonic_corpus_v1` | `david_old_church_slavonic_corpus_v1.concept.json` | `david_old_church_slavonic_corpus_v1_brief.txt` | `DAVID/scripts/longform_scripts/david_old_church_slavonic_corpus_v1_script.json` | `DAVID/productions/david_old_church_slavonic_corpus_v1_longform_v1/` |
 | `david_sumerian_corpus_v1` | `david_sumerian_corpus_v1.concept.json` | `david_sumerian_corpus_v1_brief.txt` | `DAVID/scripts/longform_scripts/david_sumerian_corpus_v1_script.json` | `DAVID/productions/david_sumerian_corpus_v1_longform_v1/` |
+| `david_hittite_corpus_v1` | `david_hittite_corpus_v1.concept.json` | `david_hittite_corpus_v1_brief.txt` | *(not yet run)* | *(not yet run)* |
+| `david_classical_japanese_corpus_v1` | `david_classical_japanese_corpus_v1.concept.json` | `david_classical_japanese_corpus_v1_brief.txt` | *(not yet run)* | *(not yet run)* |
+| `david_etruscan_corpus_v1` | `david_etruscan_corpus_v1.concept.json` | `david_etruscan_corpus_v1_brief.txt` | *(not yet run)* | *(not yet run)* |
+| `david_proto_indo_european_corpus_v1` | `david_proto_indo_european_corpus_v1.concept.json` | `david_proto_indo_european_corpus_v1_brief.txt` | *(not yet run)* | *(not yet run)* |
+| `david_linear_a_corpus_v1` | `david_linear_a_corpus_v1.concept.json` | `david_linear_a_corpus_v1_brief.txt` | *(not yet run)* | *(not yet run)* |
+| `david_coptic_corpus_v1` | `david_coptic_corpus_v1.concept.json` | `david_coptic_corpus_v1_brief.txt` | *(not yet run)* | *(not yet run)* |
 
 All concepts live under `STUDIO/Pipeline/Concepts/dead_languages/`.
 

@@ -6,14 +6,26 @@
     "set_style_defaults": "Omit to use @Set-Seamless-Neutral-001 + @Style-Cool-Clinical-001",
     "legal_gate": "§3.4 — PG; mark unverified claims [CLAIM REQUIRES VERIFICATION] until legal approves",
     "outfit": "§2 — image_edit presenter commercial wardrobe from casting plate before video",
-    "fill_fields": ["slug", "title", "actor_id", "tags", "brand.*", "beats[].speech_text", "beats[].on_screen"]
+    "fill_fields": [
+      "slug",
+      "title",
+      "actor_id",
+      "tags",
+      "brand.*",
+      "beats[].speech_text",
+      "beats[].on_screen"
+    ]
   },
   "slug": "[slug_your_explainer_v1]",
   "title": "[TITLE — product or concept explainer]",
   "format_id": "explainer-ad",
   "actor_id": "[ActorID — e.g. Julian-001 from Casting Bible lock card]",
   "target_seconds": 30,
-  "tags": ["explainer", "product", "[brand_category]"],
+  "tags": [
+    "explainer",
+    "product",
+    "[brand_category]"
+  ],
   "brand": {
     "title": "[BRAND_NAME]",
     "subtitle": "[BRAND_TAGLINE]",
@@ -47,5 +59,13 @@
       "speech_text": "[CTA — single verb, one destination]",
       "on_screen": "[BRAND · url or action]"
     }
-  ]
+  ],
+  "gate_0": {
+    "music_bed_id": "BED-CRP-001",
+    "rating": "PG",
+    "channels": [
+      "social",
+      "client"
+    ]
+  }
 }

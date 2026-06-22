@@ -1,0 +1,149 @@
+{
+  "slug": "lang_tutor_001_ep01_tones",
+  "title": "Mandarin in Minutes — Lesson 1: The 4 Tones",
+  "series": "LANG_TUTOR_001",
+  "episode": 1,
+  "target_seconds": 60,
+  "status": "DRAFT — PRE-GATE. Gate 0 required before firing. Mandarin segments flagged for cousin review.",
+  "notes": [
+    "Identity lock path is PLACEHOLDER — create after OG plate approved + legal_gate.py GREEN.",
+    "Music bed: BED-LANG-BRIGHT-001 placeholder — Benjamin to select (brighter than BED-WARM-001).",
+    "Mandarin spoken segments: flag for cousin (Mandarin speaker) accuracy review before render.",
+    "Written pinyin in speech_text is for Zhang Yutong to read on-screen — will appear in subtitles."
+  ],
+  "config": {
+    "model_video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "voice_suffix": "warm clear patient teacher voice, natural pacing, Mandarin demo segments delivered slowly and clearly with slight forward lean, bilingual fluency implied",
+    "identity_lock": "STUDIO/Cast/Casting_Bible/lock_cards/ZhangYutongLang-001_identity_lock.json",
+    "avatar_reference": "STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_OG.jpg",
+    "seamless": {
+      "primary": "extend",
+      "xfade_s": 0.15,
+      "match_color": true,
+      "cut_on_motion": true,
+      "loudnorm": true
+    },
+    "music_bed": {
+      "track_id": "BED-LANG-BRIGHT-001",
+      "manifest": "STUDIO/Music_Sound/clearance_manifest.json",
+      "note": "PLACEHOLDER — select bright, airy, educational instrumental. Not BED-WARM-001."
+    }
+  },
+  "shots": [
+    {
+      "id": "01_intro",
+      "duration": 7,
+      "t_start": 0,
+      "t_end": 7,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse, bright classroom backdrop — seamless continuation of prior take. Zhang Yutong facing camera, warm confident greeting, slight forward lean, hands naturally at chest level, natural direct eye contact. Bright, open, teacher-next-door energy.",
+      "speech_text": "Hi, I'm Zhang Yutong, and welcome to Mandarin in Minutes. Lesson One — the four tones. This is the most important thing you'll learn today, and once it clicks, everything else in Mandarin gets easier.",
+      "on_screen": "Lesson 1 · The 4 Tones"
+    },
+    {
+      "id": "02_why_tones",
+      "duration": 7,
+      "t_start": 7,
+      "t_end": 14,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse, bright classroom backdrop — seamless continuation. Zhang Yutong leaning slightly toward camera, explaining with gentle hand gesture, engaged expression — teacher clarifying something important.",
+      "speech_text": "Mandarin is a tonal language. That means the same syllable — same letters, same spelling — can mean completely different things depending on how your voice moves. Not the volume. The shape.",
+      "on_screen": "Same syllable. Different meaning."
+    },
+    {
+      "id": "03_ma_demo",
+      "duration": 9,
+      "t_start": 14,
+      "t_end": 23,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify pronunciation demonstration is accurate: mā (mother), má (hemp), mǎ (horse), mà (scold). Tone contours correct.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong demonstrating each tone with a clear vocal shift, slight head movement for each tone shape, deliberate demonstration pace, warm encouraging expression. Each demo word spoken clearly with natural lip movement.",
+      "speech_text": "Listen. Mā — flat, steady. That means mother. Má — rising, like a question. Hemp. Mǎ — dip then rise. Horse. Mà — sharp and falling. Scold. Same letters. Four words. That is the power of tones.",
+      "on_screen": "mā  má  mǎ  mà\n母 · 麻 · 马 · 骂"
+    },
+    {
+      "id": "04_tone_shapes",
+      "duration": 8,
+      "t_start": 23,
+      "t_end": 31,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong natural teaching gesture — possibly drawing tone shape in air with finger for each one, patient and clear, good eye contact.",
+      "speech_text": "First tone: flat. Think of it like holding a steady note. Second tone: rising. Like asking huh? in English. Third tone: dip then rise. Like saying well... with doubt. Fourth tone: sharp drop. Like a firm no.",
+      "on_screen": "1st ā — flat\n2nd á — rising\n3rd ǎ — dip rise\n4th à — falling"
+    },
+    {
+      "id": "05_nihao",
+      "duration": 8,
+      "t_start": 31,
+      "t_end": 39,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify nǐ hǎo tone sandhi explanation is accurate and naturally delivered. 'ní hǎo' in natural speech is correct.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong saying nǐ hǎo with a warm natural greeting, small wave or natural greeting gesture, then slowing down to demonstrate tone detail — teacher mode, clear articulation.",
+      "speech_text": "Now your first real phrase. Nǐ hǎo — hello. That's third tone plus third tone. But here's a secret: in natural speech, when two third tones meet, the first one rises. So you actually say ní hǎo. Don't stress it. Just listen and copy.",
+      "on_screen": "nǐ hǎo 你好\nHello"
+    },
+    {
+      "id": "06_practice",
+      "duration": 7,
+      "t_start": 39,
+      "t_end": 46,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify xièxiè and zàijiàn pronunciation prompts are accurate.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong in practice-mode energy — encouraging, slight forward lean, inviting student to repeat after her, brief natural pause after each phrase.",
+      "speech_text": "Try these with me. Nǐ hǎo. Xièxiè — thank you, fourth tone plus neutral. Zàijiàn — goodbye, two falling tones. Your study guide has all of these with the tone marks.",
+      "on_screen": "Say it with me\nnǐ hǎo · xièxiè · zàijiàn"
+    },
+    {
+      "id": "07_signoff",
+      "duration": 7,
+      "t_start": 46,
+      "t_end": 53,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong warm sign-off, genuine smile, natural energy — the teacher is proud the student got through lesson one.",
+      "speech_text": "That is Lesson One. You now know the four tones, how to say hello, thank you, and goodbye, and why Mandarin sounds the way it does. Download your study guide, practice the exercises, and I will see you in Lesson Two.",
+      "on_screen": "See you in Lesson 2 →"
+    }
+  ],
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 5,
+    "card_type": "closing",
+    "title": "Mandarin in Minutes",
+    "subtitle": "Lesson 1 of 5 · DAVID · The Archive",
+    "footer": "AI-generated host · Educational content · Not a certified language instructor · Upon Tyne Productions"
+  },
+  "qa_rules": {
+    "require_identity_lock": true,
+    "require_synthetic_guard": true,
+    "require_reconstructed_labels": false,
+    "min_shots": 6
+  },
+  "format_id": "language-tutor",
+  "intake": {
+    "format_id": "language-tutor",
+    "actor_id": "ZhangYutongLang-001",
+    "set_id": "@SET-LANG-BRIGHT-001",
+    "style_id": "@STYLE-LANG-TUTOR-001",
+    "gate_0": {
+      "verdict": "PENDING",
+      "blocked": true,
+      "requires_human_signoff": true,
+      "human_signoff": false,
+      "gate_blockers": [
+        "OG plate not yet approved",
+        "legal_gate.py not yet run",
+        "Cousin Mandarin accuracy review pending",
+        "Music bed BED-LANG-BRIGHT-001 not yet cleared"
+      ]
+    }
+  }
+}

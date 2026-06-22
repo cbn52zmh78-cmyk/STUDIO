@@ -1,6 +1,6 @@
 {
-  "version": "1.4",
-  "updated": "2026-06-19",
+  "version": "1.5",
+  "updated": "2026-06-20",
   "library_root": "Music_Beds",
   "manifest_path": "STUDIO/Music_Sound/clearance_manifest.json",
   "lanes": [
@@ -15,7 +15,10 @@
     "clinical-precision",
     "physics-precision",
     "chemistry-lab",
-    "how-it-works"
+    "how-it-works",
+    "period-near-east",
+    "period-south-asian",
+    "period-east-asian"
   ],
   "science_lanes": {
     "cosmic-awe": "Astrophysics, cosmology, JWST/EHT wonder-tone documentary beds",
@@ -33,9 +36,12 @@
     }
   },
   "period_lanes": {
-    "period-antiquity": "Ancient / classical / late-antique / Bronze Age documentary beds",
-    "period-medieval": "Medieval / Anglo-Norman / Gothic / Norse documentary beds",
-    "period-tudor": "Tudor / Elizabethan / Henrician court documentary beds"
+    "period-antiquity": "Ancient / classical / late-antique / Bronze Age documentary beds (Mediterranean, Aegean, Greco-Roman)",
+    "period-medieval": "Medieval / Anglo-Norman / Gothic / Norse documentary beds (European, c.500–1500 CE)",
+    "period-tudor": "Tudor / Elizabethan / Henrician court documentary beds (c.1485–1603)",
+    "period-near-east": "Ancient Near East / Mesopotamian / Anatolian beds — Akkadian, Sumerian, Hittite, Bronze Age Levant (SPEC_ONLY — to be sourced/commissioned; fallback: period-antiquity)",
+    "period-south-asian": "Vedic / classical Indian subcontinent beds — Sanskrit, Pali, Tamil Sangam (SPEC_ONLY — to be sourced/commissioned; fallback: period-antiquity)",
+    "period-east-asian": "Classical East Asian court beds — Heian Japanese, Classical Chinese, Korean Goryeo (SPEC_ONLY — to be sourced/commissioned; fallback: documentary-prestige)"
   },
   "tracks": {
     "BED-DOC-001": {
@@ -362,6 +368,57 @@
       "bpm": 102,
       "source": "CC0 — Pixabay Music (verified CC0 / no attribution)",
       "license": "CC0",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-NEAR-001": {
+      "title": "Euphrates — Reed Flute & Clay Drum",
+      "lane": "period-near-east",
+      "mood": "antiquity-near-east",
+      "era": "Mesopotamian / Anatolian / Bronze Age Levant",
+      "domain": "Akkadian, Sumerian (DAVID), Hittite (DAVID S2), Ancient Near Eastern documentary beds",
+      "file": "Music_Beds/period-near-east/BED-NEAR-001.mp3",
+      "duration_seconds": 185,
+      "bpm": 64,
+      "source": "SPEC_ONLY — Upon Tyne Productions to commission or source; instrument profile: ney reed flute, frame drum, low sustained string. License must be owned or royalty-free perpetual; CC0 accepted.",
+      "license": "SPEC_ONLY",
+      "spec_status": "SPEC_ONLY",
+      "fallback_bed_id": "BED-ANT-002",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-VED-001": {
+      "title": "Rishi Pulse — Tanpura Drone",
+      "lane": "period-south-asian",
+      "mood": "antiquity-south-asian",
+      "era": "Vedic / Classical Sanskrit / Oral tradition",
+      "domain": "Sanskrit corpus (DAVID Ep 7), Vedic oral tradition documentary beds",
+      "file": "Music_Beds/period-south-asian/BED-VED-001.mp3",
+      "duration_seconds": 200,
+      "bpm": 60,
+      "source": "SPEC_ONLY — Upon Tyne Productions to commission or source; instrument profile: tanpura drone, tabla at low volume, sitar motif. License must be owned or royalty-free perpetual; CC0 accepted.",
+      "license": "SPEC_ONLY",
+      "spec_status": "SPEC_ONLY",
+      "fallback_bed_id": "BED-ANT-001",
+      "attribution_required": false,
+      "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
+      "cue_sheet_path": null
+    },
+    "BED-EAST-001": {
+      "title": "Heian Court — Koto Pulse",
+      "lane": "period-east-asian",
+      "mood": "antiquity-east-asian",
+      "era": "Classical Japanese / Heian court / Tang-era East Asia",
+      "domain": "Classical Japanese corpus (DAVID S2 Ep 14), East Asian documentary beds",
+      "file": "Music_Beds/period-east-asian/BED-EAST-001.mp3",
+      "duration_seconds": 190,
+      "bpm": 66,
+      "source": "SPEC_ONLY — Upon Tyne Productions to commission or source; instrument profile: koto, shakuhachi flute, low sustained string. License must be owned or royalty-free perpetual; CC0 accepted.",
+      "license": "SPEC_ONLY",
+      "spec_status": "SPEC_ONLY",
+      "fallback_bed_id": "BED-DOC-001",
       "attribution_required": false,
       "allowed_channels": ["social", "streaming", "theatrical", "festival", "client"],
       "cue_sheet_path": null

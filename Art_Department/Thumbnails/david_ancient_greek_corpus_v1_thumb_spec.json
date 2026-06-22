@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "david_ancient_greek_corpus_v1",
+    "variant": "A",
+    "filename": "david_ancient_greek_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Restoring the Pitch Accent",
+    "language": "Ancient Greek",
+    "era": "Archaic and Classical Greece — Homeric oral tradition",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. ancient Greek papyrus scroll with pitch accent marks visible under dramatic raking library light, dark scholarly atmosphere, deep indigo and gold colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "RESTORING THE PITCH ACCENT",
+      "subline": "What Homer Actually Sounded Like",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Ancient Greek artifact or inscription as hero element. Era: Archaic and Classical Greece — Homeric oral tradition. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_ancient_greek_corpus_v1",
+    "variant": "B",
+    "filename": "david_ancient_greek_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Restoring the Pitch Accent",
+    "language": "Ancient Greek",
+    "era": "Archaic and Classical Greece — Homeric oral tradition",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, monumental ancient Greek uncial letters and diacritical pitch marks etched into stone, filling frame, deep teal and shadow tones filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "RESTORING THE PITCH ACCENT",
+      "subline": "What Homer Actually Sounded Like",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Ancient Greek writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

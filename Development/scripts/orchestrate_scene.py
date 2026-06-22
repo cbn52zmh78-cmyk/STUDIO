@@ -1,5 +1,17 @@
 # orchestrate_scene.py - Smart Director v1.0
 import sys
+from pathlib import Path as _Path
+
+# --- qa_gate wiring ---
+_AI_FED = _Path(__file__).resolve().parents[3] / "AI" / "federation"
+if str(_AI_FED) not in sys.path:
+    sys.path.insert(0, str(_AI_FED))
+try:
+    from qa_gate import qa_check as _qa_gate_check
+    _QA_GATE_AVAILABLE = True
+except ImportError:
+    _QA_GATE_AVAILABLE = False
+# --- end qa_gate wiring ---
 
 
 def orchestrate(user_input):
@@ -33,6 +45,28 @@ HENRY THE SECOND (@1) seated on his throne as clerics deliver the betrayal news.
 
 Ready for generation. Use the master constraints above when generating clips.
 '''
+    # --- qa_gate: QA orchestrated output before write ---
+    if _QA_GATE_AVAILABLE and output.strip():
+        try:
+            _qa_orc = _qa_gate_check(
+                content=output,
+                content_type="general",
+                subject=f"orchestrated scene: {user_input[:80]}",
+            )
+            if _qa_orc["gate"] == "RED":
+                print(
+                    f"[QA HOLD] orchestrate_scene.py: {_qa_orc['summary']} | Issues: {_qa_orc['issues']}",
+                    file=sys.stderr,
+                )
+                return  # hold output on RED
+            elif _qa_orc["gate"] == "YELLOW":
+                print(
+                    f"[QA WARN] orchestrate_scene.py: {_qa_orc['summary']}",
+                    file=sys.stderr,
+                )
+        except Exception as _exc:
+            print(f"[QA WARN] orchestrate_scene.py: qa_gate error: {_exc}", file=sys.stderr)
+    # --- end qa_gate ---
     with open('orchestrated_prompt.txt', 'w', encoding='utf-8') as f:
         f.write(output)
     print('\n✅ Done. Full prompt saved to orchestrated_prompt.txt')

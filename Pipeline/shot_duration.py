@@ -4,8 +4,8 @@ from __future__ import annotations
 
 from typing import Any
 
-SEAMLESS_LO = 7
-SEAMLESS_HI = 9
+SEAMLESS_LO = 12   # was 7 — documentary standard floor (v2: seamless transitions)
+SEAMLESS_HI = 18   # was 9 — documentary standard ceiling
 AV_SYNC_TOLERANCE_S = 0.12
 
 
@@ -69,7 +69,7 @@ def check_shot_duration_band(
         return None
     dur = int(shot.get("duration", 0))
     if dur < lo or dur > hi:
-        return f"{shot['id']}: duration {dur}s outside {lo}–{hi}s seamless band"
+        return f"{shot['id']}: duration {dur}s outside {lo}\u2013{hi}s seamless band"
     return None
 
 

@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "david_latin_corpus_v1",
+    "variant": "A",
+    "filename": "david_latin_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Why Latin Never Really Died",
+    "language": "Latin",
+    "era": "Classical Rome — medieval continuity — present liturgy",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. close-up of weathered stone Latin inscription on crumbling Roman forum columns, golden hour raking light, fine dust in the air, rich ochre and shadow colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "WHY LATIN NEVER REALLY DIED",
+      "subline": "The Language That Refused to Die",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Latin artifact or inscription as hero element. Era: Classical Rome — medieval continuity — present liturgy. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_latin_corpus_v1",
+    "variant": "B",
+    "filename": "david_latin_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Why Latin Never Really Died",
+    "language": "Latin",
+    "era": "Classical Rome — medieval continuity — present liturgy",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, monumental Roman capitalis letters carved in pale travertine stone filling the background, dramatic side-lighting casting deep shadows in each letterform filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "WHY LATIN NEVER REALLY DIED",
+      "subline": "The Language That Refused to Die",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Latin writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "david_ancient_greek_corpus_v1",
+    "variant": "A",
+    "filename": "david_ancient_greek_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Restoring the Pitch Accent",
+    "language": "Ancient Greek",
+    "era": "Archaic and Classical Greece — Homeric oral tradition",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. ancient Greek papyrus scroll with pitch accent marks visible under dramatic raking library light, dark scholarly atmosphere, deep indigo and gold colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "RESTORING THE PITCH ACCENT",
+      "subline": "What Homer Actually Sounded Like",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Ancient Greek artifact or inscription as hero element. Era: Archaic and Classical Greece — Homeric oral tradition. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_ancient_greek_corpus_v1",
+    "variant": "B",
+    "filename": "david_ancient_greek_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Restoring the Pitch Accent",
+    "language": "Ancient Greek",
+    "era": "Archaic and Classical Greece — Homeric oral tradition",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, monumental ancient Greek uncial letters and diacritical pitch marks etched into stone, filling frame, deep teal and shadow tones filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "RESTORING THE PITCH ACCENT",
+      "subline": "What Homer Actually Sounded Like",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Ancient Greek writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "david_old_english_corpus_v1",
+    "variant": "A",
+    "filename": "david_old_english_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Beowulf's Tongue in Manuscript",
+    "language": "Old English",
+    "era": "Anglo-Saxon England, 700–1100 CE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. extreme close-up of an illuminated Old English manuscript page, Beowulf ink script visible, candlelight warm glow, vellum texture, deep amber and black colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "BEOWULF'S TONGUE IN MANUSCRIPT",
+      "subline": "The Speech That Outlasted the Kingdoms",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Old English artifact or inscription as hero element. Era: Anglo-Saxon England, 700–1100 CE. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_old_english_corpus_v1",
+    "variant": "B",
+    "filename": "david_old_english_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Beowulf's Tongue in Manuscript",
+    "language": "Old English",
+    "era": "Anglo-Saxon England, 700–1100 CE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, Old English insular script characters — angular runic-influenced letters — filling the background in charcoal on parchment texture, candlelit amber tones filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "BEOWULF'S TONGUE IN MANUSCRIPT",
+      "subline": "The Speech That Outlasted the Kingdoms",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Old English writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "david_old_norse_corpus_v1",
+    "variant": "A",
+    "filename": "david_old_norse_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Runes Attested, Sagas Reconstructed",
+    "language": "Old Norse",
+    "era": "Viking Age Scandinavia, 700–1100 CE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. dramatic low-angle shot of a tall runestone in frozen Nordic landscape, runic inscriptions carved deep into stone, overcast arctic light, steel blue and silver colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "RUNES ATTESTED, SAGAS RECONSTRUCTED",
+      "subline": "The Language Carved in Stone",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Old Norse artifact or inscription as hero element. Era: Viking Age Scandinavia, 700–1100 CE. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_old_norse_corpus_v1",
+    "variant": "B",
+    "filename": "david_old_norse_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Runes Attested, Sagas Reconstructed",
+    "language": "Old Norse",
+    "era": "Viking Age Scandinavia, 700–1100 CE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, Elder Futhark runic characters carved in relief across rough grey stone filling the background, cold blue-white dramatic lighting filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "RUNES ATTESTED, SAGAS RECONSTRUCTED",
+      "subline": "The Language Carved in Stone",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Old Norse writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "david_gothic_corpus_v1",
+    "variant": "A",
+    "filename": "david_gothic_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "A Language Saved by One Bible",
+    "language": "Gothic",
+    "era": "4th–6th century CE, Visigothic Europe",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. silver Codex Argenteus manuscript open under dramatic directional light, purple vellum with silver Gothic script glowing, deep royal purple and silver colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "A LANGUAGE SAVED BY ONE BIBLE",
+      "subline": "Gothic: Four Centuries in a Single Manuscript",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Gothic artifact or inscription as hero element. Era: 4th–6th century CE, Visigothic Europe. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_gothic_corpus_v1",
+    "variant": "B",
+    "filename": "david_gothic_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "A Language Saved by One Bible",
+    "language": "Gothic",
+    "era": "4th–6th century CE, Visigothic Europe",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, Gothic alphabet letters — angular Wulfila script — filling the background in silver on deep purple, illuminated manuscript aesthetic filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "A LANGUAGE SAVED BY ONE BIBLE",
+      "subline": "Gothic: Four Centuries in a Single Manuscript",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Gothic writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "david_sumerian_corpus_v1",
+    "variant": "A",
+    "filename": "david_sumerian_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "The First Written Language",
+    "language": "Sumerian",
+    "era": "Mesopotamia, 3200–500 BCE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. close-up of a Sumerian cuneiform clay tablet with reed impressions, dramatic raking side-light, ancient museum setting, warm clay and deep shadow colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "THE FIRST WRITTEN LANGUAGE",
+      "subline": "Five Thousand Years in Clay",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Sumerian artifact or inscription as hero element. Era: Mesopotamia, 3200–500 BCE. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_sumerian_corpus_v1",
+    "variant": "B",
+    "filename": "david_sumerian_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "The First Written Language",
+    "language": "Sumerian",
+    "era": "Mesopotamia, 3200–500 BCE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, dense cuneiform wedge-impressions covering clay tablet texture filling the background, warm terracotta and shadow tones, museum-quality dramatic lighting filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "THE FIRST WRITTEN LANGUAGE",
+      "subline": "Five Thousand Years in Clay",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Sumerian writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "lane_sample_david",
+    "variant": "A",
+    "filename": "lane_sample_david_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "History Documentary Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Pan-historical",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. ancient archive room with towering shelves of scrolls and manuscripts, a single dramatic light beam cutting through dust, deep amber and shadow colour grade, cinematic depth of field. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "THE ARCHIVE",
+      "subline": "Dead Languages, Actually Pronounced",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: N/A (lane sample) artifact or inscription as hero element. Era: Pan-historical. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "lane_sample_david",
+    "variant": "B",
+    "filename": "lane_sample_david_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "History Documentary Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Pan-historical",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, layered text fragments from multiple ancient scripts — Latin, Greek, cuneiform — overlapping on aged parchment, warm amber tones filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "THE ARCHIVE",
+      "subline": "Dead Languages, Actually Pronounced",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, N/A (lane sample) writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "lane_sample_observatory",
+    "variant": "A",
+    "filename": "lane_sample_observatory_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Astrophysics / Space Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. interior of a massive radio telescope dish at night, Milky Way visible overhead, cold blue and deep space black colour grade, long exposure star trails in background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "WHAT THE TELESCOPE HEARS",
+      "subline": "At the Edge of Observable Space",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: N/A (lane sample) artifact or inscription as hero element. Era: Contemporary science. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "lane_sample_observatory",
+    "variant": "B",
+    "filename": "lane_sample_observatory_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Astrophysics / Space Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, star field and nebula imagery — deep space blues and purples — filling the background with observable universe depth, galaxy spiral structures filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "WHAT THE TELESCOPE HEARS",
+      "subline": "At the Edge of Observable Space",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, N/A (lane sample) writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  },
+  {
+    "slug": "lane_sample_science",
+    "variant": "A",
+    "filename": "lane_sample_science_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Science Explainer Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. dramatic close-up of a molecular model or scientific apparatus — glass beakers, crystalline structures — in a high-contrast laboratory setting, cool teal and white colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "THE SCIENCE BEHIND IT",
+      "subline": "Evidence-First Documentary",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: N/A (lane sample) artifact or inscription as hero element. Era: Contemporary science. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "lane_sample_science",
+    "variant": "B",
+    "filename": "lane_sample_science_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Science Explainer Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, scientific diagram elements — atomic structures, formula notation, periodic table fragments — on deep navy blue background, clean high-contrast scientific aesthetic filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "THE SCIENCE BEHIND IT",
+      "subline": "Evidence-First Documentary",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, N/A (lane sample) writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

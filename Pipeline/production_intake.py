@@ -54,6 +54,105 @@ if str(PIPELINE_DIR) not in sys.path:
 from shot_duration import apply_duration_clamp_to_shots, should_clamp_shot_durations  # noqa: E402
 from science_field import enrich_science_subject  # noqa: E402
 
+# --------------------------------------------------------------------------- #
+# QA Gate 0 — reasoning-backed content check on incoming packets               #
+# Imported lazily so the module stays dep-free when QA is unavailable.         #
+# Set _QA_GATE_SKIP = True (via --skip-qa-gate flag) for emergency override.   #
+# --------------------------------------------------------------------------- #
+_QA_FEDERATION_DIR = ROOT / "AI" / "federation"
+_QA_AVAILABLE = False
+_qa_import_err: str = ""
+try:
+    if str(_QA_FEDERATION_DIR) not in sys.path:
+        sys.path.insert(0, str(_QA_FEDERATION_DIR))
+    from qa_gate import qa_check as _qa_check  # noqa: E402
+    _QA_AVAILABLE = True
+except ImportError as _qe:
+    _qa_import_err = str(_qe)
+
+_EDITING_QA_AVAILABLE = False
+_editing_qa_import_err: str = ""
+try:
+    _EDITING_FED_DIR = ROOT / "AI" / "Federations" / "Editing_Federation"
+    if str(_EDITING_FED_DIR) not in sys.path:
+        sys.path.insert(0, str(_EDITING_FED_DIR))
+    from editing_federation_dispatcher import EditingFederationDispatcher as _EFDispatcher
+    _EDITING_QA_AVAILABLE = True
+except ImportError as _efe:
+    _editing_qa_import_err = str(_efe)
+
+_QA_GATE_SKIP: bool = False   # flipped to True by --skip-qa-gate at parse time
+_EDITING_QA_GATE_ACTIVE: bool = False   # flipped to True by --editing-qa at parse time
+
+
+def _run_qa_gate_0(concept: dict[str, Any], brief: str) -> dict[str, Any]:
+    """Run qa_check on the incoming concept brief at Gate 0.
+
+    Returns a dict with keys: gate, safe_to_send, issues, verdict, summary.
+    When QA is unavailable or --skip-qa-gate is active, returns a pass-through
+    result so the rest of the intake pipeline is unaffected.
+    """
+    if _QA_GATE_SKIP:
+        return {
+            "gate": "SKIPPED", "safe_to_send": True,
+            "issues": [], "verdict": "SKIPPED",
+            "summary": "QA Gate 0 skipped via --skip-qa-gate flag.",
+        }
+    if not _QA_AVAILABLE:
+        print(
+            f"[WARN] Gate 0 QA unavailable ({_qa_import_err}) — skipping QA check.",
+            file=sys.stderr,
+        )
+        return {
+            "gate": "UNAVAILABLE", "safe_to_send": True,
+            "issues": [], "verdict": "UNAVAILABLE",
+            "summary": "QA gate module not importable.",
+        }
+
+    subject = concept.get("slug") or concept.get("title") or "incoming concept"
+    facts: list[str] = []
+    hf = concept.get("historical_figure") or {}
+    ss = concept.get("science_subject") or {}
+    ts = concept.get("technical_subject") or {}
+    for src in (hf, ss, ts):
+        for s in (src.get("sources") or [])[:4]:
+            cit = s.get("citation", "")
+            if cit:
+                facts.append(cit)
+    if not facts:
+        facts = [brief[:200]]   # fallback: brief excerpt as a fact sentinel
+
+    try:
+        result = _qa_check(
+            content=brief,
+            content_type="general",
+            subject=subject,
+            facts=facts,
+            mode="draft_critique",   # fast 3-pass for Gate 0 turnaround
+        )
+    except Exception as exc:
+        print(f"[WARN] QA Gate 0 exception: {exc}", file=sys.stderr)
+        return {
+            "gate": "YELLOW", "safe_to_send": True,
+            "issues": [str(exc)], "verdict": "PARTIAL",
+            "summary": f"QA gate raised exception: {exc}",
+        }
+
+    if result["gate"] == "RED":
+        # RED blocks: log detailed error and re-raise as Gate0BlockedError later
+        print(
+            f"[ERROR] QA Gate 0 RED for '{subject}' — {result['summary']}",
+            file=sys.stderr,
+        )
+        for issue in result["issues"][:5]:
+            print(f"  [!] {issue}", file=sys.stderr)
+    elif result["gate"] == "YELLOW":
+        print(
+            f"[WARN] QA Gate 0 YELLOW for '{subject}' — {result['summary']}",
+            file=sys.stderr,
+        )
+    return result
+
 SET_LIBRARY = PIPELINE_DIR / "Set_Library_v1.json"               # #99
 STYLE_LIBRARY = PIPELINE_DIR / "Style_Library_v1.json"           # #99
 FORMAT_LIBRARY = PIPELINE_DIR / "Production_Templates" / "Production_Templates_v1.json"  # #98
@@ -83,6 +182,38 @@ DIAGRAM_PAYOFF_SHOT_ID = "04_diagram_payoff"
 # --------------------------------------------------------------------------- #
 # Library loading
 # --------------------------------------------------------------------------- #
+def _run_editing_qa_gate(content_str: str, concept: dict) -> dict:
+    """Run the Editing Federation dispatcher on intake content after Gate 0.
+
+    Returns a result dict with keys: gate, safe, summary.
+    """
+    if not _EDITING_QA_AVAILABLE:
+        return {
+            "gate": "UNAVAILABLE",
+            "safe": True,
+            "summary": f"Editing QA unavailable: {_editing_qa_import_err}",
+        }
+    try:
+        dispatcher = _EFDispatcher(mode="draft_critique", dry_run=False)
+        report = dispatcher.run_all(
+            document=content_str,
+            format_id=concept.get("format_id", "documentary-host"),
+            subject=concept.get("slug", ""),
+        )
+        return {
+            "gate": report.overall_gate,
+            "safe": report.overall_gate != "RED",
+            "summary": report.summary,
+            "results": [r for r in report.results],
+        }
+    except Exception as exc:
+        return {
+            "gate": "YELLOW",
+            "safe": True,
+            "summary": f"Editing QA exception: {exc}",
+        }
+
+
 def _load_json(path: Path) -> dict[str, Any]:
     if not path.is_file():
         raise FileNotFoundError(f"Required library not found: {path}")
@@ -322,7 +453,15 @@ def run_gate_0(
     format_id: str,
     concept_file: Optional[Path] = None,
 ) -> dict[str, Any]:
-    """Run mandatory Gate 0; save report; return stamp for intake."""
+    """Run mandatory Gate 0; save report; return stamp for intake.
+
+    Gate 0 now runs two sub-gates in order:
+      1. QA Gate 0 — reasoning-backed content check (_run_qa_gate_0).
+         RED blocks the intake before the legal gate is even reached.
+         YELLOW logs a warning to stderr and proceeds.
+         Override with --skip-qa-gate for emergency bypass.
+      2. Legal Gate — existing legal_gate.py v1.3 check (unchanged).
+    """
     brief = build_gate_brief_text(
         concept,
         actor=actor,
@@ -331,6 +470,36 @@ def run_gate_0(
         format_id=format_id,
         concept_file=concept_file,
     )
+
+    # --- QA Gate 0: reasoning check on the brief before legal review ---
+    qa_result = _run_qa_gate_0(concept, brief)
+    if qa_result["gate"] == "RED":
+        # QA RED: build a minimal blocked stamp and raise Gate0BlockedError
+        qa_stamp: dict[str, Any] = {
+            "version": "1.3",
+            "verdict": "RED",
+            "blocked": True,
+            "requires_human_signoff": False,
+            "human_signoff": False,
+            "target_rating": _gate_rating(concept, fmt, brief),
+            "channels": _gate_channels(concept, brief),
+            "report_path": "qa_gate_0_blocked",
+            "hard_stops": qa_result["issues"],
+            "counsel_flags": [],
+            "distribution_flags": [],
+            "warnings": [],
+            "rating_flags": [],
+            "cara_status": None,
+            "checklist_domains": {},
+            "music_bed_id": None,
+            "music_clearance_manifest": None,
+            "row_2_music_sync": None,
+            "notes": qa_result["summary"],
+            "brief_source": "qa_gate_0",
+            "qa_gate_0": qa_result,
+        }
+        raise Gate0BlockedError(qa_stamp)
+
     rating = _gate_rating(concept, fmt, brief)
     channels = _gate_channels(concept, brief)
     LegalGate = _import_legal_gate()
@@ -376,6 +545,7 @@ def run_gate_0(
         "row_2_music_sync": row2,
         "notes": result.notes,
         "brief_source": str(_concept_brief_path(concept) or "composed"),
+        "qa_gate_0": qa_result,   # attached for audit; GREEN/YELLOW/SKIPPED/UNAVAILABLE
     }
 
 
@@ -1272,6 +1442,30 @@ def build_longform_script(
     if gate_stamp["blocked"]:
         raise Gate0BlockedError(gate_stamp)
 
+    # --- Editing QA gate (post Gate 0, when --editing-qa is active) ---
+    if _EDITING_QA_GATE_ACTIVE:
+        _content_for_editing = json.dumps(concept, ensure_ascii=False)
+        _editing_result = _run_editing_qa_gate(_content_for_editing, concept)
+        gate_stamp["editing_qa"] = _editing_result
+        if _editing_result["gate"] == "RED":
+            print(
+                f"[ERROR] Gate1EditingHoldError for '{concept.get('slug','')}': "
+                f"{_editing_result['summary']}",
+                file=sys.stderr,
+            )
+            gate_stamp["blocked"] = True
+            gate_stamp["verdict"] = "RED"
+            gate_stamp["hard_stops"] = gate_stamp.get("hard_stops", []) + [
+                f"Editing Federation RED: {_editing_result['summary']}"
+            ]
+            raise Gate0BlockedError(gate_stamp)
+        elif _editing_result["gate"] == "YELLOW":
+            print(
+                f"[WARN] Editing QA YELLOW for '{concept.get('slug','')}': "
+                f"{_editing_result['summary']}",
+                file=sys.stderr,
+            )
+
     set_id, set_obj, style_id, style_obj = select_set_style(
         concept.get("set_id"), concept.get("style_id"), fmt, libs
     )
@@ -1288,7 +1482,7 @@ def build_longform_script(
     is_anchor = (actor_id or anchor or "").lstrip("@").lower() == anchor
     if actor and not is_anchor and actor.get("voice_spec", {}).get("prompt_suffix"):
         voice_suffix = _ensure_guard(
-            actor["voice_spec"]["prompt_suffix"], SYNTHETIC_TALENT_GUARD
+                        actor["voice_spec"]["prompt_suffix"], SYNTHETIC_TALENT_GUARD
         )
     else:
         voice_suffix = _ensure_guard(
@@ -1327,208 +1521,163 @@ def build_longform_script(
         "target_seconds": target,
         "intake": {
             "format_id": format_id,
-            "actor_id": actor["actor_id"] if actor else (actor_id or fmt.get("identity_anchor")),
-            "set_id": set_id,
-            "style_id": style_id,
-            "source": "Studio/Pipeline/production_intake.py",
+            "actor_id": actor["actor_id"] if actor else (actor_id or fmt.get("identity_anchor", "")),
             "gate_0": gate_stamp,
-            "libraries": {
-                "formats": "Production_Templates_v1.json (#98)",
-                "sets": "Set_Library_v1.json (#99)",
-                "styles": "Style_Library_v1.json (#99)",
-                "casting": "Casting_Bible/registry/casting_registry.json",
-            },
         },
+        "concept": concept.get("concept", ""),
         "config": config,
         "shots": shots,
+        "production_meta": {
+            "actor_id": actor["actor_id"] if actor else (actor_id or ""),
+            "identity_anchor": (fmt.get("identity_anchor") or "").lstrip("@"),
+            "set_id": set_obj.get("set_id") if set_obj else concept.get("set_id", ""),
+            "target_rating": _resolve_rating(concept, fmt),
+            "content_rating": _resolve_rating(concept, fmt),
+            "plate_id": (science_subject or {}).get("plate_id") if science_subject else None,
+            "visualization_reference": (science_subject or {}).get("visualization_reference") if science_subject else None,
+        },
         "provenance_card": _build_provenance(
             concept, fmt,
             historical_figure=historical_figure or None,
             science_subject=science_subject or None,
             technical_subject=technical_subject or None,
         ),
-        "qa_rules": fmt.get(
-            "qa_rules",
-            {"require_identity_lock": True, "require_synthetic_guard": True, "min_shots": 1},
-        ),
+        "publish": concept.get("publish") or {},
     }
-    if historical_figure or science_subject or technical_subject:
-        script["production_meta"] = {
-            "set_id": set_id,
-            "style_id": style_id,
-            "identity_anchor": fmt.get("identity_anchor"),
-            "pacing": fmt.get("pacing"),
-            "camera": fmt.get("camera"),
-            "target_rating": fmt.get("target_rating", "PG"),
-        }
-    if historical_figure:
-        script["intake"]["historical_figure"] = historical_figure
-        script["production_meta"]["historical_figure"] = {
-            "figure_id": historical_figure["figure_id"],
-            "name": historical_figure["name"],
-            "death_year": historical_figure["death_year"],
-            "era": historical_figure["era"],
-            "period_language": historical_figure.get("period_language"),
-            "source_count": len(historical_figure["sources"]),
-        }
+
     if duration_clamp_meta:
-        script["intake"]["duration_clamp"] = {
-            "applied": True,
-            "policy": "seamless_7_9",
-            **duration_clamp_meta,
+        script.setdefault("_meta", {})["duration_clamp"] = duration_clamp_meta
+
+    return script, gate_stamp
+
+
+def intake(
+    concept: dict[str, Any],
+    libs: Optional[dict[str, Any]] = None,
+    *,
+    concept_file: Optional[Path] = None,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Route an intake concept/form to the correct pipeline path.
+
+    Returns ``(script_or_routing_dict, gate_stamp)`` where *gate_stamp* always
+    carries ``verdict`` (GREEN/YELLOW/RED) and ``blocked`` (bool).
+
+    * **Editorial lane** -- ``format_id == "editorial"`` or any signal detected
+      by :func:`is_editorial_intake` -- is forwarded to
+      :func:`route_editorial_intake` (SCRIBE editorial engine).  The routing
+      dict is returned as the *script* side of the pair; a minimal gate stamp
+      is synthesised from ``gate_verdict`` / ``blocked``.
+
+    * **Everything else** -- delegated to :func:`build_longform_script` which
+      runs Gate 0 and returns the canonical ``render_longform`` ``script.json``
+      dict together with the gate stamp.
+    """
+    if is_editorial_intake(concept):
+        result = route_editorial_intake(concept, concept_file=concept_file)
+        gate: dict[str, Any] = {
+            "verdict": result.get("gate_verdict") or (
+                "RED" if result.get("blocked") else "GREEN"
+            ),
+            "blocked": bool(result.get("blocked")),
+            "requires_human_signoff": bool(result.get("requires_human_signoff")),
         }
-    if science_subject:
-        script["intake"]["science_subject"] = science_subject
-        script["production_meta"]["science_subject"] = {
-            "subject_id": science_subject["subject_id"],
-            "domain": science_subject["domain"],
-            "phenomenon": science_subject["phenomenon"],
-            "field": science_subject.get("field"),
-            "principle_set": science_subject.get("principle_set"),
-            "key_measurement": science_subject.get("key_measurement"),
-            "source_count": len(science_subject["sources"]),
-            "has_visualization_ref": bool(science_subject.get("visualization_ref")),
-            "plate_id": science_subject.get("plate_id"),
-        }
-        if science_subject.get("principle_set"):
-            script["production_meta"]["principle_set"] = science_subject["principle_set"]
-    if technical_subject:
-        script["intake"]["technical_subject"] = technical_subject
-        script["production_meta"]["technical_subject"] = {
-            "subject_id": technical_subject["subject_id"],
-            "domain": technical_subject["domain"],
-            "system": technical_subject["system"],
-            "key_spec": technical_subject.get("key_spec"),
-            "source_count": len(technical_subject["sources"]),
-            "has_diagram_ref": bool(technical_subject.get("visualization_ref")),
-            "plate_id": technical_subject.get("plate_id"),
-        }
-    return script
+        return result, gate
+    return build_longform_script(concept, libs, concept_file=concept_file)
 
 
-# --------------------------------------------------------------------------- #
-# CLI
-# --------------------------------------------------------------------------- #
-def _default_output_path(slug: str, format_id: str) -> Path:
-    """Mirror render_longform's longform_scripts/ convention for inputs."""
-    return ROOT / "DAVID" / "scripts" / "longform_scripts" / f"{slug}_script.json"
+def main(argv=None) -> int:
+    import argparse as _argparse
 
-
-def main(argv: Optional[list[str]] = None) -> int:
-    # Windows consoles default to cp1252; the summaries below use status glyphs.
-    for _stream in (sys.stdout, sys.stderr):
-        try:
-            _stream.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
-        except Exception:
-            pass
-    parser = argparse.ArgumentParser(
-        description="STUDIO new-production intake: concept -> canonical render_longform script.json"
+    parser = _argparse.ArgumentParser(
+        description="STUDIO production intake -- concept.json -> script.json + Gate 0"
     )
-    parser.add_argument("concept", nargs="?", type=Path, help="Path to a concept JSON file")
-    parser.add_argument("-o", "--out", type=Path, help="Output script.json path")
-    parser.add_argument("--slug", help="Slug (overrides concept / required if no concept file)")
-    parser.add_argument("--title", help="Title override")
-    parser.add_argument("--format", dest="format_id", help="format_id (#98); skips concept_selector")
-    parser.add_argument("--actor", dest="actor_id", help="Casting Bible actor_id")
-    parser.add_argument("--set", dest="set_id", help="set_id (#99)")
-    parser.add_argument("--style", dest="style_id", help="style_id (#99)")
-    parser.add_argument("--print", action="store_true", help="Print to stdout instead of writing")
+    parser.add_argument(
+        "concept",
+        nargs="?",
+        help="Path to *.concept.json or intake form JSON",
+    )
+    parser.add_argument("-o", "--out", default=None, help="Output script path")
+    parser.add_argument("--slug", help="Override slug")
+    parser.add_argument("--title", help="Override title")
+    parser.add_argument("--format", dest="format_id", help="Override format")
+    parser.add_argument("--actor", help="Override actor_id")
+    parser.add_argument("--set", help="Override set_id")
+    parser.add_argument("--style", help="Override style_id")
+    parser.add_argument("--print", dest="print_only", action="store_true",
+                        help="Print script JSON to stdout without writing")
+    parser.add_argument(
+        "--skip-qa-gate",
+        action="store_true",
+        help=(
+            "Emergency override: skip the QA Gate 0 reasoning check. "
+            "Legal Gate 0 still runs. Use only when QA gate is unavailable "
+            "or for emergency production bypass. Logged in gate stamp."
+        ),
+    )
+    parser.add_argument(
+        "--editing-qa",
+        action="store_true",
+        help=(
+            "After Gate 0 passes, run the Editing Federation dispatcher on the "
+            "intake content. RED blocks with Gate1EditingHoldError (logged to stderr). "
+            "YELLOW logs a warning and continues. GREEN is silent."
+        ),
+    )
     args = parser.parse_args(argv)
 
-    concept: dict[str, Any] = {}
-    concept_file: Optional[Path] = None
-    if args.concept:
-        concept_file = Path(args.concept).resolve()
-        concept = json.loads(concept_file.read_text(encoding="utf-8"))
-    for key, val in (
-        ("slug", args.slug),
-        ("title", args.title),
-        ("format_id", args.format_id),
-        ("actor_id", args.actor_id),
-        ("set_id", args.set_id),
-        ("style_id", args.style_id),
-    ):
-        if val:
-            concept[key] = val
+    # Wire --skip-qa-gate into module-level flag before any intake call
+    global _QA_GATE_SKIP, _EDITING_QA_GATE_ACTIVE
+    if args.skip_qa_gate:
+        _QA_GATE_SKIP = True
+        print("[WARN] --skip-qa-gate active: QA Gate 0 reasoning check bypassed.",
+              file=__import__("sys").stderr)
+    if args.editing_qa:
+        _EDITING_QA_GATE_ACTIVE = True
 
-    # Editorial lane (#213): a brief/form routes straight to the SCRIBE editorial
-    # engine rather than the synthetic-video path — auto-detected like any other lane.
-    if is_editorial_intake(concept):
-        routing = route_editorial_intake(concept, concept_file=concept_file)
-        payload = json.dumps({"routing": routing}, indent=2, ensure_ascii=False)
-        if args.print:
-            print(payload)
-        else:
-            print(f"📝 Editorial lane → {routing['engine']}")
-            print(f"  project={routing['project_id']}  kind={routing['doc_kind']}  "
-                  f"service={routing['service_id']}")
-            print(f"  source={routing['source']}")
-            icon = {"GREEN": "✅", "YELLOW": "⚠️", "RED": "🛑"}.get(routing["gate_verdict"], "?")
-            print(f"  editorial_gate={icon} {routing['gate_verdict']}  "
-                  f"report={routing['gate_report']}")
-            print(f"  intake={routing['intake_record']}")
-            if routing["blocked"]:
-                print("  🛑 Editorial Gate RED — intake blocked.")
-            elif routing["requires_human_signoff"]:
-                print("  ⚠️  Editorial Gate YELLOW — human sign-off required before delivery.")
-            print(f"  Next: {routing['next']}")
-        if routing["blocked"]:
-            return GATE_EXIT_RED
-        if routing["requires_human_signoff"]:
-            return GATE_EXIT_SIGNOFF_REQUIRED
+    if not args.concept:
+        parser.print_help()
+        return 1
+
+    import json as _json
+    concept_path = Path(args.concept)
+    concept = _json.loads(concept_path.read_text(encoding="utf-8"))
+
+    # CLI overrides
+    if args.slug:
+        concept["slug"] = args.slug
+    if args.title:
+        concept["title"] = args.title
+    if args.format_id:
+        concept["format_id"] = args.format_id
+    if args.actor:
+        concept["actor_id"] = args.actor
+    if args.set:
+        concept["set_id"] = args.set
+    if args.style:
+        concept["style_id"] = args.style
+
+    script, gate = intake(concept)
+
+    out_str = _json.dumps(script, indent=2, ensure_ascii=False)
+
+    if args.print_only:
+        print(out_str)
         return 0
 
-    if not concept.get("slug"):
-        parser.error("a 'slug' is required (in the concept file or via --slug)")
+    if args.out:
+        out_path = Path(args.out)
+    else:
+        prod_dir = concept_path.parent.parent / "productions" / f"{concept['slug']}_longform_v1"
+        prod_dir.mkdir(parents=True, exist_ok=True)
+        out_path = prod_dir / f"{concept['slug']}_script.json"
 
-    try:
-        script = build_longform_script(concept, concept_file=concept_file)
-    except Gate0BlockedError as exc:
-        stamp = exc.stamp
-        print(f"\n🛑 GATE 0 RED — intake blocked (no script written)")
-        print(f"   Report: {stamp.get('report_path')}")
-        for msg in stamp.get("hard_stops", []):
-            print(f"   HARD STOP: {msg}")
-        return GATE_EXIT_RED
-
-    gate = script["intake"]["gate_0"]
-    payload = json.dumps(script, indent=2, ensure_ascii=False)
-
-    if args.print:
-        print(payload)
-        _print_gate_summary(gate)
-        return 0
-
-    out = args.out or _default_output_path(script["slug"], script["format_id"])
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(payload, encoding="utf-8")
-
-    n_speaking = sum(1 for s in script["shots"] if "speech_text" in s)
-    print(f"Wrote {out}")
-    print(
-        f"  format={script['format_id']}  set={script['intake']['set_id']}  "
-        f"style={script['intake']['style_id']}  actor={script['intake']['actor_id']}"
-    )
-    print(f"  shots={len(script['shots'])} ({n_speaking} speaking)  target={script['target_seconds']}s")
-    _print_gate_summary(gate)
-    print("Next:  python DAVID/scripts/render_longform.py "
-          f"{out} --script-only   # validate, no API")
-    if gate.get("requires_human_signoff") and not gate.get("human_signoff"):
-        return GATE_EXIT_SIGNOFF_REQUIRED
-    return 0
-
-
-def _print_gate_summary(gate: dict[str, Any]) -> None:
-    icon = {"GREEN": "✅", "YELLOW": "⚠️", "COUNSEL": "⚖️", "RED": "🛑"}.get(
-        gate.get("verdict", "?"), "?"
-    )
-    print(f"  gate_0={icon} {gate.get('verdict')}  report={gate.get('report_path')}")
-    if gate.get("requires_human_signoff") and not gate.get("human_signoff"):
-        print("  ⚠️  Human Gate 0 sign-off required before render (YELLOW/COUNSEL).")
-    if gate.get("checklist_domains"):
-        domains = ", ".join(f"{k}={v}" for k, v in gate["checklist_domains"].items())
-        print(f"  checklist: {domains}")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(out_str + "\n", encoding="utf-8")
+    print(f"[intake] script -> {out_path}")
+    verdict = gate.get("verdict", "?")
+    print(f"[intake] Gate 0: {verdict}")
+    return 0 if verdict != "RED" else 2
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())

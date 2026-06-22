@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "david_old_english_corpus_v1",
+    "variant": "A",
+    "filename": "david_old_english_corpus_v1_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Beowulf's Tongue in Manuscript",
+    "language": "Old English",
+    "era": "Anglo-Saxon England, 700–1100 CE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. extreme close-up of an illuminated Old English manuscript page, Beowulf ink script visible, candlelight warm glow, vellum texture, deep amber and black colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "BEOWULF'S TONGUE IN MANUSCRIPT",
+      "subline": "The Speech That Outlasted the Kingdoms",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: Old English artifact or inscription as hero element. Era: Anglo-Saxon England, 700–1100 CE. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "david_old_english_corpus_v1",
+    "variant": "B",
+    "filename": "david_old_english_corpus_v1_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Beowulf's Tongue in Manuscript",
+    "language": "Old English",
+    "era": "Anglo-Saxon England, 700–1100 CE",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, Old English insular script characters — angular runic-influenced letters — filling the background in charcoal on parchment texture, candlelit amber tones filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "BEOWULF'S TONGUE IN MANUSCRIPT",
+      "subline": "The Speech That Outlasted the Kingdoms",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, Old English writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

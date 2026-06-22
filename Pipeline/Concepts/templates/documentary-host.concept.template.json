@@ -6,14 +6,24 @@
     "set_style_defaults": "Omit set_id/style_id to use @Set-Archive-001 + @Style-Documentary-Prestige-001",
     "legal_gate": "§3.4 — python artifacts/legal/legal_gate.py --project [slug] --file brief.txt --rating PG",
     "outfit": "N/A — David host wardrobe in identity lock (§4), not casting plate",
-    "fill_fields": ["slug", "title", "tags", "brand.*", "beats[].speech_text", "beats[].on_screen"]
+    "fill_fields": [
+      "slug",
+      "title",
+      "tags",
+      "brand.*",
+      "beats[].speech_text",
+      "beats[].on_screen"
+    ]
   },
   "slug": "[slug_your_documentary_v1]",
   "title": "[TITLE — DAVID episode title]",
   "format_id": "documentary-host",
   "actor_id": "David-001",
-  "target_seconds": 69,
-  "tags": ["[tag_primary]", "[tag_secondary]"],
+  "target_seconds": 120,
+  "tags": [
+    "[tag_primary]",
+    "[tag_secondary]"
+  ],
   "brand": {
     "title": "[BRAND_TITLE — e.g. DAVID · The Archive]",
     "subtitle": "[BRAND_SUBTITLE — tagline]",
@@ -55,5 +65,13 @@
       "id": "08_invitation",
       "speech_text": "[INVITATION — welcome and follow CTA]"
     }
-  ]
+  ],
+  "gate_0": {
+    "music_bed_id": "BED-DOC-001",
+    "rating": "PG",
+    "channels": [
+      "social",
+      "streaming"
+    ]
+  }
 }

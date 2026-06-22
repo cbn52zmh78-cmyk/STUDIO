@@ -1,0 +1,254 @@
+{
+  "issue": 140,
+  "task": "T2 #140 — thumbnail specs for 3 lane samples (movies / companion / explainer)",
+  "generated_at": "2026-06-19T07:30:00+00:00",
+  "note": "Lane samples use their own brand systems distinct from DAVID channel. Each spec: 1280×720, JPEG, both A and B variants.",
+  "lane_count": 3,
+  "samples": [
+    {
+      "slug": "movies_lane_sample_v1",
+      "lane": "movies",
+      "title": "Warehouse Signal",
+      "format_id": "narrative-short-film",
+      "actor_id": "Amara-001",
+      "actor_type": "synthetic",
+      "actor_age_lock": 30,
+      "target_rating": "PG-13",
+      "canvas_px": [1280, 720],
+      "brand": {
+        "channel": "STUDIO Movies Lane",
+        "wordmark": "STUDIO · Upon Tyne",
+        "colors": {
+          "bg": "#0A0B0D",
+          "title_primary": "#FFFFFF",
+          "title_accent": "#E8C84A",
+          "body": "#C8CDD7",
+          "shadow": "#1A1C20",
+          "badge_thriller": "#CC3333"
+        },
+        "lighting": "Industrial 4800K window key, deep cool shadow, warehouse depth"
+      },
+      "plates": {
+        "identity_lock": "STUDIO/Productions/Narrative/movies_lane_sample_v1/amara_character_identity_lock.json",
+        "actor_reference": "STUDIO/Productions/Narrative/movies_lane_sample_v1/references/amara_character_avatar_reference.jpg",
+        "set_reference": "STUDIO/Pipeline/references/warehouse_industrial_reference.jpg",
+        "base_candidate": "STUDIO/Productions/Narrative/movies_lane_sample_v1_longform_v1/upload_kit/thumbnail/candidate_peak_frame.jpg",
+        "alt_candidate": "STUDIO/Productions/Narrative/movies_lane_sample_v1_longform_v1/upload_kit/thumbnail/candidate_establishing_frame.jpg"
+      },
+      "layout": {
+        "title_zone": {
+          "x": 0, "y": 360, "w": 700, "h": 320,
+          "safe_margin_px": 48,
+          "note": "Title left 54%; Amara's face in right 46%; warehouse window behind"
+        },
+        "actor_crop": {
+          "anchor": "right-center",
+          "notes": "Chest-up from peak-frame; side-lit; no full reveal of face if tension beat"
+        },
+        "fonts": {
+          "hook_title": {"family": "Arial", "weight": "bold", "size_px": 80, "max_lines": 2},
+          "hook_subtitle": {"family": "Arial", "weight": "regular", "size_px": 28},
+          "genre_badge": {"family": "Arial", "weight": "bold", "size_px": 18}
+        }
+      },
+      "copy": {
+        "hook_title": "WAREHOUSE\nSIGNAL",
+        "hook_subtitle": "Who's really watching?",
+        "genre_badge": "THRILLER · SFW · STUDIO SAMPLE"
+      },
+      "delivery": {
+        "filename": "movies_lane_sample_v1_thumbnail_1280x720.jpg",
+        "format": "JPEG",
+        "quality": 92,
+        "max_bytes": 2097152
+      },
+      "imagine_prompt": "YouTube thumbnail 1280×720, cinematic thriller tone, high contrast readable at small size. Base from warehouse industrial peak frame — @Set-Warehouse-Industrial-001, deep cool shadow, industrial window key 4800K. LEFT THIRD: bold title-safe negative space, white title 'WAREHOUSE SIGNAL', yellow accent subtitle 'Who's really watching?'. RIGHT TWO-THIRDS: synthetic actress Amara-001 (Amara Singh), 30-year-old synthetic British-Asian female, chest-up, dramatic side lit, tense expression, dark warehouse depth behind. No real person likeness, no celebrity resemblance, invented face. Deep blue-grey industrial palette; PG-13 tension, no gore. Genre badge lower-left: THRILLER · STUDIO SAMPLE. STUDIO wordmark top-left. SFW.",
+      "design_notes": [
+        "Use candidate_peak_frame.jpg as base (shot 06_peak, 42.6s — peak tension beat)",
+        "Keep Amara's eyes in right two-thirds; title text in left title-safe zone",
+        "Genre badge red accent #CC3333 bottom-left",
+        "No blood, no explicit violence — PG-13 thriller tension only"
+      ],
+      "variants": {
+        "a": {
+          "label": "A — tension / mystery hook",
+          "hook_title": "WAREHOUSE\nSIGNAL",
+          "hook_subtitle": "Who's really watching?",
+          "filename": "movies_lane_sample_v1_thumbnail_A_1280x720.jpg"
+        },
+        "b": {
+          "label": "B — genre / keyword",
+          "hook_title": "THRILLER\nSAMPLE",
+          "hook_subtitle": "STUDIO movies lane — synthetic talent",
+          "filename": "movies_lane_sample_v1_thumbnail_B_1280x720.jpg",
+          "imagine_prompt": "YouTube thumbnail 1280×720, cinematic thriller, crisp text left third. White bold title 'THRILLER SAMPLE', subtitle 'STUDIO movies lane — synthetic talent'. Warehouse industrial set background, @Set-Warehouse-Industrial-001, dark and moody. Synthetic actress Amara-001, chest-up right two-thirds, cool window side-key. SFW PG-13. STUDIO wordmark. No real person likeness."
+        }
+      },
+      "ab_test_note": "A variant for engagement/mystery; B variant for demo/showcase context (client deliverable). Compare CTR after 48h."
+    },
+    {
+      "slug": "gfe_companion_sage_proof_v1",
+      "lane": "companion",
+      "title": "Sage SFW Check-In",
+      "format_id": "conversational-companion",
+      "actor_id": "SageGFE-001",
+      "actor_type": "synthetic",
+      "actor_age_lock": 26,
+      "target_rating": "PG",
+      "canvas_px": [1280, 720],
+      "brand": {
+        "channel": "STUDIO Companion Lane",
+        "wordmark": "STUDIO · Upon Tyne",
+        "colors": {
+          "bg": "#F5F0EA",
+          "title_primary": "#1A1814",
+          "title_accent": "#7B9E7A",
+          "body": "#3D3830",
+          "shadow": "#E8E0D4",
+          "badge_companion": "#7B9E7A"
+        },
+        "lighting": "Soft warm daylight through window, linen sofa, modern apartment, lifestyle casual"
+      },
+      "plates": {
+        "actor_reference": "STUDIO/Productions/Companion/gfe_companion_sage_proof_v1_longform_v1/references/sage_companion_avatar_reference.jpg",
+        "set_reference": "STUDIO/Pipeline/references/modern_apartment_reference.jpg"
+      },
+      "layout": {
+        "title_zone": {
+          "x": 0, "y": 300, "w": 680, "h": 380,
+          "safe_margin_px": 48,
+          "note": "Warm light background; companion face right 55%; calm text left 45%"
+        },
+        "actor_crop": {
+          "anchor": "right-center",
+          "notes": "Chest-up from apartment soft-light take; warm eye-line to camera; fully clothed smart-casual"
+        },
+        "fonts": {
+          "hook_title": {"family": "Arial", "weight": "bold", "size_px": 68, "max_lines": 2},
+          "hook_subtitle": {"family": "Arial", "weight": "regular", "size_px": 26},
+          "badge": {"family": "Arial", "weight": "regular", "size_px": 18}
+        }
+      },
+      "copy": {
+        "hook_title": "GLAD\nYOU'RE HERE",
+        "hook_subtitle": "A check-in for your week",
+        "badge": "SFW COMPANION · PG · STUDIO SAMPLE"
+      },
+      "delivery": {
+        "filename": "gfe_companion_sage_proof_v1_thumbnail_1280x720.jpg",
+        "format": "JPEG",
+        "quality": 92,
+        "max_bytes": 2097152
+      },
+      "imagine_prompt": "YouTube thumbnail 1280×720, warm lifestyle tone, inviting and calm, high readability. LEFT 45%: title-safe negative space on warm cream/linen bg — dark text 'GLAD YOU'RE HERE', subtitle 'A check-in for your week'. RIGHT 55%: SageGFE-001 — synthetic female companion, 26yo, intellectual energy, warm eye-line to camera, smart-casual fully clothed (fitted jumper or blouse), soft window daylight from left, modern apartment linen sofa behind. Warm, friendly, no suggestive framing, PG mandatory. Green accent badge lower-left: SFW COMPANION · STUDIO SAMPLE. STUDIO wordmark top-left. No real person likeness, no celebrity resemblance, invented face. Soft warm palette — cream, linen, sage green accents.",
+      "design_notes": [
+        "Warm pale background rather than dark — contrast with DAVID's deep palette",
+        "No bedroom staging, no suggestive angle, no close-crop on body",
+        "Fully clothed in frame: jumper, blouse, or equivalent smart-casual",
+        "SFW badge green accent to signal content rating clearly",
+        "For client demo: B variant shows 'STUDIO SAMPLE' prominently"
+      ],
+      "variants": {
+        "a": {
+          "label": "A — emotional / check-in hook",
+          "hook_title": "GLAD\nYOU'RE HERE",
+          "hook_subtitle": "A check-in for your week",
+          "filename": "gfe_companion_sage_proof_v1_thumbnail_A_1280x720.jpg"
+        },
+        "b": {
+          "label": "B — format / keyword",
+          "hook_title": "COMPANION\nCHECK-IN",
+          "hook_subtitle": "Synthetic SFW · STUDIO sample",
+          "filename": "gfe_companion_sage_proof_v1_thumbnail_B_1280x720.jpg",
+          "imagine_prompt": "YouTube thumbnail 1280×720, warm lifestyle. Left third: dark text 'COMPANION CHECK-IN', subtitle 'Synthetic SFW · STUDIO sample'. Right two-thirds: SageGFE-001 synthetic companion, warm apartment set, fully clothed, friendly eye-line, PG. Green badge. STUDIO wordmark. No real person likeness."
+        }
+      },
+      "ab_test_note": "A for viewer-first emotional hook; B for platform/demo context where format signal matters more. Companion YELLOW must re-gate GREEN before any social publish — thumbnail variants cleared for pre-publish asset preparation only."
+    },
+    {
+      "slug": "julian_flowdesk_explainer_v1",
+      "lane": "explainer",
+      "title": "FlowDesk Explainer — Julian-001",
+      "format_id": "explainer-ad",
+      "actor_id": "Julian-001",
+      "actor_type": "synthetic",
+      "actor_age_lock": 31,
+      "target_rating": "PG",
+      "canvas_px": [1280, 720],
+      "brand": {
+        "channel": "STUDIO Explainer Lane",
+        "wordmark": "STUDIO · Upon Tyne",
+        "product_brand": "FlowDesk",
+        "colors": {
+          "bg": "#0F1219",
+          "title_primary": "#FFFFFF",
+          "title_accent": "#4A9EFF",
+          "body": "#C8D0DC",
+          "shadow": "#1E2330",
+          "badge_explainer": "#4A9EFF",
+          "product_accent": "#38B2FF"
+        },
+        "lighting": "Cool clinical 5600K key on neutral grey seamless; product-trust grade; no warm amber"
+      },
+      "plates": {
+        "set_reference": "STUDIO/Pipeline/references/seamless_neutral_reference.jpg",
+        "actor_note": "Julian-001: navy blazer, light blue Oxford shirt, no tie, dark chinos; neutral grey seamless behind"
+      },
+      "layout": {
+        "title_zone": {
+          "x": 0, "y": 300, "w": 720, "h": 380,
+          "safe_margin_px": 48,
+          "note": "Left 56% for title + product name; Julian right 44% presenting to camera"
+        },
+        "actor_crop": {
+          "anchor": "right-center",
+          "notes": "Chest-up, professional presenter pose, confident eye-line to camera"
+        },
+        "product_zone": {
+          "note": "Optional: FlowDesk UI mockup lower-left below title, small scale (approx 200×120px)"
+        },
+        "fonts": {
+          "hook_title": {"family": "Arial", "weight": "bold", "size_px": 72, "max_lines": 2},
+          "product_name": {"family": "Arial", "weight": "bold", "size_px": 32, "color": "#38B2FF"},
+          "hook_subtitle": {"family": "Arial", "weight": "regular", "size_px": 24}
+        }
+      },
+      "copy": {
+        "hook_title": "YOUR\nFLOW FIXED",
+        "product_name": "FlowDesk",
+        "hook_subtitle": "30 seconds. See how it works.",
+        "badge": "EXPLAINER AD · SFW · STUDIO SAMPLE"
+      },
+      "delivery": {
+        "filename": "julian_flowdesk_explainer_v1_thumbnail_1280x720.jpg",
+        "format": "JPEG",
+        "quality": 92,
+        "max_bytes": 2097152
+      },
+      "imagine_prompt": "YouTube thumbnail 1280×720, clean product-trust tone, corporate-cool, high contrast. LEFT 56%: title-safe space on near-black bg #0F1219 — bold white title 'YOUR FLOW FIXED', blue accent product name 'FlowDesk', subtitle '30 seconds. See how it works.'. RIGHT 44%: Julian-001 — synthetic male presenter, 31yo, Julian Cross, navy blazer over light blue Oxford, no tie, dark chinos, professional commercial look, confident neutral eye-line to camera, @Set-Seamless-Neutral-001 — neutral grey seamless behind, @Style-Cool-Clinical-001 — 5600K cool clinical key. No real person likeness, no celebrity resemblance, invented face. Cool blue accent #4A9EFF on badge: EXPLAINER AD · STUDIO SAMPLE. STUDIO wordmark top-left. SFW PG.",
+      "design_notes": [
+        "Cool clinical palette — distinct from DAVID warm amber and companion warm cream",
+        "Product name 'FlowDesk' in blue accent — signals product explainer format",
+        "No real product UI needed — title + badge communicates format",
+        "Gate 0 GREEN for this slug — cleared for pre-publish asset prep and client demo",
+        "AI disclosure must appear in upload description at any real publish"
+      ],
+      "variants": {
+        "a": {
+          "label": "A — benefit hook",
+          "hook_title": "YOUR\nFLOW FIXED",
+          "hook_subtitle": "30 seconds. See how it works.",
+          "filename": "julian_flowdesk_explainer_v1_thumbnail_A_1280x720.jpg"
+        },
+        "b": {
+          "label": "B — product / keyword",
+          "hook_title": "FLOWDESK\nEXPLAINED",
+          "hook_subtitle": "Synthetic presenter demo · STUDIO",
+          "filename": "julian_flowdesk_explainer_v1_thumbnail_B_1280x720.jpg",
+          "imagine_prompt": "YouTube thumbnail 1280×720, product-trust blue-dark. Left: 'FLOWDESK EXPLAINED', subtitle 'Synthetic presenter demo · STUDIO'. Right: Julian-001 navy blazer, neutral grey seamless, 5600K cool key. Blue accent #4A9EFF. STUDIO wordmark. No real person likeness. SFW."
+        }
+      },
+      "ab_test_note": "A for general social reach (benefit-first); B for client/platform demo where format signal matters. Both cleared for asset prep — verify AI disclosure surface before any social publish."
+    }
+  ]
+}

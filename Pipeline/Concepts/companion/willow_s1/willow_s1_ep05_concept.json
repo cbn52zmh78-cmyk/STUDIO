@@ -1,0 +1,75 @@
+{
+  "slug": "willow_s1_ep05_forward_lean",
+  "title": "Willow — What Are You Quietly Looking Forward To?",
+  "format_id": "conversational-companion",
+  "actor_id": "WillowGFE-001",
+  "series": "willow_s1",
+  "episode": 5,
+  "target_seconds": 40,
+  "tags": ["companion", "wellness", "anticipation", "forward_lean", "SFW"],
+  "season_arc_note": "Ep 5 of 6 — deepening into forward motion. Theme: quiet anticipation. After four episodes of present-tense tending, viewer is invited to look gently forward. Not goal-setting — noticing something they're looking forward to.",
+  "gate_0": {
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "human_signoff": true,
+    "status": "PENDING"
+  },
+  "provenance_card": {
+    "enabled": true,
+    "label": "Synthetic companion · AI generated performer · Willow S1 · Upon Tyne Productions"
+  },
+  "set_id": "@Set-Modern-Apartment-001",
+  "style_id": "@Style-Soft-Warm-001",
+  "music_bed": "BED-WARM-001",
+  "identity_lock_ref": "STUDIO/Productions/Companion/willow_s1/willow_companion_identity_lock.json",
+  "beats": [
+    {
+      "id": "01_greeting",
+      "role": "Warm camera address — glad you're here energy",
+      "speech_text": "Here you are again. I'm glad.",
+      "duration_s": 6,
+      "camera": "Medium-close, static, warm soft light, slight smile",
+      "sfw_note": "Fully clothed, neutral angle, unhurried"
+    },
+    {
+      "id": "02_check_in",
+      "role": "Open question to viewer",
+      "speech_text": "What are you quietly looking forward to — even something small, or far away?",
+      "duration_s": 7,
+      "camera": "Attentive, open posture, no physical contact staging",
+      "sfw_note": "Engaged listening pose, no proximity escalation"
+    },
+    {
+      "id": "03_core_message",
+      "role": "Single calm thought or affirmation",
+      "speech_text": "There's something important about keeping a small thing to look forward to. Not a goal. Just a pull. Something that makes next week feel worth getting to.",
+      "duration_s": 9,
+      "camera": "Slow micro-push on core message, holds on calm delivery",
+      "sfw_note": "Micro-push only, no framing change, hands remain neutral"
+    },
+    {
+      "id": "04_reflective_pause",
+      "role": "Invited pause / breath beat",
+      "speech_text": "Hold yours for a moment.",
+      "duration_s": 5,
+      "camera": "Hold — companion holds soft eye contact, lets silence settle",
+      "sfw_note": "No cutaway, natural resting expression"
+    },
+    {
+      "id": "05_encouragement",
+      "role": "Affirmation",
+      "speech_text": "That pull — that's enough. You don't need a plan. Just the direction.",
+      "duration_s": 7,
+      "camera": "Warm, grounded, static framing",
+      "sfw_note": "Even frame, no physical escalation"
+    },
+    {
+      "id": "06_soft_close",
+      "role": "Goodbye and CTA",
+      "speech_text": "One more week. I'll be here for it.",
+      "duration_s": 6,
+      "camera": "Companion settles naturally, calm close before fade",
+      "sfw_note": "Clean exit, no lingering intimate frame, low-key CTA"
+    }
+  ]
+}

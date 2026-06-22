@@ -16,7 +16,7 @@
     "end guard mandatory on every generated segment for seamless assembly",
     "one set_id and one style_id per scene — never blend mid-take",
     "lip-sync speech_text must appear in video_prompt when role is speaking",
-    "duration per shot 5–15s (API clip discipline); prefer 7–9s for seamless extend chains",
+    "duration per shot 12–18s (documentary standard); seamless dissolve at 1.8s xfade — v2 seamless transitions",
     "never hold dead stillness or dead frame at segment end"
   ],
   "compose_contract": {
@@ -24,10 +24,12 @@
     "identity_placeholder": "{identity_anchor}",
     "speech_optional_when": "b_roll or silent_establishing roles omit lip-sync clause",
     "seamless_defaults": {
-      "primary": "extend",
-      "xfade_s": 0.2,
+      "primary": "dissolve",
+      "xfade_s": 1.8,
       "match_color": true,
-      "cut_on_motion": true
+      "cut_on_motion": true,
+      "motion_carry": true,
+      "cut_style": "soft"
     }
   },
   "formats": {

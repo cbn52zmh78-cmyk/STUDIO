@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "lane_sample_science",
+    "variant": "A",
+    "filename": "lane_sample_science_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Science Explainer Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. dramatic close-up of a molecular model or scientific apparatus — glass beakers, crystalline structures — in a high-contrast laboratory setting, cool teal and white colour grade. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "THE SCIENCE BEHIND IT",
+      "subline": "Evidence-First Documentary",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: N/A (lane sample) artifact or inscription as hero element. Era: Contemporary science. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "lane_sample_science",
+    "variant": "B",
+    "filename": "lane_sample_science_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Science Explainer Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, scientific diagram elements — atomic structures, formula notation, periodic table fragments — on deep navy blue background, clean high-contrast scientific aesthetic filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "THE SCIENCE BEHIND IT",
+      "subline": "Evidence-First Documentary",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, N/A (lane sample) writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

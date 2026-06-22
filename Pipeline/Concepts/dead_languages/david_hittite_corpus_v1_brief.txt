@@ -1,0 +1,42 @@
+DAVID · The Archive — Episode Brief
+Slug: david_hittite_corpus_v1
+Title: The Language That Rewrote the Family Tree
+Language: Hittite (Classical Old Hittite / Middle Hittite)
+Target: 69 seconds · PG · documentary-host · David-001
+
+CORPUS ANCHOR
+- ~30,000 clay tablets excavated at Hattusa (Boğazkale, Turkey), 1906–present
+- Held at: Istanbul Archaeological Museums; Museum of Anatolian Civilizations, Ankara; Berlin
+- Primary texts: Treaty of Kadesh (Egyptian-Hittite, c. 1259 BCE); Anitta text (oldest Hittite, 18th c. BCE); CTH (Catalogue of Hittite Texts) cuneiform tablets
+- Bilingual: many administrative texts in Hittite + Akkadian; hieroglyphic Luwian companion inscriptions
+- Publication standard: Keilschrifturkunden aus Boghazköi (KBo), Keilschrifttexte aus Boghazköi (KUB)
+
+DEMONSTRATION LINE
+nu GIM-an dUTU-uš nepišaz andan uizzi
+Transliteration from KBo 17.74 (Hittite ritual prayer)
+Gloss: "and/now as the Sun god comes in from heaven"
+Nature: ATTESTED cuneiform text; phonemic realisation RECONSTRUCTED where orthography under-specifies
+
+ATTESTATION STATUS
+Attested: Yes (cuneiform syllabary directly records C+V sequences)
+Reconstructed: Phonemic contrasts masked by cuneiform (e.g., voiced/voiceless stops); accent
+
+HISTORICAL SIGNIFICANCE
+- First Indo-European language attested in written form
+- Confirmed Ferdinand de Saussure's laryngeal hypothesis (1879): Hittite preserved laryngeals written as ḫ
+- Forced wholesale revision of the PIE phonological model (laryngeal theory)
+- Treaty of Kadesh: earliest surviving international peace treaty; both Hittite and Egyptian versions preserved
+
+GATE 0 NOTES
+- All corpus material ≥2,700 years old; public domain
+- No living community claims Hittite as heritage language; no cultural sensitivity concerns
+- Laryngeal theory explanation kept at accessible level; no contested political claims
+- Historical context (Hittite Empire, Anatolia, Battle of Kadesh) is widely documented in peer-reviewed scholarship
+- AI disclosure: provenance card at episode open + YouTube metadata
+
+STD-CITE-001 SOURCES
+- Watkins, Calvert. "The American Heritage Dictionary of Indo-European Roots." Houghton Mifflin, 2000.
+- Melchert, H. Craig (ed.). "The Luwians." Brill, 2003.
+- Güterbock, Hans G. & Hoffner, Harry A. "The Hittite Dictionary of the Oriental Institute." OI Chicago, 1989–2013.
+- Treaty of Kadesh: Lichtheim, Miriam. "Ancient Egyptian Literature, Vol. II." UC Press, 1976, pp. 57–72.
+- KBo 17.74: Keilschrifturkunden aus Boghazköi, vol. 17, tablet 74. Berlin: Deutsche Orient-Gesellschaft.

@@ -1,0 +1,75 @@
+{
+  "slug": "willow_s1_ep03_one_small_win",
+  "title": "Willow — What's One Thing That Went Okay?",
+  "format_id": "conversational-companion",
+  "actor_id": "WillowGFE-001",
+  "series": "willow_s1",
+  "episode": 3,
+  "target_seconds": 40,
+  "tags": ["companion", "wellness", "reflection", "small_win", "SFW"],
+  "season_arc_note": "Ep 3 of 6 — deepening. Midpoint of series. Theme: noticing the small. Viewer is invited to find one thing, not many. Arc shifts from permission (ep2) to gentle active reflection.",
+  "gate_0": {
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "human_signoff": true,
+    "status": "PENDING"
+  },
+  "provenance_card": {
+    "enabled": true,
+    "label": "Synthetic companion · AI generated performer · Willow S1 · Upon Tyne Productions"
+  },
+  "set_id": "@Set-Modern-Apartment-001",
+  "style_id": "@Style-Soft-Warm-001",
+  "music_bed": "BED-WARM-001",
+  "identity_lock_ref": "STUDIO/Productions/Companion/willow_s1/willow_companion_identity_lock.json",
+  "beats": [
+    {
+      "id": "01_greeting",
+      "role": "Warm camera address — glad you're here energy",
+      "speech_text": "Good to see you. I've been thinking about you, actually.",
+      "duration_s": 7,
+      "camera": "Medium-close, static, soft warm light",
+      "sfw_note": "Fully clothed, neutral forward-facing angle"
+    },
+    {
+      "id": "02_check_in",
+      "role": "Open question to viewer",
+      "speech_text": "What's one thing that went okay this week? Even something small.",
+      "duration_s": 7,
+      "camera": "Attentive, slight forward lean — not physical proximity, posture only",
+      "sfw_note": "No contact staging, just engaged listening posture"
+    },
+    {
+      "id": "03_core_message",
+      "role": "Single calm thought or affirmation",
+      "speech_text": "We're really bad at noticing the small ones. They happen and then we move on, like they don't count. They do.",
+      "duration_s": 9,
+      "camera": "Slow micro-push on core message, holds",
+      "sfw_note": "Push is micro, no staging change, hands remain neutral"
+    },
+    {
+      "id": "04_reflective_pause",
+      "role": "Invited pause / breath beat",
+      "speech_text": "Let yours stay in your head for a moment.",
+      "duration_s": 6,
+      "camera": "Hold — companion holds soft eye contact, lets silence breathe",
+      "sfw_note": "No cutaway, no expression intensification"
+    },
+    {
+      "id": "05_encouragement",
+      "role": "Affirmation",
+      "speech_text": "That thing you thought of — that's yours. It happened.",
+      "duration_s": 5,
+      "camera": "Warm, static, grounded",
+      "sfw_note": "Even framing, gentle warmth only"
+    },
+    {
+      "id": "06_soft_close",
+      "role": "Goodbye and CTA",
+      "speech_text": "Bring one more next week if you find it. I'll be here.",
+      "duration_s": 6,
+      "camera": "Companion relaxes slightly, calm settle before fade",
+      "sfw_note": "Clean exit, no lingering intimate frame"
+    }
+  ]
+}

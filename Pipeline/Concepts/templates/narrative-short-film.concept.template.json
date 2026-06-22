@@ -6,14 +6,25 @@
     "set_style_defaults": "Omit to use @Set-Warehouse-Industrial-001 + @Style-Cinematic-001; override only with locked pair from §7–§8",
     "legal_gate": "§3.4 — target rating PG-13 default; run legal_gate.py before generation",
     "outfit": "§2 step 2b — image_edit character wardrobe from casting plate before video if not story wardrobe on plate",
-    "fill_fields": ["slug", "title", "actor_id", "tags", "brand.*", "beats[].speech_text"]
+    "fill_fields": [
+      "slug",
+      "title",
+      "actor_id",
+      "tags",
+      "brand.*",
+      "beats[].speech_text"
+    ]
   },
   "slug": "[slug_your_short_film_v1]",
   "title": "[TITLE — short film title]",
   "format_id": "narrative-short-film",
   "actor_id": "[ActorID — e.g. Aiko-001 from Casting Bible lock card]",
   "target_seconds": 60,
-  "tags": ["narrative", "[genre]", "[mood]"],
+  "tags": [
+    "narrative",
+    "[genre]",
+    "[mood]"
+  ],
   "brand": {
     "title": "[FILM_TITLE]",
     "subtitle": "[CREDIT_LINE — writer/director or series]",
@@ -48,5 +59,14 @@
       "id": "07_resolution",
       "speech_text": "[BUTTON — final line]"
     }
-  ]
+  ],
+  "gate_0": {
+    "music_bed_id": "BED-CIN-001",
+    "rating": "PG-13",
+    "channels": [
+      "social",
+      "streaming",
+      "festival"
+    ]
+  }
 }

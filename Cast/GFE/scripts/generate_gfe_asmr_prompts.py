@@ -17,6 +17,17 @@ import re
 import sys
 from pathlib import Path
 
+# --- qa_gate wiring ---
+_AI_FED = Path(__file__).resolve().parents[4] / "AI" / "federation"
+if str(_AI_FED) not in sys.path:
+    sys.path.insert(0, str(_AI_FED))
+try:
+    from qa_gate import qa_check as _qa_gate_check
+    _QA_GATE_AVAILABLE = True
+except ImportError:
+    _QA_GATE_AVAILABLE = False
+# --- end qa_gate wiring ---
+
 from actor_profile_generator import ActorProfile, STUDIO_ROOT
 from ensure_gfe_folder_structure import ensure_actor_dirs
 from gfe_roster_data import GFE_ROSTER_20
@@ -88,6 +99,28 @@ def write_prompt(actor: ActorProfile) -> Path:
     clips_dir = GFE_DIR / actor.stage_name / "CLIPS"
     out = clips_dir / OUT_NAME
     prompt = build_asmr_prompt(actor)
+    # --- qa_gate: QA narration prompt before write ---
+    if _QA_GATE_AVAILABLE and prompt.strip():
+        try:
+            _qa_asmr = _qa_gate_check(
+                content=prompt,
+                content_type="narration",
+                subject=actor.stage_name,
+            )
+            if _qa_asmr["gate"] == "RED":
+                print(
+                    f"[QA HOLD] generate_gfe_asmr_prompts.py: {_qa_asmr['summary']} | Issues: {_qa_asmr['issues']}",
+                    file=sys.stderr,
+                )
+                return out  # skip write on RED
+            elif _qa_asmr["gate"] == "YELLOW":
+                print(
+                    f"[QA WARN] generate_gfe_asmr_prompts.py: {_qa_asmr['summary']}",
+                    file=sys.stderr,
+                )
+        except Exception as _exc:
+            print(f"[QA WARN] generate_gfe_asmr_prompts.py: qa_gate error: {_exc}", file=sys.stderr)
+    # --- end qa_gate ---
     body = (
         f"# ASMR Camera Interaction — {actor.stage_name}\n"
         f"# Library: GFE_ASMR_Camera_Interaction_Library_v1.1.md\n"

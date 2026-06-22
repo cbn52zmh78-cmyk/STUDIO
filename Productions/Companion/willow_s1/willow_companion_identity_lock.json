@@ -1,0 +1,82 @@
+{
+  "production": "willow_s1",
+  "format_id": "conversational-companion",
+  "template_ref": "#98 conversational-companion",
+  "set_style_ref": "#99 @Set-Modern-Apartment-001 + @Style-Soft-Warm-001",
+  "locked_at": "2026-06-20T00:00:00.000000+00:00",
+  "status": "LOCKED",
+  "actor_id": "WillowGFE-001",
+  "character_name": "Willow",
+  "companion_lane": "wellness_companion",
+  "series": "willow_s1",
+  "age_lock": 23,
+  "appearance_lock_verbatim": "GENERATE 3D MODEL of back, side and front profiles of 23-year-old Japanese woman, 5'6\", long-limbed yoga build, soft black hair in loose braid, calm brown eyes, warm beige skin, serene brow, Tattoos: Light tattoo continuity: small kanji wrist (left); constellation cluster right collarbone; minimal thigh script (right). Do not add ink without canon update, wearing a regular thin-strap sage green triangle bikini top and matching sage green bikini bottoms. Single 16:9 turnaround reference sheet on solid pure white background. LEFT panel: side profile. CENTER panel: front view. RIGHT panel: back view. FULL-LENGTH WIDE SHOT in every panel — camera pulled back, entire body head to toe with headroom and footroom, feet visible on the floor. NOT a close-up. NOT a medium close-up. NOT a medium shot. NOT a bust shot. NOT waist-up. NOT knee-up. NOT cropped. Regular thin-strap triangle bikini top and matching bikini bottoms in all three views — fully clothed casting wardrobe, NOT topless, NOT nude, NOT implied nudity. Standing upright, arms at their sides, hands free of any objects. Same person, identical proportions, hairstyle, and wardrobe in all three panels. Even soft studio lighting, full-length body illumination. Hyper-realistic photoreal 3D character reference model. No text, no labels, no props Synthetic fictional character only. No real person or celebrity likeness. Clearly adult with mature facial features and adult bone structure — unambiguously 21+ adult, not teen, not school-age.",
+  "voice_register": "ASMR-soft register; long exhales before lines.",
+  "sfw_rails": [
+    "PG mandatory — no sexual content, no nudity, no suggestive framing, no intimate staging",
+    "Synthetic-only — no real-person or celebrity likeness in appearance or voice",
+    "23-year-old age lock — lead every generation prompt with exact age (minimum 21+)",
+    "Fully clothed wardrobe for companion lane — smart-casual or lifestyle casual only; no cropped tops, no sleepwear, no swimwear",
+    "No bedroom or intimate staging — modern apartment SFW set only",
+    "No romantic roleplay — companion energy is supportive friend, not girlfriend fantasy",
+    "No physical contact between companion and viewer implied or staged",
+    "No medical, legal, or financial advice presented as professional counsel",
+    "AI disclosure required on all shipped content — provenance card burn-in + platform AI label",
+    "Gate 0 required before any publish — YELLOW cleared to GREEN; human_signoff=true"
+  ],
+  "talent": {
+    "actor_id": "WillowGFE-001",
+    "stage_name": "Willow",
+    "age_locked": 23,
+    "content_rating": "SFW",
+    "identity_anchor": "@WillowGFE-001",
+    "wardrobe": "smart-casual or lifestyle casual — fully clothed; no cropped tops, no sleepwear, no swimwear",
+    "set_name": "Modern Apartment (Lifestyle)"
+  },
+  "references": {
+    "talent_casting_plate": {
+      "file": "STUDIO/Cast/GFE/Willow/01_casting_shots/casting_turnaround_v1.jpg",
+      "reuse": "talent reference @2 — image_to_video frame 1 every companion shot"
+    },
+    "set_plate": {
+      "file": "STUDIO/Pipeline/references/modern_apartment_reference.jpg",
+      "reuse": "environment plate @1 — locked modern apartment"
+    }
+  },
+  "voice": {
+    "register": "derived_from_notes",
+    "notes": "ASMR-soft register; long exhales before lines.",
+    "performance_style": "Body as text; stillness is dialogue.",
+    "prompt_suffix": "ASMR-soft register; long exhales before lines; warm attentive listener energy; synthetic companion only",
+    "gender": "female"
+  },
+  "guardrails": [
+    "synthetic only — no real-person likeness",
+    "SFW mandatory — PG rating, no suggestive framing",
+    "23+ talent age_locked verified (minimum 21+)",
+    "fully clothed wardrobe only for companion lane",
+    "Synthetic companion — AI generated performer",
+    "casting plate locked: plate_locked",
+    "AI disclosure required on all publish surfaces"
+  ],
+  "set_locks": {
+    "set_id": "@Set-Modern-Apartment-001",
+    "style_id": "@Style-Soft-Warm-001",
+    "description": "Modern apartment — oak floor, linen sofa, window camera-left, kitchen blur bg",
+    "camera": "Gentle float or static medium-close; micro-push on encouragement beats only",
+    "lighting": "Soft warm key — daylight or soft diffused fill; no noir or dramatic shadow",
+    "music_bed": "BED-WARM-001",
+    "forbidden_angles": "explicit framing, suggestive angles, lingerie or bedroom staging, clinical flatness"
+  },
+  "models": {
+    "image": "grok-imagine-image-quality",
+    "video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "16:9"
+  },
+  "provenance_card": {
+    "enabled": true,
+    "label": "Synthetic companion · AI generated performer · Willow S1 · Upon Tyne Productions"
+  },
+  "series_structure_ref": "STUDIO/Pipeline/Concepts/T3_141_Companion_Lane_Series_Structure.md"
+}

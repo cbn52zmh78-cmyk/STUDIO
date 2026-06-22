@@ -1,0 +1,70 @@
+{
+  "slug": "david_classical_japanese_corpus_v1",
+  "title": "DAVID — The Court Language Hidden in Plain Sight",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": [
+    "history",
+    "language",
+    "japanese",
+    "corpus",
+    "classical"
+  ],
+  "brief": "dead_languages/david_classical_japanese_corpus_v1_brief.txt",
+  "gate_brief": "dead_languages/david_classical_japanese_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": [
+      "social",
+      "streaming"
+    ],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Classical Japanese — the court language of the Man'yōshū and The Tale of Genji, still hiding inside modern Japanese, unchanged on the surface but profoundly different underneath.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "Modern Japanese speakers can read the characters — but the grammar, the verb endings, and the sounds of the Nara and Heian courts have shifted so far that classical texts read like a foreign language if you try to parse them as modern speech."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "So I ask the question I ask of every supposedly dead tongue: who kept speaking it, and what does the corpus preserve about its sound?",
+      "on_screen": "Who kept speaking it?"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "The proof is in Man'yōgana — Chinese characters used purely for their sound value to write Japanese phonetics — giving us the oldest direct record of Japanese syllables, locked inside the four thousand five hundred poems of the Man'yōshū, compiled around 759 CE."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We reconstruct Classical Japanese corpus-first: Man'yōgana syllable inventories identify contrasts lost in modern Japanese, Heian-period grammars record verb conjugation tables, and Buddhist ritual texts preserve archaic readings standardised by monks for centuries."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "The syllable inventory is well-attested; the pitch accent and the eight-vowel system of the Man'yōshū period are partially reconstructed from dialect evidence and comparative Ryukyuan. I label each claim accordingly.",
+      "on_screen": "ATTESTED syllabary · RECONSTRUCTED pitch contour"
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — umi no umi no / kame mo kiku to ya / wata tsu umi no — a fragment from the Man'yōshū, recited as the Nara court would have heard it, with the older vowel distinctions the writing preserves.",
+      "on_screen": "ATTESTED TEXT · Classical Japanese · Man'yōshū, 759 CE"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Follow the Archive, and the language they told you was frozen starts moving again — one attestation at a time."
+    }
+  ]
+}

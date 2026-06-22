@@ -6,14 +6,24 @@
     "set_style_defaults": "Omit to use @Set-Modern-Apartment-001 + @Style-Soft-Warm-001",
     "legal_gate": "§3.4 — PG ceiling; run legal_gate.py; avoid substring 'minor' in brief",
     "outfit": "§2 — lifestyle smart-casual via image_edit if casting plate wardrobe wrong for scene",
-    "fill_fields": ["slug", "title", "actor_id", "tags", "beats[].speech_text"]
+    "fill_fields": [
+      "slug",
+      "title",
+      "actor_id",
+      "tags",
+      "beats[].speech_text"
+    ]
   },
   "slug": "[slug_your_companion_v1]",
   "title": "[TITLE — companion session title]",
   "format_id": "conversational-companion",
   "actor_id": "[ActorID — e.g. Amara-001 from Casting Bible lock card]",
   "target_seconds": 40,
-  "tags": ["companion", "conversational", "[topic]"],
+  "tags": [
+    "companion",
+    "conversational",
+    "[topic]"
+  ],
   "beats": [
     {
       "id": "01_greeting",
@@ -39,5 +49,13 @@
       "id": "06_soft_close",
       "speech_text": "[CLOSE — see you next time]"
     }
-  ]
+  ],
+  "gate_0": {
+    "music_bed_id": "BED-AMB-001",
+    "rating": "PG",
+    "channels": [
+      "social",
+      "streaming"
+    ]
+  }
 }

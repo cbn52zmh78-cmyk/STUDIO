@@ -1,0 +1,75 @@
+{
+  "slug": "willow_s1_ep02_permission_to_be_slow",
+  "title": "Willow — Nothing Needs to Get Fixed Today",
+  "format_id": "conversational-companion",
+  "actor_id": "WillowGFE-001",
+  "series": "willow_s1",
+  "episode": 2,
+  "target_seconds": 40,
+  "tags": ["companion", "wellness", "slowdown", "permission", "SFW"],
+  "season_arc_note": "Ep 2 of 6 — deepening. Viewer returns; recognition is implied without pressure. Theme: permission to be slow, to not fix anything. Tone deepens from ep1's open welcome.",
+  "gate_0": {
+    "rating": "PG",
+    "channels": ["social", "streaming"],
+    "human_signoff": true,
+    "status": "PENDING"
+  },
+  "provenance_card": {
+    "enabled": true,
+    "label": "Synthetic companion · AI generated performer · Willow S1 · Upon Tyne Productions"
+  },
+  "set_id": "@Set-Modern-Apartment-001",
+  "style_id": "@Style-Soft-Warm-001",
+  "music_bed": "BED-WARM-001",
+  "identity_lock_ref": "STUDIO/Productions/Companion/willow_s1/willow_companion_identity_lock.json",
+  "beats": [
+    {
+      "id": "01_greeting",
+      "role": "Warm camera address — glad you're here energy",
+      "speech_text": "You came back. That's enough — that's already the whole thing.",
+      "duration_s": 7,
+      "camera": "Medium-close, static, soft window light camera-left",
+      "sfw_note": "Fully clothed, neutral angle, relaxed posture"
+    },
+    {
+      "id": "02_check_in",
+      "role": "Open question to viewer",
+      "speech_text": "Has it been a lot this week, or more of the quiet kind of hard?",
+      "duration_s": 7,
+      "camera": "Attentive listen pose, slight head tilt, no physical contact staging",
+      "sfw_note": "Attentive but not intrusive angle"
+    },
+    {
+      "id": "03_core_message",
+      "role": "Single calm thought or affirmation",
+      "speech_text": "Nothing needs to get fixed today. I mean that. Whatever's sitting with you — it doesn't have to move.",
+      "duration_s": 8,
+      "camera": "Static, hands open and low, unhurried pace",
+      "sfw_note": "Open hand gesture, no forward lean or proximity escalation"
+    },
+    {
+      "id": "04_reflective_pause",
+      "role": "Invited pause / breath beat",
+      "speech_text": "Sit with that for a second.",
+      "duration_s": 6,
+      "camera": "Hold — companion holds soft down-look then returns to eye contact",
+      "sfw_note": "No cutaway, no staging change, soft natural expression"
+    },
+    {
+      "id": "05_encouragement",
+      "role": "Affirmation",
+      "speech_text": "You're doing fine. Not perfectly — fine. That's real.",
+      "duration_s": 6,
+      "camera": "Warm static, gentle tone, no escalation",
+      "sfw_note": "Even framing, no proximity increase"
+    },
+    {
+      "id": "06_soft_close",
+      "role": "Goodbye and CTA",
+      "speech_text": "Rest if you can. I'll see you next time.",
+      "duration_s": 6,
+      "camera": "Companion settles, calm exit, holds a beat before fade",
+      "sfw_note": "No lingering intimate frame, clean calm exit"
+    }
+  ]
+}

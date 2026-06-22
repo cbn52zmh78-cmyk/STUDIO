@@ -1,0 +1,142 @@
+{
+  "slug": "lang_tutor_001_ep03_market",
+  "title": "Mandarin in Minutes — Lesson 3: At the Market",
+  "series": "LANG_TUTOR_001",
+  "episode": 3,
+  "target_seconds": 62,
+  "status": "DRAFT — PRE-GATE. Gate 0 required before firing. Mandarin segments flagged for cousin review.",
+  "notes": [
+    "Identity lock path is PLACEHOLDER.",
+    "This episode is the 'payoff' lesson — first full transaction scenario.",
+    "Assumes Lessons 1 (tones) and 2 (numbers + duōshao qián) complete.",
+    "Cousin review: all Mandarin dialogue lines flagged."
+  ],
+  "config": {
+    "model_video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "voice_suffix": "warm clear patient teacher voice, natural pacing, Mandarin demo segments delivered slowly and clearly, bilingual fluency implied",
+    "identity_lock": "STUDIO/Cast/Casting_Bible/lock_cards/ZhangYutongLang-001_identity_lock.json",
+    "avatar_reference": "STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_OG.jpg",
+    "seamless": {
+      "primary": "extend",
+      "xfade_s": 0.15,
+      "match_color": true,
+      "cut_on_motion": true,
+      "loudnorm": true
+    },
+    "music_bed": {
+      "track_id": "BED-LANG-BRIGHT-001",
+      "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
+    }
+  },
+  "shots": [
+    {
+      "id": "01_intro",
+      "duration": 6,
+      "t_start": 0,
+      "t_end": 6,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse, bright classroom backdrop. Zhang Yutong warm welcome back, slight forward lean, slightly more energetic than previous lessons — this is the fun one.",
+      "speech_text": "Lesson Three — at the market. This is where everything you learned comes together. Tones, numbers, prices. We are going to buy something in Mandarin.",
+      "on_screen": "Lesson 3 · At the Market"
+    },
+    {
+      "id": "02_enter_greet",
+      "duration": 7,
+      "t_start": 6,
+      "t_end": 13,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Nǐ hǎo!' as market greeting is natural. Verify 'Wǒ yào zhè ge' is natural and toned correctly.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong setting a scene — slight gestural mime of entering a stall, greeting, pointing at something. Warm, illustrative, scenario-setting energy.",
+      "speech_text": "You walk in, you say: Nǐ hǎo! The vendor greets you back. You see something you want. You point and say: Wǒ yào zhè ge — I want this one. Simple as that.",
+      "on_screen": "你好！Nǐ hǎo!\n我要这个\nWǒ yào zhè ge\nI want this one"
+    },
+    {
+      "id": "03_ask_price",
+      "duration": 8,
+      "t_start": 13,
+      "t_end": 21,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify full dialogue sequence naturalness. Vendor response patterns 'X kuài' are correct.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong in dialogue-demonstration mode — slightly acting both sides of a transaction, voice and gesture shifting to indicate the two speakers.",
+      "speech_text": "Now ask the price. Zhè ge duōshao qián? — How much is this one? The vendor says: Èrshí kuài. Twenty yuan. You already know that number. You are already having a conversation.",
+      "on_screen": "这个多少钱？\nZhè ge duōshao qián?\nHow much is this one?\n\n二十块 · Èrshí kuài"
+    },
+    {
+      "id": "04_negotiate",
+      "duration": 8,
+      "t_start": 21,
+      "t_end": 29,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Tài guì le', 'Piányí diǎn, hǎo ma?' and 'Xíng' are natural market phrases. Tones correct.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong with slight playful expression — this is the fun part (bargaining). Natural amused energy, gestural.",
+      "speech_text": "Optional bonus: bargaining. Tài guì le — too expensive. Piányí diǎn, hǎo ma? — A little cheaper, okay? If the vendor agrees: Xíng — okay, deal. This is optional but it will delight people.",
+      "on_screen": "太贵了！Tài guì le!\nToo expensive!\n\n便宜点，好吗？\nA little cheaper, okay?\n\n行 Xíng · Deal"
+    },
+    {
+      "id": "05_pay",
+      "duration": 8,
+      "t_start": 29,
+      "t_end": 37,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Gěi nǐ' and 'Zhǎo nǐ' constructions are natural. Verify 'bù yòng' is correct for 'no need (for change)'.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong miming handing over money, natural gesture, warm and practical teacher energy.",
+      "speech_text": "To pay: Gěi nǐ — here you go. The vendor might say Zhǎo nǐ X kuài — here is your change. If you do not need change: Bù yòng zhǎo — no need to make change. Very polite, very natural.",
+      "on_screen": "给你 Gěi nǐ\nHere you go\n\n找你 Zhǎo nǐ X kuài\nYour change\n\n不用找 Bù yòng zhǎo\nNo change needed"
+    },
+    {
+      "id": "06_full_run",
+      "duration": 8,
+      "t_start": 37,
+      "t_end": 45,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Full transaction run-through — verify all phrases flow naturally as a sequence.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong doing the full transaction as a natural flow — energetic, slightly performative run-through, like running lines, warm and clear.",
+      "speech_text": "Full run. Nǐ hǎo. Wǒ yào zhè ge. Duōshao qián? Tài guì le — piányí diǎn, hǎo ma? Xíng. Gěi nǐ. Xièxiè. You just bought something in Mandarin.",
+      "on_screen": "Full transaction →\n你好 · 我要这个\n多少钱？· 便宜点好吗\n行 · 给你 · 谢谢"
+    },
+    {
+      "id": "07_signoff",
+      "duration": 7,
+      "t_start": 45,
+      "t_end": 52,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong genuine warm sign-off — visibly proud of the student, natural smile.",
+      "speech_text": "That is Lesson Three. Tones, numbers, prices, a full transaction. Lesson Four — asking questions. You are going to learn how to find out where things are and what they are called. Zàijiàn.",
+      "on_screen": "Next → Lesson 4: Questions"
+    }
+  ],
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 5,
+    "card_type": "closing",
+    "title": "Mandarin in Minutes",
+    "subtitle": "Lesson 3 of 5 · DAVID · The Archive",
+    "footer": "AI-generated host · Educational content · Not a certified language instructor · Upon Tyne Productions"
+  },
+  "qa_rules": {
+    "require_identity_lock": true,
+    "require_synthetic_guard": true,
+    "min_shots": 6
+  },
+  "format_id": "language-tutor",
+  "intake": {
+    "gate_0": {
+      "verdict": "PENDING",
+      "blocked": true,
+      "gate_blockers": [
+        "OG plate not yet approved",
+        "legal_gate.py not yet run",
+        "Cousin Mandarin accuracy review pending"
+      ]
+    }
+  }
+}

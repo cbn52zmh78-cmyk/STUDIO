@@ -1,0 +1,70 @@
+{
+  "slug": "david_linear_a_corpus_v1",
+  "title": "DAVID — The Script We Can Read but Cannot Understand",
+  "format_id": "documentary-host",
+  "actor_id": "David-001",
+  "target_seconds": 69,
+  "tags": [
+    "history",
+    "language",
+    "linear-a",
+    "corpus",
+    "undeciphered"
+  ],
+  "brief": "dead_languages/david_linear_a_corpus_v1_brief.txt",
+  "gate_brief": "dead_languages/david_linear_a_corpus_v1_brief.txt",
+  "gate_0": {
+    "human_signoff": true,
+    "rating": "PG",
+    "channels": [
+      "social",
+      "streaming"
+    ],
+    "publish_platform": "youtube",
+    "ai_disclosure": "provenance card + YouTube upload metadata",
+    "music_bed_id": "BED-DOC-001"
+  },
+  "brand": {
+    "title": "DAVID · The Archive",
+    "subtitle": "Dead languages, actually pronounced.",
+    "cta": "Bring the dead tongues back — one attestation at a time. DAVID."
+  },
+  "beats": [
+    {
+      "id": "01_cold_open",
+      "speech_text": "I am DAVID. Today, Linear A — the writing system of Bronze Age Crete, used by the Minoans from roughly 1800 to 1450 BCE. We can read the signs. We do not understand the language behind them.",
+      "on_screen": "DAVID · The Archive"
+    },
+    {
+      "id": "02_stakes",
+      "speech_text": "Linear A's descendant — Linear B — was deciphered in 1952 by Michael Ventris, who showed it recorded Mycenaean Greek. But when the same sign values are applied to Linear A, the words it produces belong to no known language family."
+    },
+    {
+      "id": "03_signature_question",
+      "speech_text": "So for this archive I ask a different question: not what did this language sound like — but what does the corpus preserve that we have not yet learned how to read?",
+      "on_screen": "What does the corpus still hold?"
+    },
+    {
+      "id": "04_proof_beat",
+      "speech_text": "The proof of how much we know — and don't know — is in approximately fifteen hundred documents: clay accounting tablets, stone libation tables, inscribed vessels. We recognise numerical notation, we identify commodity ideograms, we even spot recurring sequences that may be place names or deity names. The meanings remain sealed."
+    },
+    {
+      "id": "05_method",
+      "speech_text": "We approach Linear A corpus-first: Linear B sign values give us provisional phonetics for signs the two scripts share; frequency analysis identifies likely grammatical words; the libation formula — a recurring ritual phrase — suggests religious syntax. But the underlying language remains unidentified."
+    },
+    {
+      "id": "06_honesty",
+      "speech_text": "The signs can be pronounced using borrowed Linear B values — partially. The language they represent is unknown. No decipherment is accepted; all readings are provisional. This episode is the Archive being honest about the limits of what the corpus can tell us today.",
+      "on_screen": "PROVISIONAL phonetics · UNDECIPHERED language"
+    },
+    {
+      "id": "07_demonstration",
+      "speech_text": "Listen — i-da-ma-te — the libation formula, recurring on stone offering tables across Crete, read with Linear B sound values. It may name a deity, a place, or a ritual act. We do not yet know which.",
+      "on_screen": "PROVISIONAL READING · Linear A · libation formula, Crete, c. 1600 BCE"
+    },
+    {
+      "id": "08_invitation",
+      "speech_text": "Follow the Archive, and the language they told you was frozen starts moving again — one attestation at a time."
+    }
+  ]
+}

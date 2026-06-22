@@ -1,0 +1,141 @@
+{
+  "slug": "lang_tutor_001_ep02_numbers_time",
+  "title": "Mandarin in Minutes — Lesson 2: Numbers & Time",
+  "series": "LANG_TUTOR_001",
+  "episode": 2,
+  "target_seconds": 60,
+  "status": "DRAFT — PRE-GATE. Gate 0 required before firing. Mandarin segments flagged for cousin review.",
+  "notes": [
+    "Identity lock path is PLACEHOLDER — create after OG plate approved + legal_gate.py GREEN.",
+    "Music bed: BED-LANG-BRIGHT-001 placeholder — same across all 5 episodes.",
+    "Mandarin spoken segments: flag for cousin accuracy review before render.",
+    "Lesson assumes viewer has completed Lesson 1 (tones + nǐ hǎo)."
+  ],
+  "config": {
+    "model_video": "grok-imagine-video-1.5",
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "voice_suffix": "warm clear patient teacher voice, natural pacing, Mandarin demo segments delivered slowly and clearly, bilingual fluency implied",
+    "identity_lock": "STUDIO/Cast/Casting_Bible/lock_cards/ZhangYutongLang-001_identity_lock.json",
+    "avatar_reference": "STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_OG.jpg",
+    "seamless": {
+      "primary": "extend",
+      "xfade_s": 0.15,
+      "match_color": true,
+      "cut_on_motion": true,
+      "loudnorm": true
+    },
+    "music_bed": {
+      "track_id": "BED-LANG-BRIGHT-001",
+      "manifest": "STUDIO/Music_Sound/clearance_manifest.json"
+    }
+  },
+  "shots": [
+    {
+      "id": "01_recap_intro",
+      "duration": 6,
+      "t_start": 0,
+      "t_end": 6,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse, bright classroom backdrop. Zhang Yutong warm welcoming return — natural confident greeting, teacher happy to see a returning student.",
+      "speech_text": "Welcome back. Lesson Two — numbers and time. You already know your tones, so now we are going to use them to count, tell time, and buy something.",
+      "on_screen": "Lesson 2 · Numbers & Time"
+    },
+    {
+      "id": "02_one_to_ten",
+      "duration": 9,
+      "t_start": 6,
+      "t_end": 15,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify yī through shí pronunciation and tone accuracy. Verify liù (6) and qī (7) are correctly toned.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong counting on fingers naturally, deliberate demonstration pace for each number, slight forward lean, clear articulation — patient and methodical.",
+      "speech_text": "One to ten. Yī, èr, sān, sì, wǔ — that is one through five. Liù, qī, bā, jiǔ, shí — six through ten. Say them with me. The tones are already in your study guide.",
+      "on_screen": "一 二 三 四 五\nyī èr sān sì wǔ\n\n六 七 八 九 十\nliù qī bā jiǔ shí"
+    },
+    {
+      "id": "03_beyond_ten",
+      "duration": 7,
+      "t_start": 15,
+      "t_end": 22,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify shíyī, shí'èr, èrshí, èrshísān pattern explanation is accurate.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong showing the pattern with a small gesture — explaining logic, slightly delighted that the pattern is simple.",
+      "speech_text": "Beyond ten is logical. Shíyī — ten one — is eleven. Shí'èr — ten two — is twelve. Èrshí — two ten — is twenty. Èrshísān — two ten three — twenty-three. The math is in the words.",
+      "on_screen": "十一 shíyī = 11\n十二 shí'èr = 12\n二十 èrshí = 20\n二十三 = 23"
+    },
+    {
+      "id": "04_time_ask",
+      "duration": 8,
+      "t_start": 22,
+      "t_end": 30,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Xiànzài jǐ diǎn?' and 'Sān diǎn zhōng' are natural and correctly toned.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong demonstrating asking the time question with natural gesture — perhaps glancing at wrist naturally, then saying the phrase, then giving an example answer.",
+      "speech_text": "Telling time uses your numbers. To ask: Xiànzài jǐ diǎn? — What time is it right now? To answer: Sān diǎn zhōng — three o'clock. Swap sān for any number you know.",
+      "on_screen": "现在几点？\nXiànzài jǐ diǎn?\nWhat time is it?\n\n三点钟 Sān diǎn zhōng\nThree o'clock"
+    },
+    {
+      "id": "05_money",
+      "duration": 8,
+      "t_start": 30,
+      "t_end": 38,
+      "role": "host",
+      "cousin_review": true,
+      "cousin_review_note": "Verify 'Duōshao qián?' and 'Wǔ kuài' are natural and correctly toned. Kuài as informal unit is correct.",
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong in practical scenario energy — slightly amused and friendly, as if at a market stall, natural conversational expression.",
+      "speech_text": "Numbers at the market. Duōshao qián? — How much? That is your most useful question in China. The answer uses kuài — the everyday word for yuan. Wǔ kuài — five yuan. Shí kuài — ten yuan.",
+      "on_screen": "多少钱？\nDuōshao qián?\nHow much?\n\n五块 · 十块\nWǔ kuài · Shí kuài"
+    },
+    {
+      "id": "06_practice",
+      "duration": 7,
+      "t_start": 38,
+      "t_end": 45,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong in encouraging practice mode — slight forward lean, brief natural pause between each phrase, inviting student to repeat.",
+      "speech_text": "Practice round. Say the number after me: sān, qī, shí, èrshí. Now the time: Xiànzài jǐ diǎn? And the price question: Duōshao qián? Perfect. Your study guide has more exercises.",
+      "on_screen": "Practice:\nsān · qī · shí · èrshí\n\nXiànzài jǐ diǎn?\nDuōshao qián?"
+    },
+    {
+      "id": "07_signoff",
+      "duration": 7,
+      "t_start": 45,
+      "t_end": 52,
+      "role": "host",
+      "cousin_review": false,
+      "video_prompt": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse — seamless continuation. Zhang Yutong warm confident sign-off, natural genuine smile.",
+      "speech_text": "That is Lesson Two. You can count to one hundred, tell the time, and ask a price. Next lesson — the market. We are going to put all of this into a real conversation. Zàijiàn.",
+      "on_screen": "Next → Lesson 3: At the Market"
+    }
+  ],
+  "provenance_card": {
+    "enabled": true,
+    "duration_s": 5,
+    "card_type": "closing",
+    "title": "Mandarin in Minutes",
+    "subtitle": "Lesson 2 of 5 · DAVID · The Archive",
+    "footer": "AI-generated host · Educational content · Not a certified language instructor · Upon Tyne Productions"
+  },
+  "qa_rules": {
+    "require_identity_lock": true,
+    "require_synthetic_guard": true,
+    "min_shots": 6
+  },
+  "format_id": "language-tutor",
+  "intake": {
+    "gate_0": {
+      "verdict": "PENDING",
+      "blocked": true,
+      "gate_blockers": [
+        "OG plate not yet approved",
+        "legal_gate.py not yet run",
+        "Cousin Mandarin accuracy review pending"
+      ]
+    }
+  }
+}

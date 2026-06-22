@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "lane_sample_david",
+    "variant": "A",
+    "filename": "lane_sample_david_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "History Documentary Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Pan-historical",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. ancient archive room with towering shelves of scrolls and manuscripts, a single dramatic light beam cutting through dust, deep amber and shadow colour grade, cinematic depth of field. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "THE ARCHIVE",
+      "subline": "Dead Languages, Actually Pronounced",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: N/A (lane sample) artifact or inscription as hero element. Era: Pan-historical. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "lane_sample_david",
+    "variant": "B",
+    "filename": "lane_sample_david_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "History Documentary Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Pan-historical",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, layered text fragments from multiple ancient scripts — Latin, Greek, cuneiform — overlapping on aged parchment, warm amber tones filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "THE ARCHIVE",
+      "subline": "Dead Languages, Actually Pronounced",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, N/A (lane sample) writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

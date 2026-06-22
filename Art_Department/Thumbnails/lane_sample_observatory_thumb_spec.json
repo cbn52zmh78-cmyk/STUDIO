@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "lane_sample_observatory",
+    "variant": "A",
+    "filename": "lane_sample_observatory_thumb_A.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Astrophysics / Space Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. interior of a massive radio telescope dish at night, Milky Way visible overhead, cold blue and deep space black colour grade, long exposure star trails in background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos.",
+    "text_overlay": {
+      "headline": "WHAT THE TELESCOPE HEARS",
+      "subline": "At the Edge of Observable Space",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant A — artifact/environment focus. No host in frame. Key visual: N/A (lane sample) artifact or inscription as hero element. Era: Contemporary science. Compositing team adds text overlay in post. Target feel: museum-quality, weighty, scholarly discovery."
+  },
+  {
+    "slug": "lane_sample_observatory",
+    "variant": "B",
+    "filename": "lane_sample_observatory_thumb_B.jpg",
+    "dimensions": "1280x720",
+    "episode_title": "Astrophysics / Space Lane Sample",
+    "language": "N/A (lane sample)",
+    "era": "Contemporary science",
+    "format_id": "documentary-host",
+    "grok_prompt": "Photorealistic 16:9 thumbnail-style image, 1280x720 composition. DAVID documentary presenter (synthetic AI host, male, authoritative, 40s, clean professional appearance) looking directly into camera with confident engaged expression, positioned left-of-centre, star field and nebula imagery — deep space blues and purples — filling the background with observable universe depth, galaxy spiral structures filling the right two-thirds of the background. Dramatic cinematic lighting, deep rich color grade, sharp focus on center subject. Documentary channel thumbnail aesthetic — bold, striking, educational. No text. No watermarks. No logos. Synthetic fictional host presenter. No real person depicted.",
+    "text_overlay": {
+      "headline": "WHAT THE TELESCOPE HEARS",
+      "subline": "At the Edge of Observable Space",
+      "channel_badge": "DAVID · The Archive",
+      "font_style": "bold_condensed_serif",
+      "text_color": "#FFFFFF",
+      "shadow": true
+    },
+    "design_notes": "Variant B — host-forward. DAVID presenter faces camera, N/A (lane sample) writing system as dramatic background element. Host occupies left third, script/writing fills right two-thirds. Match David-001 identity lock (same face across all episodes). Compositing team adds text overlay in post. Target feel: direct, authoritative, personal address to viewer."
+  }
+]

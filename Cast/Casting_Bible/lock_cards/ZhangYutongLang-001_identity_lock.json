@@ -1,0 +1,87 @@
+{
+  "actor_id": "ZhangYutongLang-001",
+  "working_name": "Zhang Yutong (张雨桐)",
+  "status": "LOCKED — awaiting OG plate approval and Gate 0 GREEN",
+  "locked_at": "2026-06-21",
+  "channel": "DAVID · The Archive — Language Tutor lane",
+  "production": "LANG_TUTOR_001 (Mandarin Level 1)",
+
+  "_FILL_BEFORE_RENDER": {
+    "instruction": "Run gen_zhang_yutong_plate.py → approve best variant → rename to ZhangYutongLang-001_OG.jpg → run legal_gate.py → update avatar_url and avatar_file below",
+    "avatar_url": "PLACEHOLDER — paste xAI image URL from approved OG plate here",
+    "avatar_file": "PLACEHOLDER — set to relative path: STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_OG.jpg"
+  },
+
+  "character": {
+    "name": "Zhang Yutong",
+    "chinese_name": "张雨桐",
+    "role": "Mandarin language tutor host — DAVID · The Archive",
+    "register": "Warm professional; teacher energy not performer energy",
+    "age_spec": "27–29",
+    "age_lock": "21+ hard floor — mandatory on every prompt",
+    "ethnicity": "Han Chinese",
+    "not_asmr": true,
+    "not_dramatic": true
+  },
+
+  "visual_lock": {
+    "face": "Oval / goose-egg (鹅蛋脸) — slightly tapered chin; soft not angular",
+    "eyes": "Almond-shaped; double eyelids (双眼皮)",
+    "hair": "Long, straight, black/very dark brown; naturally worn down",
+    "skin": "Natural warm-ivory to light-medium; healthy, clear — NOT chalky/desaturated pale",
+    "expression": "Warm, composed, genuine — the teacher next door",
+    "wardrobe": "Simple solid-colour blouse (sage green/warm white); minimal jewellery"
+  },
+
+  "set_id": "@SET-LANG-BRIGHT-001",
+  "set_description": "Clean off-white or light warm-grey backdrop; optional light wood desk edge at lower frame; airy, spacious, classroom feel",
+
+  "style_id": "@STYLE-LANG-TUTOR-001",
+  "lighting": "Natural daylight simulation; neutral-warm ~5500K; soft diffused key from camera-left; no dramatic shadows; NOT warm amber/candle",
+
+  "voice": {
+    "tone": "warm, clear, patient",
+    "pacing": "natural — slightly slower for Mandarin demo segments",
+    "energy": "teacher who genuinely wants the student to get it",
+    "prompt_suffix": "warm clear patient teacher voice, natural pacing, Mandarin demo segments delivered slowly and clearly, bilingual fluency implied"
+  },
+
+  "references": {
+    "og_plate": {
+      "file": "STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_OG.jpg",
+      "url": "PLACEHOLDER — fill after plate approval",
+      "grok_post_url": "https://grok.com/imagine/post/43f27ad6-92df-45a4-910f-2cc704a7ad0c",
+      "grok_direct_jpeg": "https://imagine-public.x.ai/imagine-public/images/43f27ad6-92df-45a4-910f-2cc704a7ad0c.jpg",
+      "status": "GENERATED — waiting for file save to lock_plates/",
+      "note": "4 variants generated via Grok Imagine 2026-06-21. Variant 1 recommended as canonical OG. Run gen_zhang_yutong_plate.py for CLI-generated alternatives."
+    },
+    "turnaround": {
+      "file": "STUDIO/Cast/Casting_Bible/lock_plates/ZhangYutongLang-001_3view.jpg",
+      "status": "PENDING — dispatch after OG approved"
+    }
+  },
+
+  "continuity_prefix": "CONTINUITY LOCK @ZhangYutongLang-001 + @SET-LANG-BRIGHT-001 STYLE LOCK @STYLE-LANG-TUTOR-001: identical host face, sage green blouse, bright classroom backdrop — seamless continuation of prior take.",
+
+  "disclosure": {
+    "required": true,
+    "text": "AI-generated host · Educational content · Not a certified language instructor · Upon Tyne Productions",
+    "provenance_card": "enabled",
+    "all_pdfs": "required",
+    "all_marketing": "required"
+  },
+
+  "gate": {
+    "gate_0_status": "PENDING — run legal_gate.py after OG plate approved",
+    "age_lock_confirmed": "PENDING — confirm at first generation prompt",
+    "usage_rules": [
+      "CONTINUITY LOCK @ZhangYutongLang-001 must appear at top of every shot prompt",
+      "SET-LANG-BRIGHT-001 and STYLE-LANG-TUTOR-001 required on every shot",
+      "SFW educational content ONLY",
+      "No pale/porcelain/chalky re-prompting — spec is warm-ivory to light-medium",
+      "Not to be cast in companion lane or any non-language-tutor production without new lock card"
+    ]
+  },
+
+  "_hub_notes": "Identity lock template created 2026-06-21 by hub (autonomous weekend run). Fill avatar_url and avatar_file before firing any LANG_TUTOR_001 script. All 5 episode scripts are DRAFT and point to this file."
+}

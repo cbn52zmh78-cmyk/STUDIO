@@ -1,0 +1,42 @@
+DAVID · The Archive — Episode Brief
+Slug: david_proto_indo_european_corpus_v1
+Title: The Language No One Wrote Down
+Language: Proto-Indo-European (PIE)
+Target: 69 seconds · PG · documentary-host · David-001
+
+SPECIAL STATUS: FULLY RECONSTRUCTED — NO DIRECT CORPUS EXISTS
+This episode uniquely inverts the Archive formula: the "corpus" is the comparative evidence from ~450 attested daughter languages. Beat 03_signature_question is intentionally reworded to reflect this.
+
+RECONSTRUCTION ANCHOR
+- Comparative evidence: Sanskrit (Rigveda, 1500–1200 BCE), Classical Greek (Iliad, ~750 BCE), Latin (oldest inscriptions, 6th c. BCE), Old Persian (Behistun Inscription, 522–486 BCE), Gothic (Wulfila Bible, 4th c. CE), Hittite (Hattusa tablets, 1650–1200 BCE), Old Irish, Lithuanian, Armenian, Albanian, Tocharian A/B
+- Grimm's Law (1822): systematic consonant shift governing Germanic daughter languages
+- Verner's Law (1875): accent-conditioned fricative voicing in Germanic
+- Brugmann's Law (1876): vowel lengthening in Indo-Iranian
+- Laryngeal theory: Saussure (1879) — predicted laryngeals from internal reconstruction; confirmed by Hittite ḫ (post-1915)
+- Standard reconstruction: Fortson (2010); Meier-Brügger (2010); LIV (Lexikon der indogermanischen Verben, 2001)
+
+DEMONSTRATION RECONSTRUCTIONS
+*pṓds — "foot" [Cf. Skt. pāt, Gk. poús, Lat. pēs/pedis, OE fōt]
+*wódr̥ — "water" [Cf. Skt. udán, Gk. húdōr, Hitt. watar, OE wæter]
+*ph₂tḗr — "father" [Cf. Skt. pitā, Gk. patḗr, Lat. pater, OE fæder]
+All forms: RECONSTRUCTED; asterisk (*) is standard linguistic notation for unattested forms
+
+KEY CONCEPT: LARYNGEAL THEORY
+Saussure (1879) proposed "sonantic coefficients" to explain vowel alternations in IE.
+Hittite (deciphered 1915+) showed /ḫ/ where Saussure predicted laryngeals.
+This is the most dramatic predictive confirmation in historical linguistics.
+
+GATE 0 NOTES
+- No corpus to claim copyright; all reconstructions are academic standard forms
+- Honest framing: beat 06 explicitly labels every form as RECONSTRUCTED; asterisk convention explained
+- PIE homeland debate (Steppe hypothesis, Anatolia hypothesis) deliberately avoided — not relevant to phonological reconstruction; episode focuses on the method, not the geography
+- No contested cultural ownership claims; PIE is a scholarly construct, not a community identity
+- AI disclosure: provenance card + YouTube upload metadata
+
+STD-CITE-001 SOURCES
+- Fortson, Benjamin W. IV. "Indo-European Language and Culture: An Introduction." 2nd ed. Wiley-Blackwell, 2010.
+- Meier-Brügger, Michael. "Indo-European Linguistics." 9th ed. De Gruyter, 2010.
+- Rix, Helmut et al. "Lexikon der indogermanischen Verben (LIV)." 2nd ed. Reichert, 2001.
+- Saussure, Ferdinand de. "Mémoire sur le système primitif des voyelles dans les langues indo-européennes." 1879.
+- Grimm, Jacob. "Deutsche Grammatik." 1819–1837.
+- Meillet, Antoine. "Introduction à l'étude comparative des langues indo-européennes." 8th ed. 1937.
